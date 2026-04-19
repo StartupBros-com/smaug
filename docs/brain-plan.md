@@ -70,9 +70,36 @@ Each phase gates on **observed behavior change**, not feature completion.
 
 ## Phase 1 blocker (2026-04-19 recon)
 
-oMLX on `mac-studio` advertises `local-embed` and `local-rerank` in `/v1/models`, but first-request inference on both `/v1/embeddings` and `/v1/chat/completions` times out (>15s). Likely lazy-load on cold start. Phase 1 is blocked until either:
+oMLX on `mac-studio` advertises `local-embed`, `local-rerank`, and completion models in `/v1/models`.
 
-1. A warm-keep or preload path is added to `com.startupbros.omlxd` for `local-embed`, or
-2. We accept cold-start latency and introduce a batched indexer that runs once per corpus refresh.
+Confirmed by probe:
 
-Until then, stay on Phase 0 FTS5 and ship Phase 2 MCP.
+- `/v1/embeddings` with `model=local-embed` returns a standard OpenAI-shape body
+  (`{object, data:[{embedding, index}], model, usage}`).
+- Embedding dim: **1024**.
+- First call eventually succeeds but can take ≥30s (lazy load).
+
+Behavior that blocks Phase 1:
+
+- **Reliability is flaky.** Back-to-back warm calls after a successful cold load
+  still timed out at 25s. Likely the daemon unloads between calls or has a
+  single-request queue with priority inversion.
+- **Completions also cold.** `/v1/chat/completions` on `local-fast` timed out
+  identically on first invocation.
+
+Phase 1 stays blocked until one of:
+
+1. `com.startupbros.omlxd` gains a warm-keep / preload contract for
+   `local-embed` that holds the model in RAM between calls, or
+2. We accept batched embedding — a single long-running indexer job that
+   streams the corpus through one SSH session and eats the cold-start cost
+   once per reindex. Workable, but closes off per-query embedding use.
+
+Design facts to carry into Phase 1 when unblocked:
+
+- Embedding dim = 1024, plan `sqlite-vec` column accordingly.
+- API is OpenAI-compatible; no custom client needed.
+- Rerank endpoint (`local-rerank`) exists but has not yet been probed for
+  shape or latency.
+
+Until then, stay on Phase 0 FTS5 + Phase 2 MCP.
