@@ -24,3 +24,8 @@ Thumbs.db
 # Logs
 *.log
 .github/commit_config.json
+
+# Brain: derived SQLite index
+brain.db
+brain.db-wal
+brain.db-shm
