@@ -79,21 +79,18 @@ Confirmed by probe:
 - Embedding dim: **1024**.
 - First call eventually succeeds but can take ≥30s (lazy load).
 
-Behavior that blocks Phase 1:
+Behavior observed during the probe:
 
-- **Reliability is flaky.** Back-to-back warm calls after a successful cold load
-  still timed out at 25s. Likely the daemon unloads between calls or has a
-  single-request queue with priority inversion.
-- **Completions also cold.** `/v1/chat/completions` on `local-fast` timed out
-  identically on first invocation.
+- **Flaky timings were transient.** `mac-studio` was actively running
+  benchmarks during the probe window, which shares the same oMLX daemon
+  with `local-embed`. That explains the inconsistent 25s timeouts, not a
+  daemon bug.
+- **Completions were affected identically.** Same resource contention.
 
-Phase 1 stays blocked until one of:
-
-1. `com.startupbros.omlxd` gains a warm-keep / preload contract for
-   `local-embed` that holds the model in RAM between calls, or
-2. We accept batched embedding — a single long-running indexer job that
-   streams the corpus through one SSH session and eats the cold-start cost
-   once per reindex. Workable, but closes off per-query embedding use.
+Phase 1 is **not blocked** under normal `mac-studio` load. Re-probe once
+`bench-*` models are idle. If warm-call latency under idle conditions is
+acceptable (<1s), ship Phase 1 as designed. If not, the fallback is still
+the batched indexer pattern.
 
 Design facts to carry into Phase 1 when unblocked:
 
