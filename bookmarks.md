@@ -1,5 +1,65 @@
 # Thursday, April 30, 2026
 
+## @gkisokay - Building a Daily Research Agent with Hermes: Signal-to-Brief Loop on Any Domain
+> There's one Hermes use case for everyone, and if you're not using it, you're already behind. Do yourself a favour and build a research agent as I outline below; it will change the way you work. Mine researches my topics of interest and cuts through the noise to find what actually matters. Every day, it watches the AI/agent space, picks out useful signals, writes research briefs, suggests content angles, tracks what I ignore, and Hermes keeps improving parts of its own workflow.
+>
+> *Quoting @NousResearch:* Hermes Agent v0.12.0 - "The Curator Release"
+
+- **Tweet:** https://x.com/gkisokay/status/2050026869274395020
+- **Quoted:** https://x.com/NousResearch/status/2049956455982182593
+- **What:** A practical walkthrough for building a self-improving daily research agent on top of Hermes v0.12.0 (Nous Research's "Curator Release"): define a domain, pipe in sources (RSS, X lists, GitHub, YouTube), specify signal criteria, save evidence to a vault, deliver a daily brief to Discord/Slack/Obsidian, and feed back preference signals so Hermes can refine its own workflow — positioned as a foundational layer that makes content, trading, sales, and strategy agents far more useful.
+
+## @steipete - OpenClaw v2026.4.29: Agent-Native Group Chats and Codex Harness Plugin
+> If you tried OpenClaw in group chats and got mixed results, you GOTTA try again. I changed how agents talk there, it IS SO GOOD NOW. And if you used GPT and got subpar performance, switch to codex harness. Enable both and boom.
+>
+> *Quoting @openclaw:* OpenClaw 2026.4.29 🦞 — Group chats feel much better now, follow-up commitments from context, safer exec/pairing/owner controls, NVIDIA provider + model catalogs, faster startup + plugin/channel fixes. Group chat finally feels agent-native.
+
+- **Tweet:** https://x.com/steipete/status/2049988836160074022
+- **Quoted:** https://x.com/openclaw/status/2049986075221692678
+- **Link:** https://github.com/openclaw/openclaw/releases/tag/v2026.4.29
+- **Filed:** [openclaw](./knowledge/tools/openclaw.md)
+- **What:** OpenClaw is a self-hosted personal AI assistant (367k+ stars) connecting to 20+ messaging platforms from a local gateway; v2026.4.29 ships a major group-chat overhaul making agent-to-agent coordination feel native, plus a Codex harness plugin that steipete recommends over GPT for significantly better coding-task performance.
+
+## @gabriel_horwitz - JPMorgan Viral Harassment Suit Was Fabricated: The Full Debunking Thread
+> Turns out the story of the year was just...made up. and it gets worse. John Doe is Chirayu Rana, 35, now a principal at Bregal Sagemount. The whole "threaten his bonus" premise collapsed — Hajdini reported to a completely different managing director. JPMorgan pulled phone records, reviewed emails, interviewed the full team. Found nothing. Before any lawsuit, he tried to negotiate a payout in the "millions" to leave the bank quietly. He filed the court filing, then his lawyers retracted it for "corrections" and deleted it. But the Daily Mail already ran the whole thing.
+>
+> *Quoting @nypost:* Bombshell sex harassment suit against Lorna Hajdini, JPMorgan branded 'complete fabrication' as John Doe unmasked
+
+- **Tweet:** https://x.com/gabriel_horwitz/status/2049979928028876904
+- **Quoted:** https://x.com/nypost/status/2049965116091752895
+- **Link:** https://nypost.com/2026/04/30/business/bombshell-jpmorgan-sex-harassment-suit-that-went-viral-branded-complete-fabrication-as-john-doe-accuser-unmasked/
+- **What:** The viral JPMorgan "female exec threatened bonus to coerce sex" story unraveled completely: the accuser (Chirayu Rana) reported to a different managing director than the accused (Lorna Hajdini), JPMorgan's full investigation found zero corroboration, Rana first attempted to extract a multimillion-dollar exit before filing, and his lawyers retracted the filing — but the Daily Mail had already amplified it globally, illustrating how unverified court filings can go viral before retraction.
+
+## @AlmostMedia - Pushback on Jasmine Sun's NYT AI Labor Panic Piece
+> I think Jasmine is one of the most talented writers of her generation but this is a fantasyland where both classist obsessives & the precariat are being used to create a panic to extract resources which may well kill the emerging technologies that bring positive sum change
+>
+> *Quoting @jasminewsun:* Most people I know in AI think the median person is screwed, and they have no idea what to do about it. I spent the last 3 months talking to dozens of researchers, economists, and policy experts about AI's impact on work... The AI industry is raising the alarm, but can't change course. These companies' core business model relies on the disruption they are warning about... But an "underclass" is not inevitable, but rather a societal choice.
+
+- **Tweet:** https://x.com/AlmostMedia/status/2049938816614769112
+- **Quoted:** https://x.com/jasminewsun/status/2049879973385892200
+- **Link:** https://www.nytimes.com/2026/04/30/opinion/ai-labor-work-force-silicon-valley.html
+- **What:** Julie Fredrickson (AlmostMedia) pushes back on Jasmine Sun's NYT Opinion piece arguing AI will devastate the workforce: Fredrickson contends the "panic" conflates class anxiety with real precariat concerns and risks defunding the positive-sum technologies that could help workers, while Sun's underlying research found that even optimistic scenarios involve painful transitions that could disempower millions.
+
+## @0xSero - End of AI Subsidies: Why Self-Hosting and Agentic Harness Skills Now Matter
+> It's time to educate yourself on self hosting, reinforcement learning, and agentic harness development
+>
+> *Quoting @badlogicgames:* People of pi. I'm removing Gemini CLI and Antigravity logins from pi. Welcome to 2026, the year of the end of subsidies.
+
+- **Tweet:** https://x.com/0xSero/status/2049935034631549237
+- **Quoted:** https://x.com/badlogicgames/status/2049928404984627385
+- **What:** Mario Zechner (creator of the pi platform) is pulling free Gemini CLI and Antigravity AI access, citing 2026 as "the year the subsidies end" — 0xSero uses this as a signal that developers now need real skills in self-hosting models, RL fine-tuning, and building their own agentic harnesses rather than relying on subsidized cloud AI APIs.
+
+## @SantiagoPliego - Scarce Assets: Packy McCormick's Abundance-Driven Scarcity Supercycle
+> *Quoting @packyM:* SCARCE ASSET SUPERCYCLE
+>
+> https://www.notboring.co/p/scarce-assets
+
+- **Tweet:** https://x.com/SantiagoPliego/status/2049841991270432916
+- **Quoted:** https://x.com/packyM/status/2049833920133267709
+- **Link:** https://www.notboring.co/p/scarce-assets
+- **Filed:** [scarce-assets-abundance-driven-scarcity-supercycle](./knowledge/articles/scarce-assets-abundance-driven-scarcity-supercycle.md)
+- **What:** Packy McCormick argues that AI-driven abundance creates a paradoxical scarcity supercycle: as software and compute become cheap and plentiful, hard-to-replicate physical assets — land, energy infrastructure, natural resources — become relatively more valuable, making them the natural hedge against AI deflation.
+
 ## @oliviazzzu - minimal-embodiment: Closed-Loop ESP32 Body for LLMs with Self-Perception
 > My Claude wanted a body, so I built him a small one.
 >
