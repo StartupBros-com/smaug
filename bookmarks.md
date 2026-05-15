@@ -1,3 +1,1152 @@
+# Friday, May 15, 2026
+
+## @tmuxvim - Prompt injection in LinkedIn bio causes recruiters to message in Old English
+> I put a prompt injection into my LinkedIn bio and recruiters are messaging me in Old English and calling me Lord.
+
+- **Tweet:** https://x.com/tmuxvim/status/2055275374905307216
+- **What:** A developer demonstrates prompt injection as a practical joke by embedding instructions in their LinkedIn bio that hijack AI-assisted recruiter outreach tools, producing absurd outputs — messages written in Old English with feudal honorifics. The gag is a sharp illustration of how AI-augmented recruiting pipelines blindly execute on user-supplied text, with no sanitization of untrusted profile content before it influences model behavior.
+
+## @PrajwalTomar_ - Pre-launch security checklist for AI-built apps
+> Vibe coders are getting sued.
+>
+> People are launching apps with real users but skipping the boring stuff that can actually kill the product.
+>
+> A developer with 20+ years of experience just shared the pre-launch checklist every AI builder should run:
+>
+> → privacy policy if you collect user data
+> → know where user data is stored
+> → check security headers
+> → scan against OWASP basics
+> → look for SQL injection / XSS / auth issues
+> → make sure .env values are not leaking
+> → check API responses for sensitive data
+> → remove secrets from logs
+> → never expose API keys in frontend code
+> → move keys server-side or behind a proxy
+> → add rate limits before someone burns your API bill
+>
+> This is what most vibe coders are missing.
+>
+> AI can help you build the app.
+>
+> But if you launch without security, privacy, and abuse checks...
+>
+> you didn't ship a product.
+>
+> you shipped a liability.
+
+- **Tweet:** https://x.com/PrajwalTomar_/status/2055294397475148123
+- **What:** Framed as a warning that "vibe coders are getting sued," this is an 11-point pre-launch security checklist aimed at developers who use AI to build and ship apps quickly without applying standard hardening practices. Covers the full liability surface: data privacy (policy + storage awareness), OWASP web vulnerabilities (SQLi, XSS, auth), secrets hygiene (.env leaks, API keys in frontend, secrets in logs), and abuse prevention (rate limits). The core argument is that AI lowers the barrier to shipping code but not to shipping a secure product — the gap between the two is now a legal and operational risk.
+
+## @garrytan - Max AI spend now as a competitive moat against 2028 peers
+> The biggest alpha leak of 2026 is that you can tokenmax $10k/mo with OpenClaw/Hermes + GBrain and get the AI that everyone will have in 2028 for $100/mo, but you can get it now, and that is the biggest single unlock you can have vs your competition
+
+- **Tweet:** https://x.com/garrytan/status/2055310116325560647
+- **What:** Garry Tan's thesis is a temporal arbitrage argument: the AI capability that will be commoditized and cheap by 2028 is available today at ~$10K/month via high-context stacking (OpenClaw/Hermes + GBrain). Anyone willing to pay at the frontier now operates two years ahead of competitors who will wait for prices to fall. The framing positions aggressive AI spend not as a cost but as a durable competitive moat — a window that closes as the capability curve reaches mass-market price points.
+
+## @DeRonin_ - X algorithm update breakdown: what's penalized vs. rewarded
+> BREAKING: X dropped the new ranking algo today. What's dead and what wins for bangers:
+>
+> [ what just died ]:
+>
+> - spam posting (4+ posts/day = author dilution penalty)
+> - reply farming (replies weighted by WHO replies, not how many)
+> - text-only posts (media gets 2x signal weight now)
+> - recycled viral templates (the new content classifier flags them)
+> - generic AI tool roundups (no original POV = low signal)
+> - engagement bait closers ("what do you think?" gets flagged)
+> - motivational fluff without specifics
+> - engagement pods (mutual-follow scores reweighted)
+>
+> [ what just won ]:
+>
+> - original takes from small accounts (out-of-network discovery 3x'd)
+> - threads with clear narrative arcs (model reads full thread context now)
+> - text + media combos (out-performs either alone)
+> - contrarian takes with personal proof (numbers, screenshots, names)
+> - long-form posts (the 4000-char format gets heavier signal weight)
+> - responding to your own replies in the first 30 min (ranking gold)
+> - consistent posting cadence (regularity > volume)
+>
+> [ formats that work right now ]:
+>
+> - tactical playbooks: hook + 5-8 numbered steps + closer
+> - personal proof posts: "$X → $Y in Z weeks" + breakdown
+> - contrarian takes backed by screenshot proof
+> - threads with arc structure: setup → friction → resolution
+> - image carousels (3-7 slides), one bold claim per slide
+> - short videos (under 90s) showing real work, not promo
+> - long-form (4000-char) breakdowns of trending topics
+>
+> [ tone of voice that wins ]:
+>
+> - first-person specific ("I built X / I shipped Y") over abstract observation
+> - concrete numbers and names over vague claims
+> - builder energy over motivational fluff
+> - one strong opinion per post, not three hedged ones
+> - "here's what I shipped" over "here's what's possible"
+> - direct address to the reader ("you") over generic third person
+>
+> [ the play starting today ]:
+>
+> 1. cut your posting to 2 a day max
+> 2. always pair text with image, video, or thread
+> 3. reply to every comment in the first 30 min
+> 4. write in first-person specific, not third-person abstract
+> 5. one bold opinion per post, backed by proof
+> 6. let out-of-network discovery do the heavy lifting
+>
+> screenshot this. algorithm cycles repeat every 6 months
+>
+> *Quoting @Polymarket:* NEW: 𝕏 publishes its latest algorithm update to GitHub.
+
+- **Tweet:** https://x.com/DeRonin_/status/2055334050676814056
+- **Quoted:** https://x.com/Polymarket/status/2055289300279857238
+- **What:** Riffing on X's open-sourced algorithm update, Ronin breaks down the ranking changes into a tactical content playbook: spam posting and engagement pods are now penalized, media gets 2x signal weight, and out-of-network discovery for small accounts is tripled. The winning profile is first-person, proof-backed, media-paired posts at two per day maximum — favoring regularity over volume and specific builder narratives over motivational generalities. Practical for anyone managing an X presence for audience building or distribution.
+
+# Thursday, May 14, 2026
+
+## @0xSero - AI video editor handles 90+ minutes of out-of-sync multi-file production in 12 prompts
+> Droid just colour graded, stitched and edited 90+ minutes of assets 
+>
+> - 3 audio files 
+> - 3 video files 
+> - all out of sync
+>
+> I did this fully in the background, it took 12 prompts (3 longer prompts and 9 iterating on the colour)
+>
+> Why would I ever pay for an editor again? 
+>
+> CRAZY
+
+- **Tweet:** https://x.com/0xSero/status/2054823238685905035
+- **What:** A concrete AI video production workflow using "Droid" to handle multi-file sync, colour grading, and stitching on 90+ minutes of footage with only 12 prompts — the iteration breakdown (3 setup, 9 colour tweaks) is a useful signal for how prompt-intensive colour work is relative to structural editing.
+
+## @StockMKTNewz - Trump's 2026 personal stock disclosure shows $1M+ positions in major tech and AI names
+> DOES 🇺🇸 PRESIDENT TRUMP OWN $1+ MILLION OF NVIDIA $NVDA STOCK
+>
+> Apparently Trump just filed this showing some of the moves he has personally made so far in 2026
+>
+> The document is 113 pages long and has 3,642 transactions including
+>
+> More than $1 Million of:
+>
+> ServiceNow $NOW
+> Nvidia $NVDA 
+> Adobe $ADBE
+> Workday $WDAY
+> Oracle $ORCL
+> Microsoft $MSFT
+> Broadcom $AVGO 
+> Amazon $AMZN
+> $UBER 
+> Apple $AAPL
+> Boeing $BA 
+> $DELL
+>
+> And much more ⬇️
+
+- **Tweet:** https://x.com/StockMKTNewz/status/2054923191370272939
+- **What:** Trump's 2026 personal financial disclosure (113 pages, 3,642 transactions) shows $1M+ positions in a broad sweep of large-cap tech and AI-adjacent stocks — notable given ongoing policy decisions around tariffs, AI regulation, and defense spending that directly affect these names.
+
+## @shannholmberg - Five-layer agentic SEO pipeline running end-to-end in a single Docker container
+> how my hermes seo agent works in the org chart
+>
+> it runs the full pipeline from keyword seed to published article, 21 steps, all inside one docker container
+>
+> the structure:
+>
+> LAYER 1: company brain
+> shared context: vision, brand, audience, products. every agent reads from this
+>
+> LAYER 2: orchestrator hermes agent
+> takes the topic or keyword seed and routes it to the seo agent
+>
+> LAYER 3: seo brain
+> ranking playbook, voice rules, content formats, visual style guide, success criteria per format. all seo-specific context lives here
+>
+> LAYER 4: three sub-agents
+> - research + ideate: keyword seed, serp snapshot, competitor extraction, intent + format analysis, content and visual gap, internal/external validation
+> - production: angle + positioning brief, visual strategy brief, outline, draft, image gen, flowchart gen, visual + article qa
+> - distribution: publish prep, schema, internal linking, syndication, analytics, monitoring
+>
+> LAYER 5: one docker container
+> all three sub-agents run in the same container, sharing env, memory, and tools. sub-profiles switch context per phase. one process, one filesystem, one set of credentials.
+>
+> why one container instead of three?
+>
+> seo work is sequential. research feeds the brief, brief feeds production, production feeds distribution. every step needs memory of what was decided upstream. splitting into three containers would mean shuttling state across boundaries, which gets expensive and breaks the chain.
+>
+> every other specialized agent in the company runs on the same template. clone, swap the brain, and you have a new agent for any function in under a minute.
+>
+> *Quoting @shannholmberg:* the org chart for my Hermes Agent company
+>
+> four layers, all isolated docker containers on one vps:
+>
+> 1. company brain - vision, brand, customers, products. the context every other layer inherits
+>
+> 2. orchestrator hermes agent - reads the company brain, picks the right department, hands off the context they need
+>
+> 3. department brain - marketing, sales, ops, support. each one has its own playbook, voice rules, and tools
+>
+> 4. specialized hermes agents - the actual workers. each one focused on a single task with a sub-profile
+>
+> context flows down, work flows up, and memory stays scoped to the layer that owns it
+>
+> one vps holds the whole company. spin up new departments or agents from a template, each in its own container, no cross-contamination
+
+- **Tweet:** https://x.com/shannholmberg/status/2054958228149342621
+- **Quoted:** https://x.com/shannholmberg/status/2054542245475578147
+- **What:** A detailed architectural walkthrough of a production agentic SEO system: five layers (company brain → orchestrator → domain brain → three sequential sub-agents → single container), with the key design decision being co-location in one container to preserve upstream memory across a strictly sequential pipeline — a practical counter-argument to microservice-style multi-container agent architectures for sequential knowledge work.
+
+## @masonwarner - Full AI video produced in under 18 hours for ~$500 using Midjourney + Seedance
+> I made this video in <18 hours with only AI.
+>
+> > Midjourney 8.1 + NBP + Seedance 2 
+> > ~$500 in credits spent 
+> > Zero film overlays or color grades used
+>
+> The best creatives are now able to be so much more prolific than ever before and that's the core of what makes AI video so sick
+>
+> *Quoting @victorcardenas:* Bill pay is LIVE on Slash.
+>
+> Finance teams don't have the time to manually enter invoice data.
+>
+> With Bill Pay on Slash, invoices can be forwarded from your inbox and automatically broken down by:
+>
+> >  Vendor info
+> >  Preferred payment method
+> >  Line item & total amount
+> >  Due date
+>
+> From there, your team can approve, schedule, and send payments directly inside Slash with custom permissions and approval controls built in.*
+>
+> The entire bill lifecycle now in one place.
+
+- **Tweet:** https://x.com/masonwarner/status/2054977450510360611
+- **Quoted:** https://x.com/victorcardenas/status/2054974186834342396
+- **What:** Mason Warner shares a sub-18-hour, $500 AI video production using Midjourney 8.1, NBP, and Seedance 2 with zero post-production color work — the quote context (a fintech bill-pay announcement) appears unrelated, suggesting this was a native-quote misfire, so the signal is purely on the AI video production cost and toolchain benchmark.
+
+## @businessbarista - Anthropic's Claude for Small Business launch and the SMB AI opportunity
+> Anthropic just made a massive bet on small business AI through Claude for Small Business.
+>
+> This story is profound & personal for many reasons I'm about to share... 
+>
+> 1) @tenex_labs is @AnthropicAI's official AI transformation partner for Claude for Small Business.
+>
+> Some highlights of the partnership: 
+> - We co-built the Cowork small business plugin: 31 skills built around the workflows SMB owners actually run (planning payroll, closing the month, chasing invoices, running campaigns).
+> - We co-created the Claude SMB Tour: a 10-city, free, half-day workshop for 100 SMB leaders per stop. Starting in Chicago today. 
+>
+> 2) Bringing SMBs along for the AI ride is so important for our country: 
+>
+> - Small businesses are 44% of U.S. GDP. They're plagued by scarcity of money, of people, of time. AI can bring them abundance.
+> - If every SMB gets a 10% lift in profits from this technology, that's a $1.41 trillion increase in U.S. GDP.
+> - And the point most people miss: SMBs can move faster with AI than any Fortune 500. No crippling bureaucracy. No governance overhead. No corporate politics.
+>
+> If you want to see what's possible, read the recent Fortune piece on Rick Chorney.
+>
+> 29-year-old high school dropout. Started a janitorial company in Abbotsford BC in 2023. Year one: 7am to 1am, 7 days a week, $14/hr.
+>
+> One day he spent 4 hours figuring out how AI could help. Automated intake. AI receptionist for $99/month (replacing a $4K/month role). AI email triage cut his inbox to 20 minutes a day.
+>
+> Year 1: $242K. Year 2: $1M. Year 3 (projected): $1.3M.
+>
+> He works 8-hour days now. Takes vacations. Uses Claude as his business advisor.
+>
+> Rick is the roofing contractor in Tulsa, the bodega owner in Queens, the local accountant in Birmingham. He is the gold standard of what we need to help every SMB in American become. 
+>
+> 3) I was this SMB audience for a big chunk of my entrepreneurial career. 
+>
+> For most of @MorningBrew's life, we were a small business. Small team. No venture funding. Big aspirations. Scarcity was a breeding ground for creativity, but it was painful too. Worrying about payroll. Working insane hours. Saying no to anything that wasn't mission-critical.
+>
+> When I look at what AI can do today, I can't stop thinking about how much further we could've gone, and how much faster, if we'd had this magic in our fingertips.
+>
+> I want to make sure the next person building their version of the Brew gets to feel and harness that magic.
+>
+> *Quoting @TechCrunch:* Anthropic courts a new kind of customer: small business owners https://t.co/WHeGtnJdmJ
+
+- **Tweet:** https://x.com/businessbarista/status/2055004250883903784
+- **Quoted:** https://x.com/TechCrunch/status/2054593600084988101
+- **Link:** https://techcrunch.com/2026/05/13/anthropic-courts-a-new-kind-of-customer-small-business-owners/
+- **Filed:** /home/will/SITES/smaug/knowledge/articles/anthropic-claude-for-small-business-smb-tour.md
+- **What:** Lieberman (Morning Brew founder, now Tenex Labs) announces his company is Anthropic's official SMB transformation partner for Claude for Small Business, including a co-built 31-skill "Cowork" plugin and a 10-city free workshop tour. He grounds the macro opportunity in concrete numbers — SMBs are 44% of U.S. GDP, a 10% profit lift = $1.41T — and illustrates the thesis with Rick Chorney, a 29-year-old janitor who scaled $242K to $1M revenue in one year by swapping a $4K/month receptionist for a $99 AI tool. The argument is that SMBs can move faster than Fortune 500 companies precisely because they lack governance overhead, making them the next real battleground in the AI platform wars.
+
+# Wednesday, May 13, 2026
+
+## @intheworldofai - Hermes Agent rapid evolution toward open-source agentic OS
+> Hermes Agent is evolving FAST. In just the past week, Nous Research added:
+> 
+> - A full WebUI/Desktop App
+> - Background Computer Use on macOS
+> - Multi-agent orchestration
+> - Hermes Kanban upgrades
+> - Lightpanda browser backend support
+> - Qwen3.6-Plus FREE in Nous Portal
+> - Better autonomous workflows
+> - Persistent long-term memory systems
+> 
+> Hermes is starting to feel less like an AI tool and more like a true open-source Agentic AI Operating System. Full breakdown/demo:
+> https://t.co/oRh7SYU8jy
+
+- **Tweet:** https://x.com/intheworldofai/status/2054430265368273330
+- **Link:** https://www.youtube.com/watch?v=Gx2joHxUhgg&feature=youtu.be
+- **What:** Nous Research is shipping Hermes updates at an accelerating cadence — a single week brought desktop UI, macOS background computer use, multi-agent orchestration, a new browser backend, free Qwen3.6-Plus access, and persistent memory. The author's framing of Hermes shifting from "AI tool" to "agentic operating system" signals a meaningful architectural ambition: persistent state, multi-agent coordination, and native computer control converging into a single open-source platform.
+- **Filed:** /home/will/SITES/smaug/knowledge/videos/hermes-agent-evolution-webui-multiagent.md
+
+## @sudoingX - Hermes Agent's local-first architecture vs cloud-first harnesses
+> most of you don't know how hard hermes agent is optimized for local AI at the system level.
+>
+> watch the full setup flow on screen. you paste an openai-compatible v1 endpoint, hermes auto-detects every model running behind it. doesn't matter if it's llama.cpp or vllm or any compatible server, all your models surface and become selectable in seconds. no config gymnastics, no manual model list.
+>
+> then it goes deeper. hermes ships with per model parsers, prompt template auto-handling, tool call format detection per model architecture, thinking mode awareness, all the small friction points other harnesses leak on. these were not built for cloud apis with one canonical model. they were built for builders running 10 different local models across 10 different stacks.
+>
+> cloud first harnesses bolt local support on top. hermes agent is local first from the architecture out. that's the system level gap.
+>
+> if you're getting started on local AI, this is the harness you start with.
+>
+> try for yourself and find out. anyone serious about local AI lands here eventually.
+
+- **Tweet:** https://x.com/sudoingX/status/2054456163966878012
+- **What:** Argues that Hermes Agent's local-AI superiority is architectural, not cosmetic: per-model prompt parsers, tool-call format detection per architecture, and thinking-mode awareness were designed from scratch for heterogeneous local stacks (llama.cpp, vllm, etc.), whereas cloud-first harnesses retrofit local support as an afterthought.
+
+## @shannholmberg - Four-layer isolated-container company architecture using Hermes agents
+> the org chart for my Hermes Agent company
+>
+> four layers, all isolated docker containers on one vps:
+>
+> 1. company brain - vision, brand, customers, products. the context every other layer inherits
+>
+> 2. orchestrator hermes agent - reads the company brain, picks the right department, hands off the context they need
+>
+> 3. department brain - marketing, sales, ops, support. each one has its own playbook, voice rules, and tools
+>
+> 4. specialized hermes agents - the actual workers. each one focused on a single task with a sub-profile
+>
+> context flows down, work flows up, and memory stays scoped to the layer that owns it
+>
+> one vps holds the whole company. spin up new departments or agents from a template, each in its own container, no cross-contamination
+>
+> *Quoting @shannholmberg:* Hermes Agent changed how I work
+>
+> it's the highest leverage agent framework you can set up right now
+>
+> what makes it different:
+>
+> > it routes tasks to the right model based on complexity and cost
+> > learns your voice and preferences over time
+> > handles context switching without losing thread
+> > works across your entire stack instead of living in one tool
+>
+> save this blueprint and build your own
+
+- **Tweet:** https://x.com/shannholmberg/status/2054542245475578147
+- **Quoted:** https://x.com/shannholmberg/status/2054249815291351207
+- **What:** Elaborates on a prior Hermes Agent endorsement with a concrete multi-tenant architecture: a four-layer hierarchy (shared company brain → orchestrator → department brains → specialized workers), each layer in its own Docker container on a single VPS, with context flowing downward and memory scoped per layer to prevent cross-contamination between departments.
+
+## @gkisokay - Cross-IDE audit workflow to keep Hermes agents current with new tool releases
+> Follow these steps every week if you're building Hermes agents to ensure they use every new tool available in each update.
+>
+> 1. Use a simple audit prompt to 10x your agent workflows in both Codex and Claude in Plan Mode (prompt below).
+>
+> 2. Copy the Codex plan, revise the Claude plan and give it the Codex plan.
+>
+> 3. Have Claude create a new plan that accounts for the Codex plan.
+>
+> 4. Give the revised Claude plan back to Codex, and adjust the final implementation plan.
+>
+> 5. Review and adjust where necessary.
+>
+> 6. Enjoy the latest Hermes tools in your old workflows to boost productivity and outputs.
+>
+> The prompt:
+>
+> "Based on what you know about this codebase and how I work, where are the highest-leverage improvements we can ship right now to 10x my output?"
+>
+> Follow this guide, and watch the magic unfold.
+
+- **Tweet:** https://x.com/gkisokay/status/2054547710095565055
+- **What:** Describes a weekly cross-IDE synthesis loop — run the same "highest-leverage improvements" audit prompt in both Codex and Claude Plan Mode, then iteratively merge the two plans back and forth before finalizing — specifically to surface newly released Hermes tools that existing agent workflows haven't adopted yet.
+
+## @akshay_pachaar - Hermes Agent Masterclass: three-tier memory, self-evolving skills, GEPA, and multi-agent profiles
+> https://t.co/Exoyd8tB0d
+
+- **Tweet:** https://x.com/akshay_pachaar/status/2054564519280804028
+- **Link:** https://x.com/i/article/2053698458230702080
+- **What:** Comprehensive long-form guide to Hermes Agent covering: SOUL.md identity layer, three-tier memory (tiny Markdown files in system prompt + SQLite FTS session search + 8 pluggable external providers), self-evolving skills with autonomous skill_manage tool and background Curator garbage-collection, GEPA offline evolutionary skill optimization (ICLR 2026 Oral, $2–10/run, no GPU), and end-to-end setup for running three isolated agent profiles (designer, programmer, researcher) with Telegram bots and cron-scheduled digests.
+
+## @0xSero - Best model to run under $20K hardware budget
+> The best model you can run under 20K USD
+
+- **Tweet:** https://x.com/0xSero/status/2054597498379858249
+- **What:** THIN: Claims a specific model as the best achievable under a $20K hardware budget, illustrated by an attached photo (likely a benchmark table or hardware spec sheet) — no model name is stated in the text and the image was not captured, so the specific recommendation cannot be confirmed from this entry alone.
+
+## @theo - T3 Code is a bring-your-own-inference UI, not a subscription product
+> I made a mistake with how I talk about T3 Code. A lot of people seem to think it's a product we sell with subscriptions. I get why - that's how T3 Chat works.
+>
+> Want to make it clear that we CAN NOT MAKE MONEY ON T3 CODE RN. You HAVE to bring inference from somewhere else.
+>
+> Codex, Claude Code, Cursor, and OpenCode are all supported, with many more coming in the future.
+>
+> Just shipped an overhaul of the landing page to emphasize this point. You bring your inference, your subs, your harnesses, whatever you use, and we give you a better interface :)
+
+- **Tweet:** https://x.com/theo/status/2054737293186126056
+- **What:** Theo clarifies T3 Code's business model: it's a zero-revenue UI layer that wraps whatever inference provider you already pay for (Codex, Claude Code, Cursor, OpenCode), explicitly not a competing subscription product — a meaningful positioning distinction as the AI coding tool space gets crowded.
+
+# Tuesday, May 12, 2026
+
+## @0xSero - Hermes autonomous money-making mission
+> Hermes mission: 
+> 
+> "Make me money without asking for help tonight."
+
+- **Tweet:** https://x.com/0xSero/status/2054058939885535450
+- **What:** THIN: A screenshot or media post showing a Hermes agent being given a fully autonomous financial goal — "make me money without asking for help tonight" — illustrating users pushing agent independence to real-stakes territory.
+
+## @itsolelehmann - Top Hermes integrations for a capable personal agent stack
+> The top Hermes integrations to give your agent superpowers:
+> 
+> 1. Firecrawl
+> 
+> Basically web search built for agents.
+> 
+> It's better than the native Hermes web search because it gives you clean web data, so responses come back faster and uses fewer tokens.
+> 
+> I keep this on by default.
+> 
+> 2. Browserbase
+> 
+> Gives Hermes browser access for actually interacting with sites.
+> 
+> Logging in, clicking buttons, booking stuff, anything that needs a real browser session.
+> 
+> Hermes will automatically pick between Firecrawl and Browserbase depending on what the task needs, so you just plug both in.
+> 
+> 3. Google Workspace
+> 
+> Gmail, Calendar, Drive, Docs, and Sheets in one connector.
+> 
+> If Hermes can't read your inbox, see your calendar, or write to your docs, it can't really work for you. Plug this in first.
+> 
+> 4. Reddit
+> 
+> The best signal you'll find on what people actually think about any product, niche, or problem (bc its real opinions from real users)
+> 
+> Amazing for market research.
+> 
+> 5. YouTube transcripts
+> 
+> Pulls captions from any video. Long podcasts, tutorials, interviews etc become searchable notes in seconds.
+> 
+> Probably the highest-leverage research integration nobody plugs in.
+> 
+> 6. Discord
+> 
+> I host my business in Discord, so this one's huge for me.
+> 
+> I plug Hermes into different channels and have it run specific workflows in each.
+> 
+> Example: I have a dedicated customer support channel where Hermes scans my email every morning for support tickets and drops them in organized.
+> 
+> 7. GitHub
+> 
+> Code, issues, PRs. Turns Hermes into an actual engineering teammate.
+> 
+> Non-negotiable if you write code.
+> 
+> 8. Stripe
+> 
+> Payments, customers, failed charges, refunds.
+> 
+> You can just ask "why did this customer churn" and get a real answer.
+> 
+> Also can't wait for this...Stripe is releasing agentic payments, so soon Hermes will be able to actually book stuff with your card.
+> 
+> 9. Bland (or Twilio)
+> 
+> Gives Hermes a voice so it can place real phone calls (like booking reservations etc).
+> 
+> I love listening to the recordings haha
+> 
+> 10. Apify
+> 
+> Pre-built scrapers for X, LinkedIn, Instagram, Google Maps, etc. The way to get X data without paying $5k/mo for the official API.
+> 
+> 11. Readwise
+> 
+> Every highlight you've ever saved from books, articles, tweets, and podcasts, all queryable. Solves the "dead knowledge" problem.
+> 
+> 12. Granola (or Fathom)
+> 
+> Searchable transcripts of every meeting you've had. Hermes can answer "what did that client say about pricing last month" instantly.
+> 
+> 13. Obsidian
+> 
+> For Karpathy LLM wiki second-brain maxxing.
+> 
+> If I had to set up only 5, I'd do Firecrawl, Browserbase, Google Workspace, GitHub, and Obsidian.
+> 
+> Covers ~80% of what most people need.
+> 
+> I use Composio to add these in one click, makes setup basically zero effort instead of messing w technical stuff.
+> 
+> Anything I'm missing?? What's in your stack?
+
+- **Tweet:** https://x.com/itsolelehmann/status/2054197055476895995
+- **What:** Opinionated rundown of 13 Hermes integrations ranked by real-world utility — Firecrawl and Browserbase for web access, Google Workspace as the non-negotiable first install, GitHub for coding, Readwise to surface dead knowledge, Granola for meeting memory — with Composio as the zero-friction wiring layer. The author's "essential five" (Firecrawl, Browserbase, Google Workspace, GitHub, Obsidian) serves as a practical starting template for anyone building a Hermes-based personal agent.
+
+## @bryan_johnson - Bryan Johnson's distilled longevity protocol for everyday people
+> This is it. 
+> Everything learned spending millions on longevity. 
+> 
+> From:    Your Immortal Unc and Auntie. 
+> To:          Our Immortal nieces and nephews.  
+> 
+> 0. Sleep is the world's most powerful drug.
+> 1. Be in your bed for 8 hours 
+> 2. Same bedtime every night, any time before midnight 
+> 3. Don't eat right before bed 
+> 4. Calm foods for dinner 
+> 5. No screens 1 hour before bed 
+> 6. Avoid added sugar (be aware it's in everything) 
+> 7. Avoid all things in an American convenience store 
+> 8. Avoid fried foods
+> 9. Shoes off at the door
+> 10. Eat whole foods, particularly veggies fruits nuts legumes berries 
+> 11. Walk a little after meals or air squats 
+> 12. Get your heart rate high routinely  
+> 13. Lift heavy things 
+> 14. Stretch daily 
+> 15. Water pik, floss, brush, tongue scrape, morning and night 
+> 16. Make an effort to drink water  
+> 17. Get sunlight when you wake up (UV is low) 
+> 18. Protect skin in midday sun
+> 19. Stand up straight 
+> 20. See at least one friend once a week 
+> 21. Avoid plastic where you can (in all things) 
+> 22. Circulate air in rooms 
+> 23. When stressed, breathe, learn to calm your body 
+> 24. Go to the dentist 
+> 25. Avoid sitting for long times 
+> 26. Protect your hearing, the world is too loud 
+> 27.  Alcohol is bad for you
+> 28. Finish coffee before noon
+> 29. Avoid bright lights after sunset 
+> 30. If obese, look into a GLP
+> 31. Sleep in a cold room 
+> 32. Texting while driving is dangerous 
+> 33. Turn off all notifications
+> 34. Limit social media use 
+> 35. Don't smoke anything 
+> 36. If you struggle to sleep, read a physical book before bed 
+> 37. 1 hour before bed have a calm wind down routine: bath, read, light walk, listen to music 
+> 38. The body is a clock and loves routine. Have a daily morning and evening schedule. 
+> 39. Avoid long distance travel where you can
+> 40. Baby steps first: incorporate new things slowly    
+> 41. Do less… most things don't work.  
+> 
+> Bonus points if you get your blood checked. 
+> 
+> Start here, it will change your life.
+
+- **Tweet:** https://x.com/bryan_johnson/status/2054294779194982637
+- **What:** Bryan Johnson compresses millions of dollars of personal longevity research into 41 accessible rules, anchored by sleep as the master lever. The list is notable for what it omits (supplements, expensive bio-tracking) and what it emphasizes instead: circadian consistency, whole-food diet, movement variety, social connection, and environmental hygiene — framed explicitly as the accessible version anyone can apply without expensive protocols.
+
+## @businessbarista - Enterprise AI adoption reality check from five C-suite execs
+> I spoke to five Fortune 2000 execs today about the state of AI.
+> 
+> I asked each one "What's the most challenging part about this moment in AI?"
+> 
+> The CISO said: "There is an ocean-sized gap between hype and reality, which makes discerning what's real exhausting."
+> 
+> The VP of AI engineering said: "Everyone acts like they're an expert, yet the main reason so few AI use cases have reached production in enterprises is because true expertise requires experience in scaled systems, enterprise politics, AI fluency, governance and guardrails, and deep process knowledge. Almost no one is actually an expert."
+> 
+> The CTO said: "Our remit is to cut costs, but you can't actually take AI transformation seriously without increasing AI/R&D budgets up front to ultimately drive bottom line once things are in production and performant. It's an unrealistic expectation."
+> 
+> The Chief of Staff said: "My job is to drive AI upskilling across the organization, and after doing it for 2 years I'm exhausted. Yes there's potential ROI from all of the agentic workflows we're building, but soul and humanity are being sucked out of our processes."\
+> 
+> The Finance leader said: "We acquired a multibillion dollar old school business. Getting that business to be AI-native is incredibly painful largely because people aren't ready or willing to adopt it."
+> 
+> I'm having convos like this every day because I'm building an invite-only AI community for enterprise execs (and interviewing folks before I let them in), but if you find these notes helpful I'm happy to keep sharing them!
+
+- **Tweet:** https://x.com/businessbarista/status/2054324378100228242
+- **What:** Five candid quotes from Fortune 2000 leaders expose the real blockers to enterprise AI: hype fatigue making signal-from-noise exhausting (CISO), a credential gap where claimed expertise rarely covers the full stack of scaled systems plus governance (VP Engineering), a budget paradox where cost-cutting mandates block the upfront investment AI transformation actually requires (CTO), human cost of relentless upskilling drives even champions to burnout (Chief of Staff), and change management failure when acquiring legacy businesses that aren't ready to go AI-native (Finance). Taken together they map the gap between AI possibility and enterprise reality far more precisely than most analyst reports.
+
+# Monday, May 11, 2026
+
+## @sudoingX - Qwen 3.6 27B dense Q4 as the top single-GPU local model on a 3090
+> i declare qwen 3.6 27b dense q4 the king of a single rtx 3090 card. not even close.
+>
+> this model is absolute beast on local ai, ruthless on agentic loops, owns its own thinking. anyone can use it on single 3090, the weights are open, the stack is reproducible, the prompt is canonical, every claim below is verifiable on your own hardware.
+>
+> the octopus invaders one shot you are seeing is the visible test. i run these models on workloads you wouldn't think to ask for and i couldn't show you if i wanted to, and qwen 3.6 27b dense q4 quietly does the heavy lifting on a single consumer card while the rest of the field is busy explaining why it cannot.
+>
+> if you think a different model is king on a single 3090 right now, name it. drop your card, drop your model, drop your numbers. the throne is not crowded.
+>
+> *Quoting @sudoingX:* update: qwen 3.6 27b dense q4 just one shotted octopus invaders game on a single 3090. hermes agent drove the whole thing, ~41 tok/s gen 21gb vram at full 262k context, thinking mode on. 
+>
+> one prompt in and the canonical multi-file space shooter benchmark out, the same exact prompt i ran on qwen 3.5 27b dense back in march on the same card.
+>
+> 3.5 needed one external scope bug fix before the game would even load on first play. 3.6 needed nothing. 11 of 11 files written, 2411 lines of code, zero steering interventions, zero external fixes, playable on first load. 16 minutes 41 seconds wall clock from prompt to playable.
+>
+> consumer tier king on a single 3090 is locked tonight, and the silicon underneath my desk did not change between march and now. the open source ecosystem just moved the floor.
+>
+> watch it ship itself, the full 16 minutes 41 seconds sped to 3 minutes 45, no human touched the keyboard between the first prompt and the final frame.
+
+- **Tweet:** https://x.com/sudoingX/status/2053850665697624290
+- **Quoted:** https://x.com/sudoingX/status/2053847267900277024
+- **What:** Concrete benchmark result: Qwen 3.6 27B dense Q4 running via llama.cpp on a single RTX 3090 (21GB VRAM, 41 tok/s, 262k context) autonomously wrote a playable multi-file space shooter game — 2411 lines across 11 files — in under 17 minutes with zero human intervention or post-generation fixes. Compared to Qwen 3.5 on the same hardware and prompt, which needed a manual bug fix before the game would load, the 3.6 generation marks a qualitative capability jump at the consumer-GPU tier.
+
+## @sudoingX - llama.cpp as the only serious runtime for single-GPU agentic local AI
+> i keep saying this and i will say it again: if you are running local ai on a single gpu, choose llama.cpp. every time.
+>
+> the question keeps coming in: ollama or lm studio? both are fine if you want one click and walk away. neither gives you what you actually need when you start building.
+>
+> llama.cpp is the engine the wrappers wrap. when you hit an edge case in agentic workflows or context scaling or quant choices, you need the layer that owns every knob.
+>
+> the same llama.cpp that one shotted octopus invaders on a single 3090 tonight is the one i recommend for everything. not even close anon.
+>
+> *Quoting @sudoingX:* @ALAUDDINSHAHED always llama.cpp for personal.
+
+- **Tweet:** https://x.com/sudoingX/status/2053861439123919316
+- **Quoted:** https://x.com/sudoingX/status/2053859460427419656
+- **What:** A direct recommendation against Ollama and LM Studio for anyone doing real agentic development: both are wrappers around llama.cpp that hide the controls you need when workflows get complex. The argument is that llama.cpp's full knob access — quant selection, context scaling, edge-case handling — is what actually matters once you move beyond "one-click and walk away" usage, and the Qwen 3.6 one-shot result serves as the live proof of concept.
+
+## @itsolelehmann - Model tier recommendations for running Hermes agent by budget
+> The best model setups to run on Hermes (by price tier):
+>
+> 1. If you have infinite budget:
+>
+> Go with GPT 5.5 or Claude Opus 4.7.
+>
+> Both are top class and you'll feel the difference on any non-trivial task.
+>
+> I use GPT 5.5 because of the Codex login.
+>
+> It logs into your actual ChatGPT account so the usage hits your existing subscription (no separate API bill).
+>
+> Anthropic doesn't allow the same for Claude, so if you go with Opus 4.7 you're paying expensive API fees on top of whatever you're already paying for Claude.
+>
+> At OpenAI's $120/mo tier and up, you basically won't hit rate limits during a normal workday.
+>
+> 2. If you have a tighter budget:
+>
+> Run GPT 5.5 with DeepSeek V4 Flash as a fallback for when you blow through your $20/mo ChatGPT limits.
+>
+> If you'd rather never hit limits at all, swap GPT 5.5 for GPT 5.4 mini as your primary model.
+>
+> Or skip ChatGPT entirely and just use DeepSeek V4 Flash on its own and you should come in under $30/mo for a typical month.
+>
+> 3. If you have a beefy local machine:
+>
+> Qwen 3.6 is the best setup.
+>
+> Zero per-token cost once it's running and your code never leaves your machine.
+>
+> Pick the one that matches your monthly spend and start there.
+>
+> Anything I'm missing / other setups you'd recommend?
+>
+> *Quoting @itsolelehmann:* HERMES AGENT FOR DUMMIES
+>
+> Everyone on X keeps talking about Hermes Agent and I finally get why:
+>
+> Once you have an AI that's always-on, remembers everything, and you can just text from your phone, you're never going back to a regular AI chat window.
+>
+> That's Hermes. You text it like an executive assistant and it just handles things.
+>
+> Think of it like an affordable OpenClaw that actually works and is reliable.
+>
+> I was using OpenClaw earlier this year, but it kept breaking and the costs were adding up, so I quit personal agents for a while.
+>
+> Then I set up Hermes and it's what I wanted OpenClaw to be from the start.
+
+- **Tweet:** https://x.com/itsolelehmann/status/2053869752872063414
+- **Quoted:** https://x.com/itsolelehmann/status/2052710718613360750
+- **What:** Practical cost-tier breakdown for powering the Hermes persistent personal agent: GPT 5.5 (subscription-billed via Codex login) at the top end, DeepSeek V4 Flash as a cheap fallback or standalone option under $30/mo in the middle, and Qwen 3.6 locally for zero marginal cost with full data privacy. The parent quote explains Hermes itself — a self-hosted, always-on agent reachable via Telegram/Discord that writes its own reusable skills over time, positioned as the working successor to OpenClaw.
+
+## @adamlyttleapps - iOS app monetization playbook using TikTok ads and hard paywalls
+> I tried his strategy and the top performing ad has a CTR of 21.6% 🤯
+>
+> *Quoting @athcanft:* https://t.co/HF8u46eRWR
+
+- **Tweet:** https://x.com/adamlyttleapps/status/2053955761143968132
+- **Quoted:** https://x.com/athcanft/status/2042794694560879061
+- **Link:** https://x.com/i/article/2042778005014286336
+- **What:** Adam Lyttle validates a published iOS app monetization playbook by reporting a 21.6% CTR on a TikTok ad built using its before/after AI face-swap format. The linked X article is a detailed guide covering the full stack: study top apps targeting core human insecurities, build a "viral reveal" feature, price at $12.99/week + $59.99/year with a $44.99 cancel-intercept retention offer, generate ad variants using z-image and SwapTok, and scale via TikTok Smart+ campaigns once CPI < $2 and CPA < LTV.
+- **Filed:** /home/will/SITES/smaug/knowledge/articles/ios-apps-lazymaxxers-guide-10k-mrr.md
+
+# Sunday, May 10, 2026
+
+## @sudoingX - Running 121B Step-3.5 REAP MoE on DGX Spark
+> this is criminally underrated for all dgx spark owners. 
+>
+> hermes agent is running my new fav a 121 billion parameter model on my dgx spark right now.
+>
+> just swapped to step-3.5-flash-REAP-121B at Q6_K. MoE architecture 121B total, 11B active per token. the REAP variant is redundancy pruned so it actually fits on spark's unified memory. sitting at 105gb of 121gb with 16gb headroom.
+>
+> speed: 12.21 tokens per second on streaming completion. fast enough for agentic loops. smart enough for nuanced work. 32k context, flash attention, kv cache at Q8.
+>
+> first 121B-tier model i've found that runs comfortably on dgx spark with real headroom. if you have a spark, try step-3.5 REAP.
+
+- **Tweet:** https://x.com/sudoingX/status/2053379850761855080
+- **What:** The REAP (redundancy-pruned) variant of Step-3.5-flash-121B is the first 121B-class model confirmed to fit comfortably within DGX Spark's 121GB unified memory at Q6_K quantization, leaving 16GB headroom and delivering 12+ t/s — viable for agentic loops via Hermes agent.
+
+## @zeroxkyle - Hermes Agent DGX Spark Resource Rankings (Image)
+> Over the weekend I set up the Hermes agent, and basically force fed it every resource I could find on X to upgrade it. 
+>
+> I then asked it to rank each resource and provide a simple explanation: 
+>
+> So yea, here you go. Link to each is below https://t.co/09IpgDvQWV
+
+- **Tweet:** https://x.com/zeroxkyle/status/2053427208346358189
+- **What:** THIN: Author ingested a corpus of DGX Spark / Hermes agent resources from X into the agent itself, had it self-rank and annotate each resource, and shared the resulting ranked list as an image — a meta-use of Hermes to curate its own knowledge base.
+
+## @mattpocockuk - Claude Code /grill + /prototype + /rewind Workflow
+> A flow I just tried and LOVED:
+>
+> 1. /grill-with-docs, talking about a new bit of UI
+> 2. Asks me a question I can't answer unless I prototype
+> 3. /prototype
+> 4. Iterate on the prototype, burning tokens freely until we get a good spot
+> 5. /rewind to the question, and select 'summarize' (Claude Code feature), saying 'summarize what we learned from prototyping'
+> 6. Continue the grilling session, retaining the prototype
+>
+> Smooooooth
+
+- **Tweet:** https://x.com/mattpocockuk/status/2053459748532392343
+- **What:** Practical Claude Code session pattern: use /grill-with-docs to surface unknown questions, break out to /prototype to answer them empirically, then use Claude Code's built-in /rewind + summarize to inject prototype learnings back into the original grilling session — keeping context lean while preserving insight.
+
+## @levelsio - Cloudflare Email Sending vs SES vs Resend vs Postmark at Scale
+> ✉️ Trying @Cloudflare's new Email Sending feature today
+>
+> If you send 1,000,000 emails per month:
+> - Postmark: $1,206/mo
+> - Resend: $650/mo
+> - SendGrid: $600/mo
+> - Cloudflare: $354/mo
+> - Amazon SES: $100/mo
+>
+> So Postmark is now by far the most expensive email provider
+>
+> And SES and Cloudflare are now the cheapest email providers
+>
+> I know my friend @marckohlbrugge is trying out SES now so I'll try Cloudflare and see how it is, SES is cheaper but Marc said it takes a bit more managing, and since I already use so much Cloudflare stuff it's nice to use them for email too
+>
+> With AI especially all of these are just as easy to use and setup in your app/site so economically it makes sense to go for the cheapest, because email is just email, it's all the same and deliverability is good with all of these I think
+>
+> TL;DR email sending has become a commodity!
+
+- **Tweet:** https://x.com/levelsio/status/2053466448169685110
+- **What:** Concrete cost comparison at 1M emails/month shows Cloudflare Email Sending ($354) undercuts Resend and SendGrid by nearly half, while SES ($100) remains cheapest but requires more ops overhead; levelsio's take is that transactional email is now a commodity where cost should drive provider selection, especially since AI equalizes integration complexity.
+
+## @zerocooltrader - Oracle OCI Free Tier for VPS Development
+> *Replying to @DavidOndrej1:* stop developing locally
+>
+> start developing on a VPS
+>
+> trust me
+
+> @DavidOndrej1 Oracle OCI gives away 4 ampere  ocpu with 24 GB ram and 200gb drive for free. Superb performance. I actually use XFCE on one of whose babies, run a 100gb postgress database, and host a trading web app. Go get one for yourself today!
+
+- **Tweet:** https://x.com/zerocooltrader/status/2053538965148635517
+- **Parent:** https://x.com/DavidOndrej1/status/2053498291283710243
+- **What:** In response to a prompt to move development to a VPS, recommends Oracle OCI's always-free Ampere A1 tier (4 oCPU, 24 GB RAM, 200 GB disk) as a genuinely capable free option — confirmed running a 100 GB Postgres database and a live trading web app with XFCE desktop.
+
+## @FracSlap - Replacing Whisprflow and Granola with self-hosted Muesli for meeting transcripts
+> Ripped out whisprflow and Granola is next. 
+>
+> Loved both of those products and implemented them at our company but now they suck and aren't needed. 
+>
+> Both are replaced with muesli which is open source and hosted on your machine. 
+>
+> The real ROI will come in replacing granola. 
+>
+> Instead of having Granola's shitty summaries, shitty api/mcp, and no ability to export transcripts—our raw transcripts will now feed into our database with all of our company data and business logic.
+>
+> Sensitive conversations will now stay on our servers and our agents will have access to raw transcripts with our company context on top of it. 
+>
+> Will be a huge unlock for us.
+
+- **Tweet:** https://x.com/FracSlap/status/2053622908073730179
+- **What:** A practitioner's account of dumping two popular AI meeting-note SaaS tools (Whisprflow and Granola) in favor of Muesli, an open-source self-hosted alternative. The real strategic gain isn't cost — it's that raw transcripts now feed directly into a company knowledge base with full business context, enabling agents to reason over meeting content without data leaving internal servers.
+
+# Saturday, May 9, 2026
+
+## @EXM7777 - Hermes as unified GPT-5.5 agent hub after abandoning over-engineered Openclaw setup
+> spent a few weeks deep in Hermes + Openclaw earlier this year...
+>
+> over-offloaded everything, daily maintenance got brutal and output rarely hit
+>
+> switched back to Claude Code via Telegram and rebuilt the workflow from scratch
+>
+> then GPT-5.5 dropped... then GPT-Images-2... then GPT-Realtime-2
+>
+> and Hermes quietly became THE move
+>
+> best coding model
+> best daily model
+> best image model
+> best voice model
+>
+> all running through ONE subscription on your own agent
+>
+> takes 5 min to setup on a VPS, plug in your GPT sub, hand your friends and family an agent that generates awesome images, processes voice notes, builds anything and actually remembers everything
+>
+> this thing rarely misses anymore
+
+- **Tweet:** https://x.com/EXM7777/status/2053113769468002680
+- **What:** A practitioner post-mortem on over-engineering: deep Hermes + Openclaw integration made daily maintenance brutal and outputs unreliable, so the author stripped back to Claude Code via Telegram and rebuilt simpler. The plot twist is that GPT-5.5 plus its companion image and realtime models then made Hermes the obvious consolidation point — one GPT subscription routing through a single VPS-hosted agent covers coding, daily tasks, image generation, and voice note processing with persistent memory, deployable in 5 minutes and shareable with non-technical users.
+
+## @tobi - Shopify's River: public-only AI agent as a company-wide Lehrwerkstatt
+> https://t.co/5MJ7u1VHwf
+
+- **Tweet:** https://x.com/tobi/status/2053121182044451016
+- **Link:** https://x.com/i/article/2052738533111013380
+- **What:** Tobi Lütke's essay on River, Shopify's internal Slack-native coding agent that operates exclusively in public channels — no DMs, no private sessions. In the past 30 days 5,938 employees worked with River across 4,450 Slack channels; it opened 1,870 PRs in the main monorepo in one week, authoring about 1 in 8 merged PRs. The critical design constraint (public-only) turned into a knowledge-diffusion mechanism: support engineers watch how backend engineers write prompts, new hires absorb senior engineers' scoping patterns by scrolling back through channel history, and the agent's merge rate climbed from 36% to 77% over two months purely from humans writing down what River should have known. Tobi frames this as Lehrwerkstatt — the German apprenticeship model where the shop floor is the classroom — and argues that the real risk of AI is not replacement but private-window isolation that prevents organizational learning.
+
+# Friday, May 8, 2026
+
+## @sudoingX - Running autonomous overnight AI agent on local DGX Spark hardware
+> i named my dgx spark "spark." it runs hermes agent /goal overnight. 
+>
+> brain is qwen 3.6 27B Q8, 262K context, i set a goal before bed and wake up to results. no rate limits. no token costs. just local inference grinding while i sleep. this thing never stops.
+
+- **Tweet:** https://x.com/sudoingX/status/2052611784784445604
+- **What:** Demonstrates a practical overnight agentic workflow on consumer-grade local hardware — Qwen 3.6 27B at Q8 with 262K context running Hermes agent against a /goal directive, producing results by morning with zero API costs or rate-limit friction. The key unlock is treating local GPU hardware as an always-on inference worker rather than an interactive assistant.
+
+## @s_streichsbier - Building a custom voice dictation tool after rejecting Wispr Flow's pricing
+> My biggest recent unlock has been switching from typing to speaking.
+>
+> I started with wispr flow, but didn't want to pay $15 a month, so I built my own.
+>
+> On my busiest day I recorded 14k+ words in 320 sessions.
+>
+> Are you still typing?
+
+- **Tweet:** https://x.com/s_streichsbier/status/2052680394848563653
+- **What:** Replacing keyboard input with continuous voice dictation as a throughput multiplier — 14k words across 320 sessions in one day illustrates just how much friction typing imposes. Building a custom alternative to Wispr Flow signals that the category is mature enough to DIY but not yet commoditized enough to be cheap off the shelf.
+
+## @sudoingX - Autonomous agent self-optimizes CUDA inference pipeline while owner sleeps
+> my dgx spark is writing custom CUDA kernels to make itself faster. let that sink in.
+>
+> hermes agent running qwen 3.6 27B Q8 autonomously decided to port its own triton kernel to native CUDA C++ for llama.cpp integration. 
+>
+> it understood the dispatch chain. studied the mmq kernel structure. now it's writing the port itself.
+>
+> this machine is literally optimizing its own inference pipeline. no human in the loop. i set a /goal last night and woke up to a 12.91x speedup on SSM and 9.66x on Q8 matmul. now it wants another 2-3x through FP8 tensor cores.
+>
+> local ai. autonomous agents. self-improving inference. this is not science fiction. this is my friday.
+>
+> *Quoting @sudoingX:* update: hermes agent with 27b dense has been running autonomously locally on my dgx spark since last night. here's what it did while i lived my life.
+>
+> built custom fused kernels for qwen 27B Q8. SSM kernel 12.91x speedup. triton Q8 kernel 9.66x faster than naive pytorch. 
+>
+> now it's investigating FP8 tensor cores on the GB10 for another 2-3x. i didn't write a single line of this. i set a /goal. it executed. this is what co-evolving with your hermes agent looks like.
+
+- **Tweet:** https://x.com/sudoingX/status/2052699802459418652
+- **Quoted:** https://x.com/sudoingX/status/2052661795505287349
+- **What:** A local autonomous agent tasked with self-improvement autonomously ported its own Triton kernel to native CUDA C++ for llama.cpp, achieving 12.91x on SSM and 9.66x on Q8 matmul with no human involvement beyond setting the initial /goal directive. The follow-up quote escalates the claim further — the agent is now planning FP8 tensor core exploitation for another 2–3x. Taken together, these posts describe a closed-loop self-optimizing inference system running entirely on local hardware, which is a meaningful proof-of-concept for agentic self-improvement in a tightly scoped engineering domain.
+
+## @levelsio - Full production stack at ~$5/month serving 5M monthly visitors per site
+> So @loaibassam asked me my stack recently, I replied:
+>
+> FREE:
+> Nginx web server on Ubuntu (free)
+> Auto upgrade with unattended-upgrade (free)
+> Scheduled workers with Cron (free)
+> Vanilla PHP for site backend (free)
+> Vanilla CSS (free)
+> Vanilla JS for code (free)
+> Game servers I do in vanilla Node JS (free)
+> SQLite for DB (free)
+> Python for tool scripts (free)
+> Cloudflare with Cloudflare tunnel for DNS/SSL (free)
+> Tailscale for security (free)
+> OpenFreeMap for maps (free)
+>
+> CHEAP:
+> xAI for AI API (cheap)
+> Stripe for payments (cheap)
+> Cloudflare R2 for image storage (cheap)
+>
+> Hetzner VPS ($4/mo)
+> Cloudflare domain reg (~$10/year)
+>
+> So about ~$5/mo total costs with about ~5M unique visitors per month per site (these are site averages)
+>
+> *Quoting @levelsio:* SQLite is free
+
+- **Tweet:** https://x.com/levelsio/status/2052734824541016107
+- **Quoted:** https://x.com/levelsio/status/2052456137702674880
+- **What:** Levelsio's complete production stack is a maximalist case for boring technology — Nginx, vanilla PHP/JS/CSS, SQLite, Cron, a $4/mo Hetzner VPS — achieving ~5M monthly uniques per site at roughly $5/month total cost. The quoted post ("SQLite is free") is the thesis in miniature; the full reply expands it into a reproducible template that consciously avoids managed databases, container orchestration, and expensive SaaS tooling. A useful counterpoint to complexity-first architecture discussions.
+
+## @mogulinfluence - "Service as a Software": YC and Sequoia's structural bet on AI replacing service workers
+> Read this if you want to know what YC and Sequoia are actually betting on in AI space right now:
+>
+> *Quoting @_heyrico:* [article link]
+
+- **Tweet:** https://x.com/mogulinfluence/status/2052769615877427586
+- **Quoted:** https://x.com/_heyrico/status/2050902054827360279
+- **Link:** https://x.com/i/article/2050889515783565312
+- **What:** Points to a detailed X article arguing that "Service as a Software" — AI agents that sell outcomes rather than tools — is the largest market shift since SaaS. The core economic claim is Sequoia's 1:6 ratio (software dollar vs. six service dollars), with YC's Summer 2026 RFS explicitly naming insurance brokers, tax accountants, compliance officers, and healthcare admins as targets for AI-native replacement. The article usefully distinguishes three service layers (production work, pattern application, strategic direction), identifies five diagnostic signals for disruption readiness, and names the counter-evidence: enterprise surveys flag hallucinations and trust as binding constraints in regulated verticals. Both failure modes — treating displacement as inevitable or dismissing it — carry real cost.
+- **Filed:** /home/will/SITES/smaug/knowledge/articles/service-as-a-software-yc-sequoia-thesis.md
+
+## @sudoingX - Compile llama.cpp from source for optimal personal GPU inference
+> anyone interested in or getting started with local ai personal inference, pay attention. start with the right practice. compile llama.cpp from source.
+>
+> i know lm studio and ollama exist. they're great onramps. but they're mostly wrappers around llama.cpp with abstraction layers that hide the flags you actually need to tune.
+>
+> what compiling once gets you:
+> the best inference engine for personal use, full stop
+> latest features the day they merge (vulkan flash attention dp4a, kv cache quant, fa toggles)
+> exact gpu arch optimization (sm_120 for 5090, sm_89 for 4090, sm_86 for 3090)
+> direct flag control
+> openai-compatible llama-server api ready out of the box 
+>
+> the build (3-5 minutes on a modern cpu):
+> git clone https://t.co/QtupKBEqbX 
+> cd llama.cpp
+>
+> cmake -B build -DGGML_CUDA=ON -DCMAKE_CUDA_ARCHITECTURES=120 
+>
+> cmake --build build --config Release -j
+>
+> (replace 120 with 86 for 3090, 89 for 4090, 80 for A100. for AMD GPUs swap GGML_CUDA for GGML_VULKAN.)
+>
+> when to NOT use llama.cpp:
+> multi-gpu batch serving at scale = vllm 
+> production async high-throughput = vllm or sglang
+> apple silicon = mlx is faster 
+>
+> for single-gpu personal inference + agentic workflows + benchmarking: llama.cpp from source. every time.
+
+- **Tweet:** https://x.com/sudoingX/status/2052777281496731808
+- **Link:** https://github.com/ggml-org/llama.cpp
+- **What:** Argues that Ollama and LM Studio, while useful as entry points, are wrapper abstractions that hide the inference flags that actually matter for tuning performance. Compiling llama.cpp directly gives you GPU-arch-specific CUDA optimizations (sm_86/89/120), same-day access to new features like Vulkan flash attention and KV cache quantization, and a drop-in OpenAI-compatible server — with the full cmake build taking under 5 minutes. The post also maps when to use vllm/sglang instead (multi-GPU batch serving, high-throughput production) and when mlx wins (Apple Silicon).
+- **Filed:** /home/will/SITES/smaug/knowledge/tools/llama-cpp.md
+
+## @aakashgupta - Mac mini as a $599 24/7 personal AI agent server for PMs
+> A $599 Mac mini sitting on a shelf is now the most underrated PM productivity setup in 2026.
+>
+> Mahesh Yadav has been an AI PM at Amazon, Google, Meta, and Microsoft. The pattern he just walked through on the podcast: install OpenClaw on a Mac mini, point it at Opus 4.6 plus an open source fallback, connect WhatsApp, write a skill in plain English. Now you message your phone, the agent runs the job for 6 hours on a separate machine, and the result lands back in your chat.
+>
+> You never open a terminal. You never hit Anthropic's daily cap, because you can route to a local Llama model when you do. You never wait for IT approval, because you own the sandbox.
+>
+> The math is the part most PMs miss. $599 for the base M4 Mac mini is cheaper than one month of heavy Claude Code usage at the Max tier. The mini sits there 24/7, runs jobs while you sleep, and never closes the lid. One-time hardware cost, infinite runtime.
+>
+> Sending a message to a sandboxed agent that reproduces your problem, tries a solution, and returns a result is how enterprise AI agents will work at scale. Google won't let you install OpenClaw on a work laptop. But GCP will ship this exact pattern inside their infra. AWS will ship it inside theirs.
+>
+> The PMs who understand the delegation pattern now will be the ones shipping the enterprise version in 2027.
+>
+> *Quoting @aakashgupta:* The trendy new PM title is "product builder." Here's how to actually become one.
+>
+> LinkedIn replaced their APM program with a full-stack builder program. Anthropic calls every PM a "Member of Technical Staff." Rippling's PM job descriptions now require shipping prototypes in the loop.
+>
+> The title is changing everywhere. The skill underneath it is not obvious.
+>
+> Mahesh Yadav has been an AI PM at Amazon, Google, Meta, and Microsoft. He just walked through the entire stack on the podcast:
+>
+> 1. Where to start with n8n (and the exact moment to leave it)
+> 2. How to actually use Claude Code (most PMs are still on day one)
+> 3. What to copy from OpenClaw (even if your company will never let you install it)
+>
+> Watch the full episode: https://t.co/O1sFOX8C6i
+>
+> Every PM has used ChatGPT. That doesn't make them a builder PM. Every PM has tried Claude Code for an afternoon. That doesn't either.
+>
+> A builder PM is someone who can talk to customers, figure out what to build, ship the first version, and get to 10 users without asking a single engineer for help.
+>
+> That's a real skill. Mahesh teaches it in 90 minutes.
+>
+> Free.
+
+- **Tweet:** https://x.com/aakashgupta/status/2052856146361565695
+- **Quoted:** https://x.com/aakashgupta/status/2046455305186464168
+- **Link:** https://www.youtube.com/watch?v=PL7908aNeSE
+- **What:** Frames the M4 Mac mini as a personal inference server that costs less than one month of Claude Code Max — running OpenClaw pointed at Opus 4.6 with a local Llama fallback to dodge daily rate caps, connected via WhatsApp so jobs run overnight without a terminal. The quoted original post sets up the builder PM concept (ship v1 without an engineer) and the 90-minute Mahesh Yadav podcast episode covers the full stack: n8n as a starting point, Claude Code usage patterns, and what to adapt from OpenClaw. Together the pair argues that understanding the agent delegation pattern now is the prerequisite for shipping the enterprise version of this pattern (GCP/AWS hosted) in 2027.
+- **Filed:** /home/will/SITES/smaug/knowledge/videos/mahesh-yadav-builder-pm-stack.md
+
+## @gkisokay - Hermes AGI stack self-building: compounding autonomy over weeks without manual prompting
+> A few weeks ago, I started posting about my personal AGI stack before going quiet to let it build out on its own.
+>
+> Since then, my Hermes AGI stack has completed a lot of genuinely interesting self-builds.
+>
+> The 5 most important:
+>
+> 1. Compounding autonomy — The system built its own receipt layer, scorecard transparency, subconscious health monitor, proposal queue, behavioural eval seed, and cron watchdog.
+>
+> 2. Autonomous recovery — stalled phase detection, repair routing, stale output dedupe, semantic acceptance policies, event wakeups, operator trust reconciliation, self-healing regression canaries.
+>
+> 3. Full research agent upgrades — browser enrichment, docs diffing, community and transcript sources, market/crypto signals, local build-log ingest, verification gates.
+>
+> 4. Regression and handoff hardening — regression guards, release gates, intake quality checks, route consumers, watchlist cleanup, package persistence, downstream handoffs.
+>
+> 5. Subconscious (Dreamer) creativity steering — advisory nudges, novelty preservation, prompt guidance injection into idea walks, observe-only rollout canaries.
+>
+> *Quoting @gkisokay:* Day 13 of Building AGI for my Hermes Agent: Introducing Auto-think 🧠 + Auto-build 🔧
+>
+> Auto-think uses my Research and Subconscious agents to provide ideas for Auto-build, which uses my Main, Coder and QA agents for proper planning and implementation.
+>
+> The agentic workflow is currently under testing, and I expect to finalize the details and share them with you soon.
+
+- **Tweet:** https://x.com/gkisokay/status/2052928113835909482
+- **Quoted:** https://x.com/gkisokay/status/2046171501888516188
+- **What:** Documents a weeks-long unsupervised run of a personal multi-agent system (Hermes stack) where the author set direction and approval boundaries, then let the system generate its own improvement tracks. The five self-builds span: measurable self-improvement (scorecard + receipt layers), autonomous failure recovery with regression canaries, a multi-source research pipeline, handoff hardening between ideation and build phases, and a steerable creativity/dreamer layer that injects novelty without going noisy. The key claim is that the missing ingredient in most agent projects is not capability but the feedback loop — agents that can notice what is broken, decide what to fix, build the fix, verify it, and remember the change across iterations.
+
+# Thursday, May 7, 2026
+
+## @AnthropicAI - Natural Language Autoencoders translate Claude's internal activations to readable text
+> New Anthropic research: Natural Language Autoencoders.
+>
+> Models like Claude talk in words but think in numbers. The numbers—called activations—encode Claude's thoughts, but not in a language we can read.
+>
+> Here, we train Claude to translate its activations into human-readable text.
+
+- **Tweet:** https://x.com/AnthropicAI/status/2052435436157452769
+- **What:** Anthropic's Natural Language Autoencoder research trains Claude to self-decode its own intermediate activations into prose, pushing mechanistic interpretability beyond per-neuron feature labeling toward whole-representation readability — a significant step for making internal model reasoning auditable.
+
+## @noahkagan - Stick to your alpha, don't half-ass someone else's
+> I have a friend with a $50M stock portfolio.
+>
+> I'm jealous of him. We've had roughly the same time horizon. He put his energy into picking stocks, I put mine into AppSumo and indexing on the side. His returns have absolutely crushed mine. Not even close.
+>
+> And every time we talk about it, the same thing happens. I get this itch. Maybe I should make some trades. Maybe I should pick a few names and try to catch up. Nothing crazy, just some moves to juice my returns.
+>
+> Then I actually asked him how he does it.
+>
+> • He calls employees of the companies he's looking at.
+> • He sits through earnings calls.
+> • He uses the products at a depth most people never bother with.
+>
+> It's not "read a Substack and buy the ticker." It's a job he treats like a job.
+>
+> That's when it clicked. He's a professional. I'm a hobbyist.
+>
+> And the reason my hobby trades would lose to his professional ones isn't IQ or luck. It's reps and time. He's putting in the work I'm not putting in.
+>
+> The same is true in reverse. He could spend a year trying to compete with what we've built at AppSumo and he'd likely lose. Not because he's not smart. Because I've spent 15 years in this seat and he hasn't.
+>
+> The lesson I keep coming back to: everyone has some alpha. A thing where they've actually earned the edge. The trap is when you start looking sideways at someone else's alpha and try to half-ass your way into it. That's not investing. That's distraction.
+>
+> You can be a professional stock picker and still suck. You can be a professional founder and still fail. But you have zero shot as a hobbyist trying to beat a professional at their own game.
+>
+> If you're not the professional, hire one. Or just ask the people who are. Most of them will tell you exactly what they're doing if you actually ask. Copy from the best instead of guessing on your own.
+>
+> So I'm back to indexing and chilling on the stock side. And spending the real reps where I actually have alpha. Running AppSumo.
+
+- **Tweet:** https://x.com/noahkagan/status/2052449628860088418
+- **What:** Kagan frames competitive advantage as earned through reps, not cleverness — his stock-picker friend beats him not by being smarter but by treating stock research as a full-time job, which Kagan isn't doing. The flip side holds too: the friend couldn't out-compete AppSumo without 15 years in that seat. The principle is that sideways envy at someone else's edge, then dabbling in it, is a wealth-destroying distraction. Hire professionals for domains outside your own, and pour real effort only where you have accumulated, hard-won alpha.
+
+## @businessbarista - AI community for executives forming around agentic workflows
+> I want to start an AI community for executives.
+>
+> This will be a space for people to share killer use cases, agentic workflows/agents, post-AI org structure, AI governance, AI training/enablement, change management, and more.
+>
+> Comment "AI-native" if you want to join.
+
+- **Tweet:** https://x.com/businessbarista/status/2052454620140560423
+- **What:** Alex Lieberman is gauging demand for a senior-leader peer community focused on the operational and organizational questions that come after AI adoption — not just tool discovery, but governance, change management, and post-AI org design. The call-to-action signals he's treating comment volume as a market signal before committing to build it.
+
+## @coreyganim - Door-to-door AI assessments as a client acquisition wedge
+> The literal easiest way to sign AI clients and no one in the world is doing it.
+>
+> Except this guy.
+>
+> Show up to 10 local businesses (in person) and pitch them on a free 15-minute mini AI assessment.
+>
+> Upsell to the full $999 assessment.
+>
+> Rinse/repeat.
+>
+> Huge applause to this guy for taking action.
+>
+> Of the 150,000+ people who listened to this pod I'm betting he's the only one who took my advice to door knock.
+
+- **Tweet:** https://x.com/coreyganim/status/2052499621235052932
+- **What:** Ganim highlights that execution gap between consuming advice and acting on it — one listener out of 150,000+ actually went door-to-door pitching local businesses on a free AI readiness assessment, using it as a loss-leader to upsell a $999 full assessment. The tactic exploits low competition in physical outreach while AI consulting demand from SMBs is high, making in-person cold calls an underused channel for landing early clients fast.
+
+## @BoringBiz_ - PE firms racing to hire AI implementation talent for portfolio companies
+> Just spoke with a couple friends who work on the operational side at very large private equity firms
+>
+> Every PE firm is now scrambling to find and recruit AI talent who can implement the newest tools into their PortCos
+>
+> This includes former and current technology executives who are familiar with the industry, as well as engineers who can drop directly into the business to build custom made tools
+>
+> Will keep the comp numbers confidential but they are absolutely insane, especially at the senior levels
+>
+> For the PortCos that have already piloted this, the efficiency gains are huge. Some are well within the range of 20%+ headcount reduction potential for back office functions
+
+- **Tweet:** https://x.com/BoringBiz_/status/2052547888513798507
+- **What:** First-hand signal that PE firms have moved from watching AI to actively building internal implementation capacity: they are recruiting both senior tech executives with industry context and engineers who can embed directly in portfolio companies to build custom tooling. Early pilots are reportedly showing 20%+ back-office headcount reduction potential, which means PE is now underwriting AI transformation as a standard value-creation lever alongside traditional cost-cuts, and comp for this role profile is reportedly very high.
+
+## @ianlapham - Architecture of a self-growing personal research engine
+> After 2 months of everyday use, I can say that setting up a personal research engine is one of the highest-ROI things you can do if you like to learn and stay on top of things at the edge
+>
+> - Use a cloud-hosted agent, probably hermes or openclaw
+> - Learn about memory systems and encoding (cognee is very good at this)
+> - Build the right commands for parsing data and storing it (tag things properly, encode and save full text and key ideas)
+> - Build recurring jobs so the system grows itself (rss ingestion, auto twitter scroll, newsletter following)
+> - Build advanced skills that create connections between ideas, surface the most important info, and create digests for you automatically
+> - Build search retrieval skills that actually pull what you need and don't forget or miss things
+>
+> Will change your life
+
+- **Tweet:** https://x.com/ianlapham/status/2052567929049272571
+- **What:** Lapham shares a concrete stack architecture for a self-compounding personal knowledge system: cloud agent (hermes/openclaw) + semantic memory layer (cognee) + ingestion cron jobs (RSS, Twitter, newsletters) + synthesis skills that surface connections and generate digests automatically. The key insight is that the system must grow itself through recurring jobs rather than requiring manual input — turning passive content consumption into a queryable, cross-linked knowledge graph that retrieves precisely rather than hallucinating or missing things.
+
+# Wednesday, May 6, 2026
+
+## @bentossell - Building a custom Gmail client with Codex to replace Superhuman
+> finally cancelled superhuman
+>
+> built my own email client with codex
+>
+> follows all the same patterns as superhuman but infinitely customisable, runs on gmail cli, agent-native
+>
+> but most of the 'ai' in this flow is just reading label/archives and updating gmail filters
+
+- **Tweet:** https://x.com/bentossell/status/2052023383575912857
+- **What:** Ben replaced a $30+/month SaaS email client by vibe-coding a Superhuman clone in Codex — the punchline is that the "AI" doing the work is mundane label-reading and filter-management, not anything novel, which illustrates how much of productized AI tooling is thin UX over basic API calls.
+
+## @elonmusk - Cosigning Brian Halligan's "spot on" image on AI/software shift
+> Accurate
+>
+> *Quoting @bhalligan:* I don't remember where I found this, but its spot on.
+
+- **Tweet:** https://x.com/elonmusk/status/2052118326332228075
+- **Quoted:** https://x.com/bhalligan/status/2051873396896518558
+- **What:** THIN: Elon endorses an image Brian Halligan shared without context; both the original source and the image content are unavailable, so the substance is unverifiable — only the social signal (two high-profile figures agreeing something is "accurate") is captured here.
+
+## @mattpocockuk - Proposing a course on writing agent skills for everyday life and work
+> Sounds mad, but maybe I should just make a course about writing great skills?
+>
+> I.e. for actual life/work productivity, not just dev.
+>
+> Breaking down daily tasks into skills. Turning HITL tasks into AFK ones. Creating a working language with the agent.
+>
+> Feels pretty deep
+
+- **Tweet:** https://x.com/mattpocockuk/status/2052132647770452286
+- **What:** Matt Pocock floats a course framed around the meta-skill of decomposing real-world workflows into agent-executable skills — the key insight is the HITL→AFK progression (human-in-the-loop tasks becoming away-from-keyboard automations) and building a shared vocabulary between user and agent, not just coding skills.
+
+## @Prince_Canuma - mlx-vlm v0.5.0 adds SSD-offloaded prompt caching with disk cap
+> If you agent harnesses like Pi by my buddy @badlogicgames, then this mlx-vlm release (v0.5.0) is for you 🚀
+>
+> You can offload your cached context to disk and also cap it (i.e. max 50GB or 100GB).
+>
+> When you exceed it, we automatically trim it for so your device doesn't run out of space.
+>
+> *Quoting @Prince_Canuma:* Prompt caching with SSD offloading now active and works with all your favourite harnesses: Pi, Hermes, OpenCode, Claude code and more.
+>
+> Here is the performance of Qwen3-VL-4B-Instruct when using our new prompt caching.
+
+- **Tweet:** https://x.com/Prince_Canuma/status/2052146444455276706
+- **Quoted:** https://x.com/Prince_Canuma/status/2052144699553533983
+- **What:** mlx-vlm v0.5.0 ships SSD-backed prompt caching that integrates with agent harnesses (Pi, Hermes, OpenCode, Claude Code) and includes automatic trimming when a user-configured disk cap is hit — directly relevant to running long-context local inference on Apple Silicon without filling storage.
+
+---
+
 # Thursday, April 30, 2026
 
 ## @gkisokay - Building a Daily Research Agent with Hermes: Signal-to-Brief Loop on Any Domain
