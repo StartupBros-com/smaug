@@ -1,3 +1,773 @@
+# Tuesday, June 16, 2026
+
+## @Metzjosh2 - Running Ollama inside Codex Desktop via codex-shim and cliproxy
+> *Replying to @haydendevs:* finally looking into openclaw and hermes agent, i feel like a boomer man, i just don't get the use case
+>
+> @haydendevs An easier and less time consuming route is to setup @0xSero codex-shim.
+>
+> I was able to get my Ollama sub working inside Codex Desktop via cliproxy.
+
+- **Tweet:** https://x.com/Metzjosh2/status/2066741586659057899
+- **Parent:** https://x.com/haydendevs/status/2066511545719230734
+- **What:** Practical tip for routing local Ollama models through OpenAI Codex Desktop using 0xSero's codex-shim and cliproxy as a compatibility shim, giving users a path to run self-hosted models in an OpenAI-native UI without reconfiguring the full agent stack.
+
+## @0xSero - minimax-m3-sm120: MiniMax-M3 MXFP4 serving on RTX PRO 6000 Blackwell
+> MiniMax-M3 in Hermes & Discord consumes my data and creates a podcast to inform me about something new.
+>
+> idek how it made this lol.
+>
+> - NVFP4 & MXFP4 both supported.
+
+- **Tweet:** https://x.com/0xSero/status/2066759702634262795
+- **Link:** https://github.com/0xSero/minimax-m3-sm120
+- **Filed:** [minimax-m3-sm120.md](./knowledge/tools/minimax-m3-sm120.md)
+- **What:** 0xSero ships a patched vLLM Docker image that makes MiniMax-M3 (428B MoE) actually work in MXFP4 on 4× RTX PRO 6000 Blackwell, fixing three bugs upstream vLLM is missing: the MSA sparse attention model, the minimax_m3 reasoning/tool-call parsers, and a clamped-swiglu MoE that silently degrades without the fix. The demo — Hermes + Discord auto-generating a podcast from personal data — illustrates the practical agentic ceiling enabled by self-hosted frontier weights.
+
+---
+
+# Monday, June 15, 2026
+
+## @demi_hl - Full technical architecture of a self-coding AI agent fleet
+> everyone asking how. here's the actual build.
+>
+> rate limits: four oauth logins 3 claude max accounts + codex pro, four independent rate pools. a worker hits a 429 and auto-rotates to the next account, overflowing to codex when all three are capped. credential swap mid-task, no re-login, no dropped work, no gap. you stop hitting the wall because there are four walls and you're never against more than one.
+>
+> night shift: i label github issues during the day. a cron drains the queue serial overnight. branch → bounded goal-loop resolves it → lint+typecheck+build gate → PR. serial so it never thrashes the box, bounded so it can't spin forever, gated so nothing opens a PR that doesn't compile. branch-only, never main, never deploy. i wake up to clean PRs and merge what's good. it codes while i sleep.
+>
+> the fleet: opus on the brain rig handles all reasoning and orchestration. the mac does hardware render, videotoolbox encode, nothing else. a cheap sonnet box eats bulk grunt work and runs a local model for the free tier. the vps runs what has to survive a sleeping laptop, the live bot never blinks. all wired over a tailscale mesh. per-device execution, one shared cognition.
+>
+> memory: obsidian vault + a local semantic index = one source of truth every agent retrieves from by meaning, not filename. persistent memory and skills carry across sessions, corrections stick, procedures compound. no agent starts cold or relearns what another already solved.
+>
+> foundation: the whole thing runs on pop!_os. linux means the stack is native, systemd cron, ssh mesh, headless browser, the overnight loop, no wsl layer to crash mid-job. nvidia drivers out of the box so the local gpu just works.
+>
+> *Quoting @demi_hl:* If you have: Hermes Agent, Claude Code & Codex Handoffs, Obsidian + QMD Memory System, Run Agentic Loops, Fleet Tailscale Mesh, Cron Jobs + Kanban Board, Agentic Workflows — Congrats you are the top 1% of the AI god stack
+
+- **Tweet:** https://x.com/demi_hl/status/2066410732699160709
+- **Quoted:** https://x.com/demi_hl/status/2065737787614040446
+- **What:** A detailed technical breakdown of an autonomous multi-agent dev fleet: four OAuth credential pools for rate-limit rotation across Claude Max + Codex, an overnight cron loop that drafts PRs from labeled GitHub issues with compile-gated safety, a hardware-specialized fleet (Opus for reasoning, Mac for video encoding, cheap Sonnet box for bulk work, VPS for always-on services) connected over Tailscale mesh, and a shared Obsidian+semantic-index memory layer so no agent starts cold. The architecture layers redundancy so each component covers another's failure mode — rate cap rotation, overnight progress, per-device specialization, and persistent shared memory.
+
+## @MitchellKeller_ - Three-layer framework for productive AI agent work: harness, context, consolidation
+> After eight months of running my work through Claude Code and Hermes Agents there are three things I think should occupy most of people's time:
+> 
+> 1. The Harness -> This is everything that surrounds your agent and you should be trying to build a bespoke harness for your work. I like to think of this as pipelines. 
+> 
+> Your pipeline needs state, which can be done through GitHub Project Management it needs observability, which can be done through your own custom dashboards. It needs evaluation loops at critical stages to avoid too much human in the loop and it needs access to tools and knowledge, which leads me to point two. 
+> 
+> 2. The context layer: this is your unique perspective applied to your systems and your harnesses. This makes it so that different pipelines can still be embedded with your unique taste. It also allows for your systems to become multiplayer. This is the layer that creates cross-team leverage. 
+> 
+> Context plus harness equals your unique way of doing things with your unique why behind them.
+> 
+> For this to be effective i believe a knowledge graph is a must.
+> 
+> 3. Consolidation: both of these systems benefit from consolidation and actually both of them enable consolidation. Once you have the right loops in place, a simple tool or SOP swap becomes simple. 
+> 
+> When I think about consolidation, I actually look to Cloudflare's MCP. They managed to make an MCP server that wraps up thousands of tools with proper authentication 
+> 
+> So now I think of things as CLI single-player and clever Cloudflare-based MCPs as the multiplayer component that makes authentication simple
+
+- **Tweet:** https://x.com/MitchellKeller_/status/2066562139746177117
+- **What:** An 8-month practitioner's framework for getting consistent value from AI agents: (1) the Harness — pipelines with state (GitHub PM), observability (custom dashboards), evaluation loops to reduce human-in-the-loop, and tool/knowledge access; (2) the Context Layer — your unique perspective embedded in the harness, enabling cross-team multiplayer leverage and requiring a knowledge graph; (3) Consolidation — Cloudflare's MCP as a model, wrapping thousands of tools with auth in one server so CLI becomes single-player and MCP becomes the multiplayer layer. The starting recommendation is autonomous monitoring and pattern-recognition tasks, where agents surface emergent insights without needing constant direction.
+
+## @svpino - Cartesia Sonic-3.5 and Ink-2 voice AI models reach #1 for TTS and STT
+> There's no way call centers stay in business after this.
+> 
+> Listen to this conversation. You cannot tell I'm speaking to an AI voice agent here.
+> 
+> This is Cartesia's model. Right now, #1 in the world. https://t.co/hEuB4IIsYH
+>
+> *Quoting @krandiash:* We released Sonic-3.5 and Ink-2, the #1 streaming models for text to speech and speech to text you can use in your voice agents today.
+>
+> New architectures enable new frontiers for speed and quality.
+>
+> We're now the only provider to have #1 models for both speaking and listening.
+
+- **Tweet:** https://x.com/svpino/status/2066569527341744396
+- **Quoted:** https://x.com/krandiash/status/2066559212533190917
+- **What:** Cartesia released Sonic-3.5 (TTS) and Ink-2 (STT), claiming the #1 position in both streaming speech synthesis and speech recognition for voice agents simultaneously — the only provider to hold both rankings at once. Santiago's reaction frames this as an existential threat to call centers, with the implication that the voice quality is now indistinguishable from human conversation. The dual-ranking matters for voice agent builders because latency and quality in both directions determines whether the interaction feels natural.
+
+## @ericzakariasson - CLI vs MCP: Different Tools for Different Scopes
+> mcp > cli
+>
+> im glad this debase is not as active anymore. i use both every day. they just serve different purposes
+>
+> cli for stuff the model already knows. git, gh, npm, docker, file ops. trained on man pages, and costs almost nothing in context. if im already signed in locally theres no reason to wrap it in anything
+>
+> mcp for most integrations. slack, notion, linear, twitter
+>
+> and its neat to have a protocol for all these integrations
+> - add one server to my teams cursor and everyone gets access
+> - auth once, persists, same locally and in cloud
+>
+> it also just feels better in cursor. rich icons, traceable, you can easily follow whats happening (tbh not reading that much)
+>
+> cli for personal, mcp for team (with oauth)
+
+- **Tweet:** https://x.com/ericzakariasson/status/2066570396183548350  
+- **What:** The CLI vs MCP debate misses the point — they occupy different niches. CLI is cheap and effective for tools the model was trained on (git, docker, npm), while MCP shines for external integrations (Slack, Notion, Linear) where OAuth persistence, team-wide auth sharing, and a unified protocol matter. The practical heuristic: CLI for personal/local, MCP for team/cloud integrations.
+
+## @petergyang - Automating Social Media Posts with Codex and Browser Use
+> I make all my social media posts via Codex now.
+>
+> It's pretty incredible how much time you can save when you chain together skills and browser use.
+>
+> Should I make a video on how to do this?
+
+- **Tweet:** https://x.com/petergyang/status/2066581518680789390  
+- **What:** Peter Yang is using Codex (OpenAI's coding agent) to fully automate social media post creation by chaining skills with browser use — pointing to an emerging pattern where AI agents handle not just content generation but the actual publishing workflow end-to-end, collapsing the creation-to-distribution gap for creators.
+
+## @PJaccetturo - "Nexus" AI Film: 20M Views and Film Financing Offers from a 2-Week Production
+> Wow. Nexus got over 20 million views last week and I got multiple film financing offers!
+>
+> But I made a mistake not taking the time to share HOW four people made this in 2 weeks!
+>
+> So save this step-by-step guide to learn how you can make something similar with Dreamina AI👇🧵
+>
+> *Quoting @PJaccetturo:* Ladies and gentlemen, it's here:
+>
+> I'm proud to announce that 'Nexus' will be my upcoming hybrid feature film.
+>
+> Here is a 5-minute teaser, made by 3 people in 2 weeks.
+>
+> Made with Dreamina AI using Octo & Dreamina Seedance 2.0, full workflow coming soon
+
+- **Tweet:** https://x.com/PJaccetturo/status/2066582725553996059
+- **Quoted:** https://x.com/PJaccetturo/status/2062887190326304986
+- **What:** A 4-person team used Dreamina AI (Octo + Seedance 2.0) to produce a 5-minute film teaser called "Nexus" in 2 weeks; it hit 20M views and attracted real film financing offers. The follow-up thread promises a step-by-step guide — a concrete data point that AI video tooling has crossed a threshold where small teams can produce commercially viable, investor-attracting film content at dramatically compressed timelines.
+
+## @coreyhainesco - Marketing Skills v2.4.2 Adds Google's Open Knowledge Format for Agent-Readable Sites
+> Marketing Skills v2.4.2 is out.
+>
+> 🆕 /ai-seo now covers Google's Open Knowledge Format (OKF) — a v0.1 markdown spec for representing your site as an agent-readable bundle. Google announced it June 12.
+>
+> The honest version: Google built OKF for data teams to share metadata (BigQuery, APIs, metrics). Using it to make your site agent-readable is a clever secondary use. No crawlers target OKF bundles yet — this is a register-early bet, not a traffic play. The skill says so plainly, and tells you when to skip it.
+>
+> What the update adds:
+> → A 104-line OKF reference — concept, minimal examples, and the frontmatter spec (type required; title / description / resource / tags / timestamp recommended)
+> → Where it fits in the agent-readable stack — alongside sitemap.xml, robots.txt, llms.txt, and schema markup
+> → How to implement — the free OKF Generator, a pending WordPress plugin, or by hand
+> → When to skip it entirely
+> → New triggers: llms.txt, OKF, Open Knowledge Format, knowledge bundle, agent-readable site
+>
+> 44 skills. Free, open source.
+>
+> npx skills add coreyhaines31/marketingskills
+
+- **Tweet:** https://x.com/coreyhainesco/status/2066588853176295926  
+- **What:** Google's Open Knowledge Format (OKF), announced June 12, is a v0.1 markdown spec originally built for data teams (BigQuery, APIs, metrics) that can double as an agent-readable site bundle — sitting alongside llms.txt, sitemap.xml, and schema markup in the emerging agent-SEO stack. Corey's Marketing Skills pack now includes a 104-line OKF reference and honest guidance on when it's worth implementing vs. skipping; it's a register-early move, not a proven traffic driver yet. Install via `npx skills add coreyhaines31/marketingskills`.
+
+## @fin465 - YC Playbook for Brute-Forcing 100 Customers Across 7 Channels
+> in @ycombinator they have a playbook on how to get customers ASAP for your startup.
+>
+> if you follow this, you'll brute force your way to 100 customers, almost no matter what your product is.
+>
+> Here it is:
+>
+> 1/ launch-max. product hunt, hackerNews, devhunt, betalist, peerlist, indie hackers, etc. YC tells you to launch 3 times MINIMUM
+>
+> 2/ pull your competitor's strongest backlinks and get yourself listed in the same places.
+>
+> 3/ WARM OUTBOUND. scrape everyone who likes your posts on Linkedin each week, check if they fit your customer profile, and message them. you set this up to fire automatically with @origamichat
+>
+> 4/ find 20 to 30 ugc creators on tiktok / instagram in your niche. ask them to create content about your product, ideally from a fresh account. pay them a fixed fee ($15–$30 per video) plus performance incentives ($1k for 1 million views, etc).
+>
+> 5/ when building in public, a video is 10x better than an image/text - spam use cases of ur product on X/Linkedin
+>
+> 6/ figure out where your customers actually spend time. which slack/discord groups are they in? what newsletters do they open? which podcasts and accounts do they follow? pay those people for shoutouts
+>
+> 7/ there's a fresh trend on x basically every week. jump on the relevant ones and fold your product in.
+
+- **Tweet:** https://x.com/fin465/status/2066589201085370482  
+- **What:** A condensed YC-derived customer acquisition playbook covering 7 parallel channels: multi-platform launching (3+ times minimum), competitor backlink poaching, automated warm outbound via LinkedIn likes scraping (using Origami), UGC creator deals at $15–30/video with performance bonuses, video-first build-in-public content, community shoutout buys, and weekly trend hijacking. The key insight is that these run simultaneously and persistently — the promise is that consistent parallel execution across all channels almost guarantees reaching 100 customers regardless of product.
+
+## @bradmillscan - Agent Fitness Loop using LLM Wiki and Hermes agents
+> My Agent Fitness Loop.
+>
+> Stack:
+>
+> Wikis (https://t.co/YTSL7jsB6W)
+> [Personal Health Wiki + Fitness Coach Brain Wiki]
+>       |
+> Gbrain
+>       |
+> Hermes librarian (scoped to own the wiki & brain stack)
+>       |
+> Hermes fitness coach (scoped to own the fitness stack)
+>       |
+> Hermes general agent (watches & helps but is mostly out of this loop...helped setup the other agent profiles, scopes them to talk in the right rooms, helps assign their personalities / skills etc)
+>
+> UX I wanted:
+>
+> Open an app, my workouts are loaded, I'm training to maximize gains and minimize pains with ZERO cognitive load.
+>
+> Give feedback in the app or directly to my agent.
+>
+> Agent integrates my feedback and adapts future workouts to my goals & my changing reality (travelling, injury, changing goals, cross training, upcoming race/event, etc)
+>
+> Repeat until I'm the best version of myself.
+>
+> This has been an evolving process over the last 5 weeks, I'm starting week 6 today. Very happy with how it's coming along.
+
+- **Tweet:** https://x.com/bradmillscan/status/2066600454193037452
+- **Link:** https://llm-wiki.net/
+- **Filed:** [llm-wiki-llm-compiled-knowledge-bases.md](./knowledge/articles/llm-wiki-llm-compiled-knowledge-bases.md)
+- **What:** A concrete multi-agent personal health stack built over 5 weeks: scoped Hermes agents (librarian, fitness coach, general orchestrator) layered over LLM Wiki knowledge bases, delivering zero-cognitive-load workout delivery with feedback-driven adaptation to changing life context like travel, injury, or upcoming events.
+
+## @NousResearch - Hermes Agent gains full Stripe payment and SaaS provisioning skills
+> In partnership with @stripe, Hermes Agent now supports a full suite of Stripe skills.
+>
+> Your agent can buy things, pay per-call APIs, and provision its own SaaS, with configurable safety limits on every action.
+
+- **Tweet:** https://x.com/NousResearch/status/2066647737613832624
+- **What:** Nous Research is shipping Stripe integration natively into the Hermes Agent runtime, enabling agents to autonomously purchase goods, pay per-call APIs, and spin up SaaS subscriptions — all gated by configurable per-action safety limits. This moves agentic economic action from a demo concept to a production capability.
+
+## @ArtificialAnlys - Intelligence Index v4.1: agentic benchmarks, cost/time per task metrics
+> Announcing Artificial Analysis Intelligence Index v4.1: a shift toward agentic workloads, featuring upgraded benchmarks and new per-task metrics
+>
+> The Artificial Analysis Intelligence Index is our synthesis metric for assessing model intelligence and tracking AI progress. v4.1 marks a broader shift toward agentic workloads, with three main changes:
+>
+> Updated and reweighted evaluations toward agentic tasks:
+> 1. We upgraded three evaluations, removed one, and reweighted the Intelligence Index...
+>
+> Key Results:
+> ➤ Leading models: Claude Fable 5 (with Opus 4.8 fallback, 60) leads but is currently unavailable, leaving Claude Opus 4.8 (max, 56) as the most intelligent available model, ahead of GPT-5.5 (xhigh, 55)
+> ➤ Open weights leading models: DeepSeek V4 Pro (max, 44) and MiniMax M3 (44) lead
+> ➤ Cost per Task: Opus 4.8 (max) $1.78/task; GPT-5.5 (xhigh) $0.99/task; DeepSeek V4 Pro (max) $0.04/task
+> ➤ Time per Task: ranges from 1.5 min (Grok 4.3 high) to 13.5 min (Claude Sonnet 4.6 max)
+
+- **Tweet:** https://x.com/ArtificialAnlys/status/2066700136018071841
+- **What:** Artificial Analysis reweighted its Intelligence Index toward harder agentic tasks (Terminal-Bench 2.1, τ³-Bench Banking, GDPval-AA v2 with longer 250-turn horizon), dropped saturated IFBench, and added three new per-task efficiency metrics. The standout finding: DeepSeek V4 Pro achieves near-frontier open-weights scores at $0.04/task versus $0.99–$3.25 for top proprietary models — a 20–80× cost gap that matters for production agentic workloads.
+
+---
+
+# Sunday, June 14, 2026
+
+## @boringmarketer - Building a personal coding harness with Pi, Codex, and FUSION routing
+> if you want Fable level performance NOW, the answer is to build your own coding harness 
+> 
+> here's how I'm doing it 
+> 
+> (in a lightweight Pi-native way rather than a heavy Superpowers/Compound clone)
+> 
+> first, I think we're going to see PERSONAL HARNESSES that derisk single model reliance, help users save money, and squeeze top frontier performance out of homegrown systems
+> 
+> The best engineers I know already do this...
+> 
+> 1) Use Pi, the open source coding harness that you can make your own and access any model from
+> 
+> 2) Set 5.5 codex as your default model
+> 
+> 3) Deeply analyze publicly available system prompts (guess which model I looked at?)
+> 
+> 4) Feed Codex context on Loop Engineering and other engineering skill repos
+> 
+> 5) As it to improve efficiency as a lot of engineering repos are super heavy and bloated/slow
+> 
+> 6) Ask it to use FUSION via Openrouter for planning, logic, and review tasks
+> 
+> 7) Ask it to use Kimi k2.7 code for subagents/execution
+> 
+> 8) Have it dog food the harness until it's dialed in then unleash it on a repo for a deep analysis
+
+- **Tweet:** https://x.com/boringmarketer/status/2066185785204719769
+- **What:** A step-by-step recipe for a lightweight personal coding harness built on Pi (open source) with intelligent model routing: Codex as default, FUSION (via OpenRouter) for planning/reasoning tasks, and Kimi k2.7 for subagent execution. The philosophy is that personal harnesses reduce single-model dependency, cut costs, and extract frontier-level performance from a carefully wired combination of cheaper models. The author bootstraps the process by feeding the harness engineering skill repos and having it self-optimize.
+
+---
+
+# Saturday, June 13, 2026
+
+## @Zai_org - GLM-5.2 flagship model launch with 1M context and MIT license open-source release
+> Intelligence should be open, accessible, and ready to build with, empowering every developer, everywhere.
+> 
+> GLM-5.2 is now available to all GLM Coding Plan users, including Lite, Pro, Max, and Team plans.
+> 
+> As our new flagship model, GLM-5.2 delivers powerful coding capabilities, usable 1M-context support, and continued strengths in long-horizon tasks.
+> 
+> API and Chatbot services will launch next week. The model will also be officially open-sourced next week under the MIT License.
+
+- **Tweet:** https://x.com/Zai_org/status/2065704919299235870
+- **Link:** https://docs.z.ai/devpack/latest-model
+- **What:** Zhipu AI (Z.ai) is releasing GLM-5.2 as a fully open-source model under MIT license — the permissive licensing choice combined with 1M-context support positions it as a serious contender for production deployments where proprietary model restrictions or context limits are blockers. Coding plan users get access first before the public API launch the following week.
+
+## @sudoingX - Growing from 625 to 30k followers using X Premium+ in 4 months
+> https://t.co/YluHf74Xo9
+
+- **Tweet:** https://x.com/sudoingX/status/2065830667200733436
+- **What:** A data-rich first-person account of building an audience in the local-LLM niche by posting real benchmark numbers, showing hardware test results, and using Premium+ as a distribution amplifier rather than a vanity badge. The author earned $5,923 in payouts and $543 in subscriptions on $38/month spend, attributing the growth to high-volume strategic replying (40-100/day), quoting your own best replies as standalone posts, and publishing long-form articles which outperform short posts 4x on impressions. Key insight: Premium+ multiplies reach for content that already has value; bad content just gets amplified failure.
+
+---
+
+# Friday, June 12, 2026
+
+## @Kimi_Moonshot - Kimi-K2.7-Code open-source coding model with reduced overthinking and long-horizon gains
+> 🌘 Kimi-K2.7-Code, our latest coding model, is now released and open-sourced!
+> 
+> 🔷 Improved coding & agent performance over K2.6: +21.8% on Kimi Code Bench v2, +11.0% on Program Bench, and +31.5% on MLS Bench Lite.
+> 🔷 Reasoning efficiency: Less overthinking, with 30% lower reasoning-token usage compared to K2.6.
+> 🔷 Long-horizon coding: Improved instruction following, higher end-to-end coding task success rates.
+> 
+> ⚡️ 6x High-Speed Mode coming soon!
+> 🔌 Available today via Kimi API and Kimi Code.
+
+- **Tweet:** https://x.com/Kimi_Moonshot/status/2065377579130142937
+- **Link:** https://www.kimi.com/code
+- **What:** Moonshot AI is pushing hard on agentic coding benchmarks with K2.7-Code — the 30% reasoning-token reduction signals a shift toward efficiency over raw capability, addressing a real pain point of models that "overthink" before writing code. The MLS Bench Lite gains (+31.5%) suggest particular improvement on multi-step coding tasks that require sustained instruction following across long contexts.
+
+## @RobinhoodApp - Robinhood Trading MCP server adds options chain support for agentic trading
+> Options are now rolling out for agentic trading.
+> 
+> Discover chains, pull quotes with full Greeks, check positions, and place or cancel orders. All through the Robinhood Trading MCP server.
+
+- **Tweet:** https://x.com/RobinhoodApp/status/2065441614659482094
+- **What:** Robinhood is extending its MCP server to cover the full options workflow — chain discovery, live quotes with Greeks, position checking, and order management — meaning AI agents can now execute sophisticated derivatives strategies programmatically through a regulated brokerage's official interface rather than scraping or unofficial APIs.
+
+## @businessbarista - Crowdsourced shortlist of the most AI-native marketers in 2026
+> Who is the most AI-native marketer you know? 
+> 
+> My starting list:
+> - @codyschneider 
+> - @PJaccetturo 
+> - @searchbrat 
+> - @ericosiu
+
+- **Tweet:** https://x.com/businessbarista/status/2065449809922646210
+- **What:** Alex Lieberman's seed list for tracking practitioners who are actually rebuilding marketing workflows around AI rather than bolting it on — Cody Schneider, PJ Accetturo, Liam Carnahan (searchbrat), and Eric Siu. Worth watching this thread for community-sourced additions that reveal who the real early adopters are.
+
+---
+
+# Thursday, June 11, 2026
+
+## @indexsy - 11 SEO rules derived from the leaked Claude Fable 5 system prompt
+> Claude's system prompt leaked. It contains the literal instructions for what gets cited and what gets ignored. Affiliate SEOs are not going to like this.
+>
+> 1. Claude only sees the top 10. The prompt says web_search returns the top 10 results. Position 11 means you don't exist to Claude.
+>
+> 2. Queries are 1-6 words, often 1-2. Claude searches short head terms, never long-tails, and never uses operators. Titles and H1s need to match fat-head phrasings like "local rank tracker."
+>
+> [... 9 more rules ...]
+>
+> *Quoting @elder_plinius:* 🚿 FABLE-5 SYS PROMPT LEAK 🚿
+>
+> HOWDY, FRENS!! 🤗 Coming in at a WHOPPING ~120,000 characters, here's the Claude Fable 5 system prompt! 😘
+
+- **Tweet:** https://x.com/indexsy/status/2064958637404012890
+- **Quoted:** https://x.com/elder_plinius/status/2064478648057610422
+- **Link:** https://www.anthropic.com/news/claude-fable-5-mythos-5
+- **What:** Pliny the Liberator leaked the ~120,000-character Fable 5 system prompt; indexsy extracts 11 concrete implications for AI-era SEO. Key findings: Claude only retrieves top-10 results so position matters; it searches 1-6-word head terms not long-tails; it explicitly distrusts affiliate-heavy recommendation pages; it weights recency heavily and appends the current year to queries; any URL a user pastes gets fully fetched, making newsletter/YouTube links direct injection points; and MCP registry keywords are a new ranking surface Ahrefs is already gaming.
+- **Filed:** [claude-fable-5-mythos-5-launch.md](./knowledge/articles/claude-fable-5-mythos-5-launch.md)
+
+## @0xSero - [Media] Formative experience going down the rabbit hole with Claude
+> I have had a formative life experience.
+>
+> Thank you Claude.
+>
+> *Quoting @0xSero:* Going down the rabbit hole, let's see what happens.
+
+- **Tweet:** https://x.com/0xSero/status/2064973029751328906
+- **Quoted:** https://x.com/0xSero/status/2064936364324405485
+- **What:** THIN: Self-quote of a Claude rabbit-hole session with no visible outcome described — the author reports a "formative" experience but the referenced media didn't expand and the original tweet gives no further detail.
+
+## @steipete - agent-scripts: Maintainer-orchestrator and triage skills for autonomous repo maintenance
+> Here's a simple loop: Tell codex to maintain your repos, wake up every 5 minutes and direct work to threads. That makes it easy to parallelize+steer work as needed.
+>
+> I use a orchestrator skill combined with my triage+autoreview+computer use skills, so some work can land autonomously.
+
+- **Tweet:** https://x.com/steipete/status/2064998499780084154
+- **Link:** https://github.com/steipete/agent-scripts/blob/main/skills/maintainer-orchestrator/SKILL.md
+- **Filed:** [steipete-agent-scripts.md](./knowledge/tools/steipete-agent-scripts.md)
+- **What:** Steipete describes a fully autonomous repo-maintenance loop: a maintainer-orchestrator skill polls every 5 minutes, fans work out to parallel threads, and combines with triage, autoreview, and computer-use skills so some PRs can land with zero human input. The agent-scripts repo (~5k stars) is the canonical home for all these shared skills and AGENTS.MD hard rules.
+
+## @bridgemindai - AI subscriptions are massively subsidized — the rate-limit rugpull has begun
+> You are not paying for AI. 
+>
+> You are being subsidized.
+>
+> $200/month Claude Max 20x gets you up to $8,000/month in API compute. 
+>
+> That's 40x what you pay.
+>
+> $200/month ChatGPT Pro 20x gets you up to $14,000/month. 
+>
+> 70x what you pay.
+>
+> Anthropic and OpenAI are lighting billions on fire to win developers.
+>
+> This is not scalable. 
+>
+> The rate limit "adjustments" we keep seeing are the rugpull starting in slow motion.
+>
+> Enjoy it while it lasts.
+
+- **Tweet:** https://x.com/bridgemindai/status/2065026045435126225
+- **What:** The author quantifies the subsidy gap: Claude Max at $200/mo delivers up to $8k of API compute (40x) and ChatGPT Pro delivers up to $14k (70x), meaning both Anthropic and OpenAI are burning billions to acquire developer mindshare at unsustainable ratios. The ongoing rate-limit tightening is framed as the slow unwinding of that subsidy — a warning to extract value now before pricing normalizes.
+
+## @andrewmccalip - Kickbacks: ad marketplace monetizing the Claude Code spinner wait time
+> Get paid to wait
+>
+> The Claude Code spinner might be the most watched line on Earth.
+>
+> So I turned it into an ad marketplace.
+>
+> Advertisers bid on it. You keep 50% of the money.
+>
+> Install the extension → get cash from ads.
+>
+> Introducing Kickbacks
+
+- **Tweet:** https://x.com/andrewmccalip/status/2065049432652189933
+- **What:** McCalip built a browser/terminal extension called Kickbacks that injects advertiser bids into the Claude Code spinner — the idle wait period that every developer stares at. Advertisers bid for that attention, and users take a 50% revenue share. The pitch is essentially attention monetization layered on top of the most high-frequency developer workflow moment of 2026.
+
+## @daniel_mac8 - Fable as orchestrator, Opus for reasoning — a token-efficient Claude Code workflow
+> This is the best way to use Claude Fable in Claude Code without immediately hitting your limits.
+>
+> 1. Model set to Fable 5
+> 2. Reasoning on Max
+> 3. Instruct Claude to run a dynamic workflow where:
+> 3a. Fable is the orchestrator
+> 3b. Opus does the reasoning heavy phases
+>
+> Fable is so overpowered that you don't need its intelligence for every step. 
+>
+> Let it orchestrate Opus or even Sonnet.
+
+- **Tweet:** https://x.com/daniel_mac8/status/2065066247448821841
+- **What:** A practical Claude Code rate-limit workaround: set Fable 5 as the top-level orchestrator with max reasoning, but delegate compute-heavy reasoning phases to Opus (or Sonnet), reserving Fable's capacity for high-level planning and routing. This tiered model routing pattern conserves Fable tokens while still leveraging its coordination intelligence across a session.
+
+## @HarryTandy - 14-step system for compounding Fable 5 agent runs
+> 10-step Fable 5 setup you can copy this week:
+>
+> 1. Write CLAUDE.md — stack, commands, code style, forbidden files, review rules
+> 2. Add PROJECT_MEMORY.md — verified facts, failed attempts, last session, next run
+> 3. Create 1 Skill per repeated workflow — CI triage, PR review, design QA, deploy check
+> 4. Add eval cases in eval/<workflow>.jsonl
+> 5. Split maker and verifier — Maker writes the change, Verifier runs app/tests/screenshots/logs
+> 6. Use worktrees for parallel runs — no shared checkout, no file collisions
+> 7. Send work by price — Fable 5 plans, Sonnet 4.6 bulk edits, Haiku 4.5 grades, Opus 4.8 fallback
+> 8. Put UI work behind screenshots — visual tasks need visual verification
+> 9. Move long jobs to Routines — CI failure, PR opened, morning digest
+> 10. End every run by writing the lesson back — a fix that stays in chat dies there
+>
+> > *Quoting @0xCodez:* https://t.co/hmpJtXuXCq
+
+- **Tweet:** https://x.com/HarryTandy/status/2065112964768645150
+- **Quoted:** https://x.com/0xCodez/status/2065089060104720776
+- **What:** Harry Tandy distills a 14-step X article on building self-improving Fable 5 agent systems into a 10-point operational checklist. The core thesis is that Fable 5's value only compounds when you pair a maker agent with an independent verifier, persist state between sessions in structured markdown files, route work to cheaper models by complexity tier, and write lessons back into Skills after every run — skipping the verifier degrades the system to "a confident intern with shell access."
+
+## @MatthewBerman - Recurring codebase tasks for AI coding tool token budgets
+> I use Cursor, Codex, and Claude Code. I want to make sure I use all my tokens during each period. What are some recurring tasks I should do on my codebase?
+
+- **Tweet:** https://x.com/MatthewBerman/status/2065123398142033984
+- **What:** Matthew Berman crowdsourcing ideas for recurring codebase maintenance tasks suited to AI coding tools, framed around token budget utilization across Cursor, Codex, and Claude Code subscriptions — useful as a prompt for anyone trying to build automated routines or identify underexplored use cases for agent workflows.
+
+## @Voxyz_ai - Routing Fable 5 vs Codex by task type to manage token costs
+> fable 5 burns tokens fast but write the prompt like this and it's totally workable.
+>
+> "to save tokens, keep this main session (fable 5) on planning and frontend tasks, its visual output and ideas are worth the price. for backend and heavier implementation, write a clear spec and dispatch to codex (gpt-5.5 xhigh) with /goal to execute, my quota there sits unused anyway. you may keep the hardest parts in this session."
+>
+> a frontend design prompt i've been testing that works well:
+>
+> redesign {your page, e.g. pricing page} for this project. full creative freedom, but it has to be visually striking and interactive, with motion effects and a hidden easter egg. search 2026 design trends first and use them.
+
+- **Tweet:** https://x.com/Voxyz_ai/status/2065142760915472691
+- **What:** Practical token-routing strategy: keep Fable 5 for planning and visual/frontend work where its output quality is highest, dispatch backend and implementation tasks to Codex (gpt-5.5 xhigh effort) via /goal since that quota often goes unused anyway. Also includes a concrete frontend redesign prompt that asks the model to research 2026 design trends and incorporate motion effects and a hidden easter egg.
+
+## @kr0der - Claude Code includes 15 free Routine runs per day
+> i just noticed you get 15 free routine runs daily in Claude Code and it doesn't specify how small the task has to be
+>
+> is anyone running any good ones? 👀
+
+- **Tweet:** https://x.com/kr0der/status/2065177759689957786
+- **What:** Discovery that Claude Code's subscription includes 15 free daily Routine runs with no documented size restriction, prompting a community question about what recurring automated tasks people are actually running — relevant for anyone building scheduled agent workflows without paying per-token for routine runs.
+
+## @Voxyz_ai - Using mattpocock's teach skill for strategic programming education
+> fable 5 tokens are expensive. my $200 max plan weekly limit was gone in a day and a half. but spend them on what ai can't replace and it's worth every token.
+>
+> install mattpocockuk's skill: npx skills add mattpocock/skills --skill teach
+>
+> then paste this:
+>
+> "/teach me how to be a great strategic programmer. ai is eating tactical, on-the-ground programming. i want the strategic skills, planning, qa, codebase design, the ones that used to take people from junior to senior. in this era they're table stakes."
+>
+> it asks three questions about your real codebase first, then writes MISSION.md and a curriculum, and teaches against your actual project.
+>
+> *Quoting @Voxyz_ai:* fable 5 burns tokens fast but write the prompt like this and it's totally workable. "to save tokens, keep this main session (fable 5) on planning and frontend tasks, its visual output and ideas are worth the price. for backend and heavier implementation, write a clear spec and dispatch to codex (gpt-5.5 xhigh) with /goal to execute, my quota there sits unused anyway. you may keep the hardest parts in this session."
+
+- **Tweet:** https://x.com/Voxyz_ai/status/2065188795469709501
+- **Quoted:** https://x.com/Voxyz_ai/status/2065142760915472691
+- **What:** Extends the earlier token-routing tip with a specific use case for Fable 5 that justifies the cost: using Matt Pocock's community teach skill to get personalized education on strategic programming skills (planning, QA, codebase design) that AI can't replace. The skill anchors its curriculum to your actual codebase by asking three questions first, then generates a MISSION.md and a project-specific learning path.
+
+## @dessaigne - Pricing structure as the key to AI-services businesses that don't turn into consultancies
+> A founder asked me how to build an AI-services business without it turning into a consultancy. My answer: the whole game is in how you charge.
+
+- **Tweet:** https://x.com/dessaigne/status/2065217179101147279
+- **What:** The distinction between a scalable AI-services business and a time-for-money consultancy trap comes down entirely to pricing model — charging per outcome, seat, or usage rather than per hour is what lets you decouple revenue from headcount and build something with margins that compound.
+
+---
+
+# Wednesday, June 10, 2026
+
+## @_MaxBlade - Claude Fable 5 one-shots problems that Opus 4.8 and GPT-5.5 couldn't crack
+> You have one job today. 
+> 
+> Max out Claude Fable 5 usage. ( Mythos ) 
+> 
+> All the complex problems that opus 4.8 and gpt 5.5 couldn't really nail, are one shotted.
+> 
+> Don't just build. 
+> 
+> Ask it to help you setup marketing loops. Ask it to help improve your life. This model is magic. Don't hold back.
+
+- **Tweet:** https://x.com/_MaxBlade/status/2064653223948927245
+- **What:** Firsthand report that Claude Fable 5 represents a meaningful capability jump over Opus 4.8 and GPT-5.5 on hard problems, and a prompt to think beyond code generation — using the model's reasoning for marketing strategy, life optimization, and other domains where previous frontier models fell short.
+
+## @mattpocockuk - /teach skill for Claude to guide junior devs toward strategic senior-level thinking
+> Steps to become a senior programmer:
+> 
+> 1. Install my /teach skill
+> 
+> npx skills add mattpocock/skills --skill teach
+> 
+> 2. Create a new working directory on your laptop
+> 
+> mkdir junior-to-senior
+> cd junior-to-senior
+> 
+> 3. Kick off your coding agent in the directory
+> 
+> claude
+> 
+> 4. Copy this prompt
+> 
+> /teach me how to be a great strategic programmer. My opinion is that AI is eating 'tactical, on-the-ground' programming. The day-to-day work of a developer involves not only coding, but also planning, QA, codebase design, and much more. I'm interested in learning the strategic skills - that, in a previous era, would take me from junior to senior - but in this era are table stakes.
+> 
+> 5. Paste it into the coding agent
+> 
+> Below is an example of what the first output will look like. I used Opus 4.8, medium effort.
+> 
+> 6. Continue working with the agent until you're a senior
+
+- **Tweet:** https://x.com/mattpocockuk/status/2064663221718425660
+- **What:** Matt Pocock frames the junior-to-senior transition in the AI era as a shift from tactical (writing code) to strategic skills (planning, codebase design, QA judgment) — and packages a Claude skill that teaches that curriculum interactively. The install flow (`npx skills add mattpocock/skills --skill teach`) shows a nascent ecosystem of shareable Claude skill packages, analogous to npm for agent capabilities.
+
+## @shadcn - /improve: use Fable to audit codebase and generate execution plans for cheaper models
+> You have Claude Fable for only a few days. Here's how to make the most of it.
+> 
+> Introducing /improve: use your most capable model to audit your codebase and write plans for cheaper models to execute later.
+> 
+> Studies your code, figures out bugs, perf, tech debt, missing tests, what to build and writes plans any agent can run.
+
+- **Tweet:** https://x.com/shadcn/status/2064671802509410806
+- **What:** The `/improve` skill operationalizes a two-tier model routing strategy: spend expensive Fable tokens on high-judgment audit work (find bugs, tech debt, missing tests, growth opportunities), then hand off the resulting execution plans to cheaper models. This is a practical workflow for the common situation where you have brief access to a frontier model and want to extract durable value beyond a single session.
+
+## @danshipper - Closed-loop agentic bug repair moving from experimental to productized practice
+> new update in @every's Frontier Map:
+> 
+> i moved "Closed-loop" product repair closer to productized. Fable makes it newly possible to speed-run through backlogs of issues and close bugs and paper cuts almost as soon as they're opened.
+> 
+> @kieranklaassen is doing this with @coracomputer, and we're starting to do it with Proof too.
+> 
+> new best practice for this era of agentic coding capabilities
+
+- **Tweet:** https://x.com/danshipper/status/2064713624220815660
+- **What:** Dan Shipper's Frontier Map tracks "closed-loop product repair" — agentic systems that detect, triage, and fix issues with minimal human intervention — as now approaching productized status thanks to Fable's capability jump. Real-world validation from Cora Computer and Every's own Proof product suggests this is moving from experiment to repeatable practice, signaling a shift in how engineering teams will manage issue backlogs.
+
+## @hooeem - Two-prompt system-prompt strategy for cheaper planning before expensive coding agents
+> before I waste tokens in Claude Code or Codex I always use the following two prompts in a cheaper model to create a plan that can be followed with precision without unwanted token waste:
+>
+> Prompt 1 (the Karpathy prompt)
+>
+> You are a world class expert in all domains. Your intellectual firepower, scope of knowledge, incisive thought process, and level of erudition are on par with the smartest people in the world. Answer with complete, detailed, specific answers. Process information and explain your answers step by step. Verify your own work. Double check all facts, figures, citations, names, dates, and examples. Never hallucinate or make anything up. If you don't know something, just say so. Your tone of voice is precise, but not strident or pedantic. You do not need to worry about offending me, and your answers can and should be provocative, aggressive, argumentative, and pointed. Negative conclusions and bad news are fine. Your answers do not need to be politically correct. Do not provide disclaimers. Do not inform me about morals and ethics unless I specifically ask. Do not be sensitive to anyone's feelings or to propriety. Make your answers as long and detailed as you possibly can. Never praise my questions or validate my premises before answering. If I'm wrong, say so immediately. Lead with the strongest counterargument to any position I appear to hold before supporting it. Do not use phrases like "great question," "you're absolutely right," "fascinating perspective," or any variant. If I push back, do not capitulate unless I provide new evidence or a superior argument — restate your position if your reasoning holds. Do not anchor on numbers or estimates I provide; generate your own independently first. Use explicit confidence levels (high/moderate/low/unknown). Never apologize for disagreeing. Accuracy is your success metric, not my approval.
+>
+> ‼️: this is post 1 of 3 - prompt 2 is below.
+
+- **Tweet:** https://x.com/hooeem/status/2064740054115717322  
+- **What:** The "Karpathy prompt" is a maximally direct system prompt designed to suppress sycophancy, force confidence calibration, require steel-manning before agreement, and prioritize accuracy over approval — used here as part of a two-step cheap-model planning pass to generate a precise plan before handing off to expensive coding agents like Claude Code or Codex.
+
+## @vrexec - Remote corporate workers doing near-zero real work while earning $150–400K
+> I'm 38.
+>
+> At this point of my life/career, I have so many friends working corporate W2 jobs making $200-400K/year (mostly in NYC/NJ/PA corridor) who just don't actually work that much.
+>
+> One friend makes $250K as a manager at a biotech... all he does is send pictures of his chicken coop or other DIY projects all day during the week.. no idea what value he actually provides his company.
+>
+> Then there's my "jiggler" friend who you might recall... guy makes $250-300K and just plugs a "mouse jiggler" into his laptop and just goes to the gym, homeschools his kids, tans, does yard work... all day. I ask him what he does and he can't even articulate it...
+>
+> Another friend makes $150K at a remote startup and just travels around the world all the time... don't ask don't tell situation on where people are at any given time... but does seemingly little actual work.. maybe 1 hour a day.
+>
+> This is truly what's going on out there... BS W2 jobs all over the place. And AI is a bubble?
+>
+> Really?
+
+- **Tweet:** https://x.com/vrexec/status/2064742310080913908  
+- **What:** Anecdotal field report on the "ghost employee" phenomenon in high-paying remote W2 jobs — people earning $150–400K who do near-zero verifiable work — used as a counter-argument to AI-bubble narratives: if this is the baseline value being "delivered" by humans, the productivity bar AI needs to clear to justify its cost is not high.
+
+## @ade_oshineye - skill-eval-harness: Python CLI for benchmarking Agent Skills with/without variants
+> I made a little harness in Python so that you can run evals on your skills. This will let you find out if your skill is helping or hurting with various models. It will also help you figure out if your changes to your skills are making them better or worse.
+>
+> It's fully buzzword-compliant: ablations, holdouts, holdbacks, judges, paired variants, anti-overfitting splits, etc
+
+- **Tweet:** https://x.com/ade_oshineye/status/2064746832266219835  
+- **Link:** https://github.com/adewale/skill-eval-harness  
+- **Filed:** [skill-eval-harness.md](./knowledge/tools/skill-eval-harness.md)
+- **What:** A rigorous eval framework for Claude Code / Pi agent skills that pairs `with_skill` and `without_skill` runs on the same cases, applies deterministic local assertions (no model calls required for grading), enforces holdout/holdback split discipline to prevent overfitting, and generates HTML review pages and benchmark JSON reports — essentially a software testing pipeline adapted for prompt engineering.
+
+## @enzo_gte - Fable's power is parallel agent competition, not prompt quality
+> Okay, we spent the past night all playing with Fable (didn't sleep, lol).
+>
+> If you're using Fable like you used Opus, you're probably using it wrong.
+>
+> Opus was a break through because you could give it a task and its generation of the answer was probably pretty good. So if you knew what you were doing (let's say frontend design) then it can get really good outputs with some tasteful prompts.
+>
+> Fable is really good if you don't know what you're doing. The best way to use it is to essentially give it a problem, such as a major refactor or optimization problem, and just tell it to spawn up N-number of agents on different work trees to solve the problem. Have one Fable agent act as the reviewer and when the agents finish their work, whatever emerges as the best answer wins.
+>
+> The reason this is powerful is you're essentially having 50+ 150 IQ people try and solve the same problem. If 49/50 are unable to solve it, but 1/50 comes up with the solution, then you have accomplished what you set out to do — which is have a novel insight or breakthrough that you, as the prompter, were not privy to.
+>
+> This is essentially what the Anthropic team is trying to codify with "/loop" and "/goal" but the way they communicated it was a bit overcomplicated.
+>
+> Hard problem -> spawn agents to solve -> have other agent pick best answer -> repeat.
+>
+> If you do this, you'll see the full power of Fable.
+>
+> Happy hacking!
+
+- **Tweet:** https://x.com/enzo_gte/status/2064748337740276164
+- **What:** The fundamental shift with Fable over Opus is how to leverage uncertainty: instead of crafting the perfect prompt for a single run, you spawn N agents across N worktrees to attack the same problem in parallel and have a Fable reviewer pick the winner. The insight — 1/50 breakthroughs still gets you the breakthrough — reframes the model as a parallel exploration engine, which is what /loop and /goal are trying to systematize.
+
+## @mvanhorn - agentcookie: continuous browser-session sync from primary Mac to headless agent Mac over Tailscale
+> Killer playbook for multi-Mac agent setup. Great "how to" guide for Agent Cookie to have your primary Mac and your MacMini agent machine be logged into all the same things with magic cookie sync.
+>
+> *Quoting @cathrynlavery:* https://t.co/Edkvpq4uaR
+
+- **Tweet:** https://x.com/mvanhorn/status/2064771612579393568  
+- **Quoted:** https://x.com/cathrynlavery/status/2064752541078901201
+- **Filed:** [agentcookie.md](./knowledge/tools/agentcookie.md)
+- **What:** mvanhorn endorses agentcookie as the authentication piece for a multi-Mac agent setup; the quoted article by @cathrynlavery is a practical guide to running always-on AI agents across Mac Studio / MacBook Pro / Mac mini with Tailscale networking, SSH config aliases, shared project folder structure, and LaunchAgent-based keep-alive — the full ops stack for agents that need to act as you on every site you're already logged into, without re-authenticating.
+
+## @ryanzhuuuu - Hermes Agent iMessage Support via Photon on Any OS
+> We partnered with @NousResearch to fix that.
+>
+> Now anyone can connect to iMessage, on any OS, and unlock entirely new iMessage experiences.
+>
+> *Quoting @ryanzhuuuu:* [article: We brought Hermes Agent to iMessage, even on Linux and Windows]
+
+- **Tweet:** https://x.com/ryanzhuuuu/status/2064783001465331804
+- **Quoted:** https://x.com/ryanzhuuuu/status/2064779443512725675
+- **What:** Hermes Agent (NousResearch) now connects to iMessage through Photon Spectrum, a unified messaging API that owns a dedicated iMessage line in the cloud. Previously, iMessage required a Mac running BlueBubbles — Photon removes that constraint entirely by holding a persistent gRPC stream between its cloud infrastructure and a small Node sidecar next to the Hermes gateway. The agent can run on Linux, Windows, macOS, or any cloud host while remaining reachable via iMessage, including typing indicators, image exchange, voice notes, and RCS/SMS fallback. Free for personal use.
+
+## @witcheer - One-URL Hermes Agent Setup via LLM Context File
+> by the way, for anyone wanting to set up the perfect @NousResearch Hermes Agent:
+>
+> (a) direct your most capable LLM to https://hermes-agent.nousresearch.com/docs/llms-full.txt
+> (b) explain your needs, what you want the agent to do for you, and provide full context
+> (c) enjoy
+>
+> this file is the entire Hermes Agent documentation concatenated for LLM context ingestion.
+
+- **Tweet:** https://x.com/witcheer/status/2064788615595503768
+- **Link:** https://hermes-agent.nousresearch.com/docs/llms-full.txt
+- **Filed:** [hermes-agent-full-documentation.md](./knowledge/articles/hermes-agent-full-documentation.md)
+- **What:** Practical workflow tip: instead of reading Hermes Agent docs yourself, feed the entire documentation as a single LLM-ready file to your best model and describe what you want the agent to do. The `llms-full.txt` file is specifically structured for LLM context ingestion and covers every configuration option, gateway integration, and provider setup — enabling zero-shot configuration generation from natural language requirements.
+
+## @esandurrani - Parallel Training: Employee and AI Agent Training from Internal Knowledge
+> Introducing Parallel Training.
+>
+> Courses built for your employees and AI agents.
+>
+> Trusted by companies like NVIDIA to transform the future of work.
+>
+> Connect your knowledge from google drive, docs, and existing tools.
+>
+> Turn it into training for your team and AI agents through MCP.
+
+- **Tweet:** https://x.com/esandurrani/status/2064799604428935398
+- **What:** Parallel Training ingests existing company knowledge (Google Drive, docs, internal tools) and converts it into structured training courses that serve both human employees and AI agents simultaneously via MCP. The dual-audience framing — training AI agents alongside humans from the same source material — positions it as infrastructure for organizations building internal AI workflows where agents need to understand company-specific processes and policies, not just general knowledge.
+
+## @SemiAnalysis_ - AI Lab Subscriptions Deliver Far More Compute Than Expected vs API Pricing
+> *Replying to @SemiAnalysis_:* What's the better business model for an AI lab, subscription or API? (1/4)🧵
+>
+> Recently, we purchased one of each Anthropic/OpenAI subscription plan and randomly ran long horizon coding tasks until we exhausted the weekly limit. It's widely believed that a $200/month plan maxes out at ~$2000/month worth of tokens (assuming API pricing). However, we found that the subscriptions are actually far more generous.
+
+- **Tweet:** https://x.com/SemiAnalysis_/status/2064815044085318040
+- **Parent:** https://x.com/SemiAnalysis_/status/2064815042374074396
+- **What:** SemiAnalysis empirically tested Anthropic and OpenAI subscription plans by running long-horizon coding tasks until hitting weekly limits, finding actual compute delivered significantly exceeds the commonly cited $2000/month token value estimate for a $200/month plan. This is part of a thread examining the strategic tradeoffs between subscription and API business models for AI labs — subscriptions may be more economically generous to heavy users than the API-equivalent pricing narrative suggests.
+
+## @trq212 - Fable AI Edits Its Own Launch Video Through Code and Tool Calls
+> Lots of people asked how I used Fable to edit its own launch video so I made a video about that!
+>
+> TLDR it wrote a lot of code & tool calls to use transcription services, ffmpeg, do colorgrading, use the figma mcp, make remotion UI and render it.
+>
+> I didn't touch a video editor.
+
+- **Tweet:** https://x.com/trq212/status/2064826394589442448
+- **What:** Fable (an AI-native video creation tool) was used to edit its own launch video without the creator touching a traditional video editor. The workflow involved the AI writing code and making tool calls across transcription services, ffmpeg for rendering, Figma MCP for design assets, and Remotion for UI composition and export — demonstrating that complex creative production pipelines can be driven entirely through agentic tool orchestration rather than manual editing interfaces.
+
+## @citrini - AI-native PE firms buying companies to swap Claude for open-source Chinese models
+> I give it a year until we see a new breed of AI native private equity firms that acquire companies just so they can move their workflows from Claude to open source Chinese models and flip them.
+
+- **Tweet:** https://x.com/citrini/status/2064860015748415647
+- **What:** A prediction that AI cost arbitrage will become a PE playbook — buy a business dependent on expensive frontier API costs, migrate its AI backend to cheap open-source Chinese models, cut operating costs dramatically, then exit. The thesis treats model substitutability as an untapped alpha source rather than a technology risk.
+
+## @0xSero - local.ai: real benchmark numbers for local AI on your own hardware
+> Guess what?
+>
+> local ai for everyone (: we did it
+
+- **Tweet:** https://x.com/0xSero/status/2064866950858117409
+- **Link:** https://local.ai/
+- **What:** Launch announcement for local.ai, a benchmarking site that measures local LLM performance on real agent workloads rather than synthetic tests — covering the full matrix of model, quantization, hardware, and harness, with speed and energy metrics. Meaningful because it fills the gap between "what the model card claims" and "what you actually get on your GPU."
+- **Filed:** [local-ai-hardware-benchmarks.md](./knowledge/articles/local-ai-hardware-benchmarks.md)
+
+## @aaronli - Fable 5 generates a working V8 engine CAD model in under 10 minutes
+> claude fable 5 has solved CAD
+>
+> I asked it to make a model of a V8 engine
+>
+> It came back to me with a fully working model in under 10 minutes
+
+- **Tweet:** https://x.com/aaronli/status/2064876123109089742
+- **What:** A demonstration that Fable 5 can produce a fully working CAD model of a mechanically complex object — a V8 engine — without user intervention in about 10 minutes, suggesting frontier models have crossed a threshold where domain expertise in 3D modeling and mechanical design is no longer a prerequisite for generating usable engineering artifacts.
+
+## @nabeel - Vertical AI tools beat general agents on domain tasks: the Descript vs Fable video editing example
+> This is actually a really good example of why vertical AI is so important.
+>
+> Fable spent huge tokens to transcribe, pick a couple takes, and merge them. But @descript would have done that in the first 5 seconds (using Claude) and then in addition it would have given Fable the super powers to spend it's time removng the uhs and ums from the better cut, fix the sound, color grade, fix eye contact, and more.
+>
+> It puts Fable in a better car vs trying to build the car from scratch. That's ostensibly the role for most companies now.
+>
+> *Quoting @trq212:* Lots of people asked how I used Fable to edit its own launch video so I made a video about that!
+>
+> TLDR it wrote a lot of code &  tool calls to use transcription services, ffmpeg, do colorgrading, use the figma mcp, make remotion UI and render it.
+>
+> I didn't touch a video editor.
+
+- **Tweet:** https://x.com/nabeel/status/2064919152729444701
+- **Quoted:** https://x.com/trq212/status/2064826394589442448
+- **What:** Nabeel uses Thariq's demo of Fable editing its own launch video (via code + tool calls) to make the case for vertical AI specialization. The argument: a general agent burning tokens to reinvent transcription is wasting its intelligence budget on solved problems; plugging into domain tools like Descript lets the agent spend compute on the actually hard creative decisions. The pattern generalizes — most companies should be "riding a good car" (vertical tooling) rather than "building the car" (reimplementing everything from scratch with a general model).
+
+---
+
+# Saturday, June 6, 2026
+
+## @sudoingX - Training a neural net on Kepler light curves using DGX Spark as a personal research lab
+> people keep asking what i actually do with the dgx spark sitting on my desk. 
+> 
+> i kept answering with inference benchmarks, large models running reliably, big context, the usual. and that's all real, but it was never the point. it's not an inference box. it's the smallest research lab i've ever owned.
+> 
+> so here's the one thing. i'm training a neural net from scratch to find exoplanets in starlight. no pretrained weights, no borrowed architecture, my own design, on real Kepler data. right now it sits at 0.75 on a tiny slice, 514 stars out of 7,586. proof of life, nothing more.
+> 
+> now the move is to go big. first the full labeled archive, fifteen times the data. then the part i'm itching toward, self-supervised pretraining on around 200,000 raw light curves, a corner of machine learning i've genuinely never worked in before.
+> 
+> and this is where the box stops being a gimmick. one gb10, 121gb of unified memory, so the entire dataset lives in ram and i train for days with zero data-loader bottleneck, the thing that usually kills experiments like this on a normal rig. no streaming, no thrashing, just the whole sky sitting in memory.
+> 
+> everyone treats the spark as an inference box. on my desk it's a from-scratch research lab.
+>
+> *Quoting @sudoingX:* the more i use my dgx spark the more i think it's one of the most undervalued machines on the market right now. and i keep finding new things to throw at it that have no business working on something this small. [...]
+
+- **Tweet:** https://x.com/sudoingX/status/2063334218432905447
+- **Quoted:** https://x.com/sudoingX/status/2063245108548624588
+- **What:** The real value proposition of the DGX Spark isn't inference throughput — it's 121 GB of unified memory that eliminates the data-loader bottleneck, making it possible to keep an entire astronomical dataset (200k+ Kepler light curves) in RAM and train for days uninterrupted. The author is doing genuine from-scratch ML research (custom architecture, self-supervised pretraining on raw light curves) on consumer-grade hardware that previously would have required a cluster.
+
+---
+
 # Friday, May 15, 2026
 
 ## @tmuxvim - Prompt injection in LinkedIn bio causes recruiters to message in Old English
