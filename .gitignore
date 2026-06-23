@@ -29,3 +29,6 @@ Thumbs.db
 brain.db
 brain.db-wal
 brain.db-shm
+
+# Claude Code parallel worktrees
+.claude/worktrees/
