@@ -21,4 +21,5 @@ jobs:
       pr_branch:     ${{ github.event.workflow_run.head_branch }}
       ci_run_id:     ${{ github.event.workflow_run.id }}
       ecosystem:     npm
+      mode:          automerge
     secrets: inherit
