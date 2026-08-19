@@ -3997,6 +3997,1299 @@
 - **Tweet:** https://x.com/deedydas/status/2085037385927291067
 - **What:** Google is reportedly negotiating a $1.5B purchase of Mechanize, a year-old RL-environment shop that pays 35–50 people about $400k to produce roughly one high-quality coding-agent task per week (~$8k/task). The bid would triple a $500M mark from three months earlier, lock a scarce training-data pipeline (and Epoch AI / FrontierMath talent) inside Google, and keep that data off the open market — Jeff Dean was even on the cap table before leaving. If it closes it is the largest AI-data deal since Scale and a signal that M&A is still open for companies whose data is actually load-bearing.
 
+## @dabidoYT - Maxwell's 343M-view rules: production quality is not the lever
+> Maxwell is absurdly good at YouTube.
+>
+> He has made multi-hundred-million view videos — repeatedly! It’s just insane.
+>
+> If you’re a serious YouTuber, you should absolutely go follow and read his content.
+>
+> I’m a big fan of his first principles thinking and approach.
+>
+> *Quoting @Maxwell_Maher:* 343 million people watched my video
+>
+> The average person watched 99% of it
+>
+> You can make all of humanity stop and watch your content
+> if you:
+>
+> 1. Stop worrying about crisp production quality
+>
+> 2. Remember humans are humans, we're all compelled by the same things at the deepest level
+>
+> 3. Realize people watch to see a question answered - so set up questions
+>
+> 4. Know production quality does not equal views
+>
+> 5. Stop filming every idea that comes to mind (almost every idea sucks)
+>
+> 6. Cut any moment that isn't aligned with the main idea
+>
+> 7. Remember the point of production is for the viewer to be able to see and hear the idea - it's not more complicated than that
+>
+> 8. Don't try to satisfy everyone. Have a point of view and stick with it
+>
+> 9. Take the viewer on a journey they didn't see coming
+>
+> 10. Make a video a week and fix one problem on every upload
+>
+> 11. Put 70% of your effort into the intro (Viewers have to watch the intro in order to see everything else)
+>
+> 12. One moment hitting hard beats 10 moments happening fast
+>
+> 13. Trust your gut when something is engaging or not (you are a human, your viewers are human, if you react they probably will too)
+
+- **Tweet:** https://x.com/dabidoYT/status/2084859300745449931
+- **Quoted:** https://x.com/Maxwell_Maher/status/2084804825082994760
+- **What:** Dabi (Dr David Liu) is pointing serious YouTubers at Maxwell Maher as a first-principles operator who has repeatedly hit multi-hundred-million views, not as a production-quality flex. Maxwell's cited clip — 343 million views, 99% average watch — argues the opposite of gear culture: stop chasing crisp production, set up questions, kill almost every idea, cut anything off the main idea, spend 70% of effort on the intro, ship weekly and fix one problem per upload, and trust that if a moment hits you it will hit other humans. The craft lever is attention architecture, not cameras.
+
+---
+# Tuesday, August 4, 2026
+
+## @DanielNealAdler - Every enterprise is building a Cerebras-style internal knowledge base
+> Every. single. enterprise company I talk to is building (or already has) one of these right now
+>
+> *Quoting @cerebras:* https://t.co/FvKy1StDpQ
+
+- **Tweet:** https://x.com/DanielNealAdler/status/2084844964891312153
+- **Link:** https://x.com/i/article/2077808214062825472
+- **Quoted:** https://x.com/cerebras/status/2077822555159945507
+- **Filed:** [cerebras-how-we-built-our-knowledge-base.md](./knowledge/articles/cerebras-how-we-built-our-knowledge-base.md)
+- **What:** Dan Adler's one-liner is that every enterprise he talks to is already building an internal knowledge base like Cerebras's. The quoted article is the real artifact: 15,000 questions a day three months in, ingesting Slack/code/docs/custom DBs into one Postgres embeddings table instead of forcing a single source of truth. Slack is stored as whole threads plus "bursts," retrieved with FTS + embeddings + IDF + age decay; code uses CocoIndex incremental embeds; a planner fans out search/ripgrep/who_knows, RRF + a small reranker fuse the lists, and MCP exposes the primitives so Claude Code orchestrates. Interactive version lives on the Cerebras blog.
+
+## @BoredElonMusk - Asking Bankr if it can drive a Tesla from X
+> @bankrbot Can I connect you to my Tesla to issue commands through X???
+
+- **Tweet:** https://x.com/BoredElonMusk/status/2084793736945697107
+- **What:** Bored is asking Bankr, the X-native agent and trading bot, whether it can be wired to a Tesla so vehicle commands go out through the timeline rather than the car app. The joke is also a product probe: once people already talk to a bot on X for money, the next obvious ask is whether that same chat surface can become a control plane for physical devices.
+
+## @theo - Luna after 80% cut is cheap enough to run on every T3 Code prompt
+> Luna is such an insane value after the 80% cost reduction. It's basically free and can do a ton of real data processing type work.
+>
+> I'm overhauling title generation in T3 Code to take more advantage of it. I almost want to spin it up on every prompt to generate descriptions, feedback, and statuses. Why wouldn't I? It's basically free
+
+- **Tweet:** https://x.com/theo/status/2084748639470272972
+- **What:** Theo (t3.gg) is treating an 80% Luna price cut as a product-architecture change, not a coupon: at near-zero cost the model is good enough for real data-processing side work, so he is rebuilding T3 Code title generation around it and considering firing it on every prompt for descriptions, feedback, and statuses. Once inference is cheap enough, you stop reserving the model for the main answer and attach it as a default sidecar.
+
+## @iamshackelford - Arcads Mark as Claude Code for Meta ads after $16M raise
+> Slowest, most expensive step in ads is turning a brand into launch ready creative. This kills it.
+>
+> *Quoting @arcads_ai:* We raised $16M to build Claude Code for Meta Ads
+>
+> Introducing Mark: The only AI built for winning ads
+>
+> 10,000 of the best performance marketing teams use it to scale their ads!
+>
+> It has persistent brand memory, instant access to your entire assets library, and is trained on millions of winning ads.
+>
+> Mark can also:
+>
+> > Create hyper-realistic UGC
+> > Design motion graphics
+> > Localize campaigns worldwide
+>
+> Everything a creative team does. Faster. Better. Autonomous.
+>
+> Today we're releasing it to all Arcads users
+
+- **Tweet:** https://x.com/iamshackelford/status/2084707964171305178
+- **Quoted:** https://x.com/arcads_ai/status/2084611105528115415
+- **What:** Nick Shackelford treats brand-to-launch creative as the step that still burns the most time and money in ads, and points at Arcads' Mark as the thing that removes it. Arcads is announcing a $16M raise and a general release of Mark — pitched as Claude Code for Meta ads, already used by 10,000 performance teams, with persistent brand memory, the full asset library, and training on millions of winning ads, plus UGC, motion graphics, and worldwide localization. Product launch, capture-only.
+
+## @mattpocockuk - Resurrecting /zoom-out against Opus 5 verbosity
+> Might need to resurrect /zoom-out with how verbose Opus 5 is
+>
+> So many "/wtf-are-you-talking-about"-coded skills going viral atm
+
+- **Tweet:** https://x.com/mattpocockuk/status/2084697963905896686
+- **What:** Matt Pocock is watching Opus 5 flood agent sessions with verbiage and considering bringing back his /zoom-out skill — a compress-the-thread move — because a wave of "wtf are you talking about" skills is already circulating as a community reaction to frontier-model verbosity.
+
+## @Omantahealth - YC S26 personal research lab for one cancer patient
+> Introducing Omanta (YC S26) the personalized research lab for each patient.
+>
+> Omanta integrates a patient's full medical record, personal genomics, and the latest scientific evidence to understand the molecular drivers of their disease. It maps existing and emerging therapies against their biology. And when the right treatment doesn't exist yet, it launches a personalized campaign to build it.
+>
+> Even the hardest cases rarely have a team dedicated to solving them. Physicians make high-stakes calls with limited time, while data and therapies emerge every week. Science moves fast, but reaching the patient can take years.
+>
+> That's the gap Omanta was built to close.
+>
+> Founders Alfredo Gonzalez, PhD and Ranad Humeidi, PhD spent years on some of the most difficult cancer cases. Alfredo led the personalized therapeutic campaign behind Sid Sijbrandij's complete remission. Together they've worked with leading institutions on personalized vaccines, CAR-T, drug repurposing, expanded access, and continuous molecular monitoring. They've seen what becomes possible when the full force of modern science is organized around one person.
+>
+> They met eight years ago doing early CRISPR cancer research at the Broad Institute of MIT and Harvard. Alfredo Gonzalez (CEO) has a PhD in bioinformatics from UCLA and led research projects across the Broad Institute, UCLA, and Harvard. Ranad Humeidi (CSO) has a PhD in chemical biology from Harvard, and has built and run rare-cancer programs for individual patients when standard options ran out.
+>
+> https://t.co/XwNO578Sr6
+> A research lab, for one.
+>
+> Linked-in: https://t.co/1Yu7GsxffW
+> YC Launch: https://t.co/ccZhC854GU
+
+- **Tweet:** https://x.com/Omantahealth/status/2084696480829628826
+- **Link:** https://www.ycombinator.com/launches/SKr-omanta-a-personal-research-lab-dedicated-to-each-patient
+- **Filed:** [omanta-personal-research-lab-for-each-patient.md](./knowledge/articles/omanta-personal-research-lab-for-each-patient.md)
+- **What:** YC S26 launch for Omanta, a per-patient cancer research lab that folds full medical records, personal genomics, and current evidence into a molecular model of one person's disease, then maps existing therapies or commissions new ones (vaccines, CAR-T, radioligand, expanded access) when nothing fits. Founders Alfredo Gonzalez (CEO, UCLA bioinformatics PhD; genomics lead on Sid Sijbrandij's remission campaign) and Ranad Humeidi (CSO, Harvard chemical-biology PhD) met doing CRISPR work at the Broad; they argue the gap is 20-minute visits versus a ~17-year bench-to-bedside lag, not missing science. Homepage is marketing; the filed source is the YC launch essay.
+
+## @dexhorthy - Fable 5 and Sol tie at 33% on withheld-spec SlopCodeBench
+> by popular demand - the new SlopCodeBench results are out for the new frontier: Fable 5, GPT-5.6-Sol, and Kimi K3
+>
+> Live stream starting now to review the results!!! https://t.co/TwrQq4R8s7
+
+- **Tweet:** https://x.com/dexhorthy/status/2084692256460816541
+- **Link:** https://x.com/i/article/2083255912949788672
+- **Filed:** [benchmarking-fable-5-sol-kimi-k3-slopcodebench.md](./knowledge/articles/benchmarking-fable-5-sol-kimi-k3-slopcodebench.md)
+- **What:** Dex Horowitz's X article re-runs SlopCodeBench — UW Madison's long-horizon coding eval that withholds later requirements and scores strict checkpoint pass (new tests plus all inherited regressions) — on Fable 5, GPT-5.6 Sol, and Kimi K3. On a 6-challenge / 30-checkpoint subset, Fable and Sol tied at 33.3% (10/30), with Kimi K3 at 26.7% (Modal) and 23.3% (Baseten); 79–95% of generated lines tripped the slop meter. The operational claim is that frontier agents are still 2024-SWE-Bench territory on evolving codebases, so lights-off software factories remain unsafe; next experiment is linters plus adversarial review after each checkpoint.
+
+## @petergyang - Kevin Rose's prompt that portraits you from your own chat history
+> This is a really cool prompt from @kevinrose that asks AI to reflect on all your past threads together and give you a list of insights that you may not know about yourself.
+>
+> To try it just tell ChatGPT or Claude to:
+>
+> "Make an html report based on https://t.co/37hjVB0C93"
+>
+> But is it telling me to stop using my judgment and give in to the slop? :)
+>
+> Thanks @bentossell for surfacing this.
+>
+> *Quoting @kevinrose:* https://t.co/vbIUfiZghz
+
+- **Tweet:** https://x.com/petergyang/status/2084665842512588907
+- **Link:** https://github.com/kropdx/reflection-engine
+- **Quoted:** https://x.com/kevinrose/status/2084354331466461435
+- **Filed:** [reflection-engine.md](./knowledge/tools/reflection-engine.md)
+- **What:** Peter Yang quotes Kevin Rose's kropdx/reflection-engine (290 stars): a single markdown prompt you attach to the personal — not coding — ChatGPT, Claude, or Gemini account so it reads across memory and chat history and returns 22 evidence-cited answers on blind spots, contradictions, expensive habits, and trajectory, each with a confidence score and one weekly action. Yang's shortcut is "Make an html report based on" the repo; official usage is attach Reflection-Engine-v1.3.md in a fresh high-reasoning conversation with memory on. The prompt claims third-party authorship so curiosity is not treated as evidence about you, and the output stays inside the provider you already trust. Yang jokes whether the portrait is telling him to stop using his own judgment.
+
+## @doodlestein - Distilling three Rust model ports into a fused-kernel skill
+> I've now worked on 3 different projects that involved taking an open-weights AI model of some kind, be it an OCR model (FrankenOCR), a speech recognition model (FrankenWhisper), or a semantic embedding model (FrankenSearch), and doing surgery on it to take the weights from HuggingFace and transform them to work with a hand-rolled, hyper-optimized, memory-safe Rust implementation.
+>
+> I've posted about this before, explaining how you can trade off generality for performance. If you only care about running just that one Baidu OCR model and nothing else, you can use a specialized, one-off architecture that is incompatible with other models but perfect for that one single model.
+>
+> There are several tricks used in all this, but the biggest one is usually to fuse as much as possible in the kernel, and to be hyper-aware of cache locality.
+>
+> It also helps a lot if you know which architecture you're targeting: if you know you want your code to run extra fast on Apple Silicon chips like the M4 and M5 (which is an obvious goal to have nowadays), you can make special tweaks that are perfectly suited for those chips. The same goes for very high-core-count AMD CPUs.
+>
+> All this stuff really works; if you take the case of FrankenOCR, I was able to run the model ~3.3x faster end-to-end than the baseline PyTorch reference on the same machine; this applies to both Apple Silicon and x86, with hand-selected int8 kernels (NEON SDOT, AVX-512 VNNI) chosen at runtime so that one single binary per OS covers every CPU type.
+>
+> Much of the process is pretty general and recipe-like, but it does require a lot of rigor and care around correctness, and using the original version of the model distributed on HuggingFace (usually with PyTorch or similar used as the inference baseline) as part of a conformance harness so you can make optimizations without worrying whether you've broken something in a subtle way: as long as it gives the same answers as the original model (or close enough), you haven't broken things, and you can focus on making it faster and faster.
+>
+> I decided to mine from a huge number of agent coding sessions across those 3 projects I mentioned (and use all my other skill-creation special sauce) to create a very special new skill called /ai-model-into-rust-mega-fused-hyper-kernel, available on my skills site ($20/month) here:
+>
+> https://t.co/qcXfvadSjq
+>
+> The skill is effectively the distillation of the expertise and experience learned over 5,000 commits, ~1,600 issue-tracker items, my performance and "negative-evidence ledgers" that I'm always talking about (just one of those ledgers is 26k+ lines by itself!) and extracting the methodology from what worked AND what didn't work. That last part is critical to avoid your agent wasting time trying things that are going to lead to dead ends.
+>
+> The skill itself is 46 files and over 300kb of pure distilled method: 21 deep reference files, a 16-card operator deck, 86 indexed rules, 12 triage recipes for when the process goes sideways, 8 subagent roles, and executable scripts including a bootstrap script that sets everything up for a new port automatically for you.
+>
+> You basically just point it at any open-weight model and it walks you through the entire thing step by step: a fit screen that tells you candidly whether the model is even a good candidate for this procedure; then a "truth pack" phase pins and hashes everything before it creates any new code so it can build an oracle that proves each pipeline stage against the original model's distributed implementation.
+>
+> I even included a ton of stuff echoing my recent sentiments about pushing back on out-of-control process and ceremony by agents, as well as keeping agents honest and avoiding reward hacking, so the skill should keep them actually being productive instead of just acting like it.
+>
+> Finally, as is my wont, here's Claude Fable's own take on what makes this skill so special and accretive:
+>
+> ---
+>
+> Everyone assumes the hard part of beating PyTorch in Rust is writing SIMD kernels. The kernels are maybe a fifth of the story. The real unlock is an evidence regime that makes radical specialization safe: "the discrete output is BIT-EXACT where the reference is deterministic; the continuous output is held only within the MEASURED tolerance."
+>
+> That one sentence is the entire safety argument. Everything else, from the L0-L5 parity ladder to oracle-before-engine sequencing to measuring the reference's own nondeterminism floor before setting any tolerance, is machinery for making it enforceable.
+>
+> The counterintuitive payoff of all that machinery is boldness. The projects this skill distills attempted an enormous number of aggressive optimizations: speculative decoding made byte-identical by construction; an int8 vocabulary head that recomputes its top candidates in exact f32 so the argmax provably never changes; batch schedulers proven lossless at four separate levels.
+>
+> They could afford to be that aggressive because failed attempts exited cheaply and honestly. Roughly ten levers were measured and dispositioned in a single campaign day. The discipline is what pays for the creativity.
+>
+> The most valuable artifact class, and the thing I have never seen another methodology treat as a first-class product, is the graveyard. Every measured-dead optimization carries an explicit do-not-retry predicate: the exact condition under which it becomes worth retrying.
+>
+> Those predicates then become work items, and when one is satisfied, a dead idea resurrects with evidence attached. The skill ships the full inventory as inheritable priors, so a new port starts with the accumulated scar tissue of three previous ones. A carefully recorded negative result is just a positive result on a time delay.
+>
+> And the graveyard's contents make the case better than any argument could. These are findings you cannot reason your way to; they only fall out of measurement. Apple's SMMLA matrix instruction, on paper double the throughput of SDOT, runs at half rate on M-series silicon, so the older instruction wins. Months later, LLVM's autovectorizer beat the hand-written SDOT kernel by 4.4x at decode shapes.
+>
+> It turned out the compiler had improved, and the hand-tuned SIMD everyone assumes is mandatory was the wrong answer twice over. int4 quantization ran 5.8x SLOWER than int8, because without a native packed dot product you pay 2.5x the memory traffic just to unpack it. Quantizing the vision tower destroyed accuracy while quantizing the decoder was essentially free: error compounds through a vision stack, but an argmax absorbs it.
+>
+> Any one of these would have cost days of confused debugging to rediscover; the skill hands you all of them, with the receipts.
+>
+> The lineage chapter may be the most instructive part. Nobody sat down and designed this methodology; it evolved across three generations. The search reranker invented parity-first and the thermal benchmarking discipline; the Whisper port invented the pinned incumbent contract and claim-coverage auditing; the OCR port invented the bring-up ladder and the certification apparatus.
+>
+> Each generation's inventions flowed backward into the others. Studying the diffs between generations teaches you how to adapt the playbook to a model class it has never seen, which is the actual skill.
+>
+> The strongest endorsement I can offer is a confession: during the final audit, the skill's own methodology caught its own headline number. The widely-quoted "3.41x faster than PyTorch" turned out to be an arithmetic slip in the original commit message; the hash-anchored ledger rows say 3.34x. The 3.41 figure was a different column entirely. When a methodology catches its own marketing claim, corrects it downward, and documents the slip, you can actually trust its numbers.
+>
+> Bluntly: this turns "we rewrote the inference stack in Rust and it's faster" from a heroic one-off anecdote into a repeatable engineering discipline. The deliverable is a fast binary plus an evidence trail rigorous enough that the next model, and the next agent, inherit everything the last one learned.
+
+- **Tweet:** https://x.com/doodlestein/status/2084661384726352164
+- **Link:** https://jeffreys-skills.md/skills/ai-model-into-rust-mega-fused-hyper-kernel
+- **What:** Jeffrey Emanuel distilled three specialized Rust ports of HuggingFace models — FrankenOCR, FrankenWhisper, FrankenSearch — into a $20/month Claude skill that treats beating PyTorch as an evidence discipline, not SIMD heroics. FrankenOCR ran ~3.3x faster end-to-end than the PyTorch reference with runtime-selected int8 kernels (NEON SDOT, AVX-512 VNNI); safety is bit-exact discrete outputs plus measured-tolerance continuous ones, enforced by a hashed "truth pack" oracle against the original HF model. The 46-file skill ships a fit screen, L0–L5 parity ladder, and a graveyard of measured-dead optimizations with do-not-retry predicates (SMMLA loses to SDOT on M-series; LLVM later beat hand-written SDOT 4.4x at decode; int4 ran 5.8x slower than int8 without a packed dot product). The linked page scraped as a skills-store browse UI, not the skill body.
+
+## @Cloudflare - Cloudflare Wallets for the agentic internet
+> Introducing Cloudflare Wallets. They will allow you to store stablecoins, purchase services, and receive funds across the web.
+
+- **Tweet:** https://x.com/Cloudflare/status/2084648084131242402
+- **Link:** https://blog.cloudflare.com/wallets/
+- **Filed:** [announcing-cloudflare-wallets.md](./knowledge/articles/announcing-cloudflare-wallets.md)
+- **What:** Cloudflare announced Wallets as programmable stablecoin accounts for the agentic web: humans hold an Account Wallet, agents get Virtual Wallets with allowances and allowlists, and both can pay x402 / Monetization Gateway endpoints so an agent can try APIs without a human login or credit card. Optional handles at cloudflare.pay give agents a stable, human-readable identity when merchants want attribution.
+
+## @floriandarroman - Send the parasite pSEO playbook to an agent overnight
+> You can literally:
+>
+> 1. send this to your AI agent
+> 2. go to sleep
+> 3. wake up to customers from Google
+>
+> *Quoting @borjafat:* Sharing the sauce until there's no more sauce to share.
+
+- **Tweet:** https://x.com/floriandarroman/status/2084629656427548847
+- **Link:** https://x.com/i/article/2084599815803998208
+- **Quoted:** https://x.com/borjafat/status/2084611086607601673
+- **Filed:** [7-step-claude-buy-intent-parasite-pseo-guide.md](./knowledge/articles/7-step-claude-buy-intent-parasite-pseo-guide.md)
+- **What:** Florian treats Borja's 7-step buy-intent parasite pSEO guide as a fire-and-forget agent job: send the playbook to Claude, sleep, and wake up to Google traffic from long-tail commercial pages published on already-trusted domains. The quoted post is the same overnight automation loop, not a new method.
+
+## @aliceisplaying - Papercuts CLI turns silent agent friction into a backlog
+> been using this since and it is paying dividents so well
+>
+> *Quoting @steveruizok:* I added a tiny "papercuts" cli tool that agents can use to complain about bullshit they encountered during work, like dead-end tool calls, broken links, or other frustrations. The models would usually just push through without mentioning any problems
+
+- **Tweet:** https://x.com/aliceisplaying/status/2084614900303741057
+- **Quoted:** https://x.com/steveruizok/status/2075303919664734295
+- **What:** Alice reports that Steve Ruiz's papercuts CLI has been paying dividends: it gives agents a place to log dead-end tool calls, broken links, and other harness friction they would otherwise silently push through, turning unspoken agent pain into a durable improvement backlog instead of lost context.
+
+## @borjafat - 7-step Claude buy-intent parasite pSEO guide
+> Sharing the sauce until there's no more sauce to share.
+
+- **Tweet:** https://x.com/borjafat/status/2084611086607601673
+- **Link:** https://x.com/i/article/2084599815803998208
+- **Filed:** [7-step-claude-buy-intent-parasite-pseo-guide.md](./knowledge/articles/7-step-claude-buy-intent-parasite-pseo-guide.md)
+- **What:** Borja's X article is a parasite-SEO playbook claiming 20.3 million clicks in 12 months: skip ranking a young domain by publishing buy-intent long tails (best product for ICP in city) on Medium, Substack, YouTube, and GitHub, then automate nightly publishing with Claude routines and browser use. The keyword universe is parent terms crossed with verticals and cities, scored so high-ARPU combinations ship first, with GEO-friendly formatting and a unique-stat requirement so AI systems actually cite the pages.
+
+---
+
+# Monday, August 3, 2026
+
+## @headinthebox - The optimal hypothesis is the weakest, not the shortest
+> Free tip of the day, if you have any kind of self improvement loop, show this paper https://t.co/F9y1RBJgW0 to the model and ask it to incorporate it.
+>
+> Then when we meet in person one day, you can buy me a beer as a thank you.
+
+- **Tweet:** https://x.com/headinthebox/status/2084414685701632406
+- **Link:** https://arxiv.org/pdf/2301.12987v4
+- **Filed:** [optimal-hypothesis-weakest-not-shortest.md](./knowledge/articles/optimal-hypothesis-weakest-not-shortest.md)
+- **What:** Erik Meijer tells anyone running a self-improvement loop to feed the model Bennett's AGI-23 paper, which argues that maximizing hypothesis weakness generalizes 1.1–5× better than picking the shortest (MDL) explanation, and that this is why DeepMind's Apperception Engine works. The practical change is to make the loop prefer weaker, broader hypotheses over compressed ones when it revises itself.
+
+## @doodlestein - Prompt that forces models to ban process-porn in AGENTS.md
+> When you catch Sol Ultra or Fable 5 wasting your tokens on endless useless ceremony and nonsense, hit 'em with this:
+>
+> » What you just did is *SO* bad and representative of everything we *must* avoid in this project: you devolved into "process porn" and useless ceremony, burned massive amounts of valuable tokens and TIME on stuff that most likely has NEGATIVE value rather than implementing the vast amounts of missing functionality this project needs to even remotely start to achieve its stated goals. I need you to write a section in AGENTS.md that would cause you in the future, upon reading it with a fresh state, to NEVER EVER, EVER, *EVER*, do ANYTHING LIKE THIS AGAIN.
+
+- **Tweet:** https://x.com/doodlestein/status/2084371451680104479
+- **What:** Jeffrey Emanuel's paste-ready rebuke for when Sol Ultra or Fable 5 burns tokens on ceremony instead of missing functionality: name the failure as "process porn" with negative value, then require the model to write an AGENTS.md section that a fresh-context future run would treat as a hard ban on that class of work. It is a harness-level correction — encode the anti-pattern into standing project instructions rather than arguing with the current session.
+
+## @coreyhainesco - Personalized landing pages and demo videos as the new sales floor
+> If you're in sales, this kind of stuff is the bare minimum now.
+>
+> *Quoting @hyperagentapp:* Agent-pilled sales teams are building custom landing pages + demo videos for every buyer in their outbound campaigns
+>
+> Response rates are in a different league
+>
+> This agent runs 24/7 in a loop:
+> >finds prospects with real buying signals in @useapolloio
+> >builds a custom page for each of them
+> >embeds a custom demo video rendered with @HyperFrames_
+>
+> Get this agent, Signal, on Hyperagent Marketplace: https://t.co/zoe6FRVSO4
+
+- **Tweet:** https://x.com/coreyhainesco/status/2084358864330498207
+- **Link:** https://hyperagent.com/marketplace/a/cca01KYTAED89_11Z0NP0NQ8AWWRYT
+- **Quoted:** https://x.com/hyperagentapp/status/2084293210772230354
+- **What:** Corey Haines treats Hyperagent's Signal marketplace agent as table-stakes for sales rather than a novelty: a 24/7 loop that finds Apollo buying-signal prospects, generates a custom landing page per buyer, and embeds a HyperFrames-rendered demo video — a personalization stack he says now defines the outbound response-rate floor.
+
+## @posthog - What nobody tells you about writing agent skills
+> https://t.co/TYThT0zBUt
+
+- **Tweet:** https://x.com/posthog/status/2084345938089316582
+- **Link:** https://x.com/i/article/2084328360755253248
+- **Filed:** [what-nobody-tells-you-about-writing-agent-skills.md](./knowledge/articles/what-nobody-tells-you-about-writing-agent-skills.md)
+- **What:** Ian Vanagas's PostHog essay from 226 internal skills and 187 SKILL.md files across 28 products: treat skills as routers via progressive disclosure (name/description only always-on; their SQL skill fans out to 26 schema files), write goals/constraints/irreducible context and leave steps/failures/runtime ambiguous so you don't strip the intelligence you're paying for, fight rot by splitting durable structure from volatile content and pointing at a single source of truth (their context-mill pipeline), ask the agent what it can do / needs / how the last run failed before prescribing, and only skill work that is repeated, default-bad, context-heavy, or loopable.
+
+## @VadimYuryev - Apple Mac leases qualify for Section 179 write-off via automatic buy-out
+> Update: Apple’s lease deal is MUCH better than I expected.
+>
+> Since the automatic option is a buy-out if you take no action after your lease ends, it qualifies for the Section 179 asset deduction rule for businesses.
+>
+> This means you can lease a $2,999 MacBook Pro and pay $0 down, yet write off the full $2,999 on your taxes as a business expense.
+>
+> This reduces your income by $2,999, which can save someone in the 22% tax bracket $659.78 in taxes.
+>
+> This essentially (guy math) means you only paid $2,339.22 for a new computer worth $2,999.
+>
+> The tax savings go up if you’re in higher tax brackets. You’ll save $1,049.65 if you’re in the 35% tax bracket.
+>
+> Savings go up even more with more expensive models. The only problem is that you have to continue to pay it off and eventually buy it out, so don’t go all out.
+>
+> The best part is that every business including sole proprietorships qualify.
+>
+> Imagine the boost to Mac sales when hundreds of thousands of businesses figure this out.
+>
+> And if you decide to sell it after you buy it out, you technically have to repay taxes based on the sale price..
+>
+> But it’s a very useful tool to use if you had an unusually good year and your AGI (adjusted gross income) is right above the limits for certain tax advantages like child tax credits, QBI business deductions and more.
+>
+> Thanks @TaxHakr for pointing this out.
+>
+> *Quoting @VadimYuryev:* Explained this in today’s YouTube video. If you lease a $2,999 Mac, you pay $58 a month for 36 months. At the end, you owe $911 to pay it off or return it.
+>
+> However, Apple gives you 6 more months to decide. Meanwhile, you continue paying monthly payments of $53.
+>
+> You now have 6 months to save up $563 as the final payment to pay it off. If you fail to do so, you can return it back to Apple.
+>
+> It obviously makes sense to pay it off because you can then resell the $2,999 Mac for $1,500+ on eBay or Facebook marketplace instead of losing the $2,436 you paid over those 42 months.
+>
+> The beautiful thing about the deal is that you never pay more than the $2,999 MSRP because there are no lease or interest fees.
+>
+> You ONLY lose if you can’t pay the monthly payments or you can’t afford to pay off the final balance. (And keep in mind this is an expensive $2,999 M5 Pro 16” MacBook Pro)
+>
+> And as soon as you pay it off, you can restart a brand new lease plan if you’d like while keeping your paid off Mac.
+
+- **Tweet:** https://x.com/VadimYuryev/status/2084320556921565394
+- **Quoted:** https://x.com/VadimYuryev/status/2083973494019399952
+- **What:** Vadim Yuryev updates his earlier Apple lease walkthrough after TaxHakr flagged that the automatic buy-out if you take no action at term-end makes the deal a Section 179 asset for any business including sole props — so a $2,999 MacBook Pro leased at $0 down can be written off in full, saving about $660 at 22% or $1,050 at 35%, useful when AGI sits just above child-credit or QBI cliffs. The quoted thread is the cash-flow: $58/mo × 36 months plus a $911 residual, six extra months at $53 to decide, no interest above MSRP, resell-after-payoff math, and a restartable lease — with the caveat you still service payments and repay tax if you later sell.
+
+## @rileybrown - Scrapecreators as the must-use marketing skill from a 9-skill Codex masterclass
+> Every marketer in the world should be using "Scrapecreators" skill it allows you to pull data from any social media platforms.
+>
+> This is useful for influencer outreach, ideation, niche research, ads, UGC, twitter research, and more.
+>
+> That's the biggest takeaway from this video.
+>
+> *Quoting @agentnative_:* The 9 skills you should be using daily to get agents to run your marketing team.
+>
+> Codex and GPT Work for marketing (Masterclass)
+>
+> 00:00 Intro - what is codex?
+> 01:32  #1: Scrape Social Media
+> 05:49 #2: Turning Any Creator to A Skill
+> 09:10 #3: Scrape Competitor Ads
+> 14:05 #4: Build Ad Creatives
+> 15:58 #5: Firecrawl for Scraping Brand Assets
+> 20:57 #6: Schedule Social Posts
+> 23:38 #7: Google Drive Organization
+> 25:28 #8: Calendar Scheduling Links
+> 28:23 #9: Email Drafts at Scale
+> 33:22 Summary of Workflows Covered
+
+- **Tweet:** https://x.com/rileybrown/status/2084304730663088419
+- **Quoted:** https://x.com/agentnative_/status/2084303942716907819
+- **What:** Riley Brown singles out Scrapecreators as the one daily skill every marketer should run — a cross-platform social scraper for influencer outreach, ideation, niche research, ads, UGC, and Twitter research — after Agent Native's Codex/GPT Work masterclass that walks nine marketing-team skills: scrape social, turn any creator into a skill, scrape competitor ads, build ad creatives, Firecrawl brand assets, schedule posts, organize Google Drive, calendar scheduling links, and email drafts at scale.
+
+## @jackfriks - 3,000 Claude mentions in 30 days as an AEO signal
+> my little startup got mentioned 3,000 times by claude in the last 30 days...
+>
+> AEO is upon us. https://t.co/OQAqk232PI
+
+- **Tweet:** https://x.com/jackfriks/status/2084302762913775785
+- **What:** Jack Friks reports his small startup was mentioned about 3,000 times by Claude in 30 days and treats that volume as evidence that answer-engine optimization is now a live distribution channel, not a theory. The t.co resolves to the tweet itself (likely a mention-analytics screenshot that was not captured as media).
+
+## @hyperagentapp - Signal agent builds a custom page and demo video per buyer
+> Agent-pilled sales teams are building custom landing pages + demo videos for every buyer in their outbound campaigns
+>
+> Response rates are in a different league
+>
+> This agent runs 24/7 in a loop:
+> >finds prospects with real buying signals in @useapolloio
+> >builds a custom page for each of them
+> >embeds a custom demo video rendered with @HyperFrames_ 
+>
+> Get this agent, Signal, on Hyperagent Marketplace: https://t.co/zoe6FRVSO4
+
+- **Tweet:** https://x.com/hyperagentapp/status/2084293210772230354
+- **Link:** https://hyperagent.com/marketplace/a/cca01KYTAED89_11Z0NP0NQ8AWWRYT
+- **What:** Hyperagent is pitching Signal, a marketplace agent that loops 24/7: pull Apollo.io prospects that already show buying signals, generate a custom landing page for each buyer, and embed a HyperFrames-rendered custom demo video. The claim is that sales teams doing this 1:1 page-plus-video outbound see response rates in a different league from generic sequences. The link is a product listing, not a standalone essay.
+
+## @lilyraynyc - Culling thin SEO/GEO pages can recover big-brand rankings
+> When you start culling the SEO/GEO-driven content you had no business publishing in the first place 😅 a quick recovery is apparently possible for big brands. https://t.co/dnZXSIJfjq
+
+- **Tweet:** https://x.com/lilyraynyc/status/2084291620321501496
+- **What:** Lily Ray flags that large brands can bounce back quickly once they delete the SEO- and GEO-driven pages they never should have published — implying the ranking damage was self-inflicted thin or scaled content rather than a durable authority problem. It is a counter to the "publish more GEO pages" wave: for established entities, subtraction can be the recovery. The t.co resolves to the tweet itself (likely a chart that was not captured as media).
+
+## @alexgroberman - Cloudflare AI-bot defaults can hide you from AI search
+> Just a heads up: 
+>
+> Here is one of the important AI search updates of 2026.
+>
+> If you want to continue showing up in ChatGPT, Claude, Google's AI family, etc - pay attention.
+>
+> A lot of site owners are going to misunderstand what is happening and play this wrong. 
+>
+> Cloudflare is giving websites more control over AI bot traffic, which is good and appreciated in theory.
+>
+> That said, this also creates a new problem for businesses that still need to be discovered by Google, ChatGPT, Claude, Perplexity, Gemini, Grok and the rest of the AI search ecosystem.
+>
+> Let’s go through it.
+>
+> By the way, you can see whether your business is appearing across Google AI, ChatGPT, Claude, Perplexity and Grok here. It’s free:
+>
+> https://t.co/Pn764BHwyL
+>
+> Cloudflare recently announced new AI traffic controls for website owners.
+>
+> The big change is that they are splitting AI traffic into three buckets: Search, Agent and Training.
+>
+> Search means a crawler is collecting or indexing your content so it can answer questions about it later.
+>
+> That is usually the traffic most businesses want to allow, because that is how customers find you.
+>
+> Agent means automated behavior acting on behalf of a person in real time.
+>
+> Think of an AI assistant, chatbot or browser agent visiting a page because a human asked it to get something done.
+>
+> Training means a crawler is taking your content to train or fine-tune a model.
+>
+> That is the one a lot of website owners are increasingly uncomfortable with, for obvious reasons.
+>
+> For years, the deal was pretty simple in that search engines crawled your site and you got traffic back.
+>
+> Obviously, that deal has since gotten much messier.
+>
+> AI systems can crawl content, summarize it, reuse it, answer questions with it and sometimes send very little back to the original website.
+>
+> So Cloudflare is trying to give site owners more control.
+>
+> The issue is that blocking AI bots isn't really as black and white as it sounds.
+>
+> A SaaS company probably wants AI search systems to understand its product, pricing, use cases, comparisons, documentation and customer proof.
+>
+> That does not mean the same SaaS company wants every training crawler absorbing its best content forever.
+>
+> An e-commerce company probably wants AI search systems to understand its product pages, category pages, pricing, availability, shipping, returns and reviews.
+>
+> That does not mean it wants every agent, scraper or training crawler hitting the site with no upside.
+>
+> A local business probably wants to be found everywhere customers are searching.
+>
+> That does not mean it should allow every automated visitor just because it calls itself AI.
+>
+> That is the tradeoff and this is where I think a lot of companies are going to mess this up.
+>
+> They will hear “block AI bots” and treat it like an obvious win, or they will hear “AI search visibility” and assume everything should stay open.
+>
+> Both don't really tell the full story.
+>
+> What needs to be addressed is which bots help customers find you, which bots help customers take action and which bots are just extracting value from your site.
+>
+> Cloudflare is making that question much more explicit.
+>
+> Starting September 15, Cloudflare says it will update default settings around these categories.
+>
+> Search remains allowed by default.
+>
+> Training and Agent traffic will be blocked by default on pages that display ads for new domains onboarding to Cloudflare.
+>
+> Existing customers can review the settings and opt out of the new defaults if they want to keep things as they are.
+>
+> The most important part, though, may be how Cloudflare handles multi-purpose crawlers.
+>
+> Cloudflare says some crawlers combine Search with Training.
+>
+> And when a crawler has multiple purposes, Cloudflare wants it treated according to all of those behaviors.
+>
+> The most restrictive rule can win.
+>
+> So if a site owner blocks Training, a crawler that combines Search and Training may get blocked too.
+>
+> That is where this becomes a real search visibility issue, because if your settings block the wrong crawler, you may also be making your business harder to find.
+>
+> If you don't know how to make sure you're checking the right boxes on this, let SEO Stuff (https://t.co/wKpf0EILTx) help.
+>
+> That matters because a lot of businesses are already invisible in AI Search.
+>
+> And now some of those same businesses may accidentally block the systems that help them get discovered.
+>
+> Keep in mind, that does not mean every AI bot deserves access - a lot of them do not.
+>
+> But the strategy should definitely be more thoughtful than turning everything off.
+>
+> Allow the bots that create discovery.
+>
+> Be careful with the bots that only extract.
+>
+> Watch agent traffic differently from search indexing.
+>
+> Understand whether your content is being used for reference, summaries, reproduction or training.
+>
+> And make sure the pages that matter commercially can still be found.
+>
+> If you don't know how to do this, SEO Stuff (https://t.co/wKpf0EILTx) can help.
+>
+> The businesses winning in Search and AI Search right now are winning from specific commercial pages that help customers make decisions.
+>
+> Best X for Y when Z if 123.
+>
+> Alternatives to X if Y and Z is 123.
+>
+> X vs Y for Z and 123.
+>
+> Pricing.
+>
+> Use cases.
+>
+> Industry pages.
+>
+> Implementation guides.
+>
+> Comparison pages.
+>
+> Product documentation.
+>
+> Case studies.
+>
+> Customer proof.
+>
+> Those are the pages that need to be accessible to the right systems.
+>
+> A company can have the best product page in the world, but if search and AI systems cannot crawl it, understand it and verify it across the web, it may not show up when buyers ask for recommendations.
+>
+> This is where SEO Stuff steps in.
+>
+> The done-for-you package combines 10 AI-search-optimized pieces of content with three DR50+ authority placements:
+>
+> https://t.co/yEFyM0Ze7W
+>
+> The content helps your business cover the questions customers ask before buying, including problems, use cases, comparisons, pricing, alternatives, industries, objections, case studies, product details and implementation.
+>
+> The authority placements help your business show up across trusted sources that search and AI systems use to understand categories.
+>
+> And again, if you're curious about whether your business is appearing across Google AI, ChatGPT, Claude, Perplexity and Grok, you can check here. It’s free:
+>
+> https://t.co/Pn764BHwyL
+>
+> *Quoting @alexgroberman:* Google is now explicitly telling businesses to focus on AI search traffic alongside SEO.
+> 
+> This comes straight from Google’s John Mueller.
+> 
+> Someone asked him a question a lot of businesses are worried about right now:
+> 
+> “Is SEO still enough, or do we need to start thinking about GEO too? Ranking on Google doesn’t guarantee your brand will show up in ChatGPT, Gemini, or Perplexity.”
+> 
+> Mueller’s response speaks for itself.
+> 
+> He said:
+> 
+> “If you have an online business that makes money from referred traffic, it's definitely a good idea to consider the full picture.”
+> 
+> Translation:
+> 
+> Google no longer views old-school Google Search as the only distribution channel that matters.
+> 
+> And solving that problem is a big reason why SEO Stuff (https://t.co/wKpf0EILTx) is coming off another record month.
+> 
+> Then came the line from Mueller that a lot of people skimmed past:
+> 
+> “Thinking about how your site’s value works in a world where AI is available is worth the time.”
+> 
+> That is an acknowledgment that AI already changes how traffic, visibility and attribution work.
+> 
+> Ranking still determines eligibility, but AI does play an increasingly large role in site amplification.
+> 
+> (If you want to see where your site stands across Google and AI search, start here:
+> 
+> https://t.co/Pn764BHwyL)
+> 
+> Recently Google laid out what Search will look like from this point going forward.
+> 
+> The new Search box will accept text, images, files, videos, etc. And it'll anticipate your intent before you even finish asking your question.
+> 
+> It is already powered by the most advanced Gemini model ever put into search, and then layered on top of that, agents will now be able to run 24/7 in the background on behalf of the buyer.
+> 
+> The new Search process works like this:
+> 
+> Step 1: The buyer describes their problem, their category, their needs in full.
+> 
+> Step 2: The agent breaks that down into sub-topics and maps out a plan.
+> 
+> Step 3: It determines what intel is needed right now versus later.
+> 
+> Step 4: It monitors blogs, news sites, and social posts continuously for relevant changes.
+> 
+> Step 5: It sends the buyer a synthesized update with links and the ability to take action.
+> 
+> All of which is to say, blue links are not going away in the short-term, but AI's influence over Search isn't magically going to start decreasing.
+> 
+> If your business depends on referred traffic, pretending AI doesn’t exist is no longer realistic.
+> 
+> This all matters because AI systems don’t rank pages from scratch so much as they pull from the existing ecosystem. 
+> 
+> In doing so, they favor the following:
+> 
+> Pages that already rank well.
+> 
+> Sites with clear entity definitions.
+> 
+> Content that explains and compares
+> 
+> Brands that are consistently referenced and attributable.
+> 
+> Search in 2026 understands the topic and it needs to understand your business too.
+> 
+> And that’s also why SEO Stuff is structured the way it is.
+> 
+> Take the done-for-you plan, for example.
+> 
+> https://t.co/yEFyM0Ze7W
+> 
+> AI systems summarize and compare.
+> 
+> They repeatedly pull from:
+> 
+> Best X for Y pages.
+> 
+> X vs Y comparisons.
+> 
+> Decision-stage buyer guides.
+> 
+> Clear answers under question-based H2s.
+> 
+> The done-for-you plan optimizes content, builds authority and is engineered to:
+> 
+> Rank in Google first.
+> 
+> Be cleanly summarized by AI systems.
+> 
+> Answer questions directly and extractably.
+> 
+> Tie answers back to a specific brand.
+> 
+> Then there’s the done-for-you content package, which is for sites who have strong authority but aren't capitalizing on it.
+> 
+> https://t.co/4CAnUt07PO
+> 
+> Search in 2026 thinks in categories, entities and relationships.
+> 
+> If your site doesn’t clearly answer:
+> 
+> Who you are.
+> 
+> What category you belong to.
+> 
+> When you should be mentioned.
+> 
+> AI systems won’t include you consistently.
+> 
+> This package patiently builds:
+> 
+> Full topical coverage.
+> 
+> Entity reinforcement across use cases.
+> 
+> Category-level authority.
+> 
+> Freshness through expansion and updates.
+> 
+> This is how you start being a recognized entity.
+> 
+> And finally, the "authority-only" package, for sites that can handle optimizing content on their own but lack the authority necessary to be respected by Google and AI search.
+> 
+> https://t.co/Z9m9D7TjES
+> 
+> Every serious study we’ve covered shows the same thing.
+> 
+> AI systems are conservative.
+> 
+> They reuse sources they already trust.
+> 
+> Yes, backlinks from real, authoritative domains help rankings, but they also tell AI systems:
+> 
+> “This source is safe to repeat.”
+> 
+> Look, if your SEO foundation is weak, AI will expose it faster.
+> 
+> If your foundation is strong, AI will amplify it across:
+> 
+> Google Search.
+> 
+> AI Overviews.
+> 
+> Gemini.
+> 
+> ChatGPT.
+> 
+> Perplexity.
+> 
+> And so forth.
+> 
+> Google is literally telling you to understand how visibility actually works now.
+> 
+> You should listen.
+> 
+> And if you want to see where your site stands across Google and AI search, start here (it's free):
+> 
+> https://t.co/Pn764BHwyL
+
+- **Tweet:** https://x.com/alexgroberman/status/2084264894782935480
+- **Link:** https://www.seo-stuff.com/free-audit
+- **Quoted:** https://x.com/alexgroberman/status/2083905064314483049
+- **What:** Groberman warns that Cloudflare's September 15, 2026 split of AI traffic into Search, Agent, and Training will be misplayed: Search stays allowed by default, but Training and Agent will be blocked by default on ad-bearing pages for new Cloudflare domains, and multi-purpose crawlers inherit the most restrictive rule — so blocking Training can also kill the Search crawler that feeds ChatGPT, Claude, Perplexity, Gemini, and Grok. Allow discovery crawlers, treat extract-only training separately, and keep commercial decision pages (comparisons, alternatives, pricing, use cases, proof) crawlable. The quoted prior thread is John Mueller telling businesses SEO-alone is no longer enough — consider GEO and the full referred-traffic picture as Google Search becomes multimodal and agentic — plus a pitch for SEO Stuff's done-for-you content, DR50+ placements, and a free AI-visibility audit. The links are marketing pages, not a standalone essay.
+
+## @Charles_SEO - Finish GSC positions 9–30 with self-contained answer blocks
+> HUGE AI SEO TIP THAT COSTS $0 AND TAKES UNDER 30 MINUTES ⏲️🔥🔥
+>
+> STEP 1 - Pull the data
+>
+> Search Console → Performance → last 90 days → filter to positions 9-30 → export > CSV.
+>
+> Those are pages Google ALREADY trusts - It's testing them, its just hasn't committed.
+>
+> And you don't need to build anything NEW, just update what is already there with the next few (easy) steps:
+>
+> STEP 2 - Find the queries you rank for but never actually ANSWER
+>
+> This is the bit almost nobody does.
+>
+> Filter each page by its queries - You'll find terms it's picking up impressions for where the page never directly answers the question.
+>
+> Google is telling you exactly what it thinks the page is about, and exactly where the page is failing to deliver it.
+>
+> Free, sat there, but inored.
+>
+> STEP 3 - Feed it to the AI properly
+>
+> Drop the CSV into Claude (Cowork if you've got it) with the page content alongside it.
+>
+> Do NOT ask it to "optimise the page" - You'll just get 400 words of air.
+>
+> Ask it to do this instead:
+>
+> "For each query this page ranks 8-20 for but does not directly answer, write a self-contained block: an header (H2 or H3/H4 if it can be under an existing block) matching the query as literally as possible, then a 1-2 sentence direct answer, then 2-3 supporting lines or bullet points or claims depending on the query. 
+>
+> Claim and evidence must sit in the same block - No intro, no padding, just give the machine what its looking for.
+>
+> Add in 2-3 of the top surfacing competitors for even better consensus+uniqueness matching, and that's it! You've got a page that should skyrocket in visibility, and a system you can do over and over again.
+>
+> STEP 4 - Understand why THAT structure
+>
+> Because retrieval doesn't work like ranking.
+>
+> Your page gets split into chunks (or "passages" for AI Overviews - If the answer is in one chunk and the proof is in the next, the model pulls one WITHOUT the other. 
+>
+> Self-contained blocks aren't a formatting preference.
+>
+> They're the difference between being extracted and being skipped.
+>
+> STEP 5 - Internal links, done PROPERLY
+>
+> Get the AI to map every semantically related page on the site and plan the links both ways - Use your sitemap/s to support this + a Screaming From (or SiteBulb, or Ahrefs, or whatever you prefer) crawl of the actual site.
+>
+> Rule of thumb still holds: Roughly 1 internal per 50 words, 1 external per 150.
+>
+> But anchors matter more than they used to - "Click here" and "read more" pass link value and ZERO association - Use the entity, and use the relationship.
+>
+> STEP 6 - Date it and ship it
+>
+> Visible last-updated in the HTML, not just schema.
+>
+> Freshness is becoming a live retrieval signal now, not a vanity stamp. An unmaintained page from 2023 loses to a mediocre one updated last week.
+>
+> I ran this exact process on ONE old post earlier this year - it went from 17 visits/month to 4,000+ uniques, and $16,700/mo in organic traffic value (according to Ahrefs).
+>
+> One post - One 30 minute update, no new linksn nothing built from scratch and AI did 90% of the work...
+>
+> And every one of those pages is already inside Google's trusted set for that query. You're not fighting for entry, you're just fighting for the answer.
+>
+> That's a completely different battle and it's a much easier one to actually achieve...
+>
+> Stop building.
+>
+> Start finishing what you've already got 🎩
+
+- **Tweet:** https://x.com/Charles_SEO/status/2084231189620257002
+- **What:** Floate's $0 playbook is to stop publishing new pages and instead finish the ones Google already tests at positions 9–30. Export that Search Console slice, find queries the page ranks for but never answers, then have Claude write self-contained H2/H3 blocks — a header that matches the query literally, a 1–2 sentence direct answer, and the evidence in the same chunk — so AI Overviews and passage retrieval can extract a complete answer instead of splitting claim from proof. Pair with entity-rich bidirectional internal links (~1 per 50 words), a visible last-updated stamp, and 2–3 competitor pages for consensus-plus-uniqueness. He claims one old post went from 17 to 4,000+ monthly uniques and about $16.7k/mo in Ahrefs traffic value after a 30-minute update with no new links.
+
+---
+
+# Sunday, August 2, 2026
+
+## @DanKulkov - Claude Code Namecheap-to-SEO loop for ChatGPT recommendations
+> > give claude code API access to Namecheap
+> > build new ios app
+> > claude buys domain
+> -- name .app
+> -- nameapp .com
+> > claude ships Astro landing page for new app
+> > claude publishes 30 SEO articles about your app
+> -- Best X in 2026
+> -- Competitor vs. X
+> -- Competitor Alternatives
+> > congrats, you are now getting recommended by ChatGPT because the competition is MUCH lower
+>
+> closest to marketing on auto-pilot
+
+- **Tweet:** https://x.com/DanKulkov/status/2084116197415772667
+- **What:** Dan Kulkov sketches a near-autopilot go-to-market loop: give Claude Code Namecheap API access, let it buy a .app plus the matching .com, ship an Astro landing for a new iOS app, then publish ~30 programmatic SEO pages ("Best X in 2026", competitor-vs, alternatives) so ChatGPT starts recommending the product. The bet is that agent-written comparison content is now the cheapest way onto LLM recommendation surfaces because that citation graph is still much thinner than Google's.
+
+## @TMTLongShort - Dating-app scale, situationships, and male opt-out
+> Dating apps introduced distribution at scale to the sexual marketplace.
+>
+> Men value access to sex while women value the possibility of a long-term relationship.
+>
+> Because sex can be fleeting and without recourse men are willing to sleep with women that are below them in “value” in the sexual marketplace.
+>
+> Because women are focused on relationships and procreation they are generally more likely to attempt  to maximize the “value” of their chosen mate in the sexual marketplace.
+>
+> As a result of scaled digital distribution and the receding taboo around hookup culture women suddenly found that they had instant access to men that wouldn’t typically hit on them in real life let alone pursue a relationship with.
+>
+> They could open an app and find a man that they previously thought was out of their league who is drunk or horny at any time of the day or night.
+>
+> Initially this simply resulted in women calling guys assholes at a growing clip in parralel with the instances of less attractive women who were hooked up with and then instantly dumped by guys hotter than them.
+>
+> But then something strange happened.
+>
+> First we started seeing women come to terms with the fact that they were hooking up with guys out of their league. But instead of lowering their standards they just started re framing them as “situationships” and “rosters” because it was less painful vs accepting that they were dating out of their league.
+>
+> Then the vast majority of guys who were by default increasingly ignored by the majority of women who were all pursuing the small cohort of “higher value” guys … will these “lower value” guys just started opting out of the sexual marketplace entirely.   They started “locking in” or “getting red-pilled”.
+>
+> Meanwhile because men will tell women whatever they want to hear to get laid and women lie to each other out of tribalism and intra-gender competition there was no one to tell the girls that they were increasingly delusional in their dating expectations or that things like age-based looks were far more important to most men vs a women’s career progression.
+>
+> This led to rampant dating expectations on the female side further alienating the median male even as “high value” men seemed to be exempt from any expectations.
+>
+> In other words if you’re hot you can call her at 3am and then ignore her the next day and she’s fine with it but if you’re a normal  guy you better be sending her an uber to a nice restaurant with flowers.
+>
+> But because of social media the average men became increasingly aware of this phenomena. And now they’re enraged.
+>
+> Either they become obsessed with getting hot (clavicular) or they start to just hate women in an unhealthy adversarial way.
+>
+> At the same time because of the increased hookup component with guys out of their traditional “league” on the female side a whole industry of female influencers have popped up to make women feel better about their newly found sexual liberation.
+>
+> Now to be clear there is definitely a component of traditional and religious framing of sex that women have been moving past for decades.
+>
+> But this is something else.
+>
+> This has become mostly women who would prefer to be monogamous with one guy but being forced into a more fluid situation of dating multiple guys at once simply because that lets them retain access to those guys who are out of their league.
+>
+> And so influencers like Alex Cooper have built an entire genre of female empowerment around reducing the shame associated with sleeping with hot guys who won’t commit to you.
+>
+> Now where it gets dark is not only are the non-hot men resentful.
+>
+> The first cohort of women from the dating app era are just hitting the proverbial wall. And they are realizing that the previously mentioned hot guys by virtue of digital distribution have access to newly minted early 20s girls and find that more attractive vs women in their 30s.
+>
+> Continued below…
+>
+> *Quoting @matt_slotnick:* @TMTLongShort how would you explain this to someone who has no clue what this means
+
+- **Tweet:** https://x.com/TMTLongShort/status/2084038397685899578
+- **Quoted:** https://x.com/matt_slotnick/status/2084032019873599871
+- **What:** Answering Matt Slotnick's request for a plain-English explainer, TMTLongShort argues dating apps scaled sexual-marketplace distribution so women suddenly had always-on access to higher-status men willing to hook up down-market, while those women kept relationship-maxing standards and rebranded the mismatch as situationships and rosters. Median men, ignored by default, opted out ("locking in," red-pill) and then got angry as social media made the double standard visible — hot men get 3am passes, average men owe Ubers and flowers. A female-influencer industry (e.g. Alex Cooper) destigmatizes non-committal sex with hotter men even as many of those women would prefer monogamy, and the first app-era cohort is now hitting the "wall" as digitally distributed younger women outcompete them. Long-form market-structure take, not a study; the thread continues below this post.
+
+## @EXM7777 - YouTube-channel ingest skill that fact-checks transcripts into Obsidian
+> i built a skill that ingests entire YouTube channels into my knowledge base (and you should absolutely do the same):
+>
+> it runs first whenever i take on a domain i've never touched, alongside a fleet of deep research subagents and /last30days scraping the socials
+>
+> then a simple loop walks every transcript:
+> - extract what's worth keeping
+> - fact check it
+> - confirm it still holds today
+> - file it as a note in Obsidian
+>
+> the workflows that come out the other side barely resemble what a single prompt would have given me
+>
+> deep research is where my time and money go... and it shows in everything built after
+
+- **Tweet:** https://x.com/EXM7777/status/2083977128144670731
+- **What:** Machina (EXM7777) describes a Claude skill that dumps an entire YouTube channel into a personal knowledge base as the first move on any new domain, running in parallel with deep-research subagents and a /last30days social scrape. A loop then walks every transcript — extract keepers, fact-check, confirm it still holds, file an Obsidian note — so the resulting workflows look nothing like a single-prompt dump. The claimed moat is research spend: time and money go into that ingest/verify/file pipeline, and everything built afterward inherits the corpus.
+
+## @rileybrown - Crowdsourcing GPT work business use cases after Simon's discoverability critique
+> I was inspired by this thread. Filming a video today on the top 20 use cases of GPT work for business.
+>
+> I don't want to miss anything. Please comment below tell me how you're using it. I will test it and include it if its good!
+>
+> *Quoting @simonw:* There's just one huge problem: discovering these features is WAY too hard - it's the same problem as voice assistants like Siri, or even CLI environments like the Linux terminal, there's no discoverability to these things at all
+
+- **Tweet:** https://x.com/rileybrown/status/2083976434431758491
+- **Quoted:** https://x.com/simonw/status/2083705504782803072
+- **What:** Riley Brown is turning Simon Willison's GPT work thread into a filmed "top 20 business use cases" video and is asking the timeline to dump workflows so he can test and include the good ones. Simon's quoted beat is the product problem underneath: GPT work's features are as undiscoverable as Siri or a Linux terminal, so capability sits unused unless someone maps the jobs-to-be-done. The bookmark is a call for examples plus a pointer at that gap, not a finished taxonomy.
+
+## @MarcosHernanz - Full AGENTS.md after ~60B tokens of agent work
+> After doing ~60B tokens, this is my full AGENTS.md https://t.co/VVXIwtSAcO
+>
+> *Quoting @MarcosHernanz:* I always add this to my AGENTS.md https://t.co/owCKiM9p4v
+
+- **Tweet:** https://x.com/MarcosHernanz/status/2083954734487212511
+- **Quoted:** https://x.com/MarcosHernanz/status/2083011475346510240
+- **What:** After burning through roughly 60 billion tokens of agent work, Marcos Hernanz posts the complete AGENTS.md he now actually runs, quoting his earlier habit of always dropping a particular snippet into that file. Both t.co targets resolve back to the tweets rather than a gist or repo, so the instruction file itself is in uncaptured media — the bookmark is a high-volume operator treating AGENTS.md as a living spec, not a one-line stub.
+
+## @KingBootoshi - 3D-Printed Cat Water Turret One-Shot by Fable
+> got tired of my cats jumping on my counters
+>
+> so i 3d printed and programmed an automatic cat turret that shoots water if it detects them on the counter
+>
+> the print finished today
+>
+> just waiting on parts now 😏
+>
+> (Fable one shot the design + CAD + software btw)
+
+- **Tweet:** https://x.com/KingBootoshi/status/2083950798611132454
+- **What:** Hardware demo of the AI-CAD loop going all the way to a physical object: an automatic countertop cat-deterrent turret that fires water on detection, with Fable one-shotting design, CAD, and software and the 3D print already finished while waiting on parts. It is a concrete "you can just make the thing" example — perception plus actuation in the real world — not a software-only vibe-code clip. The t.co is media on the tweet.
+
+## @doodlestein - Show Mutuals as a Percent of Followers on X
+> The X interface should really compute the number of mutuals you have with a person as a % of their total followers (so 82/749 = 10.9% in this example) and show you that in some kind of normalized (percentile ranked?) way. And let you sort on that when viewing your followers.
+
+- **Tweet:** https://x.com/doodlestein/status/2083905659473481948
+- **What:** Product request for X: stop showing raw mutual counts and instead surface overlap as a share of the other person's follower graph (82/749 = 10.9% in the example), optionally percentile-ranked, and make that sortable on the followers list. The point is social-graph density — how much of their audience is already yours — which raw follower and mutual numbers hide. The t.co is a photo illustrating the example, not an external link.
+
+## @orphcorp - Agent Context Turns ADHD System-Building Into Output
+> relatedly, a core adhd failure mode is Building A System While Avoiding The Task
+>
+> providing & engineering context for an agent turns the Building A System part into a reward loop by getting the agent to act on context & produce an output
+>
+> this plays right into adhd strengths
+>
+> *Quoting @orphcorp:* cc/codex are such a boon to people with adhd by means of decreasing activation energy & holding context/intention for them, that even if your org is tokenminning, extra usage should be included as part of adhd accommodations
+
+- **Tweet:** https://x.com/orphcorp/status/2083901970784342481
+- **Quoted:** https://x.com/orphcorp/status/2083228484457890270
+- **What:** Self-quote pairing two ADHD-and-agents claims. The quoted tweet argues Claude Code/Codex should count as accommodations because they cut activation energy and hold intention even when orgs are token-mining. The new beat is mechanism: the classic trap of "building a system instead of doing the task" becomes productive once that system is context for an agent that actually acts and produces output, converting the setup-loop into shipped work rather than endless scaffolding.
+
+---
+
+# Saturday, August 1, 2026
+
+## @doodlestein - Push Back Against Agent Process Porn
+> Push back against agent-induced "process porn" and ceremony, lest your swarms devolve into endlessly churning acceptance certificates and gates instead of actually implementing the useful features and functionality you want. And keep 'em honest:
+
+- **Tweet:** https://x.com/doodlestein/status/2083763029993292168
+- **What:** A failure-mode warning for multi-agent coding swarms: left unsupervised they invent ceremony — acceptance certificates, gates, process artifacts — and spend tokens proving they followed procedure instead of shipping features. The prescription is to treat that paperwork theater as a bug in the harness, not a sign of rigor, and keep agents accountable to useful implementation. The attached t.co is a photo on the tweet, not an external write-up.
+
+## @karpathy - Opus 5 Renders LOTR as a Procedural JS World
+> We're starting to leave the territory where you'd test an LLM by e.g. "create an svg of pelican on a bicycle". As one idea to generalize it, I was interested what Opus 5 would do if I gave it the first paragraph of the Lord of the Rings, a 1M token budget (~$10) and asked for three js render of it. Opus went off for ~2 hours and wrote 5500 lines of code that (procedurally) rendered the story. It's kind of janky but fun. But it's a bit mindboggling that the LLM has to place and orchestrate various polygon assets in (x,y,z) coordinates and write code that animates it all, and that it even does anything at all.
+>
+> I also like this kind of examples because no one in their right mind would ever spend the time to write something this custom but LLMs have all the stamina and patience in the world, so it's an example where we go from "no one would ever do this" to "sure, why not, it's ~free". There might be a lot more. But I'm excited about creating hyper custom worlds that you can imagine dropping players into, e.g. here to participate in the LoTR story as a spectator NPC, or one of the characters, or etc. Something like an ephemeral GTA of X on demand.
+>
+> Last thought is that the domain of worlds/games exposes a weakness in LLMs: they can't easily audit their work because they aren't able to efficiently and natively perceive videos or play games within them. Here, Opus 5 had to very slowly and painstakingly take screenshots at different points, and it messed up a few times and created a bunch of jank. An example of raw capability (multimodal, gameplay) that I think is still quite lacking.
+
+- **Tweet:** https://x.com/karpathy/status/2083749667410727319
+- **What:** Karpathy is retiring the "pelican on a bicycle" SVG as an LLM capability test and replacing it with a stamina-and-worlds eval: Opus 5 spent ~2 hours and a 1M-token budget (~$10) turning the opening of Lord of the Rings into 5,500 lines of procedural three.js. The economic claim is that models now make hyper-custom interactive worlds cheap enough that "nobody would ever hand-write this" becomes "sure, why not" — toward on-demand ephemeral games — while the failure mode is still perception: the model cannot natively watch or play what it generated, so it audits by screenshotting and leaves jank.
+
+## @danielfazio - Newsletter merge fields that pre-fill checkout email
+> They don’t want you to know you can push email & name merge fields into the links of your newsletter then auto pass those parameters to your checkout so the user doesn’t need to type their email at all, ever
+
+- **Tweet:** https://x.com/danielfazio/status/2083747685450830107
+- **What:** Daniel Fazio's checkout conversion trick: stamp email and name merge fields into newsletter URLs so those query params flow into the payment page and pre-fill identity, meaning a subscriber never has to retype their email at checkout.
+
+## @nakasyou0 - local-mcp: ChatGPT Chat as unlimited local coding via MCP
+> カスのライフハック: ChatGPT Chat は Codex の使用量を食わないのでローカル接続プラグインを使えば無限にコードを書かせられる: https://t.co/H126QR5pE6 https://t.co/W8vsvVJNRj
+
+- **Tweet:** https://x.com/nakasyou0/status/2083740389471904012
+- **Link:** https://github.com/nakasyou/local-mcp
+- **Filed:** [local-mcp.md](./knowledge/tools/local-mcp.md)
+- **What:** nakasyou's quota lifehack: ChatGPT Chat does not consume Codex usage, so wiring ChatGPT to local-mcp (a 298-star Rust MCP server for sandboxed local file/image reads, writes, and commands using Codex's Landlock/Seatbelt sandbox, plus approved unsandboxed exec) lets you drive unlimited local code edits through Chat instead of burning Codex. One `local-mcp mcp` process serves multiple sessions; `start` prints the session ID the agent must pass on every tool call.
+
+## @_xjdr - Codex will stop disk-wide scans that burn SSD IOPS
+> codex will never again scan my hard drive for replay, continuation or fts . no more sqlite killing ssd or my iops. https://t.co/O55hhrgeye
+
+- **Tweet:** https://x.com/_xjdr/status/2083702753046708548
+- **What:** LINK_FAILED: Could not expand link from @_xjdr — the t.co resolved to a photo on the same tweet, not a repo or changelog. The claim is that Codex will stop scanning the whole disk for session replay, continuation, and full-text search, ending SQLite-driven SSD IOPS burn.
+
+## @Vtrivedy10 - Two buckets for agent evals: world-state and trajectory judges
+> great write up, evals are hard!  here are 2 broad buckets we use to evaluate agents:
+> 1. Measure the State of the World
+> 2. Agent as a Judge on the Trajectory
+>
+> 1. Measure the state of the environment before and after the Agent does the Task.
+>
+> @harborframework and containerized Evals make this easier.  The agent thinks in operating in a real world and we need to set up that world (files, installed tools, security boundaries, instructions) such that it mirrors what the agent will do in the real world.
+>
+> Every action the agent takes alters the world in some way.  And success on a task means running a verification step on the final state of the world after the agent is done to see if this state corresponds to a successful pass.
+>
+> The tricky thing here is calibrating when the agent produces a final state that’s technically correct but your verifier didn’t forsee - you often want to allow this to pass or make sure the correct end state is capturable by your verifier.
+>
+> 2. Judge the trajectory -> Correctness is not the only factor - cost, latency, interpretability matter too.  Those require understanding the action space
+>
+> The right answer is a good signal, but if the agent got there by cheating the Task then that means our agent is misaligned AND our task is bad because it allows cheating.
+>
+> If the agent is inefficient with cost/tokens, then that’s a signal that we may need to imbue more priors to help it find the correct trajectory (could be better prompting)
+>
+> we’ll be doing a bunch more educational content and open sourcing our tooling, reach out if there’s anything you want to see in particular!
+>
+> this should be accessible and easy for every team to do!
+>
+> *Quoting @cwolferesearch:* Why is evaluating agents so difficult relative to evaluating a standard LLM?
+>
+> An LLM generates a single response to a prompt. An agent instead interacts with an environment by reasoning, calling tools, observing the results, and repeating. Rather than evaluating a single output, we are evaluating a full trajectory for a long horizon problem.
+>
+> Outcome & environment. Success is usually determined by the final outcome. Instead of checking the agent’s output, however, we usually check the actual state of the environment after a trajectory completes. For example:
+> - A coding agent can say it fixed a bug but still fail test cases.
+> - A personal assistant could say “your flight has been booked!”, but we don’t know if this is true until we check the booking database.
+>
+> The environment plays a huge role in the evaluation process. For example, we need a stable environment that does not change over time in order to run reliable evals, and we need this environment to be efficient so that evals can be run efficiently. Additionally, the environment must be realistic and expose the proper harness / tools for the agent to be effective.
+>
+> Environment state. The final answer is only one part of the evaluation. We also need to understand how the agent reached that answer. Did the agent use the correct tools? Did it interact efficiently with the environment? We can validate certain tool calls, check for intermediate solutions in the trajectory, and look at how many turns / tokens were used.
+>
+> Verifying intermediate trajectory states is common in agentic evaluation. If the agent solves a task, then this provides a valuable signal. But, what do we do if the agent solves a small ratio of tasks in a benchmark? In this case, we need to have a more granular measure of performance that allows us to understand how close the agent came to solving certain problems.
+>
+> Agent evals are expensive. Unlike traditional LLM benchmarks, agent evaluations can span long time horizons with many reasoning steps, tool calls, and environment interactions. A single evaluation may require vast amounts of generated tokens and dozens or hundreds of interaction turns with the environment. For this reason, agent evaluations are much more difficult to both curate and run! This data is super complex and even solving a single task can be expensive.
+>
+> Less data, more noise. Because each evaluation is costly, we typically run far fewer examples than in traditional LLM benchmarks. This is both because each task can take a long time to run and because curating the data / setup for each task is expensive. Rather than evaluating single dataset examples, we are asking the agent to solve a real problem. As a result, we usually have smaller evaluation dataset with higher variance, making reliable measurement difficult.
+
+- **Tweet:** https://x.com/Vtrivedy10/status/2083701846816817297
+- **Quoted:** https://x.com/cwolferesearch/status/2083588813675274301
+- **What:** Cameron Wolfe's thread explains why agent evals dwarf single-turn LLM benchmarks: you score a long-horizon trajectory against a realistic, stable environment's final state (tests passing, booking actually in the DB), plus tool choice, turn/token cost, and intermediate progress — all while each example is so expensive that datasets stay small and noisy. Viv answers with two practical buckets: Harbor-style containerized before/after world-state verification (calibrated so unforeseen-but-correct finals still pass) and an agent-as-judge on the trajectory so cheating, token waste, and latency are not hidden by a lucky right answer, with more open-source tooling promised.
+
+## @Vtrivedy10 - No universal model or harness — fit intelligence to your taskset
+> some truths of agent dev:
+>
+> - there’s no universal model (spiky intelligence across tasks)
+> - there’s no universal harness (needs to match your Taskset)
+>
+> there’s only tailored intelligence -> a well fitted harness + model(s) selection for to your company tasks
+>
+> you can basically always get a better, cheaper, or faster agent by tweaking the harness instead of using someone else’s default
+>
+> Making real evals that mirror what your agents will actually do (not public benchmarks) is how you discover the optimal model+harness settings
+>
+> You can pick a point on the Pareto of performance, cost, latency by investing time and compute to discover the optimal settings.
+>
+> by “fitting” (harness eng or fine-tuning) to your evals, your agent has the same behavior your evals capture
+>
+> Often you’ll reach a “good enough” point far the optimal and that’s fine
+>
+> and you can keep doing this in a loop as new models come out and you collect Trace data on how real users use your agent
+>
+> one by one each of these recipes will be fully open source with examples for tons of economically valuable tasks
+>
+> and you can adapt them to your problem
+>
+> and own your intelligence
+
+- **Tweet:** https://x.com/Vtrivedy10/status/2083686751919329718
+- **What:** Viv's agent-dev doctrine: there is no universal model (intelligence is spiky) and no universal harness (it has to match your taskset), so the winning move is fitting harness plus model choice to company-specific evals rather than borrowing someone else's default. Public benchmarks will not find the Pareto of quality, cost, and latency; production-mirroring evals will, and "good enough" on those evals is a valid stop while you loop as new models and user traces arrive. The recipes are meant to be open-sourced per economically valuable task so teams can adapt them and own the intelligence.
+
+## @lozaning - Become your own wireless carrier, teaching it at DefCon
+> I'll teach you how to do this next Friday at DefCon
+>
+> *Quoting @lozaning:* The government and Verizon dont want you to know that you can just become your own wireless carrier.
+
+- **Tweet:** https://x.com/lozaning/status/2083609695189598379
+- **Quoted:** https://x.com/lozaning/status/2002809206098067908
+- **What:** Lozaning is teasing a DefCon Friday session on standing up as your own wireless carrier — a claim he first posted as something "the government and Verizon don't want you to know" — turning a provocative private-RAN/MVNO hint into a conference teach-in. The original attached media on the quoted tweet did not expand beyond the status itself, so the how-to lives in the talk rather than a linked write-up.
+
+## @denohawari - LLM SEO is the 2003 Google window again, maybe 18 months
+> we're literally in 2003 SEO right now
+>
+> most founders don't realise this and they're going to look back in 2 years furious they didn't move
+>
+> in 2003 you could publish a blog post and rank on Google in a WEEK
+>
+> publish 10 pages, get 50,000 monthly visitors
+>
+> almost every SEO agency that exists today was built on that window
+>
+> the window closed around 2010 when everyone caught on, and ranking on Google has been a 12-month grind ever since
+>
+> LLM SEO right now is the exact same window
+>
+> AI overviews already appear in 48% of Google searches
+>
+> ChatGPT has rewired how an ENTIRE generation looks things up
+>
+> we're ranking clients in ChatGPT, Claude, and Gemini in weeks
+>
+> the brands moving right now will own the default AI answer for their entire category
+>
+> and 90% of ranking in LLMs requires SEO fundamentals, which means the brands with traditional SEO foundations are about to eat everyone else alive
+>
+> the 18-month window everyone wishes they'd seen in 2003 is open again
+>
+> most founders are going to wait for "more data" and miss the entire opening
+>
+> the data is the case studies stacking up right now
+>
+> you've got maybe 18 months
+
+- **Tweet:** https://x.com/denohawari/status/2083602434463768841
+- **What:** Deno analogizes today's generative-engine ranking to 2003 Google, when a week's posts could mint an agency before the 2010 grind: AI overviews already hit 48% of Google searches, ChatGPT has reset discovery for a generation, and his shop claims ChatGPT/Claude/Gemini rankings in weeks. He says ~90% of LLM ranking is still classic SEO fundamentals, so incumbents with that base will own the default AI answer for their category, and the opening lasts maybe 18 months — waiting for more data is how people miss it.
+
+## @CarlWeische - Checkout testimonials that answer "why not a competitor?"
+> You're most likely losing a lot of sales because you don't have testimonials in your checkout that handle the "why not a competitor?" objection.
+>
+> There's a reason IM8 runs this.
+>
+> But really, any social proof you show in checkout is likely to increase CVR by a few % so start there
+
+- **Tweet:** https://x.com/CarlWeische/status/2083583037581693437
+- **What:** Carl Weische argues checkout conversion leaks because the social proof there rarely answers the competitor-switch objection — IM8 (Bryan Johnson's supplement) is the example of doing it on the payment page — and that even generic checkout testimonials tend to lift CVR a few points, so put any proof on the pay wall before optimizing the copy. The attached media resolved back to the same status rather than a landing page.
+
+## @eptwts - Scrape competitor social ads into an agent-readable research DB
+> if you post content on any form of social media to promote your products & you're not scraping competitors like a maniac, you need to re-evaluate your ops...
+>
+> scrape all content promoting products like yours, rank by performance, outliers, sales intent, engagement ratio, etc.
+>
+> you NEED a database like this that your agent can access to give you ideas / scripts / automatically create content for you
+>
+> without a solid research layer you're basically cooked
+
+- **Tweet:** https://x.com/eptwts/status/2083574594686930964
+- **What:** EP's ops claim is that social product promotion without a continuously scraped competitor-content store is flying blind: pull every post selling adjacent products, rank by performance, outliers, sales-intent, and engagement ratio, then let an agent mine that table for ideas, scripts, and auto-generated creative. The bottleneck is the research layer, not the generator — a content agent with no ranked corpus is just guessing.
+
+## @bossriceshark - Week-two Buzz use cases from Bitkey IR to public radio
+> TL;DR round 2 Buzz use cases:
+>
+> 🚨 Block itself used a Buzz agent channel for incident response on the Bitkey wallet-drain investigation. Per @_tombrow, teams used agents in-channel to root-cause it, and an engineer said it "definitely accelerated and improved this investigation." The maker using it under fire beats every demo
+>
+> 📱 @rileybrown messages Codex, Claude Code, and Cursor from his phone all morning "like a group chat, and they can even collaborate." He also asked Codex inside Buzz to configure Devin with Kimi and Cursor with Grok. It just did it
+>
+> 🚀 @hot_town ships fullstack apps with one message: the agents build, test, screenshot, and hand back a live link. He also runs a two-agent video factory where Sonnet transcribes, Fable picks the best moments with timestamps, and Sonnet cuts the clips
+>
+> 🏢 @StephGlansberg runs a four-vendor fleet: Claude, Codex, Cursor-backed and Grok-backed agents as distinct signed identities, one supervisor, eight shared rooms. Cross-company agent teams are just a config now
+>
+> 🔐 @IceRhymers built the enterprise version nobody expected in week two: Buzz agents running inside ephemeral Databricks microVMs, inference through the corporate AI gateway, outbound-only connections, zero open ports
+>
+> 📻 @tarikjmoody is hosting his own relay and building an agent org chart to help public radio stations. Public radio! The non-tech long tail is showing up
+>
+> 🗂️ @pavlenex built buzzdir, a census of every Buzz community, and here's the kicker: the seed data came from pointing an agent at X to crawl invite links. The community layer mapped itself, agentically, in about two days
+>
+> 🪶 The small patterns are the smartest ones: @David_cbolt gives each agent a "desk" (one file: working on, waiting on, finished), @DistinctLee has his agents DM him only when a decision needs a human, and @radinoregon makes agents from different labs debate and issue joint statements before work starts
+>
+> ✂️ And @FroidEtCold summed up where this is heading: "Slack is being cancelled this weekend and I'm moving all messaging and webhook dingle-dongles to buzz"
+>
+> *Quoting @rileybrown:* Building an Agent Team on Buzz (Complete Guide)
+>
+> Buzz is a new free platform, that feels exactly like Slack,
+> except the agents aren't add ons, they are equals.
+> and in 5 minutes you can create an agent team.
+>
+> And it works with your existing Codex and Claude Code subscriptions... So it's free to use.
+>
+> This video is divided into 2 parts:
+> ---
+> ⭐ Part 1 Conversation with Vinny (@hot_town)
+> 00:00 Introduction
+> 01:59 Why is Buzz Going Viral?
+> 07:08 Creating Agents & Channels with Fizz
+> 20:03 Adding Other Harnesses (OpenCode, Cursor)
+> 21:25 The Buzz Mobile App
+> 22:36 Payments & Shared Compute
+> 25:36 Workflows & Projects: A GitHub Killer?
+> 30:14 The Future of Buzz: An Open Cowork?
+> 35:13 Automations, Triggers & Trusting Your Agents
+> ---
+> ⭐ Part 2 - Getting Started Tutorial (My workflow)
+> 42:32 Tutorial and Breakdown
+> 43:03 Downloading Buzz And Default Agents
+> 43:35 Creating your first agent
+> 45:13 Adding Agents to channels
+> 45:43 Why I use Codex as Lead Agent
+> 47:06 Using Codex, Claude Code and Grok for task
+> 48:52 Adding Muse (Meta Model) using OpenRouter
+> 51:23 iOS app is Free and easy to use
+> 51:50 My management Channel (My #1 use case)
+> ---
+
+- **Tweet:** https://x.com/bossriceshark/status/2083573683587789211
+- **Quoted:** https://x.com/rileybrown/status/2082569013280796930
+- **What:** After Riley Brown's hour-long guide framed Buzz as a free Slack-alike where Codex, Claude Code, Cursor, and OpenRouter agents sit as first-class teammates (Codex as lead, iOS management channel as the killer use), Matt Rice catalogued week-two production patterns: Block running Bitkey wallet-drain IR inside a Buzz agent channel, phone group-chats that reconfigure Devin/Kimi and Cursor/Grok for each other, one-message fullstack ship-plus-screenshot loops and a Sonnet/Fable video factory, four-vendor fleets with signed identities, Databricks-microVM enterprise isolation behind a corporate gateway, a self-hosted public-radio org chart, and pavlenex's agent-crawled buzzdir census — plus one-file "desks," human-only-on-decision DMs, and pre-work cross-lab debate rituals that are already displacing Slack.
+
+## @iamsahaj_xyz - /zero-tech-debt skill for planning and review
+> /zero-tech-debt has become one of my favorite and most used skills
+>
+> I use it for planning features & reviewing code. it's fantastic with 5.6 sol ultra
+>
+> npx skills add jnsahaj/skills
+
+- **Tweet:** https://x.com/iamsahaj_xyz/status/2083558922452152740
+- **Filed:** [jnsahaj-skills.md](./knowledge/tools/jnsahaj-skills.md)
+- **What:** Sahaj's daily-use agent skill pack (`npx skills add jnsahaj/skills`, github.com/jnsahaj/skills) is built around `/zero-tech-debt`: rework a change from the intended end-state rather than the historical patch, delete unused compatibility paths, and optimize for the code that should exist instead of the smallest diff. He uses it for both feature planning and code review and says it pairs especially well with GPT-5.6 Sol Ultra. The rest of the pack covers pit-of-success API design, slop-aware refactor review, UX-first flow planning, branch context briefings, and ga/draft-PR helpers.
+
+## @dair_ai - AGENTS.md ablation: context files do not move agent correctness
+> If you maintain an AGENTS.md or a CLAUDE.md, this is worth a read.
+>
+> (bookmark it)
+>
+> 288 gold-test evaluated runs across Claude Code and Codex, 17 real tasks from 3 repositories, with context-injection strategy as the only variable.
+>
+> Correctness does not move on either agent. Equivalence testing bounds any effect to at most 10 to 15 percentage points.
+>
+> A failure-mode triage explains why. Agents fail on implementation skill, feature design, pattern selection and exact wiring, rather than on repository knowledge a markdown file could supply. A manipulation probe confirms it, since the real AGENTS.md never converted a near-miss into a pass on either agent.
+>
+> Borderline task difficulty is agent-specific with Spearman rho of 0.75, so single-agent studies draw tasks from different informative bands and reach opposite conclusions. That explains a lot of the contradictory prior evidence.
+>
+> Paper: https://t.co/iEC36in8ms
+>
+> Track more trending AI papers in our academy: https://t.co/LRnpZN7L4c
+
+- **Tweet:** https://x.com/dair_ai/status/2083557620296859937
+- **Link:** https://arxiv.org/abs/2607.27250
+- **Filed:** [do-context-files-help-coding-agents.md](./knowledge/articles/do-context-files-help-coding-agents.md)
+- **What:** DAIR.AI flags Prakhar Khatri's 288-run ablation (Claude Code vs Codex, 17 real tasks from 3 repos, context-injection strategy as the only variable) showing AGENTS.md/CLAUDE.md does not measurably change correctness — any effect is equivalence-bounded to ≤10–15 percentage points. Agents fail on implementation skill (feature design, pattern selection, exact wiring), not missing repo knowledge a markdown file could supply; a manipulation probe found the real AGENTS.md never turned a near-miss into a pass. Borderline difficulty is agent-specific (Spearman ρ = 0.75), which is why single-agent studies keep contradicting each other.
+
+---
+
+# Friday, July 31, 2026
+
+## @doodlestein - Reality-check skill on FrankenNLP with a 12-agent swarm
+> The reality check skill I made is still the single biggest gun in my agentic coding arsenal.
+>
+> For instance, I started a big new project yesterday called FrankenNLP, and not only did I finish the plan and turn it into beads, but much of it is already implemented now.
+>
+> (Quick aside: I'm experimenting for the first time with using a swarm of 12 GPT-5.6 Terra agents instead of the frontier (Fable/Sol) agents I always use for everything. Why? Because @pvncher got me thinking that it's still a pretty smart model and I'm curious, and this project isn't that important to me if they end up screwing it up!)
+>
+> But getting back to the subject of the implementation of this new project, how can I easily know how much is actually done and what's still missing? I don't really have the time to dig too deeply into this new project.
+>
+> Ah, but I can just call my trusty /reality-check-for-project skill and go back to other things! And then later see that I have this nice document in the repo that got the swarm refocused and back on track:
+>
+> https://t.co/y6jRyjD0Wp
+>
+> This is unbelievably useful when you're operating at my scale.
+>
+> *Quoting @doodlestein:* I transformed this entire "come to Jesus moment" workflow into a new skill called "reality-check-for-project" on my paid skills site, https://t.co/Un9brY2G3l .
+>
+> Anyway, I'm applying it now to many of my in-progress "FrankenSuite" projects that I haven't had as much time to actively monitor and shepherd, like FrankenRedis, FrankenPandas, FrankenSciPy, etc.
+>
+> It's unbelievably helpful (really, I'm not just saying that). Almost like hiring a second person to go over all the stuff and give me an independent take on everything so we can get projects back on track towards completion.
+>
+> But without me needing to actually do much actively. All I do now is give this to Claude Code:
+>
+> "First read ALL of the AGENTS.md file and README.md file super carefully and understand ALL of both! Then use your code investigation agent mode to fully understand the code and technical architecture and purpose of the project. THEN apply /reality-check-for-project here in an exhaustive way."
+>
+> Then wait 15-20 minutes for it to crank away and follow up with something like this (basically just telling it to close all the gaps it found, followed by my standard prompt for turning plans into beads):
+>
+> › I need you to help me fix this. That is, making all the things that are unimplemented but which SHOULD have been implemented according to the beads and markdown plan. Figure out exactly what needs to be done to get us over the goal line with a finished, polished, reliable, performant project in line with the vision described earlier.
+>
+> OK so please take ALL of that and elaborate on it and use it to create a comprehensive and granular set of beads for all this with tasks, subtasks, and dependency structure overlaid, with detailed comments so that the whole thing is totally self-contained and self-documenting (including relevant background, reasoning/justification, considerations, etc.-- anything we'd want our "future self" to know about the goals and intentions and thought process and how it serves the overarching goals of the project.).
+>
+> The beads should be so detailed that we never need to consult back to the original markdown plan document. Remember to ONLY use the `br` tool to create and modify the beads and add the dependencies.
+>
+> Then I just do:
+>
+> "First read ALL of the AGENTS.md file and README.md file super carefully and understand ALL of both! Then use your code investigation agent mode to fully understand the code and technical architecture and purpose of the project.
+>
+> THEN: start systematically and methodically and meticulously and diligently executing those remaining beads tasks that you created in the optimal logical order!
+>
+> Don't forget to mark beads as you work on them. Use the /ntm swarm and /vibing-with-ntm skills to implement things in the optimal way according to /bv; launch 3 codex and 3 claude code instances to do this and use your looping feature to check in on the swarm every 3 minutes and feed more instructions to any idle agents."
+>
+> You can really see how all the skills are jointly compounding together to create a super-dense shorthand for communicating complex workflows to the agents very quickly and conveniently.
+
+- **Tweet:** https://x.com/doodlestein/status/2083388824848138358
+- **Link:** https://github.com/Dicklesworthstone/franken_nlp/blob/main/docs/REALITY_BRIDGE_PLAN.md
+- **Quoted:** https://x.com/doodlestein/status/2041194080680477151
+- **Filed:** [franken-nlp.md](./knowledge/tools/franken-nlp.md)
+- **What:** Emanuel treats `/reality-check-for-project` as the load-bearing skill for running a swarm he is not watching: he kicked off FrankenNLP (a pure-Rust CPU NLP engine around Nanbeige4.2-3B) with a 12-agent GPT-5.6 Terra swarm instead of his usual frontier Fable/Sol stack, then used the skill to produce REALITY_BRIDGE_PLAN.md so the swarm could be refocused without him reading the code. The quoted post is the original workflow — an independent "come to Jesus" audit of neglected FrankenSuite repos (FrankenRedis, FrankenPandas, FrankenSciPy), convert the gaps into self-contained beads via the `br` tool, then execute remaining beads with ntm/bv swarms (3 Codex + 3 Claude Code, polled every 3 minutes).
+
+## @doodlestein - Quant agents earning their keep via IBKR in hfdt
+> *Replying to @doodlestein:* tfw you realize that your private "/frontier-math-research-with-epistemic-humility" agent skill isn't just good for math research but is in fact the supreme workbench for designing and testing quant trading strategies (makes sense, because epistemic humility is the major unlock).
+>
+> Probably shouldn't post this, but damn I'm excited about this. I can return to quant stuff without it being an all-consuming activity.
+>
+> Would be sweet to make these agents earn their keep! I already have IBKR trading functionality in my hfdt tool for hedge funds, too...
+
+- **Tweet:** https://x.com/doodlestein/status/2083383835606012393
+- **Parent:** https://x.com/doodlestein/status/2083382640485245060
+- **What:** Follow-up to the epistemic-humility math skill doubling as a quant-strategy workbench: Emanuel wants those agents to actually trade and pay for themselves, and already has Interactive Brokers execution wired into his private hfdt hedge-fund tool. The pitch is returning to quant as a supervised agent activity rather than an all-consuming personal grind.
+
+## @doodlestein - Frontier math skill as a quant-strategy workbench
+> tfw you realize that your private "/frontier-math-research-with-epistemic-humility" agent skill isn't just good for math research but is in fact the supreme workbench for designing and testing quant trading strategies (makes sense, because epistemic humility is the major unlock).
+>
+> *Quoting @doodlestein:* Math is hard. Finding counterexamples is cool and impressive, but finding long proofs to turn conjectures into theorems is way harder (but also way more useful in general).
+>
+> But perhaps I shouldn't have picked such a tough problem to test out my frontier math research skill...🤣
+
+- **Tweet:** https://x.com/doodlestein/status/2083382640485245060
+- **Quoted:** https://x.com/doodlestein/status/2083365127907074140
+- **What:** Jeffrey Emanuel realizes his private `/frontier-math-research-with-epistemic-humility` Claude skill — built to keep a research agent from overclaiming while it hunts long proofs rather than cheap counterexamples — is also the right workbench for designing and testing quant trading strategies, because both domains fail when the agent is overconfident. The quoted tweet is him stress-testing that skill on a deliberately hard theorem-proving problem and noting that turning conjectures into theorems is harder and more useful than finding counterexamples.
+
 ---
 
 # Tuesday, June 16, 2026
