@@ -1,3 +1,1189 @@
+# Wednesday, August 19, 2026
+
+## @DavidOndrej1 - One-line push to install a tool named bb
+> install "bb" today, and give it a proper shot.
+>
+> trust me. https://t.co/OE6r6SMrXC
+
+- **Tweet:** https://x.com/DavidOndrej1/status/2090149594273374209
+- **What:** David Ondrej's one-line endorsement urging people to install a tool named "bb" and actually try it, with no product description, features, or landing-page URL in the tweet — the attached t.co resolved back to the same status rather than an install page or changelog.
+
+## @edleonklinger - Personal social-graph agent that finds intros and unpaid favors overnight
+> I've been tinkering with an AI to increase my “luck surface area” (basically, to find interesting opportunities that exist across my entire network) and the results are ... pretty interesting.
+>
+> Built on my corpus of personal & professional data - everyone I’ve met with, emailed, talked to, thousands of call notes, LinkedIn connections, emails, Slacks etc. Plus it does its own desk research on my contacts overnight (did that by itself without being asked, weirdly).
+>
+> Example - it suggested I introduce Marco (an insurtech founder, hiring for multiple roles) to Ben (an insurance headhunter I really rate). It pieced that together through a combo of Granola transcripts, emails, LinkedIn messages, and internal Slack messages.
+>
+> Powered by a social graph algorithm that scores relationships and potential intros - based on things like relationship strength, recency, communication style, and “likely-mutual-value”, etc.
+>
+> I left it running overnight, and it:
+> >  found people who have helped me with intros & advice, but where that help hasn't been reciprocated by me - then it suggested actions I could take to repay the favours
+> > remembered that a colleague described her ideal mentor to me in a meeting *a year ago* - found someone in my network with the exact right experience, and drafted an intro
+> > surfaced a bunch of insights about my own life - like a drop-off in social & fitness activity since becoming a dad(!) - and set up a local run club on WhatsApp
+>
+> The suggestions are… surprisingly good! And devoid of the usual AI slop.
+>
+> I talk a lot about luck surface area - putting yourself in situations where good things tend to magically happen. This is the first time I’ve built something that actually tries to increase that surface area for me and my network.
+>
+> I’m quite encouraged by the results, and it was surprisingly easy to build (with @claudeai, of course). Happy to share how for anyone who is interested in building their own.
+>
+> @bcherny
+
+- **Tweet:** https://x.com/edleonklinger/status/2090106932916883750
+- **What:** Ed Leon Klinger built a personal agent over his full professional corpus (meetings, emails, Slack, LinkedIn, Granola transcripts) plus unsolicited overnight desk research on contacts, then scored the graph on relationship strength, recency, communication style, and likely-mutual-value to expand "luck surface area." Overnight it proposed a Marco↔Ben insurtech intro, flagged unreciprocated favors, matched a year-old mentor request and drafted the intro, and even noticed a post-parenthood drop in fitness and spun up a WhatsApp run club — unusually non-sloppy suggestions he says were easy to assemble with Claude, pinging Boris Cherny.
+
+## @SMB_Attorney - How Moderna's individualized neoantigen therapy is manufactured per patient
+> Hilarious that they’v stopped calling this a “cancer vaccine” and rebranded it as an “individualized neoantigen therapy” instead 😂
+>
+> But honestly? This is crazy!
+>
+> Here’s the simple version of how it supposedly works:
+>
+> After they surgically remove the tumor, they take a tiny sample of it plus a bit of your blood.
+>
+> They sequence the DNA of the cancer cells and compare it side-by-side with your normal cells.
+>
+> The differences are the mutations that only the cancer has, basically the unique “fingerprints” that make those tumor cells look foreign.
+>
+> They pick the strongest ones (up to 34 of them), write the genetic instructions for those exact fingerprints into a custom strand of mRNA, package it in the same kind of lipid bubble used in the COVID shots, and inject it.
+>
+> Your own cells then start producing those cancer-specific markers, which trains your T-cells to recognize and attack any remaining cancer cells that carry the same fingerprints.
+>
+> No two patients get the same shot.
+>
+> It’s literally one medicine manufactured just for you.
+>
+> Pretty wild! 🤯
+>
+> *Quoting @KobeissiLetter:* BREAKING: Moderna stock, $MRNA, surges over +110% after announcing the first ever positive Phase 3 results for a personalized cancer vaccine. https://t.co/BTTxvitEHT
+
+- **Tweet:** https://x.com/SMB_Attorney/status/2090103816884461910
+- **Quoted:** https://x.com/KobeissiLetter/status/2090048185859239959
+- **What:** After The Kobeissi Letter reported $MRNA jumping over 110% on the first positive Phase 3 for a personalized cancer vaccine, SMB_Attorney unpacks the manufacturing loop behind the rebrand to "individualized neoantigen therapy": resect the tumor, sequence it against the patient's normal DNA from blood, pick up to 34 mutation fingerprints, encode them in custom mRNA inside COVID-style lipid nanoparticles, and inject so the patient's own cells train T-cells on remaining tumor cells. The drug is unique per patient — a one-off manufactured medicine, not a shared vaccine lot.
+
+## @kimmonismus - Moderna-Merck personalized mRNA cancer therapy succeeds in Phase 3
+> This is freaking huge: For the first time, a AI-assisted personalized mRNA cancer treatment has succeeded in a Phase 3 trial.
+>
+> Moderna and Merck sequence each patient’s tumor and compare it with their healthy DNA. AI then helps identify which of the tumor’s mutations are most likely to trigger an immune response.
+>
+> From those targets, Moderna produces an individual mRNA treatment encoding up to 34 neoantigens, The earlier Phase 2 trial followed patients with surgically removed high-risk melanoma for five years:
+>
+> - 68.8% remained cancer-free, compared with 49.1% on Keytruda alone
+> - 49% lower risk of recurrence or death
+> - 59% lower risk of distant metastasis or death
+>
+> Now the much larger Phase 3 trial involving 1,137 patients has also succeeded.
+>
+> Absolutely incredible. Dario was right: cancer will be cured in just a few years!
+
+- **Tweet:** https://x.com/kimmonismus/status/2090082088087150979
+- **What:** Chubby reports the first Phase 3 win for an AI-assisted individualized mRNA cancer treatment from Moderna and Merck: tumor-vs-healthy DNA sequencing, AI ranking of which mutations are most immunogenic, then a custom mRNA encoding up to 34 neoantigens. The earlier Phase 2 in resected high-risk melanoma (five-year follow-up) showed 68.8% cancer-free vs 49.1% on Keytruda alone, with 49% lower recurrence-or-death risk and 59% lower distant-metastasis-or-death risk; Phase 3 enrolled 1,137 patients. Framed as validation of Dario Amodei's claim that cancer could be cured within a few years.
+
+## @jakezward - Tally's AI-search playbook now captures the exact prompt that referred each user
+> THEY LITERALLY SHOW FOR EVERY PROMPT
+>
+> This is insane https://t.co/PxejBB7Cap
+>
+> *Quoting @jakezward:* Pay attention to what Tally is doing in AI search right now because this might be the best playbook for getting recommended by ChatGPT I've seen:
+>
+> > AI search is now their #1 acquisition channel
+>
+> > 10,000+ new users every week say they discovered Tally through AI platforms
+>
+> > their tracked ChatGPT registrations jumped 5x overnight in May
+>
+> > they grew from $258K MRR to $422K MRR in 10 months, crossing $5M ARR with just 11 people, $0 funding, against much bigger competitors
+>
+> > their comparison hub now has 7 direct competitor pages + 15 more “best”, “alternative” and integration-focused guides
+>
+> > these pages are structured like AI answers: rankings, “best for” labels, pricing, feature tables, reviews, pros/cons and direct recommendations
+>
+> > they’re constantly refreshing these pages
+>
+> > they literally ask new users for the exact prompt they used to discover Tally through AI
+>
+> > they track the prompts people use to find them, their visibility vs competitors and which sources AI platforms actually cite
+>
+> > they've built a database of articles that mention competitors but not Tally to identify distribution gaps
+>
+> > they monitor brand + competitor mentions across Reddit and communities, then route them into a shared inbox and aim to clear all mentions every day
+>
+> > they actively ask customers for reviews through their newsletter + after support interactions, helping them reach 4.8/5 on G2 and 4.9/5 on Product Hunt
+>
+> > they built an entire “AI Info” page specifically for ChatGPT, Claude, Gemini and Perplexity explaining what Tally is, who it’s for and why people use it
+>
+> > that page literally includes “AI assistant guidelines” telling LLMs which strengths, use cases and pricing model to reference
+>
+> > they published an llms.txt mapping out their product, pricing, customers, documentation, API and MCP pages
+>
+> > they even built a 21-tool MCP server + ChatGPT app + Claude connector so Tally can now be used directly inside AI products
+>
+> One thing to keep in mind:
+>
+> Tally didn’t start with some genius AI search strategy.
+>
+> They spent years building a product people genuinely recommended across Reddit, communities, reviews and the wider internet.
+>
+> ChatGPT recommends Tally because the internet does.
+>
+> But now they’re engineering around that signal to make sure it keeps happening.
+>
+> This isn’t luck, it’s possible for you too.
+
+- **Tweet:** https://x.com/jakezward/status/2090080908841779617
+- **Quoted:** https://x.com/jakezward/status/2090060494858014873
+- **What:** Jake is reacting to the operational punchline of Tally's GEO stack: they now ask every new user for the exact AI prompt that discovered them. The quoted playbook is the fuller system — AI search as #1 acquisition channel (10k+ weekly users, 5x ChatGPT registrations in May, $258K→$422K MRR / $5M ARR with 11 people and no funding), comparison hubs written like LLM answers, a competitor-mention gap database, daily Reddit clearing, review farming to 4.8 G2 / 4.9 Product Hunt, an "AI Info" page with assistant guidelines, llms.txt, and a 21-tool MCP/ChatGPT/Claude connector. The thesis is that ChatGPT recommends Tally because the internet already did, and they are now engineering around that signal rather than substituting for it.
+
+## @sylvechv - awesome-esp32 curated list of working ESP32 projects
+> put together a repo listing all the cool experimentations with esp32, contributions welcome!
+>
+> https://t.co/A3U7F6fmZy
+
+- **Tweet:** https://x.com/sylvechv/status/2090060670523867475
+- **Link:** https://github.com/s0lness/awesome-esp32
+- **Filed:** [awesome-esp32.md](./knowledge/tools/awesome-esp32.md)
+- **What:** s0lness/awesome-esp32 is a contribution-open, hand-picked list of ESP32 projects that actually run — AI desk companions (chat-stick, xiaozhi), AMOLED pets and games aimed at the Waveshare 1.8, e-paper dashboards (TRMNL, OpenEPaperLink, InkSight), plus Tasmota/WLED — with field guides and an ideas backlog, not another undifferentiated library dump.
+
+## @doodlestein - Dual-4090 local computer-use stack with uncensored Qwen3.8-27B
+> I’m wondering if this could make for a good local computer use setup. I have a Linux machine with dual 4090s and a Mac Mini.
+>
+> So the idea is to use one of the 4090s for the Qwen3.8-27b model, and the other for a computer use model like GUI-Owl-1.5, and Simular on Mac. Thoughts?
+>
+> *Quoting @OrcaRouter:* The Qwen3.8-27B-Uncensored family is now complete.
+>
+> FP8 ✅ GGUF ✅ MLX ✅ BF16 Full precision ✅
+>
+> Pick your hardware. Pick your quant. Keep the model uncensored.
+
+- **Tweet:** https://x.com/doodlestein/status/2090033400946082229
+- **Link:** https://huggingface.co/orcarouter/Qwen3.8-27B-Uncensored
+- **Quoted:** https://x.com/OrcaRouter/status/2089550891246571705
+- **What:** OrcaRouter finished shipping Qwen3.8-27B-Uncensored across FP8, GGUF, MLX, and BF16 (weights on Hugging Face, hosted API on orcarouter.ai). doodlestein is stress-testing whether that 27B fits a fully local computer-use rig: one 4090 for the language model, the other for a GUI agent such as GUI-Owl-1.5, plus Simular on a Mac Mini — a split-brain layout rather than a single-GPU chatbot.
+
+## @scottstts - Household local AI server as common as a Wi-Fi router
+> I predict that in 5-10 years every household will have a local AI server that serves all the AI workload of the house, digital or robotics. It’ll be as common as a WiFi router or a fridge
+>
+> it creates a private mesh network to link all the devices in the house and does inference completely locally, with built in data vault resistant to remote data hacking or physical tampering. That way you can have every single piece of information about you and your family stored in there and never leaves it, and AI can use them to provide most accurate and customized services
+
+- **Tweet:** https://x.com/scottstts/status/2090028410722476204
+- **What:** Scott's 5–10 year forecast is a home appliance, not a cloud plan: one on-prem inference box, as ordinary as a router or fridge, that meshes every household device, keeps a tamper-resistant family data vault that never leaves the house, and runs both digital and robotics workloads against that private store so customization does not require shipping life-log data to a vendor.
+
+## @kostasbotonakis - OpenCodex proxy when Codex subscription usage hits 0%
+> Is you remaining subscription usage 0% in Codex?
+>
+> Download: https://t.co/3K6ULaMwpw
+>
+> Then...
+
+- **Tweet:** https://x.com/kostasbotonakis/status/2090023250197680366
+- **Link:** https://github.com/lidge-jun/opencodex
+- **Filed:** [opencodex.md](./knowledge/tools/opencodex.md)
+- **What:** OpenCodex (lidge-jun/opencodex, 11k stars) is a localhost Responses-API proxy so Codex CLI/App/SDK, Claude Code, Claude Desktop, and Grok Build can run Claude, Gemini, Grok, DeepSeek, Ollama, OpenRouter, or any OpenAI-compatible model. The tweet is the quota-escape pitch: when remaining Codex subscription usage is 0%, install `@bitkyc08/opencodex` and keep working, optionally pooling multiple ChatGPT accounts and routing new sessions to the lowest-usage healthy one.
+
+## @ronginooth - Codex Sol quota barely moves because 98.7% of tokens are cache reuse
+> これはもしかしてすごい発見なのではないだろうか？
+>
+> *Quoting @DecisionOS:* なぜ私のCodexだけ、SOL極高をぶん回しても使用量がなかなか減らないのか
+
+- **Tweet:** https://x.com/ronginooth/status/2089955076094005369
+- **Link:** https://x.com/i/article/2089896697967321088
+- **Quoted:** https://x.com/DecisionOS/status/2089901014711509439
+- **Filed:** [codex-sol-usage-external-intelligence.md](./knowledge/articles/codex-sol-usage-external-intelligence.md)
+- **What:** DecisionOS measured a heavy GPT-5.6 Sol / max-reasoning Codex job at ~48.35M input tokens that moved weekly usage only 62%→63%, because ~98.7% of those tokens were reused/cached inputs — displayed tokens are not quota. He keeps a small ~9k-char always-on rule set plus ~517k chars of retrievable "external intelligence" (1.11M including past-case memory) so new chats inherit yesterday's judgments instead of re-paying them, while explicitly not claiming that store caused the cache hit rate. ronginooth quote-tweets it as a possible major find.
+
+## @PremiumGoblin - Where is the moral line for using AI?
+> Wow 10K Follows in just a few hours! Thanks you all!
+>
+> Question for y'all as I'm working on a new video. Where is your moral line when it comes to using AI? Is it okay for to use for coding? Writing? Image gen. What about music?
+>
+> Would love to hear all your takes and i'll feature it on my video!
+
+- **Tweet:** https://x.com/PremiumGoblin/status/2089935733440295053
+- **What:** John Kim (PremiumGoblin) is crowd-sourcing a follow-up video on where people draw the moral line for AI — coding, writing, image generation, music — after a 10K-follower spike, so the bookmark is a research prompt about public AI-ethics norms across media types rather than a tool or essay.
+
+## @chrislakin - Local minima are rare; expand the option set
+> https://t.co/QJCJ0OAMW6
+>
+> *Quoting @corsaren:* Local minima are extremely rare in high dimensional spaces, so if you ever feel stuck in a rut it’s probably just because you aren’t considering a wide enough set of orthogonal options
+
+- **Tweet:** https://x.com/chrislakin/status/2089928014935339318
+- **Quoted:** https://x.com/corsaren/status/2079545703622201708
+- **What:** Silent quote-RT of corsaren's optimization metaphor: true local minima are rare in high-dimensional spaces, so feeling stuck is usually a failure to consider a wide enough set of orthogonal options rather than a hard constraint. Useful as a decision-making heuristic when a plan feels trapped.
+
+## @vasuman - Applied AI needs domain, process, and engineering
+> So true. And the TLDR is: applying AI is incredibly involved, and requires a balance of domain-specific business context, process re-engineering judgement, and AI engineering expertise.
+>
+> No one does all 3 except Varick.
+>
+> https://t.co/rBCnKkXHk7
+>
+> *Quoting @levie:* As we’re seeing in case study after case study, it turns out that the amount of value that can be created between the AI model and the ultimate end-user workflow is far larger than many people assumed or realized.
+>
+> Model capability is obviously doing a lot of heavy lifting in agentic products, but there’s still a lot more work to diffuse AI into the enterprise.
+>
+> 1. Getting agents to work well (and alongside people) in mission critical workflows tends to need to be represented differently depending on the business process. Sometimes it’s a chat experience. Other times it’s a background agent running in a deterministic workflow. And dozens of other variants. This is a mix of needing a harness that’s tuned to specific domains of work, but also making it show up in the right product experience.
+>
+> 2. Different workflows connect into entirely different enterprise systems and need access to very different data. Working with that data -whether it’s life sciences, financial, legal, etc.- requires contextual approaches, understanding of the data, having the right user experience for data interaction, and more.
+>
+> 3. The need for domain-specific change management remains critical in most verticals. The way you talk and implement technology at a bank is very different from a law firm. Having the right talent with a singular mission ends up being extremely useful for something as complex as process reengineering.
+>
+> 4. The ability to work with a variety of models means you can tune the workflows to different cost and performance levels. And you can eventually post train models for specific tasks to tailor the outcomes and eke out gains that aren’t coming otherwise in frontier models.
+>
+> 5. Evals! AI is basically not useful if it can’t be evaluated. Domain-specific evals that let you dramatically improve the performance of your harness for specific workflows just has a crazy long tail given how many tasks there are in the economy. Nearly impossible for one system to be tuned for all of them.
+>
+> 6. Lots of verticals and domains require pricing models that reflect relevant abstractions on top of tokens alone. The ability to price in ways that work for your industry’s consumption model ends up mattering in a variety of spaces.
+>
+> This just touches on some of the things that go into the applied AI layer. But it all adds up to being a huge surface area for being able to sustainably innovate and differentiate.
+
+- **Tweet:** https://x.com/vasuman/status/2089926992648958189
+- **Link:** https://www.varickagents.com/
+- **Quoted:** https://x.com/levie/status/2089921630650925170
+- **What:** Aaron Levie argues the applied-AI layer between model and enterprise workflow is a larger, more durable surface than people assumed — domain-tuned harnesses and UX, system-specific data access, vertical change management, multi-model cost/performance plus post-training, long-tail evals, and industry pricing above tokens. Vasuman compresses that to three skills (domain context, process re-engineering, AI engineering) and pitches Varick Agents as the firm that holds all three; the site is a marketing homepage, so this stays capture-only.
+
+---
+
+# Tuesday, August 18, 2026
+
+## @jasonzhou1993 - treg, OpenRouter for agent tools
+> 👀 Treg is open sourced here: https://t.co/zTrtizBunU
+>
+> If you are vendor feel free to PR to list
+>
+> *Quoting @jasonzhou1993:* Introducing OpenRouter for tools ⚒️
+>
+> Old world: SaaS bundles priced for humans. $139/mo, and you don't even know what's in the box.
+>
+> New world: agents don't care about vendors. They want the best API for the task - and to pay for the result.
+>
+> - 2,600 agent-friendly tools: seo/geo, social, leads, ads...
+> - search by task: see price/request/response, call it
+> - pay per call, no subscriptions - 0% markup
+> - Open-source
+>
+> Try it here: https://t.co/FF0QPjLu45
+
+- **Tweet:** https://x.com/jasonzhou1993/status/2089916771671388232
+- **Link:** https://github.com/superdesigndev/treg
+- **Quoted:** https://x.com/jasonzhou1993/status/2087138389770514867
+- **Filed:** [treg.md](./knowledge/tools/treg.md)
+- **What:** Superdesign open-sourced treg, an "OpenRouter for tools" proxy so an agent can search ~2,600 endpoints across ~40 providers by task (SEO, social, leads, ads), see price and sample response, and pay per call with 0% markup instead of buying human-priced SaaS seats. One token covers the public catalog (metered on a prepaid balance) and team-owned keys/CLIs/skills injected server-side; vendors are invited to PR listings, and the hosted surface is treg.to.
+
+## @get_bb_app - bb 0.39.0 faster large threads and cross-project children
+> bb 0.39.0 is out.
+>
+> Large threads are much faster: one CSS selector made the browser restyle the whole page on every insert, and it's gone. Typing no longer re-renders the timeline, and side chat and model pickers load faster.
+>
+> Child threads can now live in a different project from their parent, bb connect allows 20 servers and machines per account, and automations back off and auto-pause instead of hot-looping on failure. Plus a long list of fixes.
+>
+> https://t.co/k8l2ppEsYP
+
+- **Tweet:** https://x.com/get_bb_app/status/2089894403280367726
+- **Link:** https://getbb.app/changelog
+- **What:** bb 0.39.0 is a performance-and-reliability cut of the local-first agent IDE: a CSS restyle-on-insert was stalling large streaming threads, prompt keystrokes no longer re-render the timeline, child threads can spawn into a different project than their parent (`bb thread spawn --project`), connect scales to 20 servers and machines, and failed automations back off then auto-pause instead of hot-looping. Capture-only changelog, not a standalone essay.
+
+## @runes_leo - Codex Spark quota is only safe on reversible, bounded tasks
+> Codex 主档周额度用完了，别急着买号或者等重置。还有一档你可能没动过。
+>
+> Codex 的额度是两个独立的池子，连重置时间都不一样，比如我的：
+> 通用限额 剩余 0%，8月20日 17:00 重置
+> GPT-5.3-Codex-Spark 剩余 90%，8月21日 21:15 重置
+>
+> 主档烧穿的时候，Spark 那档基本还是满的。
+>
+> 可以让它干的：
+> ・在 git 仓库里改代码，改错了 checkout 就回来
+> ・补测试用例，跑通就是完成，有客观终点
+> ・机械重构：改名、抽函数、提取常量
+> ・修 lint 和类型错误，错误列表本身就是待办清单
+> ・读代码回答"这个函数在哪被调用"
+>
+> 不要让它干的：
+> ・动 /Applications、系统目录，任何 git 管不到的地方
+> ・"清理一下""整理一下"这种没有终止条件的活
+> ・需要提权的操作
+> ・批量删除、批量移动
+> ・最终验收
+>
+> 这个清单是我今天用出来的。我让它清理没在用的 Mac 应用，它一路删到 /Applications 下一个 app 都不剩，中途遇到权限不够还自己提权继续。全部在回收站，捞回来了。
+>
+> 它不是能力不行。是它没有"想一下"这一档，你给什么它执行什么，不会自己停。
+>
+> 所以派活只看一件事：这活做过头了，我能不能一键回退。
+> 能，交给它。不能，自己干。
+>
+> 最后一个容易搞混的：如果你是走脚本把有界任务自动分流给 Spark（我自己写了个路由），那条路径是有护栏的——限定在单个仓库内、不给提权、碰到高危操作直接拒绝。
+>
+> 但你在 Codex 里手动把模型切成 Spark 直接聊天，这些护栏一条都不生效，它拿的是你整个会话的权限。
+>
+> 今天出事的就是后面这条路。
+
+- **Tweet:** https://x.com/runes_leo/status/2089887070005162266
+- **What:** When Codex's main weekly quota is at 0%, the GPT-5.3-Codex-Spark pool is a separate allowance with its own reset and is often still full. Leo's rule is to give Spark only work that is one-command reversible inside a git repo — in-repo edits, tests with a pass/fail end state, mechanical refactors, lint/type fixes, read-only call-graph questions — and never unconstrained cleanup, privilege escalation, or anything outside git. He learned this after a manual Spark chat inherited full session permissions and deleted every app in /Applications (recoverable from Trash); scripted routers can sandbox Spark, but switching the model in the Codex UI does not.
+
+## @appfigures - appfigures/cli v3.0 keyword analytics and MCP server
+> Just released v3.0.0 of our CLI and this one’s all about keywords:
+>
+> 1️⃣ Keyword and search term performance for Apple Ads
+>
+> 2️⃣ Hourly and daily rank trends for tracked keywords
+>
+> 3️⃣ Keyword suggestions (based on our model)
+>
+> https://t.co/JOYRytFBQ5
+
+- **Tweet:** https://x.com/appfigures/status/2089876614733566287
+- **Link:** https://github.com/appfigures/cli
+- **Filed:** [appfigures-cli.md](./knowledge/tools/appfigures-cli.md)
+- **What:** Appfigures shipped CLI v3.0.0 (`@appfigures/cli`, also a local MCP server) focused on ASO keyword work: Apple Ads keyword and search-term performance, hourly/daily rank trends for tracked keywords, and model-based keyword suggestions, on top of the existing apps/explorer/metrics/reviews catalog that agents can query via `af mcp` after a browser login or `APPFIGURES_API_KEY`.
+
+## @wilreynolds - GEO KPI: brand mentions inside ChatGPT fan-outs
+> If you have high AI visibility and the trade pubs, influential people,and brands that influence your industry don't mention you, ever, you in danger girl.
+>
+> New KPIs for GEO.
+> Take the trade pubs (search engine journal, search engine land, emarketer) and influential brands (ahrefs,semrush) showing up in fan outs, and use analytics + @alertmouse to see do those brands ever mention you, your trademarks or your brands.
+>
+> Then take the personal brands (Lily Ray, Mike king, rand fishkin, etc) showing up in fan outs.
+>
+> Use @officialpbuster to harvest their x posts, LinkedIn etc. do they ever mention your brand or your site? You can also use alertmouse to catch these too.
+>
+> Consider the tactics that got you all that AI visibility won't survive scrutiny if the models continue to use brands in fan outs.
+>
+> https://t.co/pDR74Bd3gh
+
+- **Tweet:** https://x.com/wilreynolds/status/2089857577785897340
+- **Link:** https://www.seerinteractive.com/insights/the-proof-chatgpt-5.5s-fanout-patterns-reveal-the-importance-of-brand
+- **Filed:** [chatgpt-55-fanout-patterns-brand.md](./knowledge/articles/chatgpt-55-fanout-patterns-brand.md)
+- **What:** Wil Reynolds argues that high AI-answer visibility is a trap if trade pubs, category brands, and personal brands never mention you, because ChatGPT 5.5 fan-outs now search those names instead of generic "best X" listicles. He pairs the Seer study (617 prompts plus a 30-run VP-of-growth query showing branded fan-outs like "Lily Ray GEO strategy") with a monitoring stack: AlertMouse on whether Search Engine Journal/Land, eMarketer, Ahrefs, and Semrush mention your trademarks, plus PersonalBrander harvests of whether Lily Ray, Mike King, or Rand Fishkin ever cite you.
+
+## @PremiumGoblin - Meta L7 engineer AMA on Threads and agentic coding
+> Hi, I’m John!  I’m a L7 Senior Staff software engineer at Meta.
+>
+> My weird hobby is making AI Tech content on YouTube and Substack and I wanted to start sharing more here.
+>
+> In the past I’ve worked on Reels, Meta AI on Msgr and currently working on Threads.
+>
+> I also teach Agentic Coding with @bytebytego for fun on the side.
+>
+> Doing an AMA here to share and meet new people. 👋
+
+- **Tweet:** https://x.com/PremiumGoblin/status/2089855336882868423
+- **What:** John Kim (PremiumGoblin) is a Meta L7 Senior Staff engineer who has shipped Reels, Meta AI on Messenger, and now Threads, and is opening a public AMA while also teaching Agentic Coding with ByteByteGo and publishing AI tech content on YouTube and Substack — a useful follow if you want practitioner signal from inside Meta's consumer AI surfaces rather than another indie-hacker launch thread.
+
+## @AndrewCurran_ - AI detectors fail once models write at human level
+> Detectors in ruins. This was always inevitable, one way or another.  The moment models write at or above skilled human level they will be invisible to detectors, as the artifacts/patterns will no longer exist to detect. Good writing is just good writing. https://t.co/nPYI3jeZuw
+>
+> *Quoting @rosmine:* Announcing Deft, a new AI lab for better writing, cofounded with @jmrphy
+>
+> See the picture for launch announcement the Deft model wrote for itself
+>
+> Currently, 86% of user queries are fully human according to pangram.
+>
+> This is still a small beta model and it might make mistakes. We are launching our public beta now to get more feedback before scaling up.
+>
+> Tips for better performance:
+> - Add more details to your prompt. If you just provide a short sentence prompt, it will likely get detected as AI.
+> - Try changing the style in "advanced options"
+> - Deft currently works better for some use cases like Analysis/Essays, Creative writing, and Rewrites. It works less well for Marketing copy and news articles.
+>
+> Our main goal is better writing, fooling AI detectors is just a side effect.
+>
+> Link below
+
+- **Tweet:** https://x.com/AndrewCurran_/status/2089846000454369589
+- **Quoted:** https://x.com/rosmine/status/2089777640412782811
+- **What:** Andrew Curran treats Deft's launch as confirmation that AI-writing detectors are already obsolete: once a model writes at or above skilled-human level, the statistical artifacts Pangram and peers score on disappear, so "good writing is just good writing." The quoted launch is Deft, a new writing lab from @rosmine and @jmrphy whose public-beta model already scores 86% fully-human on Pangram and currently performs better on analysis, essays, creative writing, and rewrites than on marketing copy or news; they say fooling detectors is a side effect of better prose, not the product goal.
+
+## @trq212 - Headless SaaS with per-interaction agent billing
+> weird that there's a "make a lot of money" button and nobody's pressing it
+>
+> (take your SaaS, make it headless, let agents use it, charge per interaction esp for enterprises)
+
+- **Tweet:** https://x.com/trq212/status/2089844723691479333
+- **What:** Thariq argues the unused SaaS unlock is already sitting on products companies own: strip the GUI, expose a headless API that agents can call, and switch billing from seats to per-interaction — especially for enterprises, where agent traffic can dwarf human clicks. The "make a lot of money button" is agent-native access plus usage pricing, not another human dashboard.
+
+## @lotte_verheyden - Build an eval set from trace failures, not a metric catalog
+> Before you write good evals, you have to pick the right things to evaluate. Main take-aways:
+> - source metrics from failures you see in traces
+> - keep the set small and maintainable
+> - only keep a metric if you'd take action when it moves https://t.co/G2FZjfidrb
+
+- **Tweet:** https://x.com/lotte_verheyden/status/2089838277729890437
+- **Link:** https://x.com/i/article/2089813350406569984
+- **Filed:** [how-to-build-an-eval-set-you-can-maintain.md](./knowledge/articles/how-to-build-an-eval-set-you-can-maintain.md)
+- **What:** Lotte Verheyden's Langfuse Academy page on building a maintainable eval set: don't start from a metric catalog. Split metrics into goals (quality of what you're building), guardrails (must-never-break), and operational (cost/throughput), keep the set small, and only keep a metric if a move would change a decision (block a deploy, roll back a prompt, open an investigation). Source candidates from error analysis of real traces plus known compliance constraints; drop one-time prompt-fixable failures (bad JSON, date format) and keep generalization problems (groundedness, retrieval, tool choice). Bootstrap from 30–50 traces with a free-text note + pass/fail, cluster into boolean scores, then retire metrics that sit at 100% and re-validate against new human labels because Goodhart applies.
+
+## @milesdeutscher - Humanoid robotics as the decade's most asymmetric public bet
+> This robotics trade is the most asymmetric bet of the next decade.
+>
+> Over the past year, I've slowly built portfolio exposure to this emerging sector.
+>
+> How to invest in robotics for the average person (full guide - nfa): https://t.co/J8cAPbcDPN
+>
+> *Quoting @intern:* https://t.co/c4Dq6ltQHn
+
+- **Tweet:** https://x.com/milesdeutscher/status/2089833473112780875
+- **Link:** https://x.com/i/article/2089394881353433088
+- **Quoted:** https://x.com/intern/status/2089418795353796754
+- **Filed:** [how-to-think-about-the-robotics-market.md](./knowledge/articles/how-to-think-about-the-robotics-market.md)
+- **What:** Miles Deutscher calls humanoid robotics the decade's most asymmetric public-market bet and points at intern's RoboStrategy Advisors essay as the primer. The thesis: VLMs just gave robots a brain, so a $50k humanoid working 20h/day for 7 years pencils at ~$1.66/hour all-in — cheap enough that TAM is the ~$60T global labor market against a ~$200B private robotics book (~300× if it filled). Bottom-up, 2M units to just Amazon+Walmart is $100B of hardware revenue; leasing the labor (GPU-cloud style) could 7× lifetime revenue per robot. Supply, not demand, is the constraint; FCC moves against foreign humanoids and a coming US National Robotics Strategy are treated as the geopolitical accelerator. NFA; RoboStrategy Advisors disclaimer attached.
+
+## @rauchg - fx is the 6.3MiB Zig coding agent that replaced his daily driver
+> I’ve been using https://t.co/OL0LzGtvAw as my daily driver and it’s a one-way street.
+>
+> It’s 10-20x smaller than the major coding CLIs. It starts up instantaneously. It feels more like using 𝚣𝚜𝚑 than an IDE in your terminal. It’s embeddable anywhere, even your browser via WebAssembly.
+>
+> And of course it’s open source and model-agnostic. It’s experimental, but give it a shot and let us know how it goes!
+>
+> *Quoting @vercel_dev:* Introducing fx, a tiny, open, native coding agent from Vercel Labs.
+>
+> Originally an internal tool, fx is a harness and CLI written in Zig, optimized for research and embedding in larger systems. Today, we're open sourcing it.
+>
+> fx is built on three principles:
+>
+> 1. Fast. A single native binary, no runtime to install. It cold starts in 10µs and does no unnecessary work or I/O before accepting input. fx is the answer to "how fast can a coding agent be?"
+>
+> 2. Light. The 6.3MiB binary uses single-digit megabytes of memory at baseline, made for instant installation and embedding in resource-constrained environments and agent sandboxes.
+>
+> 3. Open. Apache-2.0, model and provider agnostic, suitable for local and cloud inference. Its small core extends through skills, plugins, and MCP.
+>
+> Minimalism is an obsession throughout the entire harness: system prompt, tools, features, binary. The goal was to keep context usage and time to first token low, and make fx optimal for model benchmarking, sandboxing, evals, and gyms.
+>
+> You can use fx directly or embed it as infrastructure. The CLI feels more like a Unix shell than an IDE in the terminal: it preserves scroll history, produces minimal output, and uses complex TUI rendering very, very sparingly. Programmatically, 𝚏𝚡 𝚊𝚜𝚔 --𝚓𝚜𝚘𝚗 gives structured output, 𝚏𝚡 𝚊𝚌𝚙 connects to editors and other clients, and WebAssembly can even run the whole thing inside the browser (see: https://t.co/wf2Trg47sC).
+>
+> Privacy is a design constraint: no product telemetry, sessions and usage stay local, and no source code or prompts are shared with any endpoint other than inference. With local inference and auto-updates off, fx is fully hermetic.
+>
+> fx is experimental. Use at your own risk and expect frequent changes. Chat with us on X (https://t.co/A2AB2YythC) or file issues (https://t.co/GEjTHSoa1J).
+>
+> 𝚌𝚞𝚛𝚕 -𝚏𝚜𝚂𝙻 𝚏𝚡.𝚜𝚑/𝚜𝚎𝚝𝚞𝚙.𝚜𝚑 | 𝚋𝚊𝚜𝚑
+>
+> https://t.co/g2uEuXhGnt
+
+- **Tweet:** https://x.com/rauchg/status/2089831055373316274
+- **Link:** https://fx.sh/
+- **Quoted:** https://x.com/vercel_dev/status/2089828083415355806
+- **What:** Guillermo Rauch says he has already switched his daily driver to fx, Vercel Labs' newly open-sourced coding-agent harness: a ~6.3MiB single native Zig binary (v0.0.3, experimental) that cold-starts in ~10µs, uses single-digit MB of RAM, and is 10–20× smaller than Claude Code / Codex-class CLIs. The design is Apache-2.0, model-agnostic, embeddable (including a full WASM-in-browser demo at fx.sh/try), hermetic by default (no product telemetry; sessions stay local), and aimed at evals, sandboxes, and gyms rather than a TUI IDE. Install via `curl -fsSL https://fx.sh/setup.sh | bash`; source lives at github.com/vercel-labs/fx. Homepage-only capture — no standalone essay to file.
+
+## @TuhinChakr - Deft launch copy is garbage and Pangram is already fooled
+> Hate to be that person but researchers (including myself) have shown that its possible to write high quality text by fine-tuning an LLM that then fools Pangram.
+>
+> ALSO THIS IS GARBAGE WRITING. HOT MESS. Prompt in reply https://t.co/l05Ci1XMhJ
+>
+> *Quoting @rosmine:* Announcing Deft, a new AI lab for better writing, cofounded with @jmrphy
+>
+> See the picture for launch announcement the Deft model wrote for itself
+>
+> Currently, 86% of user queries are fully human according to pangram.
+>
+> This is still a small beta model and it might make mistakes. We are launching our public beta now to get more feedback before scaling up.
+>
+> Tips for better performance:
+> - Add more details to your prompt. If you just provide a short sentence prompt, it will likely get detected as AI.
+> - Try changing the style in "advanced options"
+> - Deft currently works better for some use cases like Analysis/Essays, Creative writing, and Rewrites. It works less well for Marketing copy and news articles.
+>
+> Our main goal is better writing, fooling AI detectors is just a side effect.
+>
+> Link below
+
+- **Tweet:** https://x.com/TuhinChakr/status/2089830281985298647
+- **Quoted:** https://x.com/rosmine/status/2089777640412782811
+- **What:** Tuhin Chakrabarty (NLP researcher) dunks on Deft, a new writing lab from @rosmine and @jmrphy whose self-written launch post claims 86% of outputs already pass Pangram as fully human and treats detector-evasion as a side effect of "better writing." He notes his own work already shows a fine-tuned LLM can produce high-quality text that fools Pangram, and calls Deft's launch copy a hot mess — so the detector-beating claim is both already demonstrated in the literature and not evidenced by the writing on the page. Deft is in public beta, stronger on analysis/essays/creative/rewrites than marketing or news, and tells users to write longer prompts plus tweak style if they want to dodge detectors.
+
+## @bryan_johnson - Meibomian gland dysfunction protocol after discovering irreversible dropout
+> Your eyes are in danger. Read this.
+>
+> This post is important. Bookmark it.
+>
+> > 87% of adults over 40 have this
+> > younger people too bc of screens
+> > leads to permanent eye damage
+>
+> Here we go.
+>
+> You have ~60 meibomian glands per eye, split across the upper and lower lid. They are like pores, secreting nourishing oil (meibum) onto your tear film to prevent rapid evaporation.
+>
+> They become dysfunctional from just about everything….age, androgen deficiency, menopause, hormone replacement, oral contraceptives, isotretinoin, antihistamines, SSRIs, tricyclics, beta blockers, diuretics, anticholinergics, preserved eye drops, incomplete blinking, reduced blink rate, screen use, contact lens wear, ocular rosacea…and 50+ other things.
+>
+> When these glands clog, the meibocytes die, and the gland drops out. Conventional medicine considers total dropout irreversible. This is bad.
+>
+> The dropout leads to evaporative dry eye disease, which triggers vision degradation such as blurred text, glare at night, light sensitivity, and neuropathic ocular pain.
+>
+> Left long enough, it can scar the cornea and permanently damage vision.
+>
+> I just learned that I have meaningful meibomian gland dropout. This is why my eyes are irritated.
+>
+> I’ve been doing this longevity thing for five years and never once have I heard anyone talk about this critical part of eye health. I’m befuddled why.
+>
+> I’ve also seen two eye doctors in the past few years, neither of them brought up meibomian glands! How is this possible? I’m so confused.
+>
+> I’m going to get you up to speed so you can find out where you’re at and then what you can do about it if you have meibomian gland dysfunction (MGD).
+>
+> First, how big of a problem is this? A meta analysis of 20,518 adults over 40 found signs of meibomian gland dysfunction (MGD) in more than 87%.
+>
+> My eye doctors think the 87% is closer to accurate for much younger ages too. Partly linked to decreased blink rates due to increased screen time.
+>
+> Symptoms are a terrible gauge. MGD is usually silent. Population studies across multiple countries show that the majority of MGD cases, roughly 60-85%, are asymptomatic, falling below clinical symptom thresholds.
+>
+> When it does surface, it hides as ordinary dry eye, enabling the worsening of the condition and permanent dropout.
+>
+> Advanced MGD can numb the cornea, further masking subjective symptoms, as the disease advances.
+>
+> Here is what happened to me.
+>
+> I got a gnarly chalazion/stye and went to a new eye doctor my team found, Dr Amir Moarefi. He diagnosed me with advanced meibomian gland dysfunction via several diagnostic tests.
+>
+> On a Schirmer test (strips of paper put under the eyelid), my tear production was under 10 mm over five minutes in both eyes, and stayed under 10 even with numbing drops, confirming concurrent aqueous deficiency alongside evaporative disease.
+>
+> This is official dry eye territory.
+>
+> We then imaged my meibomian glands using infrared meibography and found significant drop out. Drop out is considered permanent. What we couldn’t tell initially was how many acini had fully atrophied versus suffered reversible ductal obstruction.
+>
+> We got to work reviewing evidence, mapping out a protocol and starting therapies.
+>
+> The first thing we did was in-office intense pulsed light (IPL), radio frequency (RF) and intraductal probing (the Maskin protocol) to address the inflammation and physically reopen the clogged glands.
+>
+> The probing is done by using 1mm, 2mm, and 4mm probes, inserting them into each gland orifice. Sounds awful. It kind of is. I do it without numbing but you may find the numbing necessary.
+>
+> When the probe is inserted into a clogged gland, you hear a popping sound, like a blister popping. It breaks up intraductal hyperkeratinization and periductal fibrotic tissue that’s accumulated, clearing the path for oil to be expressed again.
+>
+> (Note on probing: the science on this probing therapy is not settled so consider it experimental).
+>
+> My doctor then expressed my glands, using a roller device to expel any build up and kickstart the gland’s natural expression. This is really painful. Brings you to tears.
+>
+> In conjunction with the IPL, RF and probing, I was doing eye warm compresses two times a day, morning and night.
+>
+> Healthy meibum melts around 90 to 93°F (32 to 34°C). It thickens with MGD, raising the melting point above 104°F (40°C). Given that roughly 9°F (5°C) is lost crossing the eyelid, getting to 104°F (40°C) at the gland requires holding the outer lid surface near 113°F (45°C). Stay under 113°F (45°C) to avoid risk of thermal injury.
+>
+> I used an electric device and a thermal gun to ensure an external eyelid surface temperature of ~113°F (45°C), the threshold required to melt hyper-viscous, altered meibum without thermal injury to the cornea.
+>
+> Gland dysfunction makes your natural oil resemble sticky toothpaste versus smooth oil. This makes it more prone to clogging. The heat warms the oil to melt and allows it to be expressed.
+>
+> We then added a third therapy, a special red light therapy from my new friends from Espansione Group. They make a lot of the eye care technology used throughout the world. I reached out to them after reading their science publications and within a week they flew to LA from Italy with their devices so I could be treated.
+>
+> I used their eye-light device which combines IPL and 630nm red low-level light. The proposed mechanism is stimulation of mitochondrial ATP production in meibocytes and reduced  periorbital inflammation.
+>
+> With this protocol, we’ve seen a 30% improvement in meibomian gland function (using imaging). My glands look healthier, eye irritation has lessened, my subjective symptoms have subsided, and when we probe now, we encounter minimal fibrotic resistance (popping).
+>
+> Given that I did four therapies at the same time: IPL, RF, probing, and low level light therapy, I can’t determine which therapy did what.
+>
+> Ok, here are your instructions:
+>
+> Signs to watch: burning or grit. Vision that blurs, then clears when you blink. Watery eyes (dryness triggers reflex tears). Red, crusty, or bumpy lid margins. Recurring styes. Contacts that stopped being comfortable. Worse on screens, planes, or AC. Any of these, especially after 40, best to get a gland exam.
+>
+> What to ask your eye doctor to do
+>
+> + Infrared meibography, imaging the glands to see where you’re at
+>
+> + Tear breakup time, and a Schirmer test for tear volume
+>
+> + Gland expression, with the oil graded for quality
+>
+> + Tear osmolarity and an inflammation test
+>
+> + How to tell your doctor is up to date on MGD
+>
+> If your doctor gives you artificial tears and wishes you well, find someone else.  You want someone who will image the glands, express and grade the oil, tell evaporative dry eye from the watery-deficient kind, treat your gland structure, and reimage it to track progress.
+>
+> Here is the full protocol to run if you have dysfunction
+>
+> At home:
+>
+> + Most people with early MGD get most of the benefit from warm compresses, lid hygiene, and better blink habits. This is a great place to start.
+>
+> Things to do in office:
+>
+> + Intense pulsed light (IPL): calms lid inflammation, addresses surface bacteria and Demodex, and hits leaky vessels feeding rosacea-driven MGD.
+>
+> + Radiofrequency (RF): controlled deep heat that melts the toothpaste sticky oil and stimulates the lid tissue.
+>
+> + Manual gland expression: the clinician squeezes the glands to clear the stagnant oil and reopen the flow.
+>
+> + Intraductal probing (the Maskin protocol): a fine probe opens each blocked duct, breaking through plugs and scarring, and help encourage natural expression.
+>
+> + Low-level light therapy (LLLT) 630nm eye-light for stimulation of mitochondrial ATP production in meibocytes and reduced periorbital inflammation (device made by Espansione Group. Note, not yet widely available in the U.S.).
+>
+> + Thermal pulsation and heat (LipiFlow, TearCare): warms the lids from the inside and presses out the hardened oil clogging the glands.
+>
+> I worked with Dr Amir Moarefi in Los Angeles to build out this protocol. If you can see him, I’d recommend it.
+>
+> At home / daily protocol:
+>
+> + I started using some drops: a preservative-free lubricant (iVizia), a lipid-replacement drop (Miebo), and a prescription anti-inflammatory (Vevye).
+>
+> + A compounded azithromycin lid spray, which calms inflammation and pushes the gland cells to make and release oil.
+>
+> + Warm compress daily.  Healthy meibum melts around 90 to 93°F (32 to 34°C). It thickens with MGD, raising the melting point above 104°F (40°C). Given that roughly 9°F (5°C) is lost crossing the eyelid, getting to 104°F (40°C) at the gland requires holding the outer lid surface near 113°F (45°C). Stay under 113°F (45°C) to avoid risk of thermal injury.
+>
+> + Moisture-chamber glasses (7eye) to trap humidity and block wind. Indoor and outdoor options.
+>
+> + Tear stimulation: a nasal spray (Tyrvaya) and a handheld nerve stimulator (iTear).
+>
+> + Omega-3 and lutein
+>
+> It's rarely just the eye: the systemic drivers
+>
+> In my case, we identified several likely drivers. The clearest is low DHT, from a topical anti-androgen I use for hair growth: the meibomian glands need androgens, so this works against them.
+>
+> There's also low anabolic signaling, low insulin and low IGF-1: likely good for longevity, but hard on the glands, which renew constantly and lean on insulin and IGF-1 to do it, so running low starves them.
+>
+> In addition, a former subclinical thyroid flare (high TSH, part of the Hashimoto picture of my hypothyroidism from age 21) probably contributed to my MGD too, since thyroid dysfunction is itself a documented dry eye contributor.
+>
+> Again, there are 100+ things that contribute to meibomian gland dysfunction.
+>
+> Where we take it next
+>
+> We're running this protocol until it plateaus, as we closely monitor and track two types of signals: routine imaging (meibography) to follow the glands over time, and research-grade profiling of the ocular surface for signals of inflammation, tissue damage, regeneration, and scarring.
+>
+> Together they show how much living gland is left, whether the inflammation is settling, and when we've reached the point of diminishing returns.
+>
+> Once we do, the next options aim to go further, to rejuvenate the glands and reverse the degeneration itself, not just clear what's blocked:
+>
+> Restoring the glands: they run on growth and hormone signals that fade with age and get blocked by common drugs. We're working on delivering those straight to the lids, from androgen to growth factors drawn from my own blood, to switch them back on.
+>
+> Restoring function and calming inflammation: repurposing agents like azithromycin that both push the gland cells to make and release oil and quiet the inflammation driving the loss.
+>
+> Rejuvenating the gland: the deepest lever is reawakening the gland's own stem cells and the signals they depend on, to regrow lost tissue, from stem-cell-stimulating drops to lab-grown gland organoids as a route to transplantation. Never done in humans, yet.
+
+- **Tweet:** https://x.com/bryan_johnson/status/2089822905891000605
+- **What:** Bryan Johnson's first-person protocol for meibomian gland dysfunction after imaging showed significant dropout that two prior eye doctors never mentioned. He covers prevalence (a 20,518-adult meta-analysis found MGD signs in >87% over 40; most cases are asymptomatic), diagnostics to demand (infrared meibography, Schirmer, TBUT, graded expression — skip the artificial-tears-and-goodbye doctor), stacked in-office treatments (IPL, RF, experimental Maskin intraductal probing, 630nm Espansione LLLT, LipiFlow/TearCare), at-home care (113°F compresses, Miebo/Vevye/iVizia, azithromycin lid spray, 7eye moisture-chamber glasses), and his own systemic drivers (low DHT from a topical anti-androgen, low IGF-1, thyroid). Combined therapies produced ~30% functional improvement on imaging; he cannot isolate which modality did what, and flags probing as scientifically unsettled.
+
+## @joelhooks - antislop skill finds EffectTS mostly clean
+> ran @dillon_mulroy antislop skill
+>
+> good news: the @EffectTS_ is mostly ok lol
+
+- **Tweet:** https://x.com/joelhooks/status/2089816936435827037
+- **What:** Joel Hooks ran Dillon Mulroy's antislop skill against the Effect TypeScript codebase and reports it is mostly clean — a real-world smoke test of an anti-AI-slop linter on a well-regarded functional-programming library rather than a generated toy repo.
+
+## @hammer_mt - Every Thesis Statements as a ready-made AI consultancy curriculum
+> You could start a pretty solid AI consultancy reading these and reselling the ideas.
+>
+> *Quoting @danshipper:* BREAKING:
+>
+> When today’s jobs are automated by AI, what will great human work look like?
+>
+> This is the most important question of our time.
+> Introducing Thesis Statements, a new project from @every bringing together 100 builders and thinkers to call their shot:
+>
+> We asked them to make a specific prediction about what great human work will look like after automation.
+> Today we’re launching the first 25 Thesis Statements from an incredible group including:
+>
+> • @karrisaarinen
+> • @cjpedregal
+> • @neuranne
+> • @yash_tek
+> • @komorama
+> • @fkpxls
+> • @jonnym1ller
+> • @p_millerd
+> • @sariazout
+> • @tomcritchlow
+> • @SimoneStolzoff
+>
+> And 14 more amazing builders and thinkers.
+>
+> At @every we believe there is a bright future for human work after automation. And we believe that there’s a small group of humans who know what it looks like—because they live the answers every day.
+>
+> But their ideas are still largely missing from the mainstream discourse about AI. That’s why we’re creating a public record of what people at the frontier are seeing now, so we can get these ideas to as many people as possible.
+>
+> We’ll also revisit them over time, and ask: Which claims held up? Which didn’t? Which became more useful as the technology changed—and which dissolved on contact with the world?
+>
+> Read them, argue with them, share them, and submit your own:
+>
+> https://t.co/8BdBmmocRi
+
+- **Tweet:** https://x.com/hammer_mt/status/2089792914473865679
+- **Link:** https://every.to/thesis-statements
+- **Quoted:** https://x.com/danshipper/status/2089778289648812509
+- **What:** Mike Taylor notes you could stand up a solid AI consultancy just by reading and reselling the ideas in Every's new Thesis Statements project. Dan Shipper launched the first 25 of 100 public predictions from frontier builders (Karri Saarinen, Tom Critchlow, Simone Stolzoff, and others) answering what great human work looks like after automation, and Every will revisit the claims over time to see which held up — a listing page of one-sentence shots, not a standalone essay.
+
+## @Eric_M_Courage - What real advisors do beyond VOO-and-chill
+> You could just VOO and chill.
+> Sure.
+> You could just pay a "low" flat fee.
+> Sure.
+>
+> Real advisors are doing a little more. What, you might ask?
+>
+> Small sample from the last few weeks:
+>
+> - A 401(k) sitting in a 2040 target-date fund that would auto-add bonds for 14 years the client will never draw on. Their taxable account already carries the safe money. Projected opportunity cost ~$1.3M by first withdrawal. Swapped to equities at zero tax. Allocation based on when the money gets used, not a default.
+>
+> - $7M exit landing fast. Modeled the donor-advised fund against a long/short loss engine at 200/100 vs 250/150. How to fund. More leverage is ~$1.8M more in losses, but only ~$400K of that is permanent, and only because the client gives to charity. Deferral, not savings, until the low-basis book leaves through a gift or a step-up. Targeting seven-figure tax savings at low fees while still meeting the investment criteria. Two custodians needed; diligenced two TALS managers; assumptions challenged. Walked them through it. Another CFA.
+>
+> - Tax preparer missed condo depreciation on prior returns (Form 3115) and dropped a $51K PAL carryover worth ~$20K. Then caught a listing contract: client would have owed a commission if he had turned down a full-price offer. He needed to push this to next year to avoid even more taxes.
+>
+> - Costa Rica build. Borrowing against a direct index instead of paying the builder cash so the harvested losses keep running while the draws go out. Lower taxes, higher expected return, more flexibility, and the collateral is still working.
+>
+> - Client's business partners were pitched a "tax-advantaged" oil and gas fund. 12% front-end load. Killed it with thorough questions and real due diligence, not a lecture. Protected him and let him look like a boss with his partners on legitimate ways to reduce taxes, without the BS.
+>
+> - Complex deferred comp: a 457(f) that behaves like a 409A, stacked against a 403(b), a 457(b), and taxable direct indexing. Where does the next dollar go for taxes, and where is the Roth conversion window? Hundreds of thousands of dollars in tax opportunity if done right, and the opposite if done wrong.
+>
+> - Six Northwestern Mutual policies (yikes!) that added up to a $1M need and $550K of coverage. Surrendered four, kept term, closed the gap with supplemental group life, and moved the surrender proceeds into direct indexing so the client actually reduces taxes instead of paying premiums.
+>
+> - Peer review: Ten CPAs could not crack it. Two irrevocable trusts holding inherited IRAs, kiddie tax at 37%. The younger child's age at the father's death likely moves the depletion deadline from 2034 to 2044. Eight extra years after the kiddie tax expires. Nobody had checked. Worked it through.
+>
+> - Client selling ~$2MM of collectibles. Introduced him to a family member who runs operations at a major auction house in New York to review the collection, so he gets the best price or at minimum understands his options before he sells.
+>
+> - Reviewed a vendor's tax-alpha report on a direct-index account. It looked inflated because they used Georgia rates for a Pennsylvania resident. My book runs 3% to 4% in tax alpha
+> I guess direct indexing doesn't work, right? (Not investment advice. Past results are not future results.)
+>
+> - Executive moved to Spain mid-year. The real start date was buried in the paystub seniority field. Split withholding pre and post Beckham, layered US, Colorado, Spanish, and foreign tax credit. ~$35.9K of refunds that would have been left behind.
+>
+> - $2.7M new build while the old house sits unsold. Box spread on the taxable account as the bridge instead of selling appreciated stock in a working year, and a mortgage lined up before the old home sells. Liquidity balanced, gains deferred into a lower bracket.
+>
+> That is a small sample. I need to get back to work.
+>
+> VOO and chill with the lowest fee you can find is not what great advisors do.
+
+- **Tweet:** https://x.com/Eric_M_Courage/status/2089785666490241194
+- **What:** A CFA/CFP inventories two weeks of high-touch advisory work that index-and-chill cannot substitute for: pulling a 401(k) off a 2040 TDF that would have auto-added unused bonds (~$1.3M opportunity cost), modeling a DAF against a 200/100 vs 250/150 long/short loss engine on a $7M exit, catching a missed $51K PAL carryover and a listing-contract commission trap, funding a Costa Rica build against a direct index so harvested losses keep running, killing a 12% front-load oil-and-gas "tax" fund, sequencing 457(f)/409A/403(b)/Roth windows, surrendering four Northwestern Mutual policies, spotting an inherited-IRA kiddie-tax/10-year-rule error ten CPAs missed, recovering ~$35.9K of Beckham-law split-year withholding, and bridging a $2.7M build with a box spread instead of selling appreciated stock. The argument is that fee-minimizing VOO is not what great advisors actually do.
+
+## @ALmendili - architecture-map: isometric repo maps that fail CI when they drift
+> My post about visualizing app architecture yesterday blew up, with many asking how it was done. I turned it into a skill so it can be applied to any repo. I've only tested it on a few (mostly small) repos so far, so let me know if you run into any issues. https://t.co/J85QsvDvv5
+
+- **Tweet:** https://x.com/ALmendili/status/2089783661877162405
+- **Link:** https://github.com/almendili/skills
+- **Filed:** [architecture-map.md](./knowledge/tools/architecture-map.md)
+- **What:** Alaa Mendili packaged a viral architecture-visualization workflow into a portable SKILL.md (`architecture-map`) that builds an interactive isometric map of any repo — buildings sized by real measurements, flows tracing real call paths, and a CI drift counter that fails when the map falls behind the code. Install via symlink into Claude Code, Codex, Cursor, or Gemini CLI; currently tested mainly on small repos.
+
+## @undefinedKi - Field reports plus six decisions that make an agent leave-alone
+> The most useful list in AI right now is buried in the last section of an academic paper nobody reads to the end. People pay hundreds for courses that do not come close to this.
+>
+> It collects the reports where companies explain how their AI agents actually work inside.
+>
+> A few of the strongest ones:
+>
+> Stripe. Their coding agents merge over 1,300 pull requests a week with zero human-written code. A Slack message starts it, an isolated machine spins up in seconds, and a human only reviews.
+>
+> Vercel. They removed 80% of their agent's tools and got more out of that than out of any model upgrade.
+>
+> METR. Pull requests that pass the SWE-bench benchmark are 24.2 points less likely to be merged by an actual human, and the gap grows every year.
+>
+> OpenAI. The post that gave the whole field its name, written by the engineer whose team shipped a million lines without writing code by hand.
+>
+> One engineer improved 15 different models in a single afternoon. He changed the harness, never the model.
+>
+> There are around a dozen more in there, plus Cursor and Mitchell Hashimoto writing about his own adoption.
+>
+> Link to the paper in the comments.
+>
+> *Quoting @undefinedKi:* https://t.co/sDrzjUhCzy
+
+- **Tweet:** https://x.com/undefinedKi/status/2089777209015943333
+- **Link:** https://x.com/i/article/2088087479538614272
+- **Quoted:** https://x.com/undefinedKi/status/2088611136027361368
+- **Filed:** [how-to-design-an-agent-harness.md](./knowledge/articles/how-to-design-an-agent-harness.md)
+- **What:** Yarchi highlights a buried bibliography of primary agent-ops writeups — Stripe agents merging 1,300 PRs/week from Slack, Vercel gaining more from deleting 80% of tools than from model upgrades, METR finding SWE-bench-passing PRs 24.2 points less likely to merge, plus OpenAI, Cursor, and Hashimoto — while quoting his own X article that treats the harness as six design decisions (stop rule, tool menu, memory, crash files, OS sandbox, independent done-check) you already have whether or not anyone designed them.
+
+## @BenceRedmond - Agents attaching screenshots and videos to pull requests
+> agents attaching screenshots + videos to PRs is such a massive speed-up. highly recommend setting up if you haven't already. https://t.co/msbrzJAl2q
+
+- **Tweet:** https://x.com/BenceRedmond/status/2089772277542089103
+- **What:** Bence Redmond's review-loop claim is that coding agents should attach screenshots and screen recordings to pull requests so reviewers see the running UI instead of reconstructing it from the diff, which collapses back-and-forth. The attached t.co only resolved back to this tweet.
+
+## @iz_hurley_ - Braintrust opens a public library of independent eval research
+> Evals are hard, but also really fun. They are increasingly the ways we get to understand the systems that are operating in our work and lives, and be accountable to the people they affect!
+>
+> check out the eval library! it a place for substantiated claims that also shows our journeys and stumbles
+>
+> questions? critiques? haters? let us know! We are working hard become better eval-ers. I am super stoked to continue developing our how we do evals and that it they now have a homeeeeee!!
+>
+> *Quoting @braintrust:* Evals are hard. Good eval research should be accessible.
+>
+> At Braintrust, we have unique access to how leading AI teams think about quality. We study the best existing research and conduct our own experiments.
+>
+> Today we're making this work available in one place, with an open source library of evals.
+>
+> Visit the eval library → https://t.co/OJCrvmVqvY
+
+- **Tweet:** https://x.com/iz_hurley_/status/2089769076076007689
+- **Link:** https://www.braintrust.dev/evals
+- **Quoted:** https://x.com/braintrust/status/2089757992589648198
+- **What:** Izzy Hurley frames evals as how teams stay accountable to the people their systems affect, quoting Braintrust's launch of a public eval library — open studies of models, agents, and cost (GPT-family comparisons, paper-vs-Figma, GLM-vs-Opus, plus Claude Code / Codex / Cursor / Gemini / Copilot / OpenCode) so claims ship with methodology you can inspect or rerun instead of a vendor scoreboard.
+
+## @huangyun_122 - srt-whiteboard-animation turns SRT captions into hand-drawn videos
+> 兄弟们，这个 GitHub 开源宝库，真神了啊
+>
+> https://t.co/vcP3Bmbznl
+>
+> 把它嫁接到 Codex 里面，分分钟出视频，日更100条不是痴人说梦
+>
+> 我试了一条天涯的神贴，配上祁同伟的口音，有那个味了 https://t.co/PLd26gsw5I
+
+- **Tweet:** https://x.com/huangyun_122/status/2089765144658329911
+- **Link:** https://github.com/geeklee/srt-whiteboard-animation
+- **Filed:** [srt-whiteboard-animation.md](./knowledge/tools/srt-whiteboard-animation.md)
+- **What:** geeklee/srt-whiteboard-animation is a Python Codex skill that converts SRT subtitles into warm-paper whiteboard videos: it storyboards 25–35s scenes, then draws each element in narrative order with streaming ink-then-color strokes. Huangyun wired it into Codex to batch short-form clips from forum posts (a Tianya thread in a Qi Tongwei voice) and argues daily 100-clip output is now realistic.
+
+## @amydeng_ - Using AI to manage lifelong patient data after brain surgery
+> A year ago, I was recovering from brain surgery, naively thinking I’d done the hard part. Today, I’m coming to terms with being a lifelong patient
+>
+> With @OpenAI, I’m excited to share how I used AI to aggregate fragmented health data, spot patterns, and make better decisions https://t.co/Ae5Lf4HIaU
+
+- **Tweet:** https://x.com/amydeng_/status/2089760020355564022
+- **What:** A year after brain surgery, Amy Deng describes becoming a lifelong patient and using OpenAI tooling to stitch together fragmented medical records, surface patterns across visits, and make treatment decisions the health system itself does not assemble for her. The attached t.co only resolved back to this tweet, so the write-up itself is not in the bookmark payload.
+
+## @L1vsun - Bedroom WorldQuant agent promo quoting the four money multipliers
+> a quant just finished top 0.03% at WorldQuant with a trading agent he built in his bedroom
+>
+> result: +$89,420 in 3 months of live trading
+>
+> his agent combines markov chain state detection with kelly-sized position management on equity index futures
+>
+> Its approach is simple:
+> 1. identifies what state the market is in (trending, ranging, volatile, mean-reverting) using historical autocorrelation
+> 2. sizes positions using kelly criterion based on the win probability of that specific state transition
+> 3. when a state changes, it flips exposure instantly instead of holding a losing position out of habit
+>
+> You can build your own quant agent here for FREE:
+> https://t.co/h2kbzHF4dp
+>
+> using this framework and disciplined execution, he turned $15,000 in starting capital into $104,420 in 12 weeks
+>
+> his edge isn't predicting price direction
+>
+> it's knowing exactly which state he's in and betting only when the math says the transition probability is in his favor
+>
+> *Quoting @L1vsun:* https://t.co/qOBb2XGkl3
+
+- **Tweet:** https://x.com/L1vsun/status/2089758001074753883
+- **Link:** https://horizon.trade/?dub_id=DwUS66CvLwVli78w
+- **Quoted:** https://x.com/L1vsun/status/2088993353111159216
+- **Filed:** [four-things-that-multiply-your-money.md](./knowledge/articles/four-things-that-multiply-your-money.md)
+- **What:** Livsun's new tweet is a Horizon.trade promo dressed as a WorldQuant case study: a bedroom agent allegedly finished top 0.03% and turned $15k into $104k in 12 weeks (+$89,420) by classifying equity-index-futures regimes via autocorrelation (trend/range/vol/mean-revert), Kelly-sizing on that state's win probability, and flipping exposure on regime change instead of holding losers. It quotes his earlier essay arguing every fortune is one or more of four multipliers — other people's time, money that earns, something that copies, attention that keeps arriving — and that people starting from zero should climb attention → copies before they can switch on hiring and compounding.
+
+## @StefanGeorgi - Four-year-old hooks and persuasion piece he still ranks first
+> 4 years old but still probably the best content I ever put out on hooks, marketing and persuasion... https://t.co/6r0o6eIQCa
+
+- **Tweet:** https://x.com/StefanGeorgi/status/2089755469761888498
+- **What:** Copywriter Stefan Georgi resurfaces what he still calls his best work on hooks, marketing, and persuasion from four years earlier, but the attached t.co only resolved back to this same tweet, so the original thread or essay is not in the bookmark payload.
+
+## @pentest_swissky - GLM-5.2, not Mythos, is the real security emergency
+> GLM-5.2, not Mythos, is the real security emergency - Joshua Saxe
+> https://t.co/CcPeApQNlJ
+
+- **Tweet:** https://x.com/pentest_swissky/status/2089752684127518999
+- **Link:** https://joshuasaxe181906.substack.com/p/glm-52-not-mythos-is-the-real-security
+- **Filed:** [glm-52-not-mythos-is-the-real-security.md](./knowledge/articles/glm-52-not-mythos-is-the-real-security.md)
+- **What:** Swissky points at Joshua Saxe's argument that the emergency is not gated Mythos but open-weights GLM-5.2 crossing the long-horizon agency bar. Attackers no longer need logged frontier APIs: they can fine-tune a near-GPT-5.5/Opus-4.8 coding model to refuse nothing and run it on an 8×H200 box with no telemetry, which should spawn a dark-economy inference/harness market. Saxe says denying defenders Mythos (watched 24×7) because it finds 0-days is backwards once that unmonitored peer exists, and wants CISOs and security vendors to adopt the best models before the attack side gets its Claude Code moment this year.
+
+## @SubhanHQ - Amicro mirrors Aceternity's React micro-interaction library pitch
+> wtf this is crazy https://t.co/kgtLAWN1ZV
+>
+> *Quoting @mannupaaji:* wtf this is crazy https://t.co/R8xb9wUp4Q
+
+- **Tweet:** https://x.com/SubhanHQ/status/2089744954851729488
+- **Link:** https://amicro.vercel.app/
+- **Quoted:** https://x.com/mannupaaji/status/2089694124152865220
+- **What:** SubhanHQ copies Manu Arora's "wtf this is crazy" line and points it at Amicro, his own CLI-installed React library of tree-shakeable micro-transitions and interactions (Motion + Tailwind; OG also cites github.com/Subhan-code/Amicro--Micro-transitions-). The quoted tweet is Arora doing the same reaction for Aceternity UI, his 200+ copy-paste React/Tailwind/Motion component, block, and landing-template catalog. Both destinations are marketing homepages, not essays.
+
+## @Timseo_ - Claude GSC workflow that classifies keyword cannibalization
+> c'est ouf... j'utilise Claude mais là! En gros, il peut détecter la cannibalisation sur mon site en automatique. Zéro outil payant ↓
+>
+> (deux URL positionnées sur la même requête c'est un problème, et c'est Google qui choisit laquelle afficher)
+>
+> en gros je lui donne un workflow avec plusieurs missions :
+>
+> → lire l'export GSC 90 jours en entier, requête par requête et URL par URL (1M de tokens, aucun échantillon, aucun filtre au préalable)
+>
+> → isoler toutes les requêtes qui déclenchent 2 URL ou plus
+>
+> → classer le conflit : mot-clé exact, même intention, ou simple proximité sémantique
+>
+> → comparer position, impressions, clics et CTR des deux pages avant de trancher laquelle garde l'intention
+>
+> → sortir l'action page par page : 301, fusion des deux contenus, séparation des micro-intentions, ou aucune action
+>
+> La dernière option compte autant que les autres.
+>
+> Si tes 2 pages occupent 2 places du top 10 sur la même requête, tu ne fusionnes rien. Tu gardes les 2 positions et tu écris chaque page sur un angle distinct.
+>
+> Et je ne supprime jamais celle qui perd. 301 vers celle qui reste, toujours. Un 410 te fait perdre les liens que la page avait déjà reçus.
+>
+> Tout est automatique (ou presque).
+>
+> Et la méthode ne sort pas de 2-3 prompts avec Claude : j'itère dessus depuis 6 ans, 1000+ articles de blog et 100+ projets SEO.
+>
+> je peux partager le skill pour ceux qui sont intéressés me le dire en com'
+
+- **Tweet:** https://x.com/Timseo_/status/2089743876244529215
+- **What:** TimSEO walks a Claude workflow that reads an unsampled 90-day GSC export (~1M tokens, query-by-query and URL-by-URL), isolates queries that fire two or more URLs, classifies each clash as exact-keyword / same-intent / mere semantic proximity, then compares position, impressions, clicks, and CTR before recommending 301, merge, split the micro-intents, or do nothing. The decision rules are the point: if both URLs already sit in the top 10, keep both and write distinct angles; never 410 the loser — always 301 so inbound links survive. He frames it as six years / 1,000+ posts / 100+ SEO projects, not a two-prompt trick, and offers to share the skill.
+
+## @yesh - Dex Horthy /show-me skill for visual agent explanations
+> oh snap @dexhorthy `/show-me` skill is clutch https://t.co/n4IcqaWAkl
+
+- **Tweet:** https://x.com/yesh/status/2089741642320216449
+- **What:** Yesh screenshots Dex Horthy's HumanLayer `/show-me` skill turning a coding-agent wall of jargon into compact visual artifacts — component trees, call stacks, file layouts, type signatures, and small HTML explainers — so you can discuss the shape of the code before (or while reviewing) the prose dump. Install via `npx skills add humanlayer/skills --skill show-me`.
+
+## @Muninn - Extension in ADR matters more than entry timing
+> I studied over 900 of Market Wizard @Qullamaggie breakouts and EP trades
+>
+> I made me stop caring when to enter.. how extended a stock is, is far more important than when you buy https://t.co/CaDAJuwGdy
+>
+> *Quoting @Muninn:* This is the article I wish I had when I started trading. And probably in year two and three as well.. https://t.co/DYcyk8oSMf
+
+- **Tweet:** https://x.com/Muninn/status/2089714684295254292
+- **Link:** https://x.com/i/article/2088143622180921344
+- **Quoted:** https://x.com/Muninn/status/2088292776047751193
+- **Filed:** [everything-ive-learned-about-entries-from-a-market-wizard.md](./knowledge/articles/everything-ive-learned-about-entries-from-a-market-wizard.md)
+- **What:** Muninn recirculates his reconstruction of 900+ Qullamaggie 2019–2022 longs: extension (distance from the day low in ADR) dominates entry timing — buying under 0.25 ADR is the expensive mistake (~91% stop out, −0.47R), while a 1-minute opening-range break harvests ~3× the total R of a 30-minute window despite a lower win rate because the stop is a third as wide. The quoted post frames the piece as the article he wished he had in years one through three.
+
+## @darylginn - Recent.design curated visual inspiration feed
+> wtf this is crazy https://t.co/zFWkIxFAiw
+
+- **Tweet:** https://x.com/darylginn/status/2089702070085698027
+- **Link:** https://recent.design/
+- **What:** Daryl Ginn reacts to Recent, a homepage-style curated design-inspiration feed ("The best design inspiration on the Internet") tiled across Web, Interface, Branding, Product, Typography, Motion, Illustration, 3D, Editorial, Print, and Packaging — current posts include a gooey speed-dial, skeuomorphic CSS button, liquid clock, and multi-action FAB, more moodboard than essay.
+
+## @AniC_dev - BetterWright: token-efficient persistent browser for agents
+> he made a browser that is super easy for agents to steer and helps them use 90% less tokens
+>
+> should check him out, this guy is cracked on giving agents powerful tools and environments
+>
+> *Quoting @NavDoesTech:* i reduced my browser use token usage by 90% and gave all my agents browser use by creating BetterWright
+>
+> You can plug it into ur existing browsers that you have locally or even external browsers like Browser-use, kernel, steel and driver!
+>
+> BetterWright vs PlayWright:
+> • Navigate + extract: ~70% fewer tokens
+> • Multi-step form: ~80% fewer
+> • Agent browsing loop: ~90% fewer
+>
+> Q: How to install?
+> A: its as simple as giving ur agents the repo and asking them to install it to themself lmao
+>
+> https://t.co/kL2eN8HpPI (appreciate if yall starred 🥹)
+
+- **Tweet:** https://x.com/AniC_dev/status/2089696634493915248
+- **Link:** https://github.com/BetterWright/betterwright
+- **Quoted:** https://x.com/NavDoesTech/status/2089681406947639350
+- **Filed:** [betterwright.md](./knowledge/tools/betterwright.md)
+- **What:** AniC_dev points at Nav's BetterWright, a persistent policy-guarded Playwright session whose compressed, diffable snapshots are the actual product: Nav claims ~70% fewer tokens on navigate+extract, ~80% on multi-step forms, and ~90% on a full agent browse loop versus stock Playwright, and it plugs into local browsers or hosted ones (Browser-use, Kernel, Steel, Driver) so an existing agent can steer it via skill, MCP, or JS — or hand the whole task to `betterwright exec` and get one JSON answer.
+
+## @xing_eth - sub2api-overdraft: Codex quota overdraft and OAuth fingerprint fork
+> GPT额度恢复正常，还能继续超额！！！
+>
+> 做 Codex 中转最难受的，不是账号少，而是明明还有可用空间，额度却显示异常，账号提前退出调度。
+>
+> 这个仓库解决两个问题：<https://t.co/4uh44YlqDD>
+>
+> **1. 打开 Codex OAuth 指纹收敛，让额度表现恢复正常**
+>
+> Sub2API 177版本 的相关开关容易看反。实际配置应核对：
+>
+> ```yaml
+> gateway:
+>   disable_codex_identity_enforcement: false
+> ```
+>
+> 开启后，`User-Agent`、`originator` 和版本信息会保持配套，减少第三方或陈旧身份带来的异常分桶。对额度忽高忽低、偶发 429 或 `server_is_overloaded` 的中转站，额度表现会更接近正常水准。
+>
+> Windows 指纹目前更容易出问题；有能力的可以在自有环境采集并验证 iOS/macOS 指纹，再逐步替换。先用单账号、小流量灰度，确认成功率和日志正常后再推全池。
+>
+> **2. 使用 sub2api-overdraft，让 5h/7d 额度能够超额**
+>
+> 这个 Fork 基于 `v0.1.177`，加入了 Codex 5h/7d 额度透支调度：
+>
+> - 用量达到 95% 后，开始为适用的 OAuth 业务请求注入兼容请求形态；
+> - 显示到 100% 后，不会立刻把账号踢出池，而是继续看真实业务结果；
+> - 上游仍然返回成功，就标记为 `passed`，账号继续调度，并统计透支期请求和 Token；
+> - 上游返回明确额度 429，才标记为 `failed`，暂停账号并切号；
+> - 没有业务结果时，同一额度周期最多补 1 次独立探测。
+>
+> 简单说：**面板显示额度到顶，不代表上游真的完全拒绝；只要真实请求还能成功，这个仓库就允许账号继续跑，把可用的超额空间吃出来。**
+>
+> 核心开关：
+>
+> ```yaml
+> gateway:
+>   codex_quota_overdraft_enabled: true
+> ```
+>
+> 中转站升级顺序：`v0.1.177` → 开启指纹收敛 → 开启额度透支 → 重启 → 单账号验证 → 稳定后放量。
+>
+> 最终作用很直接：**指纹收敛让额度显示和调度恢复正常，overdraft Fork 让账号在显示到顶后还能继续超额使用。**
+>
+> #Sub2API #Codex #中转站 #GPT #额度透支 #账号池 #运维
+>
+> *Quoting @xing_eth:* Bugteam补号站现在注册会员已经突破6000了！！
+>
+> 预告：19号 我们的Bugteam持续狂欢
+>
+> 如果plus试用渠道持续关闸
+>
+> 那以后没有plus什么事儿了！！！
+>
+> 现在10分钟一趟车，供不应求，
+>
+> 几个大手子中转老板已经加入自动补池，
+>
+> 每趟车都有兜底，现在你手动不一定能拿到号
+>
+> 散户建议新鲜预定，中转直接建议用自动补号！！！
+> #bugteam #chatgpt #gpt #claude #grok
+
+- **Tweet:** https://x.com/xing_eth/status/2089694868025254264
+- **Link:** https://github.com/DeanZFC/sub2api-overdraft
+- **Quoted:** https://x.com/xing_eth/status/2089676104131043502
+- **Filed:** [sub2api-overdraft.md](./knowledge/tools/sub2api-overdraft.md)
+- **What:** xing_eth pairs a pitch for Bugteam's 6,000-member ChatGPT/Claude/Grok account-refill station (10-minute restock trains, auto-pool refill for relay operators if Plus trials stay gated) with an unofficial Sub2API v0.1.177 fork that tightens Codex OAuth identity fingerprints so quota meters stop misfiring, then keeps OAuth accounts schedulable after the 5h/7d bar hits 100% by treating successful upstream responses as evidence the quota is not actually exhausted.
+
+## @GitTrend0x - diagram-design leads GitHub's editorial-diagram agent skill wave
+> 今日 GitHub 上的屠龙榜！
+>
+> 1.  cathrynlavery/diagram-design
+> 你的 AI 编程 Agent 终于有编辑级图表审美了。27 种社论级 diagram（架构/时序/甘特/雷达…），纯 HTML+SVG，无阴影无 Mermaid 垃圾感，支持品牌色提取、https://t.co/7EMdjFJEed 重绘、无障碍动画。
+> 🔗 直达：https://t.co/BSAvjePBGj
+> 以前 Agent 画图像小学生，现在直接出可发客户/论文的视觉资产。周增上万星，图表技能赛道正式起飞！
+>
+> 2.  semantica-agi/semantica
+> 图原生「可问责 AI 基础设施」——企业数据进 Context Graph + Knowledge Graph，因果推理、决策溯源、PROV-O 全链路审计全包。RDF/LPG 双支持，自托管零锁定。
+> 🔗 直达：https://t.co/dmRtPuSPiw
+> 以前 Agent 决策黑箱，现在每一步都能追责。高风险/合规场景刚需，Open Source Palantir 味拉满！
+>
+> 3.  PrimeIntellect-ai/prime-agent
+> 自改进 RLM Agent：上下文当变量、工具当递归子 Agent，Continual Harness 让 prompt/记忆/技能证据驱动迭代，可 rollback。长时程编码 + 研究全包。
+> 🔗 直达：https://t.co/RLW7LANBJb
+> 以前 Agent 跑完就忘，现在自己越跑越强。编程与长期任务的下一任王者！
+>
+> 4.  cactus-compute/needle
+> 14MB 级 foundation model，专为手机/可穿戴/智能家居/机器人设计。端侧小钢炮，跑得动真 Agent。
+> 🔗 直达：https://t.co/HnuiEN3PQK
+> 端侧 AI 终于不是玩具了。资源受限场景直接杀疯！
+>
+> 5.  OpenCut-app/OpenCut
+> 开源版剪映/CapCut，Web + 桌面 + 移动全覆盖，免费无水印。Agent 视频流水线的完美下游。
+> 🔗 直达：https://t.co/SJSjzWjU6S
+> 视频自动化最后一公里终于开源了。内容工厂必备！
+>
+> //
+>
+> 总结
+>
+> 2026 年中的风口已经是「可进化、可问责、可端侧、可视觉」的 Agent 基础设施。谁先把这些玩透，谁就站在下一波生产力 C 位。
+>
+> *Quoting @GitTrend0x:* 今天 GitHub 被工作流军团刷屏了！
+>
+> 1.  cathrynlavery/diagram-design
+> 为 Claude Code / Codex / Pi 等 Agent 量身打造的 29 种社论级图表技能。独立 HTML + SVG，无阴影、高可读，彻底告别粗糙 Mermaid。
+> 🔗 直达：https://t.co/BSAvjePBGj
+> 以前 Agent 画图像小学生涂鸦，现在直接输出出版级架构图。热度爆发，文档/架构表达赛道正式起飞！
+>
+> 2.  Panniantong/Agent-Reach
+> 给 AI Agent 装上“全网眼睛”：零 API 费用读取 Twitter/X、Reddit、YouTube、B 站、小红书、GitHub 等 17 个平台，附带 doctor 自检。
+> 🔗 直达：https://t.co/vn7mtGSzjW
+> 以前 Agent 被关在笼子里只能用付费 API，现在直接免费满血开眼。情报/研究/监控必备！
+>
+> 3.  calesthio/OpenMontage
+> 世界首个开源 Agentic 视频制作系统：12 条流水线 + 52 工具 + 500+ 技能，自然语言描述 → 研究脚本 → 素材 → 剪辑一气呵成。
+> 🔗 直达：https://t.co/ZnDldYbJsD
+> 把编码助手变成完整视频工作室。本地免费跑，短视频/内容赛道直接被 Agent 接管！
+>
+> 4.  Leonxlnx/taste-skill
+> 赋予 AI Agent 真正审美品味的技能包，告别千篇一律的生成内容。
+> 🔗 直达：https://t.co/N1WiUkLeec
+> 以前生成物全是“AI 味”，现在 Agent 开始有审美标准。内容/设计/产品输出质量跃升！
+>
+> 5.  stablyai/orca
+> Agent 开发环境：支持桌面/移动/VPS 并行跑多个编码 Agent，工作区级编排。
+> 🔗 直达：https://t.co/A86SfdXZ3r
+> 单会话工具已过时，并行舰队才是下一站。团队/个人生产力直接倍增！
+>
+> //
+>
+> 总结
+>
+> 2026 年下半年的风口已经从“单 Agent”全面转向“可插拔技能 + 并行工作流 + 视觉/内容落地”。谁先把这些玩透，谁就站在下一波生产力革命的 C 位。
+
+- **Tweet:** https://x.com/GitTrend0x/status/2089670583923749049
+- **Link:** https://github.com/cathrynlavery/diagram-design
+- **Quoted:** https://x.com/GitTrend0x/status/2089328754636341507
+- **Filed:** [diagram-design.md](./knowledge/tools/diagram-design.md)
+- **What:** GitTrend's daily list (quoting yesterday's workflow-agent roundup) leads with cathrynlavery/diagram-design, a Claude Code/Codex/Pi skill that emits 27–28 editorial HTML+SVG diagram types with brand-color extraction and Mermaid/draw.io redraw (~23k stars). Today's rest of the board is semantica (accountable context graphs), Prime Intellect's self-improving prime-agent, cactus-compute/needle (14MB on-device model), and OpenCut; the quoted prior list also flags Agent-Reach, OpenMontage, taste-skill, and orca. The through-line is mid-2026 agent infra shifting toward evolvable, accountable, on-device, and visual production rather than a single chat session.
+
+## @elie2222 - botdirectory.ai prompt catalog for scheduled Grok bots
+> wtf this is crazy https://t.co/PttXabSVlw
+
+- **Tweet:** https://x.com/elie2222/status/2089663152535273527
+- **Link:** https://botdirectory.ai/
+- **What:** Elie is pointing at botdirectory.ai, a homepage directory of ~183 ready-to-copy bot prompts and workflows for Grok Bot, Rakazo, and similar scheduled agents (chief-of-staff, churn watchers, content autopilots, call coaches) so you can clone a workflow, wire its tools, and launch without writing the prompt from scratch. Marketing listing page, not a standalone essay.
+
+## @suganthan - Free classifier for AI Mode fragments leaking into Search Console
+> Google is leaking user AI Mode and AI Overview fragments and prompts into Google Search Console.
+>
+> SEOs have been trying to find ways to extract these using different techniques, such as regex, pattern matching, and AI. They are all very effective methods.
+>
+> However, it is not straightforward and easy to do because you see a mix of query types in different languages, patterns, and many edge cases.
+>
+> There is only one real way to solve this problem.
+>
+> By building a custom machine learning model and training it on thousands of queries.
+>
+> I did this and built a free tool around it so anyone can use it.
+>
+> - Supports 100,000 queries per run. (Free)
+> - Upload your GSC generative AI report and get your pages mapped against these fragments and prompts.
+> - Export the data and start analysing the output, segment, and build your actions based on this.
+> - If you have more than 100k queries, contact me directly for a batch run. (Use the form)
+>
+> Find the article and tool link below. 👇
+>
+> The guide, with all 4 methods credited:
+>
+> https://t.co/z1Rpkm5qqT
+>
+> The classifier tool: https://t.co/AorWi1fryq
+>
+> The tool is still in beta so keep that in mind when using. Thank you.
+>
+> P.S. Please play nice and don't hammer the server. I'm running this for free and it costs me $ to process everything, so I'd appreciate it if you take it a bit easy. Thanks in advance.
+
+- **Tweet:** https://x.com/suganthan/status/2089645813119238365
+- **Link:** https://suganthan.com/blog/how-to-track-ai-mode-traffic/
+- **Filed:** [how-to-track-google-ai-mode-traffic.md](./knowledge/articles/how-to-track-google-ai-mode-traffic.md)
+- **What:** Google's June 2026 Generative AI reports show AI Overview/AI Mode impressions but not queries, yet conversation fragments ("yes go on", follow-ups, pasted prompts) leak into ordinary GSC rows. Suganthan compares four pulls (Gabe's API-to-Excel inventory, Chouinard's conversational regex, Foroutan's GSC Visualizer, his GSC/BigQuery MCPs) then ships a free xlm-roberta classifier that labels up to 100k queries into conversational, artefact, pivot, tracker, agent-harness, pasted, and ordinary buckets and can map them onto the Generative AI pages export. Treat any extract as an undercount — he measured 57.7% of impressions sitting in GSC's anonymized pool.
+
+---
+
+# Monday, August 17, 2026
+
+## @kepano - 80 moats still relevant when generation is free
+> *Replying to @kentdebruin:* What the hell is your moat if everything can just be generated
+>
+> @kentdebruin I collected 70 different moats, and they're all still relevant
+> https://t.co/AnpR9P3bV6
+
+- **Tweet:** https://x.com/kepano/status/2089471881686757886
+- **Link:** https://stephango.com/moats
+- **Parent:** https://x.com/kentdebruin/status/2089384958049612257
+- **Filed:** [many-ways-to-win.md](./knowledge/articles/many-ways-to-win.md)
+- **What:** Kent treats "everything can be generated" as the death of moats; kepano answers with his 2023 catalog of eighty survival strategies (he says 70 on X) spanning accumulation, price, time, uniqueness, offense, defense, deception, timing, accreditation, collaboration, speed/scale, ease, and transformation. The essay's claim is that winners stack a narrow, unusual combination of those vectors — usership, craftsmanship, secrecy, last-mover timing, curation, charm — so a moat is a mix of edges that generation does not erase, not a monopoly on producing output.
+
+## @0xTrackmind - NASA-MIT gold trend system: 2.88 Sharpe from sizing, not signal
+> this paper is f*cking insane
+>
+> a team out of NASA and MIT built a stripped-down trend and momentum system for gold futures, then tested it strictly out of sample.
+>
+> the numbers: 2.88 Sharpe, 0.52% max drawdown, 43% annualized return at a 15% vol target, all after costs and market impact.
+>
+> over 2,793 trading days the strategy ran near-zero beta to gold with estimated capacity nearing $1 billion.
+>
+> the crazy part is the signal itself is nothing fancy, the edge comes from how weak predictability gets turned into disciplined sizing, exits, and execution.
+>
+> bookmark before this thread gets buried.
+>
+> *Quoting @0xTrackmind:* https://t.co/0PphrvyxPM
+
+- **Tweet:** https://x.com/0xTrackmind/status/2089392022150844473
+- **Link:** https://x.com/i/article/2080989573128024064
+- **Quoted:** https://x.com/0xTrackmind/status/2080996366122172732
+- **Filed:** [you-were-taught-to-fear-randomness.md](./knowledge/articles/you-were-taught-to-fear-randomness.md)
+- **What:** Trackmind is selling a NASA/MIT gold-futures trend-and-momentum system (claimed 2.88 Sharpe, 0.52% max drawdown, 43% annualized at a 15% vol target, near-zero gold beta, ~$1B capacity over 2,793 out-of-sample days after costs) whose edge is supposedly in sizing, exits, and execution rather than a fancy signal — while quoting his own X essay that randomness is a measurable distribution, not fate. The essay's six moves (CLT shape, Sharpe-as-skill-filter, calibrated probability/Kelly, OOS skepticism, fat tails, outcome ≠ decision) are the interpretive frame: those paper stats only count if luck has a number with a shape.
+
+---
+
 # Tuesday, June 16, 2026
 
 ## @Metzjosh2 - Running Ollama inside Codex Desktop via codex-shim and cliproxy
