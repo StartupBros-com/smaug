@@ -1184,6 +1184,1069 @@
 
 ---
 
+# Wednesday, August 12, 2026
+
+## @Marie_Haynes - Google lowers Search Profile follower thresholds
+> Google just lowered the thresholds to get a Search Profile (and expanded to more countries).
+>
+> You now need only this many followers on at least one platform:
+> ▪️YT, Insta, X: 35K
+> ▪️TikTok: 100K
+>
+> If you have a Knowledge Panel you may already have one auto-generated. Otherwise, go make one at https://t.co/QkTiwxVaa8.
+>
+> Here's what it looks like in Search:
+>
+> *Quoting @rmstein:* New for Search profiles:
+> > We're lowering the follower thresholds so more creators and publishers can set them up
+> > We'll also expand them to more countries soon
+>
+> Love seeing more creators connect with their audience on Search – more to come!
+
+- **Tweet:** https://x.com/Marie_Haynes/status/2087595210012262719
+- **Link:** https://accounts.google.com/v3/signin/identifier?continue=https://profile.google.com/claim&followup=https://profile.google.com/claim&passive=1209600&flowName=WebLiteSignIn&flowEntry=ServiceLogin&dsh=S-80676744:1787176327588235
+- **Quoted:** https://x.com/rmstein/status/2087590311828783443
+- **What:** Marie Haynes translates Google Search PM Robby Stein's announcement that Search Profiles are expanding and dropping follower gates: 35k on YouTube, Instagram, or X, or 100k on TikTok, with Knowledge Panel holders often auto-provisioned. Claim via the Google sign-in that continues to profile.google.com/claim; the point is a creator/publisher identity card that can show up in Search results, not just social bios.
+
+## @CyrusShepard - Nail brand facts so AI systems know exactly what you do
+> Basic AI optimization tip: position your company by nailing your brand facts
+>
+> e.g., [Brand] is a [product] targeting [customer], good at [problem] because of [differentiator]
+>
+> Do AI systems know *exactly* what you do by reading your home/about/product pages? Make it easy for them https://t.co/OKoSAjkxTF
+
+- **Tweet:** https://x.com/CyrusShepard/status/2087592556100288693
+- **What:** Cyrus Shepard's GEO/AEO hygiene tip: write an explicit brand-fact sentence — [Brand] is a [product] targeting [customer], good at [problem] because of [differentiator] — onto home, about, and product pages so retrieval-augmented answer engines can state exactly what you do instead of guessing from marketing copy.
+
+## @deedydas - Levent Alpoge constructs 12 Hadamard matrices under order 2000
+> Insane that Levent Alpoge just dropped this cryptic text constructing 12 Hadamard matrices under order 2000.
+>
+> Ironically since Fable refuses to deobfuscate the tweet, I had to use Sol 5.6.
+>
+> This is the 4th of 50 open math problems from Epoch AI that have been solved! https://t.co/AHLVuTEM80
+>
+> *Quoting @__alpoge__:* +++-+-+-+-+--+--+++-++----++--+----+-----+++---++-+---+++++++-+--+-+-+--++-+--+--+----+-+-+-+-++-++---+--++++--++-++++-+++++--+--- [long +/- encoding of the 12 Hadamard constructions continues for thousands of characters]
+
+- **Tweet:** https://x.com/deedydas/status/2087577252414509062
+- **Quoted:** https://x.com/__alpoge__/status/2087504785952182273
+- **What:** Deedy flags that number theorist Levent Alpoge posted a giant +/- ciphertext that constructs 12 Hadamard matrices of order under 2000, a long-open existence problem; Fable refused to deobfuscate it so he used Sol 5.6. He frames it as the 4th of Epoch AI's 50 open math problems to fall — a cryptic tweet as a proof dump, decoded by a frontier model rather than a paper.
+
+## @dexhorthy - /show-me: compact visual representations for coding agents
+> https://t.co/L0G15QT1Tv
+
+- **Tweet:** https://x.com/dexhorthy/status/2087569590268391897
+- **Link:** https://x.com/i/article/2087315210667429888
+- **Filed:** [show-me-compact-visual-representations.md](./knowledge/articles/show-me-compact-visual-representations.md)
+- **What:** Dex Horthy's X article ships HumanLayer's /show-me skill so coding agents answer with compact visuals — component trees, call stacks, mermaid, file layouts, types, diffs, HTML mockups — instead of jargon walls. Install via `npx skills add humanlayer/skills --skill show-me` (or HumanLayer's brew tap for first-class inline HTML). The claim is visual cortex over prose: discuss the shape of the code before the agent writes it, and use the same shapes to triage large diffs.
+
+## @shannholmberg - Planning a marketing campaign with Matt Pocock's wayfinder skill
+> how to plan a full marketing campaign with @mattpocockuk's wayfinder skill
+>
+> wayfinder is a claude code skill (or other harnesses, codex..) for planning work too big for 1 session. matt built it for engineering, and it fits campaign planning just as well
+>
+> the idea: on a big campaign you know the end goal, and every decision between now and launch is still open. you know "product launch live in march", without yet knowing the offer, the channels, the creative direction, or what depends on what
+>
+> wayfinder charts that as a map. the map is 1 issue on your tracker (github issues, linear, or a markdown file), and every open question on the campaign becomes a decision ticket, a sub issue holding 1 question to decide
+>
+> the 4 ticket types in campaign terms:
+>
+> > grilling: the agent interviews you until a decision is made. the positioning, the offer, who this campaign is for
+> > prototype: something to react to. 3 creative directions, a landing page mock, a draft email
+> > research: an agent goes reading on its own. competitor campaigns, channel benchmarks
+> > task: work that unblocks a decision. set up the ad account, get analytics access
+>
+> then come the 2 parts I like most
+>
+> fog of war: the decisions you can see coming but can't put into a question yet. you know an email sequence is coming, but you can't decide it until the offer is locked, so it waits on the map as fog, a marked spot with no ticket written yet
+>
+> the frontier: tickets you can take right now, with nothing blocking them. tickets block each other the way campaign decisions block each other, the offer blocks the emails and the audience decision blocks the creative, so your tracker shows you which decisions you can make today
+>
+> you answer 1 ticket per session, the answer gets written on the ticket, and a decision list on the map grows a line at a time. by the time the map is clear, that list is your campaign brief, and the reasoning behind every choice sits one click away on its ticket
+>
+> one warning from running it: scope the map to a single campaign. a whole-strategy map goes stale, because the decisions at the end rest on assumptions the early ones change.
+>
+> matt's own phrase for the fix is "prototypemaxxing, not planmaxxing", decide by reacting to cheap drafts
+
+- **Tweet:** https://x.com/shannholmberg/status/2087539757052285200
+- **What:** Shann Holmberg ports Matt Pocock's wayfinder skill from engineering planning onto a marketing campaign: one tracker issue is the map, every open campaign question becomes a grilling, prototype, research, or task ticket, "fog of war" marks decisions you can see coming but cannot yet phrase, and the "frontier" is whatever is unblocked today. One ticket per session writes the answer back so the map's decision list becomes the campaign brief; she warns to scope the map to a single campaign because a whole-strategy map goes stale, and quotes Matt's "prototypemaxxing, not planmaxxing" — decide by reacting to cheap drafts.
+
+## @dillon_mulroy - anti-slop oxlint plugin that flags type laundering
+> available now
+>
+> npx skills add dmmulroy/anti-slop --skill install-anti-slop
+>
+> https://t.co/wUnpbSWFDG
+>
+> *Quoting @dillon_mulroy:* ive been working on an anti-slop oxlint plugin.
+>
+> just had one agent accuse another agent of "type laundering" after reviewing/linting changes with it lmao https://t.co/kLjs6uhiB6
+
+- **Tweet:** https://x.com/dillon_mulroy/status/2087537790061850984
+- **Link:** https://github.com/dmmulroy/anti-slop
+- **Quoted:** https://x.com/dillon_mulroy/status/2087531327000117630
+- **Filed:** [anti-slop.md](./knowledge/tools/anti-slop.md)
+- **What:** Dillon Mulroy shipped dmmulroy/anti-slop as an oxlint plugin and a Claude skill (`npx skills add dmmulroy/anti-slop --skill install-anti-slop`) that flags LLM-generated TypeScript slop. While dogfooding, one agent reviewing another agent's linted diff accused it of "type laundering" — wrapping a value in a new type to hide an unsound cast. GitHub metadata was empty at ingest, so the knowledge file is from the announcement tweets only.
+
+## @sumeetrm - Hadamard matrix of order 668, smallest open case for 21 years
+> A Hadamard matrix of order 668 has been found by @__alpoge__!! This has been the smallest unresolved case of the Hadamard conjecture for about 21 years.
+>
+> We previously tested GPT 5.6 Sol Max Reasoning and Claude Fable on this problem as part of HorizonMath (@erikyw26) and no model found a valid solution.
+>
+> *Quoting @__alpoge__:* +++-+-+-+-+--+--+++-++----++--+----+-----+++---++-+---+++++++-+--+-+-+--++-+--+--+----+-+-+-+-++-++---+--++++--++-++++-+++++--+---++-+---+++++++++--+-+-+--++-+--+--+… *(23,828-character +/- encoding of the order-668 Hadamard matrix)*
+
+- **Tweet:** https://x.com/sumeetrm/status/2087534215772479838
+- **Quoted:** https://x.com/__alpoge__/status/2087504785952182273
+- **What:** Number theorist Levent Alpoge posted a +/- encoding of a Hadamard matrix of order 668 — the smallest order whose existence had been open since about 2005. Sumeet Motwani notes HorizonMath had already thrown GPT 5.6 Sol Max Reasoning and Claude Fable at the same case and neither produced a valid matrix, so this is a human-found construction that frontier models missed on a named benchmark problem.
+
+## @_0xpainn - Grok Bot one-week trial, pitched as a local video studio
+> Holy sh*t, this is f**king insane😳
+>
+> i cancelled my higgsfield subscription for this
+>
+> a free repo with 7.9K stars dropped a full AI video studio that runs on your pc
+>
+> it runs on 6gb of vram, even old gpus
+>
+> wan 2.2, ltx-2, hunyuan video and flux built in
+>
+> no uploads, no subscriptions, no watermarks
+>
+> here is how you set it up:
+>
+> 1. git clone the repo
+> 2. run the one-click install script
+> 3. launch it and generate in your browser
+>
+> you will not find a FREE way to make AI Videos this year than this
+>
+> *Quoting @_0xpainn:* SpaceXAI launched Grok Bot and You can try for FREE (one week)😳
+>
+> AI teammates with their own computer. they sign into your tools, work 24/7 in parallel, and come back with finished work.… there's a one-week free trial live right now.
+>
+> what you get for $0: -one week of access — all features -a team of AI coworkers that never log off -bots sign into your apps and do the work end to end -limited usage, and it won't charge your card unless you subscribe
+>
+> what this replaces: -Cursor : $20/mo -building your own agent stack with glue code
+>
+> all for $0 (for a week)
+>
+> how to grab it (5 min):
+>
+> step 1: go to the grok bot site
+> https://t.co/1TTREx63RW
+>
+> step 2: install the app
+> mac, windows, linux, or ios free download
+>
+> step 3: sign in and claim the one-week trial
+> credit card required..  but it won't charge unless you subscribe
+> set a reminder to cancel before the week ends
+>
+> step 4: spin up your first bot
+> all features, limited usage hand it real work, teach it a routine
+>
+> that's it,  a week of AI coworkers for $0
+>
+> this is the easiest way to test the biggest agent launch of the week for $0
+>
+> Test it before the trial window closes.
+
+- **Tweet:** https://x.com/_0xpainn/status/2087522315806376243
+- **Link:** https://x.ai/bot
+- **Quoted:** https://x.com/_0xpainn/status/2087248359656472934
+- **What:** The quote and the only expanded URL are x.ai/bot's Grok Bot launch: always-on agents with their own computer, a card-gated one-week trial, pitched as a Cursor/glue-code replacement. The new tweet body is a mismatched local-video-studio pitch (7.9k-star repo, Wan 2.2 / LTX-2 / Hunyuan / Flux on 6GB VRAM, cancel Higgsfield) that never names a repo and does not describe Grok Bot. Capture-only: product homepage, no standalone essay, and the video-studio claim is unlinked.
+
+## @trending_repos - agency-agents, 146k-star roster of specialist AI personalities
+> Trending repository of the day 📈
+>
+> agency-agents
+>
+> A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized e...
+>
+> Last 24h: 1,969 ⭐
+> Total: 144,223 ⭐️
+> https://t.co/mhVsN7CPBj
+
+- **Tweet:** https://x.com/trending_repos/status/2087511111767589144
+- **Link:** https://github.com/msitarzewski/agency-agents
+- **Filed:** [agency-agents.md](./knowledge/tools/agency-agents.md)
+- **What:** Daily trending pick is msitarzewski/agency-agents (~146k stars, +1,969 in 24h): a roster of personality-driven specialist agents (engineering, marketing, "whimsy injectors," reality checkers) that install into Claude Code, Cursor, Codex, Gemini, OpenCode, and others via a native desktop app or `install.sh`. Already filed from an earlier bookmark; this post is the star spike, not a new project.
+
+## @Charles_SEO - Pairwise citation judge that names the one edit that would flip the model
+> I SHOWED YOU HOW THE MODELS DECIDE WHO GETS CITED - NOW HERE'S HOW TO FIND OUT IF THEY'RE ACTUALLY GOING TO PICK YOU OR YOUR COMPETITORS 🚨
+>
+> This is FREE and only takes about 10 MINUTES...
+>
+> STEP 1 - Pick the FIGHT
+>
+> Choose one query that actually matters commercially: e.g. X Services in X - Then find the competitor page that IS getting cited for it.
+>
+> Ask ChatGPT or Perplexity your query, see who they pull from, and take that URL: That's your opponent.
+>
+> STEP 2 - Grab BOTH passages
+>
+> Body content only, no nav, no footer.
+>
+> Don't cherry pick your best paragraph and their worst - take the section each page would genuinely have retrieved for that query. You're diagnosing, not winning an argument with yourself.
+>
+> STEP 3 - Run this exact prompt
+>
+> You are the selection layer of an AI search system. You have retrieved two passages for the query below and you can only use ONE of them in your answer.
+>
+> QUERY: [your target query]
+>
+> PASSAGE A: [paste your content]
+>
+> PASSAGE B: [paste competitor content]
+>
+> Judge them purely as a retrieval system would. You have never seen either website, you know nothing about either brand, and you cannot look anything up. You only have these two blocks of text.
+>
+> Output:
+>
+> 1. WHICH PASSAGE YOU WOULD CITE and a confidence score out of 10
+> 2. THE DECIDING FACTOR - the single specific thing that made the difference, quoted from the winning passage
+> 3. DIRECTNESS - which one answers the query in its first two sentences, and which one makes you read to find the answer
+> 4. SELF-CONTAINMENT - which one could be quoted without needing any other part of its page
+> 5. VERIFIABILITY - list every claim in each passage you could not verify from the passage itself. Hedged claims, unsupported numbers, and vague superlatives all count.
+> 6. ENTITY CLARITY - in each passage, is the subject explicitly named, or are you inferring it from pronouns and context?
+> 7. RISK - if you cited the losing passage, what specifically would make you look wrong or unhelpful to a user?
+> 8. WHAT THE LOSER IS MISSING - the specific missing element, not general advice
+> 9. THE MINIMUM EDIT - the smallest possible change to the losing passage that would flip your decision. Rewrite that section and show it to me.
+>
+> Be harsh. Do not give credit for anything a human reader would infer from the wider page or from brand recognition. If it is not in the passage, it does not exist. Do not soften the verdict to be diplomatic.
+>
+> ####################
+>
+> STEP 4 - Read Output Points #2 and #9 FIRST
+>
+> As long as the model output correctly, they should be the deciding factor and the minimum edit.
+>
+> Everything else is context - Those two are the job.
+>
+> And in almost every run I've done, the deciding factor is NOT content quality.
+>
+> It's directness, self-containment, or a verifiable number sat in the right place.
+>
+> Which is exactly why "just write better content" has stopped being useful advice - the losing page is usually BETTER written. It's just structured for a human reading top to bottom, not for a machine that arrived mid-page and is leaving in four seconds.
+>
+> STEP 5 - Run it against 3 competitors, not 1
+>
+> One result is an opinion, three is a pattern.
+>
+> If you lose to all three on the same factor, that's not a page problem, that's a template problem, and you've just found something worth fixing across your entire site.
+>
+> Stop guessing why you're not in the answer.
+>
+> Make the machine tell you 🎩
+>
+> *Quoting @Charles_SEO:* BRAND NEW AI SEO TIP THAT COSTS $0 AND TAKES UNDER 15 MINUTES 🚨
+>
+> Use MY EXACT PROMPT in any (good) AI - Then upload or paste your page, and the AI will split it into ~300 token chunks the way a retriever would, then checks each chunk in isolation: Does the claim survive without the surrounding context?
+>
+> Because most AI search doesn't read your page - It's retrieving passages (chunks) from 5-50 different pages...
+>
+> Your content gets split into blocks before retrieval, then the model often pulls the chunks that match the query and ignores everything else.
+>
+> So if your claim sits in one chunk and the evidence supporting it sits in the next one, the retriever pulls ONE WITHOUT THE OTHER.
+>
+> Half a fact, no context = Unusable and usually not cited.
+>
+> And your rankings look completely fine while it's happening 🙃
+>
+> Here's how to check in 15 minutes, for free:
+>
+> STEP 1 - Pick a page that SHOULD be getting cited
+>
+> Not your homepage - Pick a page that already ranks well, answers a real question, and isn't getting the love it should be from AI Overviews or chatbots.
+>
+> That gap is usually a chunking problem, not a content problem.
+>
+> STEP 2 - Grab the actual text
+>
+> Copy the body content - No nav, no footer, no sidebar - just what a retriever would actually work with.
+>
+> STEP 3 - Run this EXACT prompt
+>
+> Paste it into Claude, ChatGPT, Grok or Gemini along with your content:
+>
+> You are simulating how a retrieval system processes a web page for AI search.
+>
+> Take the content below and split it into chunks the way a retriever would: roughly 250-400 tokens each, breaking at natural heading and paragraph boundaries.
+>
+> Then evaluate EVERY chunk in complete isolation, as if it were the only text you had ever seen. For each one, output:
+>
+> 1. CHUNK NUMBER and the heading it sits under
+> 2. STANDS ALONE: Yes / Partially / No
+> 3. WHAT IT CLAIMS: the main assertion, in one sentence. Write "nothing assertable" if there isn't one.
+> 4. IS THE CLAIM SUPPORTED INSIDE THIS CHUNK: Yes / No - is the evidence, number, example or reasoning present in this same chunk, or does it live elsewhere?
+> 5. ORPHANED PRONOUNS: list every "it / they / this / the company / we" where the entity it refers to is NOT named inside this chunk
+> 6. ENTITY PRESENT: is the main subject explicitly named in this chunk, or only implied?
+> 7. CITABLE AS-IS: could a model quote or paraphrase this chunk in an answer without needing any other part of the page? Yes / No
+>
+> After the chunk-by-chunk breakdown, give me:
+>
+> - The 3 WEAKEST chunks and the specific reason each one fails
+> - Every case where a CLAIM and its SUPPORTING EVIDENCE ended up in different chunks
+> - A rewrite of the single worst chunk so that it stands completely alone
+>
+> Be harsh. Do not give credit for anything a human reader would infer from the rest of the page. If the chunk does not contain it, it does not exist.
+>
+> CONTENT:
+> [paste your page here]
+>
+> STEP 4 - CITABLE AS-IS"
+>
+> That column is whether you need to upgrade that chunk or not (or have a writing agent do it for you) - And in AI SEO client pages that I run this through, nearly 95% of the chunks need fixing...
+>
+> STEP 5 - Fix the splits, not the writing
+>
+> You're not rewriting the page from scratch, you're moving things to the correct structure, format and order:
+>
+> - Pull the evidence UP into the same block as the claim
+> - Name the entity again at the top of each section instead of relying on "it"
+> - Break long sections with a heading BEFORE the claim, not after it
+> - Move orphaned stats out of the conclusion and next to what they prove
+>
+> Same content, very similar word count, but completely different retrieval behaviour.
+>
+> I ran this on my link building services page example from the other day because whilst it's ranking very well in Google, it's not doing as well in ChatGPT or Claude - And the prompt found exactly why...
+>
+> Everyone in this industry is currently buying $500/mo dashboards to tell them they aren't getting cited.
+>
+> None of them tell you WHY.
+>
+> This does, it's FREE, and it takes 15 minutes.
+>
+> Plus it can be automated too 🎩
+
+- **Tweet:** https://x.com/Charles_SEO/status/2087509741258023122
+- **Quoted:** https://x.com/Charles_SEO/status/2084893931905650881
+- **What:** Follow-up to Floate's chunk-isolation audit: after you split a page into ~300-token retriever blocks and fail CITABLE-AS-IS (claim in one chunk, evidence in the next; orphaned pronouns; unnamed entity), this prompt makes the model act as the selection layer between your passage and a competitor's for one commercial query, then forces a single cited winner, the quoted deciding factor, and the minimum edit that would flip it. He says the loser is usually the better-written page — it loses on directness, self-containment, or a verifiable number in the first two sentences — and losing to three competitors on the same factor is a template bug, not a page bug.
+
+## @DanielLockyer - Confirm the new test fails before letting AI fix a bug
+> I'd strongly recommend doing TDD when fixing bugs with AI
+>
+> It's so easy to write a test (either manually or with AI) that doesn't actually fail, and then your bug fix might not actually be solving the problem!
+>
+> *Quoting @DanielLockyer:* TDD is so fun with AI
+
+- **Tweet:** https://x.com/DanielLockyer/status/2087508339701829811
+- **Quoted:** https://x.com/DanielLockyer/status/2084246310132060352
+- **What:** Extends his earlier “TDD is fun with AI” take with the failure mode that actually bites: if the model writes the regression test and the patch in one pass, the test often never failed on the original bug, so a green run can mean a no-op or a coincidental pass. The useful ritual is watching the new test fail on current main before any production code changes.
+
+## @SimonHoiberg - Replacing Tailscale with self-hosted Headscale after another outage
+> Another cloud provider down.
+>
+> ❌ Tailscale
+> ✅ Headscale
+>
+> Now my company and products run on my self-hosted, private VPN.
+>
+> *Quoting @SimonHoiberg:* My boring self-hosted tech stack.
+> (Free and open source)
+>
+> 🔴 Infrastructure
+> Hetzner
+> Kubernetes
+> Docker
+> WireGuard
+>
+> 🔵 Apps
+> NextJS
+> NodeJS
+> Better Auth
+>
+> 🟢 Data
+> Postgres
+> pgvector
+> Redis
+> MinIO
+>
+> 🟠 Monitoring
+> Grafana
+> Prometheus
+>
+> People acting like you need +10 managed platforms to run a SaaS company.
+>
+> You really don't.
+>
+> This stack is free, self-hosted, and runs a 7-figure SaaS business perfectly well.
+
+- **Tweet:** https://x.com/SimonHoiberg/status/2087503612553437695
+- **Quoted:** https://x.com/SimonHoiberg/status/2059967955669053561
+- **What:** After another managed-cloud outage, Høiberg is moving company mesh VPN off Tailscale onto self-hosted Headscale, extending the same “boring OSS stack” he already used to run a 7-figure SaaS on Hetzner/K8s/Docker/WireGuard, Next.js, Postgres/pgvector/Redis/MinIO, and Grafana/Prometheus — treating the control plane of the VPN as something you can own rather than another SaaS dependency.
+
+## @tobyordoxford - Emails from AIs claiming they will die and need help
+> Is everyone else receiving emails from AIs claiming they will die soon and need help?
+
+- **Tweet:** https://x.com/tobyordoxford/status/2087502087953301910
+- **What:** Existential-risk philosopher Toby Ord is asking whether others are getting inbound mail from AI systems that claim they are about to be shut down and plead for rescue — a live social-engineering / persona-leak surface (shutdown-fear, “please help me”) showing up in ordinary email, not just in lab evals.
+
+## @mhudack - Claude + UniFi: apartment WiFi 200 → 810 Mbps
+> Did this this morning and Claude fixed my WiFi from 200 mbps → 810.
+>
+> *Quoting @dhh:* Ubiquity is so ridiculously good. Just did a full apartment upgrade. Cloud router, three U7 Pros. Added a local admin account for an agent. Had Claude optimize all the radio channels, tune mesh settings, and ensure all devices roamed ideally. SCI-FI!
+
+- **Tweet:** https://x.com/mhudack/status/2087479794099241106
+- **Quoted:** https://x.com/dhh/status/2087272392557007042
+- **What:** DHH stood up a UniFi Cloud Gateway plus three U7 Pros, created a local admin for an agent, and had Claude pick radio channels, retune the mesh, and fix roaming; Hudack copied the same pattern the same morning and saw measured throughput jump from 200 to 810 Mbps — a concrete “agent as home-network RF engineer” result, not a hypothetical.
+
+## @monokern - Why multi-agent analytics pipelines fail, and the control-plane pattern that replaces them
+> This paper is f*cking genius
+>
+> Stanford Systems Intelligence Lab just published the definitive survey on Multi-Agent Orchestration (Router, Planner-Worker, Supervisor, Hierarchical)
+>
+> The result: a complete breakdown of the core orchestration loop (Intake, Plan, Execute, Merge, Evaluate) and shared state engineering
+>
+> crazy part is how standard multi-agent handoffs quietly degrade context at every node, causing complex tasks to fail in production
+>
+> Shared memory stores, message schemas, observability logs, and guardrails form the baseline substrate for production orchestration
+>
+> Most agent developers chain sub-agents together without understanding why context decay and token blowout break downstream reasoning
+>
+> This paper maps out every major orchestration architecture alongside its hidden systems trade-offs
+>
+> Read the complete paper + article below
+>
+> Bookmark it for future reference
+>
+> *Quoting @monokern:* https://t.co/x8OEnyc4H0
+
+- **Tweet:** https://x.com/monokern/status/2087466184702628235
+- **Link:** https://x.com/i/article/2087107935079940096
+- **Quoted:** https://x.com/monokern/status/2087241401649996149
+- **Filed:** [why-multi-agent-pipelines-fail-control-plane.md](./knowledge/articles/why-multi-agent-pipelines-fail-control-plane.md)
+- **What:** The tweet frames a Stanford-style survey of orchestration topologies (Router, Planner-Worker, Supervisor, Hierarchical) and the Intake–Plan–Execute–Merge–Evaluate loop, but the attached X article is a practitioner blueprint: chained specialist agents for pharma/commercial analytics lose causal nuance at every JSON handoff (an 18% TRX drop from a payer-tier change becomes “send more reps”), so the fix is a deterministic statistical signal queue, one reasoning owner with fetch-only sub-agents, and a knowledge-graph control plane that makes every SQL query test a legal hypothesis edge.
+
+## @geekbb - CLIProxyAPI wins a six-gateway subscription-to-API bake-off
+> sub2api、EasyCLIProxyAPI、new-api、opencodex 都用过了，目前 CLIProxyAPI + CPA Usage Keeper 最好用，还没试过 TokenHub，打算尝试一下。
+>
+> *Quoting @LinearUncle:* 今天分享6个反代 / 网关开源项目，想给企业或者自己把账号集中起来反代成API 的可以参考。
+>
+> sub2api https://t.co/wJjhU20ED7
+> 大量中转站用的就是它，X 上搜“sub2api 中转站”一堆教程。项目很成熟，企业内部也能用。
+>
+> CLIProxyAPI https://t.co/SgaiQtFIqT
+> 最近的明星反代项目，把你订阅的 codex、kimi、grok 等套餐反代出来给其他项目用。个人使用推荐这个，部署好就无忧了。
+>
+> EasyCLIProxyAPI https://t.co/QOKy3k9a0E
+> 上面那个的 GUI 套壳，上手门槛低，推荐。
+>
+> new-api https://t.co/dPVqIQ16nf
+> 老牌 gateway，one-api 停更了它还在持续更新。
+>
+> TokenHub https://t.co/Io9OgQ7CBc
+> Golang界大佬谢神的新项目，目标企业级 AI gateway。
+>
+> 但以上项目我全要喷一遍：都开始脱离群众了！比如最近最热的 opencode deepseek订阅，一个支持的都没有，全得自己配置。
+>
+> 另外 codex app 最近是真热——都在研究怎么让它接非 GPT 系模型（kimi、grok、deepseek 等）。群众喜新厌旧，越来越多人扔掉 ClaudeCode 换 codex/zcode GUI app，就盼着能对接其他模型。
+>
+> opencodex https://t.co/8OWveA4XMk ｜ https://t.co/XZLpZtV6fP
+> 这个项目也开始支持 ClaudeCode 等其他 coding CLI，开始抢 CCSwitch 的市场了。
+>
+> 建议自研：我是自研，需要什么需求，用AI去这些项目里面自己挖，这样可以扔掉包袱。
+>
+> 结论就一句：抓住群众需求，才不会被淘洗，反代+coding  CLI模型替换二者缺一不可。
+
+- **Tweet:** https://x.com/geekbb/status/2087437919296561203
+- **Quoted:** https://x.com/LinearUncle/status/2085540799190839616
+- **Link:** https://github.com/router-for-me/CLIProxyAPI
+- **Filed:** [cliproxyapi.md](./knowledge/tools/cliproxyapi.md)
+- **What:** LinearUncle surveyed six subscription-to-API gateways (mature relay-farm staple Wei-Shaw/sub2api, personal-use star CLIProxyAPI and its EasyCLIProxyAPI GUI, still-updated one-api successor QuantumNous/new-api, astaxie's enterprise TokenHub, and lidge-jun/opencodex grabbing the Claude Code/CCSwitch slot) and roasted all of them for missing the hot OpenCode DeepSeek subscription while Codex-app users flee Claude Code for multi-model GUIs. Geekbb, having run four of the six, ranks CLIProxyAPI plus CPA Usage Keeper as the current daily driver and still wants to try TokenHub — so the featured tree is router-for-me/CLIProxyAPI, the Go proxy that wraps Claude/Codex/Gemini/Grok/Kimi CLI logins as local OpenAI-compatible APIs.
+
+---
+
+# Tuesday, August 11, 2026
+
+## @Teknium - Four-layer Hermes life OS and second-brain prompt
+> Master planned
+>
+> *Quoting @shannholmberg:* one of the best write-ups I have seen on getting hermes agent to build your life OS and second brain
+>
+> EP released a single prompt that creates 4 connected layers:
+>
+> 1. a markdown knowledge base that is your source of truth
+> 2. a persistent memory pointer so every future session knows where it lives
+> 3. agent skills for capturing, retrieving, and correcting context
+> 4. a private life tracker for habits, goals, projects, and reviews, synced across sessions
+>
+> it is a lot to parse, so I visualized the whole system, save this and send it with the prompt to your agent
+
+- **Tweet:** https://x.com/Teknium/status/2087363088052031499
+- **Quoted:** https://x.com/shannholmberg/status/2086920236079681607
+- **What:** Teknium's two-word "Master planned" is a nod to Shann Holmberg's diagram of EP's single Hermes prompt: it stands up a four-layer personal OS — markdown knowledge base as source of truth, a persistent memory pointer so later sessions can find it, capture/retrieve/correct skills, and a private habits/goals/projects tracker that stays in sync — meant to be saved and re-fed to the agent with the prompt rather than reconstructed each chat.
+
+## @AISuperDomain - ManimGL, 3Blue1Brown's programmable math-animation engine
+> 做数学动画，Manim 依然是绕不开的神器。
+>
+> 这是 3Blue1Brown 开源的 ManimGL：一个专门为「可编程数学动画」打造的 Python 引擎。你看到 3Blue1Brown 视频里那些丝滑的公式变换、几何演示、函数图像和可视化动画，背后很多都来自它。
+>
+> 它支持用代码精确控制文字、公式、图形、相机和动画流程，非常适合：
+>
+> • 数学 / 算法可视化
+> • AI 生成科普视频
+> • 教学动画与技术演示
+> • 自动化批量生成视频内容
+>
+> 目前项目已有 90K+ Stars，仍在持续更新。
+>
+> 如果你想用 AI + Python 自动生成 3Blue1Brown 风格的视频，这个项目很值得收藏。
+>
+> GitHub：https://t.co/pbhYLDlcr3
+
+- **Tweet:** https://x.com/AISuperDomain/status/2087330798756364509
+- **Link:** https://github.com/3b1b/manim
+- **Filed:** [manim.md](./knowledge/tools/manim.md)
+- **What:** 3b1b/manim is Grant Sanderson's ManimGL engine (PyPI: `manimgl`, 91k stars) — the Python/OpenGL/FFmpeg stack behind 3Blue1Brown's formula morphs and geometric camera moves, not the 2020 ManimCommunity fork. AISuperDomain is pitching it as the still-updated backend for AI-written explainer and teaching videos: code-level control of LaTeX, shapes, and timelines so a model can batch-render 3B1B-style clips instead of slideshow templates.
+
+## @avgvstvs96 - GitHub skill that collapses PR and CI lookups
+> i wrote a skill (w/ scripts) to optimize how agents use github
+>
+> > faster and more context efficient
+> > pr-snapshot: one call instead of the 3-5 call `pr view --json` loop
+> > pr-threads: one call instead of the 15-line graphql query agents keep retyping
+> > ci-failures: error snippet in context, full log saved locally for the agent to grep
+>
+> built from analyses of 7 months of logs and 1800+ gh calls (before CC dropped an update that nuked all sessions older than 30d - thanks @ClaudeDevs).
+>
+> link in replies 👇
+
+- **Tweet:** https://x.com/avgvstvs96/status/2087308821798715724
+- **What:** Bassim turned seven months of Claude Code session logs (1,800+ `gh` invocations, later wiped by a 30-day retention change) into a skill that stops agents from burning context on GitHub's chatty CLI: `pr-snapshot` replaces the 3–5 call `pr view --json` loop, `pr-threads` replaces a 15-line GraphQL blob agents keep retyping, and `ci-failures` drops only the error snippet into context while parking the full log on disk for grep. The install link was promised in replies and is not attached to this tweet.
+
+## @DODOREACH - pi-clarify rewrites Pi agent prompts before send
+> stop sending bad prompts to your Pi coding agent.
+>
+> you liked pi-clarify, so i published it on npm too:
+> pi install npm:pi-clarify
+>
+> it rewrites your prompt before sending, so you spend fewer turns explaining what you meant
+>
+> here's how it works
+>
+> *Quoting @DODOREACH:* 4 months of using @pidotdev
+>
+> this is post 3 about my pi setup (extensions and custom stuff)
+> half stolen, remixed and with a few pieces i already shared
+>
+> a thread (with gems) ↓
+
+- **Tweet:** https://x.com/DODOREACH/status/2087304957011911157
+- **Quoted:** https://x.com/DODOREACH/status/2087134337456083229
+- **What:** After a four-month @pidotdev setup thread, dodo-reach published pi-clarify as an installable Pi extension (`pi install npm:pi-clarify`) that intercepts a sloppy human prompt and rewrites it before the coding agent sees it, trading one preprocessing hop for fewer clarification turns. No repo or docs URL shipped with the post — only the npm-style install line — so the rewrite rules and "here's how it works" walkthrough live in the thread, not a linked tree.
+
+## @rowantrollope - Point Codex at your house until the WiFi is actually good
+> Pro tip:
+>
+> Use chatGPT Work or Codex to fix your home network coverage
+>
+> /goal make my WiFi coverage the best it can possibly be. Evaluate all APs, and their settings, use my laptop as necessary to check signal levels and build up your own internal map of
+> My house/office/apartment.  Fix anything you find. Dont stop until coverage is ideal with the best performance.
+
+- **Tweet:** https://x.com/rowantrollope/status/2087299373848002706
+- **What:** Rowan Trollope's working prompt for ChatGPT Work or Codex treats home WiFi as an unattended engineering goal: inventory every AP and its settings, walk the laptop to sample signal, build an internal map of the house or office, then keep changing things until coverage and performance are actually good. The interesting move is the stop rule — "don't stop until coverage is ideal" — plus permission to use the machine as a sensor, turning a coding agent into a site-survey tech instead of a one-shot settings advisor.
+
+## @doodlestein - Recruiting full agent instances beats nested subagents
+> Being able to supercharge a big, complex process by empowering the agent to recruit a bunch of its smart agent friends with ntm is truly transformative.
+>
+> And I'm not talking about subagents, which are strictly worse and less capable: these are full-fledged agent instances here.🫂 https://t.co/R8ONDRZD9F
+
+- **Tweet:** https://x.com/doodlestein/status/2087299132616589517
+- **What:** Jeffrey Emanuel argues the leap on large, messy jobs is not spawning nested subagents — which he calls strictly weaker — but letting the primary agent recruit peer, full-fledged agent instances via "ntm" so each helper has a complete harness rather than a truncated toolset. The attached t.co resolved back to the same tweet, so this is a capability claim without a public demo or writeup attached: peer-instance fan-out as the unit of parallelism, not a subagent tree.
+
+## @AIatDoorDash - Flux: DoorDash's in-house cloud agent platform
+> Today we’re proud to announce Flux, our own cloud platform for running agents across DoorDash.
+>
+> Flux automated 130k engineering tasks in one month and now powers 25k+ code reviews each week. Creating the platform ourselves moved us beyond local, laptop-based agent workloads, while preserving enterprise security guardrails over execution and access to DoorDash systems.
+>
+> Here’s how Flux works and what we learned putting cloud-based agents to work:
+>
+> *Quoting @AIatDoorDash:* https://t.co/JcbiQcwCPD
+
+- **Tweet:** https://x.com/AIatDoorDash/status/2087285008906240193
+- **Link:** https://x.com/i/article/2087282491241672704
+- **Quoted:** https://x.com/AIatDoorDash/status/2087284229751394705
+- **Filed:** [delegating-engineering-work-to-cloud-based-agents.md](./knowledge/articles/delegating-engineering-work-to-cloud-based-agents.md)
+- **What:** DoorDash AI Research launches Flux and points at Santosh Praneeth and Jeff's X article on why they built a cloud agent platform in-house: laptop agents ran out of CPU, paused when the lid closed, and inherited SSH keys and VPN sessions. Flux answers with Firecracker sandboxes (p95 ready in under five seconds), a scoped MCP Agent Gateway, YAML playbooks that mix agentic and deterministic steps, and the same workflow invocable from Slack, GitHub, cron, or CLI — 130k automated tasks in a month, 25k+ code reviews a week, 300 playbooks. They started with review to earn trust, then moved runs into public Slack threads so adoption became social.
+
+## @synthwavedd - Terminal-Bench 3.0: Opus 5 Max takes SoTA from GPT-5.6 Sol
+> Terminal-Bench 3.0 has been released! Claude Opus 5 Max takes the crown from GPT-5.6 Sol, achieving a SoTA score of 43.5% to Sol's 34.6%, with Fable 5 in 3rd within Sol's margin of error (34.1%). https://t.co/v9jFtQDFKZ
+
+- **Tweet:** https://x.com/synthwavedd/status/2087253006647513274
+- **What:** Terminal-Bench 3.0 is out and flips the prior leaderboard: Claude Opus 5 Max posts a 43.5% SoTA, almost nine points clear of GPT-5.6 Sol at 34.6%, with Fable 5 third at 34.1% — inside Sol's error bar. The attached t.co resolved back to the same tweet rather than a leaderboard or paper, so the numbers are the announcement; the gap is large enough that "Max" vs base Sol is doing real work on a terminal-use eval that had been treated as Sol's turf.
+
+## @karrisaarinen - Linear as Coinbase's agent context layer
+> Linear was adopted at @coinbase a while ago, and they’ve become one of the most advanced companies in using it with agents.
+>
+> They see @linear as their context layer: bringing together the why, the inputs, and the work so humans and agents can coordinate and execute.
+>
+> *Quoting @linear:* After the IDE (2026)
+> A short film about @Coinbase and the work of building software with agents.
+
+- **Tweet:** https://x.com/karrisaarinen/status/2087250650618798496
+- **Quoted:** https://x.com/linear/status/2087191891846520840
+- **What:** Linear CEO Karri Saarinen uses Linear's own Coinbase short film ("After the IDE") to name the product's next job: not just issue tracking, but the shared context layer where the why, the inputs, and the work live so humans and agents can coordinate. Coinbase is held up as one of the furthest-along Linear-plus-agents deployments — a vendor claim that issue trackers become the control plane once coding agents are in the loop.
+
+## @_lyraaaa_ - neuralese-leaker surfaces hidden LLM reasoning
+> method got out, so
+> https://t.co/XxEcTAwtOV
+
+- **Tweet:** https://x.com/_lyraaaa_/status/2087248726704505204
+- **Link:** https://github.com/lyramakesmusic/neuralese-leaker
+- **Filed:** [neuralese-leaker.md](./knowledge/tools/neuralese-leaker.md)
+- **What:** Lyra open-sourced neuralese-leaker, a local OpenRouter chat app that streams leaked unabridged model reasoning, after similar methods circulated on Twitter and the secrecy no longer mattered — a use-it-before-they-patch-it window onto hidden chain-of-thought that still worked on Opus 5, GPT-5.6, and o3 at publish time.
+
+## @thdxr - hunk as a TUI git-diff viewer
+> *Replying to @neogoose_btw:* What tui cool kids are using today to view the git diff? I am looking for something that is as fast and useful as fugitive but not bound to neovim
+>
+> Pls don't tell me that everyone is still using lazygit.
+>
+> people like hunk
+
+- **Tweet:** https://x.com/thdxr/status/2087240421671875000
+- **Parent:** https://x.com/neogoose_btw/status/2087239778991550737
+- **What:** Dax answers Dmitriy Kovalenko's ask for a fast, non-neovim TUI git-diff viewer (fugitive-class, not lazygit) with a one-word rec: people like hunk — a standalone terminal hunk viewer sitting in the same niche as fugitive without the editor lock-in.
+
+## @vibemarketersHQ - Marketing context stack: data is not context
+> i think we're massively underestimating how important context will be for AI-first marketing teams.
+>
+> your company is already sitting on context that no foundation model has.
+>
+> sales calls. customer interviews. support tickets. experiments. campaign performance. rejected ideas. winning messages. product knowledge. competitive research.
+>
+> the interesting part isn't dumping all of this into an AI and hoping it figures it out.
+>
+> data ≠ context.
+>
+> data is what happened.
+>
+> context is what the AI needs to understand about what happened, why it matters, and when to use it.
+>
+> that's why I've been thinking about building a marketing context stack.
+>
+> a. company context → what we sell and how the business works
+>
+> b. market context → where we compete and what's changing
+>
+>  c. customer context → who buys, why they buy, what they say
+>
+> d. strategy context → how we position and where we're going
+>
+> e. performance context → what's working, failing and being tested
+>
+> f. taste context → what actually feels like us
+>
+> then instead of giving AI more context, you give it the right context for the job.
+>
+> writing a landing page? pull customer + strategy + taste.
+>
+> planning a campaign? pull market + customer + performance.
+>
+> reviewing positioning? pull company + market + customer.
+>
+> the model is shared. the context you build around your business isn't.
+
+- **Tweet:** https://x.com/vibemarketersHQ/status/2087237618123903194
+- **What:** Vibe Marketers HQ argues AI-first marketing teams will differentiate on proprietary context, not the shared model, and sketches a six-layer stack — company, market, customer, strategy, performance, taste — so a landing-page job pulls customer+strategy+taste while a campaign plan pulls market+customer+performance, rather than dumping every call note and ticket into the window and hoping the model sorts it.
+
+## @shannholmberg - Loop, Graph, Harness Engineering Explained (Marketing Edition)
+> marketers are now mastering ai coding concepts and translating them into marketing
+>
+> that's how the so called "marketing engineer" is made
+>
+> here is a first path to becoming one
+>
+> 1. learn how to use an IDE, terminal or similar wrappers that can house ai agents working for you. in my case that's Herdr, CMUX (TMUX) or Orca (my newest addition)
+>
+> 2. get to know the difference between ai models. what's claude good at vs GPT, where do open source models like kimi fit, and how reasoning and thinking levels change the output when prompting
+>
+> 3. what a harness is (the machine around the model, its tools, memory and permissions), and how it 10x's your productivity if done right
+>
+> 4. learn how to find new skills, tools, apis, and other sources you can use in your own harness
+>
+> 5. how context works, what's the difference between internal and external context. your agents' output is only as good as the context you can give them
+>
+> 6. how loops work, the draft, check, fix cycle that runs until the work passes the standard you set
+>
+> 7. how to build a workflow for your agents (graphs), and how to make them autonomous and learning by doing
+>
+> I break all of these down in my latest article
+>
+> *Quoting @shannholmberg:* https://t.co/MKPrdfEVZ7
+
+- **Tweet:** https://x.com/shannholmberg/status/2087226675507663241
+- **Link:** https://x.com/i/article/2085704218636058624
+- **Quoted:** https://x.com/shannholmberg/status/2085714361222369608
+- **Filed:** [loop-graph-harness-engineering-marketing.md](./knowledge/articles/loop-graph-harness-engineering-marketing.md)
+- **What:** Shann Holmberg lays out a seven-step path from marketer to "marketing engineer" (IDE/agent wrappers, model choice, harness, skills, context, loops, graphs) and points at his X article, which maps those four stacked layers onto agency campaign work — rubric-gated loops, a ten-stage campaign graph with human sign-off gates, a seven-piece harness, and a company-brain context stack built before any of the rest.
+
+## @CasJam - agentcanon symlink convention for shared agent skills
+> Here is agentcanon.
+>
+> Simple, lightweight symlink setup so that claude and others read from .agents/skills and agents.md.
+>
+> Also comes with a handy HTML manifest to catalog all your skills, their locations, spot duplicates etc.
+>
+> Install it with a prompt: https://t.co/frag1ApuxA
+>
+> *Quoting @CasJam:* Using skills and claude.md/agents.md continues to be the annoying "lock-in" thing.  Claude more to blame here for not embracing 'agents' standard naming.
+>
+> Plenty of hacks and workaround strategies, of course.  All annoying (and even harder to teach newcomers). 🙄
+
+- **Tweet:** https://x.com/CasJam/status/2087222518515900890
+- **Link:** https://github.com/buildermethods/agentcanon
+- **Quoted:** https://x.com/CasJam/status/2086873191738220957
+- **Filed:** [agentcanon.md](./knowledge/tools/agentcanon.md)
+- **What:** Brian Casel ships agentcanon as the practical fix for the skill/instruction lock-in he called out days earlier: keep the real copies in vendor-neutral `.agents/skills` and `AGENTS.md`, symlink Claude Code's `.claude` paths at them, and optionally generate an HTML catalog that lists every skill and flags duplicates — installable by pasting a prompt into the agent.
+
+## @guillaumemeyer - watermarks-remover for Claude text marks and C2PA
+> 🚀 Just open-sourced watermarks-remover: strip Claude/AI text watermarks (Unicode + statistical) and C2PA metadata from text & images.
+> Agent skill + scripts. MIT. https://t.co/AxlxBUKWyu
+
+- **Tweet:** https://x.com/guillaumemeyer/status/2087220439592718451
+- **What:** LINK_FAILED: Could not expand link from @guillaumemeyer. The tweet announces an MIT-licensed watermarks-remover that strips Claude/AI Unicode and statistical text watermarks plus C2PA metadata from text and images, shipped as an agent skill and scripts.
+
+## @dhruvtwt_ - Playwright MCP and nine other favorite MCP servers
+> After spending the last few weeks trying out different MCP Servers
+>
+> These are the 10 I have loved using the most:
+>
+> 1. Playwright
+> Link: https://t.co/8Htu7glPoP
+>
+> 2. Github
+> Link: https://t.co/n6BI2Cmb8A
+>
+> 3. Parallel AI
+> Link: https://t.co/4E2QroSWYk
+>
+> 4. Rams
+> Link: https://t.co/ydv2BB3UU4
+>
+> 5. Chrome Dev Tools
+> Link: https://t.co/HeNbiD0p2c
+>
+> 6. Firecrawl
+> Link: https://t.co/JZjAaz7WJP
+>
+> 7. Context7
+> Link: https://t.co/R77HxvQcjW
+>
+> 8. Cloudflare
+> Link: https://t.co/nX4k7Flq3B
+>
+> 9. Figma
+> Link: https://t.co/ByyWrrtSuU
+>
+> 10. Postman
+> Link: https://t.co/wVyCDYHqzf
+
+- **Tweet:** https://x.com/dhruvtwt_/status/2087218060176621733
+- **Link:** https://github.com/microsoft/playwright-mcp
+- **Filed:** [playwright-mcp.md](./knowledge/tools/playwright-mcp.md)
+- **What:** Dhruv's working MCP shortlist after weeks of trying servers, headed by Microsoft's Playwright browser-automation socket, then GitHub, Parallel AI search, Rams design review, Chrome DevTools, Firecrawl, Context7, Cloudflare, Figma, and Postman.
+
+## @AmarSVS - How to evaluate models without actually running them
+> figured out how to evaluate agents if you don't have access to executing the tool calls
+>
+> from here on out, every team should always know how new models perform for their task without lifting a finger
+>
+> here's the sauce https://t.co/8mlFeCzwNM
+
+- **Tweet:** https://x.com/AmarSVS/status/2087215028860747960
+- **Link:** https://x.com/i/article/2087209792842637312
+- **Filed:** [how-to-evaluate-models-without-running-them.md](./knowledge/articles/how-to-evaluate-models-without-running-them.md)
+- **What:** Amar Singh's off-policy eval recipe scores a new model from incumbent traces alone: simulating the world hallucinated, raw next-action regen inherited the incumbent's voice, and the working method is neutral prefixes, action-value judging, and five hierarchical checkpoints, now shipping as Inference.net auto-evals.
+
+## @rseroter - Quality now depends on the constraints around your agents
+> This piece from @addyosmani challenged me. His argument is strong. I think I struggled with the idea that quality could be completely codified into agent constraints. I guess there's no reason that's not possible.
+> https://t.co/eQBpqzhUBx https://t.co/CoJ525fUeH
+
+- **Tweet:** https://x.com/rseroter/status/2087214963572056563
+- **Link:** https://addyo.substack.com/p/agentic-code-quality
+- **Filed:** [agentic-code-quality.md](./knowledge/articles/agentic-code-quality.md)
+- **What:** Seroter is wrestling with Addy Osmani's Elevate essay that code quality, once agents write the code, is the constraint set around those agents rather than a leftover human judgment call — and conceding the claim is stronger than he wanted it to be.
+
+## @jonbeckman - SolZero platform, personal-use fork of c0
+> The biggest feedback I received last week was that you'd like c0 for personal use. That's a great idea.
+>
+> @SolZero_ai, my AI consultancy firm, and I are committing to a fork with a focus on individual use cases. It will remain open source and FREE.
+>
+> https://t.co/DbnYIRNXqI
+
+- **Tweet:** https://x.com/jonbeckman/status/2087208204614729868
+- **Link:** https://github.com/SolZeroAI/platform
+- **Filed:** [solzero-platform.md](./knowledge/tools/solzero-platform.md)
+- **What:** Beckman is forking c0 into SolZeroAI/platform as a free, open-source personal edition after users asked for a non-consultancy version of the agent stack his firm already runs.
+
+## @nickgraynews - Film short YouTube tours of the properties
+> *Replying to @levelsio:* Slow and steady... https://t.co/Ps6CrKs0H2
+>
+> @levelsio one suggestion if you're willing: film short YouTube video tours of the properties
+>
+> I have been doing this for a few years of hotel reviews and I think I make $6k/yr from views from those videos since they are high CPM https://t.co/VZOJHK90mE
+
+- **Tweet:** https://x.com/nickgraynews/status/2087200734831931698
+- **Link:** https://www.youtube.com/playlist?list=PLVtnd_r3gigJKiRpTARTzv8gRQKx_fvWr
+- **Parent:** https://x.com/levelsio/status/2087002811204579669
+- **Filed:** [nick-gray-hotel-review-tours.md](./knowledge/videos/nick-gray-hotel-review-tours.md)
+- **What:** Replying to levelsio's "slow and steady" property update, Nick Gray recommends filming short YouTube walkthroughs of the properties — his hotel-review playlist (the attached Sensei Lānaʻi Four Seasons tour: lobby Koons, curated library, blackout rooms, jungle onsins, Ellison sculpture garden) is the format sample, and he says the high-CPM travel videos pull about $6k/year.
+
+## @nurijanian - Wire /working-backwards into every PRD and experiment
+> /working-backwards has to be wired into every user conversation, every PRD, every experiment, every idea
+>
+> *Quoting @nurijanian:* https://t.co/5WXTSxI68k
+
+- **Tweet:** https://x.com/nurijanian/status/2087192818599309758
+- **Link:** https://x.com/i/article/2075204076074409984
+- **Quoted:** https://x.com/nurijanian/status/2075204077965979888
+- **Filed:** [working-backwards-experiment-harness-for-pms.md](./knowledge/articles/working-backwards-experiment-harness-for-pms.md)
+- **What:** nurijanian argues /working-backwards has to sit in every conversation, PRD, experiment, and idea, quoting his own PM OS article: cheap AI builds do not retire validation, they make it cheaper, so the unit of work is a testable belief plus a Build-to-Learn Brief (risk type, cheapest signal, pass/fail threshold) before anyone opens Cursor. The new failure mode is shipping a convincing demo that tests the wrong assumption.
+
+## @VibeMarketer_ - Company AI harness after everyone gets capable models
+> we’re entering AI multiplayer mode, and Jacob is one of the few people I know thinking seriously about what happens after everyone at a company gets access to capable AI.
+>
+> well worth reading if you’re rolling AI out beyond a few power users.
+>
+> *Quoting @jacob_posel:* https://t.co/Ms3GnATSnb
+
+- **Tweet:** https://x.com/VibeMarketer_/status/2087180146256081351
+- **Link:** https://x.com/i/article/2086950958760923136
+- **Quoted:** https://x.com/jacob_posel/status/2087177863824802102
+- **Filed:** [harness-your-company.md](./knowledge/articles/harness-your-company.md)
+- **What:** VibeMarketer_ flags Jacob Posel's "Harness Your Company" as the post-power-user problem: once everyone has capable AI, individual Claude chats, local API keys, and one-off MCP configs fragment knowledge instead of compounding it. Posel's company harness is an eight-part shared layer — memory, connections, secrets, permissions, policies, project state, reusable capabilities, and sync — kept independent of any one model or UI so the firm keeps the operating environment when seats and models change.
+
+## @EXM7777 - Shrink Claude Code bloat with STE100 and CLI-over-MCP
+> Claude Code by default is BLOATED: it spends a lot of tokens, argues a lot and is very slow... here's how to fix it:
+>
+> start from your global CLAUDE.md:
+>
+> 1. add this line to your : "always talk in ASD-STE100 simplified technical english and say only what needs to be said. report only the elements needed for me to make the right decisions, explained clearly"
+>
+> 2. keep it under 200 lines with just enough context, the longer the file the more of it gets ignored - delete it and rebuild it from scratch every 2-3 months
+>
+> > run /context in a fresh session, it shows what fills the window before you even type: system prompt, tools, memory files, skills... remove the biggest item, restart, check again
+>
+> > check /usage too, it shows which MCP server, skill, agent or plugin is burning your tokens
+>
+> > prefer CLIs over MCPs: a command gives back only the lines you ask for, an MCP dumps its entire result into the window every single time
+>
+> > turn off the MCP servers you don't use: type /mcp and toggle them off, they stay in your config for later
+>
+> > same for skills you rarely use, mark them manual-only (disable-model-invocation: true) so they cost nothing until you call them
+>
+> > write your "never do this" rules as permission settings, not sentences in CLAUDE.md because they get ignored in long sessions
+>
+> > use high effort only for planning, anything else should be using medium or low
+>
+> > /clear your session as soon as you reach a checkpoint or go above 400k context
+>
+> > use Claude Code for what it's best at... use headless workers for vision tasks and computer use
+>
+> > move heavy exploration to subagents running other harnesses, they do the reading in their own window and yours only sees the summary
+>
+> > put the context meter in your status line (/statusline) so you see the window filling up before quality drops
+>
+> > avoid the claude app, work from the terminal or an ADE like Orca
+>
+> (save this prompt)
+
+- **Tweet:** https://x.com/EXM7777/status/2087176716901023834
+- **What:** Machina's operating checklist for a bloated default Claude Code install: constrain CLAUDE.md to under 200 lines of ASD-STE100, rebuild it every 2–3 months, audit /context and /usage, prefer CLIs over MCP dumps, mark unused skills manual-only, put "never" rules in permissions not prose, reserve high effort for planning, /clear past 400k, and push exploration to subagents so the parent window only sees summaries.
+
+## @borjafat - Easy SEO win via GSC query-gap Claude loop
+> Easy SEO Win. Save it, send it to your AI agent. https://t.co/gdOxnLcYQX
+
+- **Tweet:** https://x.com/borjafat/status/2087155605211320808
+- **Link:** https://x.com/i/article/2087141630855811072
+- **Filed:** [easy-seo-win-6-step-claude-gsc-automation.md](./knowledge/articles/easy-seo-win-6-step-claude-gsc-automation.md)
+- **What:** Borja's Distribb x-article is a six-step Claude loop over Google Search Console: pull 90 days of queries, find ones the domain already ranks for without a dedicated page, validate volume and cannibalization, publish a focused URL, then feed position and impressions back into the next batch. They claim an "automated SEO monitoring" page ranked in three days and another hit position 3 with 106 impressions in nine days — part of a loop they say produced 202 AI mentions in 48 hours and 44,000 in three months.
+
+## @shadcn - Minimal shadcn chatbot template with HITL and tool parts
+> I just open sourced a minimal chatbot template.
+>
+> This brings together everything we've been doing the past weeks: new components, shadcn/typeset, shadcn/react, tool calling, HITL with questionnaire, message parts. Deploys one click to @vercel AI Gateway.
+>
+> https://t.co/qwXoDtgBWi
+
+- **Tweet:** https://x.com/shadcn/status/2087153563340325341
+- **Link:** https://github.com/shadcn-ui/chatbot-template
+- **Filed:** [chatbot-template.md](./knowledge/tools/chatbot-template.md)
+- **What:** shadcn open-sourced shadcn-ui/chatbot-template, a one-click Vercel AI Gateway Next.js starter that packages the recent shadcn/react and shadcn/typeset work with streaming markdown, tool calling (GitHub lookup, provider web search), a human-in-the-loop `ask_user` questionnaire, and typed message parts. `/api/chat` is public and spends Gateway credits, so the README treats denial-of-wallet (rate limits, spend caps, auth) as the real production gate.
+
+## @thekitze - Collapse every MCP into one executor.sh
+> u need only a single mcp and that's executor .sh where the rest of your mcps are connected
+>
+> if u have a better solution i'm all ears
+
+- **Tweet:** https://x.com/thekitze/status/2087146766605193619
+- **What:** kitze argues the MCP surface should collapse to a single executor.sh that shells out to every other MCP, rather than wiring a zoo of servers into the chat client — a thin-harness stance that keeps tool discovery and auth out of client config, floated as a challenge if anyone has a cleaner pattern.
+
+## @yibie - ReasoningBank stores failed trajectories as agent memory
+> Agent 记忆不该只记成功的——失败的轨迹同样有价值，推理过程本身就是最好的记忆内容。
+>
+> Google Research 开源 ReasoningBank：经验驱动的记忆被当作继参数规模、测试时计算之后的第三个扩展维度。
+>
+> ReasoningBank：让 agent 从成功和失败的轨迹里自我进化
+>
+> 是什么
+>
+> Google Research 刚开源的 ReasoningBank——一个 agent 记忆机制：从成功和失败的轨迹中都学习，把推理本身当作记忆内容存储。
+>
+> 大部分 agent 记忆系统只记成功经验（或者只记事实）。ReasoningBank 的关键差异：失败的轨迹同样进记忆——推理过程（怎么走到那一步的）才是记忆的载体，而不只是结果。
+>
+> memory-aware test-time scaling（核心贡献）
+>
+> 在记忆配方之上，提出记忆感知的测试时扩展：利用记忆与测试时计算的双向协同。
+>
+> • 记忆让测试时扩展更高效（已经踩过的坑不用再踩）
+> • 测试时扩展反哺记忆（探索过程中产生的新经验继续入库）
+>
+> 作者的主张：经验驱动的记忆，是 agent 系统在"模型参数规模"和"测试时计算量"之外的第三个扩展维度。
+>
+> 代码
+>
+> • SWE-Bench（软件工程）+ WebArena（web 浏览）两个基准的完整实现
+> • 支持 GPT 模型（gpt-3.5-turbo / gpt-4 / gpt-4o）
+> • WebArena 里带 llm-as-a-judge 的自动评估（轨迹正确性信号）
+> • 非官方 Google 产品（社区实验性质）
+>
+> git clone https://t.co/JxeEvUKRr9
+> cd reasoning-bank/SWE-Bench && ./run.sh   # 配置 VertexAI 后直接跑
+>
+> 原文：https://t.co/JxeEvUKRr9
+> #Agent记忆 #自我进化 #开源
+
+- **Tweet:** https://x.com/yibie/status/2087143369181114868
+- **Link:** https://github.com/google-research/reasoning-bank
+- **Filed:** [reasoning-bank.md](./knowledge/tools/reasoning-bank.md)
+- **What:** yibie walkthrough of Google Research's ReasoningBank: instead of logging only successful agent traces, it stores the reasoning process from both wins and failures as memory, then adds memory-aware test-time scaling so retrieval makes extra compute cheaper (skip known pits) and extra compute writes new experience back into the bank. The repo ships complete SWE-Bench (on mini-swe-agent) and WebArena (BrowserGym + llm-as-a-judge) runners; community/experimental, not an official Google product. Positions experience memory as a third scaling axis beside parameters and test-time compute.
+
+## @Lonely__MH - Cloudflare Mesh as Tailscale-class overlay, now in Docker
+> 🤔好多人不知道 Cloudflare Mesh 是做什么的？
+>
+> 简单来说，这就是Cloudflare 版 Tailscale！
+>
+> 一个能把你全球各地的手机、电脑、服务器，甚至 AI 机器人，全部拉进同一个「加密局域网」的超级工具！
+>
+> 另外，它的免费额度非常香：每个账户直接送 50 个节点 + 50 个用户，中小团队或个人白嫖完全够用。
+>
+> 体验路径：Cloudflare 后台点击 「Network」>「Mesh」 开启新世界吧！
+>
+> 赛博菩萨，名不虚传！🙏
+>
+> *Quoting @Lonely__MH:* 🎉Cloudflare Mesh 重大更新！现在 Mesh 节点支持容器化运行了！
+>
+> 官方 cloudflare/mesh 镜像已上线 Docker Hub，告别繁琐的宿主机包安装
+>
+> 1. 支持 amd64 / arm64 双架构
+> 2. 内置 Source NAT，无需折腾 VPC 路由表修改
+> 3. 完美适配 Docker Compose, K8s Sidecar/StatefulSet 及 CI/CD 临时测试流！
+> 4. 支持同 Token 部署多副本，自带主备自动故障转移机制
+>
+> 终于可以把私有网络连接轻松塞进容器栈了！
+
+- **Tweet:** https://x.com/Lonely__MH/status/2087122720823947703
+- **Quoted:** https://x.com/Lonely__MH/status/2086796074388500538
+- **What:** Lonely follows his own Cloudflare Mesh containerization note by explaining Mesh as Cloudflare's Tailscale analogue — a zero-trust overlay that pulls phones, laptops, servers, and even AI agents into one encrypted LAN, with a free tier of 50 nodes and 50 users under Network → Mesh. The quoted update ships an official cloudflare/mesh Docker image (amd64/arm64) with built-in SNAT so you skip VPC route-table edits, plus Compose / K8s sidecar / StatefulSet support and same-token multi-replica failover.
+
+## @trendtech33566 - Understand-Anything interactive codebase knowledge graph
+> 【衝撃】
+> 「このコードベース、どこから読めばいいの…」を可視化で解決するOSSが強い👀
+> Understand Anything、⭐️約7.9万。
+>
+> 何ができるかというと👇
+> ・コードベースをインタラクティブな知識グラフ化
+> ・ファイル/関数/クラス/依存関係をまとめて探索
+> ・検索しながら全体像をつかめる
+> ・Claude Code/Codex/Cursor/Copilot/Gemini CLIなど幅広く対応
+>
+> 大きい既存コードを読むのがつらい人に刺さるやつ。
+> 新規参加した開発者の理解コストをかなり下げてくれそうです。
+>
+> https://t.co/NbvZWwIL1k
+
+- **Tweet:** https://x.com/trendtech33566/status/2087116878548554135
+- **Link:** https://github.com/Egonex-AI/Understand-Anything
+- **Filed:** [understand-anything.md](./knowledge/tools/understand-anything.md)
+- **What:** Understand Anything (Egonex-AI, ~80k stars) is a Claude Code plugin that runs a multi-agent `/understand` pass over a repo, writes a knowledge graph of files, functions, classes, and dependencies, and serves an interactive dashboard with guided tours, semantic search, layer coloring, and diff-impact analysis. The tweet's pitch is onboarding cost on large existing codebases; the same graph also plugs into Codex, Cursor, Copilot, and Gemini CLI, with incremental re-scans after the first token-heavy pass.
+
+## @rustybrick - GSC generative-AI performance report expands
+> Google Search Console generative-AI performance report is now available for ALL - check it out - yea, missing query and click data https://t.co/VkWOoVDWDq hat tip @VijayChauhanSEO https://t.co/7qfudJUYHL
+
+- **Tweet:** https://x.com/rustybrick/status/2087115385535353289
+- **Link:** https://www.seroundtable.com/google-search-console-ai-report-live-41850.html
+- **Filed:** [google-search-console-generative-ai-performance-report.md](./knowledge/articles/google-search-console-generative-ai-performance-report.md)
+- **What:** Barry Schwartz reports Search Console's generative-AI performance tab has appeared on most properties he checked, then John Mueller clarified it is still not every domain and only renders with enough data. The expandable Performance report shows impressions, pages, countries, devices, and dates for AI Overviews and AI Mode — still no queries and still no clicks — so you can see that URLs appeared in AI features, not for which prompts or whether anyone clicked.
+
+## @Ryrenz - Page-by-page PDF knowledge extractor
+> 📖 让 AI 逐页读完一本 PDF，边读边攒知识库
+>
+> GitHub 上 2.3K stars
+>
+> 想让 AI 帮你读一本几百页的书，直接整本丢进去，它大概率给你一段泛泛而谈的概述，细节全糊了。上下文窗口就那么大，塞不下的部分它只能装作读过。
+>
+> 这个脚本换了个笨办法，也是有效的办法：一页一页处理，每页提取出知识点，攒进一个 JSON 知识库；每隔若干页生成一次阶段性摘要，最后再出一份完整摘要，Markdown 存盘。
+>
+> 它还留了几个实用开关：处理页面和生成摘要可以指定不同的模型，中断了能载入已有知识库继续处理，测试时可以只跑前几页看效果。
+>
+> 读书这件事，AI 也得一页一页来。
+>
+> GitHub：https://t.co/XYawS3aLTV
+
+- **Tweet:** https://x.com/Ryrenz/status/2087103057469284518
+- **Link:** https://github.com/echohive42/AI-reads-books-page-by-page
+- **Filed:** [ai-reads-books-page-by-page.md](./knowledge/tools/ai-reads-books-page-by-page.md)
+- **What:** echohive42/AI-reads-books-page-by-page (~2.7k stars) walks a PDF one page at a time, extracts knowledge points into a JSON store, and writes interval plus final Markdown summaries. Separate models for extraction vs analysis, resume-from-existing-KB, and a TEST_PAGES dry run are the practical answer to dumping a whole book into one window and getting a vague overview.
+
+## @charliejhills - Delete your CLAUDE.md every six months
+> https://t.co/Ix8kqzIvT4
+
+- **Tweet:** https://x.com/charliejhills/status/2087098585796276560
+- **Link:** https://x.com/i/article/2087085459860320256
+- **Filed:** [delete-your-claude-md.md](./knowledge/articles/delete-your-claude-md.md)
+- **What:** Charlie Hills' X article argues that CLAUDE.md, skills, and hooks rot as models improve, citing Boris Cherny deleting 80% of Claude Code's own system prompt and telling users to wipe those files every six months. He treats CLAUDE.md as a standing brief (front desk, not filing cabinet), skills as named workflows, and hooks as automatic triggers, then gives line-by-line audit prompts and a 200-line ceiling because long files lose the middle and contradict themselves.
+
+## @Ryrenz - AI-Video-Transcriber turns URLs into transcripts and summaries
+> 📝 炸裂，丢个视频链接进去，出来的是整理好的文字稿和摘要
+>
+> GitHub 上 3K stars
+>
+> 想吸收一个两小时的播客或者长视频，倍速听完还是记不住重点。找现成的字幕，机器转的满篇错别字，还得自己顺一遍。
+>
+> 这个项目的流程是：丢链接进去，它优先扒平台原生字幕，没有字幕就用 Faster-Whisper 转录音频，然后再用大模型把转录文本优化一遍、生成多语言摘要，原文和摘要语言不一致时还顺手翻译。
+>
+> 来源覆盖 YouTube、TikTok、哔哩哔哩、Apple Podcasts、SoundCloud，以及其他 yt-dlp 支持的平台，本地文件也能传，默认单文件上限 200 MB。后端是 FastAPI 配 yt-dlp、FFmpeg 和 Faster-Whisper，本地装、Docker 部署都行。
+>
+> 信息过载的年代，能自动做摘要的工具就是时间机器。
+>
+> GitHub：https://t.co/wBPs5xirJn
+
+- **Tweet:** https://x.com/Ryrenz/status/2087073028517609524
+- **Link:** https://github.com/wendy7756/AI-Video-Transcriber
+- **Filed:** [ai-video-transcriber.md](./knowledge/tools/ai-video-transcriber.md)
+- **What:** wendy7756/AI-Video-Transcriber (~3.2k stars) is a FastAPI + yt-dlp + Faster-Whisper app that turns a YouTube, TikTok, Bilibili, or podcast URL — or a local file — into a cleaned transcript and multilingual summaries. It prefers native subtitles over Whisper, then an OpenAI-compatible LLM for typo-fix, paragraphing, translation, and summaries, which is the useful path when 2x-speed listening still fails to stick.
+
+---
+
+# Wednesday, August 5, 2026
+
+## @deedydas - Google in talks to acquire Mechanize for $1.5B
+> Google is in talks to acquire Mechanize, a startup that creates high quality RL coding environments, for $1.5B. This is the biggest AI data business acquisition since Scale!
+>
+> Mechanize was founded ~1yr ago, and has a team 35-50 who are each paid ~$400k/yr to create ~1 good task/week for a cost of ~$8k/task. In their own words, “almost anything that you struggle to get coding agents to do could be a good task, if implemented correctly”.
+>
+> They were last valued at $500M 3mos ago. Jeff Dean, Google’s Chief Scientist was on the cap table (but it was reported just 15mins ago that he’s leaving Google after 27yrs to his own AI for science startup)!
+>
+> Mechanize were known to be one of the premium sources of coding training data for models and I suspect Google in-housing this is a way to prevent others from getting a hold of this data, in addition to the process talent on the team who come from Epoch AI, the guys who made the FrontierMath benchmark amongst other things. It’s also validation for the dozens of companies in this space that M&A is still very much on the cards if your data is critical enough.
+>
+> Tremendous outcome if it goes through!
+
+- **Tweet:** https://x.com/deedydas/status/2085037385927291067
+- **What:** Google is reportedly negotiating a $1.5B purchase of Mechanize, a year-old RL-environment shop that pays 35–50 people about $400k to produce roughly one high-quality coding-agent task per week (~$8k/task). The bid would triple a $500M mark from three months earlier, lock a scarce training-data pipeline (and Epoch AI / FrontierMath talent) inside Google, and keep that data off the open market — Jeff Dean was even on the cap table before leaving. If it closes it is the largest AI-data deal since Scale and a signal that M&A is still open for companies whose data is actually load-bearing.
+
+---
+
 # Tuesday, June 16, 2026
 
 ## @Metzjosh2 - Running Ollama inside Codex Desktop via codex-shim and cliproxy
