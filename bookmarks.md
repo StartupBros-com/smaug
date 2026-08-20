@@ -50726,6 +50726,533 @@ thank you all, means a lot
 - **Link:** https://www.seo-stuff.com/
 - **What:** This promotional thread argues that brands must optimize for AI citations as well as Google rankings, offering AI Overview tracking, structured question-led content, entity signals, backlinks, and managed content packages as its proposed route to visibility.
 
+## @ViperChill - Ahrefs acquires Detailed and hires Glen Allsopp
+> I have some big personal news: Detailed has been acquired by Ahrefs. 🎉
+>
+> I'm also super excited to be joining the company to work on marketing and product.
+>
+> A few months ago Tim Soulo invited me to speak at their upcoming conference in San Diego, Ahrefs Evolve.
+>
+> I brought up an idea I hinted at on the Ahrefs podcast last year, and 24 hours later we were on a call about me potentially joining the company.
+>
+> If you follow me you'll know I'm obsessed with all things strategy and research in this space - and more importantly, doing the work - so to get to do that on a much bigger scale is genuinely a dream of mine.
+>
+> The Detailed SEO Extension and all current features will remain free.
+>
+> In five years it has grown to 450,000+ weekly users, which I'm incredibly grateful for. We'll add new features at some point, while keeping in place what's already there.
+>
+> Detailed will remain a separate brand and I'll continue to personally update relevant projects there.
+>
+> My focus now is on product and tool ideas, research reports, marketing insights and everything actionable we can share to help grow your business.
+>
+> Finally, a HUGE thanks to everyone who has read and shared my work over the years for this to even be a possibility. 🙏
+>
+> I'm really excited for what's next.
+
+- **Tweet:** https://x.com/ViperChill/status/1966128445173514334
+- **What:** Ahrefs acquired Detailed and brought founder Glen Allsopp into marketing and product, while retaining Detailed as a separate brand and keeping its SEO browser extension free for its more than 450,000 weekly users.
+
+## @chris_nectiv - Clay's ICP-led content engine drove 1.2M sessions
+> Now THIS is how you execute an SEO content strategy.
+>
+> Clay netted +1.2M sessions by researching ICP query patterns + scaling up content: https://t.co/mySZV7vwQR
+
+- **Tweet:** https://x.com/chris_nectiv/status/1966112868887327041
+- **What:** Clay’s reported 1.2 million-session gain is attributed to researching how its ideal customers search and then scaling content around those patterns, a useful example of tying programmatic SEO output to explicit audience demand rather than generic keyword volume.
+
+## @ModestMitkus - $600 daily from a no-code web app
+> Casually making $600/day with the web app that I made a few months ago without knowing how to code or scale this type of business.
+>
+> You can do anything, just believe in yourself more! https://t.co/8ZIwXHp4e6
+
+- **Tweet:** https://x.com/ModestMitkus/status/1966103366658097317
+- **What:** A solo maker reports roughly $600 in daily revenue from a recently built web app despite lacking prior coding and scaling experience, presenting it as evidence that accessible development tools can enable fast, profitable product launches.
+
+## @Charles_SEO - SEO links from trusted, already-ranking pages
+> Here’s what moves the needle:
+> - Real links on pages that already rank
+> - Published by domains Google has to trust
+> - Backed by social chatter + brand noise
+> - Indexed in under 7 days
+> - Anchored for precision or cloaked in branded relevance
+>
+> No outreach.
+> No fluff.
+> No guesswork.
+>
+> Just leverage. At scale.
+>
+> You know where to get them! 😅
+
+- **Tweet:** https://x.com/Charles_SEO/status/1966027931739648387
+- **What:** An SEO link-acquisition thesis that prioritizes placements on trusted, ranking pages, rapid indexing, and anchor-text control, arguing that authority and contextual relevance matter more than conventional outreach volume.
+
+---
+# Wednesday, September 10, 2025
+
+## @leojrr - Vibe-coding stack behind a year of shipped apps
+> the vibe coding tools behind everything I shipped this year
+>
+> - SaaS 3x (Cursor)
+> - Websites 2x (Cursor)
+> - iOS app (AnythingAI)
+> - Shopify app (Gadget)
+> - Chrome extension (Cursor)
+> - Game (Cursor)
+>
+> and yes, I can't code at all
+
+- **Tweet:** https://x.com/leojrr/status/1965979220611588589
+- **What:** A non-programmer credits Cursor, AnythingAI, and Gadget with shipping several commercial products across web, mobile, ecommerce, browser extensions, and games, illustrating how AI-assisted development lowers the threshold for broad product experimentation.
+
+## @noelcetaSEO - Advanced schema markup strategies for higher CTR
+> Advanced SEO schema markup strategies for 2025:
+>
+> I’ve implemented schema markup for 150+ websites.
+>
+> Average result: 34% increase in click-through rates.
+>
+> Here's what's working now:
+>
+> 🧵Thread (1/20)
+
+- **Tweet:** https://x.com/noelcetaSEO/status/1965858924407697685
+- **What:** Introduces a 20-part SEO thread on current schema-markup tactics, backed by the author's claimed work across 150-plus websites and a reported 34% average click-through-rate increase from implementation.
+
+## @boringmarketer - Minimal prompt sequence for customer discovery
+> This prompt sequence is probably all you need to find your next customer.
+>
+> Don’t over complicate it https://t.co/19ngdBMPxB
+
+- **Tweet:** https://x.com/boringmarketer/status/1965846632345514451
+- **What:** Recommends a deliberately short, sequential prompting workflow for identifying the next likely customer; the linked resource resolves only to the post itself, so the specific prompts are not available in the prepared bookmark data.
+
+## @sourfraser - Assessing CUTS' Defender giveaway sales lift
+> Does giving away a car really help a brand's sales?
+>
+> August saw CUTS give away a defender, and all you had to do was shop with them.
+>
+> $1 spent = 1 entry.
+>
+> But did it result in any uplift in sales?
+>
+> I did some digging and found out. https://t.co/tmLcJT60CP
+
+- **Tweet:** https://x.com/sourfraser/status/1965829997265899589
+- **What:** Examines whether CUTS' purchase-linked Land Rover Defender giveaway produced measurable sales uplift, framing a practical test of whether an expensive sweepstakes incentive can outperform its acquisition and promotion costs.
+
+## @Seanfrank - LLM-native product discovery and commerce
+> Ai will eat transactional commerce.
+>
+> Shopping will change.
+>
+> Websites will eventually feel like print catalogues. Neat, nice, not that necessary.
+>
+> You will need a product feed that pumps into every LLM.
+>
+> You will need marketing to make sure LLMs see you as high signal.
+>
+> But personal shopping for all, on demand, with perfect memory about style and taste is coming.
+
+- **Tweet:** https://x.com/Seanfrank/status/1965809670167372134
+- **What:** Forecasts a shift in transactional commerce toward LLM-based personal shopping, which would make structured product feeds and high-signal brand positioning increasingly important while traditional storefronts become less central.
+
+## @EXM7777 - Claude Project framework for life decisions
+> how to use AI for better decision-making:
+>
+> 1. create a Claude project specifically for life decisions
+> 2. upload your personal context - goals, values, constraints, past decisions
+> 3. train it on Game Theory, decision science, and rational choice frameworks
+> 4. craft a system prompt that forces systematic analysis over gut reactions
+>
+> you end up with an objective advisor that knows you deeply but thinks without bias
+
+- **Tweet:** https://x.com/EXM7777/status/1965806980041507255
+- **What:** A practical setup for using a dedicated Claude Project as a decision-support system: preserve personal context but require game-theory and decision-science approaches to make reasoning explicit rather than instinct-driven.
+
+## @mattpocockuk - Automated video editor for course materials
+> Taking automations to a new level
+>
+> I'm building a video editor for my course materials https://t.co/G90F92aGSh
+
+- **Tweet:** https://x.com/mattpocockuk/status/1965782797433663747
+- **What:** Matt Pocock is building a dedicated video editor for his course materials, an example of applying custom automation to reduce the repetitive production work behind educational content.
+
+## @thesamparr - Written goals create clearer decisions
+> Writing down goals.
+>
+> Quarterly, annual, 5 year.
+>
+> I think this is TERRIBLY important. For business and life.  I started doing it in my early 20s.
+>
+> Having direction, end destination in mind made decision making so much easier!
+>
+> My categories of goals: family, fitness, finance, fun.
+
+- **Tweet:** https://x.com/thesamparr/status/1965781022101880912
+- **What:** Recording goals across quarterly, annual, and five-year horizons gives business and personal decisions a clearer destination, while organizing them around family, fitness, finance, and fun keeps planning balanced.
+
+---
+
+# Tuesday, September 9, 2025
+
+## @shampoo_capital - Hedging crypto exposure with Polymarket contracts
+> Polymarket can be used to run neutral or hedged books.
+>
+> If you are long BTC spot, you can take the other side of the BTC up contract. Losses on spot are offset by the market payout, gains on spot cover the other side.
+>
+> Range markets like "BTC above 109k?" or "ETH above 4200?" work as tail hedges. Levered longs can buy the no side to reduce downside if price reverses.
+>
+> Daily markets are short dated binaries. They let you manage exposure for a single day without changing your core position.
+>
+> Tight ranges like "SOL 206–208" negative risk markets replicate straddles. You can position for movement without picking a direction.
+>
+> Polymarket gives traders instruments you can’t find anywhere else.
+
+- **Tweet:** https://x.com/shampoo_capital/status/1965588394509025284
+- **What:** Prediction-market contracts can complement crypto holdings as directional hedges, short-dated exposure controls, tail protection, and range-based volatility trades resembling straddles, without requiring changes to a core spot position.
+
+## @primo_data - Polymarket's three core API layers
+> Three core Polymarket APIs:
+>
+> 1. Gamma API -> Events, Markets, Sports, Search, etc...
+> 2. Data API -> Positions, Trades, etc...
+> 3. CLOB API -> Orderbook, Prices, etc...
+>
+> The Polymarket APIs have come a longgggway in the past year and we're shipping new endpoints regularly.
+
+- **Tweet:** https://x.com/primo_data/status/1965542044765700415
+- **What:** Polymarket separates its developer surface into Gamma for market discovery, Data for historical and account activity, and CLOB for live order-book execution, making its prediction-market stack more composable for applications.
+
+## @thepatwalls - AI SaaS growth through evergreen YouTube videos
+> Crazy.
+>
+> Just got off the phone with a guy making $80K per month.
+>
+> AI SaaS product.
+>
+> 100% organic. ZERO ADS.
+>
+> The secret?
+>
+> - 2 youtube videos a day
+> - Spread across multiple channels
+> - All evergreen videos that compound every day
+>
+> I haven't heard of anyone doing this on YOUTUBE before (only tiktok).
+>
+> But knowing youtube, I love it, and it makes perfect sense.
+>
+> Should I bring him on the channel? What should I ask him?
+
+- **Tweet:** https://x.com/thepatwalls/status/1965534697234333711
+- **What:** An AI SaaS reportedly reaches $80,000 in monthly revenue without advertising by publishing two evergreen YouTube videos daily across several channels, suggesting a compounding organic-acquisition strategy.
+
+## @ladcreatives - AI-assisted X content funnel for ebook sales
+> made 7 figures in profit last year with one of the laziest systems ever:
+
+– create an x profile in seconds
+– lock in a niche (ecom, sales, ai, whatever)
+– study top influencers and repurpose their content with ai
+– generate hundreds of posts instantly
+– auto-schedule 10 per day = 1m+ views/month
+– build a dm funnel to my product
+– ai spits out 5 ebooks in ~30 minutes
+– a few hundred checkout views/month
+– ~20 people buy at $500 each = $10k/month profit
+
+it's easier than you think, just remember to feed ai with good content before so you won't get a slop
+
+like, retweet and comment "PDF" for the full step-by-step playbook (must follow)
+
+- **Tweet:** https://x.com/ladcreatives/status/1965511709998678508
+- **What:** A claimed social-commerce funnel built around high-volume AI-assisted niche content, direct-message capture, and fast ebook production; it illustrates the economics and quality risks of automated audience monetization.
+
+## @indexsy - X ranking signals and speculative virality tactics
+> The new X algorithm cheat sheet (bookmark for later)
+
+1. Engagement prediction is king → the algo shows tweets it thinks you’ll like, RT, reply, bookmark.
+
+2. Personalization → SimClusters slot you into niches (AI Twitter, SEO Twitter, etc).
+
+3. Social proof → tweets your mutuals engage with get boosted.
+
+4. Media multiplier → images & videos rank higher (like this one).
+
+5. Author credibility → follower ratio (coolness factor), verification, TweepCred.
+
+6. Quality filters → 24 checks kill spam, NSFW, low-quality posts.
+
+7. Freshness & conversation → trending topics + reply chains get priority.
+
+Things that I "feel" like it helps with virality (but not confirmed):
+- Pinning gives you a 24H boost
+- Quote retweeting shows your tweet to that creators audience (try it)
+- Bookmarking > likes
+- Stuff like comment "LOCALRANK" and I'll send you something is working well right now
+
+If useful: like (helps me), RT (helps you), follow @indexsy (helps us both).
+
+- **Tweet:** https://x.com/indexsy/status/1965481152879141217
+- **What:** An informal X-distribution checklist that separates likely platform signals—predicted engagement, social context, recency, media, and quality—from unverified growth tactics, making its evidence level explicit.
+
+## @maxxmalist - Low-priced micro-courses build trust before upsells
+> make a 20min course, price it at $5, and actually help people solve one small problem
+
+- you can easily sell it to cold organic traffic because of low price
+- people will actually learn something and trust you
+
+let's be real nobody’s sitting through a $4k course with 20 modules, each 2h long
+
+people open it once, get overwhelmed, close it, and never come back
+
+but 20 minutes? you can binge it in one sitting and feel progress immediately
+
+suddenly people start to see you as authority and upsells become stupid easy
+
+- **Tweet:** https://x.com/maxxmalist/status/1965478902291382756
+- **What:** A product-led education strategy: solve one narrow problem in a cheap, finishable course to earn trust and demonstrate value before offering higher-priced products, rather than overwhelming buyers with a massive curriculum.
+
+## @PixBuilds - Polymarket resolution-sniping latency playbook
+> this might be the most slept-on strategy in prediction markets
+
+and i just dropped the most complete guide you’ll find on it
+
+if you read it and do the steps
+
+you will 100% make money today during the apple event
+
+simple as that
+>
+> *Quoting @PixBuilds:* https://t.co/iGpZuN1jPZ
+
+- **Tweet:** https://x.com/PixBuilds/status/1965465223365886258
+- **Link:** https://x.com/i/article/1965445207966519296
+- **Quoted:** https://x.com/PixBuilds/status/1965458661486002380
+- **Filed:** [polymarket-resolution-sniping](./knowledge/articles/polymarket-resolution-sniping.md)
+- **What:** PixBuilds promotes a guide to exploiting the delay between a publicly decisive event and Polymarket settlement, arguing that direct data feeds, prepared orders, and faster transaction propagation create an execution edge.
+
+## @yacineMTB - Authenticity as a recommendation signal
+> if you want advice on how to "beat" the algorithm
+i need you to listen to me
+
+the algorithm is a system that includes the engineers working on it. the engineers have an objective function. it is very carefully measured. they run benchmarks against previous versions, and know exactly the effects of what they change (to the best of their ability)
+
+at the core of all algorithms is a neural network optimizer. what gets fed into it is a platonic representation of concepts, and it quite literally understands the difference of things in this space. i am a specific type of person. there might not even be a name for someone like me. but the algorithm has me modelled, and knows how people like me tend to behave
+
+your audience is your community. you don't want the algorithm to recommend your posts to people who don't get you. the algorithm works. recommendation systems have been solved. do you understand me? everything beyond this point is just post hoc tuning.
+
+the algorithm, quite literally, has authenticity modelled in its weights. i bet you anything that you could train a classifier off of the embeds of users that split them into authentic and non authentic. there is no getting away, there is no faking it
+
+you want to "beat" the algorithm? stop being a fake ass fuck loser. try being yourself. and focus on improving yourself, your person, become more honest. that too, is modelled by the algorithm
+
+the algorithm knows when you're being needy
+
+- **Tweet:** https://x.com/yacineMTB/status/1965408468258750643
+- **What:** A provocative argument that modern recommenders optimize against rich behavioral signals rather than simplistic hacks, so durable reach comes from serving a coherent community with genuinely distinctive work.
+
+## @nikshepsvn - Tremor monitors prediction-market movements in real time
+> introducing tremor — a platform that spots global events before they hit the news
+>
+> powered by prediction markets (@polymarket) + social data (@xai), tremor tracks seismic shifts in trading 24/7
+>
+> why wait for TV when you can front-run headlines with market-intel?
+>
+> free. open source. live now: https://t.co/Qst61sMvKg
+
+- **Tweet:** https://x.com/nikshepsvn/status/1965398785493733530
+- **Link:** https://github.com/sculptdotfun/tremor
+- **Filed:** [tremor](./knowledge/tools/tremor.md)
+- **What:** Tremor is an open-source, self-hostable monitor for meaningful Polymarket price moves, combining intensity scoring and multiple time windows to surface market signals that may precede mainstream news coverage.
+
+---
+
+# Monday, September 8, 2025
+
+## @codyschneider - Chrome extensions as low-cost search-distributed products
+> people straight up sleeping on chrome extensions as a way to pay their rent
+>
+> such low competition
+>
+> so easy to rank IT'S A google .com URL
+>
+> so cheap to run
+>
+> all the run times happens on your customers machine
+>
+> it is stupid good tbh
+
+- **Tweet:** https://x.com/codyschneider/status/1965158230247547172
+- **What:** A compact business case for Chrome extensions: marketplace and Google URL visibility can provide distribution, while client-side execution keeps hosting costs low for a small utility product business.
+
+## @indexsy - Reddit account-warming playbook for soft promotion
+> REPEAT AFTER ME
+>
+> Reddit is so easily abused right now
+>
+> There's NOTHING stopping you from farming 100 Reddit accounts at a time
+>
+> Here's my 2 week warm-up SOP (bookmark for later)
+>
+> Use a privacy browser, resi proxies, 1 assigned location per account no exceptions
+>
+> Week 1
+> Day 1: Login, scroll 10-15 mins. Just vibe, no clicks.
+> Day 2: Scroll 15 mins on 2-3 subs. Upvote 1 post.
+> Day 3: 20 mins on 3-5 subs. Upvote 2 posts (diff subs).
+> Day 4: 20 mins scroll. Upvote 2, save 1.
+> Day 5: 25 mins. Upvote 3, peek into 2 comment threads (no replies).
+> Day 6: 25-30 mins. Upvote 3-4 posts, 1-2 comments.
+> Day 7: 30 mins. Upvote 4-5 posts, 2 comments, save 1.
+>
+> Week 2
+> Day 8: 20-25 mins. Upvote 3-4 posts, 2-3 comments. Drop 1 short comment (<20 words, e.g., "This helped me tons, thx!").
+> Day 9: 25 mins. Upvote 4-5 posts, 3-4 comments. 2 casual comments on diff subs.
+> Day 10: 25-30 mins. Upvote 5-6 posts, 3-4 comments. 2-3 comments: share light experience or ask Q.
+> Day 11: 30 mins. Upvote 5+ posts, 3-4 comments. 3-4 comments: mix short/long (2-3 sentences).
+> Day 12: 30 mins. Upvote 5-6 posts, 4-5 comments. 3-4 comments, one light humor (keep it chill).
+> Day 13: 30+ mins. Upvote 6+ posts, 4-6 comments. 4-5 human-like comments (typos OK, no perfect grammar, add "idk" or "lol" sparingly).
+> Day 14: 30+ mins. Upvote 6-8 posts, 5-6 comments. 5 comments, one full para (3-5 sentences).
+>
+> Style Rules: No em-dashes—use commas. Casual, Reddit-isms like "tbh" or "ngl" lightly
+>
+> Mix tones: helpful, opinionated, no salesy vibes
+>
+> That's it. You're welcome. After your 2 week warm up period you can start posting soft shills
+>
+> GLHF, Valhalla awaits
+
+- **Tweet:** https://x.com/indexsy/status/1965126923425587621
+- **What:** An account-warming playbook aimed at making coordinated promotional Reddit accounts appear organic before soft shilling, making it a concrete example of astroturfing tactics and platform-abuse risk.
+
+## @matt_gray_ - Storytelling and systems as founder leverage
+> Every founder I know who made $50M+ mastered two skills:
+>
+> 1. Storytelling
+> 2. Systems
+>
+> Everything else can be hired.
+
+- **Tweet:** https://x.com/matt_gray_/status/1965115265131130976
+- **What:** A concise founder-leverage heuristic: persuasive narrative attracts customers, talent, and capital, while repeatable systems turn that attention into scalable execution; specialist work can then be delegated.
+
+## @gregisenberg - AI-driven shifts expand founder opportunities
+> i'm overwhelmed with the amount of opportunity there is right now
+>
+> AI is reshaping everything and it breaks my brain
+>
+> 1/ MOBILE APPS ARE BACK because AI unlocks new use-cases. the $935b mobile app market is about to get rebuilt with ai.
+>
+> 2/ "ai as a service" is the new saas. wherever there were humans doing work, ai agents will be able to do 90% of that work. TLDR; that's every service business getting turned into software
+>
+> 3/ pricing models are flipping from seat-based to outcome-based. this shift alone could unlock $50b+ in new value capture
+>
+> 4/ because of cost to create software is so much lower, lots of businesses to be created that are super niche that could spit off ~$1M/rev that would have costed millions to build years ago.
+>
+> we’ve never had all of these shifts land at the same time. it feels like every corner of the economy is cracking open for founders.
+>
+> and to put a CHERRY on it...
+>
+> i cant remember an era where so much was changing and it was so possible to pull off the ideas in your head
+>
+> i don’t know about you, but it feels like one of the GREATEST times in history to be a founder.
+
+- **Tweet:** https://x.com/gregisenberg/status/1965052581924803013
+- **What:** A founder-oriented thesis that AI simultaneously enables new mobile experiences, software-like service delivery, outcome pricing, and viable niche businesses by sharply lowering the cost of building products.
+
+## @codyschneider - Seven narrative archetypes for marketing campaigns
+> there's only 7 stories that exist
+>
+> overcoming the monster
+>
+> rags to riches
+>
+> the quest
+>
+> voyage and return
+>
+> rebirth
+>
+> comedy
+>
+> tragedy
+>
+> for all the content you make it needs to use these formats
+>
+> here's these formats rank stacked with example for marketing
+>
+> 1. rags to riches
+>
+> our founder started with $50 and a dream, sleeping on couches while building the skincare brand that now helps millions achieve glowing skin
+>
+> 2. overcoming the monster
+>
+> we took on big pharma's overpriced medications by creating affordable, transparent healthcare that puts patients first
+>
+> 3. the quest
+>
+> join us on our mission to make clean water accessible to every village on earth, one filter sale funds one month of clean water
+>
+> 4. rebirth
+>
+> discover how our 30-day program helped jennifer transform from exhausted mom to energized entrepreneur running her own business
+>
+> 5. voyage and return
+>
+> after traveling to 50 countries studying ancient wellness practices, our founder returned to create supplements that bring traditional healing to modern life
+>
+> 6. comedy
+>
+> when our app crashed on launch day and our support team accidentally sent dog photos instead of help tickets, we realized we'd found our brand voice
+>
+> 7. tragedy
+>
+> after watching his grandmother struggle with complicated pill bottles, david invented the smart dispenser that prevents 90% of medication errors
+
+- **Tweet:** https://x.com/codyschneider/status/1965052523477135416
+- **What:** The post maps seven familiar plot structures to marketing examples, giving content teams a reusable way to turn founder histories, product missions, customer transformations, and operational mistakes into narratives with clearer emotional stakes.
+
+## @0xwondr - Hedging a memecoin position with prediction-market contracts
+> https://t.co/wiSu7JW6gD
+
+- **Tweet:** https://x.com/0xwondr/status/1965039778266497065
+- **Link:** https://x.com/i/article/1964325210431135744
+- **Filed:** [how-i-made-6-figures-from-hedging-on-prediction-markets](./knowledge/articles/how-i-made-6-figures-from-hedging-on-prediction-markets.md)
+- **What:** The embedded article recounts using a prediction-market contract to hedge a large $TRUMP memecoin purchase against the possibility its launch was a hack, arguing that event-specific contracts can bound a trade’s downside without eliminating its upside.
+
+## @PixBuilds - Prediction markets turn bettors into generalists
+> ever since i got into prediction markets i somehow became an expert in:
+>
+> - weather patterns
+> - egg prices
+> - us politics
+> - emmy awards
+> - mrbeast videos
+> - celebrity pregnancies
+>
+> i basically have the brain of a suburban mom now https://t.co/Lzso7kOT8q
+
+- **Tweet:** https://x.com/PixBuilds/status/1965021312717623613
+- **What:** A humorous observation about how prediction-market participation forces people to track an unusually broad set of real-world signals, from commodities and weather to culture and politics, because prices and outcomes reward attention to subjects that ordinarily remain separate.
+
+## @arrakis_ai - Nano Banana hackathon projects released as open source
+> We’re open-sourcing everything.
+>
+> All the projects built during the Nano Banana Hackathon are now released as open-source.
+>
+> Since AI Studio supports remixing, you can easily adapt and reuse them.
+>
+> They may not have been huge projects, but it was a great opportunity to truly experience the value and potential of Nano Banana.
+>
+> And yes—every single line was vibe-coded without writing a single line of code directly. You can do it too!
+>
+> Now it’s time to build again! 🔥
+>
+> Huge thanks to Google for releasing such an amazing model. @GoogleAIStudio @OfficialLoganK
+
+- **Tweet:** https://x.com/arrakis_ai/status/1965001417716072877
+- **What:** CHOI announces that every Nano Banana Hackathon project was released as remixable open source through AI Studio, presenting the event as a practical demonstration that end-to-end prototypes can be created through natural-language-driven vibe coding rather than manual code authoring.
+
 ---
 
 # Sunday, September 7, 2025
@@ -50738,6 +51265,1272 @@ thank you all, means a lot
 - **Tweet:** https://x.com/natolambert/status/1964700021108130018
 - **Quoted:** https://x.com/finbarrtimbers/status/1964501121978028410
 - **What:** Finbarr reports GPT-5 Pro diagnosing a script bug that repeated Claude Code with Opus attempts missed; Lambert interprets such capability gaps as a paid competitive advantage for knowledge workers rather than merely a better consumer product.
+
+## @FabianoSolana - Prediction market trading strategies for volatile news
+> https://t.co/rr28aQmd7h
+
+- **Tweet:** https://x.com/FabianoSolana/status/1964686243616129076
+- **Link:** https://x.com/i/article/1964418475679764483
+- **Filed:** [never-not-having-4-figure-weeks-with-prediction-markets](./knowledge/articles/never-not-having-4-figure-weeks-with-prediction-markets.md)
+- **What:** The embedded article proposes speculative prediction-market tactics—fading news-driven moves, investigating high-performing wallets before copying them, and spreading bets across price ranges—while explaining the market mechanics that create the perceived edge.
+
+## @TheAhmadOsman - Reddit JSON endpoints for niche-market research
+> there is a lot of MONEY in this
+>
+> add `/.json` at the end of any Reddit link
+>
+> &gt; and get the entire thread
+>
+> &gt; including all replies to the n-th depth
+>
+> &gt; and all the metadata
+>
+> &gt; as JSON
+>
+> and then use LLMs to extract/analyze/etc
+>
+> you can make so much $$$ from niche subreddits
+
+- **Tweet:** https://x.com/TheAhmadOsman/status/1964583335147237830
+- **What:** Reddit’s JSON endpoint exposes complete discussion trees and metadata in a machine-readable form, enabling LLM-assisted research into recurring needs, language, and commercial opportunities within specialized communities.
+
+---
+# Thursday, September 4, 2025
+
+## @ViperChill - Citi conference notes on AI-driven discovery
+> Here are my notes on SEO & AI from yesterday's Citi conference.
+>
+> LegalZoom's comments gave me something to think about.
+>
+> Is there a huge new wave of people going to learn they need your product / service that hadn't even considered it before? In other words, they never searched before because they didn't know what to search?
+>
+> Of course, even if you've never heard of SEO you'll eventually discover it by looking for ways to grow your website traffic.
+>
+> But I've also studied a few topics recently I don't think I would have ever known about without talking to a chat bot.
+>
+> I'm aware companies will say things in these talks to make themselves look good to potential and current investors, but I still find their comments interesting.
+>
+> As I mention in the graphic, these are not direct quotes. I simply went through a lot of the talks and took notes on those I find most interesting. I've tried to be accurate, but it's not the same as being there.
+>
+> (You can read the full details on various sites like Investing, MarketScreener, SeekingAlpha, and so on.)
+>
+> I hope you find these interesting, too. 🤝
+
+- **Tweet:** https://x.com/ViperChill/status/1963598432507236589
+- **What:** Glen Allsopp’s conference-note roundup examines whether AI chat interfaces create demand by exposing people to products and subjects they would never have searched for, a possible shift in the traditional SEO discovery funnel.
+
+## @PixBuilds - Prediction markets make niche knowledge liquid
+> https://t.co/1695q5xb2g
+
+- **Tweet:** https://x.com/PixBuilds/status/1963568086440694121
+- **Link:** https://x.com/i/article/1963557120722325504
+- **Filed:** [monetizing-ultra-niche-knowledge](./knowledge/articles/monetizing-ultra-niche-knowledge.md)
+- **What:** The article argues that prediction markets can monetize highly specific, otherwise idle knowledge by converting local observations and deep hobbies into tradable signals that improve price discovery.
+
+---
+
+# Wednesday, September 3, 2025
+
+## @levelsio - Cheap high-traffic hosting with Cloudflare caching
+> You've been tricked!
+>
+> Very high traffic is cheap too, I serve 314,000,000 requests per month
+>
+> One VPS can be just $50/mo to handle all this traffic, with Cloudflare caching most of it (for free!) https://t.co/T0xKXFIkdM
+>
+> *Quoting @BrianMSkinner:* @levelsio High traffic is cheap. Very high traffic doesn’t work at all. So AWS might be worth it if it is something that could be huge.
+
+- **Tweet:** https://x.com/levelsio/status/1963262970147766516
+- **Quoted:** https://x.com/BrianMSkinner/status/1963244331461963912
+- **What:** Brian Skinner distinguishes ordinary scale from a potentially massive workload that may justify AWS, while levelsio counters with an example of 314 million monthly requests served cheaply from one VPS behind Cloudflare caching.
+
+## @CasJam - Podcast invitations as a cold-outreach strategy
+> Instead of cold emailing a busy person to ask to "pick their brain", try inviting them on your podcast or youtube.  Most are willing, regardless of audience size. Plus you'll get their best, not a rushed 1-line response (or nothing).
+>
+> Don't have one?  Start one.
+
+- **Tweet:** https://x.com/CasJam/status/1963258594201092258
+- **What:** Inviting an expert to a podcast or YouTube conversation changes cold outreach from a generic ask into a public venue, increasing the odds of a substantive response while creating a durable interview asset.
+
+---
+
+# Tuesday, September 2, 2025
+
+## @thebeautyofsaas - Personal disclosure miscast as an IQ signal
+> You can tell someones IQ by how quickly they start talking about their personal life and problems they are going through
+>
+> The sooner they start revealing things you didn't ask for... The higher the chances that they have a low IQ
+
+- **Tweet:** https://x.com/thebeautyofsaas/status/1962963534951670083
+- **What:** A provocative social heuristic equates unsolicited personal disclosure with lower intelligence, an unsupported claim that is more useful as an example of reductive online judgment than as a reliable assessment of IQ.
+
+## @PixBuilds - Prediction markets as collective forecasting systems
+> https://t.co/6XYdABC2sM
+
+- **Tweet:** https://x.com/PixBuilds/status/1962934743684538575
+- **Link:** https://x.com/i/article/1961551433360183296
+- **Filed:** [why-prediction-markets-arent-gambling.md](./knowledge/articles/why-prediction-markets-arent-gambling.md)
+- **What:** An X Article argues that prediction-market prices aggregate distributed forecasts for decisions about business, policy, and risk, unlike sportsbook odds designed around a house, and notes that forecasts can influence the outcomes they anticipate.
+
+---
+
+# Monday, September 1, 2025
+
+## @aaditsh - Private AI creator growth group invitation
+> Creating a PRIVATE WhatsApp group of top AI creators.
+>
+> We’ll talk about growth, favorite AI tools, what we’re building, marketing, content, X, other platforms etc.
+>
+> Comment ‘AI’ if you want to join.
+
+- **Tweet:** https://x.com/aaditsh/status/1962587409536749789
+- **What:** An invitation to a private WhatsApp peer group for AI creators focused on exchanging growth tactics, tool recommendations, product updates, and cross-platform content strategies rather than a publicly documented resource.
+
+---
+
+# Sunday, August 31, 2025
+
+## @maxxmalist - VEO 3 script-to-ad production workflow
+> i’ve been using VEO3 to pump out ads for digital products in under 5 minutes and turn any product into viral-ready content without a big budget
+>
+> these ads are perfect for info, digital products, and ecom
+>
+> the workflow is simple:
+> - drop in your script or hook
+> - let veo3 generate scenes
+> - tweak the angles and tone
+> - then export a stack of ready-to-run variations
+>
+> each ad looks like something you’d actually see on your fyp… except it’s built to sell your product
+>
+> like, rt + reply with 'CONTENT' and i'll send you my prompt template that i use to make my own ads go viral every single time
+
+- **Tweet:** https://x.com/maxxmalist/status/1962184419479048659
+- **What:** A creator describes using VEO 3 to convert sales hooks or scripts into multiple short-form ad variations, presenting generative video as a fast, low-budget production workflow for digital-product and ecommerce campaigns.
+
+## @FabianoSolana - Prediction-market arbitrage and liquidity strategies
+> https://t.co/qs5vRB71mS
+
+- **Tweet:** https://x.com/FabianoSolana/status/1962165826569560327
+- **Link:** https://x.com/i/article/1962098944864878592
+- **Filed:** [how-to-make-a-fortune-with-prediction-markets-without-knowing-a-thing.md](./knowledge/articles/how-to-make-a-fortune-with-prediction-markets-without-knowing-a-thing.md)
+- **What:** An X Article outlines cross-platform arbitrage, live sports hedging, liquidity rewards, and specialist tools as ways to trade prediction markets, while each approach depends on execution, liquidity, and changing market prices.
+
+## @baldridgecpa - Return on Hassle Over Return on Investment
+> After advising thousands of entrepreneurs, one metric separates the wealthy:
+>
+> Not ROI.
+>
+> Return on Hassle.
+>
+> The richer they get, the more they optimize for peace over profit.
+>
+> Here's their framework:
+>
+> (You're going to want to bookmark this for later!)
+
+- **Tweet:** https://x.com/baldridgecpa/status/1962157029448954286
+- **What:** Mitchell Baldridge frames "return on hassle" as a wealth-building decision metric: experienced entrepreneurs increasingly trade marginal profit for lower complexity, stress, and operational burden, though the promised framework is not included here.
+
+## @maxxmalist - Use Hormozi's Offers Framework as AI Copywriting Context
+> upload $100M offers book from @AlexHormozi to Claude before writing any script/ad
+>
+> thank me later
+
+- **Tweet:** https://x.com/maxxmalist/status/1962131446866247858
+- **What:** The recommendation is to give Claude Alex Hormozi's $100M Offers framework as source material before drafting ads or scripts, using a proven offer-design model to ground AI-generated marketing copy.
+
+---
+
+# Saturday, August 30, 2025
+
+## @tom_doerr - Local Open-Source CLI AI Shell Assistant
+> open-source CLI AI assistant for shell commands, runs locally https://t.co/EKOAqyPxOa
+
+- **Tweet:** https://x.com/tom_doerr/status/1961974044795805780
+- **What:** LINK_FAILED: Could not expand link from @tom_doerr — the supplied short link resolves only to this bookmark, so the locally run open-source shell assistant cannot be identified or evaluated from the available data.
+
+## @tdinh_me - Recommendation for an Unspecified Series
+> Whoa, this series just gets better and better. Highly recommended. https://t.co/NtvgwpO4kC
+
+- **Tweet:** https://x.com/tdinh_me/status/1961972597719224404
+- **What:** THIN: @tdinh_me strongly recommends a series but does not name it or preserve any subject matter, leaving only an unsubstantiated endorsement for later manual identification.
+
+## @gregisenberg - DJ_dave Uses Strudel for Browser-Based Live Coding
+> pretty crazy that people are vibe coding music now (this is dj_dave)
+>
+> she uses strudel a new live coding app to write music in your browser (open source too)
+>
+> i've never knew this was possible before https://t.co/f8kyVE0cAj
+
+- **Tweet:** https://x.com/gregisenberg/status/1961813822215217299
+- **What:** This bookmark spotlights DJ_dave's use of Strudel, an open-source browser environment for writing music as code, illustrating how live coding can make experimental composition and performance more accessible.
+
+---
+
+# Thursday, August 28, 2025
+
+## @vasuman - Read-only schema discovery before AI database changes
+> Your vibe coded app probably uses Supabase. And if you're trusting Cursor with your DBs, you've probably broken it a few dozen times already. Do this instead:
+>
+> Before blindly copy and pasting, or even worse letting Cursor change your Supabase via the CLI, feed it this prompt:
+>
+> "If your changes involve the DB schemas in Supabase, first give me a read-only script that I can copy and paste into Supabase that will clarify any questions or assumptions you are making about the DB schemas. Use UNION to join queries together so the script shows all results in one output, instead of only the last one."
+>
+> Cursor will then give you a SQL script that you can safely run. Run that script in Supabase → click Export → Copy as JSON → feed back into Cursor.
+>
+> Now Cursor has the context it needs to make changes to the DB Schemas without breaking anything. The next change it gives you is now 99% less likely to break shit.
+
+- **Tweet:** https://x.com/vasuman/status/1961223268527997046
+- **What:** Vas proposes a safer AI-assisted Supabase workflow: have the coding agent first generate a read-only, consolidated schema-inspection query, export its results as JSON, then provide that verified context before requesting database changes.
+
+## @Jonnyvandel - Claim of automated multilingual UGC video production
+> Nano Banana + MassUGC is insane...
+>
+> any product, any demographic, any language.
+>
+> the AI Agent pumps out 300+ 60 second videos PER DAY.
+>
+> literally market anything🎩🍌
+>
+> like, rt + comment "mass" i'll send the tutorial: https://t.co/DK3ksls2EI
+
+- **Tweet:** https://x.com/Jonnyvandel/status/1961191315820982359
+- **What:** Jonny Vandel promotes a workflow combining Nano Banana and MassUGC, claiming an AI agent can generate more than 300 localized, demographic-targeted one-minute marketing videos per day; the linked t.co URL only resolves to this tweet.
+
+## @Jason______A - Reconnecting with experienced peers to counter burnout
+> I’ve hated what I do for years. Truth is, I don’t see myself making this kind of money in any other industry so I stayed.
+>
+> 13+ years ago I left the car business because I was burnt out. I didn’t even chase internet marketing for money. But now? I feel trapped in it. Making money I don’t even need doing shit I don’t even like.
+>
+> Recently I leaned on @RyanClogg  and had one of the best convos I’ve had in a long time, it reminded me why I started. Then dinner with @jordanmenard  last weekend lit a fire under me. We should have recorded but it was chaos mixed with brilliance. YouTube would’ve hit it with a community guidelines strike in 5 minutes.
+>
+> I don’t do trade shows anymore. Can’t sit through one more retard lying about their numbers while flexing a leased Carrio Huracán and if they really hit it "big" a Cullinan and Urus to add to their "collection". I forgot what high level conversations felt like.
+>
+> If you’re burnt out, here’s the cheat code: stop listening to frauds and go talk to people who have actually succeeded for 10+ years, not months. It’ll remind you why you’re here. High level conversations hit different.
+
+- **Tweet:** https://x.com/Jason______A/status/1961155926951419942
+- **What:** Jason Applebaum frames professional burnout as partly an information-environment problem, arguing that conversations with durable operators can restore motivation more effectively than exposure to hype-driven industry events.
+
+## @david_attisaas - Performance-based deal structure for mid-sized influencers
+> the QUITTR guys shared for free on youtube some sauce so I’ll gladly share it on X alsp
+>
+> let’s do a broad human experiment!!
+> something new
+>
+> usually grifters tell you to comment a keyword and then they give you a free sauce by DM
+>
+> I’m giving you the sauce here and in exchange bookmark or share it with a friend to help
+>
+> deal?
+>
+> I'm telling you the only deal acceptable to work with mid-sized influencers (100K-300K followers and averaging at least 50K views per video)
+>
+> take notes :)
+>
+> usual deal size is 700-1000 USD
+>
+> paying upfront 20%
+>
+> paying the rest 4-6 weeks after the conditions below are reached
+> 4-6 weeks later because APPLE pays me 6 weeks after I'm getting the sales
+>
+> 4 videos minimum a month cross-posted on both IG and TT
+>
+> minimum cumulative guaranteed views across the 8 videos is 800K views
+>
+> if she does > 800K views after less than 4 videos, she still owes us videos until we reach 4 videos
+>
+> if she doesn't reach 800K total views after the 4 cross posted videos, she must keep posting until she reaches that number
+>
+> that way I'm minimising my downside a lot and this forces the influencer to get me the views I want and for a minimum of $1 CPM because very often...
+>
+> …they go way past 800K views as the videos stay online months after and keep raking views
+
+- **Tweet:** https://x.com/david_attisaas/status/1961087088948109641
+- **What:** David Attias describes an influencer agreement that limits upfront cash while requiring four cross-posted videos and 800,000 cumulative views, shifting delivery risk to the creator and targeting a maximum effective $1 CPM.
+
+## @Charles_SEO - Entity-first link-building baseline for new sites
+> Google’s algo leaks confirmed it: pillow links and entity stacking still matter...
+> Here’s my 2025 baseline for every new project:
+> - 30+ citations across trusted directories.
+> - Crunchbase + MarketWatch/Yahoo Finance PR.
+> - Reddit/Tumblr/Medium pillow links.
+> - Branded nofollows from social + UGC sites.
+> - THEN → hit with authority niche edits + PR placements.
+>
+> Most SEOs skip straight to “buy DR80 dofollows.”
+> That’s why their sites collapse under the first velocity spike.
+>
+> Get Google to trust and validate your entity/brand/site first!
+
+- **Tweet:** https://x.com/Charles_SEO/status/1960954503668088990
+- **What:** Charles Floate outlines a staged off-page SEO strategy that establishes a brand’s entity signals and link profile before pursuing high-authority placements, aiming to make later link velocity look credible rather than manipulative.
+
+---
+
+# Wednesday, August 27, 2025
+
+## @SaidAitmbarek - AppMafia's Consumer-App Growth Course Takeaways
+> few takeaways from the @appmafia_  course (free)
+>
+> - wireframe your apps (core actions + user journey)
+> - design them for virality (1h+ video)
+> - build ios apps/xcode
+> - select influencers in your niche
+> - negotiate
+> - important: campaigns!
+> - warm your TT accounts (act like a human)
+> - distribute cross-channel
+> - scale with Ads
+> - optimize for conversions only
+>
+> overall a good starter-course for consumer app builders
+>
+> LFG, nice work🔥
+
+- **Tweet:** https://x.com/SaidAitmbarek/status/1960781420076450096
+- **What:** Saïd Aitmbarek summarizes AppMafia's free consumer-app course as an end-to-end playbook spanning user-journey design, viral product mechanics, influencer campaigns, TikTok account warming, cross-channel distribution, paid acquisition, and conversion optimization.
+
+---
+
+# Tuesday, August 26, 2025
+
+## @thebeautyofsaas - Claimed Framework for Identifying Mediocre People
+> How to instantly spot the mediocre people around you https://t.co/KTrgYR9Dc8
+
+- **Tweet:** https://x.com/thebeautyofsaas/status/1960411203747950978
+- **What:** The post teases a framework for distinguishing mediocre collaborators, but the available bookmark data supplies only the headline and no criteria, attachment, or external source from which to assess the proposed judgment.
+
+## @EXM7777 - ChatGPT Prompt for More Human-Sounding Content
+> use this system prompt in ChatGPT to consistently write humanized content https://t.co/hlP1cBLZEz
+
+- **Tweet:** https://x.com/EXM7777/status/1960356531935031679
+- **What:** Machina points to a purported ChatGPT system prompt intended to make generated copy sound more human, a useful goal for AI-assisted writing, although the bookmark payload does not preserve the prompt itself for evaluation or reuse.
+
+## @marclou - ClipMarc Pays Creators to Repurpose Videos
+> So... I created my own content reward platform:
+>
+> 🤑 $3 per 1k views
+> 🌟 Only 30 spots available (26 left)
+>
+> First-come, first-served → https://t.co/i0KzcFxzl9 https://t.co/8kpQ7PBD0U
+>
+> *Quoting @marclou:* Do I know a cracked clipper?
+>
+> I want to try short-form content, but I'm a 30yo boomer, so I'd love to work with you.
+>
+> Post 1 video you've clipped below, and I'll reach out!
+>
+> (you must drink the techpreneurship culture juice) https://t.co/dnICMPQG66
+
+- **Tweet:** https://x.com/marclou/status/1960272520051150971
+- **Link:** https://www.clipmarc.com/
+- **Quoted:** https://x.com/marclou/status/1958454654389665940
+- **What:** Building on his request for skilled short-form editors, Marc Lou launches ClipMarc, a limited creator-reward program that offers $3 per 1,000 views for clips of his content and turns influencer sourcing into a performance-based distribution channel.
+
+## @JespernissenSEO - Perplexity Pages Ranking Without Backlinks
+> Perplexity AI parasite seo is almost as good as Claude AI parasites..
+>
+> Yesterday I created a Perplexity page, and sent it to the indexers. Today its indexed, and ranking #4 for "schemawriter wordpress plugin".
+>
+> I didnt send any links to it. I didnt make any edits to the content, its 100% AI generated article..
+
+- **Tweet:** https://x.com/JespernissenSEO/status/1960240133862470111
+- **What:** Jesper Nissen reports that a newly generated Perplexity page reached fourth place for a plugin query within a day without backlinks or manual edits, illustrating the perceived short-term ranking leverage of AI-platform-hosted pages.
+
+---
+
+# Monday, August 25, 2025
+
+## @mattdiggityseo - Content decay quietly erodes search rankings
+> There’s a silent killer slowly wiping out search rankings… and most SEOs have no clue it’s happening.
+>
+> It’s called content decay.
+>
+> Sites that once ranked at the top are slipping due these reasons:
+>
+> - Google’s AI is giving more weight to recent, comprehensive info.
+> - Users expect more up-to-date data.
+> - Competitors are updating constantly.
+> - Search intent is changing faster than most strategies can keep up.
+>
+> The scariest part is it happens so gradually you don’t notice until traffic has already dropped.
+
+- **Tweet:** https://x.com/mattdiggityseo/status/1960169527767142705
+- **What:** An explanation of content decay as gradual ranking loss caused by stale coverage, frequent competitor updates, and shifting user intent, underscoring the need to audit and refresh high-value search pages before traffic declines.
+
+## @dkposts - Agent-driven Kalshi and Polymarket arbitrage tool
+> Almost done with my arbitrage tool to help my agent auto trade for easy wins on @Kalshi and @Polymarket .
+>
+> Prediction markets are inefficient rn, a perfect time to farm alpha. https://t.co/G2wyU5pwCe
+
+- **Tweet:** https://x.com/dkposts/status/1960082583590707694
+- **What:** A developer describes an in-progress agentic trading tool intended to identify and execute cross-market prediction-market arbitrage on Kalshi and Polymarket, treating current market inefficiencies as an automation opportunity.
+
+## @JespernissenSEO - Claude-assisted parasite SEO ranking experiment
+> Parasite SEO with Claude AI is crazy.
+>
+> Earlier today I made a test for todays webinar, thats starting in 10 minutes. I sent it to the indexers, and in only 5 hours, it shot straight to number one in Google!
+>
+> Even outranking my own website for schemawriter!
+>
+> This AI parasite is so powerful, that you dont even need any backlinks to rank it...
+>
+> #seo #claude
+
+- **Tweet:** https://x.com/JespernissenSEO/status/1960063505064997071
+- **What:** An SEO practitioner reports a short-lived test in which Claude-generated parasite content allegedly reached the top Google result within hours, illustrating both the perceived speed of indexer-assisted ranking and the tactic's fragility.
+
+## @qasimbizs - Growing an X audience from zero to 3,000 followers
+> How I went 0 to 3k followers in 30 days on X! https://t.co/agTbJDkfrf
+
+- **Tweet:** https://x.com/qasimbizs/status/1960027412600668535
+- **What:** A promised case study on rapidly growing a new X account to 3,000 followers in one month, potentially useful for evaluating practical audience-building tactics and their repeatability.
+
+---
+
+# Sunday, August 24, 2025
+
+## @MaximilianDrago - App Mafia's creator course promotion backlash
+> These 5 app founders had everything.
+>
+> $70M revenue. 300M downloads. The respect of every builder on X.
+>
+> Then they tricked hundreds of creators into promoting their secret course.
+>
+> Here's how App Mafia turned the startup community against its own heroes:🧵
+>
+> 1/10 https://t.co/1dXEdfUj3s
+
+- **Tweet:** https://x.com/MaximilianDrago/status/1959637640543649935
+- **What:** A thread introducing an account of how prominent app founders allegedly used creators to promote a concealed course, showing how opaque affiliate campaigns can damage trust within builder communities.
+
+## @johnrush - Critique of paid courses promising venture-capital shortcuts
+> let me save you $5,000 on appmafia course:
+>
+> ( how you can exploit a glitch in the VC money matrix )
+>
+> (( if money is all you need ))
+
+- **Tweet:** https://x.com/johnrush/status/1959633576665997516
+- **What:** THIN: A terse teaser that mocks or challenges a costly App Mafia course by promising a shortcut to venture funding, but it provides no concrete mechanism, supporting evidence, linked resource, or substantive explanation to evaluate the claim.
+
+## @ideabrowser - AI revenue-recovery agents for existing customers
+> This is one of the biggest AI business opportunities right now.
+>
+> Every business has a leaky bucket.
+> Spending 10x to acquire new customers while existing ones quietly slip away.
+>
+> Everyone business works to GET customers.
+> Few businesses work to KEEP customers buying.
+>
+> Salons losing 30% revenue from missed rebookings.
+> Restaurants with one-time diners.
+> Service businesses forgetting follow-ups.
+> Lawn care crews cut once, waiting for callbacks.
+>
+> Forget lead gen. Build revenue recovery tools.
+>
+> AI agents that plug these leaks.
+> → automated rebooking,
+> → personalized nudges,
+> → timely upsells,
+> → no-brainer offers at the perfect moment.
+>
+> The gold is in existing customer bases. Start digging!
+>
+> If you want more startup ideas/trends like this, I send 4 new ideas daily, straight your inbox, for free.
+
+- **Tweet:** https://x.com/ideabrowser/status/1959624505665491436
+- **What:** A startup thesis for AI agents that raise retention and customer lifetime value through timely rebooking, follow-up, upsell, and offer workflows, positioning revenue recovery in existing customer databases as a more neglected and potentially efficient opportunity than acquiring another lead.
+
+## @NoahEpstein_ - Replacing specialized AI subscriptions with Claude connections
+> Claude just killed the $500/month AI agent industry with one update.
+>
+> Got DMs asking how I replaced $6K worth of AI tools with free connections.
+>
+> Here's how to turn Claude into your business's AI brain: 🧵
+
+- **Tweet:** https://x.com/NoahEpstein_/status/1959563942835147082
+- **What:** A thread introduction claiming that Claude’s connection capabilities can consolidate expensive point AI-agent subscriptions into a business-wide assistant, with the implied value coming from linking existing tools and data sources instead of maintaining a fragmented stack of specialized products.
+
+---
+
+# Saturday, August 23, 2025
+
+## @ConnorShowler - Manipulating model consensus to influence AI citations
+> OpenAI doesn't want you to know..
+>
+> You can just use a ton of GPT Plus accounts to skull fu*k OpenAI into consensus..
+>
+> Show it enough "proof" via a rational flow of "logic" (your logic) and constantly correct it until you get it parroting your version of reality like an abused spouse.
+>
+> "Jail breaking" models is child's play versus psychologically engineering consensus for citations via LLM mental warfare.
+
+- **Tweet:** https://x.com/ConnorShowler/status/1959397760253440168
+- **What:** A provocative claim that repeated, coordinated interactions could steer a language model’s apparent consensus and cited answers, highlighting the reputational and information-integrity risks of treating AI outputs as neutral authority rather than outputs susceptible to feedback and manipulation.
+
+## @markbuildsbrand - Organic audience building and paid-ad scale complement each other
+> As the official run more ads guy, here are my thoughts:
+>
+> 1. I’ve printed a Shtload organically across almost every vertical. Ecom, info, saas. Yeah 100% margins, ‘make money while u sleep’ cool yeah whatever
+>
+> 2. I’ve also printed a shtload on paid.
+>
+> Organic is easy to sell people. Period. End of story. That’s why it’s so glamorous. Bc you build so much consumption from your audience, so much reciprocity, selling ANYTHING is like playing on easy mode. It’s like only running BOFU traffic on FB. It’s easy. Cake. Cheddar cheese.
+>
+> Paid, on the other hand, is tuff. You actually got to use your brain a little bit. You gotta understand DR at a deeeep level to really crank up to $100k+ per day. You gotta understand copy beyond the surface level.
+>
+> But once you crack it, it’s damn near infinity scalable. It’s fkn beautiful. It’s the closest thing to a legal money printer. You don’t need to post anything, you don’t need to show your face, all you need is your brain and a laptop. No camera, no editing, no typing out tweets, nothing.
+>
+> You gotta understand bro, there are people 100x richer than me and you that never show their face, never type a single tweet, and know nothing about “content creation.” All they do is sit behind their little laptop and scale ads like a fucking Chad. I know this bc this is most of my friends, and it was me for a while until I recently started posting content seriously.
+>
+> Ads are for chads. And you won’t get it until you’ve done it.
+>
+> All that being said, you’d be a moron to only leverage one. It’s not organic OR paid. It’s both. At the highest level you possibly can.
+>
+> TL;DR - run more ads.
+>
+> *Quoting @patwerX:* Most people screaming "run ads" have never built an organic machine that prints while they sleep. They've never tasted 100% margins.
+>
+> Look at Telegram & Reddit – both scaled to hundreds of millions of users with $0 ad spend.
+>
+> Why? Because Perfect Product Fit + Good Community outperformed media buying. The word of mouth made them billions.
+>
+> As an affiliate, the real play is simple:
+> 1. Own the asset (site, community, channel).
+> 2. Let reach + trust compound.
+>
+> I've made multiple 8 figures in organic revenue and yes I've tested ads too. But in affiliate marketing ads often kill your margins. When you're running 5-20% commission offers there's just not enough room for expensive ad spend.
+>
+> Done right organic is not only easier in my opinion – it also keeps your margins close to 100%.
+
+- **Tweet:** https://x.com/markbuildsbrand/status/1959379216367276269
+- **Quoted:** https://x.com/patwerX/status/1954597969233068463
+- **What:** The quoted post argues that owned audiences and product-community fit create durable, high-margin affiliate revenue, while Mark contends that sophisticated direct-response advertising is more operationally demanding but nearly unbounded in scale; together they frame organic trust and paid acquisition as complementary growth engines.
+
+## @grundstromleo - Early YouTube channel mistakes that delay product-led growth
+> feeling reflective
+>
+> here's a bunch of youtube mistakes i made in the early days
+>
+> - targeting 3rd world country audiences (lower RPM)
+> - outsourcing writing scripts too early
+> - making thumbnails myself
+> - paying freelancers for samples
+> - worrying about views too early
+>  - choosing a complicated niche as a beginner
+>  - obsessing over upload settings or tags
+> - focusing too much on adsense (tiny compared to selling products)
+>  - wasting time starting new channels before mastering one
+>  - hiring editors on upwork/fiverr instead of discord (you’ll pay a premium for average quality work)
+>
+> PS. Comment "CLASS" for a free invite to tomorrow's youtube class
+
+- **Tweet:** https://x.com/grundstromleo/status/1959329847227879517
+- **What:** A creator’s retrospective argues that new YouTube operators should master one simple channel, defer premature outsourcing and metadata tinkering, and prioritize a product business over low-margin AdSense revenue.
+
+## @PixBuilds - Eleven ways to approach the prediction-markets meta
+> ways to get exposure to the prediction markets meta (easy to advanced):
+>
+> > trade the infra tokens
+> > LP market pools
+> > trade the oracle
+> > cross-market arbitrage
+> > reflexivity farming
+> > bayesian updates vs market lag
+> > use as synthetic options
+>
+> broke these down (plus 4 more) in the article👇
+>
+> *Quoting @PixBuilds:* https://t.co/AmVBJzYNEw
+
+- **Tweet:** https://x.com/PixBuilds/status/1959318614156132428
+- **Link:** https://x.com/i/article/1959280572632604672
+- **Quoted:** https://x.com/PixBuilds/status/1959283346418127117
+- **Filed:** [how-to-make-64k-from-prediction-markets](./knowledge/articles/how-to-make-64k-from-prediction-markets.md)
+- **What:** The quote condenses the linked guide into a spectrum of prediction-market exposures, from infrastructure tokens and liquidity provision to pricing models, while the underlying article explains the mechanics and their speculative hazards.
+
+## @ConnorShowler - A baseline prompt for SEO-oriented long-form content
+> Steal my prompt to generate high-quality SEO content every time:
+>
+> Prompt:
+>
+> "Create SEO optimized {content type} content using the following parameters:
+>
+> - {Brand name} is the name of the brand this content is for.
+>
+> - {Intention} should match the content intent, writing style, tone, and cadence of the content output.
+>
+> - {Target Keyword or Keyword Phrase} is the target keyword phrase.
+>
+> - Page meta title should include brand name at the end.
+>
+> - Page title should be keyword rich without stuffing.
+>
+> - Meta description should include target keyword phrase at the beginning.
+>
+> - Target keyword phrase at beginning of first paragraph.
+>
+> - 1-2% keyword phrase density in paragraphs.
+>
+> - Minimum 1,600 words of content
+>
+> - H1, H2, H3 should include main keyword phrase and/or synonyms.
+>
+> - Url slugs should contain target keyword phrase (up to 3 keywords per slug optimally).
+>
+> - Content should have minimum 3 outbound links pointing to different urls from {URL_LIST}.
+>
+> - Don't cannibalize keyword phrases across page titles or via anchor text based on chat memory.
+>
+> - Images should have target keyword phrases and synonyms as both alt text AND file name.
+>
+> - Minimum 1 image per page."
+>
+> This is the baseline for all my search engine optimized content.
+>
+> This does not fully humanize the content but is a large step in the right direction.
+>
+> If you want the prompt I include to humanize the content, comment "HUMAN".
+
+- **Tweet:** https://x.com/ConnorShowler/status/1959284714302218327
+- **What:** A reusable production prompt operationalizes on-page SEO requirements—intent, metadata, headings, internal anti-cannibalization constraints, links, and image attributes—so a draft begins with a consistent optimization checklist.
+
+## @PixBuilds - How To Make $64k From Prediction Markets
+> https://t.co/AmVBJzYNEw
+
+- **Tweet:** https://x.com/PixBuilds/status/1959283346418127117
+- **Link:** https://x.com/i/article/1959280572632604672
+- **Filed:** [how-to-make-64k-from-prediction-markets](./knowledge/articles/how-to-make-64k-from-prediction-markets.md)
+- **What:** This guide treats prediction markets as venues for pricing, liquidity, and information strategies, outlining arbitrage, market-making, and signal-trading ideas while also surfacing significant execution, legal, and ethical risks.
+
+## @alexgroberman - A 30-day X growth system built around proof and DMs
+> I started my X account 37 weeks ago. Easiest algo to crack by a country mile. I've since collected $70,000+ in direct revenue, recorded 7.9M+ impressions and this month alone drove ~$8,000+ to SEO Stuff.
+>
+> Here is my full system. Take advantage before Elon closes the loopholes.
+>
+> And if you want the full cheat sheet with engagement groups, DM workflows, and posting strategies…
+>
+> Follow me + repost this + comment “X growth guide 2025.”
+>
+> You must do all 3 to get the DM.
+>
+> Alright, let's jump in...
+>
+> Posting schedule:
+>
+> I try to post 2–3 times per day, 7 days per week. When I fail, my numbers drop. (I failed this past week).
+>
+> Morning: Proof post or strong POV single tweet
+>
+> Afternoon: Mini-thread (3–5 tweets) with screenshots or frameworks
+>
+> Evening: Repost + CTA or quick observation to spark replies
+>
+> If I stop for even 48 hours, reach drops.
+>
+> What is working now:
+>
+> • Short, visual threads. Anything over 6 tweets struggles. Threads that show proof + 3–4 clear steps still win.
+> • Multi-image posts. 2–4 slides with a bold headline first, framework in the middle, CTA on the last.
+> • Revenue breakdowns with exact steps. “$6K in August → here’s what caused it” outperforms vague lessons.
+> • Process screenshots. Prompts, dashboards, sales flows. The more usable they look, the better.
+> • Commentary with proof. Pair niche news or trends with data or receipts.
+>
+> What is underperforming:
+>
+> • One-liners with no proof.
+> • Threads over 10 tweets that drift or repeat.
+> • AI content with no human POV.
+> • Copycat frameworks with no results.
+>
+> Winning engagement strategy:
+>
+> • Reply early on viral posts in your vertical with insights or proof.
+> • RT your strongest replies to surface them to your audience.
+> • Quote tweet 1–2 times daily with commentary or teardown.
+> • Build small creator circles (5–10 peers) to engage within the first 15–30 minutes.
+> • Rotate who comments first to avoid patterns.
+>
+> X is now boosting cross-post engagement. If the same group of people consistently interact with your posts and each other’s, everyone in that circle gets more reach.
+>
+> DM strategy:
+>
+> I generate inbound leads weekly without cold-pitching.
+>
+> Track who engages with my posts (likes, follows, replies).
+>
+> DM them something useful (template, swipe, or mini-playbook).
+>
+> If they respond, open a loop (“Want the rest of the system?”).
+>
+> If yes, send the offer (SEO Stuff, growth playbook, consulting).
+>
+> Just try to delay the offer. Build context before conversion.
+>
+> Retention > reach
+>
+> The real funnel is profile visit → follow → DM → client.
+>
+> How I optimize:
+>
+> • Bio is clear and value-first
+> • Pinned tweet = proof + offer
+> • Rotate pinned tweet every 2 weeks based on CTR
+> • Reply to every DM with value
+>
+> Metrics to watch:
+>
+> • Link clicks per post
+> • Follower growth per post
+> • DM replies per offer
+> • % of repeat engagers
+>
+> Impressions are lagging indicators, fyi.
+>
+> So basically just:
+>
+> Post 2–3x/day with one proof post
+>
+> Reply to 5+ posts/day in your vertical
+>
+> Quote tweet 1–2/day with POV
+>
+> Repost top performers every 2–3 weeks
+>
+> DM 10+ new engagers weekly with free value
+>
+> Track clicks, DMs, and conversions weekly
+>
+> Test hooks, visuals, and formats every week
+>
+> This account has generated $70K+ in 37 weeks and still compounds daily.
+>
+> Run this playbook for 30 days. Screenshot your Day 31 results. Tag me when the inbound starts.
+>
+> And if you want the full cheat sheet with engagement groups, DM workflows, and posting strategies:
+>
+> → Follow me
+> → Repost this
+> → Comment “X growth guide 2025.”
+
+- **Tweet:** https://x.com/alexgroberman/status/1959282792186982516
+- **What:** A detailed X acquisition playbook that connects frequent proof-led posts, early niche replies, and value-first DMs into a measurable profile-to-client funnel rather than optimizing impressions alone.
+
+---
+
+# Friday, August 22, 2025
+
+## @alexxgrowth - Claimed pre-post bio-update reach exploit
+> found a glitch in every platform that allows my clippers to get 9x more views
+>
+> it's so autistic you wouldn't believe it:
+>
+> bio updates trigger HUGE algorithmic boosts
+>
+> not profile changes. micro-updates.
+>
+> here's what happened:
+>
+> creator changed one word in bio
+> next post got 10x views
+>
+> tested it 16 times with in-house creators
+>
+> CONFIRMED.
+>
+> the pattern:
+>
+> update bio → post within 4 minutes → massive boost
+>
+> why?
+>
+> platforms think you're "active"
+> they reward active users
+> even if activity is just bio editing
+>
+> but here's the exploit:
+>
+> we systemized bio updates LMFAO
+>
+> every creator changes bio
+> right before posting
+> 4-minute window
+>
+> GUARANTEED boost
+>
+> the changes can even be invisible:
+>
+> - extra space
+> - emoji skin tone
+> - punctuation mark
+>
+> human eye can't see it
+> algorithm can
+>
+> tested across 10k campaign posts:
+>
+> posts with bio update: 160k  average views
+> posts without: 1.9k average views
+>
+> 80x difference
+> 80x upgrade
+> 80x virality
+>
+> from changing a period to a comma 😂
+>
+> your competitor spends $100k on ads
+> gay
+>
+> we change punctuation and go VIRAL
+>
+> the platform thinks we're all "power users"
+> constantly updating
+> constantly improving
+>
+> really we just found the cheapest hack:
+>
+> change nothing
+> but change it constantly
+>
+> algorithms are dumb. they count actions not value
+>
+> so we give them actions
+>
+> meaningless ones
+> that create meaningful results
+>
+> our ghost creators make our clients go viral because of our awesome systems
+>
+> comment "VIRALITY" and i'll send you the playbook on how you can do blow your brand up organically
+
+- **Tweet:** https://x.com/alexxgrowth/status/1959073107723124808
+- **What:** An unverified growth-hacking pitch claims that imperceptible bio edits shortly before posting create extraordinary reach gains; it provides neither platform-level evidence nor a reproducible methodology, so it should not guide marketing decisions without controlled testing.
+
+## @levelsio - Managing a fleet of small Hetzner VPSs
+> What app should I use to manage all my little Hetzner VPS's?
+>
+> Today I started moving over my first real production site Remote OK from my current 12 year old VPS (with all my sites on it like Photo AI, Nomad List etc) to a new Hetzner VPS
+>
+> Every website on its own tiny VPS is my plan
+>
+> But I want something to manage it all, like check the server load, disk usage, see Ubuntu version etc
+>
+> Cockpit?
+
+- **Tweet:** https://x.com/levelsio/status/1959027294636257781
+- **What:** Pieter Levels describes migrating production sites from one long-lived server to isolated small Hetzner VPSs, and asks whether Cockpit can provide centralized visibility into each machine’s load, storage, and Ubuntu version.
+
+## @Jayyanginspires - Stripe CEO advice for ambitious people
+> Co-founder and CEO of Stripe’s advice to ambitious people: https://t.co/sLnmwDuXMn
+
+- **Tweet:** https://x.com/Jayyanginspires/status/1959023645843739072
+- **What:** The bookmark points to advice attributed to Stripe’s co-founder and CEO for ambitious people, but it includes neither the advice nor a destination beyond the tweet itself, so there is no substantive claim to assess here.
+
+## @EXM7777 - Teaser for an AI monetization blueprint
+> how to make money with AI (the blueprint they don't want you to know):
+
+- **Tweet:** https://x.com/EXM7777/status/1958898489729196447
+- **What:** This is an undeveloped teaser for a claimed AI-income blueprint rather than the blueprint itself, making it useful primarily as a pointer to locate any subsequent thread, product, or supporting material from the author.
+
+## @TawohAwa - Canva design creation and editing inside Claude
+> 🚨BREAKING: Canva is now in Claude AI.
+>
+> You can now create and edit your Canva designs directly in Claude.
+>
+> I tested it and the results were insane 🔥
+>
+> Here is how to try it👇
+
+- **Tweet:** https://x.com/TawohAwa/status/1958862253958037831
+- **What:** Canva’s integration with Claude is presented as a direct design workflow: users can create or modify Canva assets through an AI conversation instead of moving manually between a chat assistant and the design editor.
+
+## @readswithravi - Unresolved endorsement link
+> THIS: https://t.co/QCsi9i1kji
+
+- **Tweet:** https://x.com/readswithravi/status/1958751987463307417
+- **What:** LINK_FAILED: Could not expand link from @readswithravi; the supplied short URL resolves only to the post itself, so the endorsed item and its relevance cannot be identified.
+
+---
+
+# Thursday, August 21, 2025
+
+## @eptwts - Infoproducts outperform software without aspirational hooks
+> one of the biggest blackpills in my internet marketing career is seeing how much more willing people are to buy infoproducts over software...
+>
+> i've been selling both for years & info is almost always an easier sell
+>
+> software becomes an easy sell when there's a "get rich quick" element - really shows the nature of man
+
+- **Tweet:** https://x.com/eptwts/status/1958496193127817383
+- **What:** EP observes that information products often convert more readily than software, while software demand rises when it carries an aspirational quick-win promise, highlighting the role of buyer psychology in offer design.
+
+---
+
+# Wednesday, August 20, 2025
+
+## @jia_seed - Audience growth without engagement manipulation
+> growing from 0 to 10k followers on twitter in 8 months
+>
+> no bs, sharing the things I learned
+>
+> with the majority of my posts not being selfies, not forcing ppl to comment, and not botting or ai generating posts (thread)
+>
+> *Quoting @rahim_mirani:* @jia_seed Tips for twitter please
+
+- **Tweet:** https://x.com/jia_seed/status/1958309750539768319
+- **Quoted:** https://x.com/rahim_mirani/status/1958223782520488225
+- **What:** Responding to a request for Twitter advice, jia_seed promises a thread on growing from zero to 10,000 followers through original posts rather than engagement bait, bots, or AI-generated content.
+
+## @liamottley_ - Three-phase AI transformation proposal model
+> In 24 months, I went from selling:
+>
+> $5k AI chatbots → $60k AI audits that lead to $250k+ development deals.
+>
+> Here's the 3-phase ‘AITP’ model we use at Morningside AI that 12x'd our average deal size:
+
+- **Tweet:** https://x.com/liamottley_/status/1958257743724441804
+- **What:** Liam Ottley presents a three-phase AI transformation offer that uses paid audits to qualify larger implementation work, reframing chatbot sales into high-value development engagements.
+
+## @NickAbraham12 - Stripe dispute evidence documentation guide
+> I win 99.9% of Stripe Disputes.
+>
+> Not because I game the system, but because I know what Stripe wants to see.
+>
+> Here's a full guide on everything you need to have in place (MSA, SOW, Billing policy, T&amp;Cs, proof, etc.): https://t.co/QtubAvLwTa
+
+- **Tweet:** https://x.com/NickAbraham12/status/1958226652183371920
+- **What:** Nick Abraham attributes his Stripe dispute success to maintaining contracts, billing policies, terms, and delivery proof that meet the payment processor's evidentiary standards.
+
+## @gus_tiffer - Why One-Shot Apps Still Need Iterative Refinement
+> to everyone who says they're one-shotting apps.... genuinely how?
+>
+> i'm working in claude code every day.
+>
+> carefully thinking through an app.
+> how it will work.
+> crafting a big beautiful prompt.
+>
+> And still... the end result is barely there.
+>
+> I spend the next few hours working through the details, debugging, adding/removing, etc.
+>
+> Do you have some prompting secret I don't know about?
+>
+> Or does it all just have to be refined in the end?
+
+- **Tweet:** https://x.com/gus_tiffer/status/1958154546393288727
+- **What:** A daily Claude Code user questions claims that apps can be created in one prompt, reporting that even considered specifications produce only a starting point and that debugging and iterative refinement remain necessary for a usable result.
+
+## @eptwts - Reframing Courses as Workshops, Cohorts, or Playbooks
+> calling your infoproduct a "course" is kinda stupid nowadays...
+>
+> it's easy to place doubt in the normies mind - they don't even understand WHY they think courses are bad, it's simply a seed that has been planted in their brain that they no longer question
+>
+> words like workshop, cohort & playbook trigger less of a negative reaction
+>
+> these things are important when dealing with the masses
+
+- **Tweet:** https://x.com/eptwts/status/1958141233697587609
+- **What:** The post treats naming as a conversion lever for information products: because “course” carries accumulated skepticism, terms such as workshop, cohort, and playbook may reduce resistance before buyers evaluate the underlying offer.
+
+---
+
+# Tuesday, August 19, 2025
+
+## @codyschneider - AI iMessage Lead Outreach Conversion Opportunity
+> just heard about sendblue
+>
+> sends imessages to your leads ai agent
+>
+> friend who using says its converting 4x more than sms green text
+>
+> arbitrage identified
+
+- **Tweet:** https://x.com/codyschneider/status/1957955812061565396
+- **What:** Cody Schneider flags Sendblue as an opportunity to route AI-agent lead outreach through iMessage, citing an anecdotal fourfold conversion lift over green-bubble SMS and suggesting channel choice may create a temporary acquisition advantage.
+
+## @eptwts - Transformational Mentorship as a Fulfilling Business
+> this is a VERY controversial take, but mentorship/coaching is up there as one of the most fulfilling businesses...
+>
+> when done right (which is unfortunately rare)
+>
+> when two parties come to an agreement:
+> > you give me X value in the form of $
+> > i'll guide you through an A-Z transformation
+>
+> & these conditions are actually fulfilled for both parties - the mentees life being changed for the better and ultimately getting what he paid for...
+>
+> it's up there as one of the most fulfilling deals ever
+
+- **Tweet:** https://x.com/eptwts/status/1957915429973946689
+- **What:** The post argues that ethical mentorship is unusually rewarding when payment is matched by a real end-to-end transformation, emphasizing that both business satisfaction and client outcomes depend on delivering the promised change.
+
+## @fishniw - Webinar Launch Speed as a Competitive Benchmark
+> did a mill in a day with a webinar, only for hormozi to lap me and do it in 15 mins
+>
+> this is not right
+>
+> whatever webinar i launch next will take the industry by storm https://t.co/QSaL2pN5e5
+
+- **Tweet:** https://x.com/fishniw/status/1957904406080266683
+- **What:** A webinar marketer contrasts a $1 million day with Alex Hormozi apparently reaching the same revenue in 15 minutes, framing launch execution speed and scale as the next competitive benchmark to beat.
+
+## @eptwts - Unspecified claim of an exceptionally successful X mentorship
+> i have the most successful mentorship program X has seen &amp; nobody knows about it... https://t.co/mUxfiftjff
+
+- **Tweet:** https://x.com/eptwts/status/1957892784032989675
+- **What:** This is a self-promotional claim that the author runs an unusually successful mentorship program on X, but the tweet supplies neither program details nor evidence, and its expanded link only resolves back to the same post.
+
+## @alexxgrowth - Coordinated posting as a way to manufacture trending news
+> okay interesting discovery:
+>
+> if 17 creators post identical content within 3 minutes
+> the algorithm thinks it's "breaking news"
+> pushes everything to trending
+>
+> tested this 32 times with a few in-house ghost creators
+> ALWAYS works
+>
+> manufacturing news &gt; reporting news
+
+- **Tweet:** https://x.com/alexxgrowth/status/1957850046000414917
+- **What:** The post claims that tightly coordinated identical posts from 17 accounts can be treated as breaking news and boosted to trending, presenting a repeatedly tested tactic for manufacturing perceived newsworthiness rather than reporting it.
+
+## @ConnorShowler - Aggressive SEO tactics for monetizing search traffic
+> Exact match domain
+> + 301 redirects
+> + sneakies
+> + guestposts
+> + HARO links
+> + parasite SEO
+>
+> = $$$$$$$$$$
+
+- **Tweet:** https://x.com/ConnorShowler/status/1957833183321260044
+- **What:** A terse, black-hat-leaning SEO formula combines exact-match domains, redirects, guest posts, HARO links, and parasite SEO as a proposed way to compound rankings and turn search visibility into revenue.
+
+## @TheJeremyHaynes - Marketing lessons from scaling businesses past $1M monthly
+> After helping dozens of businesses hit $1M+/month…
+>
+> Here's every marketing tip I’ve learned:
+
+- **Tweet:** https://x.com/TheJeremyHaynes/status/1957811876538073110
+- **What:** This is an introductory post positioning a forthcoming collection of marketing lessons as experience distilled from helping dozens of companies reach more than $1 million in monthly revenue, but it provides no specific tactics itself.
+
+## @ConnorShowler - Syndicating niche content for AI Overview visibility
+> Fastest way to show up in Google Overviews and OpenAI mentions:
+>
+> - Post on Reddit
+> - Post on Quora
+> - Post on Medium
+> - Post on X
+>
+> Post to as many high authority sites as you can (including paid guestposts), especially if they're niche-relevant.
+>
+> Target your highest value keywords in titles, descriptions, and article paragraphs.
+>
+> Scrape all the main FAQs in your niche and create content on these sources with them.
+>
+> Seed your brand name throughout every single piece of content.
+>
+> Bonus points if you create and publish the content to your own website first, then recycle and syndicate it to these other high authority sources afterwards.
+>
+> Link back to your website as often as possible on entities you fully control (like your own X/Medium account).
+>
+> Build tiered links to the posts to help get them crawled and ranking
+>
+> Ai Overviews and LLM's like OpenAI get a lot of their information from the average of top search results.
+>
+> Seed your content and brand name/website link across as many of the top SERP real estate as possible to quickly get picked up by LLMs and Google's AI Overviews.
+
+- **Tweet:** https://x.com/ConnorShowler/status/1957799821034811862
+- **What:** An SEO distribution playbook argues that publishing keyword- and FAQ-focused content across authoritative, niche-relevant sites can increase a brand's exposure in conventional search results that feed AI Overviews and LLM answers.
+
+---
+
+# Monday, August 18, 2025
+
+## @MediaKing - Multi-tier book upsell funnel reaches $100,000
+> You guys are not gonna believe this.
+>
+> There is a secret upsell to the upsell to the upsell.
+>
+> Core Offer - $30.00 Book (1 Book)
+> First Upsell - $6000 Offer (200 Books)
+> Second Upsell - $18,000 Offer (800 books)
+> Third Upsell - $100,000 (4,000 Books)
+>
+> And people are buying it.
+>
+> Alex is probably the greatest info marketer of all time.
+
+- **Tweet:** https://x.com/MediaKing/status/1957623013492596827
+- **What:** Matt Paulson highlights an information-marketing funnel that escalates a $30 book purchase through bulk-book upsells priced from $6,000 to $100,000, using the reported purchases as evidence of its unusually effective offer design.
+
+## @DeepPsycho_HQ - An invitation to reflect carefully
+> Read it slowly. https://t.co/q70PlKz3Fr
+
+- **Tweet:** https://x.com/DeepPsycho_HQ/status/1957347503411785830
+- **What:** Deep Psychology offers a concise prompt to pause and reflect, but the captured short link resolves only to the same post and supplies neither an article nor other material to preserve separately.
+
+---
+
+# Sunday, August 17, 2025
+
+## @forgebitz - Real-time prompt citation tracking
+> finally some time to update the landing page
+>
+> you can track what pages are cited inside prompts in real time https://t.co/KPAFuC0dLJ
+
+- **Tweet:** https://x.com/forgebitz/status/1957166653164138654
+- **What:** Klaas announces a landing-page update for a product that claims to show which web pages are cited inside prompts in real time; the captured short link resolves only to this same post, so no external product page is available.
+
+## @WifiMoneyPlant - A creator's autonomy-first lifestyle
+> honestly I think I have the best life on planet
+>
+> - wake up when i want
+> - type some shitposts
+> - send a couple emails
+> - make one video daily
+> - collect $10-20k/month
+> - collect $5-10k/month dividends
+> - play soccer with my dad and bro
+> - do whatever the fuck i want when i want
+
+- **Tweet:** https://x.com/WifiMoneyPlant/status/1956951973409837411
+- **What:** Wifi Money Plant presents a creator-led lifestyle built around modest daily publishing, flexible working hours, recurring business income, dividend income, and time reserved for family and personal autonomy.
+
+---
+
+# Saturday, August 16, 2025
+
+## @WillNessAI - Brain rot and algorithmic overstimulation
+> link: https://t.co/PBWyUfXPwq
+> ACTION ITEMS
+> 1. Delete TikTok and other infinite scroll apps immediately
+> 2. Replace void left by scrolling with activities you know you should be doing
+> 3. Focus on basics: eat right, sleep right, work out, get off phone for 90% of problems
+> 4. When bored, force yourself to do something productive instead of reaching for phone
+> 5. Remember you will die - use limited time to create rather than consume
+> 6. If you must be online, produce content instead of consuming it
+> 7. Give yourself 2-3 weeks of consistent effort for new habits to become automatic
+>
+> BRAIN ROT DEFINITION & SYMPTOMS
+> - Brain rot is the feeling of mental sluggishness from endless scrolling and consuming mindless content
+> - Symptoms include reaching for phone before basic self-care, double-digit screen time, and anxiety without phone
+> - People feel like observers of their own lives, watching themselves waste time in slow motion
+> - Mental fog makes everything feel filtered, like you're there but not really present
+>
+> EVOLUTION & CONTEXT
+> - Humans evolved over 300,000 years but modern stimulation technology is only minutes old in evolutionary terms
+> - Our brains are hardwired to seek stimulation but historically it required effort and aided survival
+> - Now we get unlimited stimulation with zero effort, breaking our natural reward systems
+> - We collectively spend over 4 million years per day looking at screens doing mostly nothing productive
+>
+> TIKTOK AS THE CATALYST
+> - TikTok's "For You Page" algorithm creates perfectly personalized content that keeps users hooked indefinitely
+> - The app learns your preferences and spaces out content you like to maximize time spent watching
+> - This model spread to every other platform, creating infinite scroll everywhere
+> - Content keeps getting more stimulating as our brains become desensitized, requiring constant escalation
+>
+> THE ADDICTION CYCLE
+> - We're chasing the memory of when internet content used to feel genuinely exciting and novel
+> - Like pizza losing its appeal when available daily, online content no longer provides real satisfaction
+> - We scroll for hours looking for emotional hits that barely register anymore
+> - The excuse "what's wrong with a little fun" masks hours of daily consumption that adds up to years
+>
+> REAL-WORLD CONSEQUENCES
+> - Brain rot prevents focus on anything meaningful or long-term goals
+> - We replace important activities (studying, exercising, sleeping) with mindless scrolling
+> - Young people are becoming less social, more depressed, and losing touch with reality
+> - Adults waste prime productive years consuming content instead of building anything meaningful
+>
+> FUTURE TRAJECTORY
+> - Technology will only get more addictive with VR, AI, and sensory integration
+> - We're heading toward Matrix-like scenarios where virtual worlds become more appealing than reality
+> - Most people won't recognize this as a problem and will willingly become more dependent
+> - The window to escape this cycle is closing as technology becomes more sophisticated
+>
+> SOLUTIONS THAT WORK
+> - Delete problematic apps and replace screen time with activities you know you should be doing
+> - Focus is the real benefit - when you can think clearly, you can solve your actual problems
+> - Remember "memento mori" - you will die, so use your limited time to create rather than consume
+> - Building something meaningful provides satisfaction that scrolling never can deliver
+
+- **Tweet:** https://x.com/WillNessAI/status/1956778659588854070
+- **Link:** https://www.youtube.com/watch?si=hWpfJkU9jgst2F20&v=jnYqekHg77k&feature=youtu.be
+- **Filed:** [will-ness-brain-rot-algorithmic-overstimulation](./knowledge/videos/will-ness-brain-rot-algorithmic-overstimulation.md)
+- **What:** Will Ness frames compulsive infinite scrolling as an attention and habit problem driven by personalized feeds, then recommends removing triggers and deliberately replacing consumption with health, work, and creative routines.
+
+## @isaacfrench_ - Converting a barren field into a fruit orchard
+> I designed & planted a 200-tree fruit orchard with friends and neighbors.
+>
+> 90 days earlier, it was just a dusty, barren field. Spent $75k all-in, and the trees have now tripled in size…
+>
+> Full story & everything we’ve learned (a thread): https://t.co/ILbulFPfgg
+
+- **Tweet:** https://x.com/isaacfrench_/status/1956695228641153314
+- **What:** Isaac French introduces a thread documenting how friends and neighbors transformed a barren field into a 200-tree fruit orchard in 90 days, including its $75,000 cost and early growth results.
+
+---
+
+# Wednesday, August 13, 2025
+
+## @codyschneider - One-shot local-lead scraper from n8n logic
+> ok anything ai is actually insane
+>
+> it just one shot this app that scrapes google maps for local business email leads
+>
+> i just took a n8n json file and told anything to build a web app based on this logic
+>
+> it one shot a functioning web app with like 3 databases and web scraping
+>
+> this is actually crazy
+
+- **Tweet:** https://x.com/codyschneider/status/1955833533282574588
+- **What:** Cody Schneider reports using Anything AI to turn an n8n workflow specification into a working multi-database web app that scrapes Google Maps for local-business email leads.
+
+## @mattdiggityseo - Starting an AI-search optimization strategy
+> AI search doesn’t play by Google’s rules.
+>
+> But it’s way easier to game.
+>
+> Unlike traditional SEO, you can show up in AI search results in days… if you know what you’re doing.
+>
+> The kicker?
+>
+> Customers from AI recs are 4.4x more valuable than your average Google click (source: SEMRush).
+>
+> Here’s how I’d approach AI SEO if I were starting fresh today: 🧵
+
+- **Tweet:** https://x.com/mattdiggityseo/status/1955813380637515982
+- **What:** Matt Diggity frames AI-search visibility as a faster, more manipulable discipline than conventional SEO and argues that recommendation-driven visitors may carry higher commercial value.
+
+## @PJaccetturo - Sourcing photorealistic AI image creators
+> Who are the top AI image creators on X?
+>
+> Post their work in this thread.
+>
+> If I hire someone you mention, I’ll pay you $100.
+>
+> Looking for VERY photorealistic work; make me not believe this is AI.
+>
+> You can recommend yourself :)
+
+- **Tweet:** https://x.com/PJaccetturo/status/1955789822037258701
+- **What:** PJ Ace is crowdsourcing referrals to AI image specialists whose work is convincingly photorealistic, with a referral bounty tied to a successful hire.
+
+## @GRITCULT - Rare traits associated with success
+> traits you see in successful people, but not normies. https://t.co/ZdCzoPbdwK
+>
+> *Quoting @eptwts:* what's one trait that you see in successful people that you rarely see in normies?
+
+- **Tweet:** https://x.com/GRITCULT/status/1955732148540895562
+- **Quoted:** https://x.com/eptwts/status/1955697793860817373
+- **What:** GRITCULT amplifies a prompt asking for uncommon traits shared by successful people, inviting a practical comparison between high-performer habits and ordinary defaults.
 
 ---
 
@@ -51971,6 +53764,869 @@ thank you all, means a lot
 
 ---
 
+# Friday, June 20, 2025
+
+## @EXM7777 - Free n8n workflow collection challenges fake automation demos
+> i’m tired of seing fake gurus farming engagement with n8n automations they FAKE or STEAL
+>
+> today i’m exposing all of them by sharing every workflow available online and the exact place you can find them
+>
+>here are +3100 n8n files ready to import for FREE (bookmark this for later)
+>
+> a thread 🧵
+
+- **Tweet:** https://x.com/EXM7777/status/1936092110018822277
+- **What:** The thread promises a large freely importable collection of n8n workflows, positioning it as a practical antidote to creators who fabricate or copy automation demos for engagement.
+
+---
+
+# Thursday, June 19, 2025
+
+## @gregisenberg - LLMs as the operating system for software
+> andrej karpathy just gave the CLEAREST vision i’ve seen of where software is headed and how to win in 90 days in the age of AI
+>
+> TLDR; LLMs are the new OS, english is the new code, and software is starting to use software
+>
+> my full notes below: https://t.co/4QeW339A6W
+
+- **Tweet:** https://x.com/gregisenberg/status/1935776270329298965
+- **What:** The post frames Karpathy’s AI-era software thesis as a near-term competitive playbook: LLMs behave like an operating system, natural language becomes code, and programs increasingly automate other programs.
+
+---
+
+# Monday, June 16, 2025
+
+## @eptwts - Custom context profiles beat noisy chatbot memory
+> i have to go into chatgpt's memory every day & delete 5-10 things that i don't want it to recall in the future...
+>
+> why tf should "is interested in fixing a door hinge" ever be in the memory?
+>
+> why does it save that & not the 100 other useful things it could've saved to personalize conversations better?
+>
+> & then when it does save them, it starts cross-referencing unrelated ideas/products, it's super annoying
+>
+> it has so much potential but a long way to go, for now injecting your own context profiles is a way better solution
+
+- **Tweet:** https://x.com/eptwts/status/1934552675640652280
+- **What:** The post critiques consumer-chatbot memory as noisy and overly persistent, arguing that intentionally maintained context profiles currently produce more useful personalization.
+
+---
+
+# Sunday, June 15, 2025
+
+## @PJaccetturo - AI Bigfoot ads make a dentist stand out
+> I hate to say it, but this is the future of advertising.
+>
+> Think of Super Bowl commercials: it's a joke with a bit of brand baked in.
+>
+> This dentist in LA is making these weekly and getting 1000x the views of his competitors.
+>
+> Entertain -> sell
+>
+> https://t.co/mtJ38QkGFj
+
+- **Tweet:** https://x.com/PJaccetturo/status/1934403079618887967
+- **What:** Using an LA dentist’s AI Bigfoot vlog ads as evidence, the post argues that entertainment-led creative can make local advertising far more visible than conventional competitor marketing.
+
+---
+
+# Friday, June 13, 2025
+
+## @eptwts - Context-aware AI as a business advantage
+> i don't think you realize how hard you will be lapped if you don't have a context-aware AI system...
+>
+> there literally isn't a single vertical in which it wouldn't be a massive benefit
+>
+> smarter planning, more clarity, instant documentation, contextual brainstorming, 100x better & relevant copy,  brand consistency, automated customer support...
+>
+> it's a no brainer
+
+- **Tweet:** https://x.com/eptwts/status/1933518157945151663
+- **What:** The post argues that AI systems grounded in a business’s ongoing context turn generic assistance into planning, documentation, creative, and support advantages across nearly every industry.
+
+## @Charles_SEO - Black-hat SEO’s proposed edge in an AI-driven search era
+> Black hat is forever because the field is run by operators, not dreamers clutching their Google guidelines binder... When you build systems to manipulate rather than just conform, every major change is a new opportunity, not a threat! 🙌
+>
+> Meanwhile, white hats get harvested for training data and replaced by the same AI that pretended to reward “quality.”
+>
+> Why? Adaptability is the black hat edge...
+> Google tweaks the algorithm, black hats reverse engineer and pivot.
+>
+> It’s a never ending arms race. Google’s AI? We use AI too, just they have to use these systems efficiently at scale, we can be ultra refined and targeted.
+>
+> Their updates slow down amateurs, not operators who already understand the game and follow the trending patterns. The moment Google tries to nuke a trick (parasites, redirects, link injections, whatever), it just mutates. They close the most public front door, we’re already crawling through two windows and trying to jam open the backdoor...
+>
+> Even after Google’s manual cleanups, multiple public statements and algo updates, the most infamous parasite targets are still alive and ranking, just in different ways... The algorithm can’t kill root authority or even stem the tide for more than a few weeks before new variants show up.
+>
+> And Google’s endgame is "AI Mode" generated SERPs, trained on your “ethical” content, leaving you with a pat on the back for being a good data provider and less than a 1/5 of your previous traffic... But AI Mode isn’t a death knell for black hats. It’s the best thing to ever happen to us!
+>
+> Because as Google tries to automate and centralize “quality,” all they’ve really done is reveal exactly what the AI wants: Consensus, authority/trust, intent.
+>
+> Well, guess what? Those are the exact signals we've been building (and manipulating) at scale for YEARS now! You think Google can police “consensus” when every major publisher has a price list? Please...
+>
+> We’ll have be tracking every new editorial site, every fresh domain, every expired authority, and we’ll build the consensus. We’ll buy enough pages and plant enough interconnected authority content that the AI chooses what we want it to!
+>
+> And you need 1,000 articles that match intent, link out to consensus, quote sources, and reinforce a narrative? Done by lunch, using Google's own API if I wanted to!
+>
+> In the end, it’ll always be the operators who build systems to exploit every shift, not just survive it that come out on top. And as long as there’s a loophole to find, a link to buy, and an algorithm (or AI) to game… Black hat is forever 🎩
+>
+> *Quoting @Charles_SEO:* Google has made black hat SEO more accessible, cheaper, and faster than white hat will be, ever again...
+>
+> And it’s not even close anymore!
+>
+> We’re in an environment where the “official” advice is: Build a brand, become an authority, publish 10,000 words of well-researched, expertly fact checked content… rinse, repeat, pray, then scale when you finally get lucky and post screenshots on LinkedIn of how content is the only ranking signal that matters!
+>
+> Let’s get real:
+> - Building a REAL brand site in 2025 isn’t an SEO project anymore, it’s a multi-million dollar marketing play...
+> - Every niche you can think of already has entrenched players with massive budgets. There are concrete influencers, forklift bloggers, even handyman tiktokers now...
+>
+> Unless you’ve got VC money or endless patience and free time, you’re not going to be building anything that consistently moves the needle against the authority and signals they can build with raw spend and talent acquisition.
+>
+> And nowadays? You're often playing for scraps while AI Overviews steal 30% of your potential clicks anyway...
+>
+> Now contrast that to Black Hat:
+> - You can launch 10 parasites in a weekend and bank.
+> - You can test offers, niches, angles in days, not months or years.
+> - You can ride news cycles, launchjack, ORM spam, AI video or just buy a new aged domain every month and profit off ranking them in casino and crypto niches...
+>
+> And here’s the kicker:
+> - Google’s own updates created this world.
+> - They nuked small-medium white hat sites with “helpful content” classifiers, usually replacing them with WAY less actually helpful content.
+> - They devalued content signals while link authority and UGC got boosted through the roof.
+>
+> Meanwhile… the parasites roll on.
+> 👉 No sandbox.
+> 👉 No domain trust building.
+> 👉 No endless internal linking or "EEAT" authors.
+>
+> Just slap content on a DR80+ domain, optimize smart, and rank same day...
+>
+> In fact, paid parasites are ranking better than they did 3 years ago because Google can’t hit root authority or won’t because it hurts their media partners and investments too much...
+>
+> So let’s stop pretending this is a fair game!
+>
+> “White hat” SEO is now corporate SEO. It’s brand marketing. It’s a game for companies, not SEOs.
+>
+> Black hat is the last playground left for SEOs who want agility, profitability, and control!
+>
+> You can either spend $1M building a brand… or $50 testing 10 parasite pages this weekend that might make $10k in ROI 👀
+>
+> One of those options is in your control. The other is Google’s hostage playing lapdog...
+
+- **Tweet:** https://x.com/Charles_SEO/status/1933407133103763590
+- **Quoted:** https://x.com/Charles_SEO/status/1933145099132912039
+- **What:** Charles Floate’s quoted argument says black-hat SEO is now cheaper and faster than brand-led white-hat work; the follow-up contends that AI search rewards manipulable authority and consensus signals, making adaptation and exploitative tactics central to its claimed advantage.
+
+## @yongfook - Newsletter replies as lightweight customer research
+> We recently rebooted our newsletters. Just sending product updates, and signing off with "if you have any feedback, just reply to this email".
+>
+> Already I have replies from customers with useful-sounding feature requests.
+>
+> Talking to customers doesn't need to be complicated.
+
+- **Tweet:** https://x.com/yongfook/status/1933386371512873410
+- **What:** Rebooting a product-update newsletter with a direct invitation to reply produced useful feature requests, showing that a simple email channel can create an ongoing, low-friction customer-feedback loop.
+
+---
+
+# Wednesday, June 11, 2025
+
+## @corbtt - Why frontier models still struggle with short-form writing
+> why are modern models still so bad at writing. I have a blog post. it's great. A+ content. why can't any frontier model take my awesome blog post and write a 7-tweet summary without devolving into emoji-overloaded slop.
+
+- **Tweet:** https://x.com/corbtt/status/1932977024882389253
+- **What:** Kyle Corbitt identifies a practical gap in frontier-model writing: transforming strong long-form source material into a concise seven-post thread still often produces clichéd, emoji-heavy output rather than an editorially useful summary.
+
+## @melissa - Mentava’s exact-feedback approach to toddler reading
+> this is a story of a ~month on mentava, the $500/mo toddler reading app
+>
+> fair warning, it's an off-the-wall perspective, as early literacy is lowish in our stack rank
+>
+> i picked mentava for the same reasons we picked climbing: failure is clear, impartial, and exacted in real time https://t.co/I6kzXJlAIT
+
+- **Tweet:** https://x.com/melissa/status/1932975768025645534
+- **What:** Melissa frames a month using the expensive Mentava toddler-reading app as an experiment in learning design, valuing its immediate, impartial feedback over literacy’s usual place in her family’s priorities.
+
+## @venturetwins - One-person AI ad airs during NBA Finals
+> A fully AI-generated ad will air during the NBA finals tonight.
+>
+> Even crazier? It was created by one person (@PJaccetturo) in two days - with an assist from Gemini and Veo 3.
+>
+> Welcome to the new world!
+>
+> https://t.co/ChnQOB7Hm4
+
+- **Tweet:** https://x.com/venturetwins/status/1932959081696039065
+- **Link:** https://x.com/Kalshi/status/1932891608388681791
+- **What:** This post marks a high-visibility example of generative video tools compressing commercial production: one creator reportedly made an NBA Finals ad in two days using Gemini and Veo 3.
+
+## @PJaccetturo - Making a Veo 3 GTA-Style Kalshi Commercial in Two Days
+> Kalshi hired me to make the most unhinged NBA Finals commercial possible.
+>
+> Network TV actually approved this GTA-style madness 🤣
+>
+> High-dopamine Veo 3 videos will be the ad trend of 2025.
+>
+> Here’s how I made it in just TWO DAYS 👇🏼 (Prompt included)
+>
+> https://t.co/XcT3m7CROL
+
+- **Tweet:** https://x.com/PJaccetturo/status/1932893260399456513
+- **What:** PJ Ace presents a rapid production case study for a Kalshi NBA Finals commercial: an intentionally chaotic, GTA-inspired Veo 3 ad reportedly made in two days with its generation prompt, illustrating AI video’s emerging role in broadcast advertising.
+
+## @ryancarson - Eight Months of Nightly Building With Cursor
+> For the past 8 months I've spent 2-3 hours, almost every night from 9pm - midnight, building in @cursor_ai.
+>
+> AMA
+>
+> There are no bad or dumb questions ☺️ https://t.co/7l37ImorMD
+
+- **Tweet:** https://x.com/ryancarson/status/1932773130919162317
+- **What:** Ryan Carson offers an AMA grounded in eight months of consistent late-night work with Cursor, making the bookmark a potential source of practical experience about sustained AI-assisted software-building habits.
+
+---
+
+# Tuesday, June 10, 2025
+
+## @jia_seed - Recognizing Strength-Aligned Life Opportunities
+> wait so many people have a big life-changing opportunity in front of them that naturally plays to their strengths but they aren’t taking it. rant:
+
+- **Tweet:** https://x.com/jia_seed/status/1932507083238486395
+- **What:** THIN: This is an opening reflection on people overlooking major opportunities that fit their natural strengths; the promised longer argument is not included, so the reasoning and examples remain unavailable.
+
+## @Shpigford - Using Claude and an Ahrefs MCP in Cursor
+> Here's how to use Claude + an Ahrefs MCP to produce content right inside Cursor!
+>
+> Resources mentioned in the video attached below. https://t.co/dWUnUtGJmo
+
+- **Tweet:** https://x.com/Shpigford/status/1932479189426581784
+- **What:** This post points to a content-production workflow that pairs Claude in Cursor with an Ahrefs MCP, bringing SEO research and drafting into the same coding-editor environment rather than treating them as separate tasks.
+
+## @DefenderOfBasic - Debugging the Hidden Rules of Social Interaction
+> ok I figured out how this works. People who think that social interaction is confusing & the rules are random keep trying to figure out the rules, but there is a layer of underlying rules that is much more predictable https://t.co/i2Hybvshtr
+>
+> *Quoting @DefenderOfBasic:* has anyone written about the phenomenon where autists go from really bad socializing to being way better than the average normie once they realize the game has rules that you can debug & create new rules?
+
+- **Tweet:** https://x.com/DefenderOfBasic/status/1932423154086867451
+- **Quoted:** https://x.com/DefenderOfBasic/status/1879550182137950454
+- **What:** The author connects a theory of social interaction as a predictable, debuggable system with the observation that autistic people may become highly skilled once they recognize and model its underlying rules.
+
+## @AlexanderFYoung - Mega prompt for end-to-end AI marketing campaigns
+> AI just killed the marketing agency.
+>
+> You can now use any LLM like ChatGPT and Gemini or DeepSeek to plan campaigns, write copy, build funnels, and generate ads all in one prompt.
+>
+> Here’s the exact mega prompt I use to make any LLM a world-class marketing agency for free: https://t.co/QA4jf7zUB0
+
+- **Tweet:** https://x.com/AlexanderFYoung/status/1932367797876879798
+- **What:** LINK_FAILED: Could not expand link from @AlexanderFYoung; the promised mega prompt aims to orchestrate campaign planning, copywriting, funnel design, and ad creation through a general LLM.
+
+## @melissa - Alpha School as a challenge to conventional education
+> alpha has shifted my mental model of school
+>
+> i suspect it just has to pretend to be school long enough for us to realize our category error
+>
+> *Quoting @mbateman:* Does Alpha school get results from selection effects? Is its thesis that of every other overhyped edtech personalization thing? Is it unserious and epistemically unhygienic? Is there any evidence that it works for the median student?
+>
+> Or is there something there, hiding within?
+
+- **Tweet:** https://x.com/melissa/status/1932291499569627550
+- **Quoted:** https://x.com/mbateman/status/1932282185760887233
+- **What:** Melissa frames Alpha School as potentially revealing that conventional schooling is the wrong category, while the quoted post demands evidence that its outcomes extend beyond selective students and edtech hype.
+
+---
+
+# Monday, June 9, 2025
+
+## @rileybrown - No-code MCP setup for Claude workflows
+> CLAUDE IS SO MUCH BETTER WHEN YOU USE MCP
+>
+> Both Claude Sonnet and Opus are Insanely smart Agents.
+>
+> But they can't read your mind.
+>
+> You need to Give it Context...
+> (MCP = model CONTEXT protocol)
+>
+> Here is an example...
+>
+> Then a tutorial on how to give Claude access to MCP tools without writing a single line of code or copying any "JSON".
+>
+> TIME STAMPS:
+> 00:00 - Introduction
+> 01:00 - First Example with @notionhq
+>              - Searching, Research, Scripting
+> 02:53 - Generating 5 YouTube Thumbnails @heyglif
+>              - Adding Auto Comments to Notion
+> 04:52 - Claude Project System Prompt
+>              - (Will make follow up video)
+> 05:13 - How to set up these MCP's
+
+- **Tweet:** https://x.com/rileybrown/status/1932278373511753742
+- **What:** A timestamped tutorial argues that MCP integrations give Claude actionable context, demonstrating Notion research and scripting plus an image-generation workflow without manual JSON configuration.
+
+## @eptwts - Product JSON profile to one-shot documentation
+> product JSON profile -> one-shot product documentation https://t.co/rnIubSLQWi
+
+- **Tweet:** https://x.com/eptwts/status/1932061491944940026
+- **What:** LINK_FAILED: Could not expand link from @eptwts; the post proposes turning a structured product JSON profile into complete product documentation in a single generation.
+
+## @chris_nectiv - AI search platforms' content sourcing study
+> If you're an SEO that wants to influence LLMs...read this.
+>
+> This data study analyzed the differences in how AI search platforms source content: https://t.co/YEhPcPrJJt
+
+- **Tweet:** https://x.com/chris_nectiv/status/1932057919102624030
+- **What:** LINK_FAILED: Could not expand link from @chris_nectiv; the post directs SEOs to a comparative study of how AI search platforms select and cite source content.
+
+## @mattdiggityseo - Brand searches as a Google update recovery signal
+> I've helped tons of sites recover from brutal Google updates.
+>
+> The difference between winners and losers comes down to these 8 factors:
+>
+> 1. Brand signals
+>
+> Winners get people Googling for their brand name.
+>
+> Losers focus only on ranking for commercial terms.
+
+- **Tweet:** https://x.com/mattdiggityseo/status/1932008301644181840
+- **What:** Matt Diggity identifies branded-search demand as a key diagnostic in recovering from Google updates: sites that attract direct brand queries may have stronger trust signals than those optimized solely for commercial keywords.
+
+---
+
+# Sunday, June 8, 2025
+
+## @mhp_guy - Mining ChatGPT histories for standout prompts
+> I want to give you $100 so we can all learn a ton:
+>
+> Go to ChatGPT and paste this prompt in:
+>
+> What are the 5 most genius, innovative or unique prompts I’ve ever given you?
+>
+> Then comment screenshots of your responses below.
+>
+> In 24 hours I’ll send the most liked comment $100. https://t.co/6flP5GXBmq
+
+- **Tweet:** https://x.com/mhp_guy/status/1931813557492130069
+- **What:** Chris Koerner proposes a crowdsourced exercise for surfacing the most useful prompts people have built with ChatGPT, using public screenshots and a prize to turn personal prompt histories into reusable examples.
+
+## @melissa - Regular Parents Don't Stand a Chance, Book II
+> i've compiled more @yacineMTB, book II of his parenting posts
+>
+> this one's called:
+>
+> REGULAR PARENTS DON'T STAND A CHANCE
+
+- **Tweet:** https://x.com/melissa/status/1931687189446111287
+- **What:** This announces a second curated collection of Yacine MTB's parenting writing, framed around how conventional parenting approaches are outmatched and serving as a pointer to an ongoing essay series.
+
+---
+
+# Thursday, June 5, 2025
+
+## @Saboo_Shubham_ - MP4-encoded semantic memory
+> Vector databases for AI memory just got replaced by MP4 files.
+>
+> Store millions of text chunks in MP4 files instead of expensive vector databases with lightning-fast semantic search.
+>
+> No database needed. 100% Opensource. https://t.co/iuIS5ElHsM
+
+- **Tweet:** https://x.com/Saboo_Shubham_/status/1930813656419438702
+- **What:** This describes an open-source storage-and-retrieval concept that encodes large text corpora into MP4 files for semantic search, proposing a low-cost alternative to a conventional vector database.
+
+## @jrdnmix - Immediate purchase endorsement without product context
+> I'd buy this in a millisecond. https://t.co/9pWMn31AAb
+
+- **Tweet:** https://x.com/jrdnmix/status/1930656320413212686
+- **What:** THIN: @jrdnmix signals an immediate buying intention, but the self-referential link provides no product, feature, or underlying context to evaluate.
+
+## @tomcrawshaw01 - n8n agent converts spam outreach into counter-pitches
+> This n8n agent generates leads from your spam folder.
+>
+> It scans cold emails hitting spam, extracts sender info, and writes a counter-pitch using proven frameworks.
+>
+> Want the full n8n workflow + walkthrough video?
+>
+> Follow + comment "SPAM" and I'll DM it to you for free https://t.co/QWcv18fr7k
+
+- **Tweet:** https://x.com/tomcrawshaw01/status/1930620551837733102
+- **What:** This describes an n8n lead-generation workflow that repurposes unsolicited sales emails as prospect records, extracts their sender data, and drafts tailored counter-pitches, turning an otherwise ignored spam inbox into a source of outbound opportunities.
+
+## @oglarhy - Turn niche research into a sellable resource product
+> Brooooooooooo…
+>
+> You’re out here refreshing X
+> while there’s a dude with no followers
+> no personal brand
+> no fancy site
+> just a raw Claude prompt and a Stripe link
+> quietly pulling in $8K/month
+> selling a fkn AIRTABLE.
+>
+> Not a SaaS.
+> Not an agency.
+> Airtable. With tags. And links. And vibes.
+>
+> All he did was:
+>
+> → Scrape every viral resource in a niche
+> → Claude it: “Organize this into an addictive resource product”
+> → GPT it: “Give me a name, story, brand hook, landing page”
+> → Slapped it on Whop
+> → Tweeted once
+>
+> And BOOM.
+>
+> Most people are trying to be creators.
+> But the internet is just one big black market for dopamine.
+> You’re not a brand.
+> You’re a supplier.
+>
+> Start treating your obsessions like inventory.
+> Build once. Sell forever.
+> Disappear for 2 years.
+>
+> Come back with receipts that look like fraud.
+
+- **Tweet:** https://x.com/oglarhy/status/1930553940715696346
+- **What:** This argues that creators can monetize niche curation without building software or an audience by using LLMs to organize a researched resource database, package it with a persuasive landing page, and sell the finished information product through a marketplace.
+
+---
+
+# Wednesday, June 4, 2025
+
+## @codyschneider - AI UGC agency path to $20K monthly revenue
+> if i was 22 and needed to get $20k a month in 90 days i would start a AI UGC agency
+>
+> charge $3k a month
+>
+> you only need 5 clients
+>
+> service would be
+>
+> 10 new UGC ads a week
+>
+> research pain points by scraping reddit
+>
+> write scripts
+>
+> make the creative
+>
+> do video edits
+>
+> analyze the winners have in common
+>
+> repeat
+>
+> go to market motion is posting on twixxer linkedin and youtube showing your process
+
+- **Tweet:** https://x.com/codyschneider/status/1930353921882456161
+- **What:** This lays out an AI user-generated-content agency offer: charge five clients a recurring fee to research audience pain points, produce and test ten ads weekly, then use winning patterns and public process content to improve delivery and acquire demand.
+
+## @boringmarketer - Programmatic SEO and LLM-discovery automation tutorial
+> vibe marketing tutorial to fully automate SEO and LLM discovery
+>
+> - immediate traffic opps to the tune of 47,000+ monthly visitors
+> - plan to generate 1,247 programmatic pages and scale
+> - content gaps I can use to dominate competitors
+>
+> (cursor, mcps, vercel + the end result!) https://t.co/jyR1REI5Hl
+
+- **Tweet:** https://x.com/boringmarketer/status/1930327867990462495
+- **What:** This promotes a workflow for using Cursor, MCPs, and Vercel to identify search and LLM-discovery opportunities, map competitor content gaps, and plan a large programmatic-SEO build rather than treating AI marketing as isolated prompting.
+
+## @rileybrown - Vibe marketing workflows for AI-assisted SEO
+> The TRUTH about "Vibe Marketing"
+>
+> W/ @boringmarketer
+>
+> 1. n8n (Workflows with Agents)
+> 2. Claude
+> 3. MCP
+> 4. Advanced Workflows
+>
+> Time Stamps:
+>
+> 00:00 - Introduction
+> 00:16 - Defining Vibe Marketing
+> 00:53 - Real-World Use Case: AI-Assisted SEO Agency
+> 01:52 - n8n: YouTube Video to Newsletter
+> 04:05 - Understanding AI Agents and Workflows
+> 10:19 - Exploring MCP in Claude
+> 15:56 - Advanced Vibe Marketing Strategies
+> 25:53 - Conclusion and Future of Vibe Marketing
+
+- **Tweet:** https://x.com/rileybrown/status/1930117670827110769
+- **What:** This video outline presents “vibe marketing” as a practical AI-assisted SEO-agency workflow, connecting n8n automations, Claude, MCP integrations, and agent design to turn content such as YouTube videos into scalable marketing outputs.
+
+---
+
+# Tuesday, June 3, 2025
+
+## @gregisenberg - Unspecified $10M startup idea
+> $10M startup idea someone should steal https://t.co/uAuPuskCKS
+
+- **Tweet:** https://x.com/gregisenberg/status/1930083052362813807
+- **What:** THIN: Greg Isenberg signals that a linked post contains a potentially large startup opportunity, but the bookmark provides no description of the proposed business, market, or execution model, so the claim requires opening the original post for substance.
+
+## @niconley - Boring AI automations as the practical opportunity
+> this guy has been selling AI agents for the last 18 months.
+>
+> His biggest takeaway: businesses don’t need fancy ai agents.
+>
+> they need boring AI automations.
+>
+> $500 workflows that replace $50K employees.
+>
+> that’s the alpha right now https://t.co/XC4Nsi9hjr
+
+- **Tweet:** https://x.com/niconley/status/1930073358739063117
+- **What:** Nic Conley argues that the commercial opening in AI is not elaborate agent demos but tightly scoped automations that replace recurring business labor cheaply, emphasizing measurable operational savings and reliability over novel model capabilities.
+
+## @lukecarry_ - TikTok account warming framed as digital farming
+> farming ain’t what it used to be anymore 👨🏼‍🌾
+>
+> warming up TikTok accounts, one swipe at a time https://t.co/pJW5FpUnfn
+
+- **Tweet:** https://x.com/lukecarry_/status/1929979912351560105
+- **What:** Luke Carry uses a farming metaphor for the manual, repetitive work of warming TikTok accounts through swipe activity, highlighting the operational labor behind making accounts ready for outreach or publishing rather than presenting it as a fully automated growth tactic.
+
+## @vasuman - Seven-day plan for operational AI agents
+> if i had 7 days to build an ai agent that actually delivers value, here’s exactly what i’d do:
+>
+> --- please note this isn't an n8n template. you bookmarked 5000 of those posts and never built one, you might as well get some new information ---
+>
+> this isn’t theory. this is how i went from 0 to 5-figure mrr in 2 weeks. no funding, no team - just shipping real stuff that works.
+>
+> day 1: pick a real, painful problem
+> you’re not building a demo. you’re solving work someone already pays for. best problems are high volume, repetitive, low risk if something breaks. think refunds, address changes, crm updates, lead qualifying, internal ops. if the user already has a script or sop, even better, the agent just follows instructions instead of guessing.
+>
+> day 2: build the skeleton
+> skip ui. focus on the loop: receive an input (webhook, email, chat), run it through an llm, trigger a real action (refund, update, notify). use any stack you know: n8n, lambda, make, just get input to output working end to end.
+>
+> day 3: classify, don’t generate
+> this is where most agents break. don’t ask “what should we do?” and risk hallucinations. instead, frame it as classification: “here’s the message + customer metadata - pick one of these allowed actions and reply with the label only.” wrap it in retry logic and catch garbage responses. if it fails, backstop with regex rules, a second model, or route to a human. goal: confidence, not creativity.
+>
+> day 4: map text to real actions
+> a chatbot only replies with words. a real agent calls apis, updates orders, cancels shipments. have the llm return structured data (e.g., {"intent":"refund","order_id":"123"}), then hardcode mappings to run the logic. control everything. that’s what turns a toy into a tool.
+>
+> day 5: plug into their stack
+> make adoption frictionless: connect your agent to what they already use - shopify/zendesk for ecommerce, hubspot/notion/sheets for ops, slack/email for comms. this is how you get people saying “wow, this just works.”
+>
+> day 6: run it in the wild
+> get real data flowing. break things. fix them. log inputs, outputs, response times, errors. doesn’t need to be fancy - pipe logs to a google sheet or your inbox. your agent will fail sometimes. learn where and why.
+>
+> day 7: give it to someone
+> deploy for a real business - ideally one with lots of grunt work and no engineering team. don’t charge. just show it works. if it saves them time or money, you’ve got a case study and proof.
+>
+> most people overthink ai agents. you don’t need rag or embeddings or a massive framework. solve a real problem, end to end, with something that runs. one flow, one user, one painful task, repeat until it works. everything else is noise.
+>
+> i write this stuff for people building ai agents that actually do work. if you want my full build kit and future breakdowns, join here: https://t.co/RZx1mUzsWj. i only send something if it’s genuinely useful. cheers.
+
+- **Tweet:** https://x.com/vasuman/status/1929917632607617233
+- **Link:** https://varickagents.kit.com/join
+- **What:** Vasuman lays out a one-week route to a useful AI agent: choose repetitive low-risk work, constrain the model to classifying allowed actions, map structured outputs to APIs, integrate existing systems, and validate it with real operational data before charging.
+
+## @StefanGeorgi - AI-generated landing pages accelerate marketing launches
+> We live in WILD times.
+>
+> I've started having Gemini 2.5 Pro and Claude 4 just code landers/advertorials/etc that I create and it's a total game-changer. No more waiting on designers/devs and their timelines or excuses. Can launch V1s of things very quickly. For example, this page is custom coded and took me 30 mins to "write" the copy with Claude, code it, add a video, and deploy it.
+>
+> And in cases where I do still want a designer/dev to clean-things up, it's still a massive time and money saver. Now I can just give that person the files, point out anything I need changed, and have them do it.
+>
+> So, not to be "that" guy, but with where AI is at now...
+>
+> Anyone in marketing who hasn't at least 10x their efficiency is already way behind.
+>
+> The good news though, is that it's easy to catch-up. Literally all you have to do is be intellectually curious, willing to experiment, and have some critical thinking skills to visualize processes and occasionally troubleshoot.
+>
+> Oh and P.S. - that pre-launch won't go live until Monday, so not sharing the link to the page right now.
+
+- **Tweet:** https://x.com/StefanGeorgi/status/1929897630475141556
+- **What:** Stefan Georgi reports using Gemini 2.5 Pro and Claude 4 to produce a custom landing page, copy, video, and deployment in 30 minutes, positioning AI as a rapid V1 workflow that lets specialists focus later on targeted refinement.
+
+## @VibeMarketer_ - n8n automation for viral baby podcast clips
+> people are making BANK with these viral baby podcast clips..
+>
+> so I built an n8n flow that lets you automate the whole thing in minutes.
+>
+> just drop in a topic + baby description and the flow will:
+> – write the script
+> – clone the voice
+> – generate the baby avatar
+> – create the full video
+> – upload it to Google Drive
+>
+> want the JSON + set up guide?
+>
+> like + comment “baby” and I’ll send it over (must be following so I can DM)
+>
+> ps... I literally used this exact flow to get the inspiration for this post
+
+- **Tweet:** https://x.com/VibeMarketer_/status/1929893238996881468
+- **What:** J.B. advertises an n8n workflow for mass-producing a viral short-video format: it generates a script, cloned voice, baby avatar, finished clip, and Google Drive upload from a topic and character prompt, although the JSON and setup guide are available only through engagement-gated direct messages.
+
+## @thefernandocz - Claimed Anthropic–Apple AI alliance
+> Anthropic just dropped a $3T nuke on every AI company.
+>
+> They've officially joined forces with Apple.
+>
+> Their plan?
+>
+> Steal the one thing OpenAI, Google, and Grok desperately need.
+>
+> Here's how two tech titans just outplayed the entire AI industry: https://t.co/8Dohv9YAf3
+
+- **Tweet:** https://x.com/thefernandocz/status/1929873506407473621
+- **What:** LINK_FAILED: Could not expand link from @thefernandocz — the post makes an unverified, hyperbolic claim that Anthropic and Apple formed an alliance to gain a strategic AI advantage, but its t.co link loops back to the tweet and provides no supporting analysis or source.
+
+## @dashboardlim - AI content pipeline for agencies and SaaS founders
+> I spent 153 hours building an AI Content Engine for Agencies & SaaS Founders
+>
+> It automates YouTube, LinkedIn, X, Facebook, TikTok, Instagram, & Newsletter content production pipeline
+>
+> - Auto-posting across all major platforms
+> - AI-powered ideation for fresh content
+> - AI scripting for both long-form and short-form content
+>
+> This system is easily worth $15K, but today it’s FREE
+>
+> 👉 RT + Like & Comment "content" and I’ll DM the JSON file
+>
+> No opt-in, no BS
+>
+> (Must be following)
+
+- **Tweet:** https://x.com/dashboardlim/status/1929855732259713190
+- **What:** Lian Lim promotes an n8n-style automation template that coordinates AI ideation, scripting, multi-platform publishing, and newsletter production for agencies and SaaS founders; the claimed workflow is gated behind social engagement and has no independently inspectable implementation here.
+
+---
+
+# Monday, June 2, 2025
+
+## @eptwts - Elon Musk's memorable replies
+> elon cooks with the quotes https://t.co/EJwfJjhi9e
+
+- **Tweet:** https://x.com/eptwts/status/1929623480083063239
+- **What:** LINK_FAILED: Could not expand link from @eptwts — the bookmark only praises Elon Musk's replies, while the linked t.co target resolved back to this same post and supplies none of the quoted material needed to evaluate the claim.
+
+## @ViperChill - Building a source-grounded chatbot with Cloudflare AutoRAG
+> This morning I chatted* with my marketing hero, Seth Godin.
+>
+> I took 1,000 of his blog posts, made them "LLM-friendly", then asked a lot of questions.
+>
+> It cost me nothing (besides time), so here's the step-by-step if you want to do the same.
+>
+> 1. You'll need a source of data. CSV files. Blog post content. PDFs. Whatever it is.
+>
+> Seth has an RSS feed and a lot of public blog content.
+>
+> 2. This may be optional for you, but I simplified his blog posts (there's typically a lot of extras on blogs) and converted them to markdown.
+>
+> 3. The magic part is AutoRAG from Cloudflare, which is free while it's in beta.
+>
+> You essentially upload all of your data to Cloudflare, they "chunk" and store it (vectorize it) and then allow you to chat with it via an LLM.
+>
+> By default they use Llama 3.3 from Meta, but you can change that.
+>
+> 4. There are other ways to build systems like this (I've built one with n8n and Pinecone before) but Cloudflare makes it ridiculously simple.
+>
+> 5. You can now chat with the data you provided in a way that's far easier than typical search.
+>
+> The AI only answers based on what you gave it, rather than general knowledge.
+>
+> I also haven't seen any hallucinating as everything is clearly referenced back to a source.
+>
+> **
+>
+> This was just a personal experiment and I wouldn't go and take content from around the web going forward. I also wouldn't recommend making something like this public without permission from the person / brand involved.
+>
+> You may need to enable billing on your Cloudflare account but I haven't run up any charges at all.
+>
+> I can definitely envision a future where most websites offer this directly, or websites even "team up" so you can chat with Ahrefs, Semrush and Detailed (😬) content all in one place.
+>
+> Before I get any haters, I'm not claiming there's anything novel or new here. Just someone who spent a ton of time on other ways to do this, AutoRAG is pretty amazing.
+>
+> Zero affiliation, of course :)
+
+- **Tweet:** https://x.com/ViperChill/status/1929539156419736048
+- **What:** Glen Allsopp documents a low-cost retrieval-augmented generation experiment: clean a public corpus into Markdown, upload it to Cloudflare AutoRAG, and ask a source-cited chatbot questions constrained to that material, while noting the permission concerns of publishing someone else's archive.
+
+---
+
+# Sunday, June 1, 2025
+
+## @paoloanzn - n8n pipeline for AI-written and auto-published tweets
+> the exact n8n workflow that's printing viral tweets for me
+>
+> (and why I'm borderline stupid for sharing this)
+>
+> most creators are burning 2+ hours daily crafting tweets that flop
+>
+> meanwhile, I text my Telegram bot and get publication-ready content in 30 seconds
+>
+> here’s what happens:
+>
+> → send message to Telegram bot
+>
+> → claude generates hook + full post
+>
+> → tweet gets sent automatically
+>
+> → ask for iterations if needed
+>
+> the secret sauce isn't the workflow (that's easy)
+>
+> It's the prompt engineering behind it
+>
+> I reverse-engineered how top copywriters structure hooks
+>
+> and systematized it into one prompt that consistently outputs 6-7 figure level copy
+>
+> this thing cranks out posts that get:
+>
+> - 10x more engagement than "normal" tweets- built-in psychological triggers
+>
+> - perfect formatting for mobile scanning - hooks that stop the scroll dead
+>
+> most people are still manually writing tweets like it's 2019
+>
+> smart operators are automating their entire content pipeline
+>
+> while maintaining quality that puts agencies to shame
+>
+> the workflow takes 3 minutes to set up
+>
+> the prompt took me almost 50 iterations to perfect
+>
+> want the complete system?
+>
+> Comment "WORKFLOW" + follow + repost and I'll send you everything
+>
+> the prompt alone is worth more than most $497 courses
+
+- **Tweet:** https://x.com/paoloanzn/status/1929206215269384360
+- **What:** Paolo Anzn pitches a Telegram-to-n8n publishing pipeline where Claude drafts hooks and full posts before automatic posting, arguing that the defensible component is a heavily iterated copywriting prompt rather than the straightforward workflow automation.
+
+## @levelsio - Flux Kontext restores history and combines individual likenesses
+> ⏳ I saw @fofrAI using Flux Kontext to restore old photos
+>
+> So I tried to restore the oldest photo in the world with people on it from 1838
+>
+> 186 years ago in Paris
+>
+> It works remarkably well and seems to stay quite close to the original
+>
+> Then I turned it into a video with @Kling_ai 2.1 and added background sounds with @elevenlabs Video-to-SFX model
+>
+> Actually feels like you can travel back in time a bit now
+>
+> I've always hated black and white photos with a passion because it makes history look very far away when it's not, much of the world looked very much the same as it does today, especially in historical places like Paris
+>
+> *Quoting @levelsio:* Okay this is really cool
+>
+> I thought maybe I can try using @bfl_ml's Flux Kontext to make group photos
+>
+> You'd think that'd be possible by now with regular AI models nowadays but it's still very hard
+>
+> Because finetuning/training Flux by default on ONE person means you overwrite EVERY concept of people, so when generating a "group photo" you end up with a photo of 4 clones of yourself (and no entering multiple LoRas of diff ppl doesn't work well, they start mixing properties)
+>
+> But with Flux Kontext, I can generate 1 photo per finetuned AI model (like gf first, then me), and then combine the two photos into one while maintaining their likeness. Well kinda, faces still get a bit mangled but it's a start
+>
+> Will try add this to Photo AI asapppp!
+
+- **Tweet:** https://x.com/levelsio/status/1929168992989569466
+- **Quoted:** https://x.com/levelsio/status/1928764263088148546
+- **What:** levelsio demonstrates Flux Kontext restoring an 1838 Paris photograph before animating it with Kling and ElevenLabs sound, while the quoted post explains its emerging ability to combine separately fine-tuned people without the usual cloned-subject failure in group images.
+
+---
+
+# Thursday, May 29, 2025
+
+## @thefernandocz - Replit founder’s claimed blueprint for rapid AI-native growth
+> Replit's founder just dropped the most important podcast of the year.
+>
+> A new breed of businesses just emerged...
+>
+> And they're reaching $10M in 90 DAYS.
+>
+> Amjad Masad revealed exactly how they're doing it.
+>
+> Here are 8 revelations from his breakdown: https://t.co/imT655KTid
+
+- **Tweet:** https://x.com/thefernandocz/status/1928218141014069567
+- **What:** This bookmark points to Fernando Cao’s promised eight-part interpretation of a podcast with Replit founder Amjad Masad, framing AI-native businesses that allegedly reach $10 million in revenue within 90 days as the central thesis to investigate.
+
+## @kenyondigital - Cursor and MCPs as a B2B SEO operating system
+> This video has sent me down an absolute hyperfixation rabbit hole of how @cursor_ai can be expanded with MCPs for doing B2B SEO.
+>
+> Early experiments show this could virtually replace almost all manual SEO processes from tech SEO to research to full-on content writing and publishing.
+>
+> Cursor was already powerful. Adding MCPs makes it overwhelmingly so.
+>
+> I’ve seen a lot of Agentic AI tools but Cursor + MCPs blows them all out of the water.
+>
+> “Cursor can be the interface of your entire life” @amirmxt
+>
+> This is not an overstatement. The game is absolutely changing for those willing to learn these tools.
+>
+> *Quoting @boringmarketer:* Cursor expert blows my mind with his vibe marketing process in this 60 minute masterclass https://t.co/f9pUhqTS4n
+
+- **Tweet:** https://x.com/kenyondigital/status/1928089282629001440
+- **Quoted:** https://x.com/boringmarketer/status/1925588892847124852
+- **What:** Kenyon uses a Cursor-focused “vibe marketing” masterclass as evidence that MCP-connected editors can become an end-to-end B2B SEO workspace, automating technical audits, research, content production, publication, and iteration.
+
+## @levelsio - Vertical Cursor concepts across ten industries
+> Interesting you can now make
+>
+> Cursor for {any industry}
+>
+> Asked ChatGPT:
+>
+> - Cursor for Data Science → Auto-generates Jupyter notebooks, visualizes data, explains models, debugs Pandas errors
+>
+> - Cursor for Game Dev → Real-time Unity/Unreal editor with AI NPC scripting, level design suggestions, asset tagging
+>
+> - Cursor for Webflow/No-code → Converts natural language to front-end components, auto-deploys, explains CSS/JS
+>
+> - Cursor for Finance/Quant → Live coding with market data, auto-backtesting strategies, error tracing in Python/R
+>
+> - Cursor for Hardware/IoT → IDE for Arduino/Raspberry Pi with schematic-aware debugging and real-time sensor emulation
+>
+> - Cursor for Smart Contracts → Solidity IDE with security linting, gas optimization, and testnet integration
+>
+> - Cursor for Biotech/Bioinformatics → DNA sequence analysis, genome mapping, Python/R support for lab workflows
+>
+> - Cursor for Cybersecurity → Script generator for pen-testing, auto-reverse engineering, real-time exploit checking
+>
+> - Cursor for DevOps → Writes and validates Dockerfiles, CI/CD pipelines, Helm charts, Terraform scripts @DanielLockyer
+>
+> - Cursor for Education → AI tutor that co-writes code and explains line-by-line for students in real time
+>
+> *Quoting @johnyeo_:* we built cursor for stripe https://t.co/Mb87UvkuNT
+
+- **Tweet:** https://x.com/levelsio/status/1928032559684014241
+- **Quoted:** https://x.com/johnyeo_/status/1927463807741222947
+- **What:** John Yeo’s claim of a Cursor-like interface for Stripe prompts levelsio to map the same AI-native workspace idea onto ten verticals, from data science and game development to smart contracts, DevOps, and education.
+
+## @frog_omo - Claimed repository of 1,000-plus n8n workflows
+> HOLY SH*T..🤯
+>
+> A legend dropped 1000+ N8N workflows in one repo and I'm literally shaking...
+>
+> He scraped EVERY workflow from the official n8n site + GitHub.
+> ✅ E-commerce automation
+> ✅ Social schedulers
+> ✅ Lead gen machines, etc.
+>
+> Workflows worth $10K+ in consulting fees! https://t.co/DNdMl2NhE2
+
+- **Tweet:** https://x.com/frog_omo/status/1927977246297337874
+- **What:** LINK_FAILED: Could not expand link from @frog_omo; the claim concerns a repository aggregating more than 1,000 n8n templates across e-commerce, social scheduling, and lead generation, but its actual repository URL is unavailable.
+
+---
+
 # Wednesday, May 28, 2025
 
 ## @svpino - Lleverage turns natural-language requests into automations
@@ -52036,8 +54692,83 @@ thank you all, means a lot
 - **Tweet:** https://x.com/eptwts/status/1927663285429477484
 - **What:** This frames sustainable audience growth as an exchange of entertainment or practical transformation, advising aspiring creators to develop real expertise in a growing market before expecting audiences to care about their personal story.
 
----
+## @MoonL88537 - Unspecified technical claim in an unexpanded link
+> did i mention that this is totally nuts? https://t.co/JE33TYPb8j
 
+- **Tweet:** https://x.com/MoonL88537/status/1927927988399575070
+- **What:** LINK_FAILED: Could not expand link from @MoonL88537; the short link resolves only to the same post, so its asserted “totally nuts” subject cannot be identified or assessed from the bookmark data.
+
+## @heyDhavall - Unidentified open-source expressive voice model
+> ELEVENLABS WHO?
+>
+> This voice AI is open-source, ultra-expressive, and actually beats ElevenLabs in quality.
+>
+> No paywalls. No weird licensing.
+>
+> Just pure, controllable speech synthesis — built for creators and devs.
+>
+> Here’s the model everyone’s switching to: 👇 https://t.co/aVEawboYFW
+
+- **Tweet:** https://x.com/heyDhavall/status/1927755235088281817
+- **What:** LINK_FAILED: Could not expand link from @heyDhavall; the t.co URL resolves only to the same post, leaving the claimed open-source, controllable speech-synthesis model unidentified for evaluation.
+
+## @josephxhenry - Automated viral-content funnel with n8n
+> seeing people build insane n8n workflows that are printing money on autopilot
+>
+> here's what the smart ones are doing:
+>
+> step 1: n8n pulls viral videos from your niche (100K+ views in last 24 hours)
+> step 2: extracts the hook and concept from top performing content
+> step 3: sends prompt to chatGPT API to generate image based on viral concept
+> step 4: pushes AI image into Kling to create engaging video
+> step 5: auto-posts to tiktok/instagram with CTA driving to $7 mini-course
+> step 6: repeats daily at 6am when engagement peaks
+>
+> this workflow:
+> - identifies proven concepts automatically
+> - creates unique content based on what's already working
+> - scales video production without hiring editors
+> - drives consistent traffic to low-ticket funnel
+> - runs completely hands-off
+>
+> one guy showed me his results from 3 weeks:
+> - 47 videos posted across platforms
+> - 89K total views
+> - 234 clicks to sales page
+> - $1,643 in mini-course sales
+>
+> cost to run: $23/month for APIs
+> revenue generated: $1,643
+> ROI: 7,043%
+>
+> while most people are manually creating content, the smart ones are building systems that work 24/7
+>
+> this is the future of content marketing
+>
+> about to set this up myself because the numbers don't lie
+>
+> automation beats manual labor every single time
+
+- **Tweet:** https://x.com/josephxhenry/status/1927726928221315084
+- **What:** Joseph Henry describes an n8n-driven content-marketing loop that detects viral concepts, generates derivative AI video, posts it on a schedule, and routes attention to a low-ticket course, illustrating the economics claimed for hands-off content production.
+
+## @Charles_SEO - Aged domains regain value after parasite-SEO crackdown
+> 🚨 Aged Domains Are Back, And They're F*cking Printing Money!!! 🚨
+>
+> Google’s war on Parasite SEO might’ve nerfed half the authority sites in the SERPs, but it accidentally flipped the lights back on for a sleeping monster: Aged domains (with recent history.)
+>
+> I’m talking about domains that never lost link equity, trust, or topical weight - Expired domains are working in some areas, but the success rate is very low whereas if you get an aged domain that maintains it's rank/link equity, you can immediately transfer it to a niche like casino and print money - I know, because I have dozens of clients doing it and I am seeing hundreds more of these sites everyday, in almost every country in the world, including English UK and US terms!
+>
+> A prime recent example of this, is the keyword "non gamstop casinos" in the UK where someone has been able to pickup the Brexit party (now reform party) domain (maintaining its age) and repurpose it for the keyword - Immediately ranking #1 within the week!
+>
+> To add more insult to injury, ALL of the new links are homepage PBNs where most of the time they haven't even bothered to install a theme, it's just a default WordPress install! 😂🤣
+>
+> This is all in English too, internationally it's even more of a shit show... But the propaganda machine in this industry works hard, remember that according to most of the white hat influencers, half of these tactics don't work anymore 👀
+
+- **Tweet:** https://x.com/Charles_SEO/status/1927724928163614850
+- **What:** Charles Floate argues that Google’s crackdown on parasite SEO has revived a black-hat opportunity: historically authoritative domains can be repurposed into unrelated gambling niches and rank rapidly, even with crude PBN link-building.
+
+---
 # Tuesday, May 27, 2025
 
 ## @cremieuxrecueil - Cannabis-outcome correlations are mostly selection
