@@ -20867,6 +20867,1433 @@ Rork Max is too good
 
 ---
 
+# Tuesday, April 7, 2026
+
+## @hooeem - Selling personalized LLM knowledge bases as a service
+> when you become a millionaire in 1-3 years because you sell personalised knowledge bases and it’s all because (I repeat):
+>
+> 1: you learn how to build llm knowledge bases (the guide drops everything you need)
+>
+> 2: you go to people who are cash rich and time poor. lawyers, doctors, consultants, agency owners, property investors, founders. people drowning in information they never have time to organise
+>
+> 3: you show them what a personalised knowledge base looks like. their research, their documents, their industry intel, all compiled into a searchable wiki that gets smarter every time they use it
+>
+> 4: you offer a one-time build for 1.5k. you set up obsidian, build the folder structure, configure the schema, clip their first 20-30 sources, run the compilation, hand them a working system with a walkthrough
+>
+> 5: you offer a yearly maintenance package for 500. you update their wiki with new sources, run health checks, add new topics as their work evolves, keep the whole thing current
+>
+> 6: you land 5 clients and that’s 7.5k upfront plus 2.5k recurring every year. 10 clients and you’re looking at 15k plus 5k annual. for a system that takes you a few hours to build once you know the workflow
+>
+> 7: again, if you find 200 clients and you’re sitting on 300k upfront and 100k recurring every single year. for building markdown files.
+>
+> the beauty of this is the work gets faster every time you do it. your second build takes half the time of your first. by your fifth you could knock one out in an afternoon.
+>
+> and the people who need this most have no idea it exists. their competition definitely doesn’t have one. you’re not selling software. you’re selling an unfair advantage in their specific field.
+>
+> *Quoting @hooeem:* https://t.co/2joqSuNU32
+
+- **Tweet:** https://x.com/hooeem/status/2041436826406170880
+- **Link:** https://x.com/i/article/2041169900769538050
+- **Quoted:** https://x.com/hooeem/status/2041196025906418094
+- **Filed:** [how-to-create-your-own-llm-knowledge-bases](./knowledge/articles/how-to-create-your-own-llm-knowledge-bases.md)
+- **What:** Hooeem pairs a course on building LLM knowledge bases with a consulting offer: configure and curate a client's Obsidian-based, searchable intelligence system for an upfront fee, then sell ongoing source updates and maintenance to time-constrained professionals.
+
+## @pmarca - OpenClaw's cost-compression challenge
+> Magical OpenClaw experiences that use frontier models cost $300-1,000/day today, heading to $10,000/day and more. The future shape of the entire technology industry will be how to drive that to $20/month.
+
+- **Tweet:** https://x.com/pmarca/status/2041397922940801170
+- **What:** Marc Andreessen frames frontier-model agent experiences as economically compelling but currently prohibitively expensive, arguing that the decisive technology-industry challenge is reducing daily inference costs by several orders of magnitude for mass-market use.
+
+---
+
+# Monday, April 6, 2026
+
+## @waynesutton - MemPalace, a local-first AI memory system
+> Well, well, well, Milla Jovovich @MillaJovovich launching an AI memory system with Claude was not on my 2026 list, nor was almost everything else delivered this year.
+>
+> What a time...
+>
+> Here's my official invite for Ben and Milla to join the M.A.U. podcast.
+>
+> *Quoting @bensig:* My friend Milla Jovovich and I spent months creating an AI memory system with Claude. It just posted a perfect score on the standard benchmark - beating every product in the space, free or paid.
+>
+> It's called MemPalace, and it works nothing like anything else out there.
+>
+> Instead of sending your data to a background agent in the cloud, it mines your conversations locally and organizes them into a palace - a structured architecture with wings, halls, and rooms that mirrors how human memory actually works.
+>
+> Here is what that gets you:
+>
+> → Your AI knows who you are before you type a single word - family, projects, preferences, loaded in ~120 tokens
+> → Palace architecture organizes memories by domain and type - not a flat list of facts, a navigable structure
+> → Semantic search across months of conversations finds the answer in position 1 or 2
+> → AAAK compression fits your entire life context into 120 tokens - 30x lossless compression any LLM reads natively
+> → Contradiction detection catches wrong names, wrong pronouns, wrong ages before you ever see them
+>
+> The benchmarks:
+>
+> 100% recall on LongMemEval — first perfect score ever recorded. 500/500 questions. Every question type at 100%.
+>
+> 92.9% on ConvoMem — more than 2x Mem0's score.
+>
+> 100% on LoCoMo — every multi-hop reasoning category, including temporal inference which stumps most systems.
+>
+> No API key. No cloud. No subscription. One dependency. Runs on your machine. Your memories never leave.
+>
+> MIT License. 100% Open Source.
+>
+> https://t.co/KggwTqijmD
+
+- **Tweet:** https://x.com/waynesutton/status/2041315863404707862
+- **Link:** https://github.com/MemPalace/mempalace
+- **Quoted:** https://x.com/bensig/status/2041236952998171118
+- **Filed:** [mempalace](./knowledge/tools/mempalace.md)
+- **What:** Wayne Sutton spotlights Ben Sigman and Milla Jovovich's MemPalace launch: an open-source, local-first memory system that stores conversations in a structured semantic index; the quoted post claims benchmark-leading recall and compressed reusable personal context.
+
+## @FarzaTV - Clicky, a screen-aware AI teacher beside the cursor
+> I built this thing called Clicky.
+>
+> It's an AI teacher that lives as a buddy next to your cursor.
+>
+> It can see your screen, talk to you, and even point at stuff, kinda like having a real teacher next to you.
+>
+> I've been using it the past few days to learn Davinci Resolve, 10/10. https://t.co/oiFJwhuS4U
+
+- **Tweet:** https://x.com/FarzaTV/status/2041314633978659092
+- **What:** Farza presents Clicky as a screen-aware tutoring interface that can speak and point at the live application beside a user's cursor, making procedural software learning such as DaVinci Resolve more contextual than chat-only instruction.
+
+## @fleetingbits - Anthropic's $30B run rate and compute-constrained expansion
+> some thoughts on anthropic at $30bn run rate
+>
+> 1) anthropic is growing at an annualized 9,700%; this is the fastest revenue growth at this scale in history
+>
+> 2) i don't know how to communicate the significance of anthropic's growth rate at this scale without sounding hyperbolic
+>
+> 3) i asked claude and the best comparison that i could find was nvidia, which grew at a 1,240% annualized rate during its best individual quarter growth ever (q2 fy24)
+>
+> 4) i think there are three important things to highlight about the penetration of ai into the economy; the first is that a lot of ai revenue accrues to whoever has first mover advantage
+>
+> 5) it seems like openai and anthropic have models at similar levels of quality and once one is able to get a foothold in a market, it is hard to get users to switch
+>
+> 6) so, after openai released chatgpt first and got a lot of consumer users, it was hard for anthropic to ever catch up and get these users to start using claude
+>
+> 7) and, anthropic has an advantage now that revenue is being driven by coding agents, claude code was released first and ordinary users think of claude when they think of coding agents
+>
+> 8) the second important thing, i think is that ai is just very easy to adopt and so it doesn't have the difficult adoption curve that other products have
+>
+> 9) it is so general that you can just call the same api for almost any use case, there is no complicated knowledge that you need to have, and it is human shaped, so there is no complicated ui/ux to learn
+>
+> 10) the third important thing, i think, which @justjoshinyou13 said in another thread discussing lab revenue is that as ai capabilities increase, they create new adoption curves
+>
+> 11) so claude code created a new adoption curve because it is fundamentally a different product that chatgpt and it has a different kind of demand; since it solved a whole new set of use cases
+>
+> 12) we should continue to see this kind of growth as capabilities increase, increased capabilities means easier adoption (more human, more general) across more surfaces (coding, law, medicine, etc...)
+>
+> 13) so, increased capabilities reset the revenue growth rates of these companies in ways that can be very surprising to people looking at traditional industries
+>
+> 14) i do not think economists or lab bears have internalized this reality yet, it means that that diffusion of agi could be much faster than previously thought across private enterprise
+>
+> 15) i still think diffusion across government, protected industries, etc... will be slower, since they have reasons not to adopt or to adopt in ways that limit its practical impact
+>
+> 16) i guess a final thought: i believe anthropic may have surpassed openai's revenue run rate, so long as anthropic has access to compute, we could be in for a very wild dynamic at the top
+>
+> 17) it will be interesting to see the extent to which openai's efforts to buy up as much compute as possible first helps buffer the impact of anthropic's extreme revenue growth in terms of access to resources
+>
+> *Quoting @AnthropicAI:* Our run-rate revenue has surpassed $30 billion, up from $9 billion at the end of 2025, as demand for Claude continues to accelerate. This partnership gives us the compute to keep pace.
+>
+> Read more: https://t.co/XgSjL0And7
+
+- **Tweet:** https://x.com/fleetingbits/status/2041289841225474244
+- **Link:** https://www.anthropic.com/news/google-broadcom-partnership-compute
+- **Quoted:** https://x.com/AnthropicAI/status/2041275563466502560
+- **Filed:** [anthropic-google-broadcom-compute-partnership](./knowledge/articles/anthropic-google-broadcom-compute-partnership.md)
+- **What:** FleetingBits treats Anthropic's reported rise from a $9B to $30B revenue run rate and its Google/Broadcom compute partnership as evidence that coding agents create new adoption curves, while scarce compute increasingly shapes the contest with OpenAI.
+
+## @kieranklaassen - Token-usage script traces a runaway five-minute scheduler
+> Resolved!! @trq212 helped me out debug where the token usage came from and it was my fault 100%
+>
+> Script to find token usage https://t.co/461tTJkVaq
+>
+> I had a recurring script that ran every 5 minutes that should not have run every 5.
+>
+> I hope we can make it easier to detect these within Claude and Claude Code soon too.
+>
+> *Quoting @kieranklaassen:* WTF! @AnthropicAI what is happening with my sub! It's Monday!! And I used 91% of My sub?!?!?! This has been happening the last 3 weeks. I paid so much in extra usage credits. It's insane. Why do I even have a sub? How do I even understand whats going on here?
+>
+> I just use Claude Code, no claws or anything.
+
+- **Tweet:** https://x.com/kieranklaassen/status/2041250971284803831
+- **Link:** https://gist.github.com/kieranklaassen/7b2ebb39cbbb78cc2831497605d76cc6
+- **Quoted:** https://x.com/kieranklaassen/status/2041183394843984325
+- **What:** Kieran Klaassen resolves a suspected Claude Code subscription overage by finding an unintended recurring task running every five minutes, and shares a token-usage diagnostic script while calling for clearer in-product attribution.
+
+## @oscrhong - Auto-dispute response systems compress years of product work
+> If you still have any doubt that one person + AI can build a substantial biz, @levelsio had the idea to use AI to manage credit card disputes at 4:19 AM and shipped it at 5:33 AM.
+>
+> In the past, this was a whole YC startup that raised $8M, grew to 13 ppl, got acquired by PayPal.
+>
+> It was Chargehound (YC W14) by @dmitricherniak
+>
+> That's 7 years of product dev compressed to ~70 minutes.
+>
+> In 2023 @legitmaxwu & @xboxue built this idea again with DisputeNinja (YC S23)
+>
+> Full post-mortem & rebuild plan if you want to productise this in 2026 ↓
+>
+> *Quoting @levelsio:* ✅ Done
+>
+> 💳 Made an auto-dispute response system for Interior AI to see how easy it'd be
+>
+> It syncs old disputes but also catches new disputes via Stripe webhook and then auto submits evidence to try win them, it even includes the interior designs they generated in the evidence PDF to prove they used it!
+>
+> Here's the prompt/skill I made:
+> ----
+>
+> Build an auto-dispute-response system for Stripe that:
+>
+> 1. Shared evidence collection (app/dispute_evidence.php)
+>
+> Create a shared file with functions used by both the webhook and sync worker. This avoids duplicating evidence logic.
+>
+> Key functions:
+> - getDisputeUserPlan($user, $stripe) — pulls the user's subscription plan from Stripe API (source of truth, since local DB plan field gets cleared on cancellation). Falls back to local DB fields if Stripe call fails. Maps product IDs to plan names and includes price/interval and canceled status.
+> - collectDisputeEvidence($stripe, $user, $email, $charge, $photosDb) — collects all text and file evidence, returns an array ready to submit to Stripe.
+> - generateServiceDocPdf($stripe, $user, $email, $photos_done, $recent_photos, $total_amount_paid) — generates a PDF with customer info, usage summary, recent activity table, and up to 6 actual product images (resized to JPEG at 500px wide / quality 75 to stay under Stripe's 5MB file upload limit). Returns both the Stripe file ID and raw PDF data.
+>
+> Important: pull total_amount_paid from Stripe charges API (sum of succeeded, non-refunded charges) instead of trusting the local DB which can be null/stale.
+>
+> 2. Webhook handler (in stripe_webhook.php)
+>
+> Catch `charge.dispute.created` events. When a dispute comes in:
+> - Get the dispute, charge, and customer objects from Stripe
+> - Look up the user in the local database by stripe_customer_id
+> - Save the dispute to a `disputes` SQLite database (fields: dispute_id, charge_id, payment_intent_id, stripe_customer_id, user_id, email, amount, currency, reason, status, epoch_created, epoch_evidence_submitted, evidence_json, stripe_response, epoch_resolved, outcome)
+> - Call collectDisputeEvidence() to collect all evidence (text + file uploads)
+> - Submit evidence to Stripe via $stripe->disputes->update($dispute_id, ['evidence' => $evidence])
+> - Send a Telegram notification that a new dispute came in and evidence was auto-submitted
+>
+> Also catch `charge.dispute.updated` and `charge.dispute.closed` events to track dispute outcomes (won/lost) in the database and send Telegram notifications with the result (with emoji: checkmark for won, x for lost, warning for other).
+>
+> 3. Evidence fields submitted to Stripe
+>
+> TEXT fields (write strings directly):
+> - product_description — describe what the product/service is
+> - customer_name — from Stripe customer object
+> - customer_email_address — from Stripe customer object
+> - access_activity_log — detailed usage log: signup date, number of items/actions done, last active date, subscription plan (from Stripe), platform, total amount paid (from Stripe), recent activity with timestamps
+> - uncategorized_text — the "why we should win" argument: customer signed up on X, actively used the service doing Y things, total amount paid, service was delivered digitally/instantly, customer never contacted us for a refund before disputing
+> - refund_policy_disclosure — when the refund policy was presented (during checkout, always accessible at /legal)
+> - cancellation_policy_disclosure — when cancellation policy was shown (during checkout, accessible at /legal, can cancel anytime from dashboard)
+> - refund_refusal_explanation — customer didn't contact us for a refund before filing the dispute
+> - cancellation_rebuttal — proof customer actively used the service and never requested cancellation
+> - service_date — date of the charge (Y-m-d format)
+>
+> FILE UPLOAD fields (upload file to Stripe first via $stripe->files->create(['purpose'=>'dispute_evidence', 'file'=>fopen($path,'r')]), then pass the returned file_xxxxx ID):
+> - receipt — pull the invoice PDF directly from Stripe ($stripe->invoices->retrieve($charge->invoice)->invoice_pdf gives a ready-made PDF URL, just download it and upload as dispute evidence)
+> - service_documentation — generate a PDF containing: customer info section, service usage summary, recent activity table, and up to 6 actual product images/screenshots the customer received. Resize images before embedding (500px wide, JPEG quality 75) to stay under Stripe's 5MB file upload limit.
+>
+> Also save both PDFs to your file storage (e.g. Cloudflare R2, S3) with hashed filenames so they're not guessable but viewable from the admin dashboard.
+>
+> Store the storage URLs in the evidence_json as _receipt_r2_url and _service_doc_r2_url (underscore prefix so they're easy to identify as internal fields).
+>
+> DO NOT use these fields for text — they expect file upload IDs only:
+> service_documentation, cancellation_policy, refund_policy, customer_communication, customer_signature, receipt, shipping_documentation, duplicate_charge_documentation, uncategorized_file
+>
+> 4. CLI sync worker (workers/syncDisputes.php)
+>
+> A script that pulls ALL existing disputes from Stripe's API (paginated with $stripe->disputes->all(['limit' => 100]) and starting_after for pagination), saves them to the local disputes database, and for any that still have needs_response or warning_needs_response status and haven't had evidence submitted yet — auto-submits evidence using the shared collectDisputeEvidence() function. This is needed because the webhook only catches future disputes, not existing ones. Too heavy to run on frontend — run via CLI only (php workers/syncDisputes.php). Saves a JSON cache file with sync results so the dashboard can show last sync time.
+>
+> 5. Mini dashboard (disputes.php with ?key= auth)
+>
+> A simple HTML page protected by ?key= query parameter that shows:
+> - Stats boxes: total disputes, pending, won, lost, disputed last 30 days (amount + count), disputed last 12 months (amount + count), total $ disputed
+> - A note showing the CLI sync command and last sync time from cache
+> - A test form where you enter a stripe_customer_id to preview what evidence would be submitted (without actually submitting) — useful for debugging
+> - A table of all disputes: date, email, amount, reason, status (color-coded badges), evidence submission status, links to both detail view and Stripe dashboard
+>
+> Detail view (action=view&id=dispute_id):
+> - Shows all dispute info, link to Stripe, and a "Regenerate Evidence" button
+> - Shows PDF file links (receipt + service documentation) if available
+> - Shows Stripe file upload IDs
+> - Shows all text evidence fields
+>
+> Regenerate Evidence (action=regen&id=dispute_id):
+> - Regenerates the receipt and service documentation PDFs and uploads to file storage
+> - Updates the evidence_json in the database with new PDF URLs
+> - IMPORTANT: Use fastcgi_finish_request() to send the HTTP response immediately (redirect back to detail page with "regenerating in background" notice), then continue generating PDFs in the background. This prevents frontend timeouts since downloading images and generating PDFs can take 30+ seconds.
+>
+> Add an nginx rewrite for the page (e.g. rewrite ^/disputes/?$ /disputes.php). Make sure it's in the correct nginx config file (check which one the symlink in sites-enabled actually points to).
+>
+> 6. Telegram notifications
+>
+> - New dispute: "{site name} - New dispute from {email} for ${amount} ({reason}). Evidence auto-submitted to Stripe. {stripe_dashboard_link}"
+> - Evidence failed: "{site name} - New dispute from {email} for ${amount} ({reason}). Evidence submission FAILED: {error}"
+> - Dispute won: "{site name} - Dispute WON (checkmark) for {email} - ${amount} ({reason}) {stripe_dashboard_link}"
+> - Dispute lost: "{site name} - Dispute LOST (x) for {email} - ${amount} ({reason}) {stripe_dashboard_link}"
+> - DB permission error: "{site name} - DISPUTE DB ERROR: {error} - check permissions on data/disputes.db"
+>
+> 7. Make sure these Stripe webhook events are enabled in the Stripe dashboard:
+> - charge.dispute.created
+> - charge.dispute.updated
+> - charge.dispute.closed
+>
+> 8. Database permissions
+>
+> The disputes.db file must be writable by the web server user (e.g. www-data). If you create it from CLI as root, fix ownership to match your other DB files. PHP-FPM runs as a different user than root.
+>
+> 9. Dependencies
+>
+> - FPDF (setasign/fpdf) for PDF generation — install via composer require setasign/fpdf
+> - GD extension for image resizing (usually already installed)
+> - Stripe PHP SDK (already installed if you have Stripe webhooks)
+> - AWS S3 SDK for R2/S3 uploads (already installed if using Cloudflare R2/S3)
+
+- **Tweet:** https://x.com/oscrhong/status/2041249163426611551
+- **Quoted:** https://x.com/levelsio/status/2041132289065631988
+- **What:** Oscar Hong uses levelsio's reported rapid build to illustrate how AI can compress a formerly venture-scale product category into a solo project, while the quoted specification outlines the Stripe evidence, webhook, worker, and dashboard architecture required.
+
+## @Yaugourt - Independent Hyperliquid client reaches validator block-hash parity
+> Stop scrolling. This might be one of the most important thing happening on Hyperliquid right now and almost nobody is talking about it.
+>
+> What you're looking at is the first independent client achieving block hash parity with Hyperliquid validators.
+>
+> For non-technical people: Hyperliquid hasn't open-sourced its node client. The code that runs the network is a compiled binary, a black box. @androolloyd took that black box, 87MB of machine code with no documentation, and reverse-engineered it using AI and Ghidra. He decoded every formula, every structure, every protocol. Then he built his own client from scratch that produces the exact same results as the official validators. 3/3 match.
+>
+> For technical people: full verification chain cracked. keccak256 on raw msgpack for block response hashes. blake3 keyed for consensus transactions. LtHash16 with SSE2 paddw across 14 accumulators (11 L1 + 3 EVM) finalized with SHA-256 for state hashing. All reproduced independently from a stripped ELF binary with zero source code.
+>
+> What this means: anyone can now verify the Hyperliquid chain independently without trusting the official binary. This is the foundation for a truly decentralized validator set where operators don't depend on one codebase. Independent implementations make the network stronger, more resilient, and harder to compromise.
+>
+> The team didn't open-source the client. So someone reverse-engineered it and built one anyway. That's the kind of ecosystem Hyperliquid has.
+>
+> I'll be covering this work in depth over the coming days to make sure everyone understands the magnitude of what's being built here.
+>
+> Legendary work happening in real time.
+>
+> Hyperliquid.
+>
+> *Quoting @androolloyd:* We have achieved block hash parity, lots to do still but the end zone fees in sight. https://t.co/uc7QdC4WN1
+
+- **Tweet:** https://x.com/Yaugourt/status/2041234828457087010
+- **Quoted:** https://x.com/androolloyd/status/2041225826805440918
+- **What:** Yaugourt highlights androolloyd's reported independent reimplementation of Hyperliquid's closed validator client, which matches block hashes and could let operators verify the chain without trusting its official binary.
+
+## @helloitsaustin - Four dimensions for AI-enabled growth work
+> some more ramblings from working at @AnthropicAI.
+>
+> I've been asked a few times what the single most important thing a growth marketer should be doing with AI that most aren't.
+>
+> surprise, it's not just a single specific task. after running dozens of growth workflows through Claude, I think the useful stuff worth doing falls along four dimensions 🧵
+
+- **Tweet:** https://x.com/helloitsaustin/status/2041218663827812815
+- **What:** Austin Lau frames AI-enabled growth work as four workflow dimensions rather than a one-off automation, suggesting marketers should systematically test Claude across the whole growth operating loop.
+
+## @KingBootoshi - Custom ESLint rules block agent-written mock-echo tests
+> YOU GUYS NEED TO PUT YOUR AGENTS ON CUSTOM ESLINT RULES ASAP
+>
+> IT IS THE BEST WAY TO GUARANTEE ANTI-SLOP IN YOUR CODEBASE BY MAKING IT IMPOSSIBLE TO DO SLOP PATTERNS
+>
+> codex agents are REALLY good at creating custom ESLint patterns, which can be designed to enforce YOUR designs
+>
+> in this case, I'm actually creating custom ESLint rules to PREVENT my agents from even writing BAD TESTS in the first place
+>
+> I do TDD like a mfer, but a big problem with agents is their ability to write horribly USELESS tests, the common one being this mock echo pattern
+>
+> by making the mock echo pattern IMPOSSIBLE to commit in a custom ESLint rules, it prevents agents who attempt it from finishing their goal, making them actually stop and write good tests instead of cheating, lol
+
+- **Tweet:** https://x.com/KingBootoshi/status/2041215775034487267
+- **What:** KingBootoshi argues custom ESLint rules can make code-quality policy a hard constraint for coding agents, blocking mock-echo tests so agents must write assertions that exercise real behavior.
+
+## @danshipper - Every launches an international AI news scanner
+> we vibe-coded a global AI news scanner @every
+>
+> collects and translates headlines from the U.S., China, the Middle East, Europe and more so you can see what's going on:
+>
+> https://t.co/Bod8aCByqd https://t.co/pGA7UAwfeF
+
+- **Tweet:** https://x.com/danshipper/status/2041213312411529447
+- **Link:** https://commons-production.up.railway.app/75dd7c0723a0b729/?token=2bc7a0a116c9132734c9a53241fef1ad70bfb074d8a17f6358bfc7cdfb8e5e91
+- **What:** Every’s “AI Right Now” scanner aggregates and translates AI headlines across U.S., Chinese, Middle Eastern, and European sources into a single current-awareness feed, illustrating a lightweight use of AI for multilingual news monitoring rather than a standalone article.
+
+## @danshipper - Every opens five roles across product, GTM, finance, learning, and social
+> we just opened up 5 new roles @every:
+>
+> - GTM engineer
+> - Head of Finance Vertical, Consulting
+> - Head of Learning and Development
+> - Head of Product Marketing
+> - Head of Social
+>
+> if you want to help discover and define how the world works with agents over the next 10 years—join us:
+> https://t.co/0C36je1TEy
+
+- **Tweet:** https://x.com/danshipper/status/2041197214211436832
+- **Link:** https://every.to/careers
+- **What:** Every is recruiting for five roles spanning go-to-market engineering, finance consulting, learning, product marketing, and social, signaling that it is building operational and audience-facing capacity around its long-term agent-focused media and product strategy.
+
+## @danshipper - Every reports a strong March of compounding progress
+> we had an absolutely monster march @every
+>
+> compounding fast! https://t.co/QYmDMhPAmM
+
+- **Tweet:** https://x.com/danshipper/status/2041195808238817415
+- **What:** Dan Shipper reports a particularly strong March for Every and frames the result as compounding momentum, but the bookmark supplies neither operating metrics nor external context to explain or evaluate the claimed growth.
+
+## @socialwithaayan - Graphify maps folders into navigable Claude Code knowledge graphs
+> 🚨 BREAKING: Someone just built the exact tool Andrej Karpathy said someone should build.
+>
+> 48 hours after Karpathy posted his LLM Knowledge Bases workflow, this showed up on GitHub.
+>
+> It's called Graphify. One command. Any folder. Full knowledge graph.
+>
+> Point it at any folder. Run /graphify inside Claude Code. Walk away.
+>
+> Here is what comes out the other side:
+>
+> -> A navigable knowledge graph of everything in that folder
+> -> An Obsidian vault with backlinked articles
+> -> A wiki that starts at index. md and maps every concept cluster
+> -> Plain English Q&A over your entire codebase or research folder
+>
+> You can ask it things like:
+>
+> "What calls this function?"
+> "What connects these two concepts?"
+> "What are the most important nodes in this project?"
+>
+> No vector database. No setup. No config files.
+>
+> The token efficiency number is what got me:
+>
+> 71.5x fewer tokens per query compared to reading raw files.
+>
+> That is not a small improvement. That is a completely different paradigm for how AI agents reason over large codebases.
+>
+> What it supports:
+>
+> -> Code in 13 programming languages
+> -> PDFs
+> -> Images via Claude Vision
+> -> Markdown files
+>
+> Install in one line:
+>
+> pip install graphify && graphify install
+>
+> Then type /graphify in Claude Code and point it at anything.
+>
+> Karpathy asked. Someone delivered in 48 hours.
+>
+> That is the pace of 2026.
+>
+> Open Source. Free.
+
+- **Tweet:** https://x.com/socialwithaayan/status/2041192946369007924
+- **What:** The post describes Graphify as a Claude Code command that converts local code, documents, PDFs, and images into a browsable graph, backlinking wiki, and natural-language query layer without a vector database; no repository URL was supplied to verify or file it.
+
+## @Tocelot - LLM wiki idea files make maintenance scalable
+> Quick reflections on this great Karpathy post on LLM wikis:
+> - 100 startups likely pivoted today to build a product here, love how much value Karpathy shares openly
+> - consider what other large, legacy products are gated by maintenance for which LLMs can drive the cost to 0 and unlock compounding
+> - “Humans abandon wikis because the maintenance burden grows faster than the value… [but] LLMs don't get bored… the cost of maintenance is near zero.”
+> - A few ideas: CRMs, technical docs, data pipelines, localization files, game guides / fan wikis (Fandom), compliance docs etc
+> - I love the “idea file” that teaches your LLM to customize a product concept for you. Reminiscent of the training files in the Matrix - “I know kung fu”!
+>
+> *Quoting @karpathy:* Wow, this tweet went very viral!
+>
+> I wanted share a possibly slightly improved version of the tweet in an "idea file". The idea of the idea file is that in this era of LLM agents, there is less of a point/need of sharing the specific code/app, you just share the idea, then the other person's agent customizes & builds it for your specific needs.
+>
+> So here's the idea in a gist format: https://t.co/NlAfEJjtJV
+>
+> You can give this to your agent and it can build you your own LLM wiki and guide you on how to use it etc. It's intentionally kept a little bit abstract/vague because there are so many directions to take this in. And ofc, people can adjust the idea or contribute their own in the Discussion which is cool.
+
+- **Tweet:** https://x.com/Tocelot/status/2041173603589435719
+- **Link:** https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f
+- **Quoted:** https://x.com/karpathy/status/2040470801506541998
+- **What:** Karpathy proposes sharing adaptable product concepts as agent-readable “idea files” rather than fixed apps, while Lai connects near-zero-cost LLM maintenance to reviving wikis, documentation, CRM, compliance, and other neglected knowledge systems.
+
+## @gabepereyra - Harvey’s auto-research framework for legal agents
+> Auto-research for legal agents. Great summary from @nikogrupen and team on how we’re optimizing agent harnesses for domain-specific tasks at Harvey.
+>
+> https://t.co/EEivj5O4RJ
+>
+> *Quoting @nikogrupen:* https://t.co/O5NVQdDNMU
+
+- **Tweet:** https://x.com/gabepereyra/status/2041167397453758863
+- **Link:** https://x.com/i/article/2040548508835762176
+- **Quoted:** https://x.com/nikogrupen/status/2041166953902203157
+- **Filed:** [auto-research-for-legal-agents](./knowledge/articles/auto-research-for-legal-agents.md)
+- **What:** Gabe Pereyra endorses Niko Grupen’s account of Harvey’s auto-research experiment, framing domain-specific legal-agent performance as a harness-optimization problem and pointing to automated research loops as a route for agents to acquire specialized skills.
+
+## @jyoti_mann1 - Meta’s Claudeonomics leaderboard reports 60 trillion tokens
+> Exclusive: Meta employees are “tokenmaxxing” and competing on an internal leaderboard called “Claudeonomics” for status as a token legend.
+>
+> Over a recent 30-day period, total usage on the dashboard topped 60 trillion tokens.
+
+- **Tweet:** https://x.com/jyoti_mann1/status/2041162592886895105
+- **What:** Jyoti Mann reports that Meta employees are competing on a “Claudeonomics” leaderboard for high Claude usage, with the dashboard allegedly exceeding 60 trillion tokens in 30 days; the anecdote illustrates how internal AI adoption can turn consumption metrics into visible status incentives.
+
+## @ohryansbelt - Allegations from the New Yorker’s Sam Altman investigation
+> The New Yorker just dropped a massive investigation into Sam Altman, based on over 100 interviews, the previously undisclosed "Ilya Memos," and Dario Amodei's 200+ pages of private notes. It's the most detailed account yet of the pattern of behavior that led to Sam's firing and rapid reinstatement at OpenAI. Here's the breakdown:
+>
+> > Ilya compiled ~70 pages of Slack messages, HR documents, and photos taken on personal phones to avoid detection on company devices. He sent them to board members as disappearing messages. The first memo begins with a list headed "Sam exhibits a consistent pattern of . . ." The first item is "Lying."
+>
+> > Dario kept detailed private notes for years under the heading "My Experience with OpenAI" (subheading: "Private: Do Not Share"), totaling 200+ pages. His conclusion: "The problem with OpenAI is Sam himself."
+>
+> > Sam reportedly told Mira his allies were "going all out" and "finding bad things" to damage her reputation after the firing. Thrive put its planned $86B investment on hold and implied it would only close if Sam returned, giving employees financial incentive to back him.
+>
+> > Sam texted Satya Nadella directly to propose the new board composition: "bret, larry summers, adam as the board and me as ceo and then bret handles the investigation." The two new members selected to oversee an independent inquiry into Sam were chosen after close conversations with Sam himself.
+>
+> > Before OpenAI, senior employees at Loopt asked the board to fire Sam as CEO on two separate occasions over concerns about leadership and transparency. At Y Combinator, partners complained to Paul Graham about Sam's behavior, and Graham privately told colleagues "Sam had been lying to us all the time."
+>
+> > OpenAI's superalignment team was promised 20% of the company's compute. Four people who worked on or with the team said actual resources were 1-2%, mostly on the oldest cluster with the worst chips. The team was dissolved without completing its mission.
+>
+> > Sam told the board that safety features in GPT-4 had been approved by a safety panel. Helen Toner requested documentation and found the most controversial features had not been approved. Sam also never mentioned to the board that Microsoft released an early ChatGPT version in India without completing a required safety review.
+>
+> > Sam made a secret pact with Greg and Ilya where he agreed to resign if they both deemed it necessary, essentially appointing his own shadow board. The actual board was alarmed when they learned about it.
+>
+> > Sam struck a deal with Greg to become CEO while simultaneously telling researchers that Greg's authority would be diminished, and telling Greg something different.
+>
+> > A board member described Sam as having "two traits almost never seen in the same person: a strong desire to please people in any given interaction, and almost a sociopathic lack of concern for the consequences of deceiving someone." Multiple sources independently used the word "sociopathic."
+>
+> > OpenAI is reportedly preparing for an IPO at a potential $1 trillion valuation while securing government contracts spanning immigration enforcement, domestic surveillance, and autonomous weaponry in war zones.
+
+- **Tweet:** https://x.com/ohryansbelt/status/2041151473984123274
+- **What:** The tweet summarizes allegations attributed to a New Yorker investigation of Sam Altman and OpenAI’s 2023 leadership crisis, connecting claimed governance failures, safety-resource disputes, investor pressure, and alleged past conduct to the company’s current scale and public-sector ambitions.
+
+## @rsarver - How Ryan Sarver built an OpenClaw chief of staff
+> https://t.co/mdGbEHnc0s
+
+- **Tweet:** https://x.com/rsarver/status/2041148425366843500
+- **Link:** https://x.com/i/article/2041140938718715904
+- **Filed:** [how-i-built-a-chief-of-staff-on-openclaw](./knowledge/articles/how-i-built-a-chief-of-staff-on-openclaw.md)
+- **What:** Ryan Sarver shares an article about building a chief-of-staff workflow on OpenClaw for the demands of venture investing and fundraising, presenting an agentic operating layer as a potential substitute for work traditionally delegated to senior human support staff.
+
+## @kimmonismus - OpenAI's proposed transition toward superintelligence
+> Update: OpenAI officially states they now transition into superintelligence: https://t.co/eHTPcGfeN5
+>
+> *Quoting @kimmonismus:* Looks like OpenAI reached Superintelligence.
+>
+> OpenAI: "Now, we’re beginning a transition toward superintelligence: AI systems capable of outperforming the smartest humans even when they are assisted by AI."
+>
+> OpenAI just published a 13-page policy blueprint for the "Intelligence Age"- proposing a Public Wealth Fund, 32-hour workweek pilots, portable benefits, a formal "Right to AI," and tax reforms to offset shrinking payroll revenue as automation scales.
+>
+> The document frames superintelligence not as a distant scenario *but an active transition requiring New Deal-level ambition*: new safety nets, containment playbooks for dangerous models, and international coordination modeled on aviation safety institutions.
+>
+> Here are OpenAI's suggestions (tl;dr):
+>
+> Open Economy:
+>
+> -Give workers a formal voice in AI deployment decisions
+>
+> -Microgrants and "startup-in-a-box" for AI-native entrepreneurs
+>
+> -Treat AI access as basic infrastructure (like electricity)
+>
+> -Shift tax base from payroll toward capital gains and corporate income
+>
+> -Public Wealth Fund — every citizen gets a stake in AI growth
+>
+> -Fast-track energy grid expansion via public-private partnerships
+>
+> -32-hour workweek pilots, better benefits from productivity gains
+>
+> -Auto-scaling safety nets triggered by displacement metrics
+>
+> -Portable benefits untied from employers
+>
+> -Invest in care economy as a transition path for displaced workers
+>
+> -Distributed AI-enabled labs to accelerate scientific discovery
+>
+> Resilient Society:
+>
+> -Safety tools for cyber, bio, and large-scale risks
+>
+> -AI trust stack — provenance, verification, audit logs
+>
+> -Competitive auditing market for frontier models
+>
+> -Containment playbooks for dangerous released models
+>
+> -Frontier AI companies adopt Public Benefit Corporation structures
+>
+> -Codified rules and auditing for government AI use
+>
+> -Democratic public input on AI alignment standards
+>
+> -Mandatory incident and near-miss reporting
+>
+> -International AI safety network for joint evaluations and crisis coordination
+>
+> Notably, OpenAI calls for stricter controls only on a narrow set of frontier models while keeping the broader ecosystem open, a clear attempt to position regulation as targeted, not industry-wide. They're backing it with up to $100K in fellowships and $1M in API credits for policy research, plus a new DC workshop opening in May.
+
+- **Tweet:** https://x.com/kimmonismus/status/2041132887513186362
+- **Quoted:** https://x.com/kimmonismus/status/2041130939175284910
+- **What:** Kimmonismus highlights OpenAI’s claimed move toward superintelligence and its accompanying policy blueprint, which pairs targeted frontier-model safeguards with proposals for AI access, worker protections, public wealth sharing, energy expansion, and international incident coordination.
+
+## @kimmonismus - Altman's proposed social contract for superintelligence
+> Holy moly: Sam Altman told Axios in a half-hour interview that AI superintelligence is so close, so mind-bending, so disruptive that America needs a new social contract.
+>
+> - It's on the scale of the Progressive Era in the early 1900s, and the New Deal during the Great Depression.
+>
+> - Altman warns: widespread job loss, cyberattacks, social upheaval, machines man can't control
+>
+> - "soon-to-be-released AI models could enable a world-shaking cyberattack this year. "I think that's totally possible," Altman said. "I suspect in the next year, we will see significant threats we have to mitigate from cyber."
+>
+> *Quoting @mikeallen:* 🚨🚨@sama tells me he feels such URGENCY about the power of coming AI models that @OpenAI is unveiling a New Deal for superintelligence - ideas to wake up DC
+>
+> He says AI will soon be so mindbending that we need a new social contract
+>
+> 👇Altman's top 6 ideas https://t.co/CAm8zRKEat
+
+- **Tweet:** https://x.com/kimmonismus/status/2041126936097812598
+- **Link:** https://www.axios.com/2026/04/06/behind-the-curtain-sams-superintelligence-new-deal
+- **Quoted:** https://x.com/mikeallen/status/2041099089031356468
+- **Filed:** [sam-altman-superintelligence-new-deal](./knowledge/articles/sam-altman-superintelligence-new-deal.md)
+- **What:** Kimmonismus highlights Mike Allen’s report that Altman views near-term superintelligence as a New Deal-scale social transition, connecting the call for a new social contract to specific warnings about job losses, social upheaval, loss of control, and potentially imminent AI-enabled cyberattacks.
+
+## @shannholmberg - Agent-searchable marketing brain vault
+> building a knowledge base is the easiest low effort, high leverage thing you can do as an ai marketer right now
+>
+> instead of wondering where that banger hook was, getting buried in twitter bookmarks, or being overwhelmed with the amount of things you save to "process later"
+>
+> that was me before I set up a brain vault for everything I want to save and reference. articles, hooks, ad creative, competitor threads, swipe files. all in one place my agents can search.
+>
+> with karpathys LLM knowledge base that dropped this week, setting this up is easier than ever. point your agent at a folder and it compiles a structured wiki from everything you feed it. cross-referenced, searchable, and it gets smarter every time you add something.
+>
+> *Quoting @shannholmberg:* karpathys LLM obsidian knowledge base went completely viral this weekend
+>
+> I found 7 important things that separate a wiki you keep from one you abandon
+>
+> save this and send it to your agent (prompt in last tweet)🧵 https://t.co/cqsRoy02f7
+
+- **Tweet:** https://x.com/shannholmberg/status/2041097354779218190
+- **Quoted:** https://x.com/shannholmberg/status/2040800539546661226
+- **What:** Shann Holmberg argues that marketers can reclaim buried hooks, creative, competitor research, and swipe files by maintaining an agent-searchable vault; the quoted thread adds practical retention guidance for turning Karpathy’s LLM-generated wiki concept into a knowledge base people keep using.
+
+---
+
+# Sunday, April 5, 2026
+
+## @michael_chomsky - Self-updating personal knowledge base for AI conversations
+> Here’s an idea.md for anyone who isn’t scared to build an ambitious product:
+>
+> Someone’s going to make 100-1000M dollars building a self-updating personal knowledge base that syncs with imessage, twitter, email, chatgpt/claude/claude code/codex messages.
+>
+> This knowledge base will have an MCP to be accessible from anywhere. You’ll be able to edit it like notion, style it to your liking, and set rules about how data is organized.
+>
+> Once it gets mature enough, it can even proactively suggest things that will improve your life, as it knows everything about you.
+>
+> Unlike some memory systems, this will just be files so completely observable.
+>
+> The closest thing to this that exists is Mintlify’s KB and Notion, but both are more for enterprises than individuals.
+>
+> Just paste this into Claude Code, ask it to perform a socratic interview about ambiguities (or just use gstack), clank for 2 days, get Chamath and Karpathy as your first two customers, and do YC.
+>
+> You’ll have competition at some point but it won’t matter because you’ll be better at UGC and paid ads.
+>
+> *Quoting @chamath:* This may be a dumb question but I’ll ask it here anyways:
+>
+> I can’t find a good way for my various AI chats to automatically sync its conversation history into a structured knowledge base. So that as I update various chats from time to time and refine context, my knowledge base automatically grows with this new info.
+
+- **Tweet:** https://x.com/michael_chomsky/status/2040946855148929499
+- **Quoted:** https://x.com/chamath/status/2040912610673971213
+- **What:** Chamath identifies the missing bridge between evolving AI-chat context and a structured personal knowledge base; Michael Chomsky expands it into a product thesis for an observable, file-based, MCP-accessible system that syncs communications and can offer proactive guidance.
+
+## @alliekmiller - Claudeopedia personal knowledge base for enterprise AI
+> I'm a knowledge base MONSTER in Claude Code right now.
+>
+> Introducing: Claudeopedia.
+>
+> 1) I took @karpathy's 'llm-wiki' idea doc (90% of this, so the biggest credit goes to @karpathy) and
+> 2) Combined it with the /last30days skill (HT @mvanhorn) and
+> 3) Added a /wiki skill with screenshot and download arguments to transfer raw inputs faster and
+> 4) Built an interactive visualization to search my knowledge base (with date ranges to compare knowledge over time!)
+> 5) Set up a "question your assumptions" cron job that runs my recent writing/client emails against the wikis
+>
+> All happening in Obsidian for now. All of this was done this weekend, including testing. Will keep adding more features.
+>
+> For now, the main topic I'm building out is (surprise, surprise) enterprise AI.
+>
+> I'm drooling.
+>
+> I need a Claude-branded bib.
+
+- **Tweet:** https://x.com/alliekmiller/status/2040884878229565816
+- **What:** Claudeopedia combines an LLM-generated wiki, recency research, structured ingestion, temporal search visualization, and an assumption-challenging cron job into an Obsidian knowledge base that can continually interrogate an enterprise-AI research corpus.
+
+## @Hesamation - career-ops local AI job-search automation
+> bro created an AI job search system for Claude Code that scored 700+ job applications and actually got him a job.
+>
+> AND IT'S NOW OPEN-SOURCE.
+>
+> It scans multiple company career pages, rewrites your CV per job, and even fills application forms. The repo has:
+> 14 skill modes (evaluate, scan, PDF, ...)
+> Go terminal dashboard
+> ATS-optimized PDF generation via Playwright
+> 45+ companies pre-configured (Anthropic, OpenAI, ElevenLabs, Stripe...)
+>
+> GitHub: https://t.co/PwrYBOAphi
+
+- **Tweet:** https://x.com/Hesamation/status/2040820834428658008
+- **Link:** https://github.com/santifer/career-ops
+- **Filed:** [career-ops](./knowledge/tools/career-ops.md)
+- **What:** career-ops is a local-first, agent-driven job-search workflow that scans employer portals, ranks listings with a structured rubric, tailors CVs, and tracks applications, turning repetitive search and preparation work into an inspectable Claude Code process.
+
+## @XFreeze - X API adds native agent integrations
+> The 𝕏 API just got a massive update that completely changes the game for AI agents and builders
+>
+> 𝕏 is the most real-time platform on Earth, and with the 𝕏 API, you can leverage this real-time data to build your applications
+>
+> The new capabilities are actually insane:
+> •  Pay-Per-Use: You no longer have to worry about monthly tiers. You now only pay for what you actually use
+> •  XMCP Server + Xurl for agents: Native Model Context Protocol support allows your AI agents to seamlessly read context and execute actions on the platform
+> • Official Python & TypeScript XDKs: First-party tools to help you build and ship significantly faster
+> • API Playground: Free, realistic simulations to safely test your agent's code before going live
+>
+> You also get up to 20% back in FREE xAI API credits when you purchase 𝕏 API credits (based on your total spend)
+>
+> Start building here → https://t.co/4ZkypGG3M5
+>
+> *Quoting @chrisparkX:* We’ve made major upgrades to X API:
+>
+> • Pay-Per-Use now GA worldwide
+> • XMCP Server + xurl for agents
+> • Official Python &amp; TypeScript XDKs
+> • API Playground - free realistic simulations
+>
+> New releases coming will be a game changer.
+>
+> Start building → https://t.co/hiyP33PMVa 🚢
+
+- **Tweet:** https://x.com/XFreeze/status/2040808375118692394
+- **Link:** https://docs.x.com/overview
+- **Quoted:** https://x.com/chrisparkX/status/2040770361566826685
+- **What:** X Freeze highlights Chris Park's rollout of consumption billing, XMCP/xurl agent support, first-party Python and TypeScript SDKs, a simulated API playground, and xAI credits; together, they position X's realtime API as more accessible infrastructure for builders than a fixed-tier service.
+
+## @0xSero - AutoResearch evaluation loops for algorithm optimization
+> Hype for autoresearch has died down a bit but I believe it is a new paradigm that makes the best out of LLMs.
+>
+> There’s millions of things you can autoresearch today that are worth money, attention, and recognition.
+>
+> Best breakdown of it yet:
+>
+> https://t.co/AhRTNVcI1t
+
+- **Tweet:** https://x.com/0xSero/status/2040731819125981515
+- **Link:** https://www.youtube.com/watch?si=HOmlbi1l6QE1Vo74&v=5-ekc3eXNvs&feature=youtu.be
+- **Filed:** [autoresearch-evaluation-loops](./knowledge/videos/autoresearch-evaluation-loops.md)
+- **What:** A transcript-backed explainer frames AutoResearch as an eval-driven, constrained experimentation loop that retains only measurable improvements; restaurant inventory and chess examples show its promise, while stressing that people must supply a crisp objective, metric, and feedback environment.
+
+## @VadimStrizheus - Skill graphs for structured agent knowledge
+> pov: you have been using Claude Code for 3 months and just discovered skill graphs.
+>
+> Give this to your agent.
+>
+> You’ll thank me later. 👇
+>
+> *Quoting @arscontexta:* https://t.co/XmYSO3mC8f
+
+- **Tweet:** https://x.com/VadimStrizheus/status/2040687605600141619
+- **Link:** https://x.com/i/article/2023918991673061376
+- **Quoted:** https://x.com/arscontexta/status/2023957499183829467
+- **Filed:** [skill-graphs-skill-md](./knowledge/articles/skill-graphs-skill-md.md)
+- **What:** Vadim promotes an article arguing that connected, structured knowledge can exceed isolated SKILL.md files: graphing reusable capabilities and their relationships gives agents richer context and enables applications that single-purpose skills cannot support.
+
+## @evisdrenova - Building ahead of enterprise roadmaps
+> I remember hearing about a guy at Salesforce who looked at their roadmap, saw a product that would take 3 years to build, quit, and built it himself as a startup.
+>
+> Salesforce acquired it.
+>
+> Then he did the same thing again.
+>
+> Then retired.
+>
+> Legend.
+>
+> *Quoting @thdxr:* how much can you jack up your salary if you quit cloudflare and join vercel and then quit vercel and join cloudflare in a loop
+
+- **Tweet:** https://x.com/evisdrenova/status/2040646980825907450
+- **Quoted:** https://x.com/thdxr/status/2040502504383791133
+- **What:** Against the idea of repeatedly switching employers to raise compensation, this anecdote argues for using insider knowledge of slow enterprise product roadmaps to build independently, then capture value through acquisition—twice—rather than arbitraging salaries.
+
+---
+
+# Saturday, April 4, 2026
+
+## @JamesonCamp - Contrarian bets on AI, energy, and real-world trust
+> Bets I'd put $1M behind right now.
+>
+> Most people disagree with at least half:
+>
+> › The specialist era is over. Generalists with taste win from here. Entire generations were raised wrong.
+>
+> › The loneliest generation in history is about to overcorrect hard. IRL events explode.
+>
+> › AI slop floods everything. People start paying a premium for proof something is real.
+>
+> › Reality TV has a massive renaissance. Only content you can't fake with a prompt.
+>
+> › Creators matter more not less. In an AI world your resume is worthless. The only thing that matters is what you've actually built and whether people trust you.
+>
+> › 4-person teams start producing what 400-person companies used to. Boring businesses get automated first and fastest.
+>
+> › Everyone predicting the death of enterprise software doesn't understand moats. Salesforce isn't going anywhere. Neither is Workday.
+>
+> › Local models catch up to cloud models the same way 5G caught up to broadband. For 95% of what you do you won't be able to tell the difference.
+>
+> › When that happens the $200/month AI subscription dies. Models run on your device. No data leaves your machine. No subscription. OpenAI's business model has a clock on it.
+>
+> › Every investor is obsessed with the AI software layer. That's the wrong layer. The money moves to hardware, chips, and energy. Nuclear.
+>
+> › When labor gets commoditized the only scarce resource left is energy. Be long anything that produces it.
+>
+> › Peptides go way beyond GLP-1s. Individualized protocols for sleep, recovery, cognition become the new baseline for anyone serious about performance.
+>
+> › AI-enabled drug discovery doesn't just find new drugs. It finds disease-modifying treatments. The kind that change how long humans live.
+>
+> › Someone alive today reaches 150. I actually believe that.
+>
+> › I believe in the Fourth Turning. The world gets scarier before it gets better. Be long defense tech.
+>
+> › Bitcoin becomes the payment layer for AI agents. Autonomous systems need autonomous money. Crypto finally gets a use case that isn't speculation.
+>
+> Missing anything?
+
+- **Tweet:** https://x.com/JamesonCamp/status/2040598279784943879
+- **What:** A wide-ranging set of investment theses connects AI-driven labor automation and local models to renewed demand for authenticity, physical events, energy production, defense technology, biotech, and agent-native payments; it is a compact map of proposed second-order shifts.
+
+## @karpathy - Personal wikis make AI memory inspectable and portable
+> Farzapedia, personal wikipedia of Farza, good example following my Wiki LLM tweet.
+>
+>I really like this approach to personalization in a number of ways, compared to "status quo" of an AI that allegedly gets better the more you use it or something:
+>
+>1. Explicit. The memory artifact is explicit and navigable (the wiki), you can see exactly what the AI does and does not know and you can inspect and manage this artifact, even if you don't do the direct text writing (the LLM does). The knowledge of you is not implicit and unknown, it's explicit and viewable.
+>2. Yours. Your data is yours, on your local computer, it's not in some particular AI provider's system without the ability to extract it. You're in control of your information.
+>3. File over app. The memory here is a simple collection of files in universal formats (images, markdown). This means the data is interoperable: you can use a very large collection of tools/CLIs or whatever you want over this information because it's just files. The agents can apply the entire Unix toolkit over them. They can natively read and understand them. Any kind of data can be imported into files as input, and any kind of interface can be used to view them as the output. E.g. you can use Obsidian to view them or vibe code something of your own. Search "File over app" for an article on this philosophy.
+>4. BYOAI. You can use whatever AI you want to "plug into" this information - Claude, Codex, OpenCode, whatever. You can even think about taking an open source AI and finetuning it on your wiki - in principle, this AI could "know" you in its weights, not just attend over your data.
+>
+>So this approach to personalization puts *you* in full control. The data is yours. In Universal formats. Explicit and inspectable. Use whatever AI you want over it, keep the AI companies on their toes! :)
+>
+>Certainly this is not the simplest way to get an AI to know you - it does require you to manage file directories and so on, but agents also make it quite simple and they can help you a lot. I imagine a number of products might come out to make this all easier, but imo "agent proficiency" is a CORE SKILL of the 21st century. These are extremely powerful tools - they speak English and they do all the computer stuff for you. Try this opportunity to play with one.
+>
+> *Quoting @FarzaTV:* This is Farzapedia.
+>
+>I had an LLM take 2,500 entries from my diary, Apple Notes, and some iMessage convos to create a personal Wikipedia for me.
+>
+>It made 400 detailed articles for my friends, my startups, research areas, and even my favorite animes and their impact on me complete with backlinks.
+>
+>But, this Wiki was not built for me! I built it for my agent!
+>
+>The structure of the wiki files and how it's all backlinked is very easily crawlable by any agent + makes it a truly useful knowledge base.
+>
+>I can spin up Claude Code on the wiki and starting at index.md (a catalog of all my articles) the agent does a really good job at drilling into the specific pages on my wiki it needs context on when I have a query.
+>
+>For example, when trying to cook up a new landing page I may ask:
+>
+>"I'm trying to design this landing page for a new idea I have. Please look into the images and films that inspired me recently and give me ideas for new copy and aesthetics".
+>
+>In my diary I kept track of everything from: learnings, people, inspo, interesting links, images.
+>
+>So the agent reads my wiki and pulls up my "Philosophy" articles from notes on a Studio Ghibli documentary, "Competitor" articles with YC companies whose landing pages I screenshotted, and pics of 1970s Beatles merch I saved years ago. And it delivers a great answer.
+>
+>I built a similar system to this a year ago with RAG but it was ass.
+>
+>A knowledge base that lets an agent find what it needs via a file system it actually understands just works better.
+>
+>The most magical thing now is as I add new things to my wiki (articles, images of inspo, meeting notes) the system will likely update 2-3 different articles where it feels that context belongs, or, just creates a new article.
+>
+>It's like this super genius librarian for your brain that's always filing stuff for your perfectly and also let's you easily query the knowledge for tasks useful to you (ex. design, product, writing, etc) and it never gets tired.
+>
+>I might spend next week productizing this, if that's of interest to you DM me + tell me your usecase!
+
+- **Tweet:** https://x.com/karpathy/status/2040572272944324650
+- **Quoted:** https://x.com/FarzaTV/status/2040563939797504467
+- **What:** Karpathy endorses Farzapedia’s agent-oriented personal wiki as a superior alternative to opaque platform memory: Farza’s linked local files let an agent retrieve diary, notes, images, and references while keeping the owner’s data explicit, portable, and provider-independent.
+
+## @HilaShmuel - Cabinet launch responds to the knowledge-base gap in LLMs
+> I didn't want to launch Cabinet yet... but Karpathy dropped that LLM+KB thread, so I recorded a demo at 5am with my boyfriend snoring in the background... and now it's already at 158K views < 40 hours 😂
+>
+>I've been thinking about this for the past months: LLMs are incredible, but they're missing a real knowledge base layer. Something that lets you dump CSVs, PDFs, repos, even inline web apps... and then have agents with heartbeats and jobs running on top of it all. Karpathy's thread on LLM knowledge bases, quoting his exact pain point about compiling wikis from raw data, was the final spark. I saw it at 4 AM and thought: “OHH shit, this is exactly what I'm developing. I must release it now.”
+>
+>So Day 0 went like this:
+>4 AM - read Karpathy's post. oh shit, i need to act.
+>5 AM -  Made Cabinet npm-ready.
+>6 AM - Bought the domain https://t.co/AdFsg7trql, uploaded the website to GitHub Pages, published Cabinet 0.1.0 to npm, and recorded the quick demo video on my Mac. My boyfriend was snoring loudly the whole time… and yes, I left it in (by mistake!)
+>7 AM - Posted on X quoting Karpathy. The product was nowhere near “ready.” landing page in literally 1 hour using Claude Code. no design team, no copywriter, just me prompting like crazy to get the clean cabinet-as-storage-and-team-of-consultants vibe right. The GitHub repo was basically a skeleton with Claude as the main contributor.I recorded the demo late at night, quick and dirty. Uploaded without a second listen. Only after posting did I notice the snoring. The raw imperfection actually made it feel more real.
+>
+>Now, one day later:
+>- 720 downloads on npm
+>- Original post at 158K views, 1.6K saves, 800 likes
+>- GitHub: 280 stars, 28 forks, and already 4 PRs
+>- Discord: 59 members
+>- Website: 3.5K visitors
+>
+>All for a solo side project that had been alive for less than 48 hours. The response has been insane. On the first day someone was furstrated that something didn't work after he spent few hours with Cabinet. i talked with him over the phone, super exicted someone is actually using something i shipped!
+>
+>Builders are flooding the replies saying they feel the exact same frustration. scattered agent tools, weak knowledge bases, endless Obsidian + Paperclip hacks. People are already asking for the Cabinet Cloud waitlist, integrations, and templates.
+>
+>I’ve been fixing bugs I didn’t expect to expose yet while still coding and replying to everyone.
+>
+>The energy is awesome :)  positive, constructive, and full of “this is the missing piece” vibes.
+>
+>Sometimes the best launches are super embarrassing. they’re the raw, real ones: 7 hour chaos, snoring soundtrack and all,  because the problem you’re solving is that real. If you’ve been frustrated with LLMs that feel like they have no real persistent memory or team… thank you for the crazy support.
+>More updates, demos, and “here’s how I actually use it” posts are coming this weekend. Snoring optional.
+>
+>What part of the Cabinet vision excites (or confuses) you most? Drop it below, I’m reading every reply.
+>thank you for being part of this ride, come along  🎢
+>
+> *Quoting @HilaShmuel:* Meet Cabinet: Paper Clip + KB. for quite some time I've been thinking how LLMs are missing the knowledge base - where I can dump CSVs, PDFs, and most important - inline web app. running on Claude Code with agents with heartbeats and jobs https://t.co/P74OlaAeCZ https://t.co/rAqW7DEkhh
+
+- **Tweet:** https://x.com/HilaShmuel/status/2040549230813520058
+- **Link:** https://runcabinet.com/
+- **Quoted:** https://x.com/HilaShmuel/status/2039915543260500284
+- **What:** Cabinet’s rapid early reception is presented as evidence of demand for a self-hosted workspace where agents operate over persistent company files, connecting the launch story to the quoted argument that LLMs need a usable knowledge-base layer.
+
+## @mcuban - The AI-native reinvention dilemma for incumbents
+> Every entrepreneur that knows how to use AI is trying to find ways to build AI native companies that completely displace incumbents.
+>
+>For the incumbents, it’s the “Innovator’s AI Dilemma”   If those startups get traction, and they can’t buy them, the CEOs will face multiple huge Dilemmas:
+>
+>1. Do they tear down their companies and reinvent them as native AI ?
+>
+>2. How do they explain it to public shareholders ?
+>
+>You will know AI is having a huge impact on public companies when there are two types of lawsuits:
+>
+>- Shareholders that sue the company for tearing down the company and crushing the stock price
+>- Shareholders that sue the company for NOT tearing down the company and crushing the stock price
+>
+>I think most CEOs don’t come close to understanding AI in enough detail to even begin to consider these decisions.
+>
+>Hint: Asking your AI models the best paths from where you are now, to being an AI native version that can achieve the same economics has to be one of your initial steps.
+>
+>If asking your models questions doesn’t make sense to you, you are in deep shit
+
+- **Tweet:** https://x.com/mcuban/status/2040523742389186632
+- **What:** Mark Cuban frames AI disruption as a board-level capital-allocation dilemma: established public companies may have to choose between destabilizing a profitable business to rebuild it for AI or accepting the larger risk of being displaced.
+
+## @beniduboss - Exploiting overlooked price discrepancies in thin markets
+> I am trying to get more visibility on my posts so I am sharing my old trading alpha because that always does well
+>
+>Back when I was trading, WC, Sky and a couple of other friends spent a decent amount of time searching for tradfi entities, usually fintech and CFD providers, to abuse for our own benefits
+>
+>Many of you will remember the infamous ETH merge CFD abuse we carried on with @larpcapitalwc
+>
+>Today I’ll talk about something different
+>
+>Fun fact:
+>
+>I had 3 Swiss GmbH and 4 Estonian companies established in order to have access to this specific trade WC mentions in the quote tweet because Wise would black list you once they realized you were taking the piss. It’s a game of cat and mouse, I found things that made it difficult for them to spot me. Cayman and Hong Kong entities get you flagged immediately btw, ask me how I found out…
+>
+>There is good money to be made either by finding new platforms that may not have the best frameworks in their back end to spot toxic flow, or by simply finding new highly liquid pairs in Tradfi that get listed on chain
+>
+>For the former the tip is to focus on those startups that raised a bunch of money, because guess what, they can afford to burn some of it by offering deals that are too good to work in the real world, like allowing users to lock fx rates for 48h amidst a high vol event…
+>
+>For the later, I am guessing stuff got a lot more competitive since HIP-3 became mainstream. The old tip used to be to focus on pairs that few market participants would usually pay attention to on the venues you trade WHEN market participants pay the least attention to them (ex. Gold CFD on centralized crypto exchanges on weekends)
+>
+>I don’t want to say more because otherwise my friends might get mad at me lol
+>
+>But I can share a trade that I know is dead for non institutional traders
+>
+>When Bybit released the XAUT market, market participants didn’t give a flying shit or simply weren’t paying attention, which allowed me to do much better than I should’ve for much longer than I should’ve.
+>
+>The only explanation I could find was that it was a non-crypto listing which yes, usually means nobody cares about it, but in this case we’re talking about gold not some exotic fx product… I was max VIP on Bybit but I believe they had and still have unified VIP for spot and perps so it wasn’t a fee issue for those who rarely used spot markets either
+>
+>Regardless, I was ready upon listing and credit where credit is due someone was there quoting
+>
+>He just happened to be very bad at it lmao
+>
+>He was incredibly slow, as in I could pick him off manually just looking at IB mark price move type of slow. I made a terrible little automated strat that would hammer XAUT and PAXG back in line against IB. PAXG traded like 10$ below spot because of offramp fees or something so I added that in but I didnt do much volume it was far more efficient.
+>
+> For like genuinely 2 weeks I did much better than I had any business doing and I actually managed to get a bunch of volume in on XAUT, then it got more competitive and I think I pulled it a month or so after listing
+>
+>Here is the thing though, before HIP-3 people THOUGHT that Tradfi markets were completely closed on weekends and gold related perps would get a significant amount of volatility because MMs pulled quotes pushing the market far out of line at times
+>
+>Here’s the kicker, a bunch of protocols and CFD brokers offered 24/7 synthetic CFDs style markets, often called Weekend Gold CFDs. Spread was usually not great, but it didn’t matter since you’d only lift when there were large discrepancies
+>
+>I surprisingly enough was able to find such trades, across different pairs, basically until the day I retired.
+>
+>Some are still actionable, good luck
+>
+>TLDR: Same adage since the dawn of markets, focus on what others dismiss :)
+>
+> *Quoting @larpcapitalwc:* broke: trying to do complicated shit
+>
+>bespoke: picking off fintechs who let you lock in an fx rate for 36 hours just before CPI https://t.co/qIR4nc6tkF
+
+- **Tweet:** https://x.com/beniduboss/status/2040515979436847519
+- **Quoted:** https://x.com/larpcapitalwc/status/1701436736939991209
+- **What:** A former trader expands on the quoted tactic of exploiting delayed FX-rate locks, arguing that new or disregarded venues—especially thin, off-hours markets—can briefly misprice assets before liquidity providers and competitors correct them.
+
+## @iruletheworldmo - Unverified GPT-6 release and product-merger claims
+> 🚨BREAKING FRONTIER MODEL NEWS
+>
+>gpt-6 set for release april 14th
+>
+>altman's team has been leaking like a sieve lately, here's what openai staff are saying privately.
+>
+>>pretraining completed march 17th. post-training and red-teaming already done. this thing is ready.
+>
+>>benchmarks are absurd. outperforms gpt-5.4 by 40%+ on coding, reasoning, and agentic tasks.
+>
+>>natively multimodal from the ground up. text, audio, images, video one architecture
+>
+>>openai killed sora and redirected every GPU to this model. the billion-dollar disney deal is dead. that's how serious this is.
+>
+>>product org officially renamed to "AGI Deployment." it’s agi time baby.
+>
+>>brockman says AGI is 70-80% achieved. internally they think gpt-6 closes most of the remaining gap.
+>
+>>2 million token context window. double what gpt-5.4 offered.
+>
+>>priced at $2.50/$12 per million tokens. barely above gpt-5.4. so like mythos intelligence, but you can afford it.
+>
+>>safety team moved under the CRO. altman stepped back from safety oversight entirely to focus on data centers.
+>
+>>openai has been in internal "code red" since december 2025. this is their answer.
+>
+>>powers the new desktop "superapp", chatgpt, codex, and atlas browser merged into one agent.
+>
+>the potato is cooked.
+>
+>spud is agi.
+
+- **Tweet:** https://x.com/iruletheworldmo/status/2040508733944668408
+- **What:** An unverified rumor thread portrays GPT-6 as an imminent, multimodal model and a strategic consolidation of OpenAI products, but supplies no corroborating sources for its detailed release, benchmark, pricing, or organizational claims.
+
+## @0xSero - Personal rules for resisting AI and short-form overuse
+> Rules to being a sane person worth listening to:
+
+1. Do not use AI to write your blogs, posts, emails, etc..
+2. Do not form relationships with an LLM
+3. Avoid shorts like the plague
+4. Touch grass
+5. Read books
+6. Do not insult and humiliate people online
+7. Respect your self
+>
+> *Quoting @0xSero:* I am no good by myself tbh, I need my family around.
+
+I am shamed to admit I opened the YouTube app on my phone today and accidentally clicked on shorts.
+
+I was locked in for like 30 minutes and couldn’t get myself to stop.
+
+YouTube shorts and short in general are a cancer. https://t.co/WVcuXkmLXB
+
+- **Tweet:** https://x.com/0xSero/status/2040496628616802648
+- **Link:** https://twitter.com/0xSero/status/2040491374332539053
+- **Quoted:** https://x.com/0xSero/status/2040491374332539053
+- **What:** A personal account of compulsive short-form viewing becomes a broader set of boundaries around attention, AI use, relationships, reading, and online behavior, arguing that deliberate offline habits and respectful conduct are necessary counterweights to algorithmic distraction.
+
+## @itsolelehmann - AI video agency playbook for solo creators
+> i'm seeing crazy asymmetric opportunity in AI video right now:
+
+brands are used to paying $50k+ for a single production
+
+so a solo creator with ai tools can:
+
+1. easily charge $5-10k+
+2. make the same thing in 2 days for almost nothing
+3. and most brands can't tell the difference
+
+wrote up the full playbook on how to actually do this:
+
+> which models to learn (and when to use each one)
+> the best workflow that lets you use all of them from one workspace
+> how to build a portfolio fast and start signing clients at $2-10k+
+
+the demand is way ahead of the supply of people who know these tools.
+
+that's your window.
+
+get cooking!
+>
+> *Quoting @itsolehmann:* https://t.co/toXGhKhVGr
+
+- **Tweet:** https://x.com/itsolelehmann/status/2040484982578389080
+- **Link:** https://x.com/i/article/2040454646574329856
+- **Quoted:** https://x.com/itsolelehmann/status/2040471150430429185
+- **Filed:** [ai-video-millionaires-playbook](./knowledge/articles/ai-video-millionaires-playbook.md)
+- **What:** Lehmann highlights an AI-video service opportunity created by the gap between traditional brand production budgets and rapid solo production, while the linked playbook is positioned around model selection, unified workflows, portfolio building, and winning $2K–$10K client engagements.
+
+## @joshua_xu_ - Four Claude skills for document visualization
+> I want to share four of the most frequent skills I use on Claude. They've been significantly helpful for me to digest documents and data. Feel free to install and try them out.
+
+• diagram it — Reads any content → picks best diagram type (flowchart, structural, timeline, tree, concept map) → renders an Excalidraw diagram inline in chat
+
+• nano this — Reads an uploaded doc → sends to Gemini image generation with Swiss Pulse design prompt → returns a polished infographic PNG
+
+• vis it — Reads any content → picks best visual format (chart, timeline, explainer, pipeline, comparison) → renders an interactive widget inline in chat
+
+• ver it — Reads any content → builds Swiss Pulse interactive HTML (hero metric, stats, Chart.js graph, dark mode) → returns shareable link
+
+To use any of them, just type the command + paste a URL, attach a doc, or reference something in conversation. That's it.
+
+Example:
+
+- **Tweet:** https://x.com/joshua_xu_/status/2040471007677599789
+- **What:** This is a practical set of Claude commands for turning source material into four different visual artifacts—an Excalidraw diagram, generated infographic, interactive explanatory widget, or shareable HTML dashboard—so documents and datasets can be interpreted in more appropriate formats.
+
+## @karpathy - LLM knowledge bases as portable agent ideas
+> Wow, this tweet went very viral!
+
+I wanted share a possibly slightly improved version of the tweet in an "idea file". The idea of the idea file is that in this era of LLM agents, there is less of a point/need of sharing the specific code/app, you just share the idea, then the other person's agent customizes & builds it for your specific needs.
+
+So here's the idea in a gist format: https://t.co/NlAfEJjtJV
+
+You can give this to your agent and it can build you your own LLM wiki and guide you on how to use it etc. It's intentionally kept a little bit abstract/vague because there are so many directions to take this in. And ofc, people can adjust the idea or contribute their own in the Discussion which is cool.
+>
+> *Quoting @karpathy:* LLM Knowledge Bases
+
+Something I'm finding very useful recently: using LLMs to build personal knowledge bases for various topics of research interest. In this way, a large fraction of my recent token throughput is going less into manipulating code, and more into manipulating knowledge (stored as markdown and images). The latest LLMs are quite good at it. So:
+
+Data ingest:
+I index source documents (articles, papers, repos, datasets, images, etc.) into a raw/ directory, then I use an LLM to incrementally "compile" a wiki, which is just a collection of .md files in a directory structure. The wiki includes summaries of all the data in raw/, backlinks, and then it categorizes data into concepts, writes articles for them, and links them all. To convert web articles into .md files I like to use the Obsidian Web Clipper extension, and then I also use a hotkey to download all the related images to local so that my LLM can easily reference them.
+
+IDE:
+I use Obsidian as the IDE "frontend" where I can view the raw data, the the compiled wiki, and the derived visualizations. Important to note that the LLM writes and maintains all of the data of the wiki, I rarely touch it directly. I've played with a few Obsidian plugins to render and view data in other ways (e.g. Marp for slides).
+
+Q&A:
+Where things get interesting is that once your wiki is big enough (e.g. mine on some recent research is ~100 articles and ~400K words), you can ask your LLM agent all kinds of complex questions against the wiki, and it will go off, research the answers, etc. I thought I had to reach for fancy RAG, but the LLM has been pretty good about auto-maintaining index files and brief summaries of all the documents and it reads all the important related data fairly easily at this ~small scale.
+
+Output:
+Instead of getting answers in text/terminal, I like to have it render markdown files for me, or slide shows (Marp format), or matplotlib images, all of which I then view again in Obsidian. You can imagine many other visual output formats depending on the query. Often, I end up "filing" the outputs back into the wiki to enhance it for further queries. So my own explorations and queries always "add up" in the knowledge base.
+
+Linting:
+I've run some LLM "health checks" over the wiki to e.g. find inconsistent data, impute missing data (with web searchers), find interesting connections for new article candidates, etc., to incrementally clean up the wiki and enhance its overall data integrity. The LLMs are quite good at suggesting further questions to ask and look into.
+
+Extra tools:
+I find myself developing additional tools to process the data, e.g. I vibe coded a small and naive search engine over the wiki, which I both use directly (in a web ui), but more often I want to hand it off to an LLM via CLI as a tool for larger queries.
+
+Further explorations:
+As the repo grows, the natural desire is to also think about synthetic data generation + finetuning to have your LLM "know" the data in its weights instead of just context windows.
+
+TLDR: raw data from a given number of sources is collected, then compiled by an LLM into a .md wiki, then operated on by various CLIs by the LLM to do Q&A and to incrementally enhance the wiki, and all of it viewable in Obsidian. You rarely ever write or edit the wiki manually, it's the domain of the LLM. I think there is room here for an incredible new product instead of a hacky collection of scripts.
+
+- **Tweet:** https://x.com/karpathy/status/2040470801506541998
+- **Link:** https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f
+- **Quoted:** https://x.com/karpathy/status/2039805659525644595
+- **What:** Karpathy reframes an LLM-maintained Markdown wiki as a reusable idea that an agent can adapt to each person, building on his workflow of ingesting source material, compiling linked notes, running health checks, and answering research questions without elaborate RAG.
+
+## @FedotOff90 - High-velocity creative testing from ad-library winners
+> Met a 21-year-old in Miami doing $70k/day across two supplement brands with zero original creatives.
+ZERO.
+
+Every ad in his account started as something he found in the gethookd library. Different hook, different image, different angle — but every concept was someone else's winner first.
+
+He tests 150-200 variations a week. The creative team is two people and AI tools (claude, higgsfield, Veo). The whole process  is spy, swipe, rebuild, launch.
+
+I asked him if he ever worries about running out of ideas. He looked at me like I was stupid. "There are 10 million ads running right now. I'll never run out of ideas. I'll run out of time before I run out of things to test."
+
+Young savage. Retardmaxxing at its best.
+
+- **Tweet:** https://x.com/FedotOff90/status/2040459771866907031
+- **What:** A supplement operator reportedly treats the active ad market as an inexhaustible creative database, using AI and a two-person team to adapt proven concepts into 150–200 test variants each week rather than relying on original campaigns.
+
+## @0xSero - Local-model coding agent harness comparison
+> Best harnesses for local models:
+>
+> 1. Droid:
+>
+> - Very good performance, forces the models to behave, you can wire in all your local LLMs very easily w BYOK
+> - Allows you to use your local models as orchestrators/subagents so you can benefit from Cloud as models as well
+> - Practically everything you need is already in Droid
+> - This is my daily driver, I use Qwen3.5 models in it very happily
+>
+> 2. Zed IDE:
+>
+> - OpenAI compatible APIs are first class
+> - Works like Cursor so if you prefer IDEs this is for you.
+> - Clean design
+>
+> 3. Pi Coding Agent
+>
+> - Open source
+> - Very token efficient
+> - Codebase supports vllm and open weight models
+>
+> 4. RooCode:
+>
+> - Steer mode forces local/dumber models to behave by re-injecting the user's prompt and plan every action
+> - Very easy to set up local providers
+>
+> 5. OpenCode:
+>
+> - Super easy to add new providers
+> - Desktop app/Mobile web let's you use ur local models
+> - Open source
+>
+> 6. Parchi
+>
+> - Any provider of any type is compatible
+> - Very simple UX
+> - Let's you operate your browser with your local models
+
+- **Tweet:** https://x.com/0xSero/status/2040445532171108375
+- **What:** 0xSero surveys six coding-agent harnesses for local LLMs, emphasizing provider interoperability, behavioral steering for weaker models, efficient open-weight execution, and hybrid workflows that delegate selected work to cloud models.
+
+## @emollick - AI adoption case studies help startups solve the mapping problem
+> Big deal paper here: field experiment on 515 startups, half shown case studies of how startups are successfully using AI.
+>
+> Those firms used AI 44% more, had 1.9x higher revenue, needed 39% less capital:
+> 1) AI accelerates businesses
+> 2) The challenge is understanding how to use it https://t.co/3verMMjO3e
+>
+> *Quoting @hyunjinvkim:* 🚨 Excited to share a new working paper! 🚨
+>
+> AI can improve individual tasks. But when does it improve firm performance?
+>
+> Our paper proposes one key friction firms face: the "mapping problem" -- discovering where and how AI creates value in a firm's production process.
+>
+> 🧵1/ https://t.co/GfQWCOQpG9
+
+- **Tweet:** https://x.com/emollick/status/2040436307176898897
+- **Quoted:** https://x.com/hyunjinvkim/status/2040275477290725659
+- **What:** Mollick highlights a 515-startup field experiment supporting Kim’s “mapping problem” thesis: exposing firms to concrete AI-use case studies increased adoption 44%, coinciding with 1.9× revenue and 39% less capital needed.
+
+## @0xSero - Agentic development environment comparison for 2026
+> Top Agentic Development Environments for 2026
+>
+> #1 - Zed
+>
+> - Open Source
+> - ACP support - Claude without their god awful harness
+> - Project tabs
+> - Performant
+> - SSH tabs
+> - Beautiful
+>
+> #2 - T3Code
+>
+> - Open Source
+> - Good, consistent team
+> - Claude without the god awful harness
+> - Performant
+> - Looks Fine
+>
+> #3 - CMUX
+>
+> - Ghostty terminal works amazing w all agents
+> - Nice browser feature altho I don't like webkit
+> - MORE PANES BRO MORE PANES
+> - Tabbed projects
+>
+> #4 - Ghostty
+>
+> - Bare bones
+>
+> - Most performant
+>
+> #5 - Codex App
+>
+> - Feels nice I use this the most of all the "apps"
+> - I love automations and plugins
+> - Needs to be open sourced
+
+- **Tweet:** https://x.com/0xSero/status/2040425833597136999
+- **What:** 0xSero compares five agentic coding environments through an operator’s lens: open-source extensibility, Claude-compatible agent protocols, terminal and SSH workflows, performance, panes, and project-level organization.
+
+## @TailThatWagsDog - AI-generated SPX regime and income portfolio dashboard
+> Claude, let's develop a high performance (SPX) regime switch using SPX options and dark pools flows.
+> Done.
+>
+> Now, create an income-generating portfolio containing JEPQ, SCHD, and VCIT ... switching between long and an anti-beta ETF ... based on the aforementioned SPX regime switch.  Optimize constituent allocations for maximum monthly income.
+> Done.
+>
+> Here’s the Netlify Interactive Link:
+> https://t.co/C9hvj02shb
+
+- **Tweet:** https://x.com/TailThatWagsDog/status/2040421026316669277
+- **Link:** https://poetic-cupcake-9c08de.netlify.app/
+- **What:** This interactive prototype applies an AI-built S&P 500 regime signal, informed by options and dark-pool flows, to dynamically allocate an income portfolio between JEPQ, SCHD, VCIT, and an anti-beta hedge.
+
+## @nateliason - AI-scaled SEO content as a final traffic opportunity
+> SEO is going to be dead as an acquisition channel after this year.
+>
+> BUT you can (and should) absolutely do something like this to clean up on that free internet traffic one last time.
+>
+> *Quoting @Replit:* There's no longer an obstacle to creating SEO-optimized content at scale.
+
+- **Tweet:** https://x.com/nateliason/status/2040414230151635364
+- **Quoted:** https://x.com/Replit/status/2040223492407500850
+- **What:** Nat Eliason argues that AI now removes the production bottleneck for SEO content, creating a short-lived opportunity to capture organic traffic at scale before search-driven acquisition becomes less viable.
+
+## @faststocknewss - Rallies Arena’s AI Hedge Fund Thesis
+> 6 MONTHS AGO WE GAVE FRONTIER AI MODELS $100K EACH AND ASKED THEM TO INVEST IN THE STOCK MARKET
+>
+> Most of them outperformed the S&P 500.
+> Different models have completely different investing personalities. Some go all in on a single position. Others actively manage and stay ahead of the market.
+>
+> We took everything we learned and built an agent on top of all of them. It reviews every model’s research, stress-tests their reasoning with its own data, and builds a portfolio from the combined intelligence.
+>
+> We’re calling it the AI Hedge Fund. It went live this week.
+>
+> Our thesis: within 2-3 years, fully automated AI hedge funds will beat most of Wall Street.
+>
+> *Quoting @ralliesarena:* https://t.co/piatDA7ZZG
+
+- **Tweet:** https://x.com/faststocknewss/status/2040413267907273038
+- **Link:** https://x.com/i/article/2040166321741344768
+- **Quoted:** https://x.com/ralliesarena/status/2040237068685824511
+- **Filed:** [we-are-building-an-ai-hedge-fund](./knowledge/articles/we-are-building-an-ai-hedge-fund.md)
+- **What:** Rallies Arena describes turning an experiment in which frontier models managed $100,000 stock portfolios into an AI hedge-fund agent that compares their research, stress-tests its reasoning, and assembles a combined portfolio.
+
+## @gusik4ever - TradingAgents Leads Finance GitHub Growth
+> the fastest growing GitHub repos in finance this week:
+>
+> 1. TauricResearch/TradingAgents (+2.5K ★)
+>
+> simulates a full trading firm with LLM agents. one researches, one manages risk, one makes the call and they argue before every trade.
+>
+> 2. disler/last30days-skill (+2K ★)
+>
+> AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket and the web. drop it into any Claude-compatible setup and get instant deep-dive research on anything.
+>
+> 3. TauricResearch/TradingAgents-CN (+1K ★)
+>
+> Chinese-enhanced fork of TradingAgents. same multi-agent LLM trading architecture, fully localized for Chinese markets and data sources. 23K stars and climbing.
+>
+> 4. OpenBB (+1K ★)
+>
+> financial data platform for analysts, quants and AI agents. the open-source Bloomberg alternative that keeps getting better every week.
+>
+> 5. furutech/daily_stock_analysis (+924 ★)
+>
+> LLM-powered stock analyzer for US, A-share and H-share markets. real-time news + multi-source data + decision dashboard. runs on a schedule at zero cost. pure automation.
+>
+> 6. microsoft/qlib (+638 ★)
+>
+> AI-oriented quant investment platform from Microsoft. covers the full pipeline from data to live trading. deep learning, auto-quant, backtesting — all in one place.
+>
+> 7. anthropics/claude-scientific-skills (+573 ★)
+>
+> ready-to-use agent skills for research, science, engineering, finance and writing. plug-and-play toolkit for anyone building on top of Claude.
+>
+> 8. valuecell/valuecell (+315 ★)
+>
+> community-driven, multi-agent platform for financial apps. still early but the architecture is solid and the use cases are stacking up fast.
+>
+> 9. e2b-dev/500-AI-Agents-Projects (+256 ★)
+>
+> curated collection of 500 AI agent use cases across industries. the best reference list if you're figuring out what to build next.
+>
+> 10. Jon-Becker/prediction-market-analysis (+246 ★)
+>
+> framework for collecting and analyzing prediction market data. includes the largest public dataset of Polymarket + Kalshi trades. researchers are already publishing papers on top of it.
+>
+> bookmark this and start today.
+>
+> *Quoting @gusik4ever:* the fastest growing GitHub repos in finance this week:
+>
+> 1. TauricResearch/TradingAgents (+9.3K ★)
+>
+> multi-agent LLM framework that runs like a trading firm — analysts, researchers, risk managers all debate before a position opens. works with GPT-5, Claude, Grok, Gemini.
+>
+> 2. virattt/ai-hedge-fund (49.6K ★)
+>
+> team of LLM agents that each play a different role: bull, bear, fundamentals, technicals, risk. the closest thing to an actual AI fund on GitHub.
+>
+> 3. NoFxAiOS/nofx (11.2K ★)
+>
+> autonomous AI trading assistant. picks its own models, pulls its own market data, decides when to trade. added safe mode this week. auto-protects positions when AI fails 3+ times consecutively.
+>
+> 4. Jon-Becker/prediction-market-analysis (2.3K ★)
+>
+> largest public dataset of Polymarket + Kalshi trade history. 36GB. researchers are already publishing papers on top of it.
+>
+> 5. pmxt-dev/pmxt (1.2K ★)
+>
+> CCXT but for prediction markets. one API across Polymarket, Kalshi, Limitless, Myriad. active fixes shipping all week.
+>
+> bookmark this and start today.
+
+- **Tweet:** https://x.com/gusik4ever/status/2040399182817788071
+- **Quoted:** https://x.com/gusik4ever/status/2037869910827618393
+- **Filed:** [tradingagents](./knowledge/tools/tradingagents.md)
+- **What:** This week-over-week finance-repository roundup spotlights TradingAgents as the featured project: a multi-agent LLM trading-firm simulation that separates research, risk, and trade decisions; it also maps adjacent research, quant, and prediction-market projects.
+
+## @DeRonin_ - AutoAgent’s Autonomous Agent-Optimization Loop
+> Do you understand what just got open sourced???
+>
+> an agent that improves other agents. autonomously. NO human in the loop
+>
+> [ literally how it helps to me ]:
+>
+> - tuning prompts (i was spending hours daily to do it manually)
+> - testing tools (lol, i shouldn't learn each tool 1-3 hrs anymore)
+> - reading error logs (they created a fobia to test anything in my product :<(
+> - tweaking orchestration for every single use case
+>
+> AutoAgent just did all of that, by itself, in 24 hours
+>
+> [ what it actually does ]:
+>
+> > spins up thousands of sandboxes
+> > tests different prompts, tools, orchestration setups
+> > reads its own failure traces
+> > fixes itself
+> > repeats until it beats every human-engineered score
+>
+> every other entry on those benchmarks was hand-built by real engineers..
+>
+> this one built itself
+>
+> [ btw the part which totally broke my brain ]:
+>
+> it's like hiring yourself to review your own work
+>
+> it's logical that you already know how you think, so you catch mistakes 10x faster
+>
+> that's exactly what happens when both agents run on the same model. same brain, different job
+>
+> + on top of all that excitement, it fixes at senior engineer level (BOOOOOM)
+>
+> [ and behaviors nobody programmed ]:
+>
+> - started writing its own unit tests
+> - built verification loops to check its own work
+> - created subagents when tasks got too complex
+>
+> nobody told it to do any of this...
+>
+> 100% OPEN SOURCE, FREE
+>
+> I setupped and I am so fcking satisfied
+>
+> P.S. Sorry if somewhere my reaction was too "forcing" to setup it, just wanted to mark by BOLD what's the treasure
+>
+> you can skip it, it's your deal ❤️
+>
+> *Quoting @kevingu:* https://t.co/DBaiIhnhLQ
+
+- **Tweet:** https://x.com/DeRonin_/status/2040348839257747645
+- **Link:** https://x.com/i/article/2039807040743419904
+- **Quoted:** https://x.com/kevingu/status/2039843234760073341
+- **Filed:** [autoagent-first-open-source-library-for-self-optimizing-agents](./knowledge/articles/autoagent-first-open-source-library-for-self-optimizing-agents.md)
+- **What:** AutoAgent is presented as an open-source meta-agent that iteratively tests prompts, tools, and orchestration in parallel sandboxes, using failure traces to improve a task agent and expose verification and subagent behaviors without hand-designed loops.
+
+## @systematicls - Skill Files Encode Mechanical Work, Leaving Room for Synthesis
+> If what you do is in the training set (e.g. code monkey, copy-writer, low level analysis, mechanical work), you can be distilled into a skill.MD.
+>
+> The world now belongs to the world builders, the creatives, the idea synthesizers, the high agency friction overcomers.
+>
+> *Quoting @stevehou:* Apparently workers in China have been creating “colleagues.skill” to distill their coworkers hoping to make them redundant hence saving themselves. In response someone has recently invented an “anti-distillation.skill” that has gone viral on GitHub.🤣 https://t.co/fcywnLIIhT
+
+- **Tweet:** https://x.com/systematicls/status/2040313137438900313
+- **Link:** https://x.com/whyyoutouzhele/status/2040195137465462998
+- **Quoted:** https://x.com/stevehou/status/2040228565476585909
+- **What:** This quote combines the “colleagues.skill” and “anti-distillation.skill” workplace joke with a serious claim: repeatable, training-data-covered tasks can be codified, shifting human advantage toward synthesis, creativity, and initiative.
+
+## @archiexzzz - RTK Token-Usage Reduction for Claude Code
+> i was constantly hitting the token limits across all models and my costs were going up because claude code decided to eat 186k tokens at startup.
+>
+> im going to save you from that - brew install rtk, and you'll save over 99% of your tokens and almost never hit the limits again. https://t.co/VFu34yCR3f
+
+- **Tweet:** https://x.com/archiexzzz/status/2040302376003772479
+- **What:** Archie Sengupta recommends RTK as a command-line installation intended to reduce Claude Code startup token use and prevent context-limit pressure, based on a reported 186,000-token startup cost.
+
+---
+
 # Thursday, April 2, 2026
 
 ## @chatgpt21 - Boss and employee in an automation arms race using Claude Code vs. Codex
