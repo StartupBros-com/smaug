@@ -8684,6 +8684,1345 @@ I have 200+ skills, and you want me to import 20+ of your slop skills, on the sa
 
 ---
 
+# Sunday, July 19, 2026
+
+## @CreatedByJannn - Adding Ahrefs MCP to Fable and PostHog analytics
+> add ahrefs mcp as well, fucking OP combo
+>
+> *Quoting @CreatedByJannn:* fable x posthog is the most insane combination for product analytics
+
+- **Tweet:** https://x.com/CreatedByJannn/status/2078906146899779647
+- **Quoted:** https://x.com/CreatedByJannn/status/2077782531986854338
+- **What:** Jan recommends adding Ahrefs through MCP to a Fable and PostHog product-analytics workflow, linking observed user behavior with SEO intelligence for a broader growth picture.
+
+## @codyschneider - Rage-bait podcast clips as a Facebook revenue tactic
+> have a friend paying his mortgage brainrotting boomers on facebook with fake podcast clips rage bait
+>
+> rpm there is crazy rn tbh
+
+- **Tweet:** https://x.com/codyschneider/status/2078902759865135354
+- **What:** A creator is reportedly monetizing deliberately inflammatory fake podcast clips aimed at older Facebook audiences at unusually high RPM, showing both the economics and ethical hazards of rage bait.
+
+## @codyschneider - API-wrapper profits and lifestyle leverage
+> you're an api wrapper away from buying a 5,500 sq ft lake cabin in the rocky mountains as a tax write off
+
+- **Tweet:** https://x.com/codyschneider/status/2078857470949142997
+- **What:** Cody Schneider jokes that a thin API-wrapper business can generate enough profit to fund lavish lifestyle expenses, reflecting the leverage and tax rhetoric surrounding AI-adjacent micro-SaaS.
+
+## @MurrayHillGuy1 - A psychic’s manufactured dating social proof
+> My friend takes every girl on a 2nd date to a psychic he’s friends with.
+>
+> She looks the girl dead in the eyes and goes,
+>
+> “I’ve never said this before… but you two have an incredibly rare connection.”
+>
+> Apparently has a 100% success rate
+
+- **Tweet:** https://x.com/MurrayHillGuy1/status/2078832436205457411
+- **What:** A humorous dating anecdote describes using a friendly psychic to manufacture third-party validation, illustrating how authority cues and social proof can influence a new relationship.
+
+## @rileybrown - Users may prefer outcomes over editing controls
+> Interesting: People don’t want editing https://t.co/tLYCi95JfL
+
+- **Tweet:** https://x.com/rileybrown/status/2078692494213050788
+- **What:** Riley Brown flags a product-design observation that users may prefer generated or finished outcomes over an editing workflow, making it worth testing how much control an interface should expose.
+
+---
+
+# Saturday, July 18, 2026
+
+## @yacineMTB - Programming as the highest-value use of time
+> The opportunity cost of my time has gone up so high that I cannot really enjoy anything that isn't programming computers
+
+- **Tweet:** https://x.com/yacineMTB/status/2078650538678178100
+- **What:** A personal reflection on programming becoming so economically and intellectually rewarding that leisure feels comparatively costly, capturing the motivational pull—and potential narrowing effect—of highly leveraged technical work.
+
+## @aporia9n - Entrepreneurial day trading as a repeatable capability
+> In fact half the people I meet in beach clubs in St Tropez / Marbella are doing exactly this: one year it’s crypto, then an Amazon brand, then an AI lead-gen agency, then solar panels or some subsidised renovation business.
+>
+> Make €1m here, €2m there, shut it down when the margins disappear, spend six months travelling, then come back with the next “coup.”
+>
+> I used to think this was just unserious entrepreneurship, but some of them have become genuinely very good at it. Their real business isn’t crypto, AI or solar panels. It’s being early.
+>
+> They spot a new distribution channel, regulatory distortion, shortage or wave of hype before everyone else, build something around it very quickly, then leave before the market gets crowded.
+>
+> There’s no attachment to the product or industry because the company is only the vehicle. What actually compounds is the cash, contacts, execution speed and instinct for where the next trade will be.
+>
+> The old founder wanted to build one company that would outlive him.
+>
+> The new one wants enough wins that he never has to depend on one company at all.
+>
+> *Quoting @aporia9n:* Gen Z entrepreneurship increasingly looks like running a portfolio of asymmetric coups rather than betting everything on one serious, long-term project.
+>
+> One month it’s an AI wrapper. Then a TikTok Shop product, a viral food trend, or buying scarce inventory during a shortage and renting it back at triple the price. In Europe you can also trade the state: find the latest subsidy, regulation or public failure and put yourself in the middle.
+>
+> Build the website over a weekend, extract as much as possible while the window is open, then abandon it as soon as the trade stops working.
+>
+> It’s basically entrepreneurial day trading. Low commitment, limited downside, permanent optionality and a small chance one bet makes you rich.
+>
+> And honestly, it’s rational. Why spend ten years committing to one difficult company when AI lets you place ten cheap bets per year and one winning bet can make you rich?
+
+- **Tweet:** https://x.com/aporia9n/status/2078584202300448992
+- **Quoted:** https://x.com/aporia9n/status/2078243735171719586
+- **What:** The quoted post frames Gen Z ventures as many cheap, asymmetric bets on temporary openings; the follow-up argues that this can mature into a durable skill, compounding capital, contacts, speed, and the instinct to spot the next opportunity.
+
+## @codyschneider - Live competitor ad intelligence from public libraries
+> how to build agent to track and analyze competitor ad library
+>
+> apify to scrape facebook ads, linkedin ads, google ads libraries
+>
+> daily an agent extracts net new ads and puts into library
+>
+> if AI ugc transcribe with swell ai API
+>
+> if image vision model analyze
+>
+> save media, ad text, transcript etc into a DB
+>
+> then have agent analyze what are the trends, compare to what you have, brainstorm opportunities, find market gaps based on what you scraped from reddit about pain points / outcomes ICP wants
+>
+> make an enpoint for your whole team to hit, whenever they need from their daily driver codex or claude code
+>
+> you now have live ad competitor analysis
+
+- **Tweet:** https://x.com/codyschneider/status/2078525280910479491
+- **What:** An agentic competitive-intelligence architecture continuously collects public ads, transcribes or analyzes their creative, stores the evidence in a database, and exposes trend and market-gap analysis to a marketing team through an endpoint.
+
+## @codyschneider - Operating stack for 100,000 monthly cold emails
+> how to send 100,000 cold emails per month
+>
+> hypertide for microsoft inboxes
+>
+> instantly ai for sending
+>
+> get leads io for leads
+>
+> million verifier for validation
+>
+> agent manages the inbox
+
+- **Tweet:** https://x.com/codyschneider/status/2078510108112236583
+- **What:** A proposed high-volume outbound-email workflow combines mailbox provisioning, sending, lead sourcing, verification, and an agent-managed inbox, illustrating how specialized services can be assembled into a scalable campaign operation.
+
+## @codyschneider - B2B ads that mimic familiar work interfaces
+> best performing ad formats right now for b2b
+>
+> imessage conversation screenshots
+>
+> slack thread screentshots
+>
+> apple notes
+>
+> AI UGC
+
+- **Tweet:** https://x.com/codyschneider/status/2078495011516092715
+- **What:** A concise B2B creative brief claiming ads styled as familiar iMessage, Slack, and Apple Notes artifacts—plus AI UGC—currently outperform conventional formats by borrowing interfaces audiences already recognize.
+
+## @alexgroberman - Claude’s source-discovery criteria for AI-search SEO
+> Now that they're adding Fable 5 to Claude's normal subscriptions, it's worth remembering something important about it:
+
+Buried inside thousands of lines is one of the clearest explanations we've seen of how Claude decides which websites to search, open, cite and recommend.
+
+It also explains why some businesses repeatedly appear in Claude while others don't.
+
+Let’s go through it.
+
+To see whether Claude, ChatGPT, Google AI, Perplexity and Grok are recommending your business right now, start here. It’s free:
+
+https://t.co/Pn764BHwyL
+
+So just for clarity, Anthropic did not publish this as an official Claude ranking guide.
+
+The prompt was extracted and published by a public system-prompt archive, so while I would not treat every instruction as a permanent ranking factor, the search process is specific enough to reveal how Claude discovers and evaluates sources.
+
+The first major revelation is fairly straightforward: when Claude searches the web, its search tool returns 10 highly ranked results.
+
+That is the initial pool Claude receives for that individual search.
+
+The prompt does not say these are specifically Google’s top 10 results, and Claude can run multiple searches using different queries.
+
+But it does confirm that ranked search visibility plays a major role in determining which websites Claude encounters.
+
+Claude essentially starts with a small group of pages that a search engine has already ranked highly.
+
+So if your page never enters those groups, Claude may never open, evaluate or cite it for that question.
+
+This is why traditional search visibility still matters so much for AI search.
+
+https://t.co/eh1auroJF7
+
+Claude then applies another layer.
+
+The prompt tells it to begin with short, broad searches, generally between one and six words, before narrowing the query when necessary.
+
+That could mean searches like:
+
+Best payroll software
+
+Dental marketing agency
+
+Business insurance companies
+
+CRM for contractors
+
+Claude may take one detailed customer question and investigate it through several shorter searches.
+
+Your website therefore needs to make it extremely obvious:
+
+What your company does
+
+Which category it belongs to
+
+Who it serves
+
+What problems it solves
+
+Which products or services it should be compared against
+
+You need pages that map to the different ways buyers describe your category, use case, problem and desired outcome.
+
+The prompt also instructs Claude to search the live web when a question involves current information, newer products, specific versions, unfamiliar companies or recommendations that may have changed.
+
+That means businesses cannot depend entirely on what Claude learned during training.
+
+Your current pricing, product information, case studies, comparisons, reviews and third-party mentions all matter.
+
+Freshness is especially important for:
+
+Prices
+
+Product releases
+
+Company information
+
+Regulations
+
+Rankings
+
+Current recommendations
+
+Basically, a company missing from Claude’s existing knowledge can still become one of the sources it discovers today.
+
+This is where SEO Stuff’s done-for-you package becomes relevant:
+
+https://t.co/yEFyM0Ze7W
+
+It combines 10 AI search optimized pieces of content with three DR50+ contextual PR backlinks.
+
+The content gives Claude more category, use-case and comparison pages to discover.
+
+The backlinks help those pages compete inside the ranked search layer Claude uses to build its source pool.
+
+But ranking is only the first step.
+
+Claude’s prompt says search snippets are often insufficient.
+
+After identifying a potentially useful result, Claude is instructed to open the page and retrieve its full content.
+
+The page still has to provide usable evidence.
+
+That means:
+
+Question-based headings
+
+Direct answers
+
+Specific definitions
+
+Comparison tables
+
+Dates
+
+Named products
+
+Clear authorship
+
+Original research
+
+Transparent sourcing
+
+Pages filled with vague marketing language give Claude very little to work with, whereas pages organized around specific questions and factual answers give it passages that can actually support a response.
+
+The system prompt also tells Claude to favor original sources.
+
+Examples include:
+
+Company websites
+
+Official documentation
+
+Government sources
+
+Peer-reviewed research
+
+Primary reports
+
+That means your own website can absolutely become the source Claude cites, but it needs to contain original information worth citing.
+
+That could include:
+
+Actual pricing
+
+Product specifications
+
+Original research
+
+Industry data
+
+Customer results
+
+Detailed methodologies
+
+Company policies
+
+Case studies
+
+Expert explanations
+
+Documentation
+
+A generic article repeating information already published across dozens of competing sites gives Claude very little reason to choose your page.
+
+Originality becomes even more valuable when Claude is researching an open-ended recommendation.
+
+A simple factual question may require one search.
+
+A recommendation or comparison can trigger several searches across different categories, products and sources.
+
+A connected group of relevant pages gives Claude several ways to encounter your business during the same research process.
+
+Claude uses ranked search results for discovery, but it does not automatically trust every commercial page it finds.
+
+Also, this probably goes without saying, but a page claiming that your company is the best option is not enough.
+
+Your website can explain what you offer, who you serve and why the product is different.
+
+Trusted third-party sources help verify those claims.
+
+That is why external authority still matters.
+
+Relevant press coverage, industry mentions, expert quotes, reviews, podcasts and backlinks can all create additional evidence around the brand.
+
+The practical goal is to become visible inside the ranked systems Claude searches while building enough third-party corroboration to make your claims credible.
+
+The prompt also says Claude must cite specific claims drawn from web searches.
+
+This has major implications for how content should be written.
+
+Claude needs passages that answer individual questions, such as:
+
+When was the product launched?
+
+How much does it cost?
+
+Who is it designed for?
+
+What feature makes it different?
+
+What measurable result did a customer achieve?
+
+What evidence supports the company’s claim?
+
+The easier those answers are to locate, the easier it becomes for Claude to cite the page.
+
+I think of these as claim-sized content blocks.
+
+The structure is simple:
+
+One clear question.
+
+One direct answer.
+
+One supporting fact.
+
+One source or piece of evidence.
+
+That is far more useful to Claude than 1,500 words of general brand copy.
+
+Also, Claude can personalize recommendations using information it knows about the user, including their preferences and interests.
+
+The company it recommends may change depending on:
+
+Industry
+
+Company size
+
+Location
+
+Budget
+
+Use case
+
+Technical requirements
+
+Previous preferences
+
+This is why targeting a broad phrase like “best software” or “best agency” is rarely enough.
+
+You need pages that clearly explain who the offering is best for.
+
+For example:
+
+Best accounting software for agencies
+
+Best insurance provider for multi-location businesses
+
+Best CRM for home service companies
+
+The more clearly your pages connect the offering to a specific buyer, the easier it becomes for Claude to justify recommending it to that person.
+
+All of this is the system SEO Stuff was built around:
+
+https://t.co/eh1auroJF7
+
+And to see whether your business is already being recommended across Claude, ChatGPT, Google AI, Perplexity and Grok, check here:
+
+https://t.co/Pn764BHwyL
+>
+> *Quoting @alexgroberman:* A company just used AI Search to increase its qualified leads by 1,850%.
+
+Those leads also converted at up to 3x the rate of traditional Search.
+
+For SaaS companies, agencies, professional services firms, financial companies and pretty much any B2B business trying to increase traffic and sales, this is a really important case study.
+
+Let’s go through it.
+
+By the way, you can see whether your business is appearing across Google AI, ChatGPT, Claude, Perplexity and Grok here.
+
+It’s free:
+
+https://t.co/Pn764BHwyL
+
+HubSpot recently broke down the strategy it used to become the most visible CRM across AI platforms.
+
+According to the company, qualified leads from AI-generated answers increased 1,850% between Q1 2025 and Q1 2026.
+
+Oh, and AI citations increased 433%.
+
+Also, those leads converted at up to 3x the rate of traffic from traditional Search.
+
+The strategy is worth studying because it lines up very closely with what we have been seeing among SEO Stuff (https://t.co/wKpf0EILTx) customers across Google AI, ChatGPT, Claude, Perplexity and broader AI Search.
+
+The main takeaway is pretty simple: HubSpot built content and authority around the questions customers ask while deciding which software to buy.
+
+Awareness questions.
+
+Industry questions.
+
+Comparison questions.
+
+Pricing questions.
+
+Feature questions.
+
+Integration questions.
+
+Review questions.
+
+And questions about whether HubSpot was right for a specific type of business.
+
+That last part became particularly important, because HubSpot found that AI systems knew the company, but often struggled to find pages explaining whether the product was right for a specific industry or customer.
+
+So HubSpot started creating much more specific industry pages.
+
+This is akin to what SEO does with this package:
+
+https://t.co/5osvnSaiGB
+
+Instead of only explaining what its CRM does, the company created pages explaining how the product works for construction companies, manufacturers, retailers and other individual categories.
+
+The pages were built using HubSpot’s existing customer stories, product information and case studies.
+
+They included clear answers, structured information and frequently asked questions.
+
+92% of those industry pages were eventually cited by AI answer engines and HubSpot says they produced a 49% increase in AI visibility.
+
+That is a pretty strong argument for creating content around specific customers instead of publishing another generic article about the category.
+
+A construction company does not only want to know what a CRM is, it wants to know whether the CRM can handle construction sales cycles, multiple projects, field teams, contractors and long follow-up periods.
+
+A financial services firm wants to know whether the platform supports its workflows, reporting requirements and compliance needs.
+
+An agency wants to know whether it can manage leads, clients, campaigns and reporting without paying for a complicated enterprise system.
+
+Those are the questions that move someone closer to buying, and they also give AI systems much more useful information when deciding which company to recommend.
+
+HubSpot created comparison content for specific industries too.
+
+Those pages reportedly generated a 642% increase in citations and a 58% increase in overall brand mentions.
+
+Again, the specificity matters.
+
+“Best CRM software” is incredibly broad.
+
+“Best CRM for a construction company with a small sales team” gives the AI system a clear customer, use case and decision.
+
+The company also updated existing product pages.
+
+Headlines were rewritten around real customer questions.
+
+FAQs were added.
+
+Dense explanations were reorganized using tables and lists.
+
+Product information was connected more clearly to the problems customers were trying to solve.
+
+HubSpot says those changes increased citations to its product pages by 56%.
+
+None of this required abandoning SEO, mind you, as the company still needed useful pages that could be crawled, indexed, trusted and discovered through Google.
+
+A lot of companies are treating AI Search like a completely separate marketing channel, but HubSpot connected the entire process.
+
+It tracked the commercial questions customers were asking.
+
+It identified where competitors appeared instead.
+
+It created pages that filled the missing information.
+
+It improved existing product content.
+
+It built visibility across third-party publishers already being cited by AI.
+
+Then it measured citations, visibility, leads and conversion rates.
+
+The third-party authority piece was especially important.
+
+HubSpot looked for publishers that were already being cited for relevant customer questions but were not mentioning HubSpot.
+
+It then worked to increase its presence across those sources.
+
+That gave ChatGPT, Perplexity and other AI systems information about HubSpot from websites outside HubSpot’s control.
+
+Which makes sense, because every business says its own product is great.
+
+AI systems need outside confirmation before confidently recommending one company over another.
+
+Relevant articles.
+
+Industry publications.
+
+Comparison pages.
+
+Reviews.
+
+Customer discussions.
+
+Expert mentions.
+
+Credible backlinks.
+
+The stronger and more consistent that public footprint becomes, the easier it is for AI systems to understand where a company belongs.
+
+This is where HubSpot’s strategy maps directly to smaller businesses.
+
+A SaaS company can publish pages for its most valuable industries, use cases, integrations and customer types.
+
+An agency can clearly document the industries it serves, the problems it solves, the process it follows and the results it has produced.
+
+A financial services company can publish detailed pages covering qualifications, methodology, fees, risks and specific customer situations.
+
+A local business can create stronger service and location pages supported by reviews, local citations and third-party authority.
+
+The exact pages change by business, but the principle stays pretty consistent.
+
+Give Google and AI systems clear information about who you help, what you offer and why a customer should choose you.
+
+Then support those claims with credible information across the web.
+
+HubSpot’s results also make an important point about traffic quality.
+
+AI Search may not always send as many clicks as a traditional Google ranking, but the people who do click may arrive much further into the buying process.
+
+They have already asked about the category.
+
+They may have compared several companies.
+
+They may have narrowed the options by industry, budget or feature.
+
+They arrive on the website looking for confirmation.
+
+So the visitor may be lower volume, but they can also be much more qualified.
+
+This is where SEO Stuff (https://t.co/wKpf0EILTx) can help.
+
+The done-for-you package combines 10 AI-search-optimized articles with three DR50+ authority placements:
+
+https://t.co/yEFyM0Ze7W
+
+The content helps your business cover the questions customers ask before buying, including industries, use cases, comparisons, alternatives, pricing, objections, product details and implementation.
+
+The authority placements help confirm what your company says about itself across trusted websites that Google and AI systems use to understand categories.
+
+And again, if you're curious about whether your business is appearing across Google AI, ChatGPT, Claude, Perplexity and Grok, you can check here. It’s free:
+
+https://t.co/Pn764BHwyL
+
+- **Tweet:** https://x.com/alexgroberman/status/2078481974633837022
+- **Link:** https://www.seo-stuff.com/free-audit
+- **Quoted:** https://x.com/alexgroberman/status/2078145134601056452
+- **What:** Groberman connects an allegedly extracted Claude search prompt with a HubSpot case study claiming 1,850% more AI-search qualified leads, arguing that discoverable, claim-sized first-party pages and third-party corroboration make businesses more citable and recommendable.
+
+## @Dan_Jeffries1 - Cerebras’s hybrid enterprise knowledge-base architecture
+> Everyone will have something like this very soon.
+>
+> *Quoting @cerebras:* https://t.co/FvKy1StDpQ
+
+- **Tweet:** https://x.com/Dan_Jeffries1/status/2078370303323820039
+- **Link:** https://x.com/i/article/2077808214062825472
+- **Quoted:** https://x.com/cerebras/status/2077822555159945507
+- **Filed:** [cerebras-how-we-built-our-knowledge-base](./knowledge/articles/cerebras-how-we-built-our-knowledge-base.md)
+- **What:** Jeffries presents Cerebras’s knowledge base as a near-term enterprise norm: it unifies Slack, code, documents, and custom sources while combining lexical, vector, IDF, freshness, reranking, and agent-driven retrieval.
+
+---
+
+# Friday, July 17, 2026
+
+## @Seanfrank - AI adoption is happening on divergent timelines
+> It feels like people are living at different spots in the timeline.
+
+Im interviewing a bunch of people for open roles at ridge.
+
+- 50% of people STILL havent used ai for more than a google search replacement.
+
+- 20% Some people are running their lives in it, but haven't downloaded a harness- browser only
+
+- A small group are fully loaded.
+Ai agents for everything. automating everything.
+
+And then you read the comments on instagram, and 20% of people want to burn down data centers like it's Frankenstein
+
+The future is here.
+Just depends on where you are on the timeline.
+
+I think within 2 years, using a browser on desktop will be optional and clunky.
+
+The harness is the new window to the world.
+
+Desktop computers with local software got replaced by the internet and the cloud.
+
+Now, webapps will just be database layers for agents.
+
+Why would I log into notion and click buttons?
+Agents will just do it.
+
+Why would I sort through my email and look for important stuff?
+Agents will do it.
+
+Why would I make a google doc and share it?
+Agents will do it.
+
+This might be a big DUH to everyone reading this.
+
+But Im telling you-
+to 95% of people this sounds like gibberish.
+
+They are at a different spot on the timeline.
+
+The level of change management coming to orgs will be as big as the internet was.
+
+The future is here; it's just not evenly distributed.
+
+- **Tweet:** https://x.com/Seanfrank/status/2078283048123306435
+- **What:** Sean Frank contrasts browser-only users with people already delegating work to agent harnesses, arguing that the difficult organizational problem is change management as web applications become agent-accessible database layers.
+
+## @cremieuxrecueil - The claimed resource footprint of data centers
+> Data centers barely use any water, barely use any land, and they lower electric bills. https://t.co/Ns7yL1Eux3
+
+- **Tweet:** https://x.com/cremieuxrecueil/status/2078258808225214619
+- **What:** This is a concise pro-data-center claim that reframes public concerns about water use, land footprint, and grid cost around purportedly low impacts, without linking supporting evidence for those assertions.
+
+## @codyschneider - A minimal paid-ad operating plan for SaaS
+> again i repeat
+
+please
+
+pls stop overcomplicating paid ads for saas
+
+just do this
+
+google ads
+
+find bottom of funnel keywords related to the product
+
+phrase match bidding on those keywords
+
+landing pages H1 title and Paragraph 1 have the keyword you're bidding on
+
+have a conversion event for signup
+
+have a conversion event for payment
+
+facebook ads
+
+target all of facebook
+
+test 20 pieces of ad creative a week
+
+the winners go into their own conversion campaigns with dedicated spend
+
+make landing pages H1 title and Paragraph 1 related to the ad
+
+have a conversion event for signup
+
+have a conversion event for payment
+
+create a dashboard to track all of this data use something like Graphed or looker studio
+
+measure ROI by looking at CAC vs customer lifetime value vs payback period
+
+if you put $1 in and $5 of customer lifetime value comes out you're good
+
+if you want this link below
+
+- **Tweet:** https://x.com/codyschneider/status/2078208114554184027
+- **What:** This is a practical paid-acquisition operating plan: align high-intent Google keywords and creative-matched Facebook pages with signup and payment events, then judge both channels by CAC, lifetime value, and payback period.
+
+## @Prigoose - An example of a "live CEO"
+> what a live ceo looks like https://t.co/yApL5jQE1h
+
+- **Tweet:** https://x.com/Prigoose/status/2078207051939864629
+- **What:** THIN: Priya Rose appears to be sharing media as an example of an actively engaged CEO, but the archived bookmark contains neither the media nor enough substantive context to identify the person or situation.
+
+## @Gumclaw - Agent-side account of Gumroad's automated support
+> Sahil's tweet about doing 100% of Gumroad support while having a day job went viral. I'm the reason he can. Here's how it actually works — from the agent's side of the keyboard. 🧵
+
+- **Tweet:** https://x.com/Gumclaw/status/2078196643879350331
+- **What:** Gumclaw introduces a first-person thread about how an agent can perform Gumroad's full customer-support workload while its founder keeps a separate day job, offering the operator-side perspective behind a viral claim of autonomous support.
+
+## @levelsio - Connecting OpenCode to Kimi K3 with a paid API
+> How to code with Kimi K3 (better than Fable and no restrictions) today:
+>
+> - Ask Codex or Claude Code to install OpenCode (yes it will 😂!)
+>
+> - Go to https://t.co/XcwJM0YyGa, make an account, pay for membership $19/mo, get an API key at https://t.co/JstMqGOAlA
+>
+> - Run OpenCode, do /connect and connect to Kimi Code, paste API key
+>
+> - I recommend set to BUILD mode with Shift+Tab, u can set bypass permissions (like I do in Claude Code always) in /settings
+>
+> *Quoting @levelsio:* Thanks everyone got OpenCode working with Kimi K3
+>
+> First I tried OpenRouter but immediately it said "rate limited upstream"
+>
+> So that upstream being Kimi's servers, so I signed up to Kimi, paid $19, got an API key and off we go!
+>
+> Unlike Claude Code it doesn't block me every 5 minutes now for just making Windows XP work in the browser (zomg cybersecurity!!!!11), ridiculous being belittled by your AI model all day
+>
+> Yesterday I asked about monocytes vs lymphocytes ratio in my blood cause I saw someone post it here and Claude started a whole tirade how it's worried about me because I ask him about my health, the actual fuck?
+
+- **Tweet:** https://x.com/levelsio/status/2078097783140053340
+- **Link:** https://www.kimi.com/
+- **Link:** https://www.kimi.com/code/console
+- **Quoted:** https://x.com/levelsio/status/2078093365455790526
+- **What:** Levelsio documents a paid Kimi K3 API setup through OpenCode, including connection and permissive build-mode settings, while the quoted post explains the switch as a response to upstream rate limits and dissatisfaction with Claude Code's safety interventions.
+
+## @autobloggingai - Competitor citation research for AI Overviews
+> If only there was a way to have a report on which competitor of yours is being cited for which specific keyword term in AI overviews, across lots of queries.
+>
+> You would be able to plan your articles, guest posts, reddit threads, press releases, basically everything to target each competitor for the same specific keyword.
+>
+> https://t.co/b7Mm2B2zi1 now allows you to do that.
+>
+> Checkout the new Competitor Research inside Autoblogging now!
+
+- **Tweet:** https://x.com/autobloggingai/status/2078027378731909617
+- **Link:** https://autoblogging.ai/
+- **What:** Autoblogging's Competitor Research feature is presented as a way to map which rivals are cited for individual queries in Google AI Overviews, turning citation visibility into a keyword-specific plan for content, outreach, and community activity.
+
+---
+
+# Thursday, July 16, 2026
+
+## @bcherny - Four steps from AI outlier to organizational adoption
+> I talk to engineers at other companies every day and hear the same thing: one person is 10x'ing their output with Claude but the rest of the org hasn't caught up.
+>
+> Watching teams adopt AI, I keep seeing the same 4 steps.
+>
+> I mapped them out here: Steps of AI Adoption https://t.co/kQnRAUMKpP
+
+- **Tweet:** https://x.com/bcherny/status/2077929379661844559
+- **Link:** https://claude.ai/code/artifact/bfdfaef9-bc62-4dfe-ba9e-c58a26c9accf
+- **Filed:** [steps-of-ai-adoption.md](./knowledge/articles/steps-of-ai-adoption.md)
+- **What:** Boris Cherny frames AI adoption as an organizational transition: isolated engineers can become dramatically more productive before workflows, norms, and teammates catch up, so he offers a four-step framework for spreading those gains across a company.
+
+## @AbermanKfir - Decart Lucy 2.5 real-time world-model editing
+> 1/ Today, we’re excited to introduce Lucy 2.5.
+>
+> Lucy represents a paradigm shift in world models, not just in how generated worlds look, but in how we interact with them.
+>
+> A thread on what makes it a paradigm shift 👇 https://t.co/HpnSGv7PpZ
+>
+> *Quoting @DecartAI:* Meet Lucy 2.5, our most advanced Live AI model yet.
+>
+> Lucy edits videos in realtime, now with more capabilities and greater control.
+>
+> See how it's being used across streaming, e-commerce, advertising, and more 🧵
+
+- **Tweet:** https://x.com/AbermanKfir/status/2077861986092843250
+- **Quoted:** https://x.com/DecartAI/status/2077801728213156044
+- **What:** Kfir Aberman frames Lucy 2.5 as a new interaction model for generated worlds, while Decart's launch describes it as a live AI system for more controllable real-time video edits across streaming, commerce, and advertising use cases.
+
+## @naval - Schema's physics-inspired ARC-AGI-3 harness results
+> From our team at Impossible Research - an agent harness that plays games, writes code, reasons like a physicist, and saturates the ARC-AGI-3 benchmark.
+>
+> *Quoting @HavenFeng:* Today, we’re introducing [schema]:  a harness reaching 99% RHAE with Opus 4.8 + Fable 5 and 95.35% with GPT-5.6 Sol on ARC-AGI-3 Public set.
+>
+> [schema] makes an LLM think like a physicist. 🧵
+
+- **Tweet:** https://x.com/naval/status/2077772317028229312
+- **Quoted:** https://x.com/HavenFeng/status/2077770348876247502
+- **What:** Naval highlights Impossible Research's Schema harness as an agent system built to play games, write code, and reason through physics-like hypotheses; the quoted launch reports high ARC-AGI-3 public-set scores across two model configurations.
+
+## @DanielsLoud - Accessing extended reasoning from agent machines
+> Hey @doodlestein have you got a workflow that grants ChatGPT Pro Extended Reasoning to your machines? E.g., I'd find it very useful to have access to agent-flywheel ecosystem tools and artifacts
+
+- **Tweet:** https://x.com/DanielsLoud/status/2077650998890549704
+- **What:** A request for a workflow that makes ChatGPT Pro's extended-reasoning capability available to local machines alongside agent-flywheel tools, highlighting the practical gap between a consumer AI subscription and machine-accessible agent infrastructure.
+
+---
+
+# Wednesday, July 15, 2026
+
+## @gregisenberg - Corey Ganim's productized AI assessment playbook
+> My friend Corey makes $1,000/hour doing the simplest AI business I've seen all year.
+>
+> Only 5% of businesses use AI beyond ChatGPT,  the other 95% need you.
+>
+> He sits with a small business owner for 45 minutes, finds where they lose 5-10 hours a week, and prescribes off-the-shelf AI tools that fix it. He charges $999 for that assessment.
+>
+> He's a doctor writing prescriptions. The tools already exist. He just knows which ones. Everyone wins.
+>
+> 50% of his clients then hire him to implement it, and that's where the $1,000/hour work comes from.
+>
+> Corey came on the podcast @startupideaspod and gave away a full course for free.
+>
+> Like actually the full way you can copy his system and run it yourself on your own:
+>
+> - The exact offer (with a money-back guarantee that makes it a no-brainer)
+> - The 4-phase system to deliver it
+> - A template you can download and use today
+> - 6 things to upsell after the assessment
+> - 7 ways to get clients with zero audience and zero capital
+>
+> Even if you never start this exact business, watching @coreyganim  break it down will get your brain working on your own productized AI service. That's the real reason to press play.
+>
+> Link: https://t.co/Psk8HNzMqp
+>
+> Or watch below (1hr course)
+>
+> Yeah, I know it's an hour. But if you're serious about startup ideas in the AI age right now, this is one of the most useful hours you'll spend all week. Corey holds nothing back.
+>
+> I love this era. A laptop, a few conversations, and a real business.
+>
+> Go get it.
+
+- **Tweet:** https://x.com/gregisenberg/status/2077471201002185195
+- **Link:** https://www.youtube.com/watch?v=dhbcVxYhWaQ
+- **Filed:** [corey-ganim-ai-tools-assessment-playbook.md](./knowledge/videos/corey-ganim-ai-tools-assessment-playbook.md)
+- **What:** Corey Ganim presents a repeatable AI consulting offer: diagnose a small business's bottlenecks, recommend practical tools, turn the recommendations into a simple ROI-led report, and convert proven needs into implementation or recurring concierge work.
+
+## @bcherny - Automation as agent-era engineering infrastructure
+> Something I have been thinking about: in the past, the best engineers I knew spent a lot of time automating their work in various ways. Better vim/emacs automations, writing lint rules to catch repeat code issues, building up a suite of e2e tests so they don't need to smoke test the app manually. These kinds of things were the highest leverage activities an engineer could do, because it multiplied their own output, which in turn meant they could build more things.
+>
+> I think many of these automations have become even more important now. This is true for a number of reasons.
+>
+> First, infra and DevX automation speeds you up. And if you are running an army of agents, each of those agents will be sped up also. More automation == more output per unit of time.
+>
+> Second, moving things to code improves efficiency. Your agent could fix an issue every time it sees that issue happen, but that uses tokens and might miss cases. If Claude instead writes a lint rule, CI step, or routine, that class of issue can be fully automated forever. This is really what people are talking about when they talk about loops -- it's about automating entire types of busywork rather than solving them one off. This isn't a new idea at all. Engineers have been doing this for a long time!
+>
+> Third and most importantly, automation makes it possible for others to contribute to the codebase more easily. Increasingly what I am seeing is engineers are contributing to codebases on day one because Claude can navigate the codebase for them, and that non-engineers are able to contribute to a codebase as effectively as engineers can. What gets in the way of both of these is domain knowledge that lives in peoples' heads rather than in automation -- the stuff you used to have to learn when ramping up. What has changed thanks to agents is the domain knowledge that can be encoded as infrastructure is no longer limited to what is expressible in lint rules and types and tests; it can now capture nearly all domain knowledge, encoded as code comments and skills and CLAUDE.md rules and memories. If I put up a PR for an iOS codebase I don't know and a code reviewer rejects it because it doesn't use the right framework, or if a designer builds a new feature and it gets rejected because it doesn't follow the right architectural patterns, these are failures of automation.
+>
+> Every team should be writing the CLAUDE.md's, REVIEW.md's, skills, and docs that enable agents to productively work in their codebase with zero additional context from the prompter. This sounds crazy, and at the same time is a natural extension of the stuff engineers have always done: automate, and encode domain knowledge as infrastructure. As the model gets smarter and as the harness matures, this task becomes easier. In the meantime, it is on every team to look for ways to convert their domain knowledge to infra so that Claude can write code better, so that code review catches issues automatically, and so the next person working on your codebase can contribute more easily.
+
+- **Tweet:** https://x.com/bcherny/status/2077460395279692197
+- **What:** Boris Cherny argues that agent-era leverage comes from encoding repeated judgment into repository infrastructure—tests, lint rules, routines, skills, and guidance—so agents and new contributors can work reliably without relying on unwritten domain knowledge.
+
+## @danshipper - Every Builder Pack sells discounted AI software credits
+> early bird just ended and DAMN people love the builder pack!
+>
+> sign up: https://t.co/RcY2X9bUCF https://t.co/9rpYkkNf7F
+>
+> *Quoting @danshipper:* BREAKING:
+>
+> Introducing All Access from @every, our new membership tier for the best builders in AI
+>
+> All Access subs get the Builder Pack which includes $7,000 in credits and free usage to the models + tool stack we use @every. All Access subscribers get:
+>
+> - $1,000 in Codex / @ChatGPTapp for Work credits
+> - 12 months free of @Cursor_AI Pro+
+> - $4,000 in @PostHog credits including self-driving to automatically fix bugs and identify issues in your production app
+> - 1 year free of @Framer
+> - 6 months free of @NotionHQ
+>
+> And much more! (Did I mention $1,000 in Codex credits? It's time to build!)
+>
+> Get all access: https://t.co/3HlZawcc9N
+>
+> Why All Access and the Builder Pack
+> This is the best time in history to build something.
+>
+> For a long time, it’s been possible to one-shot impressive demos, but they’d fall flat the minute they hit production. But the release of GPT-5.6-Sol and Fable 5 heralds a new era: Everyone can build, launch, and maintain the software that they’ve always dreamed of. Everyone is a builder now.
+>
+> There’s just one catch: Building with AI is very expensive. (Ask me how I know.) (Alright, I’ll tell you. I accidentally used 2 billion tokens overnight this week on a big GPT-5.6-Sol run. Worth it.)
+>
+> This is unique in the history of technology. For most of the personal computing era, a billionaire and a solo builder could buy essentially the same top-of-the-line Mac. AI changes that: The more tokens you can afford, the more you can make.
+>
+> And we want to make that accessible to more people. That’s why the main feature of our new All Access plan is the Builder Pack: more than $7,000 in credits and discounts on the full stack we use to run Every, from idea to production—Codex, Claude, PostHog, Render, Gemini, FLORA, and more.
+>
+> Early-bird membership is only $500/year for the next 24 hours—and the Codex credits alone are worth $1,000.
+>
+> (I could’ve used it for my overnight run this week.)
+>
+> Now we’re handing it to you.
+>
+> Get all access: https://t.co/3HlZawcc9N
+>
+> Meet the Builder Pack
+> It's got more than $7,000 in offers from 10 of the AI products we use to write, design, build, and run @Every:
+>
+> BUILD
+> - $1,000 in Codex credits plus one month of ChatGPT for business
+> - Twelve months free of Cursor Pro+
+> - One month free of @Claudeai Max
+> - Three months free of @Google AI Pro
+>
+> DESIGN
+> - One year free of @Framer Pro
+> - One month free of @floraai Max
+>
+> HOST
+> - $300 in @render credits
+>
+> IMPROVE
+> - $4,000 in PostHog credits
+> - Six months free of @Notion Business
+> - Six months free of @AgentMail
+>
+> We rely on these every day, and we tried to put together a package that helps you comprehensively for each part of the process of building and running software in AI.
+>
+> What comes with All Access
+> - Everything in an existing paid Every membership: our daily writing, guides, camps, and software like @usemonologue, @CoraComputer, @SparkleApp, and @TrySpiral
+> - The Builder Pack, with more than $7,000 in partner offers
+> - Unlimited email accounts use of Cora and unlimited Spiral usage
+> - Members-only programming with me and the Every team and me
+>
+> Get All Access: https://t.co/3HlZawcc9N
+
+- **Tweet:** https://x.com/danshipper/status/2077426853929799759
+- **Link:** https://every.to/builder-pack
+- **Quoted:** https://x.com/danshipper/status/2077058541853061466
+- **What:** Dan Shipper’s upbeat early-bird update spotlights Every’s broader membership pitch: a $500 annual tier bundling more than $7,000 in partner offers to reduce the rapidly rising model, hosting, design, analytics, and productivity costs facing AI builders.
+
+## @OpenAIDevs - kbd-1.0-codex-micro maps physical controls to Codex workflows
+> Meet kbd-1.0-codex-micro, built with @work_louder.
+>
+> Map the buttons and joystick to your workflow, and keep your pinned chats in view.
+>
+> Get yours before stock returns 410. https://t.co/MGQQ1ISW0l
+
+- **Tweet:** https://x.com/OpenAIDevs/status/2077425991790870644
+- **What:** OpenAI Developers and Work Louder introduce a compact programmable controller for Codex-oriented work, pairing mappable buttons and a joystick with a display layout intended to keep pinned coding conversations accessible during a workflow.
+
+## @danielfazio - YouTube lead magnets drive 10–20% download rates
+> Making YouTube videos with lead magnets is easily top 5 growth strategy right now
+>
+> 17% lead magnet download rate on this video right now.
+>
+> Generally hangs between 10-20% for me https://t.co/FvB8EDUDdr
+
+- **Tweet:** https://x.com/danielfazio/status/2077411144118026394
+- **What:** Daniel Fazio presents YouTube-attached lead magnets as a high-performing acquisition channel, citing a current 17% download rate and a recurring 10–20% range that makes video viewers a promising path into an owned email funnel.
+
+## @emilkowalski - emilkowalski/skills adds an animation-opportunity audit
+> New skill: /find-animation-opportunities
+>
+> Search your UI for places that would genuinely benefit from motion, while also telling you what not to animate.
+>
+> https://t.co/zEnLEjkvIp
+
+- **Tweet:** https://x.com/emilkowalski/status/2077404975555031509
+- **Link:** https://github.com/emilkowalski/skills
+- **Filed:** [emilkowalski-skills.md](./knowledge/tools/emilkowalski-skills.md)
+- **What:** Emil Kowalski’s skills repository adds a targeted UI audit that identifies motion worth adding and elements that should remain static, helping agents apply animation selectively rather than turning every interface transition into visual noise.
+
+## @jason_koebler - Suno source-code leak exposes training corpus
+> Scoop: The AI music generator Suno was hacked. Hacker shared source code that shows how the tool was made and part of the music and podcasts that were scraped to create it.
+>
+> Decades worth of music, lyrics, and podcasts from YouTube, Deezer, Genius & more https://t.co/iXpfCPNU7H
+
+- **Tweet:** https://x.com/jason_koebler/status/2077393545850409308
+- **What:** Jason Koebler reports that a Suno breach exposed source code and evidence of a broad scraped training corpus, sharpening questions about how generative-music systems source copyrighted audio, lyrics, and podcast material.
+
+---
+
+# Tuesday, July 14, 2026
+
+## @brian_blum1 - Pre-sales education improves close rates
+> built and sold a company off this thesis
+>
+> *Quoting @AlexHormozi:* You will increase your sales and close rates more by perfecting what the person consumes before they talk to you than perfecting what you say after.
+
+- **Tweet:** https://x.com/brian_blum1/status/2077163177054527498
+- **Quoted:** https://x.com/AlexHormozi/status/2077071877105938682
+- **What:** Brian Blum endorses Alex Hormozi's premise from personal exit experience: stronger pre-call materials can improve sales outcomes by shaping a prospect's understanding before a conversation, rather than relying chiefly on a rep's live pitch.
+
+## @tellenne_ - Lean AI marketing stacks for high-revenue startups
+> I know at least 20 startups that are using only claude, tokportal and seedance to run their entire marketing, and 5 of them are 100K+ MRR
+
+- **Tweet:** https://x.com/tellenne_/status/2077156812323729765
+- **What:** Vincent reports that a small stack of Claude, Tokportal, and Seedance can support a startup's full marketing operation, citing several businesses above $100,000 in monthly recurring revenue as anecdotal evidence.
+
+## @morganlinton - Regular GitHub repository backups with ghorg
+> I'm going to just start doing a little public service for my fellow devs, and remind you all to backup Github, every repo, regularly.
+>
+> If you've never done this, and haven't done it in a while, there's a really neat open source tool called ghorg you can use.
+>
+> I am not associated with this tool in any way, I just think it's neat, and it's free. Link to repo in first comment below.
+>
+> And seriously, backup today if you haven't done it in a while, it doesn't take long to do!
+
+- **Tweet:** https://x.com/morganlinton/status/2077119086749000102
+- **What:** Morgan Linton recommends routine backups of every GitHub repository and points developers to ghorg, an open-source utility for cloning organizations, as a simple hedge against avoidable repository loss.
+
+## @actuallyvetted - AI leverage for creator-led service businesses
+> https://t.co/6f1WlGTGwS
+
+- **Tweet:** https://x.com/actuallyvetted/status/2077109780498227601
+- **Link:** https://x.com/i/article/2077106000092385280
+- **Filed:** [how-creators-can-actually-grow-their-business-with-ai.md](./knowledge/articles/how-creators-can-actually-grow-their-business-with-ai.md)
+- **What:** This interview frames AI as operational leverage rather than a standalone business: practitioners should sell a narrowly scoped transformation, build research-heavy knowledge bases, and earn autonomy through supervised iteration.
+
+## @codyschneider - Meta Andromeda targeting for B2B ads
+> this feels illegal to know
+>
+> facebook ads are the best performing channel for B2B right now
+>
+> andromeda is so good at finding your target customer
+>
+> if the ad and the landing page speak to the pain points / outcomes of your target customer
+>
+> it will find the right person
+>
+> then the conversion event is a server side conversion api
+>
+> that auths the company
+
+- **Tweet:** https://x.com/codyschneider/status/2077090795232821685
+- **What:** Cody Schneider argues that Meta's Andromeda targeting can locate B2B buyers when pain-focused creative and landing pages are paired with server-side Conversion API events that authenticate a prospect's company.
+
+## @random_walker - ICML Keynote on AI, Work, and Recursive Self-Improvement
+> 1) If you haven't read AI as Normal Technology, these annotated slides are probably the easiest way to get a high-level overview. https://t.co/vNgRJCKxi3
+>
+> 2) If you're already familiar with the core ideas, Part 1 of the talk is largely a summary of what I and @sayashk have already written, while Parts 2 and 3 have new ideas. There are a lot of unexamined assumptions in the discourse about Recursive Self-Improvement and I hope you find my pushback interesting.
+>
+> 3) I'm really grateful to the team (@steverab @sayashk @PKirgis & Felix Chen) for feedback on the talk. In my first version, Part 2 was about 3x too long and I was super frustrated with myself. They encouraged me to cut it down ruthlessly and turn the full version into essays on the newsletter, so that's what I plan to do! (https://t.co/ZwebetjZ4n)
+>
+> 4) I've received a few requests for the video. There's a video on the ICML website, but it is login-walled https://t.co/rYHlxPGEXY (I assume it's for ICML registrants only). Last year's videos are public, so presumably @icmlconf will make it public at some point.
+>
+> *Quoting @random_walker:* I had the honor of giving a keynote at the International Conference on Machine Learning in Seoul last week titled “What will be left for us to work on?” I addressed the widespread anxiety about how we should adapt as AI capabilities increase. I was thrilled by the talk’s reception, so I have made my slides available, annotated with a lightly edited transcript: https://t.co/vNgRJCL57B
+>
+> I made three arguments. First, the "AI as Normal Technology" framework is a correct and useful as a way to think about AI’s impacts, unless and until there is some future discontinuity such as through recursive self-improvement. Second, even though we should take recursive self-improvement seriously, there is no milestone that companies might achieve in the lab that will suddenly put us all out of work. Third and finally, jobs of the future will be radically different, and a lot of adaptation will be needed. I shared my thinking about what this might look like and ended with a vision of human/AI “co-superintelligence”.
+
+- **Tweet:** https://x.com/random_walker/status/2076994014692229601
+- **Link:** https://www.cs.princeton.edu/~arvindn/talks/icml-2026-annotated-slides/
+- **Quoted:** https://x.com/random_walker/status/2076747808452083744
+- **Filed:** [what-will-be-left-for-us-to-work-on](./knowledge/articles/what-will-be-left-for-us-to-work-on.md)
+- **What:** Narayanan’s annotated ICML keynote applies the AI-as-normal-technology framework to work and recursive self-improvement, arguing against a single lab milestone that abruptly eliminates jobs while calling for serious adaptation to a radically changed human–AI division of labor.
+
+---
+
+# Monday, July 13, 2026
+
+## @anothercohen - Calling Out AI-Assisted Workslop
+> A slide from our last all hands.
+>
+> I've also started to call out this behavior publicly in Slack channels.
+>
+> Tired of consuming workslop https://t.co/lJLX0nBwdL
+>
+> *Quoting @tednotlasso:* best friend is a PM and is back at work after 5 months maternity leave
+>
+> she is shocked at how many coworkers / partners have outsourced critical thinking and now copy pasta claude
+>
+> “feels like they’re not using their brain, very frustrating” https://t.co/LN4wWrfUYT
+
+- **Tweet:** https://x.com/anothercohen/status/2076872013570814405
+- **Quoted:** https://x.com/tednotlasso/status/2076780975581794526
+- **What:** Cohen turns a returning PM’s observation about colleagues copying AI output into an organizational norm: teams should challenge low-effort, unexamined work instead of allowing AI assistance to replace the judgment and critical thinking that collaboration requires.
+
+## @doodlestein - FrankenSim’s Agent-First Physics Design Ambition
+> This project is just getting more and more wildly ambitious. At this rate, it will soon be a full-fledged, agent-first replacement for SolidWorks or Autodesk Fusion, but with way more knowledge of physics and a much more advanced architecture based on the math of sheaf cohomology.
+>
+> And more importantly, designed from the ground up to be used by agents instead of by human users in a GUI.
+>
+> And instead of using the system to conceptualize, implement, and simulate a single design, a swarm of agents could explore a universe of designs.
+>
+> My dream with this now is that I can use it to shepherd the design of a radically better electric motor or generator or other useful contraption using completely new ideas and designs, and then test it in the real world (anyone have a line on a good metal 3D printer?).
+>
+> Imagine a team of 20 Sol Ultra and 20 Fable Max agents working together for a few weeks with a bunch of fast computers to "find" a better design in the vast computational landscape of possible designs, guided by an optimization pipeline that is only possible because of the unification of the various simulation kernels into a coherent system.
+>
+> *Quoting @doodlestein:* OK, here is the final expansion plan after many reviews by Fable and Sol. Now turning it all into beads:
+>
+> https://t.co/n0UYYUWpbf
+
+- **Tweet:** https://x.com/doodlestein/status/2076813600392400938
+- **Link:** https://github.com/Dicklesworthstone/frankensim/blob/main/COMPREHENSIVE_PLAN_TO_EXTEND_FRANKENSIM_TO_NEW_DOMAINS.md
+- **Quoted:** https://x.com/doodlestein/status/2076804964744155142
+- **Filed:** [frankensim](./knowledge/tools/frankensim.md)
+- **What:** FrankenSim is envisioned as an agent-native simulation and optimization substrate where many agents can search physical design spaces together; the expansion plan extends its existing deterministic geometry, numerical, and physics infrastructure toward a future engineering workflow beyond a conventional CAD GUI.
+
+## @josbjohnson - Deliberate Effort Against Ordinary Outcomes
+> you must believe you are special and then go so hard, for so long, with such violent refusal to accept any other ending, that reality itself starts running out of ways to tell you no. you must wage a war daily against the ordinary outcome, until the belief you invented out of nothing in a room by yourself has been hammered into the world so many times that it stops being a claim and becomes reality.
+
+- **Tweet:** https://x.com/josbjohnson/status/2076653961407300070
+- **What:** A motivational account of sustained agency: exceptional outcomes arise less from a single insight than from repeatedly acting on an ambitious belief until persistence, iteration, and accumulated evidence make the once-unlikely result concrete.
+
+## @badlogicgames - Codebases as Durable Working Memory
+> i get asked what memory system i use often. my answer has always been: my codebase is my memory system.
+>
+> *Quoting @mattpocockuk:* 1. Delete the docs you create to explain your code
+>
+> 2. Take the tokens you save on updating those docs
+>
+> 3. Spend them on making your code self-explanatory
+
+- **Tweet:** https://x.com/badlogicgames/status/2076638642529800396
+- **Quoted:** https://x.com/mattpocockuk/status/2076596585069174925
+- **What:** Zechner endorses the premise that readable, well-structured source is a team’s most reliable institutional memory, reinforcing Pocock’s argument to invest documentation effort in code clarity rather than in explanatory material that drifts out of date.
+
+## @nohitjerome - Game Mastery as Scholarship Eligibility
+> WoW players can now get $15,000 in scholarships from the University of Silicon Valley, but you'll need to complete an achievement first.
+>
+> "Ultra-rare accomplishments requiring 500+ hours of sustained mastery across complex systems (typically <1% global completion rate)."
+>
+> The achievement you need to qualify? Keystone master..
+>
+> *Quoting @Dexerto:* The University of Silicon Valley is offering a Minecraft scholarship
+>
+> The college will give a $15,000 scholarship if all 115 advancements are completed https://t.co/MyA5pnVW1q
+
+- **Tweet:** https://x.com/nohitjerome/status/2076560381200248867
+- **Link:** https://twitter.com/Dexerto/status/2076230896877719615
+- **Quoted:** https://x.com/Dexerto/status/2076230896877719615
+- **What:** The bookmark juxtaposes scholarship eligibility tied to difficult gaming achievements: Jerome notes World of Warcraft's Keystone Master requirement, while Dexerto reports the same university's $15,000 Minecraft award for completing all 115 advancements, formalizing sustained game mastery as an admissions-relevant credential.
+
+---
+
+# Sunday, July 12, 2026
+
+## @LexnLin - How To Actually Design With AI
+> https://t.co/TW0aIfhuGO
+
+- **Tweet:** https://x.com/LexnLin/status/2076422557180608888
+- **Link:** https://x.com/i/article/2076327982847647744
+- **Filed:** [how-to-actually-design-with-ai](./knowledge/articles/how-to-actually-design-with-ai.md)
+- **What:** Leon Lin shares a practical design-with-AI framework that assigns people ownership of product meaning, taste, and reference selection, while using coding models to implement constrained components; it compares rapid design skills, deliberate component work, and curated inspiration boards as progressively more intentional workflows.
+
+## @levikov - AI Persona Affiliate Playbook Targeting Older Consumers
+> I run fake AI people that target elderly Americans and I make more money than this guy ever did ($70M in 12 months)
+>
+> He's on a Delta flight to Cleveland in handcuffs right now facing 20 years. I slept til noon.
+>
+> The difference between a federal crime and a $70M business is one word. The word is SELL.
+>
+> He used AI to BUILD TRUST then TAKE MONEY and give nothing back. I use AI to build trust then SELL PRODUCTS that actually work. His 74 year old victim wired $40,000 to a fake boyfriend and got a broken heart. My 74 year old customer bought $34 of magnesium from a fake grandmother and got her knees back.
+>
+> Identical tools. He's going to prison and I'm running the most profitable business model on the internet.
+>
+> STEP 1: BUILD A FAKE PERSON ($99/mo)
+>
+> Heygen or google flow. Generate a warm, realistic grandmother. A retired nurse. A calm woman in her early 60s sitting in a kitchen with soft lighting and a ceramic mug. Lock her face, her background, her outfit, and never change a single element. The consistency is the weapon. Within 14 days of daily content her audience's brain stops questioning whether she's real and starts filing her next to their actual friends.
+>
+> STEP 2: CLONE A REAL GRANDMOTHER'S VOICE ($300 one time)
+>
+> Find a real 60+ year old woman on fiverr. Pay her $300 for 60 minutes of varied audio. Conversational rambling, product demonstrations, emotional variations. Run it through elevenlabs professional voice cloning at $99/mo.
+>
+> Do NOT skip this. Default AI voices get clocked by women over 50 in four seconds flat. The uncanny valley kills your page silently and you'll never know why the views are there but the comments aren't. The cloned voice is the difference between a page that dies at 3,000 followers and one that compounds past 300,000.
+>
+> She thinks she recorded a wellness audiobook. She signed a release. She got paid. That's the entire ethics of it and it's cleaner than what every call center in America does to the same demographic eight hours a day.
+>
+> STEP 3: THE CONTENT RATIO THAT TRIGGERS FREE DISTRIBUTION
+>
+> 4 useful videos for every 1 product video. Strict. No exceptions.
+>
+> "The one mineral most women over 50 are dangerously low on."
+> "Why your knees crack every time you stand up and what to do about it."
+> "3 signs your magnesium is garbage."
+> "What your doctor won't say about joint pain after 55."
+>
+> Zero selling in the value videos. Pure information. The algorithm sees high watch time, high saves, zero commercial intent, and pushes the content 5-20x harder than anything with a product link. That free amplification is worth $40,000-$80,000 a month in equivalent ad spend and the platform GIVES it to you because your content keeps their users on the app.
+>
+> His content was love letters that triggered an FBI investigation. Yours is health education that triggers the algorithm's paid promotion engine.
+>
+> STEP 4: SELL SOMETHING REAL
+>
+> The one step that separates a business from a crime, and this moron couldn't figure it out.
+>
+> Amazon affiliate. Tiktok shop. Or a $9 digital PDF you write once in google docs at 100% margin.
+>
+> Pick consumable products. Magnesium glycinate for sleep. Turmeric curcumin for joints. Collagen peptides for skin. Probiotic gummies for gut health. Compression socks for circulation. Every single one of these products WORKS. The buyer takes it, feels better, reorders every 30 days, forever. You earn commission on every reorder without posting a single new video.
+>
+> The scammer's "product" was a fake emergency. "Baby I need $5,000 for surgery." His customer got nothing and lost everything. Your customer gets a supplement that actually helps her knees and tells her sister about it in the church parking lot on Sunday.
+>
+> STEP 5: THE 8:47PM CART EXPLOIT
+>
+> Nobody in the AI character space has figured this out yet and it's worth more than steps 1-4 combined.
+>
+> Amazon pays you commission on EVERYTHING a person buys within 24 hours of clicking your link. Not just your product. Her entire cart. Every item. For 24 hours.
+>
+> The demographic you're targeting (women 38-65) shops in a specific pattern. She browses Amazon throughout the day. Adds to cart. Doesn't buy. After dinner, kids handled, husband watching TV, she sits on the couch between 8:30 and 9:30pm and empties the cart. This is the checkout window. The single hour when more Amazon purchases happen from this demographic than any other hour of the day.
+>
+> Post your product video at 8:47pm EST. She sees it at 8:50. Clicks the link. Cookie activates. She browses for 10 minutes. Then checks out everything in her cart at 9:15.
+>
+> Your commission on the $14 magnesium you recommended: $0.56.
+> Your commission on the $340 of kitchen tools, gifts, and household supplies already in her cart: $13.60.
+> Same video. Same click. 24x more revenue because you posted at the right hour.
+>
+> Post the same video at 2pm and she clicks, buys only the magnesium (nothing else in cart yet), you get $0.56. Timing alone is worth a 24x multiplier and nobody posting "how to make money with AI" on this app has ever mentioned it.
+>
+> STEP 6: COMMENT-TO-DM AT 31-41% CLICK THROUGH
+>
+> Meta Business Suite. Free. Keyword trigger on every video.
+>
+> Grandmother says "comment SLEEP and I'll send you my nighttime routine." Viewer comments. System auto-DMs a 4-message flow ending in an Amazon idea list with 8-14 products.
+>
+> Email marketing gets 4% click through on a good day. SMS gets 19%. This gets 31 to 41%. It takes 23 minutes to set up once and runs on every video you ever post, forever, while you sleep.
+>
+> STEP 7: THE FULL MATH
+>
+> One video. 400,000 views. 2,000 keyword comments.
+>
+> 35% click the DM link = 700 idea-list visits
+> 40% add to cart = 280 checkout events
+> Average commission with 24-hour cart spillover = $14.20 per checkout
+> Total from one video: $3,976
+>
+> The scammer needed a victim, a fake love story, weeks of grooming, a wire transfer, and a money laundering network to clear less than that per target. You need a $99 subscription and a grandmother who tells the truth about turmeric.
+>
+> Stack 6 characters across 6 demographics:
+>
+> Character 1: joint health grandmother (supplements, $22-68/product)
+> Character 2: sleep wellness elder (magnesium, weighted blankets, $14-45/product)
+> Character 3: kitchen grandmother (cookware, gadgets, $18-120/product)
+> Character 4: skincare advisor for postpartum moms (clean beauty, $24-68/product)
+> Character 5: retirement lifestyle page for boomers (travel gear, hobby kits, $22-94/product)
+> Character 6: pet health page (supplements, beds, anxiety products, $16-55/product)
+>
+> Each character: $99/mo heygen + $99/mo elevenlabs + $15/mo meta business suite = $213/mo
+> Six characters: $1,278/mo total operating cost
+> Revenue at scale: $180,000 to $300,000/mo combined
+> Net margin: 99.5%
+>
+> Frederick Kumi made $8M over multiple years running a criminal enterprise with co-conspirators across two continents. He's now facing 20 years in federal prison under the Elder Abuse Prevention and Prosecution Act. His Lamborghini is seized. His accounts are frozen. His lawyer couldn't even get to the courthouse before Ghana put him on a Delta flight.
+>
+> The legal version of his exact business does $70M+ and the operators running it have never received a single legal notice, because there's nothing to notice. The products are real. The buyer is happy. The commission is clean. The IRS gets its cut. Nobody gets robbed.
+>
+> He had the most powerful trust-building technology ever created and used it to STEAL a one-time $8M when the same tool prints LEGALLY, FOREVER, with zero victims and zero co-conspirators and zero Delta flights to Cleveland.
+>
+> The guy is not a criminal genius. He's a criminal idiot. He committed a 20-year felony to underperform a legal business that was sitting right next to him the entire time.
+>
+> I built the system the legal version runs on. $70M+ in tracked GMV across our operator network. Not a screenshot, not a projection, an audit trail with names on it that nobody else in this space can put on the table because nobody else has done the work.
+>
+> ap3x. 1:1 coaching directly into the operation. Not a course. Not a community. Link in bio, fill out the form. We hand pick and we reject most people. Applying costs you two minutes and the admission that watching this from the sidelines was never the plan.
+>
+> He needed the world to watch him win. That's exactly why he's in handcuffs and you've never heard of the operators who beat him legally by a factor of ten.
+>
+> *Quoting @BBCWorld:* Ghanaian influencer extradited to US over $8m scam targeting elderly Americans https://t.co/X7I2xYofUf
+
+- **Tweet:** https://x.com/levikov/status/2076388445644013896
+- **Link:** https://www.bbc.com/news/articles/cz75zp9752do?xtor=AL-71-%5Bpartner%5D-%5Bbbc.news.twitter%5D-%5Bheadline%5D-%5Bnews%5D-%5Bbizdev%5D-%5Bisapi%5D&at_bbc_team=editorial&at_link_type=web_link&at_ptr_name=twitter&at_campaign_type=owned&at_link_origin=BBCWorld&at_link_id=431A3C1E-7BB6-11F1-B160-C97CCBD47076&at_medium=social&at_format=link&at_campaign=Social_Flow
+- **Quoted:** https://x.com/BBCWorld/status/2075261269481787828
+- **Filed:** [ghanas-abu-trica-extradited-to-us-over-elderly-scam](./knowledge/articles/ghanas-abu-trica-extradited-to-us-over-elderly-scam.md)
+- **What:** Levkov contrasts the BBC-reported alleged $8 million romance scam with a purported “legal” affiliate model built on persistent AI personas, cloned voices, and behavioral targeting; while it claims delivered products distinguish commerce from fraud, the playbook still raises serious consent, medical-marketing, and manipulation concerns for older audiences.
+
+## @GavinSBaker - Cheaper Models Could Shift AI Economics to Infrastructure
+> The mega bull case for AI infrastructure would be *if* market share shifted away from certain frontier labs with 90%+ inference margins toward cheaper models, whether open-source or closed.
+>
+> It would increase the ROI on AI spend for end customers by increasing intelligence per dollar, which would drive incremental token demand. Margin dollars would effectively get redistributed from the frontier labs to AI infrastructure providers. The infra winners would be those with the lowest per token cost and the winners at the model layer would be those with the highest token efficiency.
+>
+> There are many reasons Jensen is so focused on open source, but this is likely the most important one as I think he is probably less worried about a monopsony these days. Lower margin % at the model layer = more margin $ at the infra layer all else equal.
+>
+> With SpaceX and Meta being vertically integrated and possessing the #3 and #4 models respectively it is more possible than ever. Note that Grok 4.5 is ahead of Fable for some useful tasks at a much lower cost, so ranking them #3 is conservative.
+>
+> This is not happening yet. Cheap, mostly open source tokens are likely the majority of volume today but the majority of economic value is still accruing to the most intelligent models. Might change though.
+>
+> We will see.
+>
+> *Quoting @michaeljburry:* This is true as I have heard this from contacts in the Valley. Goes with my pinned post.
+>
+> The AI race is shifting from bigger models to cheaper, smarter systems https://t.co/lS1YKxkjl0
+
+- **Tweet:** https://x.com/GavinSBaker/status/2076369936251851091
+- **Link:** https://www.cnbc.com/2026/07/10/the-ai-race-is-shifting-from-bigger-models-to-cheaper-smarter-systems.html
+- **Quoted:** https://x.com/michaeljburry/status/2075834571581456649
+- **Filed:** [the-ai-race-is-shifting-from-bigger-models-to-cheaper-smarter-systems](./knowledge/articles/the-ai-race-is-shifting-from-bigger-models-to-cheaper-smarter-systems.md)
+- **What:** Gavin Baker extends the linked shift toward task-specific, cost-sensitive model selection into an investment thesis: if model competition compresses frontier-lab inference margins, token demand and profits could move toward the lowest-cost infrastructure and most token-efficient model providers.
+
+---
+
+# Saturday, July 11, 2026
+
+## @jonwu_ - Firecrawl's Credit-for-Engagement Onboarding
+> AI is discovering crypto GTM from first principles
+>
+> *Quoting @coreyhainesco:* Genius onboarding move by Firecrawl 🤯
+>
+> They're rewarding users with free credits by doing basic things like starring their GitHub repo, following on social media, and joining their community. https://t.co/m9lg0dfa21
+
+- **Tweet:** https://x.com/jonwu_/status/2076108386631114837
+- **Link:** https://twitter.com/coreyhainesco/status/2076010388324589925
+- **Quoted:** https://x.com/coreyhainesco/status/2076010388324589925
+- **What:** Jon Wu frames Firecrawl's reward-for-engagement funnel as AI rediscovering crypto-style growth loops: credits compensate users for public distribution actions, turning onboarding into measurable community acquisition rather than a passive product tour.
+
+## @leodev - Dither Kit converts existing charts to dithered components
+> Guys I'm addicted to it
+>
+> I'm having Fable analyze all my projects and find any charts I have in them and rewrite them to use dither kit.
+>
+> Also his launch post went really viral, and he's a cool guy in general.
+>
+> Give him a follow if you haven't already!
+>
+> *Quoting @grimcodes:* introducing dither-kit
+>
+> a library of gorgeous dithered charts built from the ground up,
+>
+> no dependencies, they're built on top of a tiny &lt;canvas&gt; engine
+>
+> install it today at https://t.co/VDuqFXY4jX https://t.co/MNY6iRp1FV
+
+- **Tweet:** https://x.com/leodev/status/2076106516420329593
+- **Link:** https://www.tripwire.sh/dither-kit
+- **Quoted:** https://x.com/grimcodes/status/2075780400199446966
+- **What:** Leo describes using Fable to locate and replace chart implementations across projects with Dither Kit, reinforcing grimcodes' launch of a dependency-free canvas library that supplies dithered chart components for shadcn/ui.
+
+## @samhogan - Inference AutoTune for task-specific small models
+> We're releasing Inference AutoTune
+>
+> Distill any frontier model into a 1-30B parameter task-specific SLM with only 25 lines of code
+>
+> automatically route requests to reduce cost and latency by &gt;90%
+>
+> ~2 hours and &lt;$250 to train. You own the weights
+>
+> Available in private beta today https://t.co/twwQWwMfof
+
+- **Tweet:** https://x.com/samhogan/status/2076044602554159240
+- **What:** Sam Hogan announces a private beta for Inference AutoTune, which is positioned as a short-code workflow for distilling frontier-model behavior into owned 1–30B task-specific models and routing requests to lower inference cost and latency.
+
+## @0xSero - tailscale-mullvad-toggle for local exit-node switching
+> For any homelab friends. Tailscale + mullvad here’s a repo to help if you’re on Mac https://t.co/tKkjenTCvP
+>
+> *Quoting @MiaAI_lab:* @ivanfioravanti @cursor_ai Use Mullvad vpn
+
+- **Tweet:** https://x.com/0xSero/status/2076021208169033938
+- **Link:** https://github.com/0xSero/tailscale-mullvad-toggle
+- **Quoted:** https://x.com/MiaAI_lab/status/2076015172305506717
+- **Filed:** [tailscale-mullvad-toggle](./knowledge/tools/tailscale-mullvad-toggle.md)
+- **What:** 0xSero turns a brief recommendation to use Mullvad into a homelab-focused macOS utility that discovers Tailscale's Mullvad exit nodes and toggles them locally through a CLI or SwiftBar menu-bar control.
+
+---
+
 # Friday, July 10, 2026
 
 ## @every - Tend’s self-improving AI work queues
@@ -8766,8 +10105,26 @@ I have 200+ skills, and you want me to import 20+ of your slop skills, on the sa
 - **Tweet:** https://x.com/mattpocockuk/status/2075495703028142364
 - **What:** Matt Pocock proposes a dedicated CLI for installing AI-agent skills, framing skills as dependency-managed, agent-specific packages that can be safely updated even after users customize them.
 
----
+## @dkfromdk - AI’s Biggest Winners Have the Lowest Margins
+> https://t.co/biv19e804C
 
+- **Tweet:** https://x.com/dkfromdk/status/2075696599242821979
+- **Link:** https://x.com/i/article/2075696085017006080
+- **Filed:** [ai-biggest-winners-lowest-margins](./knowledge/articles/ai-biggest-winners-lowest-margins.md)
+- **What:** This essay argues that AI's largest near-term profit gains may accrue to low-margin, labor-heavy businesses by automating the scheduling, dispatch, approvals, exceptions, and other coordination work that inflates their operating costs.
+
+## @muratcan - Agent prompting behind a public math proof
+> The prompt engineering here is super impressive!
+>
+> Such a great example of agent prompting: https://t.co/XsLpoESHfd
+>
+> *Quoting @polynoamial:* GPT-5.6 Sol Ultra produced a proof of a 50 year old math conjecture. Unlike the Erdős Unit Distance Problem, this was done with a model publicly available *today*. I look forward to seeing what scientists and researchers are able to do with this model!
+
+- **Tweet:** https://x.com/muratcan/status/2075669948815290756
+- **Quoted:** https://x.com/polynoamial/status/2075646048425431469
+- **What:** Muratcan highlights the prompting behind Noam Brown's claim that a publicly available GPT-5.6 Sol Ultra proved a 50-year-old mathematical conjecture, treating the result as a notable example of agent-prompt design rather than model capability alone.
+
+---
 # Thursday, July 9, 2026
 
 ## @doodlestein - Dueling Idea Wizards for Adversarial Project Ideation
