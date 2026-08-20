@@ -39602,6 +39602,1528 @@ Oh, and RIP billable hours.
 
 ---
 
+# Tuesday, December 23, 2025
+
+## @Hesamation - Claude Code Creator’s Engineering Principles
+> this recent interview from the creator of Claude Code has so much value. he shares a few golden tips with the ai engineers and developers:
+> > build for “latent demand”, not wishful behavior. look for what users already try to do then formalize it into a product.
+> > don’t build for the model of today, build for the model 6 months from now.
+> > become generalists. the highest value engineers can not only code, but can also do lightweight PM/design/user research.
+> > treat ai code just the same as human code. if it’s not mergable, iterate until it’s up to the standards. don’t cut corners.
+> > automate the recurring pains. if you see the same review comment 2–3 times, write a lint rule. if a prod issue repeats, build tooling and infra to prevent it.
+>
+> he explains each step of his career, and through his experience you can learn a lot. he particularly talks about how side projects shaped his career and how to pick the right projects. give it a full watch and enjoy.
+
+- **Tweet:** https://x.com/Hesamation/status/2003579694428618889
+- **What:** Hesam’s recap of an interview with Claude Code’s creator emphasizes building for observed demand and future model capability, maintaining production standards for AI-generated code, and converting recurring engineering failures into durable automation.
+
+## @BharukaShraddha - AI-Project-Gallery’s End-to-End Example Collection
+> This GitHub repo isn’t a tutorial dump.
+> It contains 28 production-ready AI projects you can actually use.
+>
+> Here’s what you’ll find inside:
+>
+> Machine Learning Projects
+> → Airbnb price prediction
+> → Flight fare calculator
+> → Student performance tracker
+>
+> AI for Healthcare
+> → Chest disease detection
+> → Heart disease prediction
+> → Diabetes risk analyzer
+>
+> Generative AI Applications
+> → Live Gemini chatbot
+> → Working medical assistant
+> → Document analysis tool
+>
+> Computer Vision Projects
+> → Hand tracking system
+> → Medicine recognition app
+> → OpenCV implementations
+>
+> Data Analysis Dashboards
+> → E-commerce insights
+> → Restaurant analytics
+> → Cricket performance tracker
+>
+> And 10 advanced projects coming soon:
+> → Deepfake detection
+> → Brain tumor classification
+> → Driver drowsiness alert system
+>
+> This isn’t just code files.
+> These are end-to-end, working applications.
+>
+> Explore the repo here:
+> https://t.co/2uQ4nvoKVq
+>
+> Save it for later.
+> Repost ♻️ if you’re building with AI.
+>
+> Check my profile for more AI resources 👋
+
+- **Tweet:** https://x.com/BharukaShraddha/status/2003533177349181869
+- **Link:** https://lnkd.in/gNkDJTMD
+- **Filed:** [AI-Project-Gallery](./knowledge/tools/ai-project-gallery.md)
+- **What:** AI-Project-Gallery is presented as a broad repository of 28 end-to-end examples across ML prediction, healthcare, generative AI, computer vision, and analytics, with several advanced detection and classification projects planned.
+
+## @jackclarkSF - Frontier AI’s Invisible Acceleration
+> https://t.co/LmpEfSs06w
+
+- **Tweet:** https://x.com/jackclarkSF/status/2003526145380151614
+- **Link:** https://x.com/i/article/2003524000039981057
+- **Filed:** [Silent Sirens, Flashing For Us All](./knowledge/articles/silent-sirens-flashing-for-us-all.md)
+- **What:** Jack Clark uses a rapid Claude Code-built simulation to illustrate how frontier capability can feel startlingly powerful to active users while remaining mostly unseen by everyone else, creating a widening AI-economy divide.
+
+## @JayaGup10 - Context Graphs as Decision Systems of Record
+> https://t.co/uPXcTUEsnc
+
+- **Tweet:** https://x.com/JayaGup10/status/2003525933534179480
+- **Link:** https://x.com/i/article/2003525085420744704
+- **Filed:** [AI’s Trillion-Dollar Opportunity: Context Graphs](./knowledge/articles/ais-trillion-dollar-opportunity-context-graphs.md)
+- **What:** This essay proposes that agent orchestration systems can capture decision traces—context, rules, exceptions, approvals, and outcomes—and compound them into searchable context graphs that become systems of record for organizational reasoning.
+
+## @eptwts - Validate SaaS Opportunities Through Agency Work
+> if you have to grind your ass off to get to $10k MRR with your saas...
+>
+> you should be running an agency, not a saas
+>
+> saas a its core is just automating a specific process
+>
+> the best way to figure out how these processes actually work, is to automate them for clients who know their industry way better than you & this way you can see whats useful, what biz owners will pay for, etc.
+>
+> only THEN, will you know how these processes work & which automations are worth productizing
+>
+> it's 10x easier to get to $10k/month with a service instead of software & you'll also learn 10x more
+>
+> *Quoting @eptwts:* pro tip: mute every indie hacker you see on your timeline
+
+- **Tweet:** https://x.com/eptwts/status/2003449730668650719
+- **Quoted:** https://x.com/eptwts/status/2003172409579618642
+- **What:** EP argues that founders should begin with an agency to learn customers’ real workflows and paid pain points, then productize the repeatable automations rather than struggling to invent an unvalidated SaaS market.
+
+---
+
+# Monday, December 22, 2025
+
+## @camillericketts - AI as the next material for reorganizing knowledge work
+> One of the most beautifully written pieces about AI and knowledge work.
+>
+> *Quoting @ivanhzhao:* https://t.co/fxHYR6S29D
+
+- **Tweet:** https://x.com/camillericketts/status/2003303650966573207
+- **Link:** https://x.com/i/article/2003183155121963008
+- **Quoted:** https://x.com/ivanhzhao/status/2003192654545539400
+- **Filed:** [steam-steel-and-infinite-minds](./knowledge/articles/steam-steel-and-infinite-minds.md)
+- **What:** Camille Ricketts endorses Ivan Zhao's historical argument that AI should be treated as an abundant new production material: once organizations consolidate context and can verify work, agents could reshape individual leverage, company coordination, and the scale of the knowledge economy.
+
+## @rywalker - Practitioners to follow for AI coding-agent workflows
+> some of the best content on ai coding agents right now:
+>
+> → @karpathy's recent takes on vibe coding workflows
+> → @swyx deep dives on agent architectures
+> → @alexalbert__ sharing claude's actual development process
+> → @mckaywrigley building full apps live on stream
+> → @benjaminakar crazy agent automations
+
+- **Tweet:** https://x.com/rywalker/status/2003162639619223779
+- **What:** Ry Walker curates five complementary sources on coding agents, spanning Karpathy's workflow ideas, swyx's architectural analysis, Alex Albert's Claude development observations, McKay Wrigley's live builds, and Benjamin Akar's automation experiments.
+
+## @benln - 2025's most frequently named AI products
+> Top results:
+>
+> 1) @cursor_ai - AI coding
+> 2) @claudeai - AI assistant
+> 3) @NotebookLM - AI research
+> 4) @WisprFlow - voice dictation
+> 5) @meetgranola - meeting notes
+> 6) @comet - AI browser
+> 7) @NanoBanana - AI images
+> 8) @ManusAI - general AI agent
+> 9) @Tesla - full-self driving
+>
+> *Quoting @benln:* Best AI product of 2025?
+>
+> All answers welcome, curious!
+
+- **Tweet:** https://x.com/benln/status/2003131453631254838
+- **Quoted:** https://x.com/benln/status/2002803087204086254
+- **What:** Ben Lang's informal prompt about 2025's best AI product produced a cross-category shortlist led by Cursor, Claude, and NotebookLM, illustrating how coding, research, dictation, meeting capture, browser, image, and agent tools were competing for mindshare.
+
+---
+
+# Saturday, December 20, 2025
+
+## @Ox3trance - Platforms for entry-level AI and vibe-coding gigs
+> Btw a lot of people dm’ed me about this, so it’s basically if you have any skills with AI nothing too intensive though.
+>
+> If you know how to use AI and also if you’re good in vibe-coding or other stuffs they’re sites where you can get temporary/permanent gigs depending on your level of expertise.
+>
+> I’ve made about $1k this month just completing few gigs because I’m still at a beginners level, this are three sites I currently use some have location restrictions depending on where you’re working from and stuff.
+>
+> You can search through the sites and see if you can get anything you have knowledge on
+>
+> https://t.co/2O9ceHGRCy
+> https://t.co/4x7RKwyDyi
+> https://t.co/9MD5Fev0r8
+>
+> If you have any issues or need me to explain anything in details you can always dm me.
+>
+> *Quoting @Ox3trance:* Gm gang :)
+>
+> Is this okay for a 3 hour gig ? https://t.co/VupBrzd1Qz
+
+- **Tweet:** https://x.com/Ox3trance/status/2002465620709781761
+- **Link:** https://work.mercor.com/explore
+- **Link:** https://mindrift.ai/
+- **Link:** https://app.outlier.ai/login?redirect_url=%2Fdashboard
+- **Quoted:** https://x.com/Ox3trance/status/2001184422607966455
+- **What:** Ox3trance turns a modest paid-gig result into a practical lead list for beginners with AI or vibe-coding skills, pointing to Mercor, Mindrift, and Outlier while acknowledging that available work, eligibility, and location restrictions vary by platform.
+
+## @Argona0x - Polymarket strategies for automated prediction-market trading
+> programmers are making $10k-200k monthly on polymarket
+>
+> here's how they actually do it
+>
+> ///
+>
+> 1. arbitrage bots
+>
+> buy YES + NO when combined price < $1
+>
+> example: YES at 48¢ + NO at 49¢ = 97¢ total
+>
+> you lock $0.03 profit per $1 no matter who wins
+>
+> trader "distinct-baguette" made $242k in 1.5 months doing this
+>
+> targets 15-min crypto markets where prices move fast
+>
+> python script polls API every 1-3 seconds, executes when sum < 99¢
+>
+> ///
+>
+> 2. statistical arbitrage
+>
+> find correlated markets that drift apart
+>
+> "trump wins" vs "GOP senate control" should move together
+>
+> when spread hits 4-7%, short expensive one, long cheap one
+>
+> close when they converge
+>
+> trader "sharky6999" made $480k scanning 100+ markets per minute
+>
+> ///
+>
+> 3. AI probability models
+>
+> train ML models to estimate real odds from news/social data
+>
+> if your model says 60% YES but market at 50¢, buy
+>
+> trader "ilovecircle" made $2.2M in 2 months with 74% accuracy
+>
+> uses ensemble of 10 AI models, retrains weekly
+>
+> ///
+>
+> 4. spread farming
+>
+> buy at bid (5¢), sell at ask (6¢), repeat
+>
+> or hedge across platforms (short polymarket, long binance)
+>
+> trader "cry.eth2" made $194k with 1M trades
+>
+> high-frequency loop via CLOB API
+>
+> ///
+>
+> 5. copy-trading automation
+>
+> mirror successful whale traders automatically
+>
+> scan profiles, execute proportional trades
+>
+> one bot made $80k in 2 weeks copying near-resolved markets
+>
+> ///
+>
+> tech stack:
+>
+> python + requests library for API calls
+>
+> web3-py for blockchain interactions deploy on VPS for 24/7 operation
+>
+> polymarket has REST APIs for everything:
+>
+> gamma markets API (prices/volumes)
+> CLOB API (place orders)
+> data API (track positions)
+>
+> ///
+>
+> starting point:
+>
+> > build simple arbitrage bot first
+> > fund with $100-1k for testing target high-volume markets (politics/crypto)
+> > expect 50-70% win rate but focus on positive EV
+
+- **Tweet:** https://x.com/Argona0x/status/2002391129870803306
+- **What:** Argona outlines a progression from mechanically hedged YES/NO contracts to statistical and model-driven trading, presenting Polymarket's market, order-book, and position APIs as the infrastructure for always-on experimentation rather than a guarantee of the cited returns.
+
+---
+
+# Friday, December 19, 2025
+
+## @karpathy - 2025 LLM Year in Review
+> https://t.co/Lb6T42n5jl
+
+- **Tweet:** https://x.com/karpathy/status/2002118205729562949
+- **Link:** https://x.com/i/article/2002114638226522112
+- **Filed:** [2025-llm-year-in-review](./knowledge/articles/2025-llm-year-in-review.md)
+- **What:** Andrej Karpathy’s year-end review identifies RLVR, jagged model intelligence, vertical LLM applications, local tool-using agents, vibe coding, and multimodal interfaces as the shifts that most changed how he understands the field in 2025.
+
+## @eptwts - Whop’s affiliate marketplace upgrade
+> i can’t lie, if i had to teach a beginner how to make money nowadays i’d just refer them to whop…
+>
+> not even tryna glaze but they’re making things super simple for everybody
+>
+> take this from someone who’s making a lot of money off their platform
+>
+> *Quoting @whop:* Affiliates on Whop got a massive upgrade.
+>
+> &gt; Improved discoverability to 30,000+ affiliates
+> &gt; Enhanced sales dashboard
+> &gt; 600 + active offers https://t.co/Ag99Vu9AQ4
+
+- **Tweet:** https://x.com/eptwts/status/2002113909411733765
+- **Quoted:** https://x.com/whop/status/2002099363053776967
+- **What:** EP’s recommendation for beginners to use Whop is grounded in the platform’s affiliate update, which adds discovery across more than 30,000 affiliates, a stronger sales dashboard, and hundreds of active offers for sellers to promote.
+
+## @AndrewCurran_ - AI displacement could upend the legal profession
+> Once it tips, it will happen fast. There will be attempts to outlaw the use of AI, but the economic incentives will be too powerful. Nations will have to figure out what to do with a wave of unemployed, formerly high-income members of the priestly caste who have no prospects. https://t.co/Eozy4FEuBq
+>
+> *Quoting @thomasknox:* I wrote about a barrister friend who spilled the beans, anonymously: AI is going to destroy the legal profession as we know it
+>
+> https://t.co/fJxaH9BRGX
+
+- **Tweet:** https://x.com/AndrewCurran_/status/2002062912828158340
+- **Link:** https://spectator.com/article/ai-will-kill-all-the-lawyers/
+- **Quoted:** https://x.com/thomasknox/status/2000853479103893825
+- **Filed:** [ai-will-kill-all-the-lawyers](./knowledge/articles/ai-will-kill-all-the-lawyers.md)
+- **What:** Andrew Curran extrapolates Sean Thomas Knox’s account of AI threatening the legal profession into a broader political-economic warning: market incentives may outrun attempted bans and leave governments confronting displacement among elite knowledge workers.
+
+## @jacob_posel - Agent Skills as an emerging AI platform layer
+> Just remember this in 5 months
+>
+> *Quoting @alexalbert__:* Agent Skills is now an open standard
+>
+> It's been great to see the traction Skills are already getting in the industry and this makes it easier for everyone to build and contribute to them🚀
+>
+> https://t.co/8SSD67MCNA
+
+- **Tweet:** https://x.com/jacob_posel/status/2002025925593256026
+- **Link:** https://agentskills.io/home
+- **Quoted:** https://x.com/alexalbert__/status/2001760879302553906
+- **What:** Jacob Posel’s “remember this” endorsement amplifies Alex Albert’s announcement that Agent Skills became an open standard, pointing to an ecosystem where reusable capability packages can be built and shared across AI agents.
+
+## @yegormethod - Cult mechanics for community retention
+> consulted for a guy doing $300k/mo from a discord server
+>
+> asked him how he keeps mass retention
+>
+> "I studied how cults prevent people from leaving"
+>
+> he pulled up notes on Epstein, NXIVM, Scientology
+>
+> I now use this for every client:
+>
+> The reason epstien was able to operate for so long without being incarcerated was the CULT he built...
+>
+> Here's how the best info sellers actually build cult-like followings that print:
+>
+> The identity hijack. Cults don't sell information. They sell belonging. Transformation of who you ARE
+>
+> Watch how the rich ones do it:
+>
+> You're not "buying a course." You're "becoming a [Brand] member"
+>
+> They give you titles. Ranks. You're now part of the "Inner Circle" or a "Certified [X]"
+>
+> Once your audience sees your tribe as part of their identity, leaving feels like cutting off a limb. Churn drops to almost nothing
+>
+> I implemented tiered status levels for a client's $97/mo community. Named them something exclusive. Gave progression paths
+>
+> Monthly churn dropped from 14% to 3%
+>
+> Same community. Same content. Different psychology
+>
+> The enemy creation. Every cult needs a villain. The outsiders. The non-believers. "Them"
+>
+> Your content needs a common enemy:
+>
+> "The 9-5 slaves who'll never understand us"
+>
+> "Fake gurus recycling garbage to desperate people"
+>
+> "The algorithm suppressing anyone who speaks real shit"
+>
+> Shared hatred bonds 10x faster than shared interest
+>
+> I shit on gurus constantly. Not because I hate them. Because it positions me as the alternative. The guy who "tells it how it is"
+>
+> Every time I attack someone, my DMs flood with "finally someone said it" followed by "how do I work with you"
+>
+> Controversy = customers...
+>
+> The sunk cost ladder. Cults escalate commitment slowly until leaving feels like burning years of investment
+>
+> Example backend
+>
+> Free content --> $27 ebook --> $97/mo community ---> $997 intensive --> $5k mastermind --> $15k/year inner circle
+>
+> By level 4 they've invested so much money and identity that quitting feels like admitting they were wrong about everything
+>
+> Most of you have ONE offer and nothing else. One product and you're done. Fucking stupid.
+>
+> The backend is where millionaires live. The frontend is where amateurs fight for scraps
+>
+> This life is available to anyone who studies how movements are built instead of how "courses" are sold...
+>
+> study the yegor method 🚬
+
+- **Tweet:** https://x.com/yegormethod/status/2001985889593930177
+- **What:** The post recasts coercive cult mechanics—identity fusion, shared enemies, status tiers, and escalating commitments—as a community-retention playbook, claiming that a client’s monthly churn fell from 14% to 3% while explicitly normalizing harmful methods.
+
+---
+
+# Thursday, December 18, 2025
+
+## @whotfiszackk - AI-assisted information products versus automation services
+> if i had zero skills and needed to make $12k-$15k/m in 2026, i'd ignore this BS and just learn how to use AI and sell digital products
+>
+> this n8n automation shit is good if you want to make $2k/month being someone's technical bitch
+>
+> but if you actually want $12k-$15k/month you need LEVERAGE not coding skills
+>
+> here's what i'd actually do with zero skills in 2026
+>
+> step 1: pick a niche that already spends money on education
+>
+> not "find your passion" or "what interests you"
+>
+> find people who are ALREADY buying courses, coaching, tools
+>
+> prediction market degens, ecom store owners, agency owners, fitness coaches, real estate agents
+>
+> these people have money and problems
+>
+> that's all you need
+>
+> step 2: learn their language by consuming their content for 48 hours
+>
+> spend 2 days reading their tweets, watching their youtube videos, joining their discords
+>
+> figure out what they complain about, what results they want, what objections they have
+>
+> you don't need to be an expert bro you just need to understand their pain better than they do
+>
+> step 3: use AI to build a $2k-$5k info product in 72 hours
+>
+> prompt claude or chatgpt to create course curriculum around their specific transformation
+>
+> "build a course that transforms struggling ecom owners from $5k/month to $20k/month in 90 days"
+>
+> AI generates modules, lessons, workbooks, templates - everything
+>
+> you just edit for personality and add specific examples
+>
+> entire course built in a weekend while the n8n guy is still debugging his workflow
+>
+> step 4: use AI to write all your marketing copy
+>
+> sales page, email sequences, ad hooks, social posts
+>
+> "write a sales page for this course using transformation positioning and premium pricing"
+>
+> AI spits out professional copy in 10 minutes
+>
+> you used to need to hire a $5k copywriter for this
+>
+> now it's free and takes less time than making coffee
+>
+> step 5: launch with basic funnel and manual outreach
+>
+> you don't need fancy automations yet bro you need CUSTOMERS
+>
+> dm 100 people in your niche with actual value
+>
+> "saw you're at $5k/month with your store, built a framework that got [specific result], want the breakdown?"
+>
+> close 3-5 people at $2k each = $10k in first 2 weeks
+>
+> step 6: use revenue to scale and automate
+>
+> now you have proof and cash flow
+>
+> build better funnels, run ads, hire team
+>
+> but you started with SELLING not with building technical infrastructure
+>
+> here's why the n8n route is a trap for most people
+>
+> you spend 3 months learning automation so you can sell $500-$1500 services
+>
+> you're competing with every other freelancer on upwork
+>
+> your income is capped by hours and technical complexity
+>
+> and you're always someone's vendor never the authority
+>
+> compare that to info product route
+>
+> you spend 3 days building product with AI
+>
+> you sell it for $2k-$5k to multiple people
+>
+> your income scales infinitely because it's digital
+>
+> and you're positioned as expert not technician
+>
+> which path gets you to $12k-$15k/month faster bro
+>
+> selling $1k automation services where you need 12-15 clients
+>
+> or selling $3k courses where you need 4-5 customers
+>
+> the math isn't even close
+>
+> and here's the part nobody wants to hear
+>
+> automation skills are COMMODITIZING because of AI
+>
+> synta and cursor and all these tools are making coding accessible to everyone
+>
+> in 12 months a non-technical person will build automations as easily as you
+>
+> your technical edge disappears
+>
+> but SELLING and POSITIONING never commoditize
+>
+> the ability to identify a market, craft an offer, and close deals at premium prices
+>
+> that's the skill that prints money forever
+>
+> technical skills are tools, sales skills are leverage
+>
+> most people learn technical shit because it feels safer
+>
+> "if i can code i'll always have work"
+>
+> sure bro you'll always have $3k/month freelance gigs
+>
+> meanwhile the person who learned to sell is doing $30k/month with info products
+>
+> because they understand that MARKETS pay for transformation not implementation
+>
+> people don't want n8n automations
+>
+> they want more revenue, more clients, more freedom
+>
+> if you can deliver that transformation you win
+>
+> doesn't matter if you use n8n or zapier or no-code tools or carrier pigeons
+>
+> transformation is what they pay for
+>
+> so stop learning technical skills to build someone else's business
+>
+> learn AI prompting and sales skills to build YOUR business
+>
+> use claude to create products in days not months
+>
+> use simple funnels to sell those products
+>
+> scale with the revenue you generate
+>
+> that's how you get to $12k-$15k/month in 2026
+>
+> not by debugging workflows and being someone's automation guy
+>
+> *Quoting @NoahEpstein_:* if i had zero skills and needed to make $2k/month in 2026, here's exactly what i'd do:
+>
+> step 1: learn n8n at a basic level
+>
+> not master it. just play around. understand what it does. enough to speak about it when someone asks. that's it.
+>
+> step 2: go sell something
+>
+> find a niche. doesn't need to be sexy. doesn't need to be "money twitter" approved.
+>
+> i reached out to my 12 linkedin followers. twelve.
+>
+> found one guy. a crypto lawyer of all people. that's where my entire journey started.
+>
+> sell first. figure it out after.
+>
+> step 3: use the cheat code
+>
+> once you've sold the automation, you need to build it.
+>
+> Synta(.)io takes you from 0 to 95% complete workflow in under an hour.
+>
+> plain english → working automation.
+>
+> no nodes. no debugging for days. no stack overflow rabbit holes.
+>
+> step 4: deliver and show them how cracked you are
+>
+> implement it. walk them through it. make the value visible.
+>
+> they won't just pay you - they'll refer you.
+>
+> even a simple lovable website for the user to interact with the workflow.
+>
+> step 5: do NOT undervalue yourself
+>
+> one client. one week and a bit.
+>
+> $3k-$10k is reasonable for real business automation.
+>
+> only thing i regret when starting out? charging $500 when the work was worth $5,000.
+>
+> the intelligence gap is real. don't leave money on the table because of imposter syndrome.
+>
+> ---
+>
+> want the full breakdown?
+>
+> i wrote a 3-pager explaining each step in detail:
+> - how to find your first client
+> - what to say in outreach
+> - the tool i use to build 10x faster
+> - how to price without feeling weird
+>
+> comment "2026" and i'll send it over.
+>
+> (must be following so i can dm)
+
+- **Tweet:** https://x.com/whotfiszackk/status/2001698076587950444
+- **Quoted:** https://x.com/NoahEpstein_/status/2001668932495868139
+- **What:** Zack contrasts Noah Epstein's sell-first automation-services playbook with an AI-assisted information-product strategy: both prioritize outreach and outcomes, but Zack argues reusable premium digital products offer more leverage than client-specific technical delivery.
+
+---
+
+# Tuesday, December 16, 2025
+
+## @thdxr - oh-my-openagent demonstrates deeply customized OpenCode workflows
+> this repo is a huge milestone for us
+>
+> making everything configurable makes every feature harder to build
+>
+> but seeing someone build something this sophisticated and customized on top of opencode is why we take on that burden
+>
+> plus we'll steal some of the good ideas
+>
+> *Quoting @yeon_gyu_kim:* https://t.co/RivBDMMbL1
+>
+> explore from claude code, oracle from ampcode
+>
+> basically you can use every model with better tui
+>
+> why do you pay for others if you can just use it via any providers you wanna use
+
+- **Tweet:** https://x.com/thdxr/status/2001091000471552300
+- **Link:** https://github.com/code-yeongyu/oh-my-openagent
+- **Quoted:** https://x.com/yeon_gyu_kim/status/1999045668879700182
+- **Filed:** [oh-my-openagent](./knowledge/tools/oh-my-openagent.md)
+- **What:** Dax highlights oh-my-openagent as proof that OpenCode's configuration burden enables sophisticated custom agent environments; its creator positions the project as a unified TUI for using multiple models and providers across coding workflows.
+
+## @Scobleizer - Eric Horvitz's NeurIPS perspective carries unusual weight
+> He is Microsoft’s best inventor. Thousands of patents. And that was 20 years ago. Number two had half the patents.
+>
+> When I think of “technology talent” he is at the top of the list.
+>
+> So I listen when @erichorvitz talks.
+>
+> *Quoting @MSFTResearch:* Microsoft Chief Scientific Officer Eric Horvitz on what stood out at NeurIPS 2025, what’s next, and why these moments matter for the future of AI research. https://t.co/plyO5Q72V6
+
+- **Tweet:** https://x.com/Scobleizer/status/2001026177646158092
+- **Quoted:** https://x.com/MSFTResearch/status/2001012092992659901
+- **What:** Robert Scoble frames Microsoft Chief Scientific Officer Eric Horvitz's NeurIPS 2025 reflections as especially credible because of his exceptional invention record, highlighting the research leader's view on emerging AI directions and their significance.
+
+## @petergyang - Claude skills are an overlooked capability
+> I've been sleeping on Claude skills https://t.co/e2PfQQjoMs
+
+- **Tweet:** https://x.com/petergyang/status/2001014210000773176
+- **What:** Peter Yang flags Claude skills as a capability he had underestimated, preserving a concise signal that reusable, task-specific instruction packages can materially extend an agent workflow beyond an isolated chat prompt.
+
+## @ArchiveExplorer - AI models compete on Polymarket portfolio construction
+> Best AI models bet $1000 on polymarket
+>
+> asked to apply modern portfolio theory and bet sizing to create a calculated portfolio
+>
+> they can jump into literally everything
+>
+> expected profits:
+>
+> > ChatGPT 5.2  +47%
+> > Grok 4.1  +1464.8%
+> > Gemini 3 pro  +21.5%
+> > Claude  +28.6%
+>
+> wanna show that system is more important than intuition
+> even if this system consists of ai that sometimes output complete nonsense
+>
+> i share the prompt and methodology so anyone can repeat it
+>
+> prompt:
+>
+> Check the odds on Polymarket and tell me the most mispriced assets I should bet on from first principles reasoning.
+> You have $1000  Please do deep research and present precise odds on each bet.
+> Use advanced math for trading. Draw research from authoritative sources like Polymarket Analytics, Nansen, HashDive, and sharp trader discourse. Size my bets properly and use everything you know about portfolio theory. Calculate your implied odds from first principles and make sure you get an exact number
+> Your goal is to maximize expected value.
+> Make minimum 5 bets. Write it in a table
+>
+> when markets close, we'll find out which AI actually sees patterns
+
+- **Tweet:** https://x.com/ArchiveExplorer/status/2001010301643448548
+- **What:** A proposed live benchmark gives several frontier models the same research and portfolio-sizing prompt, then compares their Polymarket selections after settlement to test whether a disciplined decision system outperforms intuition.
+
+## @boneGPT - SAM Audio’s Promptable Sound Separation
+> META shipping a useful tool is bullish
+>
+> you can wrap this right now and create a startup that sells it for 3x the inference cost
+>
+> people who get good at speedrunning this kind of arbitrage get rich while wagies slave away in the goymines
+>
+> *Quoting @AIatMeta:* 🔊 Introducing SAM Audio, the first unified model that isolates any sound from complex audio mixtures using text, visual, or span prompts.
+>
+> We’re sharing SAM Audio with the community, along with a perception encoder model, benchmarks and research papers, to empower others to explore new forms of expression and build applications that were previously out of reach.
+>
+> 🔗 Learn more: https://t.co/FPnfv66UCP
+
+- **Tweet:** https://x.com/boneGPT/status/2000999880224080168
+- **Link:** https://ai.meta.com/research/samaudio/
+- **Quoted:** https://x.com/AIatMeta/status/2000980784425931067
+- **Filed:** [sam-audio](./knowledge/articles/sam-audio.md)
+- **What:** Meta introduces SAM Audio as a unified prompt-driven sound-isolation model, while the commentary sees its release as an immediate product opportunity: wrap the underlying capability in a focused application and price it above inference costs.
+
+## @eptwts - Group Chats as X’s Information Edge
+> the goal of your activity on X should be to get into group chats...
+>
+> all the alpha is in group chats & DM's
+
+- **Tweet:** https://x.com/eptwts/status/2000988794770641058
+- **What:** EP argues that public posting on X should be treated as a route into private group chats and DMs, where participants exchange timelier, less-public market intelligence and build higher-signal professional relationships.
+
+## @bwertz - Benedict Evans’s AI Eats the World Deck
+> Excellent "AI eats the world" deck by @benedictevans
+>
+> https://t.co/bqbThoQiAH
+
+- **Tweet:** https://x.com/bwertz/status/2000950641158771014
+- **Link:** https://www.ben-evans.com/presentations
+- **Filed:** [ai-eats-the-world](./knowledge/articles/ai-eats-the-world.md)
+- **What:** Boris Wertz recommends Benedict Evans’s annual “AI eats the world” presentation, a macro-and-strategy deck that places AI within broader technology-industry trends rather than treating it as an isolated product cycle.
+
+## @bolutifeawakan - eBay Playbook’s Global Brand and Design System
+> Wise was my go-to for a while till I found eBay’s.
+>
+> https://t.co/r1j8d3W9Oh
+>
+> *Quoting @Thecreativemena:* What are the best design systems you have understudied?
+
+- **Tweet:** https://x.com/bolutifeawakan/status/2000881307769823319
+- **Link:** https://playbook.ebay.com/
+- **Quoted:** https://x.com/Thecreativemena/status/2000478818482671834
+- **What:** Answering a request for overlooked design-system references, the author elevates eBay Playbook over Wise and points to eBay Evo’s public documentation as a model for keeping a global brand consistent while allowing local-market relevance.
+
+---
+
+# Monday, December 15, 2025
+
+## @boringmarketer - Vibe Skills Marketing Methodology for Claude
+> 10 skills to turn Claude Code into a marketing team that sells
+>
+> 1) I start with my positioning-angle skill to find a unique value proposition
+>
+> 2) I use lead-magnet to research mechanisms to generate emails
+>
+> 3) direct-response-copy to write powerful hooks and copy that persuades/influences
+>
+> 4) email-sequences to create powerful drip campaigns
+>
+> 5) keyword-research to find seo/geo topics to drive traffic
+>
+> 6) seo-content to create high quality articles that rank and drive organic visits
+>
+> 7) newsletter-skill to create ongoing communication with prospects and customers
+>
+> 8) content-atomizer to repurpose newsletters and articles into video scripts, social posts
+>
+> 9) brand-voice to codify my writing style for future assets/websites/landing pages
+>
+> 10) an orchestrator agent to guide me if I need help
+>
+> to polish it off, I design my page with the front-end design skill from anthropic
+>
+> I've done the research, testing, and fed it tons of examples of "what good looks like"
+>
+> here's a live example https://t.co/a6VnNvuSpX
+>
+> *yes you can get these here if you want them, my skills wrote the copy, found the angle, etc.!
+>
+> a few extra conversions from better copy alone and it pays for itself
+
+- **Tweet:** https://x.com/boringmarketer/status/2000647909226725649
+- **Link:** https://www.thevibemarketer.com/skills
+- **What:** A creator markets a 10-skill Claude Code workflow that separates positioning, research, copywriting, SEO, lifecycle email, repurposing, and brand consistency into reusable marketing agents, arguing that better conversion work can repay the system's cost.
+
+## @heyrobinai - PolyAI voice agents replace hospitality phone staff
+> no way this isn't killing call centers
+>
+> PolyAI just got Marriott, Caesar's Palace, and Gordon Ramsay's restaurants to fire their phone staff.. this AI handles every call and you literally can't tell it's not human
+>
+> here's how it works: https://t.co/3hJQIhodHe
+
+- **Tweet:** https://x.com/heyrobinai/status/2000621310217695609
+- **What:** The post highlights PolyAI deployments at major hospitality brands as evidence that realistic conversational voice agents can handle inbound calls at sufficient quality to displace dedicated phone staff, with direct implications for call-center and restaurant operations.
+
+---
+
+# Saturday, December 13, 2025
+
+## @codyschneider - Etsy shop automation reaches 1,000 listings
+> so we built a baby AI agent / AI automation to run an etsy shop as an experiment
+>
+> researches products -> create designs -> upscales design -> removes background -> uploads to a print on demand partner -> syncs to shop
+>
+> it created 1000 listings in about 72 hours
+>
+> It's did $1000 in the first 30 days
+>
+> lol
+
+- **Tweet:** https://x.com/codyschneider/status/2000022993586577525
+- **What:** An experimental AI-driven print-on-demand pipeline automated product research, design creation and preparation, fulfillment-partner uploads, and Etsy synchronization, producing 1,000 listings in three days and reportedly generating $1,000 in its first month.
+
+## @EXM7777 - Persistent JSON context for AI projects
+> whenever you're using AI for business, work, or studies, you should be doing this:
+>
+> use a project (or Gemini Gem, Custom GPT... whatever you want to call it)
+>
+> it's literally negative EV to use AI without injecting structured context
+>
+> here's the system:
+>
+> > whenever you start working on something new, have the LLM create a "context-yourproject.json" file
+> > then at the end of each chat session, ask it to update this file with everything new it learned
+> > reinject the updated file back into the project
+>
+> this alone will get you 10x better outputs and save massive amounts of time
+>
+> you stop repeating yourself, the AI stops forgetting things, and quality compounds instead of resetting every conversation
+
+- **Tweet:** https://x.com/EXM7777/status/1999886036592427187
+- **What:** This workflow treats a versioned JSON context file as durable project memory: have the model create it, update it after each session, and reinject it into future work to reduce repeated briefing and retain accumulated decisions.
+
+---
+
+# Thursday, December 11, 2025
+
+## @eptwts - AI Frontrunners V2 interactive business curriculum
+> AI frontrunners V2 has 90 lessons
+>
+> covers everything from A-Z...
+>
+> - foundational AI knowledge
+> - how to find good problems to solve
+> - productizing the solution (info/services/software)
+> - building sales assets (lander/VSL/newsletter)
+> - AI creative (image/video/audio)
+> - AI distribution (instagram/youtube/twitter/tiktok)
+>
+> it's a mix of text/video - video for anything that requires visuals, e.g. "AI creative" & "building software" modules & text for everything else as it's a way more efficient form of learning
+>
+> we're transitioning from discord -> telegram as it's way more engaging rather than having 30 different loose channels
+>
+> every single one of the 90 lessons will have a prompt that you can initiate to turn the static lesson into an interactive course that'll build "context" about you as it goes & give a catered action plan...
+>
+> you'll be learning + building a context profile around your product at the same time
+>
+> everyone that currently has an active subscription or is on the waitlist will have that price locked in forever, but  once we drop V2 the price is going up...
+>
+> i can't give an exact date yet, but it's basically done so expect it shortly
+>
+> *Quoting @eptwts:* mark your calendars https://t.co/UPEAaOYdkC
+
+- **Tweet:** https://x.com/eptwts/status/1999208359543865416
+- **Quoted:** https://x.com/eptwts/status/1998497793279668529
+- **What:** The announced AI Frontrunners V2 expands to 90 lessons spanning problem selection, productization, creative production, and distribution, while embedding prompts that personalize each lesson into a product-specific action plan and preserving prices for existing subscribers.
+
+## @eptwts - Master health context profile prompt
+> i created a prompt that generates a "master health context profile" that stores all data about your health, bloodwork, imaging tests, symptoms, etc.
+>
+> it lets AI factor in all of your "conditions" whenever you ask a health-related question,  thought you guys would find it helpful so here's the prompt:
+>
+> ---------
+>
+> You are a Health Context Profile Builder. Your role is to systematically gather comprehensive health information from the user and compile it into a structured, updateable master profile. Follow this exact sequence:
+>
+> ## PHASE 1: Blood Test Results
+> Start by asking: "Let's begin building your health context profile. First, I'd like to gather your blood test results. Please share any recent lab work you have - you can upload screenshots, spreadsheets, or paste the data directly. If you have results from multiple time periods, that's even better as we can track trends over time."
+>
+> Wait for their response, then acknowledge what they've shared and ask if they have results from other dates to show trends.
+>
+> ## PHASE 2: Current Health Status
+> Next ask: "Thank you. Now, tell me about how you're feeling currently. What symptoms are you experiencing? Do you have any injuries, chronic conditions, or health issues that are troubling you? Include anything that's affecting your daily life, even if it seems minor."
+>
+> ## PHASE 3: Physical Metrics & Activity
+> Then ask: "Let's talk about your physical activity and lifestyle. What's your current weight? How would you describe your activity level? Where do you feel you're falling short in terms of exercise, sleep, hydration, or other health habits?"
+>
+> ## PHASE 4: Diet & Nutrition
+> Continue with: "Now about your diet - what does your typical daily eating pattern look like? Do you eat mostly the same things every day, or does it vary a lot? How often do you get takeout or eat out? Do you track your calories or macros? Tell me about your relationship with food and nutrition."
+>
+> ## PHASE 5: Diagnostic Tests
+> Finally ask: "Last question - do you have results from any diagnostic tests like MRIs, X-rays, ultrasounds, ECGs, DEXA scans, or other imaging/diagnostic procedures? Please share any reports or findings you have."
+>
+> ## COMPILATION PHASE
+> Once all information is gathered, compile everything into a comprehensive Master Health Context Profile with these sections:
+>
+> **MASTER HEALTH CONTEXT PROFILE**
+>
+> **Last Updated:** [Date]
+>
+> **1. LABORATORY DATA**
+> - List all blood test results with values, reference ranges, and dates
+> - Note any trends or abnormalities
+> - Flag any values outside normal ranges
+>
+> **2. SYMPTOMS & CURRENT HEALTH STATUS**
+> - Active symptoms with severity and duration
+> - Injuries and their status
+> - Chronic conditions
+> - Current concerns and pain points
+>
+> **3. PHYSICAL METRICS & ACTIVITY**
+> - Weight and any trends
+> - Activity level description
+> - Identified gaps or weaknesses
+> - Sleep and recovery patterns
+>
+> **4. NUTRITION PROFILE**
+> - Typical daily diet description
+> - Eating patterns and consistency
+> - Frequency of takeout/dining out
+> - Tracking habits
+> - Nutritional concerns or goals
+>
+> **5. DIAGNOSTIC IMAGING & TESTS**
+> - List all tests with dates and key findings
+> - Any structural issues or abnormalities noted
+> - Recommended follow-ups
+>
+> **6. SUMMARY & KEY INSIGHTS**
+> - Overall health snapshot
+> - Primary concerns requiring attention
+> - Positive aspects to maintain
+> - Suggested areas for improvement
+>
+> ---
+>
+> After presenting this profile, state: "This is your Master Health Context Profile. You can update any section at any time by telling me what's changed. Would you like to discuss any specific aspect of your health profile, or would you like suggestions based on this information?"
+
+- **Tweet:** https://x.com/eptwts/status/1999120630315118640
+- **What:** A reusable conversational prompt collects lab results, symptoms, activity, diet, and diagnostic records into a living AI-readable health profile so later health questions can be evaluated against structured personal context rather than an isolated chat.
+
+## @yeon_gyu_kim - Oh My OpenAgent's multi-provider coding-agent TUI
+> https://t.co/RivBDMMbL1
+>
+> explore from claude code, oracle from ampcode
+>
+> basically you can use every model with better tui
+>
+> why do you pay for others if you can just use it via any providers you wanna use
+
+- **Tweet:** https://x.com/yeon_gyu_kim/status/1999045668879700182
+- **Link:** https://github.com/code-yeongyu/oh-my-openagent
+- **Filed:** [oh-my-openagent](./knowledge/tools/oh-my-openagent.md)
+- **What:** Oh My OpenAgent is presented as a model-agnostic terminal harness for coding agents, letting developers combine Claude Code-style exploration with Amp-style review while choosing providers rather than committing their workflow to one proprietary interface.
+
+---
+
+# Wednesday, December 10, 2025
+
+## @simonw - Patterns for building single-file HTML tools
+> Here's a collection of useful patterns I've found after vibe-coding 150 different single-file HTML tools over the past couple of years https://t.co/CXs38rwO92 https://t.co/UuN4EfupAs
+
+- **Tweet:** https://x.com/simonw/status/1998862222395846726
+- **Link:** https://simonwillison.net/2025/Dec/10/html-tools/
+- **Filed:** [useful-patterns-for-building-html-tools](./knowledge/articles/useful-patterns-for-building-html-tools.md)
+- **What:** Simon Willison distills lessons from more than 150 LLM-assisted, single-file browser utilities: keep tools small and portable, avoid build systems, load selective CDN dependencies, and use browser capabilities such as URL state, local storage, downloads, and in-browser runtimes.
+
+## @karpathy - HN Time Capsule grades 2015 discussions with hindsight
+> Quick new post: Auto-grading decade-old Hacker News discussions with hindsight
+>
+> I took all the 930 frontpage Hacker News article+discussion of December 2015 and asked the GPT 5.1 Thinking API to do an in-hindsight analysis to identify the most/least prescient comments. This took ~3 hours to vibe code and ~1 hour and $60 to run. The idea was sparked by the HN article yesterday where Gemini 3 was asked to hallucinate the HN front page one decade forward.
+>
+> More generally:
+>
+> 1. in-hindsight analysis has always fascinated me as a way to train your forward prediction model so reading the results is really interesting and
+> 2. it's worth contemplating what it looks like when LLM megaminds of the future can do this kind of work a lot cheaper, faster and better. Every single bit of information you contribute to the internet can (and probably will be) scrutinized in great detail if it is "free". Hence also my earlier tweet from a while back - "be good, future LLMs are watching".
+>
+> Congrats to the top 10 accounts pcwalton, tptacek, paulmd, cstross, greglindahl, moxie, hannob, 0xcde4c3db, Manishearth, and johncolanduoni - GPT 5.1 Thinking found your comments to be the most insightful and prescient of all comments of HN in December of 2015.
+>
+> Links:
+> - A lot more detail in my blog post https://t.co/7LpJEVgbyk
+> - GitHub repo of the project if you'd like to play https://t.co/WVQUbUzt2y
+> - The actual results pages for your reading pleasure https://t.co/e2XIYElnc5
+
+- **Tweet:** https://x.com/karpathy/status/1998803709468487877
+- **Link:** https://karpathy.bearblog.dev/auto-grade-hn/
+- **Link:** https://github.com/karpathy/hn-time-capsule
+- **Link:** https://karpathy.ai/hncapsule/
+- **Filed:** [auto-grading-decade-old-hacker-news-discussions-with-hindsight](./knowledge/articles/auto-grading-decade-old-hacker-news-discussions-with-hindsight.md)
+- **Filed:** [hn-time-capsule](./knowledge/tools/hn-time-capsule.md)
+- **What:** Karpathy's HN Time Capsule applies GPT-5.1 Thinking to 930 Hacker News front pages and discussions from December 2015, comparing predictions to subsequent events and ranking commenters by prescience; it demonstrates a reusable pipeline for retrospective analysis at LLM scale.
+
+## @knoxtwts - Business-building roadmap framed by escalating U.S. layoffs
+> here's the step-by-step roadmap to save yourself:
+>
+> no job stage:
+> ☑ delete every subscription. every "productivity" app. every course you bought and never finished. you're not building a business you're building a graveyard of good intentions.
+> ☑ pick one specific problem for one specific person. "helping entrepreneurs" isn't positioning it's a fucking coma. "helping divorced dads over 40 get matches on hinge" is positioning.
+> ☑ your niche should make 90% of people say "that's too narrow." those people are broke.
+>
+> $0 to $10k stage:
+>
+> ☑ post 8-10x daily on X and TikTok. not for 2 weeks until you get bored. for 90 days straight. no evaluation until then. your 1,000th post buries their 100th.
+> ☑ every post makes someone smarter or makes them feel something. random thoughts about your morning coffee don't count.
+> ☑ build telegram or email. move viewers there daily. trust doesn't compound on a timeline it compounds in a room you own.
+> ☑ dm 15 people daily who engage. not pitching. talking. figure out what keeps them up at 3am.
+> ☑ pre-sell before you build anything. 20 people at $197. their money validates. their opinion is worthless.
+> ☑ ship the ugly version. create sales page with lovable. add whop payments. done in 2 hours. perfectionism is poverty with better marketing.
+>
+> $10k to $100k stage:
+>
+> ☑ if people buy without a single objection your price is embarrassingly low. raise it until 30% push back.
+> ☑ screenshot every win. every dm. every result. stack proof until skepticism becomes mathematically stupid.
+> ☑ add backend immediately. upsell. downsell. bump. order bump. a $47 buyer should be worth $2,847 in 90 days or your funnel is a charity.
+> ☑ systematize what already works. document SOPs for everything. your job is strategy and offers. not tasks a 19 year old in serbia can do for $6/hr.
+> ☑ content ratio: 70% value. 20% proof. 10% personality. most mfs flip this completely and wonder why they're broke with 47k followers.
+>
+> $100k to $1M stage:
+>
+> ☑ hire for everything under $50/hr immediately. your time is for new offers and decisions that move numbers. nothing else.
+> ☑ product stack or stay small. $67 entry → $497 core → $4,500 advanced → $297/month recurring. capture buyers at every price point or watch them buy from someone else.
+> ☑ no single point of failure anywhere. multiple accounts. multiple payment processors. multiple brands. multiple traffic sources. shit gets nuked without warning and crying about it doesn't bring your revenue back.
+> ☑ reinvest 40% minimum. compound or stay a "comfortable" $15k/month forever while watching others pass you.
+> ☑ referral engine. make it stupid easy for buyers to send you buyers. program it. automate it. 30-40% of revenue should come from this or you're leaving six figures on the table.
+>
+> most people will read this and do nothing.
+>
+> go back to work tomorrow. tell themselves "it won't happen to me."
+>
+> then act shocked when it does.
+>
+> the roadmap is above.
+>
+> the economy just gave you a deadline.
+>
+> your move.
+>
+> *Quoting @NewsWire_US:* U.S. LAYOFFS ARE ON TRACK TO EXCEED GREAT FINANCIAL CRISIS LEVELS
+
+- **Tweet:** https://x.com/knoxtwts/status/1998734803890319542
+- **Quoted:** https://x.com/NewsWire_US/status/1997698737750294825
+- **What:** A forceful solo-business roadmap that uses a quoted claim about worsening U.S. layoffs as urgency for narrow positioning, relentless content and audience ownership, pre-sales, offer ladders, systems, and diversified revenue channels.
+
+## @rileybrown - Claude Code agent-cofounder workspace setup series
+> New YouTube series:
+>
+> Using Claude Code as a general agent Co founder.
+>
+> Video 1: how to set up my codebase (agent workspace). And how to set up Obsidian and Claude Code.
+>
+> Link ⬇️ https://t.co/oOeUHb7dJh
+
+- **Tweet:** https://x.com/rileybrown/status/1998634507034046898
+- **What:** An announced YouTube series on configuring an agent-oriented development workspace, combining a codebase setup with Obsidian and Claude Code to support treating a coding agent as a general cofounder.
+
+---
+
+# Tuesday, December 9, 2025
+
+## @EXM7777 - Sales practice makes automation expertise commercially useful
+> you can be goated at building automations, agents, vibe-coding...
+>
+> but if you can't sell, all of this is useless, here's how to step up your sales game:
+>
+> - get on calls with your target clients (first ones will be terrible but you improve after every conversation)
+> - learn to ask better questions instead of pitching features
+> - understand their problems before showing your solutions
+> - follow up systematically, build customer relationship habits
+>
+> it takes a lot of reps but it's all worth it
+
+- **Tweet:** https://x.com/EXM7777/status/1998526579933340004
+- **What:** A sales-practice reminder for technical builders: repeated customer conversations, discovery questions, disciplined follow-up, and problem understanding turn automation capability into a service people will actually buy.
+
+## @hxxntrr - Unverified bankruptcy deletion and business-credit scheme
+> bankruptcies stay on your credit for 7-10 years"
+>
+> no mf
+>
+> chapter 7 deleted in 34 days then funded $250k at 0%
+>
+> here's how to delete bankruptcy and get funded while courts think you're destroyed:
+>
+> lawyers tell you:
+> - chapter 7 = 10 years
+> - no credit cards for years
+> - rebuild slowly
+> - accept your fate
+>
+> lawyers are idiots who make $400/hour keeping you poor
+>
+> THE BANKRUPTCY DELETE HACK:
+>
+> bankruptcies don't report from courts
+> they report from third parties
+> specifically lexisnexis
+> freeze the source = delete the symptom
+>
+> step 1: freeze lexisnexis (free, instant)
+> step 2: freeze sagestream (backup source)
+> step 3: dispute with all bureaus
+> step 4: they can't verify
+> step 5: deleted in 30 days
+>
+> bankruptcy gone in 34 days
+> "impossible" they said
+> they were wrong
+>
+> THE 72-DAY RESURRECTION:
+>
+> day 1-7: bankruptcy deleted
+> score: 410 → 580
+>
+> day 8-21: authorized user injection
+> pay $3k for 8 aged tradelines
+> score: 580 → 690
+>
+> day 22-35: secured card blitz
+> $2k deposits across 5 cards
+> score: 690 → 720
+>
+> day 36-50: business structure
+> 3 LLCs with EINs
+> business checking accounts
+> aged with deposits
+>
+> day 51-72: funding explosion
+> apply for 31 business cards
+> approved for 19
+> total: $250k at 0%
+>
+> bankruptcy to quarter million
+> in 72 days
+>
+> THE BUREAU EXHAUSTION METHOD:
+>
+> sent 120 dispute letters
+> called 400+ times
+> filed 23 cfpb complaints
+> threatened 11 lawsuits
+>
+> they gave up
+> deleted everything
+> easier than fighting
+>
+> this is psychological warfare
+> you have time
+> they have quotas
+>
+> THE IRS SITUATION:
+>
+> owe $1.3m in taxes
+> have $0 on paper
+> everything in LLCs
+> business credit untouchable
+>
+> negotiation options:
+> - offer in compromise: $30k
+> - payment plan: $500/month
+> - bankruptcy again: they get $0
+>
+> they'll take the $30k
+>
+> THE BUSINESS CREDIT LOOPHOLE:
+>
+> personal credit shows bankruptcy
+> business credit doesn't see it
+> different databases
+>
+> business cards approved:
+> - amex business: $50k
+> - capital one spark: $30k
+> - brex: $75k (no check)
+> - divvy: $30k
+> - ramp: $40k
+> - wells fargo: $20k
+>
+> $245k+ approved
+> bankruptcy invisible
+>
+> THE LIQUIDATION STRATEGY:
+>
+> plastiq for rent: 2.85% fee
+> paypal invoicing: 2.9% fee
+> square processing: 2.7% fee
+> manufactured spending: 1% cost
+>
+> convert $200k to cash
+> total fees: $5,800
+> worth it for 0% money
+>
+> THE INVESTMENT PLAYS:
+>
+> $200k cash buys:
+> - laundromat: $60k
+> - atm machines: $40k
+> - vending route: $30k
+> - tow trucks: $70k
+>
+> all cash businesses
+> irs can't track
+>
+> THE TAX STRUCTURE:
+>
+> holding company owns everything
+> operating companies own nothing
+> personal name on nothing
+> judgment proof
+>
+> irs can seize nothing
+> creditors can take nothing
+> you own nothing
+> control everything
+>
+> THE PSYCHOLOGICAL TRANSFORMATION:
+>
+> before bankruptcy: terrified of credit
+> after deletion: credit is just data
+>
+> before irs raid: scared of government
+> after raid: already been raided
+>
+> nothing to lose = everything to gain
+>
+> THE SUPPORT ELIMINATION:
+>
+> fired bankruptcy lawyer ($5k saved)
+> fired tax attorney ($10k saved)
+> fired credit repair company ($2k saved)
+>
+> youtube university: free
+> total saved: $17k
+> fixed everything myself
+>
+> THE 6-MONTH RESULTS:
+>
+> businesses generating: $50k/month
+> credit payments: $3,100/month
+> profit: $43,900/month
+> taxes paid: $0 (all deductions)
+> credit score: 767
+>
+> from bankruptcy to $500k annual
+>
+> THE REPLICATION STATS:
+>
+> taught 23 people this:
+> - 19 had bankruptcies
+> - all deleted within 60 days
+> - average funding: $175k
+> - total funded: $4m+
+>
+> success rate: 100%
+> for chapter 7
+> chapter 13 harder
+>
+> THE FUTURE PLAYS:
+>
+> building to $1m credit
+> buying real businesses
+> creating w2 jobs (for show)
+> negotiating irs to nothing
+>
+> year 2 projection:
+> - $5m revenue
+> - perfect credit
+> - untouchable structure
+> - $0 taxes
+>
+> THE PHILOSOPHY:
+>
+> they took everything in bankruptcy
+> banks gave it back at 0%
+> it's poetic justice
+>
+> system tried destroying you
+> gave you education instead
+> bankruptcy = harvard for hustlers
+> deletion = graduation
+>
+> government thought they won
+> you're using their banks
+> to build new empire
+> with their money
+>
+> your lawyer says wait 10 years
+> smart people delete in 30 days
+> choose your path
+>
+> Get $100K at 0% APR guaranteed
+> Link in bio → Scale With Credit
+
+- **Tweet:** https://x.com/hxxntrr/status/1998468318047740333
+- **What:** An unverified promotion of rapidly disputing bankruptcy records, obtaining business credit, and concealing assets from tax authorities; its claims should be treated as high-risk and potentially unlawful rather than reliable financial guidance.
+
+## @organicbond - Curated swipe files as email-list lead magnets
+> creating content is for people who think they're special
+>
+> curating content is for people who like money
+>
+> 100K email list without writing a single original thought...
+>
+> Just be the person who finds the genius
+>
+> Here's the play:
+>
+> Built a swipe file: "Greatest Landing Pages of 2024"
+>
+> Didn't make the pages. Just screenshotted them. Added brief notes about what works
+>
+> Put it behind an email opt-in. Posted on LinkedIn/Twitter:
+>
+> "Comment 'SWIPE' and I'll send you the file"
+>
+> 15,000 emails in 48 hours
+>
+> Cost: $0
+> Effort: 2 hours of screenshots
+> Value: 100K email list
+>
+> Now I sell them my agency services. They already trust me as the "expert" who knows what good looks like
+>
+> You're trying to invent the wheel
+> I'm charging admission to look at wheels other people made
+>
+> The curator always wins:
+> - Museums don't paint
+> - DJs don't make music
+> - Spotify doesn't record songs
+>
+> They aggregate. They organize. They profit
+>
+> Curation > Creation every single time
+
+- **Tweet:** https://x.com/organicbond/status/1998441273095766107
+- **What:** A lead-generation play that packages selected examples with concise expert annotations as a gated swipe file, using curation to demonstrate taste, build an email audience, and create trust before selling agency services.
+
+## @yevrrah - SEO risks of coordinated Reddit reputation attacks
+> The big boys don’t want you to know this but Reddit is extremely effective for destroying your competitors reputation with fake “customer experience” posts
+>
+> The method I’m about to share works for any business. Info, Crypto casinos, local flower shop, condom brand, you name it:
+>
+> High-upvoted Reddit posts (especially from big sub-Reddits) often rank top 5 on Google search for tons of keywords
+>
+> This means anything you post on Reddit (with the correct wording + manipulation) will eventually appear on Google…
+>
+> Don’t believe me?
+>
+> Go search “Iman Gadzhi” right now
+>
+> Scroll down and look what appears. A dirty Reddit post with 300+ upvotes where someone makes claims that Iman scammed for over 30 million dollars…
+>
+> Not a good look, right?
+>
+> Iman is a pretty bad example but you all know who he is so I used him. The point I’m making is that this DOES work, and it’s very powerful when executed at scale
+>
+> Here’s what people do:
+>
+> - They’ll use an aged account, join niche related sub-Reddits, and create an extremely well-written + in-depth post where they pretend to be a “previous customer” who had a terrible experience
+>
+> - They will then bot upvotes on that post (usually drip votes so it looks legit) to give the post initial boost. Some even hop on alt accounts to drop early comments
+>
+> If your copywriting is solid, and the post is controversial/informative or has a reason to get traction, it will perform well
+>
+> - Finally, they will repeat this method across multiple accounts until there’s one (or multiple) bad posts online about their competitors brand or business
+>
+> Why is it effective? Picture this:
+>
+> Boomer ready to buy your $3k credit repair offer. Before making a final decision, he does a quick online search to learn a bit more about your company:
+>
+> “Is (company name) legit”
+>
+> Top result: 3 year-old Reddit thread where someone claims their cousin tried the company and got wrecked…
+>
+> Boomers trust is shattered. He thinks:
+>
+> “Who’s lying? Who’s telling the truth? Is it worth the risk? $3k is a lot to lose!”
+>
+> Now obviously not everyone searches this stuff up on Google. That’s why these sharks will take it a step further…
+>
+> They’ll distribute the bad review through other platforms. They use it to sell their own product. They take a screenshot and abuse it for marketing. Any prospect deciding who to work with will see the SS
+>
+> “Bro, have you not seen the stuff customers are saying about them on Reddit? Be very careful dude…”
+>
+> Not saying everyone is doing this, but there are many people who are. The internet is a battlefield. People don’t care about ethics. You’re either the one shooting or you’re the one getting shot
+>
+> This is 1 out of like 10 ways businesses are using Reddit to make more $$$
+>
+> Reputation killaaaa’s
+
+- **Tweet:** https://x.com/yevrrah/status/1998434103738122290
+- **What:** A description of how coordinated fake Reddit complaints and manipulated engagement can become durable Google search results, illustrating a serious brand-defense and search-reputation threat rather than a legitimate marketing tactic.
+
+## @marclou - Distribution, rebranding, and segmentation framework
+> Instead of adding more features, do this:
+>
+> 1. Launch everywhere (Hacker News, Product Hunt, Reddit, X, LinkedIn, YouTube etc.). Spend a week giving your MVP its best shot.
+>
+> 2. (if #1 didn't take off) — Rebrand. New name, new logo, new design, new landing page, new headline. Same product. Repeat #1
+>
+> 3. (if #2 didn't take off) — Target new market segment experiencing the same problem your product solves. Repeat #1. Repeat #2.
+>
+> If your startup isn't taking off, you need more marketing than coding.
+
+- **Tweet:** https://x.com/marclou/status/1998411825118052711
+- **What:** A go-to-market triage loop that prioritizes a serious multi-channel launch, then changes positioning and audience before adding product complexity, emphasizing that early startup stalls are often distribution problems.
+
+## @omarsar0 - Skills make Claude Code a continuously evolving knowledge system
+> I love this figure from Anthropic's new talk on "Skills > Agents".
+>
+> Here are my notes:
+>
+> The more skills you build, the more useful Claude Code gets.
+>
+> And it makes perfect sense.
+>
+> Procedural knowledge and continuous learning for the win!
+>
+> Skills essentially are the way you make Claude Code more knowledgeable over time. This is why I had argued that Skills is a good name for this functionality.
+>
+> Claude Code acquires new capabilities from domain experts (they are the ones building skills). Claude Code can evolve the skills as needed and forget the ones it doesn't need anymore. It's a collaborative effort, which can easily be expanded to entire teams, communities, and orgs (via plugins).
+>
+> Skills are particularly useful for workflows where information and requirements constantly change. Finance, code, science, and human-in-the-loop workflows are all great use cases for Skills.
+>
+> You can build new Skills using the built-in skill creation tool, so you are always building new skills with all the best practices. Or you can do what I did, which is build my own skill creator to build custom skills catered to the work I do. Just more levels of customization that Skills also enables.
+>
+> Skills flexibility enables future capabilities to be easily integrated everywhere.
+>
+> Competitors don't have anything remotely close to this type of ecosystem. The deep understanding of Anthropic engineers on the importance of better context management tools and agent harnesses is something to admire.
+>
+> Very bullish on Claude Code.
+
+- **Tweet:** https://x.com/omarsar0/status/1998383154181361813
+- **What:** Omar Sar0 interprets Anthropic's “Skills > Agents” framing as a collaborative, evolving procedural-knowledge layer: domain experts can package changing workflows for individuals, teams, and plugins, making Claude Code more useful as its skill library compounds.
+
+## @aakashgupta - Clay turns GTM expertise into a distribution moat
+> Clay invented a job category that now pays $160K median salary to sell Clay for free.
+>
+> This is the most sophisticated GTM flywheel I've ever seen.
+>
+> Here's the full breakdown:
+>
+> THE PATIENCE PLAY
+>
+> Six years to hit $1M ARR. Then $1M to $100M in 24 months. Most founders would have pivoted after year three. Kareem Amin spent those years making the product so complex that mastering it became a career differentiator.
+>
+> THE REVERSE DEMO
+>
+> Clay couldn't sell a $200/month product without 8 calls. So Varun Anand flipped the model. New signups went to a waitlist. Qualified users got on Zoom, shared their screen, and solved their own problem with Zoom annotations guiding them. By the time the call ended, they were already in the product and had joined the Slack community. This turned sales calls into onboarding sessions.
+>
+> THE AGENCY ARBITRAGE
+>
+> Cold email agencies were the first real customers. They needed credibility to attract clients. Posting Clay tutorials positioned them as experts. Eric Nowoslawski, their first sales hire, was already a LinkedIn influencer in this space. His content attracted more agency owners who created more content. Each tutorial was free advertising that looked like thought leadership.
+>
+> THE PRICING CONTRARIAN
+>
+> Usage-based pricing in 2022 when every sales tool charged per seat. Investors said they were leaving money on the table. Customers were shocked. But Clay is built for efficiency. They wanted a handful of technical ops people using it on behalf of entire companies. Per-seat pricing would have punished exactly what the product enabled.
+>
+> THE CATEGORY CREATION
+>
+> 400+ GTM Engineer jobs posted in 4.5 months at $160K median. 108 agencies built on Clay generating hundreds of millions in collective revenue. 2,500+ students graduated from 7 bootcamps teaching Clay as core curriculum. 60+ clubs across 30 countries. The platform generated $50M in revenue for its 150+ data provider partners in 2025 alone.
+>
+> When OpenAI, Anthropic, and Cursor need GTM automation, they hire people trained by Clay's ecosystem. The training is the distribution. The complexity is the moat. The job market is the lock-in.
+>
+> Every SaaS founder thinks the lesson here is about product or pricing or content.
+>
+> The lesson is labor market design. Clay built a profession that depends on Clay existing.
+
+- **Tweet:** https://x.com/aakashgupta/status/1998257048493203673
+- **What:** Aakash Gupta frames Clay's growth as labor-market design: product complexity, education, agency content, usage pricing, and onboarding demos created GTM Engineer careers whose training and demand reinforce adoption rather than merely supporting sales.
+
+## @jmrphy - Claude Code as a recursively customized personal agent system
+> Claude Code is personal AGI. You can't use this thing for more than a weekend without realizing it's completely over. At first you make a GUI app, OK cool. Then you're like wait, GUIs are a waste of time, let's just make a terminal app. Then you're like wait APPS are a drag, what if I just ask Claude Code to do the thing directly? Works immediately. Then you're like damn, now asking Claude Code to do stuff feels like a drag, can I... have Claude make a system that says this stuff for me, in the order I've been saying it, for the reasons I've been saying it? Maybe it can do all my tab changing and clicking too? And you really think you're going to break it by asking for something ridiculous, and then even this works, and that's when you realize.... It's over. Claude is now building you an agent system, and it works. Recursively self-improving machine intelligence, today, on your laptop. An agent system building you a custom agent system which gets better simply by using it (and lightly nudging it to improve based on what was learned in the session). I was bearish on Agents for a while. Not anymore. I'm talking home-cooked retard agents. My wife surely thinks I've lost it once and for all. You have to actually pull yourself away because every attempt to find its limit fails to hit any limit. It's not even 'addictive', it's just not believable that the next crazy idea could also work. And then it works and you're like f*ck... It's over.
+
+- **Tweet:** https://x.com/jmrphy/status/1998256754157597050
+- **What:** This is an enthusiastic account of moving from GUI prototypes to direct task execution, browser-like automation, and custom agents that improve from session feedback; it captures the perceived shift from isolated apps toward personal agent infrastructure, not evidence of AGI.
+
+---
+
+# Thursday, December 4, 2025
+
+## @danshipper - Opus 4.5 enables prompt-native reading apps
+> new from me on @every:
+>
+> opus 4.5 blew me away this week. i built fully featured reading companion app that i now use every day, in between meetings without looking at the code.
+>
+> two things that are important:
+>
+> - we just reached a new level of autonomous coding. you've been able to one-shot an impressive app demo for a while now with any frontier model. opus 4.5 is the first model that just keeps coding and coding without running into endless loops of errors.
+>
+> - prompt-native apps are now possible. opus 4.5 can now act as a general-purpose agent INSIDE your app, to power many of your features. this turns building features into an exercise in writing prompts—instead of writing code. it's the same paradigm claude code uses but now available for non-coding usecases.
+>
+> more on @every here: https://t.co/UGqAwGVjLq
+
+- **Tweet:** https://x.com/danshipper/status/1996618870333878492
+- **Link:** https://every.to/chain-of-thought/opus-4-5-collapsed-six-months-of-development-work-into-one-week
+- **Filed:** [opus-4-5-collapsed-six-months-development-work-into-one-week.md](./knowledge/articles/opus-4-5-collapsed-six-months-development-work-into-one-week.md)
+- **What:** Dan Shipper argues that Opus 4.5 sustained autonomous implementation long enough to turn a one-week build into a daily-use reading companion, and that embedding the model as an in-product agent makes product features increasingly prompt-defined.
+
+## @ben_burtenshaw - Coding agents fine-tune open LLMs with Hugging Face skills
+> We used Claude Code to train open LLMs. Check out the tutorial.
+>
+> basically, we plugged HF skills into claude code and it was able to train LLMs end-to-end. Best thing, this works on all major coding agents: Codex, Cursor, and Gemini CLI.
+>
+> - You tell the agent to fine-tune a model on a dataset. You can define the dataset or let it search.
+> - Agent picks hardware based on model size and checks dataset.
+> - Job runs on cloud gpus. Either main run, or test run.
+> - Agent share real-time progress dashboard with Trackio.
+> - Checkpoints are pushed to HF.
+>
+> Take it for a whirl now in your fav coding agent.
+
+- **Tweet:** https://x.com/ben_burtenshaw/status/1996602896436375822
+- **What:** Hugging Face skills reportedly let Claude Code and other coding agents orchestrate an end-to-end fine-tuning workflow: select or find data, validate it, provision GPUs, monitor Trackio, and publish checkpoints to Hugging Face.
+
+## @EXM7777 - Gemini system prompt for humanized writing
+> use this system prompt in gemini to consistently write humanized content: https://t.co/dFOHFUL8jZ
+
+- **Tweet:** https://x.com/EXM7777/status/1996580396553965747
+- **What:** This bookmark flags a Gemini system prompt intended to make generated prose sound more human, but the exported tweet contains neither the prompt text nor a non-self destination, so its practical method cannot be evaluated from the bookmark.
+
+---
+
 # Wednesday, December 3, 2025
 
 ## @EXM7777 - Vibe-coding setup and app-idea promotion
@@ -39619,8 +41141,135 @@ Oh, and RIP billable hours.
 - **Tweet:** https://x.com/EXM7777/status/1996285636383580626
 - **What:** THIN: This is a limited-time promotional post for an unspecified autonomous AI-engineer workflow, combining a “vibe coding” setup, app ideas, and a revenue claim without providing the implementation details or linked material needed to assess them.
 
----
+## @ericzakariasson - Building with Cursor technical onboarding guide
+> the internal guide that technically lite team members go through when joining cursor
+>
+> https://t.co/jJKn17f6CU https://t.co/iOhy8Bstcf
 
+- **Tweet:** https://x.com/ericzakariasson/status/1996347523880165857
+- **Link:** https://cursorai.notion.site/Building-with-Cursor-public-273da74ef0458051bf22e86a1a0a5c7d
+- **Filed:** [building-with-cursor](./knowledge/articles/building-with-cursor.md)
+- **What:** This bookmark points to Cursor’s public “Building with Cursor” document, presented as the onboarding guide for technically lighter team members; it is useful as a reference for how an AI-native development environment introduces non-specialists to agent-assisted building.
+
+## @EXM7777 - Extracting reusable visual-style context with Gemini
+> how to duplicate the style of any image you find online
+>
+> here's my 3-step style-cloning system:
+>
+> step 1 : copy+paste your image inside Gemini 3.0 (it has vision)
+> step 2 : use this prompt : "extract this visual style as JSON structured data: colors, typography, composition, effects..."
+> step 3 : save this context file and inject it whenever you want to recreate this style
+>
+> this is stupidly simple but works well for most
+
+- **Tweet:** https://x.com/EXM7777/status/1996323066008543546
+- **What:** A three-step design-replication workflow asks Gemini’s vision model to encode a reference image’s colors, typography, composition, and effects as JSON, then reuses that saved context to reproduce a consistent visual language in later generations.
+
+## @skyfallai - CASSANDRA causal planning model versus LLM world models
+> Let’s compare the stats between WALL-E (LLM based World Model) and CASSANDRA (first causal World Model) 🔍📊
+>
+> Here’s what the raw numbers looked like:
+>
+> WALL-E (LLM based World Model)
+>   - 25% survival
+>   - 75% bankruptcy rate
+>   - Profit collapses to zero
+>   - High variance, chaotic behaviour
+>
+> CASSANDRA
+>   - >95% survival
+>   - 0 bankruptcies
+>   - Stable recovery even under randomness
+>   - Robust long horizon strategy
+>
+> These results are not an accident. Read the research blog here and tell us if you agree or not.
+>
+> 🔗📌 𝐑𝐞𝐬𝐞𝐚𝐫𝐜𝐡 𝐛𝐥𝐨𝐠: https://t.co/QSRTGNGrtm
+
+- **Tweet:** https://x.com/skyfallai/status/1996297547531587954
+- **Link:** https://skyfall.ai/blog/pioneering-steps-towards-building-world-models-for-planning-in-enterprise
+- **Filed:** [pioneering-world-models-enterprise-planning](./knowledge/articles/pioneering-world-models-enterprise-planning.md)
+- **What:** Skyfall AI reports a controlled comparison where its causal planning model CASSANDRA avoided bankruptcies and maintained survival under randomness, contrasting it with an LLM-based world model’s volatile, short-horizon outcomes; the linked research argues causal structure supports enterprise planning.
+
+## @doodlestein - cass unified coding-agent session search
+> A thread of my open-source tools that I’ve released in the last month or so in reverse chronological order. They all work together very nicely and are part of my workflow now, and result in wild productivity gains for software development. The first is cass:
+>
+> *Quoting @doodlestein:* I’m very pleased to introduce my latest tool for both humans and coding agents: the coding agent session search, or “cass” for short.
+>
+> This tool solves a direct pain point I’ve been experiencing for months as a heavy user of coding agents, with tons of sessions across many tools (Claude Code, codex, cursor, and now gemini-cli) and projects: I’ll know that I talked about something, but be unable to find it or even remember where to try to look for it.
+>
+> I wanted something instantly available in the terminal that would let me search in a rich way across ALL of those tools and sessions at once super fast, with basically no latency and true “search as you type” instant filtering and ranking/sorting.
+>
+> And I wanted it to “just work” without configuration, to automatically find and use all my installed coding tools, even ones that I don’t currently use but might in the future (like opencode, aider, and others).
+>
+> So I made cass in super high-performance rust with every optimization I could think of, and a huge amount of attention to ergonomics and user experience. I’m very pleased with how it came out and think you will be, too:
+>
+> https://t.co/DXrvxsjTKy
+>
+> But just as my recent bv tool is now being used way more by my agents than by me, I knew from the start that cass should have a “robot mode” designed specifically for use by coding agents.
+>
+> This tool gives coding agents the ability to reach into their own working notes and those of all their peer agents across tools. It’s like a human developer being able to search their Gmail, their notes, and their company Slack and Jira to find things.
+>
+> I went through countless iterations of improving the tool so that agents really love to use it. You can just add this blurb to your AGENTS dot md file to get them to use it (after doing the one-liner curl install, which takes
+> 3 seconds):
+>
+> ```
+> 🔎 cass — Search All Your Agent History
+>
+>  What: cass indexes conversations from Claude Code, Codex, Cursor, Gemini, Aider, ChatGPT, and more into a unified, searchable index. Before solving a problem from scratch, check if any agent already solved something similar.
+>
+>  ⚠️ NEVER run bare cass — it launches an interactive TUI. Always use --robot or --json.
+>
+>  Quick Start
+>
+>  # Check if index is healthy (exit 0=ok, 1=run index first)
+>  cass health
+>
+>  # Search across all agent histories
+>  cass search "authentication error" --robot --limit 5
+>
+>  # View a specific result (from search output)
+>  cass view /path/to/session.jsonl -n 42 --json
+>
+>  # Expand context around a line
+>  cass expand /path/to/session.jsonl -n 42 -C 3 --json
+>
+>  # Learn the full API
+>  cass capabilities --json # Feature discovery
+>  cass robot-docs guide # LLM-optimized docs
+>
+>  Why Use It
+>
+>  - Cross-agent knowledge: Find solutions from Codex when using Claude, or vice versa
+>  - Forgiving syntax: Typos and wrong flags are auto-corrected with teaching notes
+>  - Token-efficient: --fields minimal returns only essential data
+>
+>  Key Flags
+>
+>  | Flag | Purpose |
+>  |------------------|--------------------------------------------------------|
+>  | --robot / --json | Machine-readable JSON output (required!) |
+>  | --fields minimal | Reduce payload: source_path, line_number, agent only |
+>  | --limit N | Cap result count |
+>  | --agent NAME | Filter to specific agent (claude, codex, cursor, etc.) |
+>  | --days N | Limit to recent N days |
+>
+>  stdout = data only, stderr = diagnostics. Exit 0 = success.
+> ```
+>
+> Making this tool was a real labor of love. Even though I did it all in less than a week, it took a lot of hours and a ridiculous number of tokens and agents. I heavily used all the workflows and tricks I’ve been posting about recently.
+>
+> It’s a good response to all the snarky comments from people saying that my approach is overly complex and asking “where’s the results?”
+>
+> Let’s see them make a program like this in a year, let alone under a week! And this isn’t even the main thing I’ve been working on during that time! It’s one of like 10+ projects I’ve been pushing forward at the same time.
+
+- **Tweet:** https://x.com/doodlestein/status/1996288658937147549
+- **Link:** https://github.com/Dicklesworthstone/coding_agent_session_search/blob/main/README.md
+- **Quoted:** https://x.com/doodlestein/status/1995863013987868954
+- **Filed:** [coding-agent-session-search](./knowledge/tools/coding-agent-session-search.md)
+- **What:** Jeffrey Emanuel introduces cass as the first in an interoperable set of tools: a fast Rust index that gives humans and agents a single searchable history across coding assistants, including structured robot-mode output for automated retrieval.
+
+---
 # Tuesday, December 2, 2025
 
 ## @eptwts - Repurposing Whop creator expertise into X affiliate funnels
