@@ -8697,6 +8697,1069 @@ I have 200+ skills, and you want me to import 20+ of your slop skills, on the sa
 
 ---
 
+# Tuesday, June 23, 2026
+
+## @RamaswmySridhar - GLM-5.2 and Opus-4.7 trajectories on dbt-bench
+> Early results from the @snowflake's coco team on GLM-5.2 vs Opus-4.7 on dbt-bench — what the trajectories actually show 🧵
+
+- **Tweet:** https://x.com/RamaswmySridhar/status/2069460464371954171
+- **What:** This thread signals an early comparative analysis of GLM-5.2 and Opus-4.7 on dbt-bench, emphasizing how benchmark performance changes across trajectories rather than reducing the evaluation to a single headline score.
+
+## @aienginerd - Preserve agent session transcripts as operational memory
+> This is just a reminder that...
+>
+> on your computer, the codex, claude, pi/OMP, and opencode session data you may not even know you've been collecting for years is gold and should be protected from catastrophic loss.
+>
+> For Codex: `~/.codex/sessions`
+> For Claude: `~/.claude/projects`
+> For Pi: `~/.pi/agent/sessions`
+> For OMP: `~/.omp/agent/sessions`
+> For OpenCode: `~/.local/share/opencode/project/`
+>
+> Every time you use one of these agent harnesses, a full hard-coded transcript of your session gets dropped into one of these directories. Most people don't even know these files exist.
+>
+> A few things your agent can do with them:
+>
+> - ask your agent to search through them and gain perfect memory and context of any project work you've done in the past
+> - setup a codex automation to have an agent go through new transcripts daily, identify points of friction in your workflow, and turn them into deterministic tools
+> - have an agent identify workflows that went well or that your agent does often and turn them into tools or skills
+> - build training datasets to fine-tune smaller open source models on specific repeatable tasks and run them for fractions of pennies on demand as near-deterministic tools with intelligent backing
+> - ask your agent to extract "highest leverage impact" ideas from the available data on any topic, or broadly
+>
+> This is YOUR personalized, hard-earned data. Back it up. One prompt and 10 minutes can protect you from losing years of precious session context to whatever wipes your drive someday!
+
+- **Tweet:** https://x.com/aienginerd/status/2069436754566729987
+- **What:** Agent-harness transcripts are presented as an overlooked source of durable project memory that can support backups, workflow retrospectives, reusable skills, deterministic automation, and carefully curated training data.
+
+## @RohOnChain - Loop engineering for autonomous quant trading systems
+> this is f*cking dangerous
+>
+> build hedge fund using "loop engineering" that prints alpha 24/7 (Full Guide)
+>
+> if I had this a year ago, I would've built my hedge fund in a week instead of a year
+>
+> bookmark before someone takes it down https://t.co/rTAnQcuyaM
+>
+> *Quoting @RohOnChain:* https://t.co/JRsWSeUfrN
+
+- **Tweet:** https://x.com/RohOnChain/status/2069414510742671569
+- **Link:** https://x.com/i/article/2067524770175057920
+- **Quoted:** https://x.com/RohOnChain/status/2069056530960490835
+- **Filed:** [loop-engineering-self-improving-quant-trading.md](./knowledge/articles/loop-engineering-self-improving-quant-trading.md)
+- **What:** The author enthusiastically promotes an autonomous “hedge fund” workflow, while the linked article sketches the underlying agent architecture: scheduled data and signal loops, persistent skills and state, separate verification, isolated worktrees, constrained execution, and continuous risk monitoring; none of this validates profitable trading results.
+
+## @regent0x_ - Private local AI consulting with Strix Halo systems
+> his “AI server” is 4 mac minis stacked next to the toaster
+>
+> linked by free software into one machine that runs 235B models no single computer could load
+>
+> regulated clients pay him $3,500/month each to use it
+>
+> he has 6 of them
+>
+> that’s $21k/month from a tower of silver boxes in his kitchen
+>
+> the stack runs exo - open-source, $0, turns four separate minis into one pool of memory. the monitor shows all four nodes firing together, one model spread across the whole cluster
+>
+> the thing nobody tells you about local AI:
+>
+> a model either fits in your machine’s memory or it doesn’t run. that’s the wall everyone hits. it’s why people assume serious AI means a $40k server
+>
+> exo walks straight through that wall. it splits one massive model across every box in the chain. four minis at $599 each suddenly run what a single high-end machine can’t touch
+>
+> and the people who need this aren’t chasing the newest model
+>
+> they’re the ones the cloud locked out:
+>
+> → a law firm with privileged case files
+> → a medical practice under HIPAA
+> → an accounting firm holding client financials
+>
+> they need AI nowhere near a third-party server. a stack they can point to during an audit ends every objection
+>
+> their models run on his cluster. the data never leaves equipment he controls
+>
+> the breakdown:
+>
+> → 4 mac minis: $2,400 total
+> → exo software: $0
+> → electricity: ~$25/month
+> → what he charges per client: $3,500/month
+> → 6 active clients
+>
+> the kitchen stack paid for itself in the first 3 weeks
+>
+> month 1: 2 clients, $7k
+> month 3: 4 clients, $14k
+> month 6: 6 clients, $21k
+>
+> he’s not running a startup with an office and a logo
+>
+> he’s running four silver boxes between the coffee machine and a bowl of fruit, clearing $21k/month from hardware that cost $2,400
+>
+> clients picture racks and cooling fans
+>
+> reality is four minis humming next to where he makes breakfast
+>
+> the cloud companies charge a fortune for compute and access to your own
+>
+> he charges $3,500 a month for the one thing they can’t sell - a machine that never phones home
+>
+> *Quoting @regent0x_:* https://t.co/OKJUp3KAmo
+
+- **Tweet:** https://x.com/regent0x_/status/2069411742753399086
+- **Link:** https://x.com/i/article/2066464194430476288
+- **Quoted:** https://x.com/regent0x_/status/2066467639317192787
+- **Filed:** [two-boxes-under-my-desk-local-ai-consulting.md](./knowledge/articles/two-boxes-under-my-desk-local-ai-consulting.md)
+- **What:** The commentary presents a clustered Mac mini deployment as a high-margin, privacy-first service for regulated clients, while the quoted article instead details local 128GB Strix Halo systems, Ollama, RAG, and the tradeoffs behind selling managed on-premise AI.
+
+## @catalinmpit - Hetzner price increases reshape its value proposition
+> Hetzner was my favorite provider because of the low prices.
+>
+> It was a no-brainer. But the good times are over.
+>
+> They had multiple price increases over the last few weeks.
+>
+> Some examples:
+> - CX23 = 37.5% increase (from 3.99 to 5.49)
+> - CPX22 = 143.9% increase (from 7.99 to 19.49)
+> - CAX11 = 33.4% increase (from 4.49 to 5.99)
+> - CCX13 = 168.8% increase (from 15.99 to 42.99)
+> - CCX23 = 173% increase (from 31.49 to 85.99)
+>
+> They're still affordable, but some of these percentage increases are steep.
+
+- **Tweet:** https://x.com/catalinmpit/status/2069406141130723462
+- **What:** Hetzner's substantial increases on several cloud-server tiers weaken the low-cost premise that made it a default choice, even if its absolute prices may still compete with larger providers.
+
+## @coreyhainesco - Marketing Skills v2.5 offer-design framework
+> Marketing Skills v2.5.0 is out.
+>
+> 🆕 /offers — offer design, not copywriting.
+>
+> Most "my copy isn't converting" problems are actually offer problems. No headline saves a weak offer. This skill fixes the thing underneath the words — for services, agencies, courses, coaching, info products, and high-ticket B2B.
+>
+> What's inside:
+> → The Value Equation — Dream Outcome × Perceived Likelihood, divided by Time Delay × Effort. Score an offer, see where it's leaking.
+> → Six-component offer anatomy — core deliverable, bonus stack, guarantee, scarcity/urgency, name, price + payment structure
+> → Seven reference files — guarantee design (8 types), bonus stacking, scarcity frameworks, formats by business type, plus six anonymized before/after teardowns
+> → Anti-patterns baked in — no fake countdown timers, no inflated bonus values, no banned hype ("game-changing," "revolutionary," "secret method")
+> → Cross-referenced from /pricing, /copywriting, /launch, and /sales-enablement
+>
+> 45 skills. Free, open source.
+>
+> npx skills add coreyhaines31/marketingskills
+
+- **Tweet:** https://x.com/coreyhainesco/status/2069397618510426337
+- **What:** Marketing Skills v2.5 adds an offer-design module that diagnoses conversion problems upstream of copy, using a value equation and six-part offer anatomy alongside practical guidance on guarantees, bonuses, pricing, urgency, and avoiding deceptive promotional tactics.
+
+---
+
+# Monday, June 22, 2026
+
+## @prestonb_xyz - Deliberate observation while browsing Mobbin UI references
+> I use @mobbin pretty much every day, but, inspired by @joshpuckett, I decided to slow down and jot down a few things that stood out to me.
+>
+> Here's what I noticed.  ⬇️
+
+- **Tweet:** https://x.com/prestonb_xyz/status/2069254950694375475
+- **What:** Preston advocates moving from passive daily browsing of Mobbin’s interface gallery to recording specific patterns that stand out, a deliberate-observation practice intended to turn visual reference consumption into reusable product and interaction-design judgment.
+
+## @kentcdodds - Turn successful AI conversations into durable documentation
+> Pro-tip. After a long and successful conversation with AI, ask: "what have we learned in this conversation that would be repeatable and useful for other agents in the future?" and have it update documentation as needed.
+
+- **Tweet:** https://x.com/kentcdodds/status/2069254818091405343
+- **What:** Kent C. Dodds proposes ending productive AI sessions with an explicit knowledge-capture prompt, converting one-off reasoning, decisions, and discoveries into maintained documentation that future agents can apply without rediscovering the same context.
+
+## @Dinosn - security-audit-skill — adversarial multi-phase code audits
+> cloudflare/security-audit-skill: A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings https://t.co/BY59yQcXlA
+
+- **Tweet:** https://x.com/Dinosn/status/2069253991846862932
+- **Link:** https://github.com/cloudflare/security-audit-skill
+- **Filed:** [security-audit-skill](./knowledge/tools/security-audit-skill.md)
+- **What:** Cloudflare’s open-source agent skill turns a security audit into a staged workflow: parallel reconnaissance and attack hunting are followed by adversarial validation, schema-checked reporting, and fresh-agent verification so findings have concrete, reviewable evidence rather than unsupported alerts.
+
+## @bryan_johnson - Midjourney Scanner and longitudinal preventive imaging
+> The Midjourney scanner is revolutionary. There’s a bullish case that exceeds the most optimistic takes.
+>
+> I was at the unveiling and used the scanner myself. I personally want to experiment with a weekly whole body Midjourney scan to add to my 1.5 billion data points and let my AI and doctors start connecting the dots.
+>
+> Most of the early commentary has focused on the wrong questions: “is it as good as MRI?” and “what about false positives?” These are legitimate concerns, but they miss the bigger shift.
+>
+> The more important question is: what does fast, low cost, safe whole body imaging unlock?
+>
+> Let’s start with measurement.
+>
+> A speedometer tells you how fast you are going. A fuel/battery gauge tells you when to stop. A thermostat tells you what to wear. The stock price tells you how much money you’ve made or lost. We measure what we care about.
+>
+> Except, oddly, for our bodies, which are among the least measured things in our lives. Most people have more data on their favorite sports team, bank account, and social media performance than their body. The future will think we were crazy for this.
+>
+> The first law of medicine is to do no harm. Our current system has harm baked into it.
+>
+> + an undiagnosed condition progressing silently is harm
+> + a doctor who can’t easily get a patient screened preventively is harm
+> + having no baseline to compare against when something shows up is harm
+>
+> Our preventive net is narrow and inconsistent. Late stage diagnoses that could have been caught earlier remain common. Midjourney’s technology won’t eliminate that overnight, but it points toward a future where routine wholebody baselines become normal rather than exceptional.
+>
+> Midjourney can help flip harm-by-default into a new expectation for our health infrastructure: almost no one will ever again be blindsided by a late-stage, life-threatening diagnosis that could have been caught earlier reasonably and cost-effectively.
+>
+> Some examples of what earlier structural visibility enables:
+>
+> + breast cancer caught while localized has a ~99% five year survival rate. Once it has spread distantly, that drops to around 32%.
+>
+> + an abdominal aortic aneurysm kills more than 8 in 10 people when it ruptures. A single ultrasound finds the aorta in 99 percent of people, and screening cuts aneurysm deaths by a third to a half.
+>
+> Midjourney’s technology will not do it all on its own. Its full angle, water immersion approach works around bone rather than seeing through it, and routes bowel gas to image the full abdominal cross section. Yet two real limits remain: air filled lungs stay a blind spot even here, and the brain is out of reach behind the skull, beyond the torso and legs this scanner covers.
+>
+> That is fine, and they may improve these areas over time. Midjourney doesn’t need to do it all in order for it to be one of the biggest things to hit medicine in a long time.
+>
+> Let’s look at where specifically Midjourney may be useful to each of us. We’ll start with where we get data today:
+>
+> 1) Blood draws tell us what is happening chemically.
+> 2) Wearables tell us how the body is functioning.
+> 3) Imaging tells us what is happening structurally.
+>
+> The third layer, soft tissue, is the one we have never been able to access easily. MRI is great, but it is expensive, intimidating, and slow.
+>
+> Midjourney's technology excels with soft tissue. Here are three places it could be game changing. There are many more.
+>
+> 1. Metabolic health - fatty liver is one of the earliest structural signs of metabolic dysfunction. It’s strongly linked to insulin resistance, type 2 diabetes, and cardiovascular risk. Being able to track visceral fat, muscle fat infiltration, and liver fat over time could give a much clearer picture than blood markers alone. Over 88% of Americans are metabolically unhealthy.
+>
+> 2. Endocrine tissue - the same metabolic patterns often cluster with thyroid issues, PCOS, and hypogonadism. Ultrasound can directly image the thyroid and ovarian structures. Fat tissue itself is an endocrine organ, so tracking it structurally adds another useful data layer.
+>
+> 3. Soft tissue + multiomics - new proteomic aging clocks can already predict risk for many chronic diseases from blood proteins. These molecular models could become significantly more powerful when combined with actual structural imaging data. The two are complementary, not competitive.
+>
+> The real advantage: baseline + longitudinal tracking
+>
+> The biggest unlock isn’t a single scan. It’s having a baseline followed by regular follow-ups. A one off scan in a moment of concern turns every finding into a potential crisis. Without context, you have no idea whether something is new, stable, or changing. With baseline + repeated measurement, the question changes from “what is this?” to “is this changing?” Most incidental findings stay stable. The dangerous ones tend to grow or evolve. Trajectory is often more informative than any single image or timepoint.This is why false positives become more manageable with frequent, low-friction imaging.
+>
+> Midjourney has a difficult road ahead. Building robust, clinically validated medical hardware and software is extremely hard. Regulatory, technical, and adoption challenges shouldn’t be understated. Also, David is doing this for the right reasons and he’s well positioned financially to push through the difficulty.
+>
+> On the horizon
+>
+> We are moving quickly into a future where we will have continuous biological measurement. It will be all around us, a lot of it invisible and autonomous. Measurement will be in our gyms, beds, homes, clothing, offices, cars, glasses, and wearables. It will also be inside of us, in tissue and circulating in our blood vessels. This moves us from managing crises to preventing them. But this future will not just show up. We need bold builders like David and his team, willing to do the hard work.
+>
+> *Quoting @midjourney:* A technical dive inside our new "Midjourney Scanner" https://t.co/wJBHz2O7ro
+
+- **Tweet:** https://x.com/bryan_johnson/status/2069221309918351661
+- **Quoted:** https://x.com/midjourney/status/2067422898407837797
+- **What:** Bryan Johnson argues that inexpensive, repeatable soft-tissue imaging could make preventive care longitudinal: paired with blood, wearable, and multiomic data, baseline scans could distinguish stable incidental findings from meaningful change, though clinical validation and coverage limitations remain substantial.
+
+## @ericosiu - Turning Hermes into a chief of staff
+> Running 5+ different AI chats across two monitors feels like having superpowers.
+>
+> Claude Code here,  Codex there, Hermes in the corner, all working at once.
+>
+> But this gets messy fast. Threads pile up, work gets lost, and by Thursday you can't even remember what you were even supposed to ship.
+>
+> So everything those chats produce should feed two places.
+>
+> Obsidian and Linear.
+>
+> Here's why:
+>
+> *Quoting @ericosiu:* https://t.co/3ezYwBAyEr
+
+- **Tweet:** https://x.com/ericosiu/status/2069180985216782767
+- **Link:** https://x.com/i/article/2062257585613389824
+- **Quoted:** https://x.com/ericosiu/status/2068370407049011538
+- **Filed:** [hermes-chief-of-staff](./knowledge/articles/hermes-chief-of-staff.md)
+- **What:** Eric Siu argues that parallel AI chats need an operating spine: Obsidian retains durable context and Linear tracks work, while a manager agent such as Hermes coordinates specialized agents, connected business APIs, scheduled jobs, and human approvals instead of becoming another isolated chat window.
+
+## @SleepMoneyMaker - A code-derived feature specification and repair loop
+> Been iterating on @tomosman's loop.
+>
+> This one's winning:
+>
+> /goal produce a verified, code-derived behavioral spec for this web platform, captured in one canonical spreadsheet that carries every feature from spec -> tested -> fixed -> verified.
+>
+> Why: we need a single source of truth that maps every feature to its expected behavior *as the code implements it*, so that gaps and bugs surface and the platform can be driven to a known-good state. The spreadsheet is the source of truth.
+>
+> Work on the current repo. Do Phase 0 and Phase 1 under this goal; when the spec is complete, switch into the /loop below to drive testing and remediation. Keep moving through phases without stopping, except at a real checkpoint (defined below).
+>
+> Phase 0 - Plan (first): Detect the stack, the feature surface (routes, pages, components, API endpoints, background jobs, auth, settings…), and the test infra that already exists (unit/integration/e2e, browser automation, seeds/fixtures, a runnable dev server).
+>
+> Propose (a) how you'll inventory features, (b) the spreadsheet schema, and (c) how you'll test in the loop given what's available. Proceed once the plan holds.
+>
+> Phase 1 - Catalog & spec: Read the code and, for every feature, write a user story + the expected behavior as implemented, citing the file/function. Where the code is ambiguous, or behavior is undefined, log an open question - don't guess. Record every feature as a row in the canonical spreadsheet (create with the xlsx skill). Exit: every discoverable feature has a row.
+>
+> One row, concretely:
+>
+> | Area | User story | Expected behavior (from code) | Status | Defects | Type | Notes / source |
+> |---|---|---|---|---|---|---|
+> | Auth | As a returning user I want to log in with email+password so I can reach my dashboard | `POST /api/login` validates via bcrypt, sets httpOnly session cookie, 302 -> `/dashboard`; bad creds -> 401 + inline error | Spec'd | - | - | `api/auth/login.ts`, `LoginForm.tsx` |
+> Canonical artifact: exactly one .xlsx, updated in place across every phase and loop iteration - never fork into per-phase or per-iteration files. Status flows Spec'd -> Tested-Pass / Tested-Fail -> Fixed -> Verified. The main thread is the single writer.
+>
+> Agentic execution:
+>
+> - Delegate breadth to subagents: fan feature discovery and per-area testing across subagents so the main thread stays focused.
+> - Verify by running, not claiming - report real command/test output; state skips and unknowns plainly.
+> - Checkpoint (pause, ask, end the turn) only for a destructive/irreversible action, a fix needing a genuine product decision, or input only I can give. Otherwise, keep going.
+> - Self-check at each phase/loop boundary via a fresh-context subagent: re-verify the spreadsheet against the code (Phase 1) and against actual results (each loop pass).
+>
+> /loop Quality cycle - once the spec is complete, iterate test -> fix -> re-test until clean.
+>
+> Each iteration, in order:
+>
+> 1. Test: exercise every user story not yet Verified against the running app, preferring the strongest method available (browser/e2e automation > existing suites > documented static check only where execution truly isn't possible). Record actual pass/fail in the same spreadsheet; log every defect with its type (functional/logistical or UX). No app-behavior changes in this step.
+>
+> 2. Fix: think hard about root cause, then fix every functional/logistical and UX defect logged this iteration - cause, not symptom. Scope: only logged defects; no new features, no unrelated refactors. Update each row's status.
+>
+> 3. Re-test: re-run every story touched by a fix using the same method; set Verified, or back to Tested-Fail with notes if the fix didn't hold.
+>
+> Exit when all user stories are Verified and no open functional/UX defects remain. Safety cap: if a story is still failing after 3 full iterations, stop, leave it Tested-Fail with root-cause notes, and report it rather than looping further.
+>
+> *Quoting @tomosman:* This "loop" automation is nuts inside of Codex.
+>
+> "/goal go over every single feature in this app create a user story with expected behaviour based on the code keep a single canonical spreadsheet tracking the features status
+> - when done switch loop to testing every user story and documenting all errors
+> - when done fix every logistical error or ux error
+> - test every user behaviour again post fix"
+>
+> Shoutout to @MatthewBerman for the heads up.
+>
+> Hundreds of user stories being worked through like it's nothing.
+
+- **Tweet:** https://x.com/SleepMoneyMaker/status/2069155919360102520
+- **Quoted:** https://x.com/tomosman/status/2068692611334893582
+- **What:** This refinement turns a broad Codex testing loop into a controlled quality system: a single source-cited spreadsheet records code-derived behavior, real test outcomes, root-cause fixes, and re-verification, while explicit checkpoints and a three-pass cap keep autonomous remediation auditable and bounded.
+
+## @aienginerd - Framing context as an agent handoff primitive
+> My new favorite Codex-ism is "framing context".
+>
+> "create a self-contained doc for that issue and include framing context"
+>
+> "write a handoff to the main agent / subagent with all relevant framing context"
+>
+> "refresh me on what we've been doing recently with all important framing context in plain language"
+>
+> It mainlines deep into Codex's inner soul somewhere and it knows just what you want.
+
+- **Tweet:** https://x.com/aienginerd/status/2069152517624045692
+- **What:** A concise prompting pattern for preserving task history across agent handoffs: request self-contained framing that explains the goal, relevant decisions, constraints, and recent work so a new context can act without reconstructing the project from scattered artifacts.
+
+## @lennysan - Fiona Fung on managing AI-accelerated product teams
+> My biggest takeaways from Claude Code/Cowork lead @Nerdi_Yogi:
+>
+> 1. When your engineers ship 8x more code than a year ago (like they do at Anthropic), the biggest problem becomes verification. How do you know that the experience you shipped is what you intended? One tactic Fiona’s team uses is a “bad vs. sad” tracking framework: bad is unrecoverable errors (like a crash), sad is a recoverable pain point (like flickering or drop in conversation). They give each team agency to build and ship quickly, but they track bad and sad events for their surface areas to quickly identify issues.
+>
+> 2. As engineers increasingly work independently with their own teams of agents, loneliness is emerging as a challenge for engineers. To help, Fiona’s team started “pairwise programming lunches,” where engineers work side by side, not necessarily on the same thing, and pick up new patterns by watching how others use Claude Code and Cowork.
+>
+> 3. Anthropic built a dashboard that counts how often users swear at Claude Code. Back in September, amid visible user frustration, an engineer suggested tracking swear words, and Fiona loved it. It’s become a proxy for things evals struggle to capture: whether the experience is actually delightful, not just technically accurate.
+>
+> 4. Look for latent demand to discover new business opportunities. Cowork emerged when the team noticed that non-coders were using Claude Code for tasks like analyzing MRIs or recovering wedding photos. That signal—people jumping through hoops to make something work with your product—tells you there’s something there.
+>
+> 5. Fiona’s team has shifted from six-month roadmaps to just-in-time monthly planning. She tried doing lightweight six-month roadmaps when she joined Claude Code, but a few months in, she realized her team had barely referenced them. Now they do monthly planning on a simple spreadsheet with a simple list of this month’s priorities.
+>
+> 6. One of Claude Code’s cultural values is: you have permission to kill any process that isn’t working. Fiona brought in six-month planning from her previous experience, then killed it herself when it wasn’t serving the team. Always ask: is this process still serving its purpose?
+>
+> 7. Another core principle: “What’s better than me doing it? Having Claude do it.” This pushes everyone to keep checking whether a task can be automated—even writing the post that announces a model launch. Fiona admits that after decades of shipping software by hand, she still has to remind herself to ask it.
+>
+> 8. When Fiona hires managers, they have to start as individual contributors. This gives them time to learn the codebase, build rapport with the team, and understand what it’s like to be an engineer on the team before taking on management responsibilities. It prevents the trap of immediately reaching for your “manager toolbox” instead of learning the specific context.
+>
+> 9. Fiona uses “routines” to automate her daily rituals as a manager. She used to read user feedback channels over coffee and hand-pick fixes to assign teammates, Now a Claude “routine” runs every morning, kicking off agents that analyze feedback across multiple channels, identify themes, and generate PRs to address issues. Her prediction is that work is shifting from manual synchronous prompting to asynchronous agent management (i.e. loops).
+>
+> 10. Culture, not code, is what keeps her up at night. To Fiona, culture is a living thing, not a poster on a wall. Her nightmare is the manager who says, “everything’s fine” while the room is on fire. She pushes hard for open talk about what’s not going well, because that’s the only way the team can fix it together.
+>
+> *Quoting @lennysan:* Fiona Fung (@Nerdi_Yogi) leads the teams behind Claude Code and Cowork at @AnthropicAI (overseeing all of eng and PM, including @bcherny and @_catwu). Before Anthropic, she spent 11 years at @Microsoft building Visual Studio and TypeScript and then moved to @Meta, where she helped build Meta’s first VR and AR glasses, started Facebook Marketplace (now generating over $100B in GMV annually), and led @Instagram's infrastructure, growth, and safety teams. She’s been an engineer for over 25 years and has such a unique lens into where things are heading for product teams.
+>
+> In our in-depth conversation, we discuss:
+> 🔸 Specific ways her team uses AI
+> 🔸 The emerging context-switching and loneliness problem for engineers
+> 🔸 How her teams do planning
+> 🔸 What she’s learned about running teams shipping 8x more code
+> 🔸 Which roles AI will transform next
+> 🔸 What keeps her up at night
+>
+> Listen now 👇
+> https://t.co/2S79IakE9x
+
+- **Tweet:** https://x.com/lennysan/status/2069138871779238064
+- **Link:** https://www.youtube.com/watch?v=Ybrl4FYM57c&feature=youtu.be
+- **Quoted:** https://x.com/lennysan/status/2068713369398567187
+- **Filed:** [fiona-fung-claude-code-cowork](./knowledge/videos/fiona-fung-claude-code-cowork.md)
+- **What:** Fiona Fung’s interview describes how AI-driven code throughput shifts leadership toward verification, feedback analysis, and fast process adaptation; Lenny’s summary distills the broader conversation into operating practices for quality, team connection, planning, management automation, and candid culture.
+
+## @every - Evidence-based AI career audits
+> Steal this AI career-audit workflow from @kplikethebird:
+>
+> 1. Build one career coach folder around a single question: “Where do I stand against the goals I own this quarter, and what should I do next?”
+>
+> 2. Add an AGENTS.md that says what your coach should read first, which sources it should trust, how to flag uncertainty, and where to save its work.
+>
+> 3. Give it five kinds of receipts:
+> • commitments: OKRs, job description, manager feedback
+> • work: project folders, documents, repos
+> • feedback and use: Slack, email, meeting notes, handoffs
+> • outcomes: revenue, trials, pageviews, time saved
+> • company context: strategy docs and current priorities
+>
+> 4. Give the coach four rules:
+> • cite the source behind every important conclusion
+> • separate proof, interpretation, and open questions
+> • treat runs, handoffs, decisions, and outcomes as stronger evidence than plans or discussion
+> • check the record before asking how you think you did
+>
+> 5. Ask it to find what you finished, valuable work that isn’t being counted, missing proof of adoption, goals that no longer fit, and the next move most likely to improve the outcome.
+
+- **Tweet:** https://x.com/every/status/2069120882803683596
+- **What:** A practical blueprint for a personal AI career coach that compares current work with quarterly objectives using trustworthy records, separates evidence from inference, surfaces uncredited impact and stale goals, and recommends the highest-leverage next action.
+
+## @skcd42 - Grok Build's multi-agent /goal workflow
+> /goal is live on Grok Build.
+>
+> We use a team of agents:
+> - implementors
+> - skeptics
+> - code reviewers
+> - planners
+> and a mix of grok build and composer in various roles.
+>
+> Would love to hear your feedback on how ambitious you can be with /goal and where the gaps are
+>
+> *Quoting @grok:* Introducing /goal in Grok Build.
+>
+> Execute long-running tasks autonomously, with multiple rounds of subagents implementing and verifying a single goal. https://t.co/D36aiwuXS5
+
+- **Tweet:** https://x.com/skcd42/status/2069119872035131891
+- **Quoted:** https://x.com/grok/status/2069095154691272933
+- **What:** Grok's /goal feature frames a long-running task as repeated implementation and verification by subagents, while skcd42 adds that Grok Build coordinates specialized implementors, skeptics, reviewers, and planners to test how far that autonomous workflow can stretch.
+
+## @MatthewBerman - Loopy discovers repeatable agent workflows
+> New Loop Library skill feature: Lazy Loops! (aka Discover)
+>
+> Discover will look through your codebase and chat threads to find potential loops it will design for you.
+>
+> https://t.co/qnfoRqkk72
+
+- **Tweet:** https://x.com/MatthewBerman/status/2069098257444434425
+- **Link:** https://github.com/Forward-Future/loopy
+- **Filed:** [loopy.md](./knowledge/tools/loopy.md)
+- **What:** Loopy's new Discover feature analyzes a repository and prior chat work to identify repeated tasks worth formalizing as bounded agent loops, then designs reusable workflows with feedback, verification, and stopping rules instead of relying on one-off prompts.
+
+## @juliarturc - Voxtral's modular speech-model architecture
+> This is what happens when you plug LLMs into voice assistants, instead of a decade of handwritten rules.
+>
+> This video dissects Voxtral (a family of OSS speech models) and the foundational work behind it (audio tokenization, semantic/acoustic disaggregation, etc).
+>
+> Thank you @MistralAI for your collaboration and for your detailed technical reports in an increasingly opaque industry!
+>
+> 00:00 Intro
+> 01:03 Modular vs end-to-end speech models
+> 03:30 Speech-to-Text
+> 06:07 Delayed Streams Modeling (DSM)
+> 09:41 Whisper Streaming
+> 10:33 Voxtral Realtime
+> 13:07 Voxtral Text-to-Speech
+> 14:28 Throwback: WaveNet
+> 15:24 Audio tokenization
+> 20:39 The Voxtral Codec
+> 21:49 Back to Voxtral TTS
+> 25:30 Outro
+
+- **Tweet:** https://x.com/juliarturc/status/2069096367155507257
+- **What:** This video-led technical overview connects Mistral's open Voxtral speech models to the underlying choices in streaming speech recognition and synthesis, including delayed-stream modeling, audio tokenization, and the separation of semantic from acoustic information.
+
+## @patrickc - Stripe Directory for developer and agent discovery
+> Very early experiment but I think this will be cool.
+>
+> https://t.co/42iqZXZIGE.
+> https://t.co/KYLXm3eYzK
+
+- **Tweet:** https://x.com/patrickc/status/2069079147532665329
+- **Link:** https://docs.stripe.com/directory
+- **Filed:** [stripe-directory.md](./knowledge/articles/stripe-directory.md)
+- **What:** Stripe Directory is an early public-preview discovery layer that lets developers and AI agents find businesses and integration services on Stripe, moving service discovery beyond manual searching across separate marketplaces and provider directories.
+
+## @gippp69 - Mac Mini second-brain automation loops
+> https://t.co/cSKBFlbvgx
+
+- **Tweet:** https://x.com/gippp69/status/2069068377574776987
+- **Link:** https://x.com/i/article/2068594008591339520
+- **Filed:** [claude-mac-mini-second-brain.md](./knowledge/articles/claude-mac-mini-second-brain.md)
+- **What:** This practical blueprint turns an always-on Mac Mini, an Obsidian vault, and the Claude API into bounded automation loops for lecture notes, article triage, and daily review, emphasizing hard verification gates, persistent state, and explicit stop conditions.
+
+## @Steve8708 - Clips, an open-source agent-readable Loom alternative
+> Introducing Clips - 100% free, open source, agent-native alternative to Loom
+>
+> Unlike Loom, agent's can fully understand Clips just from a URL. Every Clip comes with APIs and metadata for agents to explore their contents.
+>
+> Agents can "see and hear" anything in a Clip - not just transcripts, but everything visually in the video at any timestamp.
+>
+> Easily share bug reports, feedback, analyses, or anything else in a way that you can easily pass to agents to use to improve products, reports, or more.
+>
+> Also unlike Loom, you own the software, so no one can jack up prices on you suddenly like Loom did to us.
+>
+> Clips is made to be customized. The built-in agent can customize its own code, so you can personalize the app to your needs and workflows.
+>
+> This, in my opinion, is the future of software. Open-source, forkable, customizable with agents, to make your own personal version of anything.
+>
+> You can also import Looms just from a URL and upload videos as well.
+>
+> I got so sick of telling people "don't send me feedback as looms, I can't pass those to agents, I need text and images" that I had to just solve this once and for all.
+>
+> There's a free hosted version you can use too, or fork and self host yourself. Will link to both in the replies.
+
+- **Tweet:** https://x.com/Steve8708/status/2069064659613958348
+- **What:** Clips is presented as an open-source, customizable Loom replacement whose URLs expose machine-readable video metadata, audio, visuals, and APIs, allowing product-feedback recordings to become actionable inputs for agents rather than opaque media.
+
+---
+
+# Sunday, June 21, 2026
+
+## @IBuzovskyi - Hermes Agent’s path from chatbot to autonomous system
+> HERMES AGENT HAS 8 CONFIGS
+> THAT MOST USERS NEVER CHANGE.
+> EACH ONE SAVES TOKENS, IMPROVES OUTPUT, OR BOTH.
+>
+> 1. REASONING EFFORT
+>
+> controls how much thinking per turn.
+> default: medium.
+>
+> agent:
+> reasoning_effort: low
+>
+> options: none, minimal, low, medium, high, xhigh.
+> routine cron jobs: low. deep analysis: high.
+> switch mid-session with /reasoning [level].
+>
+> lower effort = fewer tokens = cheaper turns.
+>
+> 2. SUB-AGENT MODEL OVERRIDE
+>
+> sub-agents default to your main model.
+> a web search sub-agent on Opus is waste.
+>
+> delegation:
+> model: "deepseek/deepseek-v4"
+>
+> simple tasks on cheap models.
+> parent stays on your premium model.
+> one config. significant savings.
+>
+> 3. YOLO MODE
+>
+> skips permission prompts for every action.
+>
+> approvals:
+> mode: off
+>
+> or launch with: hermes --yolo
+>
+> three modes:
+> → manual: approve everything (default)
+> → smart: auto-approve low risk, prompt high risk
+> → off: skip all prompts
+>
+> use smart for daily work.
+> off when you trust the task completely.
+> never on production systems.
+>
+> 4. MEMORY LIMITS
+>
+> memory.md caps at 2,200 characters.
+> user.md caps at 1,375 characters.
+> after that, the agent drops what it thinks
+> is least important.
+>
+> memory:
+> memory_char_limit: 2200
+> user_char_limit: 1375
+>
+> raise these if the agent keeps forgetting
+> important context.
+>
+> 5. QUICK COMMANDS
+>
+> two types in config.yaml:
+>
+> EXEC (runs terminal command, drops output into context):
+>
+> quick_commands:
+> git-status:
+> type: exec
+> command: "git status && git log --oneline -5"
+>
+> ALIAS (rename existing commands):
+>
+> quick_commands:
+> c:
+> type: alias
+> target: compress
+>
+> /git-status and /c become instant shortcuts.
+>
+> all settings: Desktop app, Dashboard, or config.yaml.
+>
+> comment CONFIG and I'll send you
+> the remaining 3 settings that control
+> compression behavior and tool output limits.
+>
+> full 15 levels breakdown in the article 👇
+>
+> *Quoting @IBuzovskyi:* https://t.co/VxyyeQCimO
+
+- **Tweet:** https://x.com/IBuzovskyi/status/2068762486484951157
+- **Link:** https://x.com/i/article/2068585191522566144
+- **Quoted:** https://x.com/IBuzovskyi/status/2068629714776756339
+- **Filed:** [hermes-agent-15-levels.md](./knowledge/articles/hermes-agent-15-levels.md)
+- **What:** The configuration tips make a practical case for tuning reasoning effort, model delegation, approvals, memory, and shortcuts, while the quoted 15-level guide places those controls within a broader progression toward cost-aware autonomous agent systems.
+
+## @theo - Cross-model API design review with Claude CLI
+> Want a good "first loop" to use with Codex?
+>
+> "When you are done designing the API, get a second opinion from Opus with 'claude -p'"
+>
+> This has significantly improved the quality of the code I get out of OpenAI models.
+
+- **Tweet:** https://x.com/theo/status/2068595585121484866
+- **What:** Theo recommends a two-model development loop: use Codex to implement after API design, then ask Claude through `claude -p` to challenge that design, bringing an independent model’s perspective to architectural decisions.
+
+## @doodlestein - Dynamic critic swarms for less formulaic output
+> Using dynamic workflows to reduce cringe. We are talking about whole swarms of cringe critics here. The pinnacle of agentic de-cringeification: https://t.co/4giDWBHhFX
+
+- **Tweet:** https://x.com/doodlestein/status/2068560341630382358
+- **What:** The post proposes dynamic workflows that send generated work through several specialized critics, using parallel review to catch formulaic tone and other output-quality failures before the result is accepted.
+
+---
+
+# Saturday, June 20, 2026
+
+## @KingBootoshi - Enforcing agent code quality with ast-grep
+> custom eslint rules with ast-grep is so sexy
+>
+> never had my agents write such high quality code because writing bad code is simply not allowed
+
+- **Tweet:** https://x.com/KingBootoshi/status/2068505812935569507
+- **What:** Custom AST-aware ESLint rules can turn code-quality expectations into hard constraints for coding agents, preventing recurring structural mistakes rather than relying on the agent to remember stylistic guidance.
+
+## @Voxyz_ai - Refero’s AI-readable design system library
+> one more thing, found a site with 𝟎,𝟎𝟎𝟎+ 𝗰𝗼𝗺𝗽𝗹𝗲𝘁𝗲 𝗱𝗲𝘀𝗶𝗴𝗻 𝘀𝘆𝘀𝘁𝗲𝗺𝘀, each one a DESIGN.md your agent reads directly.
+>
+> every one comes with:
+> - color palette + tokens
+> - type scale
+> - spacing / layout rhythm
+> - component patterns
+> - overall mood + guide
+>
+> looks ripped from real products, Stripe, Linear, Vercel, Notion, ElevenLabs. drop one into your project, run a pass to align your UI to it, done. Opus handles this kind of task better.
+>
+> https://t.co/NLbM6SnCvu
+>
+> *Quoting @Voxyz_ai:* stop telling Claude Code/Codex "the colors look off".
+> stop telling Claude Code/Codex "the font's ugly".
+> stop telling Claude Code/Codex "the spacing's weird".
+>
+> you never gave it a 𝗱𝗲𝘀𝗶𝗴𝗻 𝘀𝘆𝘀𝘁𝗲𝗺, so it ships defaults, and you nitpick every build.
+>
+> here are 8 prompts and goals you can copy-paste directly.
+
+- **Tweet:** https://x.com/Voxyz_ai/status/2068331748795043999
+- **Link:** https://styles.refero.design/
+- **Quoted:** https://x.com/Voxyz_ai/status/2068011987200786733
+- **What:** Vox recommends Refero’s large library of AI-readable DESIGN.md files as a practical design-spec input, extending the quoted argument that agents need explicit systems rather than vague visual feedback.
+
+---
+
+# Friday, June 19, 2026
+
+## @thsottiaux - Codex-assisted inbox zero workflows
+> Late to this one, but follow @danshipper for S-tier codex tips. These days I spend more time in the codex app than all other apps combined on my Mac.
+>
+> *Quoting @danshipper:* how i hit inbox 0 every day with Codex: https://t.co/Pka8rcw2vQ
+
+- **Tweet:** https://x.com/thsottiaux/status/2068144722460475527
+- **Quoted:** https://x.com/danshipper/status/2062927700218859686
+- **What:** Tibo’s endorsement pairs heavy personal use of Codex with Dan Shipper’s concrete inbox-zero workflow, pointing to email triage as a high-leverage daily automation target.
+
+## @0xSero - Turning autonomous work into goal loops
+> Let me make your life better.
+>
+> Sit down and turn all your work in goals/loops, connect your phone with codex or dispatch/code or droid computer
+>
+> Go outside and enjoy the nature. If you’re curious drop in and give guidance
+>
+> Example For web developers:
+>
+> - /goal go over every single feature in this app create a user story with expected behaviour based on the code keep a single canonical spreadsheet tracking the features status
+> - when done switch loop to testing every user story and documenting all errors
+> - when done fix every logistical error or ux error
+> - test every user behaviour again post fix
+>
+> Give the model computer use, and give it full permissions on some computer.
+>
+> ———
+>
+> Example for researchers:
+>
+> - /loop create a continuous workflow to research documents and tests related to expert pruning and merging
+> - for each of those create a plan that can run on 2 GPUs do a full experiment which helps increase retained expert saliency post pruning
+> - once done run 50 tests against previous prompts which lead to model degeneracy, attractor collapse, and overthinking
+> - at temperature 0 measure if any improvements were made without hurting success on coding
+> - you have 8x B200s which must never be idle, curate a list of experiments to do constantly every cycle if GPUs are idle and I’ve not given guidance run and maintain an experiment.
+
+- **Tweet:** https://x.com/0xSero/status/2068114432589226136
+- **What:** The post lays out continuously running agent workflows for software delivery and GPU research, with human guidance reserved for steering goals rather than executing each task.
+
+## @VadimStrizheus - A solo AI startup’s launch docuseries
+> do you understand what just happened?!
+>
+> the guy whose AI raised $30M is starting a YouTube channel documenting his entire journey on how he built Polsia...
+>
+> every single founder needs to watch this. 👇
+>
+> *Quoting @Bencera:* I built Polsia into a $250M company in under 3 months.
+>
+> Solo + AI. Zero employees.
+>
+> Everyone asks me how I did it.
+>
+> Introducing aisloP, a docu-series on how I build Polsia.
+>
+> Episode 1: The Launch.
+>
+> How I orchestrated the biggest Twitter launch of 2026. https://t.co/LqYvyZIRwq
+
+- **Tweet:** https://x.com/VadimStrizheus/status/2068006087622578618
+- **Quoted:** https://x.com/Bencera/status/2068001051450773956
+- **What:** Vadim highlights Ben Cera’s planned public series as founder education, while Cera frames it around an extraordinary solo, AI-enabled launch and the tactics behind it.
+
+---
+
+# Thursday, June 18, 2026
+
+## @davis7 - Subagent loops for exploratory automation
+> Subagents + loops is a very, very dangerous discovery https://t.co/5X6Ku4zbSp
+>
+> *Quoting @davis7:* Subagents are a dangerous discovery, I'm having way too much fun with these https://t.co/0EefhMZusv
+
+- **Tweet:** https://x.com/davis7/status/2067792725831991487
+- **Quoted:** https://x.com/davis7/status/2067489520438968450
+- **What:** This quote expands an earlier enthusiasm for subagents into a warning about recursive agent loops, spotlighting how powerful automation can become difficult to contain.
+
+## @MatthewBerman - Architecture refactoring loop with live tests and review checkpoints
+> One of my new favorite loops from Peter Steinberger (@steipete):
+>
+> “Refactor until you are happy with the architecture. After each significant step, live-test the system, run autoreview, and commit. Track progress in /tmp/refactor-{projectname}.md.”
+>
+> https://t.co/Ipm6CdHAFW
+>
+> *Quoting @MatthewBerman:* Just launched Loop Library - a curated list of agent loops you can use right now.
+>
+> Find loops, submit your own, tokenmaxx!!
+>
+> https://t.co/7bVzOyZMrt
+
+- **Tweet:** https://x.com/MatthewBerman/status/2067742219235471419
+- **Link:** https://signals.forwardfuture.com/loop-library/loops/architecture-satisfaction-loop/
+- **Quoted:** https://x.com/MatthewBerman/status/2067682870009925736
+- **Filed:** [architecture-satisfaction-loop](./knowledge/articles/architecture-satisfaction-loop.md)
+- **What:** Highlighting a Loop Library entry by Peter Steinberger, this post proposes a bounded agentic refactoring method: iterate toward a satisfactory architecture, then validate each material change by live-testing, independent review, a commit checkpoint, and a persistent progress log rather than treating refactoring as an unverified one-shot task.
+
+## @MatthewBerman - Loop Library catalog of reusable agent workflows
+> Just launched Loop Library - a curated list of agent loops you can use right now.
+>
+> Find loops, submit your own, tokenmaxx!!
+>
+> https://t.co/7bVzOyZMrt
+
+- **Tweet:** https://x.com/MatthewBerman/status/2067682870009925736
+- **Link:** https://signals.forwardfuture.com/loop-library/
+- **What:** Loop Library is a curated, submit-friendly catalog of repeatable AI-agent workflows across engineering, research, editorial work, evaluation, and operations, emphasizing explicit proof checks and stopping conditions so prompt sequences can be reused as bounded operational loops.
+
+## @OpenAIDevs - Codex Record & Replay turns demonstrations into reusable skills
+> Show Codex a workflow once. Reuse it as a skill.
+>
+> Record & Replay lets you show Codex a recurring task, like filing an expense report or submitting a time-off request.
+>
+> Codex turns that demo into an inspectable, editable skill.
+>
+> You control when recording starts and stops. https://t.co/UqSGaO7XUs
+
+- **Tweet:** https://x.com/OpenAIDevs/status/2067681320281723113
+- **What:** Codex's Record & Replay feature captures a user-demonstrated recurring workflow and converts it into an inspectable, editable skill, offering a practical route from ad hoc browser-based tasks such as expense filing to reusable automation while retaining user-controlled recording boundaries.
+
+## @NickADobos - A real-money experiment in AI agent portfolio management
+> I gave Claude and Codex $5000 to invest in @RobinhoodApp MCP. Real money.
+>
+> Investment thesis:
+> - AI is already a better investor & capital allocator than any human alive.
+> - Beating the market, beating hedge funds and beating quants is trivial for talented prompt engineers & vibecoders truly trying.
+> - Many ways to prompt for this.
+> - Courage Cajones & Conviction is in lower supply than genius.
+> - Between AI & robotics, we are on the verge of an abundance & financial explosion. We are still SO early.
+>
+> Highest expected value:
+> don’t wait.
+> YOLO now
+>
+> My agents are going to battle each other for the best returns and the right to manage more of my portfolio. I’m staring small but my goal is to grow this to manage the majority of money as I improve my system. I’m still deciding the rules, but every check in the winning agent siphons some of the loser’s fund via logOfShame .md
+>
+> One week in:
+> Claude is already up 9% vs SPY 2.85 and QQQ 6.29. I started codex today.
+>
+> 2.71% might not sound like a huge increase, but if my agents can maintain that edge (huge if*** and definitely too early to call) that adds up to multiple millions of dollars gained over my investing lifetime. So this single decision to let AI manage my portfolio could make me conservatively ~$3-10 million. (Considering traditional finance models which don’t account for AGi & robotics)
+>
+> —-
+>
+> Again this is real money I earned working.
+>
+> Not a benchmark or sim.
+> No investors, other people’s money or silly business.
+>
+> Just a conviction in a shifting financial meta game.
+>
+> —-
+>
+> To be clear, this is not hands off let Claude and codex do whatever they want vibefinance prompting.
+>
+> I have multiple prompts, loops, research logs, and investment theories running, around how to source & research ideas, what to look for, and what to buy, and I am actively monitoring and throwing new ideas in
+>
+> Im not going to go into too many details, because this is risky so make your own decisions, but…
+>
+> Mainly I’m copying politicians, monitoring social media & breaking news, researching tech investment theories, doing deep research, and for the lulz copy pasting tweets and r/wallstreetbets in with wildcard crackpot meme gambling bets. It’s designed to be something I can sit back and watch as AI watches the world, researches and adjusts, or that I can participate and influence heavily.
+>
+> Is this crazy? Genius?
+> Follow along to find out.
+
+- **Tweet:** https://x.com/NickADobos/status/2067671481811870155
+- **What:** A personal, real-money trial uses Claude and Codex through Robinhood MCP as competing investment agents, combining reusable research prompts, market and social-news monitoring, explicit human oversight, and a performance-based capital-allocation rule; its early outperformance claim is explicitly too preliminary to establish an enduring edge.
+
+## @ClaudeDevs - Enterprise-managed authorization for MCP connectors
+> We've added support for the Enterprise-Managed Auth extension to MCP.
+>
+> Admins can centrally authorize MCP connectors for their organization, so all the tools and data users need are connected on their first login. https://t.co/NJl57QbxD0
+
+- **Tweet:** https://x.com/ClaudeDevs/status/2067655887662272723
+- **What:** Anthropic's MCP implementation now supports enterprise-managed authorization, allowing administrators to pre-approve organization-wide connectors so employees begin with needed tools and data already connected instead of individually completing authorization flows.
+
+## @alex_prompter - Midjourney Scanner technical dive
+> Midjourney is doing what we all wish AI companies would do
+>
+> *Quoting @midjourney:* A technical dive inside our new "Midjourney Scanner" https://t.co/wJBHz2O7ro
+
+- **Tweet:** https://x.com/alex_prompter/status/2067501919145205957
+- **Quoted:** https://x.com/midjourney/status/2067422898407837797
+- **What:** Alex Prompter endorses Midjourney for publishing a technical explanation of its new Scanner; the substantive bookmark is the promised product deep dive, while the reaction argues that AI companies should more openly explain how new systems work.
+
+---
+
+# Wednesday, June 17, 2026
+
+## @midjourney - Midjourney Medical division announcement
+> Announcing a new division of Midjourney called "Midjourney Medical" https://t.co/c14YcO6yaU
+
+- **Tweet:** https://x.com/midjourney/status/2067421950314688759
+- **What:** Midjourney announces a dedicated Medical division, signaling an intention to direct its image-generation work toward healthcare-specific applications, although this brief post gives no details on products, validation, or deployment plans.
+
+## @ClaudeDevs - Claude Design bidirectional sync with Claude Code
+> Claude Code and Claude Design now sync both ways.
+>
+> Run /design-sync to pull your design system into your repo and build against your real components, or push what you've built back into Claude Design and keep editing on the canvas.
+>
+> *Quoting @claudeai:* New in Claude Design: it stays on brand with your design system across projects, lets you edit directly on the canvas, syncs with Claude Code, and connects to more of the tools you already use. https://t.co/MK8YvLP8zV
+
+- **Tweet:** https://x.com/ClaudeDevs/status/2067391951725629941
+- **Quoted:** https://x.com/claudeai/status/2067325887909884315
+- **What:** The post frames `/design-sync` as a two-way bridge between Claude Design and Claude Code: teams can work from their real components in a repository, return implementation changes to the canvas, and retain brand-aware design-system context across projects.
+
+## @petergyang - Designers building through AI coding harnesses
+> One of the best designers I’ve ever worked with is now a principal engineer.
+>
+> He wants to stay anonymous, but he now designs and builds 95%+ in coding harnesses and the terminal.
+>
+> His workflow is basically:
+>
+> → Get AI to create a design md first
+> → Ask AI to generate the components
+> → Give AI feedback until it feels right (taste!)
+>
+> He thinks doing this is now basically a core skill for designers (and frankly any builder).
+>
+> Not saying you shouldn't design in Figma, but I agree with him that it's important to learn the above too.
+
+- **Tweet:** https://x.com/petergyang/status/2067351624834781277
+- **What:** Peter Yang highlights a designer-to-principal-engineer workflow where a design document guides an AI coding harness, then iterative taste-based feedback bridges design intent and terminal implementation rather than treating Figma as the only design surface.
+
+## @danieltian - Photon iMessage app API for agents
+> We're launching the world's 1st iMessage App API for agents.
+>
+> your agents can now send Apps inside iMessage - an Uber Eats menu, a mini game, or any agentic UI. no other app, no website.
+>
+> welcome to the iMessage Era
+>
+> try it now: https://t.co/L3dyGHDMu5
+
+- **Tweet:** https://x.com/danieltian/status/2067327329161064688
+- **Link:** https://miniapp.photon.codes/
+- **What:** Photon introduces an API for agents to send interactive iMessage mini-app experiences—from ordering menus to games—so an agent can deliver UI inside Messages instead of redirecting someone to a separate website.
+
+## @_ontologic - Agent-powered social intelligence from personal graphs
+> I don’t think people understand just how valuable their social graph now is. It once required an entire data team for a business to reasonably run a social intelligence operation, now it only takes one guy and 6 Hermes agents
+
+- **Tweet:** https://x.com/_ontologic/status/2067277210709643665
+- **What:** The post argues that personal social graphs have become far more monetizable and strategically useful because a small swarm of Hermes agents can now perform social-intelligence research that previously required a dedicated data team.
+
+## @Marcos12345rico - Palmier open-source AI-native video editor
+> today we're launching  @Palmier_io, a video editor Claude can edit.
+>
+> use AI to edit, organize, and generate footage directly in the timeline.
+>
+> finally, a video editor built for AI.
+>
+> open-source. mac native. available now. https://t.co/LjYNpH4Rot
+
+- **Tweet:** https://x.com/Marcos12345rico/status/2067264877463261400
+- **What:** Palmier is an open-source, macOS-native video editor positioned around Claude-driven timeline operations, giving AI assistance direct control of editing, organization, and footage generation rather than treating video work as an external export.
+
+## @gabrielchua - Inner and outer loops for Codex automations
+> https://t.co/xGBxV5ZTzr
+
+- **Tweet:** https://x.com/gabrielchua/status/2067262326043287852
+- **Link:** https://x.com/i/article/2067086994455601152
+- **Filed:** [The Inner and Outer Loops of Codex Automations](./knowledge/articles/inner-and-outer-loops-of-codex-automations.md)
+- **What:** This automation design distinguishes the task-time loop that retrieves evidence and drafts reversible work from a slower review-learning loop that interprets human edits, preserves useful lessons, and improves future task context.
+
+## @adamtaylorl - Claude and Andromeda creative-fatigue system
+> https://t.co/5S0LShJ39g
+
+- **Tweet:** https://x.com/adamtaylorl/status/2067261341002351036
+- **Link:** https://x.com/i/article/2067125259422085120
+- **Filed:** [Claude + Andromeda = A 6-Step Process to Ads That Never Fatigue](./knowledge/articles/claude-and-andromeda-ads-that-never-fatigue.md)
+- **What:** A six-step Meta advertising operating system uses customer language to discover angles, maps each angle into multiple native formats, and turns performance metadata into iterative creative experiments before fatigue limits scale.
+
+## @mattpocockuk - Skills v1 streamlines agent engineering workflows
+> Announcing mattpocock/skills v1
+>
+> - Achieved a 63% reduction in token cost for skill descriptions
+> - Split skills into model-invocable and user-invocable skills, adding /codebase-design, /domain-modeling, and /grilling
+> - (UPDATED) /writing-great-skills - rewritten from the ground up, encoding my skill-writing best practices
+> - (UPDATED) /diagnose -> /diagnosing-bugs - now model-invocable, awesome for fixing hard bugs
+> - (NEW) /ask-matt: a router skill that teaches you how all the engineering skills work together
+
+- **Tweet:** https://x.com/mattpocockuk/status/2067259590488510471
+- **What:** Version 1 reframes the skills collection as a leaner agent-engineering toolkit, separating automatic model capabilities from user commands while adding routing and debugging guidance for coordinating the workflow.
+
+## @rahulgs - Risk-based review for code-generating models
+> 1. as a mental model it is more correct to think of fable+ class models as english -> code interpreters - converts your idea into code into "correct" code regardless of problem complexity and output complexity (diff size). Fable 5 will be the worst of this new class of models
+>
+> 2. diff size/complexity is to be managed purely for review:
+> small diffs - in high risk areas of code (auth/identity/data access/network access/money movement)
+> large diffs for code that can be empirically verified (frontend/backend plumbing/code without network or db access/performance code that can be empirically verified)
+>
+> 3. time it takes to ship software is completely disconnected from time to produce the PR - how long the work takes depends fully on ability to review/merge code while managing risk at scale
+>
+> 4. solving the bottlenecks for above matter enormously- linters/testing/CI/shadow mode verification/empirical verification
+>
+> 5. agency matters enormously- what are the biggest bottlenecks to speeding up the loop and eliminating them? what are the problems that need solving and when do they need solving?  what does it take to the solution to all of them today?
+>
+> 6. deep understanding of the full stack matters enormously- what problems are worth pursuing? is there a higher level of problem abstraction to address first? should I give it the sub-sub task, the sub task, or the task itself. what are the major risks with this PR (order of importance: security holes/correctness holes/performance holes). is there a higher speed way of producing data that allows me to merge this? should this be run in shadow or in a sandbox or a flag. understanding every line of logic may not be needed but understanding and managing risk matters enormously.
+>
+> 7. the cost of complexity itself is changing. it might be now worth "maintaining" 50% more code to get a 5% performance win. getting the right abstractions matter less because larger refactors are less tedious. code quality nits become huge drag. very likely, a much smarter model will be maintaining your code so worth taking on more technical debt now. taking the time to hand architect and rebuild systems comes with an enormous cost of velocity
+>
+> 8. if it quacks like a duck and walks like a duck, it's a duck. For low risk cases, it might be more sane to treat code chunks (services / functions) as a black box, like we do for neural networks: do full empirical verification only: has code produced correct outputs for the last 10,100,1000,10k inputs ? can we quarantine this large piece of code - no outbound access to network / database ? what happens when this code is wrong? do we get hacked/or crash(memory/cpu)/is an inconvenience? is it internal facing or external? what can we do to address these risks?
+>
+> 9. eventually, logical verification (line by line review) will come at an enormous cost- save it for where it matters and build systems that are tolerant to empirical verification. is there a decorator that prevents db / network access? correctness bugs are significantly easier to rectify than access bugs
+>
+> 10. what are the rails that allow for even faster iteration? code permissions can be opt in - db writes, db reads, network egress (to where?), PII access. how long does it take to get shadow mode data? how many PRs can be tested? What are the categories of diffs
+
+- **Tweet:** https://x.com/rahulgs/status/2067257255825686880
+- **What:** This proposes treating advanced coding models as English-to-code interpreters and shifting engineering toward risk-based review: tightly inspect privileged changes, empirically validate isolated low-risk code at scale, and invest in tests, CI, shadow modes, and explicit access rails that make rapid merging safe.
+
+## @bradmillscan - Hermes shared operating agent inspired by River
+> First time hoarding about @tobi's River.
+>
+> Similar to @jack's Goose.
+>
+> @codyplof would love to hear an update after 2 weeks.
+>
+> How has your setup evolved?
+>
+> Did you integrate with Gbrain?
+>
+> Is the team adopting the Hermes slack bot?
+>
+> Is it helping with financials &amp; ops?
+>
+> *Quoting @codyplof:* I've had a Hermes agent for a week and a half. Here are some of my initial thoughts:
+>
+> - Overall I really like it. Took some time to set up but feels well worth it and works nicely with claude and codex.
+>
+> - I have it running on a mac mini I originally bought just for remote control access but set it up during a rainy MDW just for fun.
+>
+> - I started on anthropic api but it got expensive so I moved to codex $200 plan and loving it. Also been using codex for a few backend prjects and am impressed but claude is still daily driver.
+>
+> - Mostly using is as my COS/ Assistant. Helps to clear emails, brie for the day, etc. But also trying to push the needle of what it can do.
+>
+> - I got it in slack and actually prefer it there during the workday since it's open. I have a channel with just me; plus starting to give it access to individual channels and having it help there.
+>
+> - My main confusion before using it was how it's different or uniquely differant than claude. Most of what people have shown me they built in their Openclaw was just stuff you can do in claude.
+>
+> - I still feel like that and technically everything I'm doing in Hermes CAN be done in claude. But here's where I notice the biggest differences:
+>
+> Hermes memory/context makes it much easier to chat with and ask to do things on the go. It creates it's own skills, and most noticably is how easy it is to ask it for cron jobs. It just feels more nimble and agentic, whereas claude feels more "powerful" imo.
+>
+> - I gave it access to pretty much everything; google workspace, slack, desktop, full github access, and datawarehouse via @polar_analytics .
+>
+> - I bought a second mac mini and will have my team set up a Hermes agent for our team to use shared in slack; heavly inspired by Shopify's River. We'll use essentually the same setup of codex pro on a mac mini with full repo and workspace access. It will be our shared COS that has full knowledge and context of the org.
+>
+> A big key here is getting all necessary context like data, consumer insights, product info, etc into one place which the team has been working on.
+>
+> - We'll push the boundaries of what manual work we can automate with this agent. Mostly thinking ops, cx, reporting, etc. I'm excited to see what we can do.
+>
+> - Once we think there's enough of a need, we'll expand further and set up more vertical specific agents when the time comes.
+>
+> - I'm using Obsidian and Karpahty's LLM wiki. Don't have Gbrain set up. Also no HQ yet, sorry Jacob.
+>
+> Curious how this compares to what others have done and get any feedback.
+
+- **Tweet:** https://x.com/bradmillscan/status/2067223575388442965
+- **Quoted:** https://x.com/codyplof/status/2061980596696494305
+- **What:** Brad Mills asks how Cody Plofker’s Hermes deployment has matured, highlighting its similarity to Shopify’s River and Goose. Plofker reports a Mac Mini-hosted, Slack-integrated operating assistant whose shared organizational context enables email, operations, reporting, and eventual specialist-agent automation.
+
+## @KingBootoshi - Agent factories need better language than loops
+> “loop” is the worst possible term you guys could’ve come up with for defining the next paradigm of agent work
+>
+> surely we can think of a better name
+>
+> everyone describing what their definition of a loop is are just defining their current workflow
+>
+> the threads that went viral are some larp that made up BS while slapping loop on it LMFAO
+>
+> a couple of REAL insightful scattered definitions of what a “loop” is i’ve seen are
+>
+> -  a scheduled run that does an automated daily task without needing to prompt it
+>
+> - capturing bugs/issues the moment they come in and having an agent implement the fix and open a PR
+>
+> - having one agent manage threads of other persistent agents who focus on different projects
+>
+> NONE OF THESE ARE A LOOP! they are all fundamentally different workflows
+>
+> HOWEVER all these workflows share one important concept:
+>
+> the workspace and info available to the agent is so well defined that there is no need to prompt the agent
+>
+> it just needs to do a couple tool searches to grab the right info it needs to complete the task successfully
+>
+> my understanding of what people are defining as a ‘loop’ are essentially agent factories
+>
+> aka the workspace the agent lives in is well defined and navigable
+>
+> for ex. a codebase that has ADRs that the agent can fully read before implementing a fix
+>
+> or access to instructions and references to guide it towards the proper solution
+>
+> these are not loops 😭😭😭
+
+- **Tweet:** https://x.com/KingBootoshi/status/2067129952932405424
+- **What:** The post argues that scheduled jobs, automated issue resolution, and persistent multi-agent coordination are distinct workflows, united instead by an “agent factory”: a navigable workspace with enough context and guidance to eliminate repeated prompting.
+
+---
+
 # Tuesday, June 16, 2026
 
 ## @Metzjosh2 - Running Ollama inside Codex Desktop via codex-shim and cliproxy
@@ -8722,8 +9785,39 @@ I have 200+ skills, and you want me to import 20+ of your slop skills, on the sa
 - **Filed:** [minimax-m3-sm120.md](./knowledge/tools/minimax-m3-sm120.md)
 - **What:** 0xSero ships a patched vLLM Docker image that makes MiniMax-M3 (428B MoE) actually work in MXFP4 on 4× RTX PRO 6000 Blackwell, fixing three bugs upstream vLLM is missing: the MSA sparse attention model, the minimax_m3 reasoning/tool-call parsers, and a clamped-swiglu MoE that silently degrades without the fix. The demo — Hermes + Discord auto-generating a podcast from personal data — illustrates the practical agentic ceiling enabled by self-hosted frontier weights.
 
----
+## @0xSero - Sitegeist as a cleaner Parchi alternative
+> I highly recommend you try out sitegeist.
+>
+> It's basically a cleaner parchi, I am porting a few features like record and custom providers and pushing to my fork.
+>
+> The Pi stack reigns supreme https://t.co/sQjeIQthBV
 
+- **Tweet:** https://x.com/0xSero/status/2067019865819693431
+- **What:** Sitegeist is recommended as a cleaner alternative to Parchi; the author is extending a fork with recording and custom-provider support, positioning it as part of the Pi-based agent tooling ecosystem.
+
+## @FredKSchott - Flue 1.0 beta agent framework
+> Just Shipped: Flue 1.0 Beta
+>
+> Flue is the TypeScript framework for building the next generation of agents, designed around an open agent harness with zero LLM lock-in. It’s like Astro, for agents.
+>
+> Flue 1.0 has been redesigned around three core primitives:
+>
+> 🔁 Workflows — structured automations designed for background work, where your code drives the agent from start to finish.
+>
+> 🧭 Agents (New!) — autonomous, stateful loops where the model drives itself to complete a given task.
+>
+> 📡 Channels (New!) — connect agents to Slack, GitHub, Linear, Discord, Teams, and more. Flue handles the boilerplate for you.
+>
+> Everything shares the same durable foundation, powered internally by Pi, Vite, and Durable Streams. Deploy anywhere, use any LLM, and recover running agents across restarts and downtime.
+>
+> We’ve talked to a lot of teams building agents, and keep hearing the same thing: getting to production is hard work. We built Flue to help change that.
+>
+> Flue 1.0 Beta is available today. Give it a try and let me know what you think!
+
+- **Tweet:** https://x.com/FredKSchott/status/2066962296119959581
+- **What:** Flue 1.0 Beta is a TypeScript agent framework that separates deterministic workflows, autonomous stateful agents, and integration channels while using a durable, model-agnostic runtime for resilient production deployment.
+
+---
 # Monday, June 15, 2026
 
 ## @demi_hl - Full technical architecture of a self-coding AI agent fleet
