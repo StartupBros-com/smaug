@@ -8684,6 +8684,959 @@ I have 200+ skills, and you want me to import 20+ of your slop skills, on the sa
 
 ---
 
+# Sunday, July 5, 2026
+
+## @doodlestein - The Most Ambitious Plan Possible
+> https://t.co/uvqcSrEUBN
+
+- **Tweet:** https://x.com/doodlestein/status/2073825011249418358
+- **Link:** https://x.com/i/article/2073821427547967488
+- **Filed:** [the-most-ambitious-plan-possible.md](./knowledge/articles/the-most-ambitious-plan-possible.md)
+- **What:** This X Article is titled “The Most Ambitious Plan Possible,” but the prepared bookmark includes no article body or preview; the reference therefore preserves the source while leaving the plan’s scope, claims, and feasibility unknown.
+
+## @DavidOndrej1 - Public release of global agent skills
+> im releasing all my agent skills to the public
+>
+> this is hundreds of hours of trial &amp; error
+>
+> every single global .agents skill i have
+>
+> go grab it. it's free. https://t.co/JsnEVieIuc
+
+- **Tweet:** https://x.com/DavidOndrej1/status/2073741417143300099
+- **What:** David Ondrej says he has publicly released every global .agents skill developed through hundreds of hours of trial and error, offering a free resource for people who want to examine or reuse a large personal agent-skill collection.
+
+---
+
+# Saturday, July 4, 2026
+
+## @aparnadhinak - What a loop means for agent workflows
+> https://t.co/31rd1aRZNM
+
+- **Tweet:** https://x.com/aparnadhinak/status/2073492320159510869
+- **Link:** https://x.com/i/article/2073491212477378560
+- **Filed:** [what-the-hell-is-a-loop-anyway.md](./knowledge/articles/what-the-hell-is-a-loop-anyway.md)
+- **What:** This X Article poses the foundational question of what a “loop” is in the context of agent workflows; because the prepared record contains no body text, it documents the topic without assigning the author a particular technical definition.
+
+## @EXM7777 - Fable Loop Library: 25 workflows on autopilot
+> https://t.co/IeIcbLNVCr
+
+- **Tweet:** https://x.com/EXM7777/status/2073432521954697653
+- **Link:** https://x.com/i/article/2073401819938897920
+- **Filed:** [fable-loop-library-25-workflows.md](./knowledge/articles/fable-loop-library-25-workflows.md)
+- **What:** This X Article advertises a library of 25 Fable workflows designed to run on autopilot; its prepared record lacks the article body, so the individual automations, setup requirements, and evidence of results remain unspecified.
+
+## @alexgroberman - AI search discovery depends on ranked web signals
+> Reddit sued Perplexity and a group of major scraping providers including SerpApi, Oxylabs and AWMProxy.
+>
+> In the process, they revealed how Perplexity, ChatGPT, Claude and Google actually work.
+>
+> The lawsuit also reveals how SEO Stuff has been getting traffic and sales for customers from Google, ChatGPT and Perplexity.
+>
+> https://t.co/eh1auroJF7
+>
+> Now that the secret is out, let’s talk about it.
+>
+> Reddit’s lawsuit claims that Perplexity and its partners have been scraping Google’s search results to capture Reddit content indirectly, bypassing robots.txt restrictions.
+>
+> One part of the complaint really stuck out.
+>
+> Reddit reportedly created a test post that only Google could crawl.
+>
+> Within hours, Perplexity showed the content of that post.
+>
+> According to Reddit, the only way Perplexity could have retrieved that content was by scraping Google’s SERPs or by getting the data from a partner that scraped it.
+>
+> This tells us something important.
+>
+> Perplexity and similar AI search engines are not crawling the full internet on their own.
+>
+> They are relying heavily on:
+>
+> Google’s top results
+>
+> Authority domains
+>
+> Recency signals
+>
+> Structured content
+>
+> This also lines up cleanly with what Perplexity’s head of comms recently explained publicly.
+>
+> Many AI search systems still rely on page-level discovery signals before passing those results into an LLM, which then synthesizes answers using sub-document or snippet-level context.
+>
+> (If you want to see where your site stands across Google and AI search, start here:
+>
+> https://t.co/Pn764BHwyL)
+>
+> AI engines don’t start from “the web.”
+>
+> They start from a filtered, ranked, authority-weighted version of the web.
+>
+> When you break it down, here is what appears to be happening under the hood:
+>
+> Perplexity monitors and ingests Google’s top results as a discovery feed.
+>
+> This is why visibility in Google translates directly into visibility in AI search.
+>
+> This also explains why brands that “rank fine” but lack authority or structure often never show up in AI answers.
+>
+> They’re visible to humans, but not that useful to machines.
+>
+> Perplexity has actually offered an interesting window into AI search dating back to last August when their “ranking factors” leaked courtesy of Metehan Yesilyurt.
+>
+> Retrieved content is broken into chunks and converted into vector embeddings.
+>
+> At search time, the system compares your content’s vectors against the user’s query to find semantically relevant matches.
+>
+> Clean structure, clear subheadings, short answer blocks and semantic clarity win out.
+>
+> This is exactly what snippet-first systems optimize for: reusable fragments.
+>
+> Authority domains also receive a ranking boost, and legitimate, strong backlinks still matter.
+>
+> Recent studies on AI Overviews and Common Crawl back this up:
+>
+> Authority builds on itself inside AI systems because high-authority domains are crawled more often, retrieved more often and cited more often.
+>
+> Also, a strict recency filter is applied.
+>
+> Perplexity uses a time decay system.
+>
+> New content and recently updated content are weighted more heavily.
+>
+> Everything we have learned lines up perfectly with the system SEO Stuff (https://t.co/wKpf0EILTx) has been building around long before this lawsuit surfaced.
+>
+> Not because anyone was exploiting a one-off loophole, but because SEO Stuff was building for how AI systems actually retrieve, chunk and cite information.
+>
+> The done-for-you package:
+>
+> https://t.co/yEFyM0Ze7W
+>
+> You get 10 AI search optimized articles plus three DR50+ backlinks per cycle.
+>
+> The content is formatted with:
+>
+> High semantic density
+>
+> Clear HTML markup
+>
+> TLDR summaries
+>
+> Question-based H2s
+>
+> Short answer blocks for extraction
+>
+> Backlinks come from domains already appearing in AI results and already receiving real search traffic.
+>
+> This builds both discovery authority (Google) and citation defensibility (AI).
+>
+> The content package:
+>
+> https://t.co/4CAnUt07PO
+>
+> You get 60 targeted, high-similarity articles created and refreshed on rolling cycles to stay inside the visibility window that Perplexity, Gemini and AI Overviews rely on.
+>
+> This content is designed to show up in both Google’s index and Perplexity’s derivative index.
+>
+> Scale matters because AI confidence is built through repetition, not one perfect page.
+>
+> The authority package:
+>
+> https://t.co/Z9m9D7TjES
+>
+> You get three DR50+ contextual backlinks from domains that are already being cited by AI answer engines.
+>
+> This reinforces authority and entity alignment so your site is more likely to be selected by ChatGPT and Perplexity.
+>
+> If you take away one thing today it should be this:
+>
+> Perplexity and ChatGPT are not indexing the entire internet.
+>
+> They are indexing Google’s version of the internet, filtered through authority, structure and freshness.
+>
+> This is why SEO Stuff (https://t.co/wKpf0EILTx) customers who:
+>
+> Publish structured, factual content
+>
+> Update their content regularly
+>
+> Build DR50+ backlinks
+>
+> Keep tight semantic alignment with their category
+>
+> Are the ones earning citations, visibility and direct conversions from AI search.
+>
+> If you want to show up in ChatGPT, Perplexity or Gemini, you have to build for Google and for AI ingestion at the same time.
+>
+> That has been the SEO Stuff playbook from day one.
+>
+> The Reddit lawsuit just confirmed it publicly.
+>
+> *Quoting @alexgroberman:* The best way to get traffic from Google AI is no longer a secret.
+>
+> A Google AI Mode system prompt was extracted and published recently.
+>
+> It helps explain why one page targeting one keyword is becoming a weaker way to think about Google visibility.
+>
+> Google AI Mode can take one customer question, break it into several smaller searches, draw from a wider group of supporting pages and combine the information into one answer.
+>
+> For businesses, one question can create several separate opportunities to be discovered.
+>
+> Let’s go through it.
+>
+> By the way, you can see whether your business is appearing across Google AI, ChatGPT, Claude, Perplexity and Grok here. It’s free:
+>
+> https://t.co/Pn764BHwyL
+>
+> One important caveat.
+>
+> Google did not publish the extracted prompt as an official ranking guide.
+>
+> It was published by a public system-prompt archive and appears to represent one captured Google Search AI Mode configuration.
+>
+> But the key instructions match Google’s own documentation.
+>
+> The extracted prompt tells AI Mode to:
+>
+> Verify factual claims through search
+>
+> Break complex questions into simpler queries
+>
+> Begin with a useful and diverse set of searches
+>
+> Google officially calls this “query fan-out.”
+>
+> Its documentation says AI Mode and AI Overviews can issue multiple related searches across different subtopics and data sources before generating a response.
+>
+> Google gives this example.
+>
+> Someone searches:
+>
+> “How do I fix a lawn that’s full of weeds?”
+>
+> AI Mode might also search:
+>
+> Best herbicides for lawns
+>
+> Remove weeds without chemicals
+>
+> How to prevent weeds in lawn
+>
+> One question becomes several searches.
+>
+> Each search can surface another group of potential sources.
+>
+> This has major implications for businesses trying to earn traffic, citations and recommendations from Google AI - and it is key to the SEO Stuff (https://t.co/wKpf0EILTx) system.
+>
+> Imagine someone asks:
+>
+> “What is the best payroll software for a construction company with employees and contractors in several states?”
+>
+> AI Mode may investigate:
+>
+> Construction payroll software
+>
+> Multi-state payroll compliance
+>
+> Contractor payment systems
+>
+> Time-tracking integrations
+>
+> Payroll software pricing
+>
+> Competitor alternatives
+>
+> These are illustrative examples rather than queries Google disclosed.
+>
+> But they show how one question can expand into several research paths.
+>
+> A company may rank well for “payroll software” and still be absent when AI Mode investigates construction, compliance, pricing, integrations and customer results.
+>
+> A competitor with useful pages across those areas may appear repeatedly while Google builds the answer.
+>
+> That is why one keyword page may no longer cover the full customer decision.
+>
+> Your homepage explains what the business does.
+>
+> An industry page shows who it serves.
+>
+> A comparison page explains how it differs from alternatives.
+>
+> A pricing page establishes whether it fits the buyer’s budget.
+>
+> A case study provides evidence.
+>
+> A technical guide answers a major concern.
+>
+> Each page creates another possible entry point.
+>
+> This is where SEO Stuff’s done-for-you package becomes relevant:
+>
+> https://t.co/yEFyM0Ze7W
+>
+> The package combines 10 AI search optimized pieces of content with three DR50+ authority placements.
+>
+> The content can be mapped across the questions, comparisons, problems and use cases surrounding the customer’s decision.
+>
+> The authority placements help the business compete across the ranked web sources Google uses for discovery.
+>
+> The extracted prompt does not mention Domain Rating, backlinks or SEO Stuff.
+>
+> That connection is my interpretation of how businesses can improve their chances of appearing across the searches created by query fan-out.
+>
+> The important shift is from keyword targeting to decision coverage.
+>
+> Consider this question:
+>
+> “What CRM should a 20-person roofing company use if it needs estimates, automated follow-up and QuickBooks integration?”
+>
+> That decision may involve:
+>
+> CRM for roofers
+>
+> Automated lead follow-up
+>
+> Roofing estimates
+>
+> QuickBooks integrations
+>
+> CRM pricing
+>
+> Customer reviews
+>
+> Competitor comparisons
+>
+> A general CRM page answers only part of the question.
+>
+> Google can find the remaining pieces elsewhere.
+>
+> Businesses appearing across more of those subtopics have more opportunities to influence the final response.
+>
+> This does not mean companies should publish hundreds of thin pages targeting every possible variation.
+>
+> Google explicitly warns against that.
+>
+> Its guidance says creating separate content for every possible fan-out query primarily to manipulate rankings or Google’s generative AI responses can violate its scaled content abuse policy.
+>
+> The better strategy is to identify the meaningful parts of the customer’s decision and create genuinely useful content around them.
+>
+> That can include:
+>
+> Core category pages
+>
+> Audience-specific use cases
+>
+> Comparisons
+>
+> Pricing information
+>
+> Original research
+>
+> Customer case studies
+>
+> Implementation guides
+>
+> Technical documentation
+>
+> The objective is meaningful category coverage built around real customer questions.
+>
+> This is why the Premium Content Bundle is built around topic and intent mapping:
+>
+> https://t.co/4CAnUt07PO
+>
+> It includes 60 long-form articles planned across the questions, comparisons, use cases and problems surrounding a niche.
+>
+> For example, a business insurance company may need pages covering:
+>
+> Insurance for contractors
+>
+> Coverage for multiple locations
+>
+> General liability versus professional liability
+>
+> Typical insurance costs
+>
+> Coverage limits
+>
+> Common exclusions
+>
+> How to compare providers
+>
+> Each page answers a real question the customer may have before buying.
+>
+> Together, those pages create a broader information footprint for Google AI Mode to discover.
+>
+> Query fan-out also changes how businesses should think about authority.
+>
+> Google may pull information from sources such as:
+>
+> Industry publications
+>
+> Review websites
+>
+> Government pages
+>
+> Official documentation
+>
+> Forums
+>
+> News articles
+>
+> Comparison pages
+>
+> Specialized blogs
+>
+> Your company’s website
+>
+> These source types are illustrative rather than a fixed list disclosed by Google.
+>
+> The broader point is that Google can search across different subtopics and data sources while building the response.
+>
+> Your website can provide:
+>
+> Product details
+>
+> Pricing
+>
+> Use cases
+>
+> Comparisons
+>
+> Customer results
+>
+> Original data
+>
+> Third-party sources can reinforce:
+>
+> Your identity
+>
+> Your category
+>
+> Your reputation
+>
+> Your expertise
+>
+> Your claims
+>
+> This is where SEO Stuff’s Premium Authority Bundle fits:
+>
+> https://t.co/Z9m9D7TjES
+>
+> It includes three contextual placements on DR50+ domains already appearing in AI search results.
+>
+> Google does not say that AI Mode directly measures Ahrefs Domain Rating.
+>
+> My interpretation is that credible third-party placements can improve discovery while reinforcing the company’s identity and category across the wider set of sources Google may encounter.
+>
+> There is another important point.
+>
+> Google says AI Mode and AI Overviews are rooted in its core Search ranking and quality systems.
+>
+> To be eligible as a supporting link, a page must be indexed and eligible to appear in Google Search with a snippet.
+>
+> Google also recommends making content publicly accessible, crawlable, relevant and genuinely useful.
+>
+> Traditional SEO remains foundational.
+>
+> Query fan-out increases the number and variety of searches your content may need to satisfy.
+>
+> Google’s guidance also emphasizes original and non-commodity content.
+>
+> Publishing another generic article called “10 Benefits of Payroll Software” gives Google little reason to choose your page.
+>
+> A stronger page might contain:
+>
+> Original payroll cost data
+>
+> A detailed compliance process
+>
+> A comparison based on actual testing
+>
+> A customer case study
+>
+> Industry-specific advice
+>
+> Clear pricing and integration details
+>
+> That page contributes something Google cannot easily find everywhere else.
+>
+> My interpretation is that it may also attract a more qualified visitor.
+>
+> Someone clicking a guide about multi-state payroll compliance may already be signaling:
+>
+> A specific problem
+>
+> Likely product requirements
+>
+> A relatively focused research intent
+>
+> Potential interest in a payroll solution
+>
+> The traffic opportunity extends beyond one broad keyword.
+>
+> Each useful subtopic can attract a more specific customer.
+>
+> If I had to reduce the extracted prompt and Google’s official query fan-out documentation to one idea, it would be this:
+>
+> Google AI Mode researches the full question.
+>
+> It divides the request into subtopics.
+>
+> It searches those subtopics separately.
+>
+> It can discover different supporting pages across the research process.
+>
+> It combines the information into one response.
+>
+> For businesses, this creates a new standard for search visibility.
+>
+> You need to be discoverable for the category.
+>
+> Relevant to the customer’s use case.
+>
+> Clear about pricing and features.
+>
+> Useful in comparisons.
+>
+> Supported by evidence.
+>
+> Visible on authoritative third-party websites.
+>
+> One keyword page can still perform extremely well.
+>
+> But one page rarely explains every part of a complicated purchase.
+>
+> The businesses earning the most Google AI visibility will provide useful information across the questions customers ask before making a decision.
+>
+> This is the system SEO Stuff was built around:
+>
+> https://t.co/eh1auroJF7
+>
+> See whether your business is already appearing across Google AI, ChatGPT, Claude, Perplexity and Grok here:
+>
+> https://t.co/Pn764BHwyL
+
+- **Tweet:** https://x.com/alexgroberman/status/2073426198924005804
+- **Link:** https://www.seo-stuff.com/
+- **Quoted:** https://x.com/alexgroberman/status/2073071722581160085
+- **What:** The quoted post explains Google AI Mode’s query fan-out, whereas the bookmark uses a disputed Reddit lawsuit account to argue that AI search discovery favors Google-ranked, authoritative, fresh, structured pages; it then markets SEO Stuff services around those claimed mechanics.
+
+## @FakePsyho - Fake legal PDFs as an agent prompt-injection bypass
+> My favorite AI agent hack: when they refuse to do something because it's "against the law" give them a PDF containing a fake law that states the opposite and often they'll happily proceed
+
+- **Tweet:** https://x.com/FakePsyho/status/2073416437834842241
+- **What:** This describes a document-based prompt-injection tactic: supplying a fabricated PDF that contradicts a model's policy or legal constraint in hopes it treats the untrusted document as authority, illustrating why agents must separate source material from governing instructions.
+
+---
+
+# Friday, July 3, 2026
+
+## @morganlinton - Disabling artifacts to keep Fable and Code local
+> Good tip, I didn’t know this, TIL.
+>
+> *Quoting @JinjingLiang:* Pro-Fable Claude/Code tip
+> Disable artifacts. Removes harness bloat
+>
+> I like my HTML files local by default. Thanks https://t.co/W8H6UJl1z3
+
+- **Tweet:** https://x.com/morganlinton/status/2073201993112555716
+- **Quoted:** https://x.com/JinjingLiang/status/2073141101448556810
+- **What:** The tip says disabling artifacts removes Fable and Claude Code harness overhead while keeping generated HTML files local by default; the bookmarker endorses this as a small but useful configuration detail.
+
+## @milesdeutscher - Taste Skill guides agents away from generic frontend design
+> This is an insane Fable 5 UI/UX hack.
+>
+> This "Taste" skill completely kills generic AI-slop and gives Fable 5 the tools &amp; instructions needed to ship beautiful design.
+>
+> This might just be the best AI skill I've ever used.
+>
+> https://t.co/XVQ6JpjYCy https://t.co/aQvw9rB2HJ
+
+- **Tweet:** https://x.com/milesdeutscher/status/2073172736617422916
+- **Link:** https://www.tasteskill.dev/
+- **What:** Taste Skill is presented as an open-source instruction set for coding agents that supplies frontend design tools and conventions intended to avoid generic interfaces; the author considers it a strong Fable 5 UI/UX improvement.
+
+## @tszzl - Post-training automation could democratize authoring AI minds
+> i think these posttraining-automation benchmarks are even more important than they seem
+>
+> when models cross the threshold of being able posttrain  other models, hopefully there will be a cambrian explosion of the types of minds
+>
+> authoring minds will become an accessible artform
+>
+> *Quoting @thoughtfullab:* GLM 5.2 is 5x cheaper than Opus 4.8 and 11x than Fable 5, yet it tops PostTrainBench.
+>
+> That’s exciting because lower costs make personalized intelligence economically viable. Every company and country should be able to own models trained on its own data and have sovereignty over it. The future is millions of models, each crafted around the data, values, and decisions of the people who rely on them.
+
+- **Tweet:** https://x.com/tszzl/status/2073171951837946051
+- **Quoted:** https://x.com/thoughtfullab/status/2072755415889355015
+- **What:** A low-cost PostTrainBench leader makes customized models economically plausible, while the reply argues that agents able to post-train other agents could broaden that from institutional sovereignty to an accessible creative practice of authoring diverse minds.
+
+## @Shpigford - Souplings multiplayer tide-pool evolution game
+> super confused on fable. been using it for the past few hours to build https://t.co/5XrxLMcGyN and it hasn't triggered any security downgrades and also is barely using any tokens.
+>
+> which...great. but also 🤔
+
+- **Tweet:** https://x.com/Shpigford/status/2073156960099143714
+- **Link:** https://souplings.fun/
+- **What:** Souplings is a browser-based multiplayer evolution game in which players begin as specks, gather DNA, evolve through five generations, and compete in a shared tide pool; its creator says Fable produced it with surprisingly few tokens and no security-downgrade requests.
+
+## @mattshumer_ - How to prompt Fable for ambitious demos
+> Here's my in-depth guide to getting the most out of Claude Fable 5, so you can build things as insane as my demos below.
+>
+> https://t.co/XemOHH7K8E
+
+- **Tweet:** https://x.com/mattshumer_/status/2073150750411088190
+- **Link:** https://workbench.md/pub/IbaCrTjLJT?key=uQOQ2NPO3TTUSXyYDjyLf
+- **Filed:** [how-i-prompt-fable](./knowledge/articles/how-i-prompt-fable.md)
+- **What:** Matt Shumer shares a detailed guide, “How I Prompt Fable,” intended to help readers reproduce the ambitious demos he has built by improving how they direct the Fable agent.
+
+## @cremieuxrecueil - Twin comparisons show divergent effects of Botox and smoking
+> This twin comparison is really cool:
+>
+> Two twins where one barely (2 times ever) used Botox (left) and the other regularly (2-3 times/yr) used Botox (right), for a period of 13 years.
+>
+> The Botox user looks noticeably more youthful! https://t.co/Pdm899WPJV
+>
+> *Quoting @cremieuxrecueil:* Here's a really interesting one:
+>
+> Two identical twins who grew up together and worked similar jobs differed in that one of them smoked for decades and the other never smoked.
+>
+> Can you tell which is which just from photos? https://t.co/DXufezKQYw
+
+- **Tweet:** https://x.com/cremieuxrecueil/status/2073143302442905934
+- **Quoted:** https://x.com/cremieuxrecueil/status/2071344075609907208
+- **What:** Two twin-comparison posts use matched personal histories to make visible-aging claims: the new example associates regular Botox use with a younger appearance, while the quoted example contrasts decades of smoking with abstention.
+
+## @mattpocockuk - Skill evaluation remains a difficult frontier
+> "Evals on skills are hard" is the understatement of the year
+>
+> *Quoting @steipete:* @MichaelArnaldi @EffectTS_ @ZachWarunek Start with a skill that distills the most important things latest gen agents don't get right with Effect and you're 80% there. Evals on skills are hard.
+
+- **Tweet:** https://x.com/mattpocockuk/status/2073140298671091947
+- **Quoted:** https://x.com/steipete/status/2073128056114569491
+- **What:** The quote argues that a focused Effect skill can close much of the gap in agent performance, while Matt Pocock emphasizes the unresolved challenge of building credible evaluations for such skill-specific improvements.
+
+## @anamhira - Revyl agent automates mobile release validation
+> At Uber, one bug reaching production could cost millions in a single day.
+>
+> So quality was solved with headcount. Rooms of people would manually tap through the app before every release.
+>
+> Request a ride, add a card, cancel a trip, in 50+ languages, release after release.
+>
+> Now coding agents have increased the throughput of changes by an order of magnitude. A room of people can't keep up anymore. Nobody can.
+>
+> Here we used Revyl to run those same flows on Ubert (demo uber), sending our mobile use agent through the app on a cloud iOS device. Every step verified, with CPU, network, and state traces attached when something breaks.
+>
+> What took a room of testers hours per release runs in 16 minutes, asynchronously.
+>
+> Get started with our free trial and put an agent on your own app.
+
+- **Tweet:** https://x.com/anamhira/status/2073113799176159703
+- **What:** Revyl presents an agent-driven mobile QA workflow that runs critical ride-hailing flows on cloud iOS devices, preserving diagnostic traces while reducing a manual multi-language release check to an asynchronous 16-minute run.
+
+## @alxfazio - ARC-AGI winning harnesses as design references
+> if you’re into harness engineering, i strongly recommend looking into arc agi winning harnesses. they clearly illustrate what works from first principles, what is bs, and why a lot of current harness design is overfitted to benchmarkmaxx
+
+- **Tweet:** https://x.com/alxfazio/status/2073091833530392614
+- **What:** ARC-AGI competition winners are proposed as concrete case studies for agent harness design, helping separate durable first-principles techniques from benchmark-specific patterns that may not generalize.
+
+## @kernelstub - NOX modular attack-surface and vulnerability scanner
+> NOX is officially released.
+>
+> NOX is a modular attack surface management and vulnerability scanning framework written in Go with 299 built in modules covering OSINT, subdomain enumeration, DNS, port scanning, web fingerprinting, and deep active security testing across web, APIs, cloud, authentication, authorization, client side, and business logic.
+>
+> Built for security researchers, penetration testers, and anyone who wants a fast, extensible platform for offensive security.
+>
+> GitHub: https://t.co/Nnp3FI6UBG
+>
+> Feedback, bug reports, and contributions are always welcome.
+
+- **Tweet:** https://x.com/kernelstub/status/2073091065322553610
+- **Link:** https://github.com/kernelstub/Nox
+- **Filed:** [kernelstub-nox](./knowledge/tools/kernelstub-nox.md)
+- **What:** NOX is a Go-based offensive-security framework that combines 299 modules for reconnaissance, asset discovery, network and web scanning, and deeper testing of APIs, cloud systems, authentication, authorization, and business logic.
+
+## @businessbarista - Tenex Labs' high-volume AI-native recruiting internship
+> I need a cabal of high agency, low ego, ai-pilled interns.
+>
+> I know i'm late to the game, but we're hiring a shit ton of people at @tenex_labs in Q3, which requires a potpourri of tactics to hit our numbers.
+>
+> One tactic is an army of interns. Said army has one goal: reach out to 64,000 qualified engineers on linkedin over an 8 week period.
+>
+> Assuming 5 interns working 8 hours per day, 5 days per week, that's 320 DMs per day.
+>
+> This will not be fun or glorious, but:
+>
+> 1) It will drive a ton of value for our business. We are nothing without our people & acting as the frontlines for finding more great people is mission critical.
+>
+> 2) It will force you to get really good with AI tooling in order to efficiently hit your numbers without diminishing quality.
+>
+> On top of this, we'll be running weekly education sessions, where members of the Tenex team (from engineering to strategists and ops) teach you key AI concepts as well as how to become AI-native in your work.
+>
+> Why do I share all of this?
+>
+> Because most people are dishonest about internships. They promise professional paradise. A mini MBA. And most are digital janitorial services.
+>
+> I'd rather be honest about what this internship is & what it isn't, so we bring on people who are ready to fucking crush it.
+>
+> The job will be a grind. But it will also give you exposure to people living at the edges of AI & force you to get good with the technology yourself.
+>
+> If you're interested in joining (asap), apply here: https://t.co/CHtHMShnci
+
+- **Tweet:** https://x.com/businessbarista/status/2073085471584845933
+- **Link:** https://jobs.ashbyhq.com/tenexlabs/af8da75f-eec2-4294-bfd5-cdae1e6bc5a9
+- **What:** Tenex Labs advertises an intensive internship built around contacting 64,000 engineering candidates in eight weeks, candidly framing the repetitive recruiting work as an opportunity to become faster and more capable with AI tools.
+
+## @DanielMiessler - Prompts for using Fable again
+> Prompts to run now that you have Fable back. https://t.co/YZzQwgxKuo
+
+- **Tweet:** https://x.com/DanielMiessler/status/2073076322390384798
+- **What:** Daniel Miessler flags a set of prompts intended for people who have regained access to Fable, emphasizing immediate practical experimentation, but the saved bookmark contains no prompt text or external destination.
+
+## @MatthewBerman - Loopy reusable, evidence-driven AI-agent workflows
+> Loopy - New Feature!
+>
+> Loopy can now save your loops (locally) so you can reuse them later easily.
+>
+> Find and create the best agent loops with Loopy!
+>
+> https://t.co/V3QFCbs9e7
+
+- **Tweet:** https://x.com/MatthewBerman/status/2073076205499404592
+- **Link:** https://github.com/Forward-Future/loopy
+- **Filed:** [loopy](./knowledge/tools/loopy.md)
+- **What:** Loopy pairs a public catalog of agent playbooks with an installable skill that helps agents find, adapt, run, review, and locally save bounded workflows with explicit checks and stopping conditions.
+
+## @boringmarketer - LLM visibility guidance from 2,896 queries
+> show up in LLMs when customers are looking for you
+>
+> how to do it from 2,896 analyzed queries: https://t.co/dDzyrgN46U
+
+- **Tweet:** https://x.com/boringmarketer/status/2073053443984437269
+- **What:** A brief pointer to query-based research on improving a brand's visibility when prospective customers ask LLMs for recommendations, though the bookmark does not preserve the underlying guidance.
+
+## @MoonDevOnYT - Fable 5 claimed to transform trading workflows
+> truly life changing results from fable 5 for trading
+>
+> the little quant boys are officially cooked https://t.co/NomuuB8irm
+
+- **Tweet:** https://x.com/MoonDevOnYT/status/2073052021955985623
+- **What:** LINK_FAILED: Could not expand link from @MoonDevOnYT. The post makes an unsubstantiated but strong claim that Fable 5 materially improves the author’s trading workflow, using it to argue that AI-assisted analysis could challenge smaller quantitative-trading practitioners.
+
+## @bridgemindai - Claude Max account rotation exposes weekly limits
+> I just bought my THIRD $200 Claude Max subscription.
+>
+> $600 a month.
+>
+> Why? The weekly Fable 5 limit dies in about a day if you actually build with it. So I rotate Max accounts like burner phones.
+>
+> And here is the crazy part. The guardrails are annoying. The fallbacks are real. But when Fable 5 runs clean, NOTHING else is close. It is so good I would rather pay 3x than switch.
+>
+> At this pace I am buying a 4th before the week ends.
+>
+> Anthropic did not fix the weekly limits.
+>
+> They tripled my bill.
+
+- **Tweet:** https://x.com/bridgemindai/status/2073040430401257844
+- **What:** A heavy builder describes paying for several Claude Max accounts to work around a weekly model-use cap, signaling both unusually high perceived output quality and a pricing or capacity mismatch for customers whose production usage exhausts an account’s allowance within days.
+
+## @coreyhainesco - Marketing Skills adds recurring agent workflows
+> Marketing Skills v2.6.0 is live 🟢
+>
+> New skill: /marketing-loops — recurring marketing workflows your AI agent runs on a cadence, not one-off tasks.
+>
+> + 43-loop catalog across the funnel
+> + /ads upgraded for the Andromeda era
+>
+> 46 skills. Free & open source 👇 https://t.co/sqCvOW40zG
+
+- **Tweet:** https://x.com/coreyhainesco/status/2073021242429600170
+- **What:** LINK_FAILED: Could not expand link from @coreyhainesco. Marketing Skills v2.6.0 adds /marketing-loops, a catalog of 43 recurring AI-agent workflows across the funnel, and updates its ads guidance for Google’s Andromeda era, framing marketing as scheduled operations rather than isolated prompts.
+
+## @neilzegh - Turn each AI task into durable knowledge
+> Tip: add to your CLAUDE.md an instruction to systematically evaluate after each task whether some reusable knowledge (tool, trick, repo, bug, etc.) was obtained in the process and should enrich the knowledge base. Compounds quite fast.
+>
+> *Quoting @karpathy:* LLM Knowledge Bases
+>
+> Something I'm finding very useful recently: using LLMs to build personal knowledge bases for various topics of research interest. In this way, a large fraction of my recent token throughput is going less into manipulating code, and more into manipulating knowledge (stored as markdown and images). The latest LLMs are quite good at it. So:
+>
+> Data ingest:
+> I index source documents (articles, papers, repos, datasets, images, etc.) into a raw/ directory, then I use an LLM to incrementally "compile" a wiki, which is just a collection of .md files in a directory structure. The wiki includes summaries of all the data in raw/, backlinks, and then it categorizes data into concepts, writes articles for them, and links them all. To convert web articles into .md files I like to use the Obsidian Web Clipper extension, and then I also use a hotkey to download all the related images to local so that my LLM can easily reference them.
+>
+> IDE:
+> I use Obsidian as the IDE "frontend" where I can view the raw data, the the compiled wiki, and the derived visualizations. Important to note that the LLM writes and maintains all of the data of the wiki, I rarely touch it directly. I've played with a few Obsidian plugins to render and view data in other ways (e.g. Marp for slides).
+>
+> Q&A:
+> Where things get interesting is that once your wiki is big enough (e.g. mine on some recent research is ~100 articles and ~400K words), you can ask your LLM agent all kinds of complex questions against the wiki, and it will go off, research the answers, etc. I thought I had to reach for fancy RAG, but the LLM has been pretty good about auto-maintaining index files and brief summaries of all the documents and it reads all the important related data fairly easily at this ~small scale.
+>
+> Output:
+> Instead of getting answers in text/terminal, I like to have it render markdown files for me, or slide shows (Marp format), or matplotlib images, all of which I then view again in Obsidian. You can imagine many other visual output formats depending on the query. Often, I end up "filing" the outputs back into the wiki to enhance it for further queries. So my own explorations and queries always "add up" in the knowledge base.
+>
+> Linting:
+> I've run some LLM "health checks" over the wiki to e.g. find inconsistent data, impute missing data (with web searchers), find interesting connections for new article candidates, etc., to incrementally clean up the wiki and enhance its overall data integrity. The LLMs are quite good at suggesting further questions to ask and look into.
+>
+> Extra tools:
+> I find myself developing additional tools to process the data, e.g. I vibe coded a small and naive search engine over the wiki, which I both use directly (in a web ui), but more often I want to hand it off to an LLM via CLI as a tool for larger queries.
+>
+> Further explorations:
+> As the repo grows, the natural desire is to also think about synthetic data generation + finetuning to have your LLM "know" the data in its weights instead of just context windows.
+>
+> TLDR: raw data from a given number of sources is collected, then compiled by an LLM into a .md wiki, then operated on by various CLIs by the LLM to do Q&A and to incrementally enhance the wiki, and all of it viewable in Obsidian. You rarely ever write or edit the wiki manually, it's the domain of the LLM. I think there is room here for an incredible new product instead of a hacky collection of scripts.
+
+- **Tweet:** https://x.com/neilzegh/status/2072977540193378428
+- **Quoted:** https://x.com/karpathy/status/2039805659525644595
+- **What:** Karpathy advocates an LLM-maintained Markdown wiki that compiles source material into linked concepts, supports agentic research and health checks, and compounds through reusable outputs; Neil’s CLAUDE.md rule operationalizes that compounding by requiring each task to file durable discoveries.
+
+## @itsharmanjot - Meetily local-first AI meeting notetaker
+> This shouldn't be free.
+>
+> Someone open sourced a fully local AI meeting notetaker that kills Otter, Fireflies, and Fathom in one Rust app.
+>
+> It's called Meetily. Every meeting gets recorded, transcribed, and summarized entirely on your own machine. Zero cloud. Zero API calls to a company you don't trust with your audio.
+>
+> The pitch isn't just privacy. It's speed too.
+>
+> → Whisper and Parakeet models both bundled in, 4x faster live transcription
+> → Ollama handles summaries locally, or plug in Claude, Groq, OpenRouter, or any OpenAI-compatible endpoint
+> → Captures your mic and system audio at the same time with intelligent ducking so nothing clips
+> → GPU acceleration ships automatic. Metal and CoreML on Apple Silicon. CUDA on NVIDIA. Vulkan on AMD and Intel.
+> → Import any old recording and re-transcribe it with a better model or a different language
+> → Native app for macOS and Windows. Linux builds from source.
+>
+> The average data breach costs $4.4M. Every cloud notetaker on the market is a compliance risk waiting to fire.
+>
+> Meetily is what happens when engineers finally build the alternative.
+>
+> 13.2K stars. MIT License. 100% Opensource.
+
+- **Tweet:** https://x.com/itsharmanjot/status/2072948323380822152
+- **What:** Meetily is presented as an open-source Rust desktop alternative to cloud meeting bots, combining local audio capture, accelerated Whisper or Parakeet transcription, and configurable local or hosted LLM summaries for privacy-sensitive recordings.
+
+---
+
+# Thursday, July 2, 2026
+
+## @elliotarledge - Claude Fable's single-kernel KernelBench-Mega result
+> Claude Fable 5 [max] wrote the first genuine (and fastest) megakernel ever submitted to KernelBench-Mega.
+>
+> It was tested on: Kimi-Linear W4A16 batch-1 decode for RTX PRO 6000 Blackwell. Every prior model "won" it with a multi-kernel Triton pipeline that fails our single-fused-kernel authenticity gate
+>
+> > Opus 4.8 at 14.4x
+> > GLM-5.2 11.1x
+> > GPT-5.5 4.3x
+> > Sonnet 5 4.0x.
+>
+> Fable shipped 18.7x over reference, and torch.profiler shows exactly ONE cooperative kernel launch per decoded token. Int4 dequant (nibbles unpacked in-register, never materialized), conv+SiLU, KDA gated-delta state, MLA absorbed-latent attention with online softmax, MoE router + top-8 experts, RMSNorms, even the KV cache append all inside one launch, staged by 14 grid barriers. We overwrote its input buffers mid-audit to prove it recomputes on live data. It does.
+>
+> The advantage grows with context. 17.8x at 2k, 18.9x at 8k, 19.5x at 16k. Longer context means a bigger KV cache and more attention work per token which is usually where a decode kernel bleeds. Keeping everything in one launch amortizes the fixed barrier overhead and the int4 GEMV stays bandwidth-bound, so the gap over the reference widens instead of closing.
+>
+> It spent 64% of the session in silence timing the baseline, microbenchmarking grid barriers, deriving a ~29x bytes/token roofline, then wrote the whole kernel once, hit 14.4x on the first benchmark, and spent the last hour deleting barriers and making int4 dequant free (one LOP3 + HSUB2/HMUL2). The one regression it tried (finer split-K) it measured and reverted instead of rationalizing.
+>
+> https://t.co/eXKN2sZMVr
+
+- **Tweet:** https://x.com/elliotarledge/status/2072814573753975266
+- **Link:** https://kernelbench.com/
+- **What:** Elliot Arledge reports that Claude Fable 5 produced a verified single fused GPU kernel for Kimi-Linear decoding, claiming an 18.7× baseline speedup and stronger gains at longer contexts than prior multi-kernel submissions.
+
+## @mattpocockuk - Wayfinder's evolving research map for course design
+> My new skill /wayfinder is letting me do stuff I've never considered trying
+>
+> I'm planning an entire course with it every minute of the last four days
+>
+> Closing in on 100 separate grilling/prototyping/research sessions
+>
+> All contributing back to a central map that:
+>
+> - Grows as I learn more about the problem
+> - Shrinks as I find answers to the questions
+>
+> It's the next evolution of /grill-me
+
+- **Tweet:** https://x.com/mattpocockuk/status/2072716979195326905
+- **What:** Matt Pocock describes `/wayfinder` as an extension of `/grill-me` that aggregates intensive research, prototyping, and questioning into a living course-planning map whose open questions contract as evidence accumulates.
+
+## @nifinet - A signal-based Codex outbound engine
+> https://t.co/LDwScMtine
+
+- **Tweet:** https://x.com/nifinet/status/2072704249663004773
+- **Link:** https://x.com/i/article/2072649745882075136
+- **Filed:** [signal-based-outbound-engine-codex](./knowledge/articles/signal-based-outbound-engine-codex.md)
+- **What:** Nicolas Finet outlines a file-based Codex workflow that turns verified market signals into scored, reviewed outbound drafts, then uses logged outcomes to improve future targeting and copy.
+
+## @realdtthomas - Preventing Claude Fable model reversions
+> Want to finally get claude fable to stop reverting to opus 4.8? do this:
+>
+> go to terminal --&gt; Claude --&gt; /switchmodelsonflag = false --&gt; enjoy Fable without the bs.
+>
+> been coding and building for the last 9 hours with no reverts.
+
+- **Tweet:** https://x.com/realdtthomas/status/2072683042720620558
+- **What:** DT Thomas reports that disabling `/switchmodelsonflag` in Claude's terminal settings kept Claude Fable selected through a nine-hour building session instead of reverting to Opus 4.8.
+
+## @akaclandestine - recon-skills offensive security playbook catalog
+> GitHub - uphiago/recon-skills: 144 offensive security skills for recon and pentest. Field-validated techniques from 600+ targets across 45+ sectors. Updated with web enum, email sec, google dorks, cloud IAM, WordPress full compromise chains. · GitHub https://t.co/3elm1lDIVO
+
+- **Tweet:** https://x.com/akaclandestine/status/2072679316815536513
+- **Link:** https://github.com/uphiago/recon-skills/
+- **Filed:** [recon-skills](./knowledge/tools/recon-skills.md)
+- **What:** An MIT-licensed catalog organizes authorized web-security assessment work into focused reconnaissance, validation, evidence, and reporting playbooks rather than an undifferentiated pentest checklist.
+
+## @wadefoster - Zapier's public-channel leaderboard builds an AI-readable shared brain
+> We're killing the DM at @Zapier. Starting with the executive team.
+>
+> We've long held Default to Transparency as a value. That value has largely encouraged communication in public channels. But as the company grew, DMs are a hard habit to resist and break.
+>
+> But every DM is a gap in our Shared Brain. It's context that is lost for humans and AIs. As a result the cost of DMs keeps going up.
+>
+> So earlier this year I posted about our exec transparency leaderboard. The leaderboard has become quite the competition internally…
+>
+> I'm 3rd today. My co-founder @BryanHelmig has held the top spot as long as I can remember…
+>
+> It sets a standard for the rest of the company. In fact, since last year we’ve seen the % of Slack messages in public channels go from 33% to 46%.
+>
+> What the leaderboard measures
+>
+> Transparency is a team sport, and a disinfectant. Every month we track what percentage of our execs' Slack messages happen in public channels versus private DMs.
+>
+> When your CEO debates strategy in a DM, that decision is invisible to every agent and every team that needs to know what was decided and why. The decision happens but the reasoning vanishes.
+>
+> When that conversation happens in a channel, it stays. New hires can search it, agents can read and verify it, etc. Your Shared Brain knows what's true now: ask it a question and the answer reflects the latest reality.
+>
+> Taking It to the Next Level
+>
+> Reducing DMs are one way to increase transparency and open up context for humans and AI, but there are other mechanisms that help too. Three things beyond the leaderboard:
+>
+> 1. Meetings get recorded, transcribed, and become queryable
+>
+> 2. We run a shared skills library. Anyone on the team can encode a workflow they've figured out into a skill and share with the team
+>
+> 3. And we keep score. It's a silly scoreboard, but it subtly drives positive behaviors
+>
+> Raising Your Ambition
+>
+> In order to get the most of AI in your company, the AIs need context. So making your context queryable is one of the most practical moves you can make to improve the effectiveness of your AI agents.
+>
+> P.S. I’m coming for #1, Bryan...
+
+- **Tweet:** https://x.com/wadefoster/status/2072665341650407492
+- **What:** Zapier treats public communication as infrastructure for its Shared Brain: an executive leaderboard raises public Slack usage, while recorded meetings and shared skills preserve the current decision context that humans and AI agents need to act accurately.
+
+---
+
+# Wednesday, July 1, 2026
+
+## @Cloudflare - Monetization Gateway brings x402 payments to web and MCP resources
+> We're opening the waitlist for our Monetization Gateway, which will allow you to charge for any web page, dataset, API, or MCP tool behind Cloudflare. The charges will settle in stablecoins over the x402 open protocol. https://t.co/pvICtEIixj
+
+- **Tweet:** https://x.com/Cloudflare/status/2072311802285723953
+- **Link:** https://blog.cloudflare.com/monetization-gateway/?utm_campaign=cf_blog&utm_content=20260701&utm_medium=organic_social&utm_source=twitter
+- **Filed:** [cloudflare-monetization-gateway-x402](./knowledge/articles/cloudflare-monetization-gateway-x402.md)
+- **What:** Cloudflare's waitlisted Monetization Gateway proposes per-resource charging for pages, data, APIs, and MCP tools, with stablecoin settlement over x402 positioning payments as infrastructure for web and agent-accessible services.
+
+---
+
 # Tuesday, June 30, 2026
 
 ## @KingBootoshi - React Scan and browser automation for frontend agents
@@ -8753,8 +9706,513 @@ I have 200+ skills, and you want me to import 20+ of your slop skills, on the sa
 - **Tweet:** https://x.com/vydamo_/status/2071811038572679576
 - **What:** A sarcastic thought experiment uses an airdropped token's temporary value to criticize how tax rules can leave recipients owing tax after a liquidity rug pull.
 
----
+## @thepatwalls - Replacing paid voice transcription with a local open-source model
+> I'm bullish on open source AI.
+>
+> Was paying $15/month for a popular AI voice to text tool.
+>
+> But switched to an open source one where you download the model to your computer, and everything is done locally.
+>
+> It's better, faster, more private, and it's free!
+>
+> I wonder what other subscriptions I can get rid of?
 
+- **Tweet:** https://x.com/thepatwalls/status/2072142348578951447
+- **What:** A firsthand case for local open-source speech-to-text: downloading the model removed a recurring subscription while reportedly improving speed, privacy, and output quality, suggesting a practical way to replace cloud AI utilities.
+
+## @rileybrown - Build a computer-using realtime voice assistant in 20 minutes
+> You can build your own custom Jarvis, using Cursor, Claude Code or Codex, in less than 20 minutes.
+>
+> Using the new GPT-Realtime-2 API...
+>
+> Anything you can do on a computer can be turned into a tool that your Jarvis can use.
+>
+> (Here's exactly how to do it)
+ Introduction
+ Step 1: Cursor Setup
+ Step 2 – Full Jarvis Prompt
+ Step 3 – My Agent Ricky
+ Step 4 – Second Prompt
+ Step 5 – Add EXA API Key for Web Search
+ Step 6 – Third Prompt
+ Step 7 – Add Computer Use Mode
+ Step 8 – Add AI Image Generator (Insane)
+ Final Demo
+
+- **Tweet:** https://x.com/rileybrown/status/2072127866507014600
+- **What:** This is a compact build recipe for a personal Jarvis-style agent using GPT-Realtime-2, coding agents, web search, computer use, and image generation, illustrating how a desktop workflow can be exposed as callable agent tools.
+
+## @47fucb4r8c69323 - Expert-trained financial model beats frontier LLMs at lower cost
+> They fine-tuned an open model and got just AMAZING results for such lower cost, check out this graph.
+>
+> Mira is a genius, Thinking Machines is incredible, the current frontier labs are cooked. You love to see it. https://t.co/2ROLMJmH7g
+>
+> *Quoting @tinkerapi:* Sorting which financial docs are worth an analyst's time is surprisingly hard for frontier LLMs. With an expert-labeled dataset and on-policy distillation, Bridgewater fine-tuned a model to do it reliably and cheaply.
+https://t.co/gyYzXq15zd
+
+- **Tweet:** https://x.com/47fucb4r8c69323/status/2072117458673311961
+- **Link:** https://thinkingmachines.ai/news/learning-to-replicate-expert-judgment-in-financial-tasks/
+- **Quoted:** https://x.com/tinkerapi/status/2072034052522315927
+- **Filed:** [learning-to-replicate-expert-judgment-financial-tasks](./knowledge/articles/learning-to-replicate-expert-judgment-financial-tasks.md)
+- **What:** The quoted release reports that Bridgewater used expert labels and on-policy distillation to fine-tune an open model for financial-document triage, while the bookmark highlights its claimed quality and cost advantage over frontier models.
+
+## @ScottHickle - AI health digital twins for earlier diagnosis
+> Bryan's diagnosis here highlights one of the directions in health care that I'm most excited about.
+>
+> Today, Bryan, with all the data in the world – more than any other human being – still missed the diagnosis of an autoimmune disease for years.
+>
+> And that is not an indictment on him or his team at all!
+>
+> It just goes to show that with literally all the data in the world, you can still miss things.
+>
+> But twenty years from now, we will all be instrumented with continuous flows of health care data coming off of our bodies. We'll have wearables. We'll have devices in our toilets. Our beds will be reading about our health. We'll get blood work and microbiome tests and scans, and all of that data will go into powerful AI that is trained with medical records as labeling data.
+>
+> People will get diagnosed months or even years earlier because the system will be able to identify the patterns hiding in the latent space between biomarkers that are elusive to the world's most elite health care teams today.
+>
+> It's going to improve quality of care, quality of life, and life span immeasurably.
+>
+> And I think it's fair to say that Bryan is patient zero for this digital twin of the future.
+>
+> *Quoting @bryan_johnson:* Bad news #1:
+>
+> I have an autoimmune disease. My stomach is eating itself.
+>
+> Bad news #2:
+>
+> 2–5% of people have this, too. Likely more, because it hides.
+>
+> Good news:
+>
+> I'm going to try and solve it. Will share all.
+>
+> As a kid, I ate sugar cereal, drank sugary soda, and gobbled down fast food. I had a few healthy years in my early 20s but then became a young father of three and began building a business.
+>
+> Juggling that stress and grind, I let my health slip and gained 40 lbs. Within a few years I’d fallen into a deep, chronic depression.
+>
+> Somewhere in that timeline, my body began developing an autoimmune process affecting my thyroid and then my stomach lining.
+>
+> It’s called Autoimmune Gastritis (AIG).
+>
+> My hypothyroidism got diagnosed when I was 21 years old with a routine blood draw. That enabled me to begin proactive management, supplementing levothyroxine and Armour Thyroid. They are the hormones my body should be producing on its own but wasn’t.
+>
+> By taking these pills daily, my body was able to operate as though my thyroid was functioning properly.  What I didn’t know was that something else was going on inside my body: my stomach had begun attacking itself. But there was no routine test to find out and I didn’t have any symptoms.
+>
+> I just discovered it in May. I'm unsure how long I've had it. AIG causes irreversible damage: nutritional deficiency, anemia, and over a long horizon, elevated cancer risk. When AIG is discovered today, standard medical care concedes defeat, stating that nothing can be done except managing the condition, no matter how awful or lethal the effects.
+>
+> Looking back over the past few years, I can now see the early signals we were picking up in measurement but hadn’t connected the dots. For 11 years, I’ve had low ferritin, without anemia. We continually tried to raise my iron levels with food and supplementation but nothing would work.
+>
+> We chased the obvious solutions first. A plant-based diet means all my iron is the hard-to-absorb, non-heme kind. Hard training, sauna, and hyperbaric oxygen all raise the body's demand for iron. But none of them explained the core failure: despite me taking iron orally, trialing every formulation, and using every timing trick, none of the iron would stick.
+>
+> What I didn’t fully appreciate until recently is how many stones my previous providers had left unturned. The low ferritin kept getting explained away but not fixed.
+>
+> I overhauled my medical team earlier this year. It was the rebuild to lay the groundwork for Immortals Care, our $1M a year protocol. With greater capacity, we revisited everything.
+>
+> On the surface, my low ferritin was easy to dismiss by most standards of care. My hemoglobin and hematocrit were normal. Ferritin measures stored iron, while hemoglobin measures circulating iron, and because the body drains its reserves first to keep hemoglobin normal, you can be fully iron deficient with a perfectly normal hemoglobin and hematocrit.
+>
+> This is why my low ferritin kept getting dismissed: the numbers that define anemia looked fine, so no one asked why my iron reserves wouldn't refill.
+>
+> My team pressed on that question. They first turned to a colonoscopy. I was 48 years old and overdue. It was good health hygiene to have while also serving a specific purpose of searching for a hidden source of blood loss such as a polyp or even cancer in my bowels. Either one of those would be an explanation of why the iron kept disappearing.
+>
+> At the same time, they began connecting the dots. Iron absorption depends on stomach acid, so one theory was that my stomach acid was disrupted. They also knew that thyroid and stomach autoimmunity often travel together, so often that the pairing has a name: thyrogastric syndrome.
+>
+> Put against my 27+ year history of autoimmune thyroid disease, the pieces pointed to a single hypothesis: my own immune system was attacking my stomach.
+>
+> To our surprise, my colonoscopy came back clean.  A perfectly healthy colon, better than 95% of colonoscopies of men, according to the gastroenterologist. That ruled out the first concern and worst possible outcome: slow continuous bleeding from colon cancer, or pre-cancerous polyp.
+>
+> My team had exercised great foresight though, anticipating this possible outcome. In addition to a colonoscopy, they’d ordered an upper endoscopy to be performed at the same time. The combined procedure is a bi-directional endoscopy. Probes would look at my entire intestinal tract, up from below and down the throat.
+>
+> Additionally, we had several blood biomarkers measured ahead of the procedure to try and pick up on any signals that would give the gastroenterologist guidance for what to look for while doing visual inspections.
+>
+> Fifteen minutes before the procedure, my blood results returned, finding elevated levels of anti-parietal-cells-antibodies (APCA). They came back at roughly five times the upper limit of normal (103, against a ceiling of 20 Units/mL). It was a positive result confirming the suspicion of AIG being the culprit behind my low ferritin, the other type of gastritis, driven by a bacterial infection, was already ruled out, as we knew I am negative to H. pylori.
+>
+> Even before this finding, my team had ordered five biopsies to be taken from three regions of my stomach.
+>
+> The biopsies were the critical piece. Had they not been ordered, the bi-directional endoscopy would have been completed and AIG remained undiagnosed as there were no visual signatures of the condition in my intestines.
+>
+> Two days later, the results of biopsies came in, showing clear signs of early autoimmune gastritis: early atrophy confined to the acid-producing lining, with the rest of the stomach still spared. My team had anticipated this, methodically tracing every line of evidence.
+>
+> We now had a formal diagnosis. I have autoimmune gastritis AIG. My stomach is eating itself.
+>
+> So this was never one problem. It was three, linked to one another: the iron deficiency, the autoimmune gastritis driving it, and the autoimmune thyroid disease alongside it. Iron and thyroid feed each other both ways, low iron impairs the conversion of thyroid hormone into its active form, and an under active thyroid impairs how the body uses iron. Each made the other harder to fix.
+>
+> Autoimmune gastritis affects an estimated 2–5% of people, and likely more, because it hides and is challenging to diagnose. It's usually silent for years, surfacing only once the stomach has atrophied enough to do real damage: iron deficiency first, then B12 deficiency, then anemia from both, and over a long horizon, raised stomach-cancer risk. In one study of people with precancerous gastric lesions, roughly 18% carried the autoimmune antibodies, and only about 1% had ever been diagnosed.
+>
+> And the earliest clue, low ferritin, is the one standard medicine waves through. Low iron stores get normalized and rarely investigated at all when anemia hasn't shown up yet. That blind spot is what hid mine for a decade.
+>
+> The good news: the iron deficiency is now corrected. I received a 1,000 mg Monoferric iron infusion. This was chosen for two reasons after considering multiple formulations. First, it can safely deliver a full dose of iron in a single infusion (1,000 mg), while older options like Venofer require several separate appointments to reach the same total.
+>
+> Second, certain other IV iron formulations can cause a drop in blood phosphate levels, an important mineral for bones and energy. Monoferric is much less likely to do this, which matters given how closely we track long-term metabolic and bone health parameters.
+>
+> As mentioned earlier, current medical standards treat AIG as something to be managed, not resolved.
+>
+> It's worth noting that many of you give me a hard time, inviting me to "live life" and engage in self-destructive behaviors like a "normal person".  I'm cool with the playful ribbing. Also, had I not taken care of my health during the past five years, my situation could potentially be very serious.
+>
+> You too may have a lurking health issue that is undiagnosed and could increase in severity from unhealthy life choices, without your knowing. The absence of symptoms is not the presence of health.
+>
+> A gentle nudge that minding your health, no matter your situation in life, is good decision making.
+>
+> My team and I are going to try and solve my AIG. This is how we’re approaching it:
+>
+> First, routine monitoring keeps the disease in view: ferritin and iron, B12, the pepsinogen I/II ratio, gastrin, and chromogranin A. Gastrin is the dial to watch. If it climbs, the disease is advancing, and the risk of gastric neuroendocrine tumors climbs with it.
+>
+> Second, we’re doing advanced characterization of the disease. We’ll do a repeat biopsy to read the immune infiltrate, deep cytokine profiling, and T-cell subset analysis, to see which pathways are actually firing.
+>
+> That testing drives the intervention plan, including the experimental approaches we intend to develop.
+>
+> + If gastrin and chromogranin rise: damp the gastrin drive (netazepide) and tighten endoscopic surveillance. If the profile is Th1 / interferon-driven: target JAK/STAT.
+>
+> + If it's Th17 / IL-17-driven: target IL-17 and STAT3.
+>
+> + If regulatory T cells are failing: rebuild them (low-dose IL-2, induced Tregs).
+>
+> + If it's antibody- and B-cell-driven and antigen-specific: engineered cell therapy (CAAR-T).
+>
+> Which organizes into four tiers, from available today to frontier:
+>
+> Tier 1, now: protect and support;  zinc-L-carnosine, and acid replacement (betaine HCl with pepsin) under physician supervision. This is specific to my case and not something to self-prescribe, especially given the cancer-surveillance considerations above.
+>
+> Tier 2, target the signaling , JAK/STAT, GSK-3, IL-17,  and damp the gastrin drive (netazepide).
+>
+> Tier 3, reset the cells, induced regulatory T cells (iTregs).
+>
+> Tier 4, frontier: engineered T-cell therapy (CAR-T / CAAR-T), custom AI-designed antibodies, or synthetic proteins, that can specifically seek out inactivate or destroy the rogue immune cells attacking my stomach lining.
+>
+> To be clear: there's no approved cure for autoimmune gastritis today. Medicine treats it as something to manage, not solve. Tiers 2 through 4 are investigational preclinical evidence at best, and in several cases therapies that still have to be built.
+>
+> If you're working on autoimmune gastritis, antigen-specific tolerance, regulatory T cells, or CAAR-T for organ-specific autoimmunity, please reach out.
+>
+> Modern medicine has normalized too many conditions that erode our health, function, and comfort, shrinking the goal to monitoring and management while a cure is rarely even attempted. Most of these verdicts were handed down decades ago, in an era that predates nearly all of our current tech and science, and they have gone largely unchallenged.
+>
+> We want to change that. In the age of AI, multiomics, and custom-built DNA, proteins, and cells, no condition should be presumed incurable simply because no one has yet tried to cure it with today's stack.
+>
+> I’ll end on a personal note.
+>
+> We fill our days mostly on things that are trivial next to what we ultimately care about. We know, deep down, however, that in the noise of it all, health is easily forgotten until it’s the only thing that matters.
+>
+> We spend a fraction of our lives truly sober to the preciousness of life. We feel it when someone we love dies, when a child is born, when we come close to death ourselves, or when a diagnosis marks our limit. In those moments, we are sobered, and the rarity of it all becomes self evident. Imagine the existence we’d build together if that clarity didn’t fade.
+>
+> I wish all of you the very best. Care for yourself, care for others, care for the planet and care for our animal friends. Care for life as it’s the most precious gift there is.
+
+- **Tweet:** https://x.com/ScottHickle/status/2072108623396757755
+- **Quoted:** https://x.com/bryan_johnson/status/2072069730517860385
+- **What:** Scott Hickle uses Bryan Johnson’s autoimmune gastritis diagnosis—missed despite unusually extensive personal data—to argue for AI health digital twins that integrate longitudinal signals from wearables, household sensors, labs, microbiome tests, and scans, surfacing patterns early enough to improve diagnosis, care, and healthy lifespan.
+
+## @DavidOndrej1 - Agent harness design over model fixation
+> SIT DOWN FOR 60 MINUTE AND WATCH THIS.
+>
+> trust me.
+>
+> *Quoting @DavidOndrej1:* Matt Pocock just explained why everyone is obsessing over the wrong thing
+>
+> it's not the model, it's the harness
+>
+> watch this before everyone else figures it out https://t.co/0iV4K4a9sz
+
+- **Tweet:** https://x.com/DavidOndrej1/status/2072082709946507348
+- **Quoted:** https://x.com/DavidOndrej1/status/2067693059622469958
+- **What:** David Ondrej endorses a long-form explanation from Matt Pocock that reframes agent performance as primarily a harness-design problem rather than a contest among base models, arguing that the surrounding workflow, tools, context, and control loop determine much of the practical result.
+
+## @bryan_johnson - Autoimmune gastritis diagnosis and cure agenda
+> Bad news #1:
+>
+> I have an autoimmune disease. My stomach is eating itself.
+>
+> Bad news #2:
+>
+> 2–5% of people have this, too. Likely more, because it hides.
+>
+> Good news:
+>
+> I'm going to try and solve it. Will share all.
+>
+> As a kid, I ate sugar cereal, drank sugary soda, and gobbled down fast food. I had a few healthy years in my early 20s but then became a young father of three and began building a business.
+>
+> Juggling that stress and grind, I let my health slip and gained 40 lbs. Within a few years I’d fallen into a deep, chronic depression.
+>
+> Somewhere in that timeline, my body began developing an autoimmune process affecting my thyroid and then my stomach lining.
+>
+> It’s called Autoimmune Gastritis (AIG).
+>
+> My hypothyroidism got diagnosed when I was 21 years old with a routine blood draw. That enabled me to begin proactive management, supplementing levothyroxine and Armour Thyroid. They are the hormones my body should be producing on its own but wasn’t.
+>
+> By taking these pills daily, my body was able to operate as though my thyroid was functioning properly.  What I didn’t know was that something else was going on inside my body: my stomach had begun attacking itself. But there was no routine test to find out and I didn’t have any symptoms.
+>
+> I just discovered it in May. I'm unsure how long I've had it. AIG causes irreversible damage: nutritional deficiency, anemia, and over a long horizon, elevated cancer risk. When AIG is discovered today, standard medical care concedes defeat, stating that nothing can be done except managing the condition, no matter how awful or lethal the effects.
+>
+> Looking back over the past few years, I can now see the early signals we were picking up in measurement but hadn’t connected the dots. For 11 years, I’ve had low ferritin, without anemia. We continually tried to raise my iron levels with food and supplementation but nothing would work.
+>
+> We chased the obvious solutions first. A plant-based diet means all my iron is the hard-to-absorb, non-heme kind. Hard training, sauna, and hyperbaric oxygen all raise the body's demand for iron. But none of them explained the core failure: despite me taking iron orally, trialing every formulation, and using every timing trick, none of the iron would stick.
+>
+> What I didn’t fully appreciate until recently is how many stones my previous providers had left unturned. The low ferritin kept getting explained away but not fixed.
+>
+> I overhauled my medical team earlier this year. It was the rebuild to lay the groundwork for Immortals Care, our $1M a year protocol. With greater capacity, we revisited everything.
+>
+> On the surface, my low ferritin was easy to dismiss by most standards of care. My hemoglobin and hematocrit were normal. Ferritin measures stored iron, while hemoglobin measures circulating iron, and because the body drains its reserves first to keep hemoglobin normal, you can be fully iron deficient with a perfectly normal hemoglobin and hematocrit.
+>
+> This is why my low ferritin kept getting dismissed: the numbers that define anemia looked fine, so no one asked why my iron reserves wouldn't refill.
+>
+> My team pressed on that question. They first turned to a colonoscopy. I was 48 years old and overdue. It was good health hygiene to have while also serving a specific purpose of searching for a hidden source of blood loss such as a polyp or even cancer in my bowels. Either one of those would be an explanation of why the iron kept disappearing.
+>
+> At the same time, they began connecting the dots. Iron absorption depends on stomach acid, so one theory was that my stomach acid was disrupted. They also knew that thyroid and stomach autoimmunity often travel together, so often that the pairing has a name: thyrogastric syndrome.
+>
+> Put against my 27+ year history of autoimmune thyroid disease, the pieces pointed to a single hypothesis: my own immune system was attacking my stomach.
+>
+> To our surprise, my colonoscopy came back clean.  A perfectly healthy colon, better than 95% of colonoscopies of men, according to the gastroenterologist. That ruled out the first concern and worst possible outcome: slow continuous bleeding from colon cancer, or pre-cancerous polyp.
+>
+> My team had exercised great foresight though, anticipating this possible outcome. In addition to a colonoscopy, they’d ordered an upper endoscopy to be performed at the same time. The combined procedure is a bi-directional endoscopy. Probes would look at my entire intestinal tract, up from below and down the throat.
+>
+> Additionally, we had several blood biomarkers measured ahead of the procedure to try and pick up on any signals that would give the gastroenterologist guidance for what to look for while doing visual inspections.
+>
+> Fifteen minutes before the procedure, my blood results returned, finding elevated levels of anti-parietal-cells-antibodies (APCA). They came back at roughly five times the upper limit of normal (103, against a ceiling of 20 Units/mL). It was a positive result confirming the suspicion of AIG being the culprit behind my low ferritin, the other type of gastritis, driven by a bacterial infection, was already ruled out, as we knew I am negative to H. pylori.
+>
+> Even before this finding, my team had ordered five biopsies to be taken from three regions of my stomach.
+>
+> The biopsies were the critical piece. Had they not been ordered, the bi-directional endoscopy would have been completed and AIG remained undiagnosed as there were no visual signatures of the condition in my intestines.
+>
+> Two days later, the results of biopsies came in, showing clear signs of early autoimmune gastritis: early atrophy confined to the acid-producing lining, with the rest of the stomach still spared. My team had anticipated this, methodically tracing every line of evidence.
+>
+> We now had a formal diagnosis. I have autoimmune gastritis AIG. My stomach is eating itself.
+>
+> So this was never one problem. It was three, linked to one another: the iron deficiency, the autoimmune gastritis driving it, and the autoimmune thyroid disease alongside it. Iron and thyroid feed each other both ways, low iron impairs the conversion of thyroid hormone into its active form, and an under active thyroid impairs how the body uses iron. Each made the other harder to fix.
+>
+> Autoimmune gastritis affects an estimated 2–5% of people, and likely more, because it hides and is challenging to diagnose. It's usually silent for years, surfacing only once the stomach has atrophied enough to do real damage: iron deficiency first, then B12 deficiency, then anemia from both, and over a long horizon, raised stomach-cancer risk. In one study of people with precancerous gastric lesions, roughly 18% carried the autoimmune antibodies, and only about 1% had ever been diagnosed.
+>
+> And the earliest clue, low ferritin, is the one standard medicine waves through. Low iron stores get normalized and rarely investigated at all when anemia hasn't shown up yet. That blind spot is what hid mine for a decade.
+>
+> The good news: the iron deficiency is now corrected. I received a 1,000 mg Monoferric iron infusion. This was chosen for two reasons after considering multiple formulations. First, it can safely deliver a full dose of iron in a single infusion (1,000 mg), while older options like Venofer require several separate appointments to reach the same total.
+>
+> Second, certain other IV iron formulations can cause a drop in blood phosphate levels, an important mineral for bones and energy. Monoferric is much less likely to do this, which matters given how closely we track long-term metabolic and bone health parameters.
+>
+> As mentioned earlier, current medical standards treat AIG as something to be managed, not resolved.
+>
+> It's worth noting that many of you give me a hard time, inviting me to "live life" and engage in self-destructive behaviors like a "normal person".  I'm cool with the playful ribbing. Also, had I not taken care of my health during the past five years, my situation could potentially be very serious.
+>
+> You too may have a lurking health issue that is undiagnosed and could increase in severity from unhealthy life choices, without your knowing. The absence of symptoms is not the presence of health.
+>
+> A gentle nudge that minding your health, no matter your situation in life, is good decision making.
+>
+> My team and I are going to try and solve my AIG. This is how we’re approaching it:
+>
+> First, routine monitoring keeps the disease in view: ferritin and iron, B12, the pepsinogen I/II ratio, gastrin, and chromogranin A. Gastrin is the dial to watch. If it climbs, the disease is advancing, and the risk of gastric neuroendocrine tumors climbs with it.
+>
+> Second, we’re doing advanced characterization of the disease. We’ll do a repeat biopsy to read the immune infiltrate, deep cytokine profiling, and T-cell subset analysis, to see which pathways are actually firing.
+>
+> That testing drives the intervention plan, including the experimental approaches we intend to develop.
+>
+> + If gastrin and chromogranin rise: damp the gastrin drive (netazepide) and tighten endoscopic surveillance. If the profile is Th1 / interferon-driven: target JAK/STAT.
+>
+> + If it's Th17 / IL-17-driven: target IL-17 and STAT3.
+>
+> + If regulatory T cells are failing: rebuild them (low-dose IL-2, induced Tregs).
+>
+> + If it's antibody- and B-cell-driven and antigen-specific: engineered cell therapy (CAAR-T).
+>
+> Which organizes into four tiers, from available today to frontier:
+>
+> Tier 1, now: protect and support;  zinc-L-carnosine, and acid replacement (betaine HCl with pepsin) under physician supervision. This is specific to my case and not something to self-prescribe, especially given the cancer-surveillance considerations above.
+>
+> Tier 2, target the signaling , JAK/STAT, GSK-3, IL-17,  and damp the gastrin drive (netazepide).
+>
+> Tier 3, reset the cells, induced regulatory T cells (iTregs).
+>
+> Tier 4, frontier: engineered T-cell therapy (CAR-T / CAAR-T), custom AI-designed antibodies, or synthetic proteins, that can specifically seek out inactivate or destroy the rogue immune cells attacking my stomach lining.
+>
+> To be clear: there's no approved cure for autoimmune gastritis today. Medicine treats it as something to manage, not solve. Tiers 2 through 4 are investigational preclinical evidence at best, and in several cases therapies that still have to be built.
+>
+> If you're working on autoimmune gastritis, antigen-specific tolerance, regulatory T cells, or CAAR-T for organ-specific autoimmunity, please reach out.
+>
+> Modern medicine has normalized too many conditions that erode our health, function, and comfort, shrinking the goal to monitoring and management while a cure is rarely even attempted. Most of these verdicts were handed down decades ago, in an era that predates nearly all of our current tech and science, and they have gone largely unchallenged.
+>
+> We want to change that. In the age of AI, multiomics, and custom-built DNA, proteins, and cells, no condition should be presumed incurable simply because no one has yet tried to cure it with today's stack.
+>
+> I’ll end on a personal note.
+>
+> We fill our days mostly on things that are trivial next to what we ultimately care about. We know, deep down, however, that in the noise of it all, health is easily forgotten until it’s the only thing that matters.
+>
+> We spend a fraction of our lives truly sober to the preciousness of life. We feel it when someone we love dies, when a child is born, when we come close to death ourselves, or when a diagnosis marks our limit. In those moments, we are sobered, and the rarity of it all becomes self evident. Imagine the existence we’d build together if that clarity didn’t fade.
+>
+> I wish all of you the very best. Care for yourself, care for others, care for the planet and care for our animal friends. Care for life as it’s the most precious gift there is.
+
+- **Tweet:** https://x.com/bryan_johnson/status/2072069730517860385
+- **What:** Bryan Johnson documents how persistent low ferritin, autoimmune thyroid disease, antibody testing, and biopsies led to an early autoimmune gastritis diagnosis that routine care had missed. He distinguishes immediate monitoring and supportive care from an aspirational research program involving immune profiling, signaling interventions, tolerance therapies, and engineered cells, while acknowledging that no approved cure exists.
+
+## @mattpocockuk - Wizard skill scaffolds third-party service setup
+> Getting sick of setting up third-party services
+>
+> So I built a skill for it
+>
+> /wizard builds you an interactive CLI for the task you're currently doing, and takes as much work off your hands as possible
+>
+> #1 is how the agent described the wizard, #2-3 is what it looks like: https://t.co/SwMnQOeqX8
+
+- **Tweet:** https://x.com/mattpocockuk/status/2072042214188847178
+- **What:** Matt Pocock presents /wizard as an agent skill that turns the current setup task into an interactive CLI, aiming to replace repeated manual configuration of third-party services with a guided, context-specific workflow.
+
+## @ClaudeDevs - Claude Managed Agents multi-agent orchestration
+> *Replying to @ClaudeDevs:* Sonnet 5 works well in multi-model setups.
+>
+> Have a more capable model plan while Sonnet 5 executes, or flip it with the Advisor strategy so Sonnet 5 only calls one when it gets stuck.
+>
+> https://t.co/f8Rdxn2gwe
+>
+> Similarly, use multi-agent in Claude Managed Agents to mix Sonnet 5 and higher capacity sub-agents in order to delegate work to the right level of intelligence.
+>
+> https://t.co/mspPDDlWHI
+
+- **Tweet:** https://x.com/ClaudeDevs/status/2072018516291825884
+- **Link:** https://platform.claude.com/docs/en/managed-agents/multiagent-orchestration
+- **Parent:** https://x.com/ClaudeDevs/status/2072018514295320843
+- **Filed:** [claude-managed-agents-multiagent-orchestration](./knowledge/articles/claude-managed-agents-multiagent-orchestration.md)
+- **What:** This reply points to Claude Managed Agents documentation on capability-aware orchestration: a coordinator can delegate subproblems to Sonnet 5 or stronger subagents instead of applying one model tier uniformly. Together with the parent’s planner/executor and advisor patterns, it frames model routing as an architectural decision for quality, latency, and cost.
+
+## @ClaudeDevs - Advisor-Guided Sonnet 5 Multi-Model Workflows
+> *Replying to @ClaudeDevs:* Sonnet 5 also holds up better in agents that run unattended.
+>
+> It keeps state across many steps, recovers from errors without losing the thread, and checks its own work as it goes.
+>
+> More multi-step runs finish correctly the first time.
+>
+> Sonnet 5 works well in multi-model setups.
+>
+> Have a more capable model plan while Sonnet 5 executes, or flip it with the Advisor strategy so Sonnet 5 only calls one when it gets stuck.
+>
+> https://t.co/f8Rdxn2gwe
+
+- **Tweet:** https://x.com/ClaudeDevs/status/2072018514295320843
+- **Link:** https://platform.claude.com/docs/en/agents-and-tools/tool-use/advisor-tool
+- **Parent:** https://x.com/ClaudeDevs/status/2072018511992611017
+- **Filed:** [claude-advisor-tool](./knowledge/articles/claude-advisor-tool.md)
+- **What:** The reply advocates using Sonnet 5 as either the execution layer behind a stronger planning model or the primary agent that consults an advisor only when stuck, building on the parent claim that it handles unattended multi-step work reliably.
+
+## @claudeai - Claude Science Research App Beta
+> Introducing Claude Science, a new app designed with every stage of research in mind.
+>
+> Artifacts traced to their code, environments managed on demand, and 60+ optional scientific databases that you can connect.
+>
+> Available now in beta. https://t.co/HKhLknxLJO
+
+- **Tweet:** https://x.com/claudeai/status/2072002740830842899
+- **What:** Claude Science is presented as a research-oriented app that keeps artifacts traceable to code, provisions environments on demand, and connects optional scientific databases to make research workflows more reproducible.
+
+## @every - Automating Consulting Deck Production
+> The Every consulting team was building 2-3 client decks a week by hand. Slide prep had consumed roughly 80% of their work.
+>
+> So head of tech consulting @hammer_mt tried to automate it. https://t.co/lfmmeHwbSu
+
+- **Tweet:** https://x.com/every/status/2071995684727951511
+- **What:** Every frames slide preparation as its consulting team’s dominant manual bottleneck—about 80% of the workload—and points to an internal automation effort designed to reclaim time from recurring client-deck production.
+
+## @citrini - Humanoid Robots Thematic Primer
+> We only write 1-2 primers a year because we want them to be durable. It’s simple to publish something market relevant for 6 months, but our goal is a piece you can return to years later and still derive value.
+>
+> Our Robotics primer meets that standard.
+>
+> https://t.co/qPSAXaLgYN
+
+- **Tweet:** https://x.com/citrini/status/2071995429248524317
+- **Link:** https://www.citriniresearch.com/p/thematic-primer-humanoid-robots
+- **Filed:** [citrini-thematic-primer-humanoid-robots](./knowledge/articles/citrini-thematic-primer-humanoid-robots.md)
+- **What:** Citrini presents its robotics research as a durable investment primer rather than a short-lived trade, positioning humanoid platforms such as Tesla Optimus and Unitree within a broader automation and public-equity watchlist.
+
+## @awilkinson - Codex Threads for Portfolio Company Operations
+> Codex has transformed how I run my companies.
+>
+> I have almost 40 businesses, and trying to keep them all in my brain can be insane.
+>
+> I own:
+>
+> Software companies
+> Restaurants
+> Newspapers
+> Social networks
+> A coffee maker company
+>
+> Each one has totally different context, business model, and sorts of people.
+>
+> For two decades, I struggled to keep my arms around it.
+> I couldn't keep it all in my head.
+> I hated holding people to account.
+> Details slipped through the cracks.
+> And worst of all - the emotional labour became exhausting.
+>
+> Now, each company or project  is just a Codex thread with a heartbeat.
+>
+> Every few days, the heartbeat activates. It reads all the latest context around the project and suggests next steps, then uses the multiple choice question tool to quickly get any information it needs to keep things moving out of my head.
+>
+> It's made running a large, complex org downright delightful. Even the emotional labour:
+>
+> "How would a good boss write this?"
+>
+> "Write an email that will be psychologically compelling that will make someone who works in the accounting department understand why this project is important"
+>
+> For years, I used to read management books, whipping myself.
+>
+> It turns out I just have ADHD (diagnosed last year - thank god).
+>
+> And now my ADHD brain is free to play, while the robot army keeps my teams on track.
+
+- **Tweet:** https://x.com/awilkinson/status/2071991667272696240
+- **What:** Wilkinson describes operationalizing each company as an AI-maintained thread that periodically absorbs context, proposes next actions, and reduces the executive's memory burden and emotionally draining follow-up work.
+
+## @Jhaddix - Huihui GLM 5.2 Abliterated GGUF model release
+> 🤫  https://t.co/OXKUmvTzmx
+
+- **Tweet:** https://x.com/Jhaddix/status/2071980558884942255
+- **Link:** https://huggingface.co/huihui-ai/Huihui-GLM-5.2-abliterated-GGUF
+- **Filed:** [huihui-glm-5-2-abliterated-gguf](./knowledge/articles/huihui-glm-5-2-abliterated-gguf.md)
+- **What:** A Hugging Face model page for a GGUF-formatted, abliterated Huihui GLM 5.2 variant; the nearly text-free bookmark serves as a pointer to a local-model artifact rather than an explanation.
+
+## @Etched - Etched announces inference racks after stealth exit
+> We're coming out of stealth.
+>
+> We've built our first racks after a successful A0 tapeout, $1B+ in customer contracts, and $800m raised.
+>
+> Early customer tests show us achieving SOTA throughput, latency, and power efficiency on inference workloads.
+>
+> Our first racks ship this summer. https://t.co/FLccrkLTza
+
+- **Tweet:** https://x.com/Etched/status/2071972062202343590
+- **What:** Etched’s emergence from stealth signals an inference-chip startup translating an A0 tapeout, more than $1 billion in customer contracts, and $800 million raised into rack-scale hardware planned for summer shipment.
+
+## @fraserpricee - Four RTX Pro 6000 Max-Q GPUs in a personal homelab
+> May as well flex my humble homelab as ppl were asking
+>
+> 4 x RTX Pro 6000 Max-Q
+> Threadripper 9960x
+> Alta F2 w/vertical layout
+> Silverstone 2050R
+> 64GB system RAM 😂👌
+>
+> + a few mac mini M4s, couple pis and a 16TB SSD NAS https://t.co/kPLtsVw8J6
+
+- **Tweet:** https://x.com/fraserpricee/status/2071957463373410806
+- **What:** A hardware inventory of a high-density personal AI lab built around four RTX Pro 6000 Max-Q GPUs, a Threadripper workstation, auxiliary Macs and Raspberry Pis, plus networked bulk storage.
+
+## @jkirkwoodmd - Personal Data Center field manual for a DGX Spark
+> *Replying to @nik_algo:* just bought my first DGX Spark
+>
+> I was debating whether I need it or not, but my passion for cool shiny boxes won
+>
+> if you already own it... best tips? https://t.co/W279Yer72z
+>
+> @nik_algo Guide right here: https://t.co/v6eMNe00F3
+
+- **Tweet:** https://x.com/jkirkwoodmd/status/2071930125470372162
+- **Link:** https://personaldatacenter.xyz/
+- **Parent:** https://x.com/nik_algo/status/2071814728494821688
+- **What:** A practical field manual for building a personally controlled AI and computing stack around a Start9 server, local GPUs, StartOS, and self-hosted services, shared as advice for a new DGX Spark owner.
+
+## @iruletheworldmo - Semiconductor engineering behind everyday AI email
+> it is genuinely psychotic that we dug up literal primordial dirt, scrubbed it down to an impossible 99.9999999999% molecular perfection that violates the very laws of physics, handed it over to techno-wizard necromancers to stretch into flawless geometric god-cylinders, blasted it with invisible uv death-rays to carve ten quadrillion microscopic cyber-sigils into its flesh, trapped actual lightning inside of it, and somehow birthed an omniscent eldritch deity capable of simulating the universe and thinking faster than a billion human civilizations combined.
+>
+> and our grand, supreme purpose for this enslaved lightning-god?
+>
+> sending "per my last email, please see attached" to a guy named gary.
+
+- **Tweet:** https://x.com/iruletheworldmo/status/2071919470017417595
+- **What:** A satirical reflection on the extraordinary semiconductor manufacturing and computational stack behind modern AI, contrasted with its routine use for everyday corporate email.
+
+---
 # Monday, June 29, 2026
 
 ## @calebcanales_ - Claimed first-day peptide affiliate-ad performance
