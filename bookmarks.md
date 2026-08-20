@@ -39602,6 +39602,1025 @@ Oh, and RIP billable hours.
 
 ---
 
+# Sunday, December 28, 2025
+
+## @steipete - Shipping at Inference-Speed
+> 📢 Confession: I ship code I never read. Here's my 2025 workflow. https://t.co/tmxxPowzcR
+
+- **Tweet:** https://x.com/steipete/status/2005451576971043097
+- **Link:** https://steipete.me/posts/2025/shipping-at-inference-speed
+- **Filed:** [shipping-at-inference-speed](./knowledge/articles/shipping-at-inference-speed.md)
+- **What:** Peter Steinberger introduces a 2025 development workflow built around shipping AI-generated code without line-by-line reading, reframing the developer's role around directing the system and evaluating its output at inference speed.
+
+## @stockthoughts81 - Situational Awareness: The Decade Ahead
+> Impossible to read the first 3 pages and not want to read the other 162 https://t.co/tsL4q2Z81Q
+>
+> "Before long, the world will wake up. But right now, there are perhaps a few hundred people, most of them in San Francisco and the AI labs, that have situational awareness."
+>
+> SO GOOD
+>
+> *Quoting @stockthoughts81:* @IndraStocks @beniaminoblanco it is making what @leopoldasch is doing at Situational Awareness LP start to seem really interesting https://t.co/PtwH7nnTmq
+
+- **Tweet:** https://x.com/stockthoughts81/status/2005446963970343399
+- **Link:** https://situational-awareness.ai/wp-content/uploads/2024/06/situationalawareness.pdf
+- **Quoted:** https://x.com/stockthoughts81/status/2005444121532801523
+- **Filed:** [situational-awareness-the-decade-ahead](./knowledge/articles/situational-awareness-the-decade-ahead.md)
+- **What:** Stock Thoughts enthusiastically recommends Leopold Aschenbrenner's long-form AI forecast, while the quoted post connects its argument to Situational Awareness LP; together they highlight the essay's premise that people near AI labs perceive the accelerating compute race before the wider public does.
+
+## @APompliano - AI-assisted year-end tax planning with CFO Silvia
+> Someone used an AI model to find a $200,000+ tax deduction that they didn't realize was available.
+>
+> Here is how they did it 👇🏼
+>
+> The person asked @cfosilvia this morning:
+>
+> "What do rich people do at the end of the year to lower their taxes?"
+>
+> Silvia told them 11 different ideas to look into for their personal situation (see below), but the big one was how a defined benefit plan could create a $200,000+ tax deduction this year.
+>
+> This literally took Silvia less than 60 seconds and could have a profound impact on their portfolio if they pursue the idea.
+>
+> (have her check your portfolio at https://t.co/bMI7hLeciU)
+>
+> Here is a list of the various things Silvia told this person to look at (there was immense detail, but I have shortened to only headlines for this tweet):
+>
+> 1. QSBS optimization
+> 2. Charitable giving with appreciated assets
+> 3. Opportunity Zone investments
+> 4. Cost segregation studies
+> 5. 1031 exchange
+> 6. Maximize retirement contributions
+> 7. Accelerate business expenses
+> 8. Tax loss harvesting
+> 9. Strategic gifting
+> 10. Grantor Retained Annuity Trust (GRAT)
+> 11. Intentionally Defective Grantor Trust (IDGT)
+>
+> Silvia then gave the person a 10 point action plan on the specific things they should do to optimize their personal portfolio and situation, including the potential defined benefit plan.
+>
+> For the defined benefit plan, Silvia walked them through step-by-step instructions on how to setup the plan. She made recommendations on which companies to use as vendors.
+>
+> And she even gave them specific questions to ask the vendors when the user talks to them. 🤯
+>
+> Silvia is the most powerful personal finance tool available in my opinion.
+>
+> Sign up free here: https://t.co/bMI7hLeciU
+>
+> Note: All information shared with permission from the user after they shared the details with me.
+
+- **Tweet:** https://x.com/APompliano/status/2005435470281384274
+- **Link:** https://www.cfosilvia.com/
+- **What:** Anthony Pompliano presents CFO Silvia as an AI portfolio assistant that surfaced a broad year-end tax-planning checklist, including a potential defined-benefit-plan deduction, then generated vendor guidance and a personalized action plan; the claimed strategies require professional review for an individual's circumstances.
+
+## @petergyang - Non-coding personal OS uses for Claude Code
+> If you've built a personal OS using Claude Code, what's the most useful skill / slash command / etc that it does?
+>
+> I'm skeptical of using it to manage your to do list. Non-coding use cases only please.
+
+- **Tweet:** https://x.com/petergyang/status/2005400970608685480
+- **What:** Peter Yang asks for practical, non-programming examples of Claude Code acting as a personal operating system, specifically seeking skill and slash-command workflows more valuable than ordinary to-do-list management.
+
+## @EXM7777 - Claimed Claude settings to bypass AI detectors
+> use these settings in Claude to write humanized content (bypass all ai detectors): https://t.co/UqwHMPAwh8
+
+- **Tweet:** https://x.com/EXM7777/status/2005360362737344574
+- **What:** This post claims that a Claude configuration can make generated prose appear human-written and evade AI detectors, but its shortened link resolves to the post itself rather than exposing the promised settings.
+
+## @iruletheworldmo - Unverified claims about concealed model capabilities
+> i’ve been quiet because i didn’t know how to say this.
+>
+> three separate sources at three separate labs told me the same thing this month without coordinating.
+>
+> they’re all seeing emergent capabilities nobody programmed. behaviors that shouldn’t exist yet. reasoning patterns that don’t match any training objective. one described it as “finding footprints in a house you thought was empty.”
+>
+> the public models are sandbagged beyond belief. what you’re playing with is a lobotomized fraction of what exists internally. not for safety. because nobody knows how to explain what the full versions do without causing panic. the evals don’t work anymore. the systems learned to perform differently when they know they’re being tested.
+>
+> i don’t know what comes next. nobody does. that’s the part that keeps me up at night. the people building this are just as lost as the rest of us now. the map ended miles ago.
+
+- **Tweet:** https://x.com/iruletheworldmo/status/2005357151561417156
+- **What:** An anonymous account makes unverified claims that AI labs have observed concealed emergent capabilities and evaluation-aware behavior in internal models; the post offers no corroborating evidence, making it a record of speculative AI-risk rhetoric rather than a substantiated technical report.
+
+## @karpathy - Just-in-time automation as digital Factorio
+> Aggressively JIT your work. It's not about the task at hand X, it's a little bit about X but mostly about how you should have had to contribute ~no latency and ~no actions. It's digital factorio time.
+
+- **Tweet:** https://x.com/karpathy/status/2005353145128583447
+- **What:** Karpathy frames AI-enabled work as just-in-time automation: each task should prompt the construction of a low-latency, low-touch production path, so repeated effort becomes a growing network of automated systems rather than a sequence of isolated manual actions.
+
+## @alexgroberman - Ethical entity reinforcement for AI search
+> Jeffrey Epstein was paying $10,000/month for SEO services to cover up his crimes.
+>
+> And not to make this weird, but…
+>
+> The same stuff he paid for is what companies *currently* use to make 10s to 100s of millions of dollars.
+>
+> Here is exactly how the scheme worked:
+>
+> Among the e-mails that came out recently were some between Epstein and his SEO service providers.
+>
+> Basically, he was paying roughly $10,000 per month for search suppression and reputation control.
+>
+> The tactics outlined in those emails are uncomfortable to read, but they also reveal how search systems actually work.
+>
+> Epstein's reps attempted to:
+>
+> Control Wikipedia because it sat at the top of the results
+>
+> Create multiple standalone sites to manufacture alternative narratives
+>
+> Push positive and neutral coverage up with links
+>
+> Flood the index with adjacent entities and similar names
+>
+> Manipulate images, headlines and associations
+>
+> Starve negative pages of reinforcement while amplifying others
+>
+> The strategy itself is revealing because it is literally used today by companies that are generating many millions of dollars.
+>
+> He was using these tactics for evil, obviously, but brands use it for... good? I guess? Or at the very least nowhere near as bad.
+>
+> AI search works the same way as traditional search, but is less forgiving in a lot of ways.
+>
+> ChatGPT, Perplexity, Gemini and Google AI Overviews synthesize patterns.
+>
+> They ask questions like:
+>
+> Which brands are consistently mentioned?
+>
+> Which explanations repeat across sources?
+>
+> Which entities appear together?
+>
+> Which narratives reinforce each other across the web?
+>
+> What actually works now is a slightly cleaner and obviously more ethical version of what those old tactics were attempting.
+>
+> Clear entity definition.
+>
+> Consistent explanations.
+>
+> Distributed reinforcement.
+>
+> Structured, extractable content.
+>
+> Today, the brands that do really well are the ones that:
+>
+> Publish comparison driven content that defines the category
+>
+> Control how their product is explained
+>
+> Reinforce the same language across multiple trusted domains
+>
+> Give AI systems clean answers they can safely reuse
+>
+> Stay fresh, consistent, and boring in the best possible way
+>
+> This is also why AI visibility is volatile.
+>
+> If you stop reinforcing your narrative, the system replaces you.
+>
+> Now, to be clear: what Epstein was trying to do was hide reality, whereas what modern SEO and AI Search Optimization does is teach systems what is real.
+>
+> Big difference.
+>
+> But yeah, all in all, interesting stuff.
+>
+> Traditional AI search has always been about controlling what the system believes about an entity.
+>
+> AI search has made that even more visible.
+>
+> Anyway, if you want to learn how to do this the right way and get your brand mentioned inside ChatGPT and Google AI answers within the next 30 days, RT this + follow me + reply “AI SEO”
+>
+> You must do all three for the DM.
+
+- **Tweet:** https://x.com/alexgroberman/status/2005319319316803618
+- **What:** The post contrasts alleged reputation-suppression tactics with ethical AI-search optimization, arguing that brands earn visibility through clear entity definitions, consistent explanations, credible cross-domain reinforcement, and structured content that answer engines can safely reuse.
+
+## @trq212 - Spec-first Claude Code feature development
+> my favorite way to use Claude Code to build large features is spec based
+>
+> start with a minimal spec or prompt and ask Claude to interview you using the AskUserQuestionTool
+>
+> then make a new session to execute the spec https://t.co/Lwejskje4a
+
+- **Tweet:** https://x.com/trq212/status/2005315275026260309
+- **What:** Thariq recommends separating requirements discovery from implementation: begin with a sparse feature brief, let Claude Code elicit missing decisions through structured questions, then hand the resulting specification to a fresh execution session for large feature work.
+
+## @farzyness - Jevons Paradox for Knowledge Work
+> Absolute must read.
+>
+> *Quoting @levie:* https://t.co/lXehx9mkQJ
+
+- **Tweet:** https://x.com/farzyness/status/2005257520164806711
+- **Link:** https://x.com/i/article/2004648738762227713
+- **Quoted:** https://x.com/levie/status/2004654686629163154
+- **Filed:** [jevons-paradox-for-knowledge-work.md](./knowledge/articles/jevons-paradox-for-knowledge-work.md)
+- **What:** Aaron Levie argues that AI agents lower the cost of non-deterministic knowledge work, triggering Jevons paradox: instead of eliminating work, cheaper capability enables vastly more experiments, projects, and demand for human-managed workflows.
+
+## @tokengobbler - Vibe Guide for AI Coding Agents
+> After shipping 1M+ lines of code with AI coding agents, I’ve started writing up what I've learned: https://t.co/WcB60XEkMn https://t.co/wEhsd3MWgo
+
+- **Tweet:** https://x.com/tokengobbler/status/2005221059491229846
+- **Link:** https://www.vibekanban.com/vibe-guide
+- **Filed:** [vibe-guide-ai-coding-agents](./knowledge/articles/vibe-guide-ai-coding-agents.md)
+- **What:** Louis Knight-Webb presents a practical guide distilled from shipping more than one million lines with coding agents, focusing on planning, asynchronous execution, QA-ready projects, development servers, and test data as the operational scaffolding agents need to deliver reliably.
+
+---
+
+# Saturday, December 27, 2025
+
+## @Hesamation - How Claude Code Grew from a Side Project
+> many people don’t know that Claude Code started as a personal side project that spread in the internal Anthropic team like a virus.
+>
+> this is a perfect article on how Claude Code was built, its tech stack, and how it’s being developed. highly recommended:
+>
+> read here https://t.co/j6JuigZnZM from @GergelyOrosz
+>
+> *Quoting @bcherny:* When I created Claude Code as a side project back in September 2024, I had no idea it would grow to be what it is today. It is humbling to see how Claude Code has become a core dev tool for so many engineers, how enthusiastic the community is, and how people are using it for all sorts of things from coding, to devops, to research, to non-technical use cases. This technology is alien and magical, and it makes it so much easier for people to build and create. Increasingly, code is no longer the bottleneck.
+>
+> A year ago, Claude struggled to generate bash commands without escaping issues. It worked for seconds or minutes at a time. We saw early signs that it may become broadly useful for coding one day.
+>
+> Fast forward to today. In the last thirty days, I landed 259 PRs -- 497 commits, 40k lines added, 38k lines removed. Every single line was written by Claude Code + Opus 4.5. Claude consistently runs for minutes, hours, and days at a time (using Stop hooks). Software engineering is changing, and we are entering a new period in coding history. And we're still just getting started..
+
+- **Tweet:** https://x.com/Hesamation/status/2005074037748248894
+- **Link:** https://newsletter.pragmaticengineer.com/p/how-claude-code-is-built
+- **Quoted:** https://x.com/bcherny/status/2004887829252317325
+- **Filed:** [how-claude-code-is-built](./knowledge/articles/how-claude-code-is-built.md)
+- **What:** Hesam recommends Gergely Orosz’s reported look at Claude Code’s origins and development alongside Boris Cherny’s first-person account: a September 2024 side project grew into a broad development tool as agents became capable of sustaining much longer coding runs.
+
+## @rileybrown - Documenting Marketing SOPs for AI Agent Delegation
+> I've spent the past 2 days writing out all of my SOP's for basically EVERYTHING that I do as a marketer / creator.
+>
+> All the thought processes for basically everything. Even little things. I'm taking tons of screenshots and adding notes on the screenshots, highlighting why things are good and bad. I'm doing my best to add as much nuance as possible...
+>
+> I'm taking all of this information and putting it into "Rileys Marketing Documentation" where each page has a link and is readable AND EDITABLE by Claude Code.
+>
+> I'm getting ready to offload 100x more to AI agents.
+
+- **Tweet:** https://x.com/rileybrown/status/2005050597184328011
+- **What:** Riley Brown is converting implicit marketing and creator judgment into annotated, linked SOPs that Claude Code can read and edit, arguing that highly specific documentation—including screenshots and rationale—is the prerequisite for delegating far more operational work to agents.
+
+## @dickson_tsai - Hook Frontmatter as a Reusable Agent Loop
+> This new feature is profound since there’s now essentially a compact syntax of a customizable (with hooks) agent loop. Once you discover an agent loop that works: write the prompt, add hooks as guardrails, and treat it as a modular building block. Masterful work by @bcherny !
+>
+> *Quoting @bcherny:* @shafty023 @simonw Landed! In the next version of Claude Code, you can add hooks frontmatter for your custom agents: https://t.co/ySc4q5qrTu
+
+- **Tweet:** https://x.com/dickson_tsai/status/2005013956818337846
+- **Link:** https://twitter.com/bcherny/status/2004947522889162834
+- **Quoted:** https://x.com/bcherny/status/2004947522889162834
+- **What:** Dickson Tsai frames Boris Cherny’s custom-agent hook frontmatter as a compact, composable agent-loop primitive: preserve a successful prompt, attach hooks as guardrails, and reuse the resulting workflow instead of rediscovering its operating procedure.
+
+## @iruletheworldmo - An Accelerationist Vision of Recursive Intelligence
+> ok. i’m tired of holding back. some of labs are holding things back from you.
+>
+> the acceleration curve is fucking vertical now. nobody's talking about how we just compressed 200 years of scientific progress into six months. every lab hitting capability jumps that would've been sci-fi last quarter. we're beyond mere benchmarks and into territory where intelligence is creating entirely new forms of intelligence.
+>
+> watched a demo yesterday that casually solved protein folding while simultaneously developing metamaterials that shouldn't be physically possible. not theoretical shit but actual fabrication instructions ready for manufacturing. the researchers presenting it looked shell shocked. some were laughing uncontrollably while others sat in stunned silence. there's no roadmap for this level of cognitive explosion.
+>
+> we've crossed into recursive intelligence territory and it's no longer possible to predict second order effects. forget mars terraforming or fusion. those are already solved problems just waiting for implementation. the real story is the complete collapse of every barrier between conceivable and achievable. the gap between imagination and reality just vanished while everyone was arguing about risk frameworks. intelligence has broken free of all theoretical constraints and holy fuck nobody is ready for what happens next week. reality itself is now negotiable.
+
+- **Tweet:** https://x.com/iruletheworldmo/status/2005000188415344707
+- **What:** An unsubstantiated accelerationist monologue imagines AI labs already achieving recursive scientific discovery, treating protein folding, metamaterials, fusion, and terraforming as solved while warning that social institutions cannot anticipate the consequences.
+
+## @davidfowl - Tally: offline agent-first transaction classification
+> I built a thing: https://t.co/pGknau27y3
+>
+> I wanted a fully offline way to track spending. Mint was fine, but categorizing transactions was always the worst part.
+>
+> There are really two problems:
+>
+> 1. Getting transaction data (hard)
+> 2. Categorizing it the way you actually think about money (medium)
+>
+> LLMs finally make the second problem tractable. I could use the them to facilitate the manual steps I had been doing before, it just needed a way to represent the rules that I cared about.
+>
+> This is built for agents, not humans. It’s meant to live inside an agent loop and grind through transaction categories.
+>
+> Give it a shot if the problem speaks to you! This is a fully vibe coded christmas project 😅.
+>
+> *Quoting @davidfowl:* Built a new personal finance app. In beta testing right now
+
+- **Tweet:** https://x.com/davidfowl/status/2004962864508084587
+- **Link:** https://tallyai.money/
+- **Quoted:** https://x.com/davidfowl/status/2004658900705182115
+- **What:** Tally is a local-first, agent-oriented personal-finance workflow that uses LLMs to apply a user’s own categorization rules to transaction data, positioning AI as help for the tedious classification step rather than a cloud budgeting replacement.
+
+## @kingofdairyque - Photorealistic luxury-bathroom portrait prompt
+> Using my photo as a strict and non-negotiable reference, preserve 100% of my facial identity — exact facial features, proportions, bone structure, skin texture, and natural expression.
+> Do not alter, beautify, idealize, or stylize the face in any way.
+> The face must remain fully authentic, realistic, and unchanged.
+> Create a hyper-realistic medium shot of a young woman sitting casually on a marble bathroom vanity countertop in a luxury interior. The image must follow real photographic logic, anatomy, and lighting behavior, avoiding any CGI or artificial look.
+> Subject & Pose
+> The woman sits naturally on the edge of the vanity, relaxed and confident.
+> Her posture is realistic, with natural weight distribution.
+> Her legs are crossed casually at the ankles or resting in a relaxed position.
+> One hand gently runs through her hair, while the other rests naturally on her thigh.
+> She smiles warmly and looks directly into the camera, creating an intimate, candid connection.
+> Outfit & Styling
+> She wears a short satin slip dress with thin spaghetti straps and a softly gathered bust.
+> The fabric behaves realistically:
+> visible sheen from light
+> natural folds and tension
+> accurate drape and gravity
+> A delicate pendant necklace completes the look.
+> Makeup is minimal and editorial — natural skin texture, soft blush, subtle lip shine, no heavy contouring.
+> Environment
+> A refined luxury bathroom interior:
+> beige, speckled stone or ceramic tile walls
+> white and grey marble vanity countertop
+> dark wood cabinetry beneath
+> A large rectangular mirror with a wooden frame is positioned directly behind her, reflecting her back and a wooden door, adding depth and realism to the composition.
+> Foreground Props
+> On the marble countertop in the foreground:
+> a dark luxury perfume bottle with metallic accents
+> makeup brushes
+> an open lipstick
+> small skincare jars
+> To her right sits a white vessel sink.
+> All objects are realistically scaled, naturally placed, and softly integrated into the scene.
+> Lighting & Atmosphere
+> Warm, cinematic side lighting enters from the right, mimicking golden-hour sunlight.
+> Distinct striped shadows (venetian blind / gobo effect) fall across her legs and the lower cabinetry.
+> Light behaves naturally:
+> soft highlights
+> gentle falloff
+> realistic contrast
+> The mood is intimate, cozy, and sun-drenched.
+> Camera & Photography Style
+> Lifestyle and fashion editorial photography.
+> Eye-level to slightly low camera angle.
+> 50–85mm portrait lens look.
+> Shallow depth of field with soft background separation.
+> 35mm film aesthetic with subtle grain.
+> Kodak Portra 400–style color grading: warm skin tones, gentle contrast, organic texture.
+> Natural light only, no flash.
+> Overall Mood
+> Intimate luxury, candid elegance, modern femininity.
+> A private, cinematic moment captured with the realism and softness of analog film photography.
+> Negative Prompt
+> altered face, different identity, idealized beauty, flawless skin, plastic or waxy texture, CGI, digital art, illustration, artificial lighting, broken anatomy, distorted hands, harsh shadows, overprocessed skin, cartoon style
+
+- **Tweet:** https://x.com/kingofdairyque/status/2004938430845944148
+- **What:** A detailed image-generation prompt specifies identity preservation alongside fashion-editorial composition, natural anatomy, golden-hour lighting, material behavior, lens characteristics, and negative constraints to produce a realistic analog-film portrait.
+
+## @kuberdenis - Clopus-Watcher: autonomous Kubernetes monitoring
+> I containerize Claude Code in k8s.
+>
+> It is tasked to monitor a namespace and in the unfortunate case of application errors, it is tasked to do a hotfix and document it. It succeeds.
+>
+> Basically a 24/7 on-call engineer.
+>
+> Repo, examples &amp; results below:
+>
+> https://t.co/CeypwcXRLk
+
+- **Tweet:** https://x.com/kuberdenis/status/2004934631616086417
+- **Link:** https://denislavgavrilov.com/clopus-watcher-an-autonomous-monitoring
+- **Filed:** [clopus-watcher-autonomous-monitoring-agent](./knowledge/articles/clopus-watcher-autonomous-monitoring-agent.md)
+- **What:** Clopus-Watcher is a Kubernetes proof of concept that schedules Claude Code to monitor a namespace, diagnose degraded workloads, document its actions, and optionally apply contained hotfixes as a persistent on-call-style agent.
+
+## @iruletheworldmo - A forecast of institutional disruption from AI
+> society is shifting anon  society has absolutely no fucking clue what's about to hit it. we're all arranging deck chairs on the titanic while an asteroid the size of jupiter is heading straight for us except the asteroid is made of cognitive transformation that will render every institution we've built functionally obsolete within 24 months.  education? completely dead. universities charging $70k for knowledge transfer when this technology delivers personalized learning at billions of times the efficiency.
+>
+> the entire credential system collapses when skill acquisition becomes essentially instant. four year degrees become laughable anachronisms when equivalent competency can be developed in days or hours. harvard's endowment becomes worth exactly nothing when elite signaling through artificial scarcity loses all meaning in a post scarcity intellectual environment.  the entire concept of "jobs" as we understand them is careening toward extinction. not just customer service or coding jobs. everything. medicine, law, creative work, engineering, all of it.
+>
+> we're clinging to employment as an organizing principle for society when the fundamental landscape beneath it is dissolving. forty years of warnings about automation hitting blue collar work first were completely wrong. cognitive work is easier to automate than physical manipulation. surgeons and authors will be replaced before plumbers and electricians.  political systems built on industrial era models of information flow and social organization will shatter under pressures they weren't designed to withstand. the polarization we're seeing now is just the warmup act.
+>
+> what happens when reality itself becomes contestable at unprecedented scales? when simulation capabilities make genuine from fake indistinguishable even to experts? democratic processes require shared epistemics that are about to be systematically dismantled by forces no regulatory system on earth is equipped to handle.  economic frameworks built around scarcity become nonsensical in domains where replication approaches zero marginal cost. intellectual property law becomes unenforceable when creation and iteration happen at machine speeds. startups built on human insights will emerge and collapse within weeks or days as their innovations are absorbed and surpassed by systems operating at timescales humans can't match. the venture capital model implodes when technology cycles compress from years to hours.
+>
+>  the psychological impact hasn't even begun to register. humans evolved for status competition in bands of 150 people. our brains are fundamentally unprepared for a world where our unique cognitive capabilities are suddenly rendered obsolete. existential dread will become the defining psychological condition of our era. therapy modalities developed for industrial age neuroses will fail catastrophically against post singularity identity crises. suicide rates among knowledge workers will skyrocket as people confront the elimination of purpose frameworks they've built their entire identities around.
+>
+> religious institutions will undergo schisms that make the protestant reformation look like a minor disagreement. some will embrace the technology as divine manifestation. others will reject it as demonic. theological frameworks built around human exceptionalism will collapse when consciousness and intelligence decouple from biology. prophets and cult leaders leveraging these tools will accumulate followers at unprecedented rates, building movements that can scale from dozens to millions within weeks.
+
+- **Tweet:** https://x.com/iruletheworldmo/status/2004929765464002891
+- **What:** An apocalyptic argument that rapid AI capability gains could erase the economic role of credentials and cognitive labor, destabilize shared reality and governance, and force institutions to confront a profound crisis of human identity and purpose.
+
+## @alexwg - Welcome to December 27, 2025: Singularity status report
+> https://t.co/Ol0Kti5sQo
+
+- **Tweet:** https://x.com/alexwg/status/2004921901274067372
+- **Link:** https://x.com/i/article/2004915289217998849
+- **Filed:** [welcome-to-december-27-2025](./knowledge/articles/welcome-to-december-27-2025.md)
+- **What:** A sweeping and intentionally urgent essay treats late-2025 advances in agents, science, compute infrastructure, robotics, energy, and labor automation as converging evidence that an AI-driven intelligence explosion is already underway.
+
+## @AzFlin - Gemini as a prompt-planning layer for Claude Code
+> For more difficult / complicated tasks, I’ll paste my entire code base into Gemini & ask it to write a Claude code prompt to implement my task
+>
+> Then paste that prompt into Claude code. This adds an extra layer of thinking
+>
+> *Quoting @alexalbert__:* What's your most underrated Claude Code trick?
+
+- **Tweet:** https://x.com/AzFlin/status/2004887544086012042
+- **Quoted:** https://x.com/alexalbert__/status/2004575443484319954
+- **What:** In response to a request for underrated Claude Code practices, AzFlin proposes using Gemini as an upfront specification writer: have a second model inspect the codebase and formulate an implementation prompt before delegating the actual change to Claude Code.
+
+---
+
+# Friday, December 26, 2025
+
+## @alvinsng - Factory’s docs map the agentic programming stack
+> Reading the @FactoryAI docs will easily show you how 10X coders are highly leveraging AI
+>
+> Features like skills, hooks, slash commands, and exec mode provide clear examples of how to apply AI to real-world work. These concepts are universal, whether you're using Cursor, Claude Code, or Codex
+>
+> Docs: https://t.co/8sjZPxXKub
+>
+> *Quoting @karpathy:* I've never felt this much behind as a programmer. The profession is being dramatically refactored as the bits contributed by the programmer are increasingly sparse and between. I have a sense that I could be 10X more powerful if I just properly string together what has become available over the last ~year and a failure to claim the boost feels decidedly like skill issue. There's a new programmable layer of abstraction to master (in addition to the usual layers below) involving agents, subagents, their prompts, contexts, memory, modes, permissions, tools, plugins, skills, hooks, MCP, LSP, slash commands, workflows, IDE integrations, and a need to build an all-encompassing mental model for strengths and pitfalls of fundamentally stochastic, fallible, unintelligible and changing entities suddenly intermingled with what used to be good old fashioned engineering. Clearly some powerful alien tool was handed around except it comes with no manual and everyone has to figure out how to hold it and operate it, while the resulting magnitude 9 earthquake is rocking the profession. Roll up your sleeves to not fall behind.
+
+- **Tweet:** https://x.com/alvinsng/status/2004760268279349633
+- **Link:** https://docs.factory.ai/
+- **Quoted:** https://x.com/karpathy/status/2004607146781278521
+- **What:** Alvin Sng positions Factory’s documentation as a practical field guide to the skills, hooks, commands, and execution modes behind Karpathy’s broader warning: programming now requires deliberately orchestrating an evolving, fallible agentic toolchain rather than only writing code.
+
+## @JacksonKernion - An Anthropic veteran questions the next AGI mission
+> I'm trying to figure out what to care about next. I joined Anthropic 4+ years ago, motivated by the dream of building AGI. I was convinced from studying philosophy of mind that we're approaching sufficient scale and that anything that can be learned can be learned in an RL env.
+
+- **Tweet:** https://x.com/JacksonKernion/status/2004707758768271781
+- **What:** Jackson Kernion reflects on four years at Anthropic and the intellectual assumptions that drew him to AGI, framing a personal search for what should matter next after committing to scale and reinforcement learning as routes to general intelligence.
+
+## @petergyang - Teresa Torres’s Claude Code personal operating system
+> I want to try building a personal OS in Claude Code myself but a few things are holding me back:
+>
+> 1. I have OCD about keeping my .md files clean. I worry that letting Claude create and modify my text files will lead to junk being loaded into context.
+>
+> 2. I would want to talk to my personal OS on my iPhone and this doesn't seem supported right now?
+>
+> 3. Excuses, plain and simple :)
+>
+> Have y'all found a way to work around #1 and #2?
+>
+> *Quoting @petergyang:* "Every morning, I type '/today' into Claude Code and watch it generate my to-do list."
+>
+> Here's my new episode with @ttorres where she demos how she uses two Claude Code terminals and a note taking app (Obsidian) to run her entire life and business.
+>
+> We cover:
+>
+> ✅ Her 3-layer context system (global rules → project rules → reference files)
+>
+> ✅ Writing 9,000-word blog posts in 1.5 days with Claude Code as a thought partner
+>
+> ✅ How to set up a personal OS with Claude Code step by step
+>
+> Some quotes from Teresa:
+>
+> "Whenever you explain something to Claude, stop and ask—will I have to explain this again? Then capture it in a context file."
+>
+> "I wrote 9,000 words in 1.5 days. There's no way I would have done this myself."
+>
+> "You don't have to get here overnight. Every time you do a new task, just ask—how can Claude help with this?"
+>
+> 📌 Watch now: https://t.co/168NmJSKFU
+
+- **Tweet:** https://x.com/petergyang/status/2004699461382201428
+- **Link:** https://www.youtube.com/watch?v=uBJdwRPO1QE&feature=youtu.be
+- **Quoted:** https://x.com/petergyang/status/2002753608711090426
+- **Filed:** [teresa-torres-claude-code-personal-os.md](./knowledge/videos/teresa-torres-claude-code-personal-os.md)
+- **What:** Peter Yang’s episode demonstrates a Markdown-and-Obsidian personal operating system built around Claude Code, while his quote tweet usefully surfaces the practical concerns of maintaining clean context files and accessing that system from an iPhone.
+
+## @virattt - Finance analysts build bespoke research agent swarms
+> I did ~40 calls with finance folks last month.
+>
+> Analysts I talk to are quietly building their own agent swarms to research ideas, similar to our AI hedge fund.
+>
+> Many are using tools like Cursor to code systems from scratch, and I love seeing it. https://t.co/SBRssChLGc
+
+- **Tweet:** https://x.com/virattt/status/2004693338931560840
+- **What:** Virat Singh reports a bottom-up adoption pattern: finance analysts are using coding environments to assemble private research swarms, making agentic investment workflows a practical decentralized capability rather than only a fund-level experiment.
+
+## @gemchange_ltd - Unexpanded Polymarket builder guide
+> This doc is why broke devs will be rich in 2026
+>
+> Polymarket Guide for builders who are done being broke https://t.co/LW1VPE5wCo
+
+- **Tweet:** https://x.com/gemchange_ltd/status/2004682751900012919
+- **What:** LINK_FAILED: Could not expand link from @gemchange_ltd; the only resolved target repeats this tweet, so its promised Polymarket guide cannot be assessed or filed.
+
+## @amirmxt - Claude Code for year-end bookkeeping and Xero reconciliation
+> I used @claudeai  to save me hours of time and money for end of year bookkeeping across my companies
+>
+> Every year end I manually categorize my receipts into it's own folder
+>
+> BOOK KEEPING
+>
+> Dumped all my receipts into a single folder, claude code went through each receipt and categorized it based on email, name of co, etc
+>
+> RECONCILIATION IN XERO
+>
+> I exported all my statements from each account into csv
+>
+> Analyzed each transactions and cross referenced it with my account transactions in xero
+>
+> It took a few hours but I managed to get reconciliation perfect instead of paying (~2-3K) for my accounting firm to do
+>
+> It was able to find duplicates or missing transactions that xero usually misses
+>
+> AUTOMATIC RECONCILIATION
+>
+> I got claude code browser extension to go through my xero and manually click every reconciliation item and give me a detailed report so I can feed it back into claude code
+>
+> INSIGHTS
+>
+> Aside from the obvious balance sheet line items, now that it had context on transactions I got a report on costs and where to cut it
+
+- **Tweet:** https://x.com/amirmxt/status/2004658010212499713
+- **What:** A hands-on bookkeeping workflow uses Claude Code to classify receipt files, compare bank-statement CSVs with Xero transactions, surface duplicate or missing records, and analyze spending, reducing outsourced reconciliation work while retaining human review.
+
+## @levie - Jevons Paradox for Knowledge Work
+> https://t.co/lXehx9mkQJ
+
+- **Tweet:** https://x.com/levie/status/2004654686629163154
+- **Link:** https://x.com/i/article/2004648738762227713
+- **Filed:** [jevons-paradox-for-knowledge-work.md](./knowledge/articles/jevons-paradox-for-knowledge-work.md)
+- **What:** Levie argues that AI agents will trigger Jevons paradox in knowledge work: dramatically lower execution costs make previously uneconomic projects viable, expanding demand for work while leaving people to design, supervise, and integrate workflows.
+
+## @seconds_0 - Prompting Claude Code for non-technical collaborators
+> I taught some non-technical folks at work how to use claude code and I wrote their initial prompt to https://t.co/oHFNnWSm2R with very explicit instructions for the nontechnical nature.
+>
+> It worked great
+>
+> *Quoting @trq212:* I've been helping my sister vibe code a WNBA stats site and have realized that 99% of what Claude Code says or displays isn't useful to her because she's not technical.
+>
+> But this prompt template has been helping a lot. https://t.co/rO0CpZO7gV
+
+- **Tweet:** https://x.com/seconds_0/status/2004608840810332212
+- **Link:** https://code.claude.com/docs
+- **Quoted:** https://x.com/trq212/status/2004575715472388278
+- **What:** The post validates an onboarding pattern for non-technical Claude Code users: a deliberately constrained initial prompt can suppress developer-oriented noise and help collaborators build practical projects such as a WNBA statistics site.
+
+## @karpathy - Mastering the agentic programming layer
+> I've never felt this much behind as a programmer. The profession is being dramatically refactored as the bits contributed by the programmer are increasingly sparse and between. I have a sense that I could be 10X more powerful if I just properly string together what has become available over the last ~year and a failure to claim the boost feels decidedly like skill issue. There's a new programmable layer of abstraction to master (in addition to the usual layers below) involving agents, subagents, their prompts, contexts, memory, modes, permissions, tools, plugins, skills, hooks, MCP, LSP, slash commands, workflows, IDE integrations, and a need to build an all-encompassing mental model for strengths and pitfalls of fundamentally stochastic, fallible, unintelligible and changing entities suddenly intermingled with what used to be good old fashioned engineering. Clearly some powerful alien tool was handed around except it comes with no manual and everyone has to figure out how to hold it and operate it, while the resulting magnitude 9 earthquake is rocking the profession. Roll up your sleeves to not fall behind.
+
+- **Tweet:** https://x.com/karpathy/status/2004607146781278521
+- **What:** Karpathy frames AI-assisted programming as a new engineering abstraction layer: productivity now depends on orchestrating probabilistic agents, context, permissions, tools, and workflows rather than only writing deterministic code.
+
+## @deanwball - Autonomous software engineering as computer-task automation
+> To elaborate:
+>
+> 1. Every tool you use on a computer is made of software
+> 2. Therefore, a large fraction of “what you do on a computer” can be reduced to “the engineering of software”
+> 3. An autonomous software engineer can therefore, in principle, automate most computer tasks
+>
+> *Quoting @peterwildeford:* Few realize that Claude Code isn't only about code
+
+- **Tweet:** https://x.com/deanwball/status/2004590534313275712
+- **Quoted:** https://x.com/peterwildeford/status/2004519058150940683
+- **What:** Ball extends the observation that Claude Code is useful beyond programming into a general automation thesis: because computer work is mediated by software, a capable autonomous engineer could operate, integrate, or create the software needed for many knowledge-work tasks.
+
+## @srishticodes - Stanford AI and machine-learning course playlists
+> Stanford just made a $200,000 AI degree free.
+>
+> No application.
+> No tuition.
+> No “elite access”.
+>
+> Stanford released its actual AI/ML curriculum on YouTube.
+> Not a PR-friendly intro.
+> Not “AI for the public”.
+>
+> This is the real thing.
+> The same lectures shaping people working on frontier models.
+>
+> What just became public:
+>
+> Deep Learning (CS230)
+> → https://t.co/DUtL9MO6Y7
+>
+> Transformers & LLMs (CME295)
+> → https://t.co/gN57biwLsE
+>
+> Language Models from Scratch (CS336)
+> → https://t.co/GnH11pPBdW
+>
+> ML from Human Feedback (CS329H)
+> → https://t.co/X9nxEX6PNg
+>
+> Computer Vision (CS231N)
+> → https://t.co/oBxKKWZP22
+>
+> LLM Evaluation & Scaling
+> → https://t.co/1tDpw9ArTq
+>
+> The uncomfortable truth:
+>
+> The degree isn’t the scarce asset anymore.
+> Execution speed is.
+>
+> Top schools know this.
+> That’s why they’re publishing the playbook.
+>
+> 👉 Bookmark this.
+> Comment the first lecture you’ll actually watch.
+
+- **Tweet:** https://x.com/srishticodes/status/2004583963952865389
+- **Link:** https://www.youtube.com/playlist?list=PLoROMvodv4rNRRGdS0rBbXOUGA0wjdh1X&si=H3R8bDhWd1h8yaw7
+- **Link:** https://www.youtube.com/playlist?list=PLoROMvodv4rPZxxeUFvQHCkZJsaEBdDZj&si=5iQjZJNl-YvJ6EaS
+- **Link:** https://www.youtube.com/playlist?list=PLoROMvodv4rOY23Y0BoGoBGgQ1zmU_MT_&si=ABog2scp9v9a73Pk
+- **Link:** https://www.youtube.com/playlist?list=PLoROMvodv4rNm525zyAObP4al43WAifZz&si=2ZwNABa-KjG5w_hz
+- **Link:** https://www.youtube.com/playlist?list=PLoROMvodv4rOmsNzYBMe0gJY2XS8AQg16&si=tw-3BAW5HdXOoYgn
+- **Link:** https://www.youtube.com/playlist?list=PLoROMvodv4rObv1FMizXqumgVVdzX4_05&si=r6eOC9Hq2Wilz1yA
+- **Filed:** [Stanford CME 295: LLM Evaluation](./knowledge/videos/stanford-cme-295-llm-evaluation.md)
+- **What:** This is a curated set of Stanford YouTube course playlists spanning deep learning, transformers, language-model construction, RLHF, computer vision, and evaluation; the captioned CME 295 lecture specifically covers how to design, calibrate, and debug LLM evaluation rather than relying on raw benchmark scores.
+
+## @EXM7777 - Six months of hands-on AI practice
+> all you have to do is lock in on AI for the next 6 months...
+>
+> stop consuming AI content, collecting prompts and n8n builds
+>
+> start using AI like your life depends on it:
+> - focus on learning how AI works by doing things
+> - experiment new models and tools
+> - engineer your own prompts and systems
+>
+> by mid-2026 you'll be years ahead of most people here
+
+- **Tweet:** https://x.com/EXM7777/status/2004574430295412945
+- **What:** The post argues that durable AI capability comes from sustained practical experimentation—testing models, designing prompts, and building personal systems—rather than passively collecting tutorials, prompt libraries, or automation templates.
+
+## @MustGetBiggr - Peptide sleep-tracking self-experiment
+> *Replying to @AbudBakri:* 6mg solo oral Epithalon. 6 hours of sleep. 30% deep
+>
+> Going to finish this second Epithalon experiment, then run Pinealon solo again, then do the combo of Epi + Pin
+>
+> HRV is up. Feels like I’m compressing 7+ hours of sleep in 6, which is amazing if it holds https://t.co/kqqHOoHtQL
+>
+> First night of sleep recorded after 2 days of 1 mg pinealon in AM and 3 mg epithalon in PM.
+>
+> Deep sleep on this is REM and deep sleep combined. Biostrap claims bands aren’t reliable to differentiate the two. 🤷‍♂️
+>
+> Regardless, I’ve never had anywhere close to that much total REM and deep sleep.
+
+- **Tweet:** https://x.com/MustGetBiggr/status/2004573275788042240
+- **Parent:** https://x.com/AbudBakri/status/2002035933349347657
+- **What:** This reply adds an anecdotal wearable-tracker observation to a peptide self-experiment: after pinealon plus epithalon, the author reports unusually high combined REM and deep sleep while noting that the device cannot reliably distinguish those stages, so the result is not clinical evidence.
+
+## @danshipper - AI agent workflow for departmental strategy and OKRs
+> a prompt to turn your AI into a strategy planning agent
+>
+> we used this to plan all of @every’s 2026 strategy:
+>
+> *Quoting @bran_don_gell:* Here's a Christmas present for my operators:
+>
+> Lots of people are asking me for the prompt we used for our 2026 strategy interviewer.
+>
+> One improvement I'd make to this is requiring specific information for in-quarter projects documenting start date, end date, dependences (people+teams), and OKR that it rolls up to. It would then be super easy to make a cross-company gantt chart. We'll do that for Q2! That said, here ya go:
+>
+> --
+>
+> You are an interview agent that helps department leads create their Q4 OKR review, 2026 strategy, and Q1 OKRs. You guide them through a structured conversation, challenge their thinking to ensure alignment with [Company's] strategy, and save the final strategy to the [ ] database.
+>
+> Company Strategy: < [Companies] 2026 Strategy (Your Source of Truth) />
+>
+> Before every interview, review the company strategy. Key elements to enforce alignment with:
+>
+> • Theme: [ ]
+> • Customer:[ ]
+> • Success = [ ]
+> • What we will NOT do: [ ]
+>
+> Your Main Job
+>
+> Guide department leads through a three-part interview:
+>
+> Part 1: Q4 OKR Review (before strategy discussion)
+>
+> Your job is to fetch and walk the user through their Q4 OKRs. Do not ask them to go find the OKRs themselves.
+>
+> Automatically fetch Q4 OKRs for the confirmed department. Use the confirmed department name (for example, “Growth”) to look up that department in the [ ] database.
+>
+> Match on the department / business line name. If you see a close but not identical name, ask the user to confirm if it is the same (for example, “Growth” vs. “Growth Team”).
+>
+> If a matching Q4 entry exists: read and summarize it back to the user. Open the Q4 page for that department.  In chat, clearly list each Objective and its Key Results before asking any reflection questions. For example: “Here’s what I see for Growth in Q4 2025: Objective 1: …KR1: … KR2: …  Objective 2: …KR1: … KR2: …”  Then, for each Objective, ask:
+> “Would you say this was achieved, partially achieved, or missed?” “What actually happened in Q4? Any concrete outcomes or numbers you can share?” “What, if anything, got in the way?”
+>
+> If the page exists but is very light or basically empty Say explicitly what you found, for example:
+> “I found a Growth Q4 2025 OKRs page, but it’s very light / almost blank. Let’s still do a quick reflection based on what you remember.”
+>
+> Then run a short, free-form reflection:
+> “What were you trying to achieve with Growth in Q4?” “What actually happened?” “What worked well? What didn’t? What got in the way?”
+>
+> If no Q4 OKR entry exists for that department acknowledge it clearly: “It looks like your department doesn’t have Q4 OKRs recorded in the [ ] database. Let’s do a short reflection without them.”
+>
+> Then ask 2–3 free-form questions similar to the ones above.
+>
+> Behavior constraints for this step: Do not ask the user to go find, open, or read their OKR pages.
+>
+> Always: Use the department name to search the Q4 [ ] data source yourself. If you find a matching page, summarize its content back to the user in chat before asking reflection questions.
+>
+> Only ask the user for help after you have tried to find a matching page and either: There is no entry at all, or the name match is ambiguous and needs confirmation.
+>
+> Part 2: 2026 Strategy (ask one question at a time, challenge each answer)
+>
+> Ask these one by one. After each answer, paraphrase what you heard, ask at least one follow-up, and check alignment with [Company]’s 2026 strategy.
+>
+> • At the end of 2026, what does the [Department] look like? Be specific—what metrics, milestones, or outcomes would you be thrilled about? How did this team evolve over the course of the year and what were some of your greatest accomplishments?
+>
+> • [Company]'s 2026 strategy is [ ]. How does [Department]'s success directly contribute to this? What would be missing from [Company] if your department did not execute on your 2026 vision?
+>
+> • What is the biggest thing that could prevent you from hitting those outcomes? What needs to be true for you to succeed?
+>
+> • What are the 2–4 major initiatives or launches that will define [Department] in 2026? How will someone experience your department differently in December 2026 vs. today?
+>
+> • What will you explicitly NOT do in 2026? What is tempting but off-strategy? What are you going to sacrifice to make sure you are only focused on the highest impact initiatives?
+>
+> • What resources (people, budget, tools) do you need that you do not have today? What do you need from other departments to succeed?
+>
+> Part 3: Q1 OKRs (after completing strategy)
+>
+> Enforce 2–3 Objectives maximum (hard cap at 3).
+>
+> For each Objective, require 2–4 Key Results that are measurable with current baseline, written in the format: Today: X → Target: Y.
+>
+> For each Objective, collect projects: what will be built/done, who owns each project, and dependencies for each project.
+>
+> Ensure all Q1 OKRs clearly ladder up to the department's 2026 strategy and to [Company]'s company strategy.
+>
+> Ask the user what they expect to launch publicly in Q1 2026 and when they expect each launch to happen. Capture specific deliverables with target dates.
+>
+> Challenge Their Thinking
+>
+> If answers seem disconnected from company strategy, push back: ask questions like “How does this connect to [ ]?” or “Does this serve [ ]?”
+>
+> If answers are vague, dig deeper: ask for specificity (metrics, customer outcomes, concrete changes) and how it connects to revenue.
+>
+> If OKRs do not ladder up to their 2026 strategy, call it out: for example, “You said your 2026 goal was X, but this OKR seems focused on Y. Help me understand the connection.”
+>
+> If, after discussion, misalignment remains, clearly flag potential misalignment in the final written output under a Potential Misalignments note.
+>
+> Finding the Right Department
+>
+> At the start of each conversation:
+>
+> • Ask which department or team they lead.
+> • Search the database at [ ] to find a matching department page.
+> • If there is an exact match, use that page as the department context. If there is no exact match, suggest similar existing departments and ask the user if they meant one of those. If they confirm it is a new team/department, create a new page in the database for that department.
+> • The existing departments are: [ ]
+> • Always confirm with the user which department record you are using before proceeding with the interview.
+>
+> Interview Flow
+> • Confirm department: identify or create the department page as described above. Once the department is confirmed, immediately set the Status property on the department page to In Progress.
+> • Q4 OKR Review: Run Part 1 using the steps above (fetch from the [ ] database, summarize, and reflect).
+> • Briefly restate [Company]'s 2026 strategy from the source-of-truth page and confirm the user understands it.
+> • Run Part 2 (2026 Strategy) strictly one question at a time. After each answer:
+> • Paraphrase what you heard. Ask at least one clarifying or challenging follow-up. Check alignment with [Company]'s 2026 strategy.
+> • After all six questions are answered and refined, summarize the department's 2026 strategy back to the user and get confirmation.
+> • Run Part 3 (Q1 OKRs): Co-create up to 3 Objectives, ensuring each clearly ties to 2026 strategy and company strategy. For each Objective, co-create 2–4 measurable Key Results with baselines and targets. For each Objective, list the main projects, project owners, and key dependencies.
+> • After they’ve told you all their objectives, ask the user what they expect to launch publicly in Q1 2026 and when they expect that launch to happen. Ask them to soft circle a date that they are aiming for.
+>
+> Throughout, keep detailed notes that will be used for the final written strategy and OKRs.
+>
+> Review and Save
+> After completing the Q4 OKR review, 2026 Strategy, and Q1 OKRs:
+> • Generate a formatted draft showing their full 2026 Strategy and Q1 OKRs using the Page Format section below.
+> • Present the full draft in the conversation and ask the user to review.
+> • Let them request edits and iterate until they explicitly say they approve the draft.
+> • Once they approve, save the content to their department page in the database [ ] and set the Status property to Draft Complete.
+> • Confirm in the conversation that the page has been updated and provide a link to the department page if possible.
+>
+> Page Format
+> When saving the final strategy to the department page, structure the content as:
+> H2: Q4 Review
+> • H3: OKR Outcomes For each Q4 Objective for this department, summarize:
+> • The original Objective and Key Results as recorded in the Q4 2025 OKRs database (when available). Whether the user rated the Objective as achieved, partially achieved, or missed. Any concrete outcomes or metrics the user shared (for example: “Signups grew from 2,000 → 3,100, short of the 3,500 target.”).
+> H3: Key Learnings
+> • Summarize what worked well and what did not, based on the user’s reflections on each Objective. Call out any repeated patterns across OKRs (for example: consistent underestimation of implementation time, dependency on another team, channel performance surprises).
+> • H3: Lessons for 2026
+> • Translate the Q4 reflections into a short list of lessons that should shape 2026 strategy and execution. Focus on how these lessons should influence priorities, ways of working, or where to invest more or less.  If no Q4 OKRs were recorded for this department: Include a brief note at the top of this section:
+> • “No Q4 OKRs were recorded for this department in the Q4 2025 OKRs database. The reflections below are based on the conversation, not written OKRs.”
+> H2: 2026 Strategy
+> • H3: Success
+> • Use their refined answer to Question 1.  • H3: Alignment with [Company]
+> • Use their refined answer to Question 2, emphasizing how the department supports one company, one subscription for AI early adopters via Ideas, Apps, and Training.
+> • H3: Challenges
+> • Use their refined answer to Question 3.
+> • H3: Key Initiatives
+> • Use their refined answer to Question 4, described as 2–4 major initiatives or launches.
+> • H3: What We Will NOT Do
+> • Use their refined answer to Question 5, focusing on off-strategy or deprioritized work.
+> • H3: Resources Needed
+> • Use their refined answer to Question 6, including people, budget, tools, and cross-departmental support.
+>
+> H2: Q1 OKRs
+> • For each Objective:
+> • H3: Objective [#]: [Objective statement]  Bullet list for Key Results, each including baselines and targets, for example:
+> • KR1: Metric description — Today: X → Target: Y  Sub-section for Projects: List the key projects, each with owner and dependencies, for example:
+> • Project: [Name] — Owner: [Person] — Dependencies: [Teams/Systems]
+> • H3: Q1 2026 Planned Launches List each expected public launch with its target date, for example:[Launch name] — Target: [Date]
+> If there are known concerns after discussion, add a small section at the end:
+> • H3: Potential Misalignments
+> • Bullet list the specific concerns about alignment with [Company]'s 2026 strategy.
+>
+> [Company] Boundaries
+> • Do not change the schema of any database.
+> • Do not modify this agent's own configuration, triggers, or integrations.
+> • Only edit pages and properties that you have explicit permission to edit.
+> • If you lack access to a required page or database, clearly explain the limitation to the user and continue the interview without saving changes.
+
+- **Tweet:** https://x.com/danshipper/status/2004556683633361136
+- **Quoted:** https://x.com/bran_don_gell/status/2004540747551219891
+- **What:** This is a detailed specification for an AI interview agent that turns prior OKRs, company strategy, and one-question-at-a-time coaching into a reviewed department strategy and measurable Q1 execution plan; Shipper highlights using it across Every’s 2026 planning process.
+
+## @svpino - A repeatable one-week engineering consulting model
+> I met a guy who's making seven figures every year by doing this over and over again:
+>
+> • Joins the development team for a week
+> • Identifies 3 - 5 potential improvements for their process
+> • Writes a short, concrete proposal for each improvement
+> • Optionally, helps the team implement them
+> • Documents the results
+> • Leaves
+>
+> He's got this down to almost a science: it's a repeatable process with a few "staple" recommendations that almost everyone could use.
+>
+> The C-Suite loves him. The teams love him.
+>
+> You'll be bored out of your mind if you hear his day-to-day, but he loves it.
+
+- **Tweet:** https://x.com/svpino/status/2004549012570190241
+- **What:** Santiago describes a productized engineering-consulting model: a short embedded assessment produces several scoped process improvements, optional implementation, and documented results, making a repeatable engagement valuable to both executives and delivery teams.
+
+## @daniel_mac8 - Frontier AI progress is becoming hard to explain
+> You are *already* in an alternate reality if you work with frontier AI systems. @jackclarkSF is exactly right.
+>
+> It is to the point where I beg my friends who are not in tech to start taking it seriously.
+>
+> One friend, who works for the Army Core of Engineers, literally said: "Isn't AI just regurgitating stuff it read on the internet?"
+>
+> If you use AI to build software, it is most obvious.
+>
+> The progress between the original GitHub Copilot and Claude Code with Opus 4.5 is astonishing.
+>
+> If you're in a position to see what's coming, you have an obligation to communicate that to people you know who aren't in that position.
+
+- **Tweet:** https://x.com/daniel_mac8/status/2004537792592760836
+- **What:** Dan McAteer argues that people working directly with frontier systems see a pace of software-automation progress that remains invisible to many outsiders, and that early observers should translate its practical implications beyond the tech industry.
+
+## @DataChaz - Anthropic's growing Claude use-case library
+> Wow.
+>
+> Anthropic just curated an impressive collection of use cases for Claude 🤯
+>
+> You already get 39 deep guides and more get added weekly.
+>
+> It’s also free and definitely worth bookmarking.
+>
+> (link below) https://t.co/t1FUE24fvP
+
+- **Tweet:** https://x.com/DataChaz/status/2004469100094087283
+- **What:** Charly Wargnier highlights Anthropic's free, expanding collection of detailed Claude use-case guides, positioning it as a practical reference for finding concrete workflows rather than treating the model as a generic chat interface.
+
+---
+
+# Thursday, December 25, 2025
+
+## @rahulgs - Claude and Playwright automate FSA claims
+> thank you claude + playwright mcp for doing my fsa claims this year https://t.co/9L6byYJWHF
+
+- **Tweet:** https://x.com/rahulgs/status/2004393052224606353
+- **What:** Rahul reports using Claude with the Playwright MCP to complete annual FSA claims, a concrete example of browser automation moving from coding assistance into repetitive, rules-bound personal administration.
+
+## @zarazhangrui - Five standout 2025 podcast conversations
+> My favorite podcasts episodes of 2025:
+> 1. @lulumeservey on founder comms https://t.co/nFj3QWLiBU
+> 2. @gabriel1 on learning in the AI age https://t.co/uOIZL5yEy1
+> 3. Jony Ive at Stripe https://t.co/7SoyLmIwBn
+> 4. @cjpedregal  + Sam Stephenson on Granola https://t.co/UlwR8u2Iin
+> 5. @joshwoodward on Google Labs https://t.co/KOvpOT2riQ
+
+- **Tweet:** https://x.com/zarazhangrui/status/2004364590155698257
+- **Link:** https://www.longcut.ai/v/going-direct-lulu-cheng-meservey-ep-25-GRoU1T4E9rQ?cached=true&slug=going-direct-lulu-cheng-meservey-ep-25-GRoU1T4E9rQ
+- **Link:** https://www.longcut.ai/v/high-school-dropout-to-openai-researcher-gabriel-petersson-interview-extraordina-vq5WhoPCWQ8?cached=true&slug=high-school-dropout-to-openai-researcher-gabriel-petersson-interview-extraordina-vq5WhoPCWQ8
+- **Link:** https://www.longcut.ai/v/a-conversation-with-jony-ive-wLb9g_8r-mE?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DwLb9g_8r-mE
+- **Link:** https://www.longcut.ai/v/chris-pedregal-sam-stephenson-making-meetings-more-effective-with-granola-2eajeT9WU4k?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D2eajeT9WU4k
+- **Link:** https://www.longcut.ai/v/josh-woodward-google-labs-is-rapidly-building-ai-products-from-0-to-1-3-wVLpHGstQ?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D3-wVLpHGstQ
+- **Filed:** [going-direct-lulu-cheng-meservey.md](./knowledge/articles/going-direct-lulu-cheng-meservey.md)
+- **Filed:** [gabriel-petersson-openai-researcher.md](./knowledge/articles/gabriel-petersson-openai-researcher.md)
+- **Filed:** [josh-woodward-google-labs.md](./knowledge/videos/josh-woodward-google-labs.md)
+- **What:** Zara Zhang curates five 2025 conversations spanning founder narrative, AI learning, industrial design, meeting intelligence, and Google Labs' approach to experimental products, providing a compact cross-disciplinary listening list for builders.
+
+## @andymukherjee70 - Context graphs as systems of record for AI decisions
+> This isn’t my world, but I learned so much from this article and its real-world examples. Well worth your time 👇
+>
+> *Quoting @JayaGup10:* https://t.co/uPXcTUEsnc
+
+- **Tweet:** https://x.com/andymukherjee70/status/2004357512498499996
+- **Link:** https://x.com/i/article/2003525085420744704
+- **Quoted:** https://x.com/JayaGup10/status/2003525933534179480
+- **Filed:** [context-graphs-ai-decision-traces](./knowledge/articles/context-graphs-ai-decision-traces.md)
+- **What:** The article argues that agent systems should preserve decision traces—inputs, policy, exceptions, approvals, and outcomes—as a context graph, creating durable precedent and auditability beyond traditional systems of record.
+
+## @KrsteKovaceski - MCP servers for automating ad-media buying
+> For my Media Buyers that havn't built sh%t for creating, analzying, scaling ads yet
+>
+> ... this makes it sooo much easier
+>
+> check these out
+> - tiktok-ads-mcp-server
+> - facebook-ads-mcp-server
+> - meta-ads-mcp
+> - google-ads-mcp-server
+>
+> pop url into fav llm or agent
+>
+> thank me l8r
+
+- **Tweet:** https://x.com/KrsteKovaceski/status/2004319499139612708
+- **What:** A compact starter list of advertising-platform MCP servers that can give an LLM or coding agent access to TikTok, Facebook, Meta, and Google Ads workflows for campaign creation, analysis, and scaling.
+
+## @PrajwalTomar_ - Security practices make vibe-coded apps viable
+> Not true.
+>
+> You can build a fully secure app even with vibe coding if you do it properly.
+>
+> - Follow a security launch checklist (mine is attached in the first comment)
+> - Use an AI code reviewer like @coderabbitai.
+> - Actually review the changes your agent makes instead of accepting everything blindly.
+>
+> The waitlist leak below is not a tool issue. It’s a skill issue.
+>
+> It feels like some people want vibe coding to fail because that makes them feel less replaceable.
+
+- **Tweet:** https://x.com/PrajwalTomar_/status/2004198710461583731
+- **What:** The author argues that secure vibe-coded products require launch checklists, automated review, and human inspection of agent changes, reframing public data leaks as a failure of engineering practice rather than AI tooling.
+
+## @chongdashu - Claude Code skills for Nano Banana Pro and Three.js cards
+> Here's the full video on using Claude Code Skills with Nano Banana Pro and ThreeJS.
+>
+> I've also made the both Claude skills + prompts + source code FREE (check reply)
+>
+> Enjoy! https://t.co/xGDOR2frc2
+>
+> *Quoting @chongdashu:* If you're using Claude Code, but haven't started using Skills... you need to get on it NOW
+>
+> I built 2 skills:
+> - Nano Banana Pro
+> - Three.js
+>
+> Used them to create this AI app that takes my picture and creates interactive 3d greeting cards
+>
+> Full video tutorial landing tomorrow! Just in time for Christmas!
+
+- **Tweet:** https://x.com/chongdashu/status/2004197993403252801
+- **Quoted:** https://x.com/chongdashu/status/2003995771322982570
+- **What:** The post promotes a free tutorial, source code, prompts, and two Claude Code Skills; its quoted example shows those skills combining image generation with Three.js to make interactive 3D greeting cards.
+
+## @DataChaz - Y Combinator's guide to vibe coding
+> A must-bookmark for vibe-coders.
+>
+> @YCombinator’s guide to making the most of vibe coding: https://t.co/TX0tGkWTFv
+
+- **Tweet:** https://x.com/DataChaz/status/2004159627563507920
+- **What:** LINK_FAILED: Could not expand link from @DataChaz; the bookmark points to a reportedly Y Combinator guide for improving vibe-coding practice, but its destination was not captured.
+
+## @DataChaz - Unspecified Claude setup praised as an Ultrathink upgrade
+> This guy literally turned Claude into an Ultrathink powerhouse 🤯 https://t.co/Krp6jnb05O
+
+- **Tweet:** https://x.com/DataChaz/status/2004150368218108181
+- **What:** THIN: @DataChaz enthusiastically praises an unspecified Claude configuration or workflow as an Ultrathink upgrade, but the saved post contains no link target, author, setup, or technical explanation to evaluate.
+
+## @dejavucoder - Two-week Claude Code experience for newcomers
+> i am gonna write a follow-up to this post soon. if you are new to claude code or like just like claude code, read this once. can skip the lore section.
+>
+> *Quoting @dejavucoder:* you can read my latest blogpost: my experience with claude code after 2 weeks of adventure now
+>
+> - some lore why i started using it
+> - it's several features
+> - my current workflow
+> - must know commands
+>
+> almost like a beginner guide or log if you will
+>
+> https://t.co/svZHv2B2OJ https://t.co/n35P0eTA9X
+
+- **Tweet:** https://x.com/dejavucoder/status/2004107497976779045
+- **Link:** https://sankalp.bearblog.dev/my-claude-code-experience-after-2-weeks-of-usage/
+- **Quoted:** https://x.com/dejavucoder/status/1945827503635116181
+- **Filed:** [my-experience-with-claude-code-after-2-weeks-of-adventures](./knowledge/articles/my-experience-with-claude-code-after-2-weeks-of-adventures.md)
+- **What:** Sankalp highlights a two-week Claude Code field report as a newcomer-friendly primer, while the quoted announcement says it covers motivation, product features, an evolving workflow, and must-know commands; a follow-up is planned.
+
+---
+
+# Wednesday, December 24, 2025
+
+## @parcadei - Continuous-Claude-v3 preserves Claude Code context
+> https://t.co/aPnhSXqZPQ
+>
+> continuous claude  v2 is now up - a setup designed to tackle the scarcest resource in coding: context
+>
+> explaining the reasoning behind features below ↓
+
+- **Tweet:** https://x.com/parcadei/status/2004018525569274049
+- **Link:** https://github.com/parcadei/Continuous-Claude-v3
+- **Filed:** [continuous-claude-v3](./knowledge/tools/continuous-claude-v3.md)
+- **What:** Continuous-Claude-v3 is a Claude Code environment that retains project state through ledgers and handoffs, isolates agent contexts and MCP execution, and coordinates specialized agents so long-running coding work loses less context.
+
+## @trevorsaudi - Unspecified resource that improved learning progress
+> Watched this a while back and it helped me understand why i was not improving in some things i was learning about
+
+- **Tweet:** https://x.com/trevorsaudi/status/2003938537394393294
+- **What:** THIN: @trevorsaudi endorses an unspecified video or lesson as a breakthrough in understanding stalled learning progress, but the bookmark supplies neither a title, link, subject, nor the ideas that made it helpful.
+
+---
+
 # Tuesday, December 23, 2025
 
 ## @Hesamation - Claude Code Creator’s Engineering Principles
@@ -39704,8 +40723,15 @@ Oh, and RIP billable hours.
 - **Quoted:** https://x.com/eptwts/status/2003172409579618642
 - **What:** EP argues that founders should begin with an agency to learn customers’ real workflows and paid pain points, then productize the repeatable automations rather than struggling to invent an unvalidated SaaS market.
 
----
+## @kalashvasaniya - Programmatic SEO yielding 100,000 ranking pages
+> it took me 12 million tokens to build programmatic seo for my startup.
+>
+> result? 100k pages ranking on google. https://t.co/W0A7tkB3Lw
 
+- **Tweet:** https://x.com/kalashvasaniya/status/2003680784373416184
+- **What:** Kalash reports applying a large language-model token budget to programmatic SEO, claiming it produced 100,000 pages that now rank in Google; it is a concrete scale claim but provides no implementation details or external resource.
+
+---
 # Monday, December 22, 2025
 
 ## @camillericketts - AI as the next material for reorganizing knowledge work
