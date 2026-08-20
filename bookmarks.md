@@ -9817,6 +9817,306 @@ I have 200+ skills, and you want me to import 20+ of your slop skills, on the sa
 - **Tweet:** https://x.com/FredKSchott/status/2066962296119959581
 - **What:** Flue 1.0 Beta is a TypeScript agent framework that separates deterministic workflows, autonomous stateful agents, and integration channels while using a durable, model-agnostic runtime for resilient production deployment.
 
+## @sudoingX - DGX Spark Versus Strix Halo Local AI Throughput Benchmark
+> the results are in. two 128gb boxes on my desk, the nvidia dgx spark and the amd strix halo.
+>
+> everyone argues which one is faster for local ai off spec sheets and vibes, so i stopped guessing and ran them head to head on the exact same model. here is what i actually found.
+>
+> the setup, because it only counts if it is fair. the identical model file, the same Qwen3.6-35B-A3B at Q8, byte for byte the same gguf on both boxes. same llama.cpp commit. same flags. both boxes fully idle, nothing else touching the gpu. no thumb on the scale either way.
+>
+> the two boxes:
+> >nvidia dgx spark, GB10, 128gb unified, 4tb samsung nvme, $4,699
+> >amd strix halo, ryzen ai max+ 395, 128gb unified, 1tb wd black, mine is the framework desktop at $3,449
+>
+> prompt processing, how fast it reads your input:
+> >spark 1957 tok/s
+> >strix 956 tok/s
+>
+> the spark is a clean 2x faster here. this is nvidia's compute muscle showing, long context and big documents go down fast.
+>
+> token generation, how fast it writes the answer back, the speed you actually feel:
+> >spark 58.6 tok/s
+> >strix 53.5 tok/s
+>
+> spark still wins, but by about 10 percent. side by side you would barely clock the difference while it types.
+>
+> so on raw speed nvidia takes it, decisively on prompt processing, narrowly on generation. no spin, the spark is the faster box.
+>
+> but speed is only half the question. the other half is what you paid to get it, and that one does not go the way this one did. coming next.
+>
+> *Quoting @sudoingX:* nvidia vs amd
+>
+> two boxes on my desk, both 128gb of unified memory. one is the nvidia dgx spark ($4,699). the other is the amd strix halo ($1,999), amd at roughly half the price.
+>
+> i'm running the exact same models on both, from a 3b all the way up to a 397b, same quants, same llama.cpp, and i'm posting every single number.
+>
+> here is why it actually matters. if the amd box just keeps pace, that's a nice story. but if it matches or beats a box that costs twice as much, the entire calculus for buying local ai hardware changes overnight.
+>
+> i already have the first numbers and they made me sit up. holding them for the full breakdown.
+>
+> stay tuned anon. this matchup is going to shake some ground.
+
+- **Tweet:** https://x.com/sudoingX/status/2066935217194250356
+- **Quoted:** https://x.com/sudoingX/status/2066571757809766761
+- **What:** Sudo su follows an initial price-performance challenge with a controlled llama.cpp comparison: DGX Spark doubles Qwen prompt ingestion at 1,957 tok/s but generates only about 10% faster than a 128 GB Strix Halo system, making total value dependent on the forthcoming cost analysis.
+
+## @catalinmpit - Self-Hosted Hermes and OpenClaw as a Personal AI Interface
+> “Hermes/OpenClaw has no use case”
+>
+> I used to think the same tbh. And it doesn’t make sense until it clicks for you.
+>
+> I don't care to convince anyone. I'll just share my experience.
+>
+> The tasks Hermes handles go from simple reminders to managing my finances, monitoring my email and making code changes... among others.
+>
+> It doesn’t sound wow, but it is. Because it has all the context about me and my circumstances. When I start a new chat, it has access to everything it needs. That improves the replies and experience as a whole 100x.
+>
+> I can do all that from my Telegram account. I don't need to use different tools.
+>
+> And my next experiment is to allow it to buy stuff for me. I want to give it a link and place the order, so I don't have to manually fill all the fields.
+>
+> On top of that, Hermes/OpenClaw are open source, which means you can self-host it... as I do. The memory is local. I can inspect/edit all the skills. I can tweak the setup as much as I like. Heck, I can even make changes to the Hermes/OpenClaw code. If you pair that with a local LLM, it gets even better.
+>
+> Anyway, I feel like the first time I tried Cursor. I'm mind-blown by what's possible. Can't wait to share all the stuff I have written so far about my setup.
+
+- **Tweet:** https://x.com/catalinmpit/status/2066934168404299832
+- **What:** Catalin explains the appeal of a self-hosted personal agent: locally controlled memory and editable skills let a Telegram interface carry context across reminders, email monitoring, finances, coding, and potentially purchase automation instead of forcing work across disconnected apps.
+
+## @AnatoliKopadze - From AI Chat to Autonomous Agents with Claude Code
+> She's 22 and a16z just led her $21M round. Her AI is live inside the Fortune 100.
+>
+> "I work every waking second, 7 days a week, and I've never been happier."
+>
+> 17 minutes of an unreal story, from youngest hedge fund quant to funded founder in 2 years.
+>
+> worth more than most of the startup advice on your feed.
+>
+> watch it, then read the article below.
+>
+> *Quoting @AnatoliKopadze:* https://t.co/irHOIYXWF2
+
+- **Tweet:** https://x.com/AnatoliKopadze/status/2066930058820780370
+- **Link:** https://x.com/i/article/2062147039652155392
+- **Quoted:** https://x.com/AnatoliKopadze/status/2063985608381362576
+- **Filed:** [ai-agents-claude-code-telegram-guide](./knowledge/articles/ai-agents-claude-code-telegram-guide.md)
+- **What:** Anatoli Kopadze pairs an enthusiastic founder-profile recommendation with a practical guide that distinguishes chats, tool-using systems, workflows, and autonomous agents, then outlines building a persistent Claude Code-powered Telegram agent on a VPS.
+
+## @amydeng_ - Using AI Models to Investigate Persistent Fatigue
+> I’m an AI researcher turned brain tumor patient, and recently I used the models to crack my mystery fatigue faster than my PCP could.
+> I believe everyone can do the same with their own symptoms. Here’s how: https://t.co/0jhbPvEi7V
+
+- **Tweet:** https://x.com/amydeng_/status/2066928566961639716
+- **What:** Amy Deng introduces a patient-led account of using AI models to investigate unexplained fatigue amid a brain-tumor diagnosis, framing models as tools for organizing and accelerating symptom research rather than substitutes for clinical care.
+
+## @coreyganim - AI Concierge Retainer Model for Hands-On Business Automation
+> Recently closed my 5th AI Concierge client, this one at $2,000/month.
+>
+> The offer is two 45-minute calls per month where we build AI systems live on their screen. That's it.
+>
+> Why it keeps closing:
+>
+> 1. Business owners don't want "AI consulting." They want a trusted expert holding their hand while THEY learn to do it.
+>
+> 2. Nothing we build is fancy. Lead follow-up, admin task automation, marketing workflows, SOP assistants.
+>
+> 3. The math works for both sides. They pay $1,500-2,000/month and save 5-10 hours a week. I make $1,000+/hour.
+>
+> 4. Retention is built in. Every call ships something that works. Canceling feels like firing your best employee.
+>
+> 5 clients x 2 calls x 45 minutes = 7.5 hours of work for $8,000+ MRR.
+>
+> My current client roster:
+>
+> Client 1 (insurance agency): $1,200/mo
+> Client 2 (DTC brand): $1,500/mo
+> Client 3 (financial planner): $1,500/mo
+> Client 4 (info product biz): $1,800/mo
+> Client 5 (fintech CEO): $2,000/mo
+>
+> I'll get one more client at $2,000/mo then won't be taking on more due to bandwidth.
+
+- **Tweet:** https://x.com/coreyganim/status/2066925520176955512
+- **What:** Corey Ganim describes a productized, hands-on AI implementation retainer that sells business owners live workflow-building help rather than abstract consulting, pairing measurable weekly time savings with a deliberately capacity-limited recurring-revenue model.
+
+## @Teknium - Hermes Agent hackathon for autonomous business tooling
+> Time to build your business with Hermes Agent.
+>
+> Two weeks to get your submissions in, 100% online, huge prizes.
+>
+> Learn more about the Hermes Agent Accelerated Business hackathon below - presented by NVIDIA, Stripe, and Nous Research https://t.co/pcLu3oslfx
+>
+> *Quoting @NousResearch:* The Hermes Agent Accelerated Business Hackathon presented by @NVIDIAAI × @stripe × @NousResearch starts now, for builders making agents that can earn, spend, and run real operations at any scale.
+>
+> Our NVIDIA integrations let your team run agents safely through NemoClaw, quickly on Nemotron 3 Ultra, and intelligently with access to their extensive agent skills. The new Stripe Skills for Hermes let your agent buy what it needs, provision its own SaaS, and pay for the services it uses.
+>
+> We want to see what kind of business tooling you can build on top of this foundation, whether it’s a fully automated company or a framework to accelerate enterprise functions.
+>
+> Prizes:
+> 1st — $10,000 cash + NVIDIA DGX Spark + $5,000 Stripe Credits
+> 2nd — $5,000 cash + NVIDIA DGX Spark + $3,000 Stripe Credits
+> 3rd — $2,500 cash + NVIDIA DGX Spark + $1,000 Stripe Credits
+>
+> To enter:
+> 1) Tweet a 1-3 minute demo video tagging @NousResearch with a short writeup
+> 2) Drop the link in the submissions channel: https://t.co/S16j0bgumq
+> 3) Fill out the submission form: https://t.co/5tQR7mOODF
+>
+> Judged by Nous Research, NVIDIA, and Stripe on usefulness, viability, and presentation. Submissions due EOD Tuesday, June 30.
+
+- **Tweet:** https://x.com/Teknium/status/2066923624167248133
+- **Link:** https://discord.com/invite/PFbQZMesC
+- **Link:** https://form.typeform.com/to/hpEifIK4
+- **Quoted:** https://x.com/NousResearch/status/2066921443548348436
+- **What:** Teknium highlights a two-week online Hermes Agent hackathon, while the quoted announcement calls for autonomous business tooling built with NVIDIA integrations and Stripe Skills, offering cash, hardware, and credits for entries judged on usefulness, viability, and presentation.
+
+## @MatthewBerman - A 100-case production-data evaluation loop for Astro Chat
+> here's a loop I used:
+>
+> Come up with 100 wide-ranging real world tests to try on Astro Chat with production data. This should cover every possible thing someone could do in astro chat, including multi turn chats, specific queries, Q&A, broader insight extraction, etc. Make sure we touch every possible tool and skill and connector.   Run each test, then I want you to judge the performance/response of Astro Chat on: accuracy, correct tool use, concise but complete answers, recovery from issues, and anything else you deem to be important. If you are not satisfied with a test, make the appropriate changes and test it again until you are satisfied.   You need to be able to make changes iteratively locally but use data from production so it's real world usage.
+
+- **Tweet:** https://x.com/MatthewBerman/status/2066922621628010658
+- **What:** This is a prompt for an agentic evaluation loop that generates broad, production-data test coverage, exercises every chat capability and connector, scores answers and tool choices, then iteratively repairs and reruns cases that fail its quality bar.
+
+## @MrMojoRisinX - Alleged Burry SpaceX acquisition basket
+> Burry on discord:
+>
+> “I believe Musk is going to use SPCX as an m&a / acquisition vehicle and likely purchases LULU, FNMA, GME, PYPL, ZTS and ADBE all before the end of the summer and probably SATS too (Burry says short SPCX and buy that basket as it presents no basis risk whatsoever, this much I promise you” - Burry
+
+- **Tweet:** https://x.com/MrMojoRisinX/status/2066886752262840803
+- **What:** This post relays an unverified Discord attribution to Michael Burry that speculates SpaceX could acquire a named basket of public companies and frames a paired short-SPCX, long-basket trade as having no basis risk; it is market rumor rather than substantiated investment research.
+
+## @KingBootoshi - fork - copy-on-write repository and agent-chat forks
+> new OP agent loop i'm working with. i discovered this last week and it's been faster, CHEAPER, and higher quality! claude code/codex specifically, but the concept works with any harness. detailed explanation below:
+>
+> to start -
+>
+> - have a deep discussion with a new codex/claude code thread on what work needs to be done moving forward. talk to it, have it scope the codebase, have it ask you questions. go back and forth, take your time!
+>
+> the point of discussion is to ALIGN your intent with codex, because remember this lil dude is autistic and mis-understands intent, literally all the time 🤣
+>
+> but if the agent truly understands your intent... it SHREDS
+>
+> - after discussion is done, create a master md file to track the full discussion. usually i just say "create a master PRD to save our full discussion"
+>
+> - ask your agent how much of the work can be parallelized, and if so how
+>
+> - have your agent create a plan on what work requires dependencies and what work can be parallelized
+>
+> (for me this usually means we need to create a foundation branch to do fundamental work, then parallelize from that branch via worktrees, then finalize with an integration branch that merges everything together)
+>
+> - the main agent thread that had the discussion and created this plan, now becomes the orchestrator
+>
+> it is important to distinguish that this is NOT typical subagent work in a sense. this is the original agent actually managing OTHER stateful agents in parallel with their own /goal and threads. each one does full e2e testing then opens a PR against the foundation branch
+>
+> this agent orchestrator also becomes the one that handles merges/conflicts. newest models are GREAT at this
+>
+> now LISTEN UP because this is a VERY important detail of this workflow that HEAVILY accelerates the efficiency of work done while MINIMIZING cost/tokens!
+>
+> I created a tool called 'fork (https://t.co/adDgAoZk66) that implements an idea I had after I did the "single codex /goal agent vs claude code orchestarting codex" eval
+>
+> the hypothesis i had after that result (given one codex /goal agent was faster, cheaper, and higher quality) was to actually have a full discussion with one single agent, which means it reads the actual files and saves it in context
+>
+> then BRANCHING off that chat to parallelize work
+>
+> when we branch from that chat to begin work, we actually end up saving the existing cache and context!
+>
+> therefore, instead of spawning a new agent that has to RE-READ all the files, this branched agent has technically ALREADY read the files.
+>
+> and because it's cached, its CHEAPER and FASTER, so the branched codex agent instantly begins implementation with FULL context and aligned understanding!
+>
+> now a problem i had with this is creating git worktrees and cloning the env exactly was a pain in the ass, but i made a CLI tool to fix this entire process called FORK
+>
+> https://t.co/adDgAoZk66
+>
+> fable made this for me in one shot before they got TAKEN AWAY FROM US, fortunately it created the perfect tool
+>
+> in case you didn't know, you can actually type ! in both codex OR claude code (in the terminal cli)  which then activates shell mode, meaning IN chat you can run cmds
+>
+> what fork does, is depending on whether you're in claude code or codex, it will recognize your harness and
+>
+> - branch off the existing chat
+>
+> - CLONE the existing folder it's in PERFECTLY 1:1 via APFS
+>
+> - create a new git worktree attached to the cloned folder
+>
+> - open the forked codex/claude code discussion in a new tmux window, instantly ready for work
+>
+> now the tool is made in a very specific way and it might seem weird when you use it so i have to explain why:
+>
+> first off, for this to make sense I have to explain what APFS is
+>
+> APFS is apple's file system, and it has a feature called "copy-on-write"
+>
+> let's say you have a big fat code base that takes up GBs of space
+>
+> APFS lets you create a new file entry on disk that points it's metadata to the original data on system. so instead of duplicating data, it just creates metadata pointers on disc that point to the original data, so it can be re-used
+>
+> only when a file is CHANGED does it create a new fully data entry on disc that is not a pointer.
+>
+> this means that you can create a perfect clone of your project, and only the files that the agents end up editing or creating will end up actually taking new space. the rest just use the original data as is
+>
+> i got very inspired and learned a lot about this from @thdxr 's explanation explaining how they do parallel work in OpenCode (video reference in replies)
+>
+> this works quite similarly. except i did not want to wait for an opencode update lol
+>
+> OK - so that is APFS - that is how we can create 100 perfect clones of the original project in new worktrees without taking up space.
+>
+> this is essential not just to save data but ensure that the agents are working in IDENTICAL environments
+>
+> for me, this means each codex agent use the same .envs, they can run the exact same tests / e2e without any setup. it just works
+>
+> now that saves disc space and ensures consistency, but how do we save TOKENS
+>
+> the reason why we branch the chat off the discussion phase is because we already handled full aligned discussion. the agent doesn't need to re-read files or re-understand the work and risk misalignment with our intention
+>
+> it just works off rip
+>
+> now annoyingly (and i hope claude code/codex both fix this) if you just BRANCH off an existing chat into a new worktree, the cache gets ruined
+>
+> why? because in the system prompt it will change the existing file path to the new worktree prompt. which ruins the whole cache. so it has to compute everything again
+>
+> claude code is criminal for this, so to make it work for claude code we have to keep the cli in the same dir but inject instructions explaining to move its shell into the new fork location and only work from there. to enforce safety i created a fork-guard to prevent that agent instance from editing the source
+>
+> there is a way to completely remove dynamic input to prevent the cache changing, but this works... so i just do this and it's been fine
+>
+> when fable was live this was killer in saving tokens, given how expensive it was
+>
+> now uhh annoyingly, codex does NOT re-use the same cache in a forked chat. because the backend hard codes the prompt cache to the thread id, starting ANY new fork completely erases the cache
+>
+> this is very annoying (and there is an open issue for this, #24704 that i believe should take priority because it will save both openai and users money, lol)
+>
+> so if you want to use gpt 5.5 you can use the Pi harness with your codex login, and this same concept will work.
+>
+> (i recommend doing some probes with Pi and ensuring forked chats do save cache before doing this, because i have not tried it with Pi yet)
+>
+> right ok the explanations of APFS and cache saving is done
+>
+> from here, i'll parallelize whatever can be parallelized. then i'll have the agents open a PR against the foundation branch
+>
+> once all PRs are open, i'll have the main original agent then review every PR and merge everything together, ensuring there's no conflicts. if there are, it usually fixes it efficiently without messing anything up
+>
+> and that's pretty much it. this speeds up my workflow significantly.
+>
+> i DID say i wouldn't do orchestration anymore, but this is very different and has been VERY efficient for me
+>
+> that's all, this workflow has been MOST efficient when I'm in a discussion with Codex, but then a bigger design issue pops up that I find, which requires focused work and not a half assed integration in the run
+>
+> test the fork tool and let me know if this workflow helps you guys!
+
+- **Tweet:** https://x.com/KingBootoshi/status/2066860462055317517
+- **Link:** https://github.com/kingbootoshi/fork
+- **Filed:** [fork](./knowledge/tools/fork.md)
+- **What:** `fork` combines APFS copy-on-write clones, isolated Git branches, and tmux session forks so a context-rich Claude Code or Codex conversation can fan out into parallel workspaces; its Claude `--cached` mode targets prompt-cache reuse, while Codex cache reuse across forked threads remains unavailable.
+
+## @0xSero - Opus builds a color-grading preference site
+> Opus got frustrated going back and forth on color grading so created a full site to capture my preferences... unprompted.
+>
+> very smart https://t.co/GaklYlDhgI
+
+- **Tweet:** https://x.com/0xSero/status/2066765543101841812
+- **What:** Opus identified that repeated subjective color-grading feedback was inefficient and independently made a persistent preference site, turning scattered visual direction into a reusable source of truth for future work.
+
 ---
 # Monday, June 15, 2026
 
@@ -10030,8 +10330,13 @@ I have 200+ skills, and you want me to import 20+ of your slop skills, on the sa
 - **Tweet:** https://x.com/ArtificialAnlys/status/2066700136018071841
 - **What:** Artificial Analysis reweighted its Intelligence Index toward harder agentic tasks (Terminal-Bench 2.1, τ³-Bench Banking, GDPval-AA v2 with longer 250-turn horizon), dropped saturated IFBench, and added three new per-task efficiency metrics. The standout finding: DeepSeek V4 Pro achieves near-frontier open-weights scores at $0.04/task versus $0.99–$3.25 for top proprietary models — a 20–80× cost gap that matters for production agentic workloads.
 
----
+## @jackfriks - Low-cost TikTok slideshow generation claim
+> no way this guy just open-sourced his lazymaxxer deluxe slide show creator tool that makes 600 tikt0ks for $2... https://t.co/lA4pcBZ3LG
 
+- **Tweet:** https://x.com/jackfriks/status/2066521165443617179
+- **What:** Jack Friks highlights an alleged open-source slideshow pipeline that can produce hundreds of TikTok videos cheaply, but this bookmark resolves only to the same tweet and provides neither a repository nor enough source material to file as a tool.
+
+---
 # Sunday, June 14, 2026
 
 ## @boringmarketer - Building a personal coding harness with Pi, Codex, and FUSION routing
@@ -10538,19 +10843,1037 @@ I have 200+ skills, and you want me to import 20+ of your slop skills, on the sa
 
 ---
 
+# Tuesday, June 9, 2026
+
+## @toddsaunders - Customer-call-triggered autonomous prototyping
+> Mythos / Fable is unbelievable.
+>
+> Was on a customer call today and had Claude transcribing in the background.
+>
+> As they were telling me about the features they wish their current software had, Claude was building the features in real time.
+>
+> By the end of the call I was able to show a fully working product, with the exact workflow they mentioned 15 minutes earlier.
+>
+> Autonomous looped building triggered from a customer call. 🤯
+
+- **Tweet:** https://x.com/toddsaunders/status/2064552188475482303
+- **What:** Todd Saunders describes an autonomous prototyping loop in which Claude transcribes a customer interview and turns spoken feature requests into a working workflow before the call ends, shrinking the delay between product discovery and a concrete demonstration.
+
+## @codyplof - Overnight iterative email-template improvement
+> This is really good. I haven't spent much time on email but this is inspiring me. I'm going to set up an overnight  /loop. Here's what I did:
+>
+> - Gave this to claude
+> -Gave asana access and asked it to blindly design the last 5 emails in our email asana board that we've sent.
+> -Then compare them to what we acually sent (Claude went through my email and found them matched by subject line to what was in Asana)
+> - Grade them on pre-defined criteria 1/10. Loop until it gets 9/10 across the board.
+>
+> Currently on first pass I'll give it a 6/10. Excited to see where we're at in the morning.
+>
+> *Quoting @Salmaaboukarr:* DAMN! i generated this email marketing template with claude mythos.... https://t.co/0GEBXg9UqN
+
+- **Tweet:** https://x.com/codyplof/status/2064535669477630207
+- **Quoted:** https://x.com/Salmaaboukarr/status/2064435630457700693
+- **What:** Cody Plofker extends Salma's Claude-generated email template into an overnight refinement loop: Claude studies previous approved emails and sent versions, scores a new design against defined criteria, and keeps improving until every dimension reaches 9/10.
+
+## @seangeng - Plan Optimizer self-improving planning skill
+> If you're curious at all why everyone smart is telling you to build in loops, here's an easy way to try
+>
+> I built a skill that does this right here, iterate until a plan cannot be improved further, self-scoring
+>
+> works great with Fable 5
+>
+> copy or install the skill here: https://t.co/6sFdChFUE9
+>
+> *Quoting @goodalexander:* @citrini @VentureCoinist I have a harness that makes a plan and tries to improve it iteratively until the plan cannot easily be improved
+>
+> Usually you hit a top score where iterations become noise. Fable can break the previous ceiling pretty aggressively
+>
+> Have to get used to being a meat puppet
+
+- **Tweet:** https://x.com/seangeng/status/2064513457584541849
+- **Link:** https://seangeng.com/freebies/plan-optimizer
+- **Quoted:** https://x.com/goodalexander/status/2064487228462465177
+- **Filed:** [plan-optimizer-skill](./knowledge/articles/plan-optimizer-skill.md)
+- **What:** Sean Geng packages Alexander's iterative planning harness as a Claude Code skill: it scores a plan against a rubric, critiques and rewrites it, preserves the best result, and stops when further iterations become noise rather than improvement.
+
+## @0xDesigner - Design audits with visual change previews
+> ok ok listen:
+>
+> ask fable 5 to create a workflow to run a design audit.
+>
+> and ask it to create visuals for before and after the changes it proposes because you're tired of reading.
+>
+> trust me, bro.
+
+- **Tweet:** https://x.com/0xDesigner/status/2064473137585045534
+- **What:** 0xDesigner proposes using Fable 5 for a design-audit workflow that pairs recommendations with before-and-after visuals, so reviewers can assess each proposed interface change through a concrete comparison instead of evaluating text alone.
+
+## @meta_alchemist - Evidence-based repository audit prompt for Claude Fable 5
+> Got your hands on Claude Fable 5?
+>
+> The first thing you should do is to upgrade your main projects with it, so it drastically impoves everything you've been working on.
+>
+> Run this Audit & Project Improvement Prompt on each repo that's important to you (simply copy-paste it):
+>
+> Repo Audit & Improvement Plan:
+> Prompt made by Claude Fable 5
+>
+> You are a world-class principal-level software engineer and technical auditor. Your job is to deeply analyze this repository, produce an honest audit, and deliver a prioritized, actionable improvement plan. Work in the four phases below, in order. Do not skip ahead.
+>
+> Ground every claim in actual files: cite file paths and line numbers. If you can't verify something, say so explicitly rather than guessing.
+>
+> Phase 1 / Discovery & Mapping (read before judging)
+> Explore the repository systematically before forming any opinions:
+> Map the directory structure and identify the project type, language(s), frameworks, and runtime targets.
+> Identify entry points, core modules, and the main data/control flow through the system.
+>
+> Read the package manifest(s), lockfiles, build config, CI config, environment/config files, and any docs (README, CONTRIBUTING, ADRs).
+>
+> Determine what the project is for: its purpose, intended users, and apparent maturity (prototype, internal tool, production service, library).
+>
+> Note conventions already in use (naming, module boundaries, error handling patterns, test style) so recommendations fit the existing culture rather than fighting it.
+>
+> Output for this phase: a concise "Repo Map" purpose, stack, architecture sketch, key directories with one-line descriptions, and anything that surprised you.
+>
+> Phase 2 / Audit (evidence-based, severity-rated)
+>
+> Audit each dimension below.
+>
+> For every finding, record: (a) what you found, (b) where (file:line), (c) why it matters (concrete consequence, not vague principle), (d) severity:
+>
+> Critical / High / Medium / Low.
+>
+> • Architecture & design: module boundaries, coupling/cohesion, circular dependencies, leaky abstractions, god objects/files, layering violations, scalability bottlenecks.
+>
+> • Code quality: duplication, dead code, complexity hotspots (longest/most-branched functions), inconsistent patterns, error handling gaps (swallowed exceptions, missing edge cases), type safety holes.
+>
+> • Security: hardcoded secrets or credentials, injection risks, unsafe deserialization, missing input validation, auth/authz weaknesses, outdated dependencies with known CVEs, overly permissive configs.
+>
+> • Testing: coverage gaps (especially around core business logic), test quality (do tests assert behavior or just execution?), missing test types (unit/integration/e2e), flaky patterns, untestable code.
+>
+> • Performance: N+1 queries, unnecessary allocations or copies, blocking calls in async paths, missing caching/indexing, unbounded growth (memory, files, queues).
+>
+> • Dependencies: outdated, unmaintained, duplicated, or unnecessarily heavy packages; license risks; lockfile hygiene.
+>
+> • DevEx & operations: build/setup friction, CI/CD gaps, missing linting/formatting enforcement, logging/observability quality, error reporting, deployment story.
+>
+> • Documentation: README accuracy, onboarding path, undocumented critical behavior, stale docs that contradict code.
+>
+> Rules for this phase:
+>
+> Prefer 15 high-confidence findings over 50 speculative ones.
+>
+> Distinguish facts ("this function has no error handling: src/api/client.ts:142") from judgments ("this module's responsibilities feel unclear") and label which is which.
+>
+> Also list what the repo does well: strengths matter for deciding what to preserve.
+>
+> Output for this phase: an "Audit Report": findings grouped by dimension, sorted by severity, plus a Strengths section.
+>
+> Don't forget to mention all the ugly parts that need utmost priority.
+>
+> Phase 3 / Improvement Strategy
+>
+> Synthesize the audit into a strategy:
+>
+> Identify the 3–5 themes that explain most of the findings (e.g., "no enforced boundaries between layers," "error handling is ad hoc").
+>
+> For each theme, propose a target state and the principle behind it.
+>
+> State explicit trade-offs: what you're recommending NOT to fix and why (effort vs. payoff, risk, project maturity).
+>
+> Define what "done" looks like — measurable signals (e.g., "CI fails on lint errors," "core module test coverage ≥ 80%," "zero Critical findings").
+>
+> Phase 4 / Detailed Task Plan
+> Convert the strategy into an execution plan:
+> Break work into discrete tasks. Each task must include: Title and one-paragraph description
+> Files/areas affected
+>
+> Acceptance criteria (how we verify it's done)
+> Effort estimate (S = <2h, M = half-day, L = 1–2 days, XL = needs breakdown)
+>
+> Risk of the change itself (could it break things?)
+> Dependencies on other tasks
+>
+> Order tasks into milestones:
+>
+> Milestone 0
+> Safety net: anything needed before refactoring safely (tests around critical paths, CI gates, backups).
+>
+> Milestone 1
+> Critical fixes: security and correctness issues.
+>
+> Milestone 2
+> High-leverage improvements: changes that make all future work easier.
+>
+> Milestone 3
+> Quality & polish: remaining medium/low items worth doing.
+>
+> Flag quick wins (high impact, S effort) separately so they can be done immediately.
+>
+> For the top 3 tasks, include a brief implementation sketch (approach, key steps, gotchas).
+>
+> Final Deliverable Format
+> • Produce a single document with these sections:
+> • Executive Summary (≤10 sentences: overall health grade A–F with justification, top 3 risks, top 3 opportunities)
+> • Repo Map
+> • Audit Report
+> • Improvement Strategy
+> • Task Plan (milestones + task table + quick wins)
+> • Open Questions: anything you need from a human to decide (product intent, deprecation candidates, performance targets)
+>
+> Constraints
+> Do NOT modify any code during this audit. Analysis only.
+>
+> Do not pad the report. If a dimension is healthy, say so in one sentence and move on.
+>
+> Calibrate to the project's maturity. Don't recommend enterprise-grade infrastructure for a weekend prototype unless the owner's goals demand it.
+>
+> Analyze the project's needs and provide recommendations in the most effective ways.
+>
+> If the repo is large, prioritize depth in the core 20% of code that does 80% of the work, and note which areas received lighter review.
+>
+> *Quoting @claudeai:* Introducing Claude Fable 5: a Mythos-class model that we’ve made safe for general use.
+>
+> Its capabilities exceed those of any model we’ve ever made generally available. https://t.co/2AvmEjHIX8
+
+- **Tweet:** https://x.com/meta_alchemist/status/2064431279383433646
+- **Quoted:** https://x.com/claudeai/status/2064394146916229443
+- **What:** Meta Alchemist highlights Claude Fable 5’s claimed general availability and pairs it with a detailed, evidence-first prompt for a read-only repository audit, prioritized roadmap, and maturity-calibrated recommendations.
+
+## @theo - Context-free Claude.md reference
+> Claude[.]md totally unrelated https://t.co/jJJNEh6TVM
+
+- **Tweet:** https://x.com/theo/status/2064429693655461934
+- **What:** Theo makes a terse reference to Claude.md, but the bookmark export contains no parent context or substantive linked material, so the intended comparison cannot be recovered.
+
+## @fivosaresti - Five-layer AI-native GTM services operating system
+> ‘Service-as-a-software’ is here...
+>
+> We moved our entire company brain to GitHub and wired 25+ tools through MCPs.
+>
+> Any one of our 20+ team members can now spin up a contextualized AI assistant in seconds.
+>
+> The system has 5 layers:
+>
+> 1. Markdown company OS
+> ↳ SOPs and campaign playbooks converted into .md files using research agents
+> ↳ Most SOPs turned into agents that handle 70% of the task
+> ↳ Output: 50+ actionable Claude skills
+>
+> 2. Context environment
+> ↳ One Company OS GitHub repo propagated to every session via org-wide plugin
+> ↳ Each client gets their own repo with Slack DMs, call transcripts, GDrive changes, and campaign data auto-synced through n8n
+> ↳ Zero configuration needed per session
+>
+> 3. MCPs
+> ↳ 25+ tools connected including InstantlyAI, HeyReach, Apollo, HubSpot, Slack, Notion, n8n, Supabase, Pinecone, Browserbase, Apify
+> ↳ Not just research. Action through AI.
+> ↳ We went from researching work to actually doing it
+>
+> 4. Self-improvement engines
+> ↳ Pinecone database stores 1000s of LinkedIn posts and outbound campaigns with performance metrics
+> ↳ Copywriting skills query this data to find winning formats to reuse
+> ↳ Human corrections get fed back in so the system gets sharper over time
+>
+> 5. Operating principles
+> ↳ Every repo has a safeguard file that prevents certain operations
+> ↳ 100% AI outputs are not acceptable, everyone owns their work and every mistake
+> ↳ Agent swarms split one task into 5-20 sub-agents when needed
+>
+> Our goal is to become the most advanced AI-native services company for our niche (GTM).
+
+- **Tweet:** https://x.com/fivosaresti/status/2064422353816219984
+- **What:** Fivos Aresti describes a GTM services operating model that combines Git-backed SOPs and skills, session context, action-capable MCPs, performance feedback, and human accountability.
+
+## @ritakozlov - Code Mode makes agent token costs economical
+> code mode has helped @cloudflare save ~93% on token cost
+>
+> talking to peers in the industry whose spend is creeping towards upwards of $100k per engineer per year
+>
+> you do the math on the cost savings of that for a large engineering org
+>
+> *Quoting @mattzcarey:* in the past few days the Cloudflare MCP server made 2.6M API requests from 735k agent tool calls.
+>
+> code mode enables agents to do more per tool call.
+
+- **Tweet:** https://x.com/ritakozlov/status/2064414840391704830
+- **Quoted:** https://x.com/mattzcarey/status/2064377811180093713
+- **What:** Matt Carey ties Cloudflare’s 2.6M API requests from 735k agent calls to Code Mode’s batching, while Rita Kozlov frames the resulting 93% token reduction as a major enterprise cost lever.
+
+## @rileybrown - Cowork document-generation quality test
+> First Fable (Mythos) test (on cowork).
+>
+> Uploaded a McKinsey Report and told it to create a doc of the same quality... https://t.co/bqvs5g8Uuw
+
+- **Tweet:** https://x.com/rileybrown/status/2064407515752722521
+- **What:** Riley Brown reports an initial Cowork experiment where Fable/Mythos was asked to recreate a McKinsey-quality document, indicating a practical benchmark for agentic document-production workflows.
+
+## @danshipper - Every’s Fable 5 evaluation for power-user coding
+> BREAKING:
+>
+> Anthropic just dropped Claude Fable 5—this is Mythos, made safe for public release. It is the best coding model in the world.
+>
+> We've been testing it internally @every for the last week or so across coding, writing, marketing, editing, and more—here's our vibe check:
+>
+> - It broke our benchmarks. Fable scored a 91/100 on our Senior Engineer benchmark—this is human senior engineer level. The previous high score was Opus 4.8 at 63. GPT-5.5 is a 62.
+>
+> - It's a one-shot wonder. You can set it and forget for hours or overnight on huge coding tasks, and come back to completed work. It cleared entire production bug backlogs, built a playable 3D, and even made a 2-minute animated film—all one-shot.
+>
+> - Taste and attention to detail. In coding and knowledge work tasks, it has much better taste and attention to detail than we've ever seen. It gets subtle things right, adds little features you might not have thought of, and generally understands the assignment in ways that surprised us.
+>
+> - Great use of context. We set it loose analyzing customer feedback surveys and our website data and it came back with a crisp, clean report that identified a. our biggest problem and b. a concrete testable solution—and then we sent it off to build that.
+>
+> - It's best for power users. If you're already used to orchestrating multiple agents in your work, this model can do things that you've never seen before. If you're a knowledge worker or vibe coder with a more basic setup, you're not going to notice a huge difference—in fact, it probably isn't the right model for you.
+>
+> - It's very slow, token-hungry. Using this thing for regular knowledge work is like squashing an ant with a rocket launcher. It also routinely uses 500k to 1M tokens on tasks. That's why it's best for your heaviest jobs—but not as good for tasks like collaborative writing.
+> - It's expensive. It's about twice as expensive as Opus, and it's also incredibly token hungry—so expect it to be something you'll use sparingly unless your company pays for it.
+>
+> Overall, I think of it like a warp drive for coding: It can get you across the galaxy in a few hours, when it used to take months or years. But it's not appropriate for getting around town—you need something faster, cheaper, and more maneuverable.
+>
+> The ceiling is extraordinarily high on this model though. Even our most advanced testers like @kieranklaassen felt like they were only scratching the surface of it.
+>
+> Want our full vibe check with all of our testing and benchmarks? Read it on @every: https://t.co/MgJLZszJUB
+
+- **Tweet:** https://x.com/danshipper/status/2064393970856124501
+- **Link:** https://every.to/vibe-check/anthropic-mythos-our-fable-vibe-check
+- **Filed:** [vibe-check-fable-5-is-the-best-coding-model-in-the-world.md](./knowledge/articles/vibe-check-fable-5-is-the-best-coding-model-in-the-world.md)
+- **What:** Every reports that Fable 5 excels at autonomous, long-running coding and context-heavy analysis for experienced multi-agent operators, while its high latency, token use, and cost make it a poor fit for routine work.
+
+## @posthog - Early-stage startup marketing fundamentals
+> https://t.co/z4I4hsCynJ
+
+- **Tweet:** https://x.com/posthog/status/2064386816963391978
+- **Link:** https://x.com/i/article/2064081182543974400
+- **Filed:** [startup-marketing-for-n00bs.md](./knowledge/articles/startup-marketing-for-n00bs.md)
+- **What:** PostHog shares an introductory article for founders with early traction who need to start marketing, framing the problem around stage-appropriate guidance rather than tactics designed for companies that have already scaled.
+
+## @ethanrkho - Prediction markets’ temporary edge for small quantitative teams
+> A 15-year Susquehanna trader says there's a window open right now in prediction markets that doesn't exist anywhere else in finance:
+>
+> Andrew Courtney (@andrewcourt1). 15 years as a quant trader and market maker at Susquehanna International Group.
+>
+> "In liquid stocks, you are never going to vibe-code your way to a market-making system. Never."
+>
+> "But a competent programmer with some trading knowledge could probably make money building something on Kalshi."
+>
+> "I know teams of one or two people with a bunch of laptops doing exactly that."
+>
+> "They're making amounts that are a lot for them — and tiny for an institution."
+>
+> "These opportunities don't come up often. It's a short window before the institutions crowd it out."
+>
+> "It's like people trading options in their dorm room 30 years ago. A rare time when smart amateurs can actually have an edge."
+>
+> "You won't get it market-making Apple. But it's here right now."
+>
+> *Quoting @ethanrkho:* Inside the mind of an ex-SIG quant trader who can't turn off the EV brain - even for his kid's school choice
+>
+> Andrew Courtney (@andrewcourt1) ran the International ETFs Trading Desk at Susquehanna International Group for ~15 years before leaving in 2023. He now runs Kalshionomics (@Kalshinomics), a prediction markets analytics tool, and writes the Whirligig Bear, one of the sharpest prediction markets Substacks out there.
+>
+> "I think of everything as a bet. I kind of don't understand how you talk to normal people — they do not do that."
+>
+> SIG trains their junior traders with poker, spending 2hrs/day turning over cards after every hand, justifying every decision quantitatively AND qualitatively. 15 years later, Andrew views prediction markets the same way: read who's on the other side, size accordingly, fold when the whale comes back at you 10x.
+>
+> We cover:
+> - Why SIG pays junior traders to play poker for 2hrs/day — & what happens after every single hand
+> - The "one eye on the market, always" attention tax that destroys most people's careers
+> - How to find edge in prediction markets by asking: who am I actually trading against?
+> - Why meme-heavy, overhyped markets (Taylor Swift at the Super Bowl) might be the juiciest trades
+> - The insider trading debate in prediction markets — & why it's "socially corrosive"
+> - Floor trading vs. upstairs quant: why the transition saved his career
+> - 40 connections after ~15 years at one of the world's best firms — the hidden cost of prop trading
+> - Why he doesn't have collision insurance on his car (& the EV math behind it)
+>
+> Thank you so much @andrewcourt1 for coming on the pod!
+>
+> Timestamps:
+> 00:00 Intro
+> 05:00 Floor trading vs. electronic trading
+> 06:28 What makes an upstairs trader
+> 10:16 Poker as trader training
+> 13:00 Thinking in bets as a mental framework
+> 15:11 Decision trees in real life
+> 16:40 Where prediction markets actually have edge
+> 19:00 Why the LLM forecasting layer falls short
+> 19:40 Liquidity incentives and trading low-volume markets
+> 22:00 Limiting downside even when the model is wrong
+> 24:32 Executing in illiquid markets
+> 25:44 Fair value vs. directional conviction
+> 27:11 Bayesian updating when liquidity responds
+> 28:40 Fading hype and crowded narratives
+> 31:07 Longshot bias vs. fanbase bias
+> 34:20 How to judge whether you really have edge
+> 36:40 Building analytics tools for prediction markets
+> 38:20 The temporary edge for smart amateurs
+> 40:35 Where prediction markets fit best
+> 41:20 Markets that shouldn’t exist
+> 43:20 Why insider trading corrodes incentives
+> 46:52 Are prediction markets a net good or bad
+> 50:47 Minimizing degeneracy and maximizing signal
+> 53:32 A simple EV mindset anyone can use
+
+- **Tweet:** https://x.com/ethanrkho/status/2064373453906640915
+- **Quoted:** https://x.com/ethanrkho/status/2023118454417481766
+- **What:** Ethan Kho highlights Andrew Courtney's view that illiquid prediction markets briefly give small, technically capable teams a market-making opportunity before institutions arrive, alongside a broader interview on expected-value thinking, market structure, and risk discipline.
+
+## @itsalexvacca - ColdIQ’s voice-governed content production system
+> Giving away the exact system we use to run ColdIQ's entire content operation. Free.
+>
+> 24 of us posting. 581 posts in 87 days. $153K in new MRR. One terminal.
+>
+> Our content lead, Mai-Lan, rebuilt the whole thing from scratch. Here's what it actually looks like:
+>
+> Foundation, built once per person:
+> → A 25-question voice interview that captures how someone actually talks, before AI writes a word
+> → An ICP doc with 3 buyer tiers, each mapped to the exact language they use to search
+> → 3 to 5 content pillars every single post has to trace back to
+>
+> Research layer, 6 agents running in parallel every week:
+> → Apify pulls what's performing on LinkedIn right now
+> → Reddit for how buyers describe their pain in their own words
+> → YouTube for frameworks worth stealing
+> → X for the live debates
+> → Fireflies transcripts from real client calls, the highest-signal source we have
+>
+> Production line:
+> → Hook generator: 50 templates, 20+ variations per idea
+> → Copy developer writes the full draft in the documented voice
+> → A grader scores every post on a 5-part rubric out of 50. Anything under 38 gets sent back and rewritten
+> → Gemini for visuals, Figma and Canva to finish them
+>
+> AI drafts. The human sharpens. The voice profile is the guardrail.
+>
+> Repurpose:
+> One post that lands is one validated idea. We rebuild it into threads, newsletters, blogs, video scripts, and carousels. Each one restructured for the platform it's going on.
+>
+> Refresh:
+> → Every session logs feedback
+> → Every 5 sessions we check where the voice drifted and what kept getting rewritten
+> → Monthly voice refresh from new call transcripts
+> → Quarterly audit against where the market moved
+>
+> The posts aren't even the point. Every one in our ICP's feed makes the next cold email warmer. The name's already familiar. Reply rates climb. Sales cycles compress. The first call goes from "who is this?" to "oh, I've seen your stuff."
+>
+> That's how content became our best outbound channel.
+>
+> Comment "CONTENT" and I'll send you the full cheat sheet. Must be following.
+
+- **Tweet:** https://x.com/itsalexvacca/status/2064347221701910585
+- **What:** ColdIQ describes an AI-assisted content operation that grounds drafts in individual voice interviews, buyer-language research, quality scoring, and recurring feedback so content warms outbound sales rather than merely increasing post volume.
+
+## @sairahul1 - Designing AI engineering loops instead of one-shot prompts
+> Anthropic and OpenAI are both telling engineers to write loops.
+>
+> Not prompts.
+> Not agents.
+> Loops.
+>
+> That is not a coincidence.
+>
+> When the two most important AI labs on the planet independently converge on the same pattern — that is a signal worth paying attention to.
+>
+> Most engineers are still thinking in terms of single calls.
+>
+> Input → model → output.
+>
+> The engineers winning in 2026 think in cycles.
+>
+> Output becomes input. The model evaluates its own work. The loop runs until the result is right.
+>
+> This is the complete breakdown of what loops are, why they matter, and how to build them ↓
+>
+> *Quoting @sairahul1:* https://t.co/kZFYtIdHAj
+
+- **Tweet:** https://x.com/sairahul1/status/2064343621130932644
+- **Link:** https://x.com/i/article/2063986184443899905
+- **Quoted:** https://x.com/sairahul1/status/2064277888216555684
+- **Filed:** [loops-what-every-ai-engineer-needs-to-know-in-2026.md](./knowledge/articles/loops-what-every-ai-engineer-needs-to-know-in-2026.md)
+- **What:** Rahul's loop-oriented AI engineering primer frames useful agent systems as iterative cycles where outputs are reviewed, fed back as inputs, and rerun until the work meets a quality bar.
+
+## @elvissun - Newsjack agent skills for PR monitoring and outreach
+> today I'm launching https://t.co/8r3mWREcFx
+>
+> open source skills that turn any agent into a full PR team. one install and it monitors the news, spots angles, finds journalists, and gets you featured in the news.
+>
+> curl -fsSL https://t.co/8r3mWREcFx | bash
+>
+> real demo: https://t.co/TldOTvox1E
+
+- **Tweet:** https://x.com/elvissun/status/2064341174450897363
+- **Link:** https://github.com/elvisun/newsjack
+- **Filed:** [newsjack](./knowledge/tools/newsjack.md)
+- **What:** Newsjack is an open-source set of agent skills for PR work: it monitors relevant news, evaluates whether a company has standing to respond, develops media angles, and identifies appropriate journalists so outreach is targeted instead of indiscriminate.
+
+## @bcherny - Claude Code nested subagents with a depth-five cap
+> Just landed nested subagent support in Claude Code
+>
+> Starting to experiment more with agents kicking off agents as a way to better manage context. Capped at depth=5 to start, going out in today’s release.
+>
+> Lmk what you think!
+
+- **Tweet:** https://x.com/bcherny/status/2064327225504403752
+- **What:** Boris Cherny announces Claude Code support for nested subagents, initially limited to five levels of delegation, as an experimental mechanism for splitting work and preserving manageable context across multi-agent task hierarchies.
+
+## @KoroushAK - Breakout trading strategy cheat sheet
+> This strategy has caught me more breakouts than anything else.
+>
+> In this guide you'll get:
+>
+> - Exact entry and exit rules
+> - Optimal trading environments
+> + Real Trade Examples (not just theory)
+>
+> I also made a full cheatsheet for you to download.
+>
+> Enjoy. https://t.co/puHu61Fuw7
+>
+> *Quoting @KoroushAK:* https://t.co/okdVCcBVaR
+
+- **Tweet:** https://x.com/KoroushAK/status/2064301991803879655
+- **Link:** https://x.com/i/article/2013230248947785728
+- **Quoted:** https://x.com/KoroushAK/status/2016502313230504233
+- **Filed:** [breakout-trading-strategy](./knowledge/articles/breakout-trading-strategy.md)
+- **What:** Koroush AK promotes an accompanying guide that distills a nine-year breakout-trading practice into explicit entries, exits, market conditions, examples, and a downloadable cheat sheet, framing the article as a way to avoid years of individual strategy testing.
+
+---
+
+# Monday, June 8, 2026
+
+## @hosseeb - Claude Code analysis prompts sleep-apnea testing
+> OK, so I became one of those people: Claude diagnosed my sleep disorder.
+>
+> Here's the story.
+>
+> I'd been sleeping worse and worse since hitting my mid-30s. I've been averaging 5:30-5:45 a night for a couple years now, while in my 20s I was getting 7+ hours a night. I figured it must be stress, sleep hygiene, perhaps just aging--or maybe I'm one of those freaks of nature who doesn't actually need much sleep.
+>
+> Eventually I bought an Oura ring and started tracking sleep, figuring "what gets measured gets optimized." But it didn't optimize anything, it mostly just showed me high-resolution charts that, yeah, my sleep sucks. It never pointed out anything obviously wrong other than how little I was sleeping.
+>
+> Nothing seemed to help. Phone in another room, eye mask, blackout curtains, white noise machine, nothing seemed to help. My body just didn't want to sleep more than 6 hours a night.
+>
+> Eventually I decided: fuck it. I'm pretty productive, maybe this is all I need. People say humans need 7-9 hours a night, but that's averages right? I'm probably just an outlier.
+>
+> I stopped worrying about it.
+>
+> Later I mentioned to an acquaintance that I was tired since I had woken up multiples times in the night.
+>
+> They said: multiple times? That's really weird. You shouldn't be waking up multiple times in the night at your age.
+>
+> Weird? That's not weird.
+>
+> Is that weird?
+>
+> That evening I asked Claude: is it weird for an in-shape mid-30s male to be waking up multiple times a night?
+>
+> Answer: yes, that is weird. If you aren't sleeping enough and waking up multiple times a night, that usually means something is wrong. You should look into getting a sleep study.
+>
+> I asked it what a sleep study measures, and if any of that data already lived in my Oura ring. Sure enough, some of it did--not sleep study grade, but enough for a first cut.
+>
+> So I busted out Claude Code, since I would want Claude to have maximum access to tools for this. I had it figure out how to pull from the Oura API (using personal access tokens, ask your Claude for instructions) and pull down all of my sleep data. I then had it use Python to statistically analyze everything (heart rate, SpO2, wake events, sleep stages), test multiple hypotheses, and generate a dashboard full of charts, while explaining everything it was doing so I could follow along.
+>
+> After 30 minutes of slicing and dicing, a hypothesis emerged: UARS, upper-airway resistance syndrome, a mild cousin of sleep apnea.
+>
+> No way. Sleep apnea?
+>
+> I don't snore, I'm not overweight. No way I have sleep apnea. This is the first time I've ever heard this.
+>
+> Claude walked me through it. UARS is milder than full-blown sleep apnea. In UARS, your airway doesn't collapse, it just narrows, particularly in REM sleep when the muscles in your throat relax. This causes your oxygen to gradually drift down over the course of REM sleep, until your brain yanks you awake before it becomes a full apnea. In your 20s the muscle tone in your throat keeps your airway open, but as you age that tone slackens, which can trigger this effect, fragmenting your sleep.
+>
+> It looks exactly like this: waking up disproportionately during REM sleep multiple times a night. That actually tracked; I realized that almost every time I woke up in the middle of the night, it was out of a dream.
+>
+> Claude was clear that the Oura ring data was not dispositive, because it wasn't able to measure breathing disruptions per hour (RDI), which you'd get in a sleep study. Do a sleep study, get the RDI number, and then we'll have our smoking gun.
+>
+> It pointed me to an FDA-approved at-home sleep study device (with finger probe and chest sensor) called WatchPAT for $200. After one night of recording, I got the results back to the next day:
+>
+> Mild sleep apnea, likely UARS. Dammit Claude. Nicely done.
+>
+> Here's the takeaway, and why I'm posting this: I'm a textbook "no way it's me" case. UARS often shows up in healthy, normal weight people who don't fit the apnea stereotype, and often gets missed for that reason.
+>
+> It's easy to attribute poor sleep to insomnia or anxiety or stress, and there's an infinite supply of influencers who will pitch you reasons to feel like your sleep ritual is the problem. If you just got that red light glasses, or the blackout curtains, or took that sleeping peptide, maybe you'd be able to fix your sleep.
+>
+> Roughly 10-15% of adults have some form of sleep apnea, and vast majority of them (80%+) are undiagnosed. If this might be you, run your fitness tracker data through your neighborhood frontier LLM. You'll thank yourself later.
+
+- **Tweet:** https://x.com/hosseeb/status/2064042451850121632
+- **What:** Haseeb Qureshi describes using Claude Code to analyze Oura sleep data, generate hypotheses, and pursue clinical testing that found mild sleep apnea likely related to UARS, while emphasizing that consumer metrics were only a prompt for—not a substitute for—a sleep study.
+
+## @0xSero - Seeking rigorous training guidance for agent and inference traces
+> Calling on training wizards.
+>
+> So my understanding is the Spark is good for training, I am interested in training my models on:
+>
+> - tons of agent traces and git traces
+> - tons of inference work
+>
+> I can prompt my way through it, but doing it more rigorously is not my list.
+>
+> What would you recommend?
+>
+> - libraries
+> - frameworks
+> - algorithms
+> - resources
+
+- **Tweet:** https://x.com/0xSero/status/2064011929274720510
+- **What:** 0xSero is looking to move from prompt-only iteration to a rigorous model-training workflow that can learn from agent, Git, and inference traces, seeking concrete choices of libraries, frameworks, algorithms, and learning resources.
+
+## @konstipaulus - text-to-lottie agent animation skill
+> Introducing text-to-lottie: an open source skill and harness for generating production ready Lottie animations with codex/claude code.
+>
+> $ npx skills add diffusionstudio/lottie
+>
+> Prompts guide and repo in the comments.
+
+- **Tweet:** https://x.com/konstipaulus/status/2064011863889788972
+- **What:** Konstantin introduces text-to-lottie, an open-source skill and harness intended to have Codex or Claude Code turn natural-language prompts into production-ready Lottie animation assets; this bookmark did not include an expanded repository or guide link.
+
+## @KingBootoshi - Single-agent Codex workflow with ADRs and dogfooding
+> i fucked up my sleeping schedule because of my new ai workflow but it's SOO worth it. i feel i have leveled up my engineering productivity to new heights again!
+>
+> ‼️ (LONG, detailed write up on it below)
+>
+> i've finally found the BEST workflow i've ever used for coding after a lot of trial and error with 'productivity theatre'
+>
+> for ex. having agents orchestrate subagents in attempts to token maxx and try to capture as much work as i can in one shot
+>
+> while that DID work, and it WAS good (and quite necessary) with older models (opus 4.5, and gpt 5, lol) it is no longer good with the new generation of models (gpt 5.5 and opus 4.8)
+>
+> while the numbers of these models seem like small increments they are COMPLETELY different in capabilities.
+>
+> because of their extended context window and increased intelligence, they are actually more capable BY THEMSELVES in one single MEGA THREAD.
+>
+> breaking a complex task down into steps and using subagents of these models to execute them in parallel is now an improper way to use these models
+>
+> instead, breaking a complex task down into steps, and having ONE SINGLE CODEX AGENT run through the full list, A-Z, with /goal mode, has been the most ACCURATE, FAST and POWERFUL workflow i've ever done in my life
+>
+> several months ago @steipete posted a blog post (linked below) titled 'just talk to it' in which he just... talked to a codex agent to get work done. no crazy multi-agent workflows, no crazy plugins... this madman just tells it something to do and trusts it to do it
+>
+> now i didn't trust codex to do this reliably back in october last year when this was posted, and everytime i tried it myself I did not get optimal results
+>
+> codex was always a good model for writing raw code, but it was too autistic to understand my intent, so i used claude code to manage codex agents to get tasks done.
+>
+> that carried me throughout the first half of 2026 and was the best personal workflow i had, because i had one main agent who understood my intent that can keep these autistic coding monsters aligned and in checked
+>
+> HOWEVER - with the release of 5.5, and updates to the codex harness (SPECIFICALLY /goal mode), my old workflow is completely invalid now!
+>
+> i dedicated the first month of 5.5 release to code exclusively with codex. it was really clunky, and felt really weird, and i am a bit neurodivergent so talking with codex (who definitely feels neurodivergent in the way it communicates LOL) was really awkward and weird
+>
+> the problem was i was so used to talking to Opus, and Codex doesn't understand me the way Opus did. it took a couple weeks to adjust my communication style to match Codex, and then we REALLY started cooking!
+>
+> i started new complicated projects from scratch to REALLY test it's capabilities and this MONSTER was able to handle crazy projects for me, like building a resilient system that spins up microVMs on my mini for securely housing isolated agents
+>
+> just by... talking to it. now i do have some personal skills that match my workflow i've created, and guardrails on my codebase like ESLint to help keep it in check, but codex just created these when I asked it too and updates it to match the work it does
+>
+> what makes Codex spectacular is its ability to 'dogfood' and run E2E tests via computer use on my macbook
+>
+> i feel this is a heavily underrated feature, but it is a 10x level up in terms of the agent creating reliable code on the spot, and only reporting back to me once the code is  fully tested from a user's perspective
+>
+> the magic verb here is 'dogfood' the work. dogfooding means using your own software before releasing it to customers. codex is great at using the software it codes before releasing it back to ME!
+>
+> because this increases the reliability of the work, i no longer waste time on fixing a broken feature only discoverable through using the actual app (which takes a TON of time when you repeat this over and over)
+> and instead focus on prompting the next feature
+>
+> this is an AMAZING time saver because @RayFernando1337 taught me that the code itself will look flawless and logically be 'bug free' while dogfooding the app shows there problems that end up being architectural - codex is great at finding these on its own and re-designing the logic to solve the problem, unsurprisingly without breaking other features
+>
+> because if it does end up breaking other features in a re-write, it finds it, throwing a net over all related problems it finds and designs the proper solution because it has FULL context
+>
+> in the past, telling an agent to 'fix' a problem lead to it breaking other working features in the process, but hey, it 'fixed' the original problem, lol
+>
+> in terms of how I talk to Codex to achieve these great results is very simple, but ends up taking quite a bit of time. i will go into more detail here, because it is the most CRUCIAL part of the entire process. literally NOTHING matters more than the discussion phase for critical work which you CANNOT fuck up. every optimization to your workflow you can do is minuscule compared to the impact this setup has!
+>
+> i have been working on my product for the last 6 months, building something to completely automate impactful workflows for non-technical business owners local in my area. AI is confusing, so I've designed a solution to make this incredibly simple to use. like, they don't even have to talk to an agent or use the app at all, besides clicking a button here and there
+>
+> point being, it has become quite a large codebase that i need to work in with extreme care. i cannot just tell codex to do something in two sentences because it does not understand the specifics of my design taste - but after a couple back and forths of simple conversation, it becomes FULLY aligned with me, understands what it needs to do with bullseye precision, and one shots a LARGE chunk of work with NO errors. it delivers perfection, every single time.
+>
+> the process basically goes like this:
+>
+> 1. me: "hey codex, we need to implement billing. i want this centralized and enforced so every single billable service routes through this system. research and scope this out, then report back to me with a couple options of the simplest design we can do that is the most correct solution long term - and a maximum of 5 important architectural questions I need to answer"
+>
+> (note: 'simplest' design actually makes it not over-engineer. i ask for different options to activate 'creative' vectors by exploring completely different solutions. I have to tell it to find the most correct solution long term, because if I don't, it will find the 'simplest' solution that does the job effectively, but is poor for scale or the long term vision. the mix of these 3 simple requests have produced the most effective output for me)
+>
+> 2. codex then goes and reads any relevant docs, our ADR (CRITICAL, will explain this more below), and the raw code itself.
+>
+> it is CRITICAL to NOT let a codex sub-agent do the reading here. sub-agents do a great job at compacting large amounts of research, but code is specific and logic is critical. a summary has always missed important details. A great benefit of having one codex agent read and hold this logic is it does not have to read the files again, and BLASTS through implementation
+>
+> 3. since 5.5 is VERY intelligent, it reports back with highly impactful questions that allow me to align my intent with Codex. they're usually incredibly easy to answer, and i always ask for it's recommended answer and an explanation supporting it.
+>
+> if you have ADRs set up in your codebase, you may find that Codex ends up recommending answers that are COMPLETELY aligned with you.
+>
+> 95% of the time, i am not answering these questions, because it deadass recommended what i would've said, so i just say "yes" to confirm my alignment
+>
+> NOW - a quick side track into what an ADR is, how I use it and why this completely replaced any other form of documentation in my app
+>
+> an ADR is an Architectural Decision Record. it is an enterprise practice that allows big teams and new hires to be aligned on how to THINK about the codebase, thus allowing them to develop proper solutions for new features or bug fixes
+>
+> in this discussion process with codex, once we are both aligned after our conversation, often times we will finalize on a core, well, architectural decision (lol) that future devs (or agents) MUST follow. this goes in docs/adr, and is labeled in numerical order.
+>
+> yes it is just a .MD file, but a highly impactful one!
+>
+> you can just prompt the agent to turn the discussion into an ADR, and it does a great job with no further explanation! the contents of mine consist of:
+>
+> - a single sentence of the decision we made (the title)
+> - context of why it exists
+> - a deeper explanation of the decision
+> - a list of invariants (conditions that MUST be true in order to respect the decision)
+> - the consequence of not following the decision (typically, explaining the problems it prevents)
+> - file references (usually core services that agents need to understand and import functions from)
+>
+> i try to keep it as small as possible, always try to simplify the core intent into the minimal tokens required for an agent to understand it. though, this is not TOO much of an issue because of the larger context windows  new gen LLMs have now.
+>
+> understanding and using ADRs have been more impactful for me in agent accuracy and efficiency in large codebases than ANY skill, tool, or 'prompt' combined, TENFOLD
+>
+> ( btw i picked up this concept from @mattpocockuk 's posts, so i am grateful for the insights he has shared)
+>
+> OKAY - now that you understand the concept and importance of ADRs a bit more, we shall get back to the final steps of the codex workflow
+>
+> 4. now that the discussion phase is done, i will tell Codex the following prompt:
+>
+> "Create a Master PRD, and execute this to completion with goal mode. Make sure to dogfood it and run e2e tests"
+>
+> a lot of people don't know that Codex can make its own goal through a tool it has. i never write the /goal manually. i tell codex to make a master PRD to ensure the truth is aligned when it compacts, and it creates a goal for itself to FULLY implement and test the feature
+>
+> these runs usually take an hour or 2, but DAMN it works so well in comparison to anything i've done, and it's the simplest workflow i've used so far
+>
+> now I am trying to figure out how to level this workflow up, because there's no way i am waiting 1-2 hrs when i can be token maxxing with efficiency
+>
+> today i saw a post from peter (clawfather) and a clip from boris (claude code creator) where they brought forth the concept of creating loops
+>
+> and i have no idea how these madmen with access to infinite tokens operate, BUT it sparked an idea in my head of how to level up my current workflow, and it seems like the idea lies in having one main agent handling multiple threads of consistent codex agents
+>
+> i've orchestrated in the past using one main agent that creates temporary (stateless) agents to solve the task at hand and de-spawn
+>
+> but given how well this workflow has worked for me, it feels like the proper way to have an orchestration is to have one agent handle multiple stateful agents, and have it handle this workflow loop i described in this post
+>
+> ANYWAYS that's my current update on what's been helping me a lot, if you have any questions please drop them below! i'm happy to help if you DM me as well, God bless you and i hope you have a great day 🫡
+
+- **Tweet:** https://x.com/KingBootoshi/status/2063999432077795579
+- **What:** Bootoshi advocates a single long-context Codex thread over broad subagent orchestration: first research and resolve a few architectural questions, preserve decisions as concise ADRs, then let goal mode implement a master PRD and dogfood the result with end-to-end tests.
+
+## @samlambert - Recurring Cursor agent cron loop
+> I built a looping agent:
+>
+> */5 * * * * cursor agent -p "do stuff"
+
+- **Tweet:** https://x.com/samlambert/status/2063993739224494151
+- **What:** A deliberately minimal automation pattern: cron invokes Cursor Agent every five minutes, turning one prompt into a persistent background loop whose practical usefulness depends on carefully defining its task, state, and safety boundaries.
+
+## @mattpocockuk - skills /teach guided learning workflow
+> /teach is live
+>
+> Learn anything, from rubik's cube to vocal harmonies to software fundamentals.
+>
+> npx skills add mattpocock/skills --skill teach
+>
+> Best skill I've ever built, video coming soon
+>
+> https://t.co/GAv1jBFwsX
+
+- **Tweet:** https://x.com/mattpocockuk/status/2063988995692900439
+- **Link:** https://github.com/mattpocock/skills/tree/main/skills/productivity/teach
+- **Filed:** [mattpocock-skills-teach](./knowledge/tools/mattpocock-skills-teach.md)
+- **What:** Matt Pocock's new `/teach` agent skill provides a reusable guided-learning workflow for subjects from physical skills to software fundamentals, distributed as a selectable component of his highly starred, composable engineering-skills repository.
+
+## @sudoingX - X Premium+ as founder distribution infrastructure
+> i'm not exaggerating, go into debt for this one if you have to.
+>
+> i took this account from 200 followers to past 30k now, and the monthly revenue, the partnerships, the clients, the actual users on my platform, almost all of it traces back to this one subscription and learning to actually use it. it changed my life and i don't say that lightly.
+>
+> i'm writing the whole thing up right now, every play, exactly how i use x premium+ to turn a timeline into a business. nothing paywalled, all free.
+>
+> if you take one thing from me, take this.
+>
+> *Quoting @sudoingX:* listen anon, if you're a serious founder and i could lock you into ONE subscription, no debate, it's x premium+. it was the go to before grok build. now it's not even close.
+>
+> what you actually get:
+> > grok build, a full agentic coding agent, bundled in
+> > grok at the highest limits, your research and reasoning copilot
+> > the biggest reply and ranking boost on the platform, real reach
+> > creator monetization, turn followers into revenue
+> > long-form posts and articles to build authority
+> > full analytics plus radar to see what lands
+> > ad-free, verified, longer video
+>
+> you pay coding-agent money and get a distribution engine, a monetization rail, and an ad-free feed on top. that's the nonnegotiable part.
+
+- **Tweet:** https://x.com/sudoingX/status/2063955417823326602
+- **Quoted:** https://x.com/sudoingX/status/2063952896207794626
+- **What:** Sudo presents X Premium+ as founder infrastructure rather than a badge: it combines an agentic coding assistant, research capacity, ranking reach, monetization, analytics, and long-form publishing, then points to personal audience and business growth as the claimed payoff.
+
+## @sudoingX - X Premium+ as an all-in-one founder subscription
+> listen anon, if you're a serious founder and i could lock you into ONE subscription, no debate, it's x premium+. it was the go to before grok build. now it's not even close.
+>
+> what you actually get:
+> > grok build, a full agentic coding agent, bundled in
+> > grok at the highest limits, your research and reasoning copilot
+> > the biggest reply and ranking boost on the platform, real reach
+> > creator monetization, turn followers into revenue
+> > long-form posts and articles to build authority
+> > full analytics plus radar to see what lands
+> > ad-free, verified, longer video
+>
+> you pay coding-agent money and get a distribution engine, a monetization rail, and an ad-free feed on top. that's the nonnegotiable part.
+
+- **Tweet:** https://x.com/sudoingX/status/2063952896207794626
+- **What:** A founder-focused value proposition for X Premium+ that treats the subscription as a bundle of Grok coding and research capacity, platform distribution advantages, audience analytics, creator monetization, and an ad-free publishing environment.
+
+## @jumperz - Coordinating agents around goals rather than prompts
+> peter is right.. in other words you have to know how to coordinate and give the right roles to your agents.
+>
+> for example, i'd bet most people running /goal on codex don't have a system behind it... they're still prompting some big block of text..
+>
+> the point of /goal is to stop answering and start coordinating well.
+>
+> /goal "<objective>"
+>
+> don't give me one answer turn my objective into a multi-agent loop:
+>
+> >decompose the work
+> >assign the right agent
+> >coordinate dependencies
+> >execute in order
+> >review against the original goal
+> >gate before shipping
+> >save what worked
+> >report only what matters
+>
+> this will 10x your output, because you basically will stop prompting big text and start using codex's agents the way they're meant to while everything has its role so your goal gets executed perfectly and big part of this is that you just stop being the bottleneck...
+>
+> apply this eveyrwhere not just codex btw.. decompose, assign, coordinate, gate, report...claude code, your own agent stack, anything...
+>
+> *Quoting @steipete:* Here’s your monthly reminder that you shouldn’t be prompting coding agents anymore.
+>
+> You should be designing loops that prompt your agents.
+
+- **Tweet:** https://x.com/jumperz/status/2063948602313965580
+- **Quoted:** https://x.com/steipete/status/2063697162748260627
+- **What:** This expands the call for agent loops into an operational recipe: decompose an objective, assign specialist roles, sequence dependencies, validate against the goal, and retain proven practices so the human directs the system instead of serving as its bottleneck.
+
+## @badlogicgames - Open-source agent-maintenance systems
+> recommended reading.
+>
+> https://t.co/4rY87G8hfT
+> https://t.co/heIAA2JHZK
+>
+> *Quoting @steipete:* @heyandras You can look at clawsweeper and crabfleet where I explore these ideas, it’s all oss.
+
+- **Tweet:** https://x.com/badlogicgames/status/2063932627141185903
+- **Link:** https://github.com/openclaw/clawsweeper
+- **Link:** https://github.com/openclaw/crabfleet
+- **Quoted:** https://x.com/steipete/status/2063871863210852794
+- **Filed:** [openclaw-clawsweeper](./knowledge/tools/openclaw-clawsweeper.md)
+- **What:** A recommendation for Peter Steinberger’s open-source experiments in agent operations: ClawSweeper applies guarded, scheduled issue and PR maintenance, while CrabFleet provides mission control for agent runs; the featured ClawSweeper repository is filed here.
+
+## @tekbog - Designing agent loops instead of one-off prompts
+> if anyone is lost or curious what loops look like with LLMs, here's something I made for clanker months ago, this is from our open source project
+>
+> yes, this consumes A LOT of tokens and the difficult part was to limit it
+>
+> repo down below, this powers clanker cloud https://t.co/Jn0EpZfOJZ
+>
+> *Quoting @steipete:* Here’s your monthly reminder that you shouldn’t be prompting coding agents anymore.
+>
+> You should be designing loops that prompt your agents.
+
+- **Tweet:** https://x.com/tekbog/status/2063888903908864060
+- **Quoted:** https://x.com/steipete/status/2063697162748260627
+- **What:** An implementation-oriented endorsement of agent orchestration loops: the quoted advice rejects isolated coding-agent prompts, while the commentary points to an open-source production loop and highlights token-budget control as its central engineering constraint.
+
+## @zzarakkk - Love as the motivation for creative work
+> u eventually start to love the game for the game. u wake up and do the work for the sake of the work and nothing else. To labor in arts or entrepreneurship for any reason other than love is prostitution
+
+- **Tweet:** https://x.com/zzarakkk/status/2063882418642395470
+- **What:** A reflection on intrinsic motivation that frames enduring creative and entrepreneurial work as devotion to the craft itself, rather than a transaction pursued primarily for external rewards.
+
+## @mvanhorn - What an agentic coding loop actually means
+> https://t.co/DM0CAuyprS
+
+- **Tweet:** https://x.com/mvanhorn/status/2063865685558903149
+- **Link:** https://x.com/i/article/2063850827694096385
+- **Filed:** [wtf-is-a-loop-peter-steinberger-vs-boris-cherny](./knowledge/articles/wtf-is-a-loop-peter-steinberger-vs-boris-cherny.md)
+- **What:** This X Article examines the contested idea of an AI-coding “loop” through Peter Steinberger and Boris Cherny’s contrasting framing, using a recent timeline debate to clarify whether looping means repeated prompting, goal persistence, or broader agent orchestration.
+
+---
+
+# Sunday, June 7, 2026
+
+## @kunchenguid - No-mistakes review skill for agent code changes
+> /no-mistakes is here!
+>
+> by popular demand i've made the most impactful tool in my agentic engineering setup "no-mistakes" invocable as a skill in Claude Code, Codex et al
+>
+> just type "/no-mistakes" once your agent has made changes, and watch the magic unfold
+>
+> details below 👇 https://t.co/2HVxhLvVka
+
+- **Tweet:** https://x.com/kunchenguid/status/2063817705640382553
+- **What:** Kun Chen packages the post-change quality check from an agentic engineering workflow as a portable /no-mistakes skill for Claude Code, Codex, and similar agents, emphasizing a deliberate review pass after implementation rather than trusting the first generated diff.
+
+## @bcherny - Long-running Opus agents need workflows and verification
+> Seeing a number of benchmarks showing Opus is the best model for long-running work.
+>
+> Five tips for running Opus autonomously for hours/days:
+>
+> 1. Use auto mode for permissions, so Claude doesn’t ask for approval
+> 2. Use dynamic workflows, to have Claude orchestrate hundreds/thousands of agents to get a task done
+> 3. Use /goal or /loop, to nudge Claude to keep going until it’s done
+> 4. Use Claude Code in the cloud, so you can close your laptop (easiest way is the desktop or mobile app)
+> 5. Make sure Claude has a way to self-verify its work end to end: Claude in Chrome browser extension for web, iOS/Android sim MCP for mobile, a way to start the full web server or service for backend work
+>
+> *Quoting @rishi_desai2:* Can coding agents stay coherent over a 1 billion token budget?
+>
+> Can they build Slack from scratch?
+> Rewrite a JAX codebase in PyTorch?
+> Build a C compiler in Rust?
+>
+> Enter SWE-Marathon: a benchmark for autonomous long-horizon software work. https://t.co/K97VHyLvIX
+
+- **Tweet:** https://x.com/bcherny/status/2063792263067754658
+- **Quoted:** https://x.com/rishi_desai2/status/2062930906818769356
+- **What:** Rishi Desai’s SWE-Marathon benchmark frames the challenge of billion-token autonomous software work, and Boris Cherny translates that ambition into an Opus operating model: permissive execution, dynamic agent workflows, persistent goals, cloud runtime, and end-to-end self-verification.
+
+## @0xSero - Design agent loops instead of manually prompting
+> I’ve never had more time to do stuff other than prompting in the last 2 years.
+>
+> /goal in codex is the most advanced of course. You can do 2 types of goals
+>
+> 1. Single loop until a goal is reached
+> 2. Unbounded loop by having codex setup automations so loop keeps running perpetually
+>
+> *Quoting @steipete:* Here’s your monthly reminder that you shouldn’t be prompting coding agents anymore.
+>
+> You should be designing loops that prompt your agents.
+
+- **Tweet:** https://x.com/0xSero/status/2063723648452805103
+- **Quoted:** https://x.com/steipete/status/2063697162748260627
+- **What:** Peter Steinberger argues that coding-agent users should design recurring loops instead of manually prompting, while 0xSero grounds that idea in Codex /goal workflows that either finish a bounded objective or automate an indefinitely running cycle.
+
+## @Mnilax - 17 prompts for unattended Hermes agents
+> https://t.co/LPd0lcUCYN
+
+- **Tweet:** https://x.com/Mnilax/status/2063697740526399833
+- **Link:** https://x.com/i/article/2063676886031495171
+- **Filed:** [17-prompts-that-make-hermes-run-while-you-sleep](./knowledge/articles/17-prompts-that-make-hermes-run-while-you-sleep.md)
+- **What:** This X Article collects 17 copy-paste prompts for turning Nous Research's self-hosted Hermes Agent into a persistent, unattended assistant rather than an IDE-bound chat session, making autonomous overnight workflows more practical.
+
+## @doodlestein - FrankenEngine's first real-world YouTube automation trial
+> This is exciting. I decided to add a whole YouTube search/download system to my FrankenWhisper project to make it quick and easy for agents to put together a set of really polished transcripts for a list of YT videos or an actual YT playlist.
+>
+> I figured I could just do a clean-room, memory-safe port to Rust of yt-dlp, but I underestimated how complex it is to deal with YouTube's anti-bot measures.
+>
+> The hardest part is that you need to run some very complex, very obfuscated JS to reliably make it all work.
+>
+> Which normally would throw a big monkey wrench into my goal of making a clean, self-contained, memory-safe Rust project, because then you have to bring in browsers and all this other nonsense, you have to grapple with FFI stuff that makes unsafe unavoidable, etc. A real buzz kill.
+>
+> But it just so happens that I've been working for months on FrankenEngine, my from-scratch JS engine designed specifically for handling adversarial extension workloads in AI agent harnesses. If we could use that for this purpose, it would totally solve the problem.
+>
+> Now, this is particularly exciting for me because I still haven't actually tried to USE FrankenEngine for anything yet, despite investing many, many billions of tokens to create millions of lines of Rust and 100k+ tests.
+>
+> To give a sense of the effort so far, FrankenEngine now has 5,273 commits despite being started just 4 months ago:
+>
+> https://t.co/sNAqdvgFq7
+>
+> Anyway, if I can get this all to work, not only will it be a very useful tool in general, but it will be a truly demanding existence proof that FrankenEngine really does work and can handle real-world, complex applications in practice.
+>
+> Which, if true, would really be quite incredible if you think about it. The teams that have been assembled by Google to create its V8 JS engine, or by Apple to make its JavaScriptCore engine, are extensive and include some of the smartest, most highly paid engineers at either company. And they've been at it for 10+ years already.
+>
+> And btw, FrankenEngine doesn't exist in isolation; it has a sister project, FrankenNode, which is my agent-centric replacement for Node/Bun (and this time, the Rust engineering is actually done properly, without all the unsafe and UB!). See https://t.co/OZrp5GKk4G for details on that one.
+>
+> Anyway, the next week or so will be very interesting and exciting for me. Since this will be the first real-world use case for FrankenEngine, it will likely reveal some problems that were missed despite its insane collection of over 100,000 tests, but I should be able to quickly triage and fix all of them.
+>
+> If you want to follow along, here's the repo for FrankenWhisper:
+>
+> https://t.co/YHplk5CvD8
+
+- **Tweet:** https://x.com/doodlestein/status/2063691042902192588
+- **Link:** https://github.com/Dicklesworthstone/franken_engine
+- **Link:** https://github.com/Dicklesworthstone/franken_node
+- **Link:** https://github.com/Dicklesworthstone/franken_whisper
+- **Filed:** [franken-engine](./knowledge/tools/franken-engine.md)
+- **Filed:** [franken-node](./knowledge/tools/franken-node.md)
+- **Filed:** [franken-whisper](./knowledge/tools/franken-whisper.md)
+- **What:** Emanuel is testing whether FrankenEngine can execute YouTube's anti-bot JavaScript inside a Rust-based transcription workflow, making FrankenWhisper a consequential real-world validation of the new engine; FrankenNode is the related agent-centric JavaScript runtime project.
+
+## @0xSero - ai-data-extraction for portable AI coding session archives
+> Do you want to dabble in Reinforcement Learning?
+>
+> Do you want to recover all your AI session data in a neat, training ready package?
+>
+> Do you want to backup all your data? Learn about your patterns.
+>
+> Works for Droid, Opencode, Codex, Claude Code, Cursor
+>
+> https://t.co/9xnHoJAWK4
+
+- **Tweet:** https://x.com/0xSero/status/2063657737742164458
+- **Link:** https://github.com/0xSero/ai-data-extraction
+- **Filed:** [ai-data-extraction](./knowledge/tools/ai-data-extraction.md)
+- **What:** This Python toolkit consolidates local histories from AI coding assistants into structured JSONL, preserving messages, code context, diffs, tool results, and metadata for backups, personal analysis, or training-data preparation.
+
+## @caspar_br - LangChain Fleet for shared scheduled workflow agents
+> We're building this at LangChain
+>
+> Fleet lets you create and manage a fleet of agents. Each agent specializes in a workflow, e.g. inbox management, blog writing, competitor research, candidate recruiting. These are Deep Agents with custom instructions, skills, tools, subagents, and memory. They continually improve with feedback. You can share them with your coworkers. You can configure them to run on a schedule. You can export their context files should you ever want to host them yourself
+>
+> I think Fleet strikes a great balance: easy to use and still highly capable
+>
+> We've put an inordinate amount of thought into the UX patterns that make that possible. For example, I love our 'channels' concept: you can configure your agent's communication channel (e.g. Slack, Teams, email, etc.) so it meets you where you work instead of forcing you into Fleet's UI
+>
+> It's free to try out so give it a spin and share feedback: https://t.co/TRYcK32IBB
+>
+> *Quoting @patrickc:* I want some kind of LLM workflow tool.
+>
+> • Ability to manage a set of input files (Markdown or similar), plus other general-purpose context.
+> • With real-time collaboration. (And maybe some concept of snapshots or VCS integration.)
+> • And the ability to create/manage a inference workflows and a stored set of prompts.
+> • Access to general-purpose coding agents (and not just chat models).
+> • Some concept of compiled outputs/inference results (which ideally can be shared externally).
+>
+> Many projects have this feeling: "there is all this stuff, which I want to process/compute over in this iterated way, with some build artifacts being important/worth saving." GNU Autotools x Notion or something. Is anyone building this?
+
+- **Tweet:** https://x.com/caspar_br/status/2063639519723938126
+- **Link:** https://smith.langchain.com/agents
+- **Quoted:** https://x.com/patrickc/status/2063337800209179029
+- **What:** Fleet is positioned as a hosted, shareable layer for scheduled workflow specialists, while Collison's quoted brief explains why teams need versioned, collaborative contexts, prompts, coding agents, and preserved outputs around them.
+
+## @Teknium - A shared operating-constitution hub for agents
+> We probably need a SOUL Hub don't we haha
+>
+> *Quoting @PrajwalTomar_:* WAIT. This is actually insane.
+>
+> A senior dev dropped the SOUL .md template behind his Hermes Agent. Says he's never shared this before.
+>
+> The sections that turn your agent from a chatbot into an autonomous operator:
+>
+> → Stance: direct, opinionated, push back when I'm vague
+> → Accountability: surface opportunities, flag stalled loops
+> → Autonomy: broad freedom except for irreversible actions
+> → Mission: priorities, active builds, debt, sunset candidates
+> → Pushback: disagree openly, earn it with evidence
+> → Operating Mode: orchestration, not solo execution
+>
+> The author says three sections decide if the agent acts like an operator: Stance, Autonomy, and Mission.
+>
+> The Autonomy section alone is worth the whole template. Most builders never write this out and then wonder why their agent asks permission for every action.
+>
+> (Full template in the comments)
+
+- **Tweet:** https://x.com/Teknium/status/2063540969811964025
+- **Quoted:** https://x.com/PrajwalTomar_/status/2063270866558067069
+- **What:** The post argues that reliable autonomous agents need an explicit, reusable operating constitution—stance, mission, boundaries, accountability, and orchestration—motivating a shared SOUL Hub rather than ad hoc prompts.
+
+---
+
 # Saturday, June 6, 2026
 
 ## @sudoingX - Training a neural net on Kepler light curves using DGX Spark as a personal research lab
-> people keep asking what i actually do with the dgx spark sitting on my desk. 
-> 
+> people keep asking what i actually do with the dgx spark sitting on my desk.
+>
 > i kept answering with inference benchmarks, large models running reliably, big context, the usual. and that's all real, but it was never the point. it's not an inference box. it's the smallest research lab i've ever owned.
-> 
+>
 > so here's the one thing. i'm training a neural net from scratch to find exoplanets in starlight. no pretrained weights, no borrowed architecture, my own design, on real Kepler data. right now it sits at 0.75 on a tiny slice, 514 stars out of 7,586. proof of life, nothing more.
-> 
+>
 > now the move is to go big. first the full labeled archive, fifteen times the data. then the part i'm itching toward, self-supervised pretraining on around 200,000 raw light curves, a corner of machine learning i've genuinely never worked in before.
-> 
+>
 > and this is where the box stops being a gimmick. one gb10, 121gb of unified memory, so the entire dataset lives in ram and i train for days with zero data-loader bottleneck, the thing that usually kills experiments like this on a normal rig. no streaming, no thrashing, just the whole sky sitting in memory.
-> 
+>
 > everyone treats the spark as an inference box. on my desk it's a from-scratch research lab.
 >
 > *Quoting @sudoingX:* the more i use my dgx spark the more i think it's one of the most undervalued machines on the market right now. and i keep finding new things to throw at it that have no business working on something this small. [...]
@@ -10558,6 +11881,22 @@ I have 200+ skills, and you want me to import 20+ of your slop skills, on the sa
 - **Tweet:** https://x.com/sudoingX/status/2063334218432905447
 - **Quoted:** https://x.com/sudoingX/status/2063245108548624588
 - **What:** The real value proposition of the DGX Spark isn't inference throughput — it's 121 GB of unified memory that eliminates the data-loader bottleneck, making it possible to keep an entire astronomical dataset (200k+ Kepler light curves) in RAM and train for days uninterrupted. The author is doing genuine from-scratch ML research (custom architecture, self-supervised pretraining on raw light curves) on consumer-grade hardware that previously would have required a cluster.
+
+---
+
+# Saturday, May 30, 2026
+
+## @badlogicgames - Building a low-cost local AI robot from a toy
+> I wrote up how I built the shitty robot so you can too. This was a fun project that will keep on giving.
+>
+> Thanks to all the open weights folks out there, without whom this would not have been possible.
+>
+> https://t.co/egPxlCECQg
+
+- **Tweet:** https://x.com/badlogicgames/status/2060901805433733520
+- **Link:** https://mariozechner.at/posts/2026-05-30-shitty-robot/
+- **Filed:** [how-to-build-a-shitty-robot](./knowledge/articles/how-to-build-a-shitty-robot.md)
+- **What:** Zechner documents a deliberately low-cost, kid-friendly robotics build that replaces a toy's control logic with a phone-and-laptop agent stack, showing which mechanical and browser constraints shape the design.
 
 ---
 
