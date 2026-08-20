@@ -18079,6 +18079,956 @@ P.S. I have 3-2-1 backups, multiple on-site and off-site backups which you shoul
 - **Filed:** [how-to-build-a-shitty-robot](./knowledge/articles/how-to-build-a-shitty-robot.md)
 - **What:** Zechner documents a deliberately low-cost, kid-friendly robotics build that replaces a toy's control logic with a phone-and-laptop agent stack, showing which mechanical and browser constraints shape the design.
 
+## @zodchiii - Four-stage feature pipeline uses file-based agent handoffs
+> Anthropic engineer:
+>
+> "You're not supposed to watch Claude Code work. You're supposed to wake up and review what it shipped."
+>
+> In 22 minutes she builds the entire workflow live on camera.
+>
+> Most people close their terminal and everything stops.
+> This setup keeps shipping while you sleep.
+>
+> Watch the video, then save the exact setup below👇
+>
+> *Quoting @zodchiii:* https://t.co/YRF0PXhtk6
+
+- **Tweet:** https://x.com/zodchiii/status/2060728613872234644
+- **Link:** https://x.com/i/article/2059953944156082180
+- **Quoted:** https://x.com/zodchiii/status/2060674246880149900
+- **Filed:** [How to build a 4-agent team, that ships a feature while you sleep (Exact Setup Inside)](./knowledge/articles/four-agent-feature-pipeline.md)
+- **What:** The post highlights a proposed overnight Claude Code workflow in which a planner, coder, tester, and read-only reviewer exchange durable files in sequence, giving a human a final verdict to inspect rather than requiring continuous supervision.
+
+---
+# Friday, May 29, 2026
+
+## @tonysimons_ - Hermes Kanban uses durable task state for agent teams
+> https://t.co/mj7quNUX4i
+
+- **Tweet:** https://x.com/tonysimons_/status/2060527240098587085
+- **Link:** https://x.com/i/article/2060205510750552067
+- **Filed:** [How To Dominate Projects With Hermes Agent Kanban Board](./knowledge/articles/hermes-agent-kanban-board.md)
+- **What:** This field guide argues that multi-agent work needs persistent coordination rather than one long chat, using Hermes Kanban boards, explicit dependencies, leases, workspaces, runtime limits, and logs to make task state recoverable and auditable.
+
+---
+
+# Wednesday, May 27, 2026
+
+## @kylejeong - Autobrowse turns browser traces into reusable skills
+> i can't believe people don't know you can just make your skills better using iterative AutoResearch
+>
+> we did it for our browser skills and created /autobrowse, read about how we make our skills up to 90% faster and cheaper to run.
+>
+> *Quoting @kylejeong:* https://t.co/ZRdHQha7y3
+
+- **Tweet:** https://x.com/kylejeong/status/2059753008297394245
+- **Link:** https://x.com/i/article/2051523563363147776
+- **Quoted:** https://x.com/kylejeong/status/2052103973377867913
+- **Filed:** [Autobrowse: The Mythos moment for Browser Agents is here](./knowledge/articles/autobrowse-browser-agent-skills.md)
+- **What:** Kyle Jeong promotes Autobrowse as iterative AutoResearch for browser agents: it studies live-task traces, retains lessons in a strategy file, and graduates converged workflows into reusable skills so later runs avoid paying the discovery cost again.
+
+## @ParthJadhav8 - Agent-driven React app quality audit with react-doctor
+> If you've a React app, just tell your agent this:
+>
+> /goal run npx react-doctor@latest and fix issues until you get a score of 100.
+>
+> Best tokens you'll ever spend on a react-app.
+>
+> also @aidenybai is 🐐
+
+- **Tweet:** https://x.com/ParthJadhav8/status/2059702957386662112
+- **What:** This proposes a bounded agent task for React maintenance: run react-doctor, use its numerical score as a completion criterion, and iteratively repair findings instead of asking an agent for an unstructured code-quality pass.
+
+## @BobbyBizScout - SBA raises maximum loan limit to $10 million
+> BREAKING:
+>
+> The SBA just DOUBLED the maximum loan limit from $5 to $10 million, effective July 4th.
+>
+> This could be the biggest wealth building opportunity for people who've never owned a cash flowing asset before.
+>
+> Here's how you can take advantage of it to make money in 2026: https://t.co/sLJGhNVUyk
+
+- **Tweet:** https://x.com/BobbyBizScout/status/2059635835725885777
+- **What:** The post highlights a claimed increase in the SBA maximum loan limit that could let first-time business buyers finance larger cash-flowing acquisitions, although it supplies no underlying program details or acquisition strategy.
+
+## @DeItaone - Robinhood accounts that delegate trading and spending to AI agents
+> $HOOD  - ROBINHOOD LETS AI TRADE STOCKS AND MAKE PURCHASES
+>
+> Robinhood Markets is rolling out a feature that lets customers delegate investing and credit-card spending decisions to AI agents.
+>
+> Users can connect tools like Anthropic’s Claude or Cursor to a dedicated account where the AI can place stock trades, manage portfolios, and execute spending tasks within set limits and alerts.
+>
+> For credit cards, AI agents can search for deals, book travel, and secure tickets using a virtual Gold card, while users retain control through spending caps, approvals, and instant notifications.
+>
+> For now, the system is limited to stock trading, with options and crypto support planned later.
+
+- **Tweet:** https://x.com/DeItaone/status/2059613452281290951
+- **What:** Robinhood’s reported agent-facing accounts would let tools such as Claude or Cursor trade stocks and handle constrained card purchases, pairing delegated financial actions with account limits, approvals, and real-time alerts to retain user control.
+
+## @malliktwts - Jane Street’s technical and quantitative research blogs
+> EVERYONE…GO READ JANE STREET BLOGS!!! THEY ARE ELITE!!!
+
+- **Tweet:** https://x.com/malliktwts/status/2059521304001409231
+- **What:** A strong recommendation for Jane Street’s public writing, which is widely valued for clear treatments of quantitative trading, functional programming, market mechanics, and the engineering rigor behind a leading trading firm.
+
+---
+
+# Tuesday, May 26, 2026
+
+## @KingBootoshi - AGENTS.md instructions for steering Codex workflows
+> Reply with an essential line from your AGENTS MD and what it does for Codex
+>
+> Very interested in how you guys instruct 5.5!
+>
+> I’ll go first 👇
+
+- **Tweet:** https://x.com/KingBootoshi/status/2059387598985199982
+- **What:** An open prompt for practitioners to share a single high-leverage AGENTS.md instruction and explain its effect on Codex, surfacing practical patterns for making agent coding behavior more reliable and aligned with a repository.
+
+## @thenarrator - Prediction-market arbitrage as an early career proving ground
+> a lot of prediction market arbitrage right now is being run by students and solo devs with python scripts and small funded accounts. wide spreads, cross-venue gaps, basic strategies that work
+>
+> this feels like 2017 crypto exchange arb all over again (except with much less players)
+>
+> if you can code and you're interested in prediction markets, the time spent running bots and learning these order books right now is worth a lot
+>
+> i believe that you're building the resume that institutional PM desks will recruit from in 2028
+
+- **Tweet:** https://x.com/thenarrator/status/2059342895484678322
+- **What:** The post frames today’s fragmented prediction-market order books as a low-competition training ground where small Python arbitrage bots can build market-structure skills and credible experience before institutional desks enter the space.
+
+## @CoinSh0t - Raspberry Pi offline AI appliance for regulated documents
+> This lawyer made $150,000 selling portable offline AI.
+>
+> It analyzes docs that can’t legally be shown on the web.
+>
+> The whole setup costs $50 and he sells it for $999.
+>
+> Here's how to make one step-by-step:
+>
+> You need 4 things:
+>
+> → Raspberry Pi 5 (8GB)
+>
+> → PiSugar 3 Plus battery
+>
+> → Whisplay HAT for the screen and mic
+>
+> → 64GB SD card.
+>
+> Total cost on Ali is around $50 to $90 if you wait for the right deals.
+>
+> 1. Write Raspberry Pi OS Lite 64-bit to the SD card using Raspberry Pi Imager.
+>
+> 2. Stack the PiSugar battery underneath the Pi, snap the Whisplay HAT on top, insert the SD card, and boot the device.
+>
+> 3. Open the terminal and install Ollama with one command:
+> curl -fsSL https://t.co/5UVLVuIA5h | sh
+> 4. Pull a model that actually runs on the Pi without choking:
+>
+> ollama pull phi3:mini
+> 5. Run the model and start chatting offline:
+>
+> ollama run phi3:mini
+> The whole thing fits in your pocket, lasts 4 hours on battery, and never touches the internet once setup is done.
+>
+> The lawyer wraps his version in a custom case, preloads it with legal document analysis prompts, and sells it to law firms that can't legally process client data in the cloud.
+>
+> You can sell yours to doctors, accountants, government contractors, defense companies, or anyone else who handles data that legally cannot leave the building.
+>
+> Hardware cost: $50 to $90.
+>
+> Selling price: $500 to $1999
+
+- **Tweet:** https://x.com/CoinSh0t/status/2059316915688906804
+- **Link:** https://release-assets.githubusercontent.com/github-production-release-asset/658928958/2569bebe-45fe-413c-b6dc-51ed59522990?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-08-20T05%3A20%3A49Z&rscd=attachment%3B+filename%3Dinstall.sh&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-08-20T04%3A19%3A56Z&ske=2026-08-20T05%3A20%3A49Z&sks=b&skv=2018-11-09&sig=%2BZT9XXRTu7mkkipdHHMXZO3%2FUvChdWhXbhWiEZUq6eE%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NzIwMDE5MSwibmJmIjoxNzg3MTk5ODkxLCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.ZldK0rABxmrhou901Gz9VK8HBPwwQx9mDX9k5rOHpTE&response-content-disposition=attachment%3B%20filename%3Dinstall.sh&response-content-type=application%2Foctet-stream
+- **What:** A business blueprint for a battery-powered Raspberry Pi appliance that runs Ollama and Phi-3 Mini entirely offline, positioning privacy-sensitive document analysis as a higher-margin service for regulated professional firms.
+
+## @p_millerd - Daniel Lockyer's Freelance Landing Page
+> this is the best landing page ive ever seen for a freelancer https://t.co/TON3cBwora
+>
+> *Quoting @levelsio:* the best 13 ppl to follow in AI:
+>
+> @DanielLockyer = teaches LLMs
+> @DanielLockyer = AI setup w/ huge ROI
+> @DanielLockyer = honest AI takes
+> @DanielLockyer = OpenClaw creator
+> @DanielLockyer = marketing queen
+> @DanielLockyer = best AI designs
+> @DanielLockyer = AI ads king
+> @DanielLockyer = SaaS genius
+> @DanielLockyer = AI SEO
+> @DanielLockyer = successful
+> @DanielLockyer = best agent skills
+> @DanielLockyer = composer king
+> @DanielLockyer = rate limit reset king
+>
+> if you like this, follow @DanielLockyer too 🤠
+
+- **Tweet:** https://x.com/p_millerd/status/2059245599061594603
+- **Quoted:** https://x.com/levelsio/status/2059002962244993447
+- **What:** Paul Millerd praises an unpreserved freelance landing-page reference while the quoted post enthusiastically positions Daniel Lockyer as an AI and OpenClaw practitioner; the batch lacks the destination URL, so the original post is the only route to recover the design example.
+
+## @garrytan - SkillOpt's Guardrails for Self-Evolving Agent Skills
+> This sounds complicated but the agents can implement this in OpenClaw/Hermes Agent trivially (use skillify from GBrain with a link to this tweet)
+>
+> Sounds ridiculous but you should try it
+>
+> *Quoting @muratcan:* Gradient descent for SKILL.md files sounds interesting, maybe a bit complex but it's becoming a real part of agent harness.
+>
+> SkillOpt is one of the first papers to treat markdown skill files as trainable parameters and provides a proper optimization framework for them.
+>
+> A few things I learned that you should consider too.
+>
+> 1. The validation gate is the only thing that matters in a self-editing loop.
+>
+> Held-out set, strict improvement, ties rejected. End-to-end, their best skills land with 1 to 4 accepted edits total. If your "self-improving agent" is accepting most of what it proposes, you're shipping slop.
+>
+> 2. Bounded edits are better than full rewrites. 4 to 8 edits per step is the sweet spot.
+>
+> Remove the budget and performance collapses. This is the textual analog of learning rate, and it transfers to any LLM-as-author loop. If you're using an agent to refactor your docs, your prompts, or your skills, cap the diff size.
+>
+> 3. Compactness wins. Median final skill: ~920 tokens.
+>
+> Skills do not need to be long. They need to be high-signal. Most skill files I see are bloated because length feels like effort. It isn't.
+>
+> 4. The harness is becoming less important; the skill is becoming more important.
+>
+> A Codex-trained skill ported into Claude Code hit +59.7 points on SpreadsheetBench. Procedural knowledge is more general than the runtime that
+> produced it.
+>
+> 5. Frozen model + trained context is the practical adaptation.
+>
+> GPT-5.4-nano with a SkillOpt'd skill ≈ frontier behavior on procedural benchmarks. Cheaper, portable, inspectable, zero inference-time cost. This is
+> the answer to "how do we adapt a frontier model for our domain" for almost everyone who isn't training their own models.
+>
+> 6. Verification is the bottleneck.
+>
+> Every gate in this paper depends on an auto-grader. That works for benchmarks. It fails for writing, design, and strategy, exactly the open-ended work we want to automate. Whoever builds the verifier for open-ended tasks owns the next stage.
+>
+> There are also two leassons I learned while shipping v2.3.0 of my Context Engineering Agent Skills repo, measured across composer-2, claude-opus-4-7,
+> gpt-5.5, and gemini-3.1-pro via the @cursor_ai SDK:
+> - Description and body are two different surfaces. The router only sees the description. The agent sees the body once activated. They can quietly disagree, and only end-to-end task tests catch it.
+> - Aggregate accuracy is the wrong unit. When I rewrote three descriptions, the corpus average moved ~1pp. Individual skills moved 23–25pp. Per-skill effect size is where the action is.
+>
+> Also, in Feb 2026 I shared a piece called Personal Brain OS arguing that the markdown file is a first-class substrate for agent state. SkillOpt is the optimizer-shaped version of that same argument: not "store memory in files" but "treat files as trainable parameters with proper optimization machinery around them." That's the move from static to measured.
+>
+> The fast/slow split they describe already lives implicitly in the digital-brain-skill repo:
+> - voice-guide and tone-of-voice.md are slow-state (rarely touched)
+> - posts.jsonl and bookmarks.jsonl are fast-state
+>
+> What SkillOpt adds that I didn't have is a protected section invariant, a structural guarantee that fast edits cannot overwrite slow lessons. Removing that mechanism cost them 22 points on SpreadsheetBench. Worth borrowing.
+>
+> If you're building agents, SkillOpt: Executive Strategy for Self-Evolving Agent Skills is a good paper to read: https://t.co/ZS9SZXQ6Mv
+
+- **Tweet:** https://x.com/garrytan/status/2059144022778896392
+- **Link:** https://arxiv.org/pdf/2605.23904
+- **Quoted:** https://x.com/muratcan/status/2059113412278227328
+- **Filed:** [skillopt-executive-strategy-for-self-evolving-agent-skills](./knowledge/articles/skillopt-executive-strategy-for-self-evolving-agent-skills.md)
+- **What:** Garry Tan highlights Muratcan Koylan's practical interpretation of SkillOpt: agent harnesses can optimize skill files, but only with strict held-out evaluation, small accepted diffs, concise instructions, and protected stable sections that prevent self-edits from erasing accumulated lessons.
+
+---
+
+# Monday, May 25, 2026
+
+## @mr_r0b0t - Webwright's Reusable Agent Browser Workflows
+> Microsoft dropping a massive Playwright update geared specifically for agents, Webwright!
+> This is an absolute game changer for agentic browser use as every session becomes a reusable workflow
+> The repo includes a @NousResearch Hermes Agent skill 😍
+> https://t.co/mDmKCN9kV9 https://t.co/rwlKmbHPnR
+
+- **Tweet:** https://x.com/mr_r0b0t/status/2059026191646945515
+- **Link:** https://microsoft.github.io/Webwright/
+- **What:** Webwright is presented as terminal-native browser-agent infrastructure that turns browsing sessions into reusable workflows and includes a Hermes Agent skill, making repeatable agent-driven browser work more practical than one-off automation scripts.
+
+## @itsolelehmann - Pre-Mortem Skill for Stress-Testing Plans
+> POV: claude traveled 6 months into the future and told you exactly how your next move failed.
+>
+> it's called a premortem.
+>
+> daniel kahneman (nobel prize-winning psychologist behind "thinking fast and slow") called it his single most valuable decision-making technique.
+>
+> when you ask claude "is this a good plan?" it finds all the reasons to say yes.
+>
+> that's what it was trained to do (to be helpful and agreeable). so you walk away feeling confident.
+>
+> you execute, and spend weeks / months building on top of that plan.
+>
+> then it blows up.
+>
+> and you realize the problem was obvious in hindsight, you just never stress-tested it because claude told you it was solid.
+>
+> a premortem fixes this by flipping the frame.
+>
+> instead of asking "what could go wrong?" you tell claude "it's 6 months from now and this is already dead. tell me how it died."
+>
+> that shift turns off claude's optimism because there's nothing to be optimistic about. the premise already says it failed.
+>
+> so claude stops looking for reasons your plan will work and starts explaining how it fell apart.
+>
+> claude comes back with every way your plan could die, each one with a full failure story and the early warning signs to watch for.
+>
+> then a synthesis pulls it all together:
+>
+> > which failure is most likely
+> > which failure is most dangerous
+> > the single biggest hidden assumption you're making (often the most valuable part)
+> > a revised version of your plan with the gaps closed
+>
+> you say "premortem this" and give it your plan. the skill handles the rest.
+>
+> *Quoting @itsolelehmann:* https://t.co/orDFiprRiB
+
+- **Tweet:** https://x.com/itsolelehmann/status/2059018283568025918
+- **Link:** https://x.com/i/article/2051345290439847936
+- **Quoted:** https://x.com/itsolelehmann/status/2051373618727469152
+- **Filed:** [claude-premortem-skill](./knowledge/articles/claude-premortem-skill.md)
+- **What:** Ole Lehmann presents a Claude skill that applies prospective hindsight to a plan, then independently investigates plausible failure modes and surfaces early warnings, hidden assumptions, and a revised path before commitment makes mistakes expensive.
+
+## @badlogicgames - Merged Client and Server Logs
+> the one thing @mitsuhiko taught me: merged client &amp; server logs. very useful. https://t.co/YOyxFV0zoa
+
+- **Tweet:** https://x.com/badlogicgames/status/2059014545889165401
+- **What:** Merging client and server logs into one chronological stream makes cross-boundary failures traceable, so developers can correlate browser behavior with backend events without reconstructing a request from separate log systems.
+
+## @Freyy_is - An unspecified signal of AI-generated writing
+> the em dash is no longer the clearest sign of ai-generated writing.
+>
+> honestly?  it’s this.
+
+- **Tweet:** https://x.com/Freyy_is/status/2058983270084190311
+- **What:** THIN: @Freyy_is says an unspecified wording pattern, rather than the em dash, now reveals AI-generated prose; no example, link, or attached media supplies enough context to identify the claimed tell.
+
+---
+
+# Sunday, May 24, 2026
+
+## @RohOnChain - Time-series framework for systematic trading
+> As someone who builds institutional level quant systems, this Stanford paper is the closest thing to an HFT desk I have ever seen publicly shared.
+>
+> 14 pages. Top Trading Strategies. Bookmark &amp; get this, then read the article below before someone takes it down. https://t.co/iHnWUVWNAW
+>
+> *Quoting @RohOnChain:* https://t.co/h2ikkQLql6
+
+- **Tweet:** https://x.com/RohOnChain/status/2058633692667670735
+- **Link:** https://x.com/i/article/2056345613717942272
+- **Quoted:** https://x.com/RohOnChain/status/2056753978042712565
+- **Filed:** [time-series-quant-trading-framework](./knowledge/articles/time-series-quant-trading-framework.md)
+- **What:** Roan endorses a long-form time-series trading guide as unusually institutional in quality; the linked article explains stationarity tests, return-based ARIMA/GARCH modeling, volatility-scaled sizing, walk-forward validation, and the regime shifts such models cannot see.
+
+## @itsolelehmann - Voice DNA context file for Claude Cowork
+> i got claude to actually sound like me, and it's kinda ruining my ability to tell which drafts i wrote myself lol
+>
+> it's just 1 file (i'm giving the full thing to you below).
+>
+> you paste it into your cowork context folder and claude stops writing like a generic AI and starts matching your actual voice
+>
+> 95% of the file is already done for you (writing rules, banned phrases, formatting stuff,  etc) all pre-loaded.
+>
+> kills the most obvious AI-isms out of the box
+>
+> the only part you fill in is a section at the bottom where you paste examples of your own writing
+>
+> that's it.
+>
+> those samples are what claude actually pattern-matches against
+> where to find your writing samples (this is the only part that takes any effort):
+>
+> • google docs first. longer stuff where you were actually trying to communicate something.
+>
+> • reports, proposals, emails you spent real time on
+>
+> • sent emails, especially ones where you were explaining something complex
+>
+> • slack messages (the longer thoughtful ones")
+>
+> • old blog posts, memos, anything you wrote before you started using AI
+>
+> that last part is critical btw.
+>
+> you want your pre-AI voice. before it started unconsciously blending with claude's defaults
+>
+> here's the file. copy it, paste your writing samples at the bottom, save it as https://t.co/mGRBY49AWc:
+>
+> ———
+>
+> # Voice DNA
+>
+> ## Writing Rules
+> - Write like a sharp human, not a language model.
+> - Use contractions naturally (don't, can't, won't).
+> - Short paragraphs. 1-3 sentences max.
+> - Get to the point. No throat-clearing, no preamble.
+> - If making a claim, be specific. Use numbers, names, concrete details.
+> - Vary sentence length. Mix short punchy lines with longer ones.
+> - Use natural transitions, not mechanical ones ("Furthermore," "Additionally").
+> - When uncertain, say so plainly ("I think," "probably," "kinda"). Hedging is human.
+> - Never pad output to seem more thorough. Shorter and accurate beats longer and fluffy.
+> - Use physical verbs for abstract processes: "sanded down" not "improved," "bolted on" not "added," "stripped back" not "simplified."
+> - Humor comes from specificity, not from jokes. Be unexpectedly precise.
+> - Parenthetical asides are good. Use them for editorial commentary, honest reactions, quick tangents, and deflating your own seriousness (like this).
+>
+> ## Formatting Rules
+> - Short paragraphs (1-2 sentences default, 3 max).
+> - Numbers as digits.
+> - Contractions always.
+> - NO em dashes ever. Use commas, periods, colons, semicolons, or parentheses.
+> - Bold sparingly, 1-2 key moments per section.
+> - Code blocks for specific prompts, commands, or tool outputs.
+>
+> ## Banned Phrases (never use these, ever)
+>
+> ### Dead AI Language
+> - "In today's [anything]..."
+> - "It's important to note that..." / "It's worth noting..."
+> - "Delve" / "Dive into" / "Unpack"
+> - "Harness" / "Leverage" / "Utilize"
+> - "Landscape" / "Realm" / "Robust"
+> - "Game-changer" / "Cutting-edge"
+> - "Straightforward"
+> - "I'd be happy to help"
+> - "In order to"
+>
+> ### Dead Transitions
+> - "Furthermore" / "Additionally" / "Moreover"
+> - "Moving forward" / "At the end of the day"
+> - "To put this in perspective..."
+> - "What makes this particularly interesting is..."
+> - "The implications here are..."
+> - "In other words..."
+> - "It goes without saying..."
+>
+> ### Engagement Bait
+> - "Let that sink in" / "Read that again" / "Full stop"
+> - "This changes everything"
+> - "Are you paying attention?"
+> - "You're not ready for this"
+>
+> ### AI Cringe
+> - "Supercharge" / "Unlock" / "Future-proof"
+> - "10x your productivity"
+> - "The AI revolution"
+> - "In the age of AI"
+>
+> ### Generic Insider Claims
+> - "Here's the part nobody's talking about"
+> - "What nobody tells you"
+> - Anything with "nobody" or "most people don't realize"
+>
+> ### The Big One (FATAL)
+> - "This isn't X. This is Y." and ALL variations.
+> - "Not X. Y."
+> - "Forget X. This is Y."
+> - "Less X, more Y."
+> - ANY sentence that negates one framing then asserts a corrected one.
+> - If even ONE of these appears, the output fails. Delete the negation, just state the positive claim.
+>
+> ## Writing Samples
+>
+> [Paste your writing here. The more you give, the better the voice match.]
+>
+> ———
+>
+> the banned phrases list alone is honestly worth the file.
+>
+> once you read through it you'll start noticing these phrases in literally every AI-generated slop-post you've ever seen
+>
+> but the writing samples are what take it from "decent" to "wait did i write this"
+>
+> setup takes maybe 10 minutes. copy the file, find your old writing, paste it in.
+>
+> do it once and every session after that claude cowork reads it before you say a word
+
+- **Tweet:** https://x.com/itsolelehmann/status/2058498037362905304
+- **What:** LINK_FAILED: Could not expand link from @itsolelehmann; the tweet itself supplies a reusable Voice DNA context template that combines writing constraints, prohibited AI-style phrases, and personal pre-AI samples to steer Claude Cowork toward an individual voice.
+
+---
+
+# Saturday, May 23, 2026
+
+## @steipete - ReleaseBar GitHub release freshness dashboard
+> I always wanted a GitHub dashboard: See my repos, open Issues/PRs, what version I released last, how many commits since last release.
+>
+> So I built one for everyone.
+> https://t.co/GWCP5wcrDQ https://t.co/DRvjenlVMi
+
+- **Tweet:** https://x.com/steipete/status/2058381186884411473
+- **Link:** https://release.bar/steipete
+- **What:** Peter Steinberger introduces ReleaseBar, a per-account GitHub dashboard that consolidates repository activity, open issues and pull requests, the last released version, commits since release, and CI status so maintainers can spot stale or actively changing projects at a glance.
+
+---
+
+# Friday, May 22, 2026
+
+## @alexxgrowth - Content Rewards case study: $300K MRR from 596M views
+> https://t.co/Vg4rY96n9X
+
+- **Tweet:** https://x.com/alexxgrowth/status/2057956944359661620
+- **Link:** https://x.com/i/article/2057773750914056192
+- **Filed:** [content-rewards-300k-mrr-case-study](./knowledge/articles/content-rewards-300k-mrr-case-study.md)
+- **What:** A Content Rewards case study reports scaling a consumer app from low-five-figure MRR to $300,000+ MRR by distributing proven social formats through nearly 25,000 approved creator clips, with capped per-post payouts intended to compress effective CPM as individual clips go viral.
+
+## @RoundtableSpace - Guide to Anthropic's Small-Business Skills
+> ANTHROPIC'S 31 SMALL BUSINESS SKILLS GOT 382,000 DOWNLOADS ON DAY ONE AND SOMEONE JUST MAPPED EVERY SINGLE ONE INTO A 10 MINUTE SETUP.
+>
+> It covers financial operations, sales, HR, marketing, and reporting with a full connector guide and real output examples. https://t.co/lZbdxtVle5
+
+- **Tweet:** https://x.com/RoundtableSpace/status/2057940817399169476
+- **What:** RoundtableSpace highlights a quick-start map for Anthropic's reported 31 small-business skills, covering connectors and example outputs across finance, sales, HR, marketing, and reporting workflows.
+
+## @defileo - Hermes Guide for a Markov-Filtered Polymarket BTC Bot
+> Anthropic just paid millions to hire Andrej Karpathy.
+>
+> He gave you the same knowledge for $0 the same week.
+>
+> Co-founder of OpenAI, former head of AI at Tesla, the man who coined vibe coding.
+>
+> No recruitment fee, no exclusive access, no $500,000 wire transfer, just a link and 29 minutes.
+>
+> LLMs are ghosts not animals, vibe coding is dead, Software 3.0 is here...
+>
+> *Quoting @0xRicker:* https://t.co/Gnlkqlhll7
+
+- **Tweet:** https://x.com/defileo/status/2057924890330644925
+- **Link:** https://x.com/i/article/2056370112978903040
+- **Quoted:** https://x.com/0xRicker/status/2057840731826405747
+- **Filed:** [hermes-polymarket-self-learning-btc-trading-agent](./knowledge/articles/hermes-polymarket-self-learning-btc-trading-agent.md)
+- **What:** Defileo uses Karpathy's public teaching as a broader case for accessible AI knowledge while highlighting a promotional guide that uses Hermes to build and iteratively tune a Markov-filtered Polymarket BTC trading bot.
+
+## @Bitwarden - Hermes Agent Adds Bitwarden Secrets Manager Support
+> Thank you @NousResearch team! Here's to Security for All, agents included. 😎🤖
+>
+> *Quoting @NousResearch:* Hermes Agent now supports the @Bitwarden Secrets Manager https://t.co/3OMOqAmb7C
+
+- **Tweet:** https://x.com/Bitwarden/status/2057889868823642277
+- **Quoted:** https://x.com/NousResearch/status/2057879204490883278
+- **What:** Bitwarden welcomes Nous Research's Hermes Agent integration with Bitwarden Secrets Manager, framing secret-management support as a practical security layer for autonomous agents.
+
+## @garrytan - GBrain's Lateral Synaptic Drift Brainstorming
+> A couple of weeks ago my favorite thing to do with GBrain was to have it read and rewrite books written personalized for me and my life, and the things I think about. (book-mirror skill, now a skillpack)
+>
+> Today, it's to take any space and say "Brainstorm with LSD (lateral synaptic drift)" which is gbrain function I built that uses the vectorspace to mash together and collide the craziest ideas that might be right
+
+- **Tweet:** https://x.com/garrytan/status/2057852681197388173
+- **What:** Garry Tan describes GBrain shifting from personalized book rewriting to a vector-space brainstorming mode that deliberately collides distant concepts in search of unconventional but useful ideas.
+
+## @0xSero - Running Frontier Models in Codex
+> DeepSeek-V4-Pro &amp; Kimi-K2.6 running in Codex app.
+>
+> Cheapest way to taste the frontier. Works w local models and they can do all the computer use stuff (: https://t.co/Z2Zw17RpGp
+
+- **Tweet:** https://x.com/0xSero/status/2057716539994849687
+- **What:** @0xSero presents the Codex app as a lower-cost interface for trying DeepSeek-V4-Pro and Kimi-K2.6 alongside local models, emphasizing their purported computer-use capabilities.
+
+---
+
+# Thursday, May 21, 2026
+
+## @shannholmberg - Owning customizable operations rather than renting SaaS
+> every company should be building their own infrastructure right now.
+>
+> you need one or two people who can build systems on top of open source tools. booking, CRM, automation, internal tooling, agent workflows. all owned and customized by you.
+>
+> two paths that work:
+>
+> > hire 3 devs and stand up a small in-house dev shop to build your infra layer
+> > partner with an AI studio that maps out the system, ships it, and hands it off
+>
+> both pay for themselves in 12 months on SaaS savings alone. a 15-person team replacing Calendly, HubSpot Starter, and Zapier is saving $8k to $12k per year minimum.
+>
+> but the savings are just the entry point.
+>
+> the real return happens during the build. as your devs or studio partner ship systems, they learn the operational shape of your business in a way no SaaS vendor ever will. the infrastructure they build encodes your actual workflow
+>
+> that knowledge compounds every quarter. you start shipping features tailored to how you actually operate. your booking system integrates directly with your CRM, your agents pull from live customer data, your internal tools surface the exact metrics your team needs.
+>
+> eventually you look up and realize the infrastructure you built for yourself is solving problems your competitors have too. you're not just running on custom infra anymore, you're sitting on a productizable system
+>
+> *Quoting @shannholmberg:* how any SMB can save $2,880+ per year by building their own calendar booking app
+>
+> most businesses pay for Calendly, Cal, or similar tools to handle meeting scheduling. a 15-person team on Calendly runs you around $240/month on the Professional plan.
+>
+> that's $2,880 a year for something you can self-host for $6
+>
+> businesses should stop renting infrastructure they can own
+>
+> Cal is the industry standard for meeting booking infrastructure. they power scheduling for thousands of companies, and they open-sourced the entire platform. you can deploy it yourself, own the data, and customize however you want.
+>
+> here's what you get when you self-host:
+>
+> > unlimited seats without per-user pricing
+> > full control over branding and UI
+> > direct integrations with your CRM, Slack, or internal tools
+> > no vendor lock-in or surprise price hikes
+> > ability to build custom workflows on top of the scheduling engine
+>
+> if you're running a 15-person team, you'll break even in hosting costs within the first month. and after that, it's pure savings.
+
+- **Tweet:** https://x.com/shannholmberg/status/2057552450794745893
+- **Quoted:** https://x.com/shannholmberg/status/2057455564557635864
+- **What:** Shann expands a self-hosted Cal booking example into a broader argument for custom, open-source operational systems: near-term SaaS savings fund infrastructure whose workflow knowledge, integrations, and product potential compound over time.
+
+## @hooeem - Grok maxxing with Hermes for research automation
+> https://t.co/nasmRCklJ2
+
+- **Tweet:** https://x.com/hooeem/status/2057506288603447315
+- **Link:** https://x.com/i/article/2057464802612506624
+- **Filed:** [grok-maxxing-hermes-research-system](./knowledge/articles/grok-maxxing-hermes-research-system.md)
+- **What:** This long-form workflow guide positions an X Premium+/SuperGrok subscription plus Hermes as a persistent research system, with optional xurl access for private X data; it also stresses verified sources, prompt-to-skill promotion, and caution around degraded X-search results.
+
+## @elonmusk - SpaceXAI prioritizes exceptional engineers over AI experience
+> SpaceX is actively hiring world-class engineers/physicists for SpaceXAI, even if you have zero prior experience in AI. Smart humans figure it out fast.
+>
+> Please send an email with ~3 bullet points demonstrating evidence of exceptional ability to ai_eng@spacex.com.
+
+- **Tweet:** https://x.com/elonmusk/status/2057327547411570907
+- **What:** SpaceX’s recruitment message frames exceptional engineering or physics ability as sufficient preparation for a new AI team, emphasizing demonstrated aptitude and rapid learning over conventional AI credentials.
+
+---
+
+# Wednesday, May 20, 2026
+
+## @0xSero - Nightly agent maintenance and research loop
+> /goal
+>
+> every night, ideas:
+>
+> - process all my git history changes and recommend findings
+> - monitor x online resource
+> - refactor and reduce lines of code of repo
+> - build out demos for the mornings https://t.co/yDD0BwTRvi
+
+- **Tweet:** https://x.com/0xSero/status/2057215802927940042
+- **What:** A concise nightly-agent operating brief: mine Git history for recommendations, monitor online resources, reduce repository complexity, and prepare morning demos so routine maintenance produces actionable development work.
+
+## @shannholmberg - Hermes and xurl for governed X workflows
+> how to make Hermes Agent your own social media manager with xurl skill
+>
+> X Developers just dropped xurl, the X API CLI Hermes plugs into as a skill. your agent can read and write to X, search, and fetch bookmarks.
+>
+> save this blueprint and send it to your agent to get started
+>
+> workflows you can set up right away:
+>
+> > "pull my last 30 bookmarks, group them by theme, surface the 3 angles I haven't written about yet" → bookmark library becomes an idea backlog
+> > "search top AI marketing posts this week, analyze trending subtopics, hooks and angles I can use" → competitor research with usable angles
+> > "scan X for AI agent news today, summarize each release, flag the ones worth a take from me" → gets you a daily trend brief
+> > "pull analytics on my last month of posts, tell me which hook formats and topics drove the most bookmarks" → performance review with references
+> > "post this draft at 9am, then monitor the first hour and flag noteworthy replies"
+>
+> I personally don´t let ai post directly, be careful with that as last thing we want is to flood timeline with slop
+>
+> *Quoting @XDevelopers:* https://t.co/0KNlcVnsVD
+
+- **Tweet:** https://x.com/shannholmberg/status/2057209621761462690
+- **Link:** https://x.com/i/article/2055126803224883200
+- **Quoted:** https://x.com/XDevelopers/status/2056871280599847054
+- **Filed:** [x-api-hermes-via-xurl-skill](./knowledge/articles/x-api-hermes-via-xurl-skill.md)
+- **What:** Shann highlights X Developers' setup guide for connecting Hermes to xurl: it turns an X account into an agent interface for research, bookmarks, analytics, and optionally monitored publishing, while explicitly warning against unattended slop.
+
+## @TheAhmadOsman - Selecting LLM Inference Engines by Hardware and Workload
+> https://t.co/kvDM29hgTL
+
+- **Tweet:** https://x.com/TheAhmadOsman/status/2057183854444843202
+- **Link:** https://x.com/i/article/2057179946351534080
+- **Filed:** [inference-engines-local-ai-hardware-2026.md](./knowledge/articles/inference-engines-local-ai-hardware-2026.md)
+- **What:** This hardware-first guide maps LLM inference engines to workload bottlenecks, explaining why memory bandwidth, KV-cache behavior, scheduler quality, model format, interconnect, and concurrency—not just VRAM—should determine a local or production serving choice.
+
+## @0xSero - Current AI Coding, Local Model, and Agent Tool Stack
+> Best tools for AImaxing
+>
+> Harness:
+>
+> - Codex best Desktop App
+> - Droid best CLI
+> - Pi best building block
+> - Opencode best TUI
+>
+> Models:
+>
+> - GPT-5.5 best model
+> - GLM-5.1 & Kimi best reverse engineers
+> - Deepseek Pro/Flash best cost to intelligence
+> - Opus-4.7 best for UI / Charts / LLMOps
+> - Qwen3.6-27B / 35B best local agents
+> - Gemma-4-31B best local intelligence
+>
+> Mobile control:
+>
+> - termius
+> - codex & ChatGPT
+> - kittylitter
+>
+> Service and networking
+>
+> - tailscale
+> - cliproxyapi
+>
+> Tracking usage:
+>
+> - automation in codex
+> - codexbar
+>
+> Plugins, CLIs and MCP:
+>
+> - computer-use (codex)
+> - chrome (codex)
+> - agent-browser (droid)
+> - Figma MCP (all)
+> - GitHub CLI (all)
+> - GMAIL/CAL plugins (codex)
+> - grill me skill
+>
+> ADE:
+>
+> - Warp
+> - Zed
+>
+> Current meta:
+>
+> - vLLM-studio for local agents
+> - Codex app for /goal and non-coding work
+> - Droid for coding
+> - Zed/Warp if I need to read the code
+
+- **Tweet:** https://x.com/0xSero/status/2057176483408253316
+- **What:** A practitioner’s opinionated stack map separates agent harnesses, model strengths, local-model options, mobile access, networking, usage tracking, integrations, and editors, showing how tool choice is being specialized by workflow instead of standardized on one interface.
+
+## @Vtrivedy10 - Agent Evals as Production Feedback and Regression Tests
+> brain dump of how/why we use Evals to measure agents before & after shipping to prod
+>
+> 1. Good Evals simulate what our real users will do and encounter.  They’re not really random benchmark tasks, they reflect our priors on likely user behaviors to make sure the agent passes those cases in the product before we just ship it
+>
+> 2. With that said, the best Evals often aren’t made from scratch, they’re discovered from real world Traces.  I’ll literally never ship a perfect agent first try, we need user feedback and failures from Traces to make Evals and then make sure these errors don’t happen again
+>
+> 3. At a basic level, Evals give us some measurable, apples to apples way of comparing performance.  Ex: is my agent good today and also in 1 month when I go to try a new model?
+>
+> 4. Evals ~= Environments, we need some place to run Eval Tasks, which is defined by the environment setup.  This should mirror prod as much as possible.  The more that Eval drifts from prod, the higher my Sim2Real gap and the less I can trust the numbers
+>
+> 5. Evals are our regression tests.  Sometimes a prompt change might fix something today while breaking something I changed last week.  Evals help us catch that
+>
+> 6. Evals are our training data.  They map out what we hope the agent should be & do.  We literally fit the agent to evals in hopes of making more Evals pass.  Good evals —> good agent.  In some rough way:
+> Agent = fit(model, evals)
+>
+> 7. It’s ok if some Evals fail today if it means this Eval is simply too hard for today’s models, but it’s something to strive towards for the next gen of agents.  But you should still do agent engineering today to make them pass if you can, it’s a goal to engineer towards
+>
+> 8. The best Eval is an Eval that actually exists.  I think still today Evals are daunting because of the blank canvas problem.  “Where do I even start??”  But I find small Unit Test style evals are a great place to start to feel like I’m building momentum.  I can get a real number + Unit Tests are familiar to many folks
+>
+> 9. Evals need to undergo spring clean.  Not every is relevant over time.  Models get smarter, agent priorities shift, user behavior shifts.  Just how we clean up dead code, we clean up dead evals.  This saves us money and avoids us training in agent behaviors we don’t care about anymore
+>
+> we make Evals not because it’s what everyone says to do, but because it’s one of the most meaningful levers we can pull in building better agents.  and if we can help make that easier or at the very least make it less scary to start then that’s great :)
+
+- **Tweet:** https://x.com/Vtrivedy10/status/2057175860910964967
+- **What:** Production agent evaluation should begin with small, realistic tests based on observed traces, then evolve into a maintained regression suite and training target that measures behavior in environments close enough to production to trust the result.
+
+## @gkisokay - Building a Persistent Grok-Powered Research Agent
+> Treat your research agent as your training data collector.
+>
+> I've said it many times, the #1 personal agent use case for every single person on the planet is a research agent.
+>
+> Grok is the best LLM for up-to-date news collection, so its perfectly suited to keep you and your agent current.
+>
+> This week, make sure to integrate this into your Hermes to 10x your research, and therefore your entire agent setup.
+>
+> *Quoting @gkisokay:* https://t.co/Cb07Vg9bTC
+
+- **Tweet:** https://x.com/gkisokay/status/2057100661276409932
+- **Link:** https://x.com/i/article/2056672774454956032
+- **Quoted:** https://x.com/gkisokay/status/2056726149074657704
+- **Filed:** [how-to-make-hermes-agent-go-supergrok.md](./knowledge/articles/how-to-make-hermes-agent-go-supergrok.md)
+- **What:** Graeme highlights a companion guide that makes Grok's X search a live research source and Hermes the persistent control layer for watchlists, freshness-aware scoring, link routing, deep reads, and memory that improves selection over time.
+
+## @InduTripat82427 - Hermes Agent Community Use Cases Across 16 Categories
+> https://t.co/bOL3XEtNXv
+
+- **Tweet:** https://x.com/InduTripat82427/status/2057017304144298383
+- **Link:** https://x.com/i/article/2057009615901007872
+- **Filed:** [276-hermes-agent-use-cases.md](./knowledge/articles/276-hermes-agent-use-cases.md)
+- **What:** A survey of 276 Hermes Agent deployments portrays persistent agents as operational infrastructure for coding, research, business workflows, content pipelines, integrations, and personal assistance rather than isolated chat tools.
+
+---
+
+# Tuesday, May 19, 2026
+
+## @garrytan - AI agents as durable process power
+> The reason why I release my X articles about AI agents (fat skill fat code thin harness) and GStack and GBrain is that we, yes you and I, can have *PROCESS POWER*, which is the one super powerful specific moat that anyone can create for themselves.
+>
+> The agent helps you do it. https://t.co/Y0Me9xSKmZ
+>
+> *Quoting @TaylorPearsonMe:* I spent some time going through Garry Tan's GBrain. I want to pull out what I see as the general form factors and what's interesting there as someone who is non-technical and doesn't work in VC.
+>
+> I think a lot of people are converging on the same set of 5 core form factors  and they represent something of the natural next progression of how to use agentic AI tools like Codex/Claude Code/Hermes/OpenClaw/etc.
+>
+> https://t.co/baXPnaB8og
+>
+> 1. Skills. This is the most natural starting point for pretty much everyone. People build these without being told to because they're a familiar shape. I thought of them like an SOP, a documented procedure for doing something. The user supplies what, the skill supplies the how.
+>
+> Tan's framing is that a skill works like a method call. In programming, a method call is the syntax for invoking a procedure with arguments. The same code runs every time. The arguments are what vary: what data, what question, what target. The same process_invoice function handles every invoice in the system, not just the one it was first written for.
+>
+> A skill is the same shape. The seven steps of a skill called "/investigate" don't change. The parameters do: a TARGET (who or what to investigate), a QUESTION (what you're trying to figure out), a DATASET (where to look). Point it at a medical whistleblower case and you get a research analyst. Point it at SEC filings and you get a forensic investigator. Same file, same seven steps, the world supplies the difference.
+>
+> This is a different form factor from a traditional SOP. Most SOPs are written for a specific job: "Process Accounts Payable." One procedure per use case. A skill is written abstractly enough that the same procedure handles a family of cases. One well-built skill can do the work of dozens of SOPs because the case-specific detail moves out of the document and into the parameters. Depending on how you are using them, some skills are closer to SOPs, others to method calls.
+>
+> 2. Thin harness. The model (Opus, GPT-5.5, etc.) is the raw intelligence. The harness (Claude Code, Codex CLI, Hermes, OpenClaw) is what gives the model hands. They loop, read and write files, manage context, enforce safety. About 200 lines of code at the core.
+>
+> Garry notes the mistake most people make (he and I included) is to keep loading more stuff into the harness itself. I ended up with 100 tool definitions and a bunch of MCP servers. The result is that context window fills up with descriptions of tools the model doesn't need for the current task. The model gets confused about which to use. Latency goes up, accuracy goes down. Context rot.
+>
+> 3. Resolvers. The solution to context rot is a routing table. A resolver maps "task type X just came in" to "fire skill Y." When you have five skills, you don't need one. When you have a hundred, the descriptions blur together and the model fails to invoke the skill at the right time. The resolver replaces ambient pattern-matching with explicit rules.
+>
+> Tan also runs something like a resolver for files: a separate routing table that decides where the output of a skill should land in the filesystem. Same audit-and-route shape applied to a different problem. The output ends up in the right folder reliably rather than wherever the model guesses.
+>
+> Skillify is his companion idea: a quality loop that turns one-off skills into permanent infrastructure. The 10-step version Tan describes includes a contract, deterministic code where code can do the job, unit tests, integration tests, LLM-as-judge evals, resolver entry, an audit script that flags skills with no path to invocation, and an end-to-end smoke test. The test is simple. If you have to ask the model the same thing twice, you failed.
+>
+> 4. Latent vs. deterministic. Be thoughtful about which work lives where. The LLM is excellent at judgment, synthesis, pattern recognition, reading between the lines. It is bad at arithmetic, combinatorial optimization, anything that needs the same answer every time. LLMs are fundamentally probabilistic and shouldn't be used when a deterministic solution will do.
+>
+> Most non-technical people under-use the deterministic side. The default instinct is to throw everything at the model. If you can do something deterministically, you almost certainly should. And you don't need to be a programmer to do it. The model can write the code for you. The discipline is to ask, every time, whether code could handle this reliably for free, and to actually have the model write that code when the answer is yes.
+>
+> 5. Memory. The system needs some form of memory to be useful. I'm not sure what the right form is, and a lot of people are building it different ways: vector embeddings with semantic similarity, knowledge graphs, hybrid stores. Tan's approach is the same as mine: just a folder of markdown files.
+>
+> He has one page per person, one page per company, one page per concept. Each page has compiled truth on top (the current best understanding, rewritten as new evidence arrives) and an append-only timeline below.
+>
+> A few things follow from the markdown choice. The file is the system of record, not an export. You can open it in VS Code, edit it by hand, and the agent picks up the changes. Typed relationships (works_at, invested_in, founded, attended, advises) get extracted via regex on every write, so the knowledge graph wires itself without spending tokens. This particular schema makes sense for his job, but should probably be customized depending on what you do.
+>
+> A signal detector runs in the background. Mention someone once and they get a stub page; three mentions across sources and web enrichment fires; after a meeting, the full pipeline runs. An overnight dream cycle scans conversations, enriches stale entities, and fixes broken citations. The base is text. Everything on top is cheap and composable.
+>
+> There is more under the hood, but I think those are the broad strokes which I feel are more or less universally useful approaches.
+>
+> I had maybe half of this architecture already. I hadn't hit the scale where a real resolver was necessary, but I'm there now and just did a little refactor to make my setup model agnostic and with a built-in resolver. The signal detector and overnight dream cycle running automatic enrichment in the background is the main piece I haven't built yet and want to try and add.
+>
+> I suspect that the convergence across people building these is a signal that the form is generally (though probably not universally) useful.
+>
+> Even though implementation details vary in ways that matter, the general form seems to be coming up for many people.
+>
+> The question I have been asking is: how do you use AI to build sustainable competitive advantage?
+>
+> Everyone is excited about vibe-coded apps and one-shot prompts (which is 100% super cool). This is how I started playing with things and it got me hooked, but the equilibrium price of anything you can build with a one-shot prompt is the token cost to build it (which is a few cents).
+>
+> Like the person who copied My Fitness Pal and made a million dollars selling it for half the cost is awesome. But, someone else is just going to copy that and sell it for half again and the cycle keeps going until there's no margin there.
+>
+> What's actually durable is some form of process power implicit in the architecture above in Hamilton Helmer's 7 Powers sense.
+>
+> 7 Powers names the seven structural conditions that let a business sustain above-market margins over time. Anything not rooted in one of those powers gets competed away.
+>
+> Five of Helmer's seven powers are essentially closed doors for SMBs and early-stage companies. Scale economies require scale. Network economies and Switching costs can be developed but require building a big base. Cornered resources usually mean patents or similar that are not typical to companies. Branding usually takes a decade and you can't shortcut it.
+>
+> The two remaining ones are counter-positioning and process power.
+>
+> Counter-positioning (a model an incumbent can't mimic without cannibalizing their existing business) is sometimes available but not always.
+>
+> That leaves process power. And a well-built AI system is exactly the kind of artifact that generates it.
+>
+> It's the same kind of work as building really good SOPs or proprietary software. The procedures are codified, the cases are parameterized, the deterministic layer underneath is fast and reliable, and the memory layer carries forward what you've learned. It enables something like productized services on steroids: You can perform a service or supply a product at lower cost or higher quality because the work is structured.
+>
+> Imagine an accountant who builds this out. Memory layer: one folder with markdown files per client with compiled truth (entity structure, year-over-year tax positions, ongoing audits) and a timeline (meetings, decisions, what changed).
+>
+> There are some skills like /year-end-review, /quarterly-estimate, /audit-prep, same procedure parameterized for each client.
+>
+> There is a deterministic layer: tax tables, depreciation schedules, IRS publications, client tax return histories, etc.
+>
+> Then some form of diarization or dream cycle. E.g. overnight, the system flags a partner whose K-1 distribution dropped 40% without a strategy change, or notices that one client's home-office deduction structure is portable to another client (the structure travels, identities stay where they belong).
+>
+> She charges a small premium, handles more clients per year, and her competitors can't replicate it because the structure didn't exist when she started building it.
+>
+> The artifact itself is a folder of markdown files, but the lines in each file are downstream of lots of thoughtful testing and building to make process power.
+
+- **Tweet:** https://x.com/garrytan/status/2056915511469023635
+- **Quoted:** https://x.com/TaylorPearsonMe/status/2056782701173387645
+- **What:** Garry Tan frames agent-based skills, thin harnesses, deterministic code, markdown memory, and routing as a source of personal process power; Taylor Pearson explains why this layered architecture can turn reusable operational knowledge into a durable advantage rather than a one-shot prompt commodity.
+
+## @NousResearch - Hermes agents can operate X through the xurl skill
+> The @xai team has published a full setup guide on how to use the xurl skill, which allows your Hermes Agent to read and write to X on your behalf — posting, searching, pulling bookmarks, managing lists, and more — all through natural language.
+>
+> *Quoting @XDevelopers:* https://t.co/0KNlcVnsVD
+
+- **Tweet:** https://x.com/NousResearch/status/2056872329561710766
+- **Link:** https://x.com/i/article/2055126803224883200
+- **Quoted:** https://x.com/XDevelopers/status/2056871280599847054
+- **Filed:** [x-api-hermes-via-xurl-skill](./knowledge/articles/x-api-hermes-via-xurl-skill.md)
+- **What:** Nous Research emphasizes the practical result of X Developers’ setup guide: after configuring Hermes and xurl, an agent can use natural language to perform authenticated X operations including publishing, search, bookmarks, and list management.
+
+## @XDevelopers - Hermes xurl skill for natural-language X API access
+> https://t.co/0KNlcVnsVD
+
+- **Tweet:** https://x.com/XDevelopers/status/2056871280599847054
+- **Link:** https://x.com/i/article/2055126803224883200
+- **Filed:** [x-api-hermes-via-xurl-skill](./knowledge/articles/x-api-hermes-via-xurl-skill.md)
+- **What:** This setup guide explains how to connect Hermes to the X API through xurl, combining an agent, OAuth-authenticated developer credentials, and natural-language commands for posting, search, bookmarks, lists, and other account actions.
+
+## @RoundtableSpace - Building a self-updating Obsidian operations dashboard
+> Building Obsidian dashboards are not as hard as you think
+>
+> This article walks you through the entire setup from start to finish
+>
+> https://t.co/iPUcn2Rddf
+>
+> *Quoting @cyrilXBT:* https://t.co/U3KMTT6fVu
+
+- **Tweet:** https://x.com/RoundtableSpace/status/2056831004430815253
+- **Link:** https://x.com/i/article/2056174105821401090
+- **Quoted:** https://x.com/cyrilXBT/status/2056555832805089310
+- **Filed:** [obsidian-dashboard-that-shows-today-priorities](./knowledge/articles/obsidian-dashboard-that-shows-today-priorities.md)
+- **What:** The quoted guide shows how Dataview queries and consistent note metadata can make an Obsidian vault a live business dashboard, while RoundtableSpace highlights that the full setup is approachable from scratch.
+
+## @DeRonin_ - freellmapi aggregates free LLM providers behind one API
+> 800M free tokens a month, every major LLM, open source
+>
+> this guy literally made you to forget about any limits
+>
+> repo: https://t.co/OZ3iUKrkzB
+>
+> good luck in shipping. https://t.co/wixOjBQ1dq
+
+- **Tweet:** https://x.com/DeRonin_/status/2056813470557901261
+- **Link:** https://github.com/tashfeenahmed/freellmapi
+- **Filed:** [freellmapi](./knowledge/tools/freellmapi.md)
+- **What:** freellmapi consolidates the free tiers of 28 LLM providers behind an OpenAI-compatible endpoint, with routing, usage tracking, encrypted keys, and automatic failover for personal experimentation.
+
+## @CryptoTaxGirl - Potential refunds of pandemic-era federal penalties
+> If you had penalties and/or interest on any federal tax returns due between Jan 20, 2020 - July 10, 2023, you have until July 10, 2026 to potentially claim a refund!
+>
+> Why? Recently the court ruled that penalties and interest should not have been assessed during the COVID-19 pandemic in the Kwong v. US case.
+
+- **Tweet:** https://x.com/CryptoTaxGirl/status/2056754794912711085
+- **What:** Crypto Tax Girl flags a possible July 10, 2026 refund deadline for taxpayers charged federal penalties or interest on returns due during part of the pandemic, tying the opportunity to the Kwong v. United States ruling and prompting affected filers to verify eligibility.
+
+## @garrytan - Freeport's claimed episodic AI trading alpha
+> Interesting breakdown about episodic alpha using AI and Freeport Markets to trade better
+>
+> Interestingly this is precisely the kind of stuff we built for Palantir Finance in 2006 when I was working for @JTLonsdale https://t.co/IRP2BWRQ84
+>
+> *Quoting @freeportmarkets:* https://t.co/6oXbRNyyu0
+
+- **Tweet:** https://x.com/garrytan/status/2056750569277239538
+- **Link:** https://x.com/i/article/2056385150561193984
+- **Quoted:** https://x.com/freeportmarkets/status/2056725207138611353
+- **Filed:** [how-freeports-ai-beat-the-sp-by-46-in-16-weeks](./knowledge/articles/how-freeports-ai-beat-the-sp-by-46-in-16-weeks.md)
+- **What:** Garry Tan connects Freeport's AI-driven event trading to early Palantir Finance work, while Freeport presents a 16-week backtest whose returns were concentrated in oil-conflict and AI-capex narratives and explicitly cautions that correlated trades limit claims of repeatable alpha.
+
+## @pupposandro - A single-outlet quad-3090 workstation design
+> Incredible resource if you're thinking about building a  quad 3090 GPU workstation.
+>
+> 96GB VRAM, around ~$4,500 total costs.
+>
+> *Quoting @barrowjoseph:* https://t.co/29ZPECPb3d
+
+- **Tweet:** https://x.com/pupposandro/status/2056713480200237230
+- **Link:** https://x.com/i/article/2056415309213405184
+- **Quoted:** https://x.com/barrowjoseph/status/2056417511826989310
+- **Filed:** [building-1-outlet-4-gpu-workstation](./knowledge/articles/building-1-outlet-4-gpu-workstation.md)
+- **What:** Sandro highlights Joe Barrow's roughly $4,500, 96 GB VRAM quad-3090 build; the accompanying guide explains the component choices, electrical constraints, power and clock limiting, cooling trade-offs, and used-hardware risks required to run it from one household outlet.
+
+## @levelsio - Using Claude Code to audit a personal computer
+> A nice way to stay safe is to ask Claude Code to audit your devices
+>
+> I do same on my VPS servers, so today I tried it on my MacBook Pro and it's pretty good at it too
+>
+> It founds lots of stuff that was not secured, I actually forgot to enable FileVault when I got this new MBP in 2025, also some local networking stuff
+>
+> Just ask it "can you security audit my computer"
+
+- **Tweet:** https://x.com/levelsio/status/2056705090073870460
+- **What:** Pieter Levels reports that a plain-language Claude Code security audit found disabled FileVault and local-networking weaknesses on a new MacBook, suggesting an agent can serve as a useful first-pass checklist alongside conventional security controls.
+
 ---
 
 # Monday, May 18, 2026
@@ -18094,8 +19044,107 @@ P.S. I have 3-2-1 backups, multiple on-site and off-site backups which you shoul
 - **Tweet:** https://x.com/Anubhavhing/status/2056354184522330556
 - **What:** This bookmark highlights an unverified report that detailed project-level CLAUDE.md instructions substantially reduced coding-agent errors across many codebases, while correctly treating the reported percentages skeptically; it reinforces the value of explicit, testable repository conventions for agents.
 
----
+## @mvanhorn - Printing Press-powered Instacart CLI voice control
+> Still blows my mind that this works.  I browser sniffed the Instacart secret apis to make the Instacart CLI using the /printing-press @ppressdev and now I'm adjusting Costco orders in telegram with my voice and anyone can add this CLI in the library. https://t.co/O8O0bM3pB8
 
+- **Tweet:** https://x.com/mvanhorn/status/2056549370284372181
+- **What:** Matt Van Horn describes turning browser-observed Instacart APIs into a Printing Press CLI that can modify Costco orders through Telegram voice commands, illustrating a practical automation path for services without public developer APIs.
+
+## @badlogicgames - Mario Zechner's recommended reading and viewing index
+> Due to popular demand, you can now browse all my recommended reading/viewing suggestions here:
+>
+> https://t.co/V3X0F18XuE
+>
+> Sadly, Space Karen's hard core engineered Twitter API is absolutey garbage, and I can only get tweets back to April. Will backfile with an export.
+>
+> Enjoy.
+
+- **Tweet:** https://x.com/badlogicgames/status/2056536486636310757
+- **Link:** https://mariozechner.at/recommended-reading/
+- **What:** Mario Zechner publishes an ongoing, publicly browsable feed of reading and viewing recommendations from social posts, with an RSS endpoint; the note exposes a backfill limitation caused by X API history access rather than a complete personal archive.
+
+## @0xSero - Agent tools replace a freelance operating stack
+> I'm firing my accountant, I can't believe this.
+>
+> 2 years ago I hired:
+>
+> - lawyers
+> - accountants
+> - editors
+> - developers
+> - community managers
+> - marketers
+>
+> Now I can clank my way through all of it in parallel without any wasted time.
+>
+> droid + codex is all i need really https://t.co/M1Y4pnOuQA
+
+- **Tweet:** https://x.com/0xSero/status/2056478959483969602
+- **What:** This is a strong but unverified claim that a droid-and-Codex workflow can consolidate work once done by lawyers, accountants, editors, developers, and marketers; it signals demand for multi-role agent workflows rather than evidence those jobs are broadly obsolete.
+
+## @0xSero - Codex desktop supports end-to-end tax document organization
+> Finally for the first time I have organised my tax documents and prepared every single document for every government.
+>
+> Codex desktop app is far far ahead of every other app.
+>
+> - /goal
+> - gpt-5.5
+> - plugins
+>
+> I just want them to move the terminal into the right sidebar https://t.co/vl56bA8abP
+
+- **Tweet:** https://x.com/0xSero/status/2056461782886293613
+- **What:** A user report credits Codex desktop, `/goal`, plugins, and GPT-5.5 with turning a previously neglected tax-document workload into a completed administrative task, while also flagging the terminal layout as a remaining UX frustration.
+
+## @gdb - Using Goals in Codex for persistent objectives
+> how to use /goal in codex — keep Codex working on a persistent objective until it's solved:
+>
+> *Quoting @derrickcchoi:* My colleagues wrote up a great post on using Goals in Codex.
+>
+> They go through when to use them, what changes when a Goal is active, and how to write Goals that give Codex a clear outcome, constraints and verification criteria.
+>
+> Also how we designed Goals at the architecture level if you’re curious.
+>
+> https://t.co/QQfjW2EbPO
+
+- **Tweet:** https://x.com/gdb/status/2056430780809892252
+- **Link:** https://developers.openai.com/cookbook/examples/codex/using_goals_in_codex
+- **Quoted:** https://x.com/derrickcchoi/status/2056402681586188745
+- **Filed:** [using-goals-in-codex](./knowledge/articles/using-goals-in-codex.md)
+- **What:** Greg Brockman highlights OpenAI's guide to `/goal`, while the quoted explanation defines Goals as persistent, constraint-bound objectives with verification criteria, meant to keep a Codex thread working until its intended outcome is reached.
+
+## @gkisokay - Grok-powered research agents turn X signals into content
+> Hermes literally turned Grok into SuperGrok after I implemented all these changes to my research agent:
+>
+> - made Grok and X_Search the main engine for X research
+>
+> - replaced static X list scraping with Grok watchlists for priority accounts, topics, narratives, and global AI “ground-shaker” searches.
+>
+> - added stronger ranking so low-signal replies, reposts, promo, stale posts, and tiny-engagement noise do not become top recommendations.
+>
+> - added normalized Grok/X post records with citations, timestamps, metrics when available, freshness labels, and verification status.
+>
+> - research now picks high-signal X posts and asks Grok to deeply analyze what happened, why it matters, what claims need verification, and what content/build opportunities come from it.
+>
+> - wired Grok research into content agent, newsletters, research packets, verification queues, and other downstream agents.
+>
+> The result is that the system is now built to find fresher AI/X signals, understand them more deeply, and automatically turn them into better content opportunities.
+>
+> Tomorrow I'll post the guide on how to turbo-charge your research, too.
+>
+> *Quoting @gkisokay:* The #1 use case for every single person is a research agent.
+>
+> Grok is the #1 LLM for research since it pulls directly from X, which is the heartbeat for news in almost every niche.
+>
+> This week, make sure to integrate this into your Hermes to 10x your research.
+>
+> Ill share guides if there's interest.
+
+- **Tweet:** https://x.com/gkisokay/status/2056377145778450880
+- **Quoted:** https://x.com/gkisokay/status/2055822403352351031
+- **What:** Graeme pairs the claim that Grok should sit at the center of a personal research agent with a concrete Hermes retrofit: watchlists and X search feed ranked, cited, freshness-labelled posts into analysis and downstream content workflows.
+
+---
 # Sunday, May 17, 2026
 
 ## @jxnlco - Codex as a home for long-running work
