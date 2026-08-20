@@ -8684,6 +8684,763 @@ I have 200+ skills, and you want me to import 20+ of your slop skills, on the sa
 
 ---
 
+# Friday, July 10, 2026
+
+## @every - Tend’s self-improving AI work queues
+> GPT-5.6 has changed how we think about knowledge work. Your job shifts from handling individual tasks to tending systems with AI loops.
+>
+> Here’s what that looks like in @danshipper’s inbox:
+>
+> GPT-5.6 sweeps his email, decides what deserves his attention, researches the context, and presents each email with a short summary and proposed reply.
+>
+> Dan approves, edits, or reaches for @usemonologue to dictate what he wants changed. Then he moves on.
+>
+> At the end of each sweep, the agent learns from Dan’s revisions and decisions and remembers them for next time.
+>
+> Today we’re releasing Tend, an experiment that lets you build this kind of loop yourself. It’s an open-source prompt and repository for turning an inbox, hiring pipeline, or customer-support queue into a system you can tend in ChatGPT Work.
+>
+> Start by teaching Tend what deserves your attention. Then notice what happens: The inbox gets easier, the instructions get better, and another loop in your work begins to reveal itself.
+
+- **Tweet:** https://x.com/every/status/2075619608325922989
+- **What:** Every presents Tend as an open-source pattern for supervised AI work queues: an agent triages and researches incoming items, drafts next actions, and improves its future decisions from the operator’s approvals, edits, and rejections.
+
+## @jack - Asking agents to surface the best next thread
+> i’ve shifted from telling agents what to do, to asking them what to do, and pulling the best thread.
+
+- **Tweet:** https://x.com/jack/status/2075604612359315647
+- **What:** Jack describes a shift from task-by-task instruction toward exploratory delegation: agents propose possible directions, while the human evaluates their suggestions and follows the most promising line of inquiry.
+
+## @Voxyz_ai - Kill AI Slop field guide for vibe-coded interfaces
+> most useful skill i've seen this week: 𝗸𝗶𝗹𝗹 𝗔𝗜 𝘀𝗹𝗼𝗽.
+>
+> coding models move so fast that new products ship with the same AI look. this skill runs an agent audit on your product and strips the AI smell in one pass.
+>
+> the story behind it:
+>
+> - the author got tired of roasting AI slop products, so he made a field guide for spotting them
+> - of course he had to build the guide with AI
+> - so the anti-slop product could turn into slop at any moment. a perfect loop
+> - his fix: make it his 𝗺𝗼𝘀𝘁 𝗵𝘂𝗺𝗮𝗻-𝗶𝗻-𝘁𝗵𝗲-𝗹𝗼𝗼𝗽 𝗽𝗿𝗼𝗱𝘂𝗰𝘁 ever. screenshot ugly products one by one, write up why each is slop and how to fix it
+>
+> he says the hardest part was 𝗸𝗲𝗲𝗽𝗶𝗻𝗴 𝘁𝗵𝗲 𝗰𝗼𝗽𝘆 𝗶𝘁𝘀𝗲𝗹𝗳 𝗳𝗿𝗲𝗲 𝗼𝗳 𝗔𝗜 𝗳𝗹𝗮𝘃𝗼𝗿.
+>
+> https://t.co/XYykZAhFKK
+
+- **Tweet:** https://x.com/Voxyz_ai/status/2075558574617460781
+- **Link:** https://killaislop.com/
+- **What:** Vox highlights Kill AI Slop, a human-curated field guide and agent skill for auditing the recurring visual tics of vibe-coded products, with concrete screenshots and fixes intended to avoid reproducing the generic style it critiques.
+
+## @nurijanian - Design skill packs for AI coding agents
+> my top skills for designing with AI agents
+>
+> 🆕 emil kowalski https://t.co/7b49PF8eMG
+> ・impeccable https://t.co/Wcykv4uHwT
+> ・taste https://t.co/rThOMA1z76
+> ・layers https://t.co/VKFrJiCoBN
+>
+> I also made a plugin based on Refactoring UI to help you make everything look more polished (but I'm not a designer): https://t.co/hV6iVpBgqf
+>
+> find more here: https://t.co/5LJs9brXDv
+
+- **Tweet:** https://x.com/nurijanian/status/2075536512024994039
+- **Link:** https://github.com/emilkowalski/skills
+- **Link:** https://impeccable.style/
+- **Link:** https://www.tasteskill.dev/
+- **Link:** https://layers.jamiemill.com/
+- **Link:** https://github.com/gnurio/refactoring-ui-plugin
+- **Link:** https://www.prodmgmt.world/resources
+- **Filed:** [emilkowalski-skills](./knowledge/tools/emilkowalski-skills.md)
+- **What:** George Nurijanian collects AI-agent design aids that encode visual taste, from Emil Kowalski’s broad UI and motion skill pack to anti-slop, product-design, and Refactoring UI-inspired alternatives; the featured repository is already filed.
+
+## @mattpocockuk - Agent-specific skill installation CLI proposal
+> I think I need to ship my own installation CLI for my skills. It means I could:
+>
+> - Ship skills more customized to individual agents (/claude-handoff, /codex-handoff)
+> - Track dependencies (/grilling must be installed if /wayfinder is, for instance)
+> - Improve the update story for skills you've messed with (provide a prompt to grab the latest skills)
+>
+> npx @ai-hero/skills init
+>
+> WDYT?
+
+- **Tweet:** https://x.com/mattpocockuk/status/2075495703028142364
+- **What:** Matt Pocock proposes a dedicated CLI for installing AI-agent skills, framing skills as dependency-managed, agent-specific packages that can be safely updated even after users customize them.
+
+---
+
+# Thursday, July 9, 2026
+
+## @doodlestein - Dueling Idea Wizards for Adversarial Project Ideation
+> My God, seeing my /dueling-idea-wizards skill in action with Fable5 xhigh reasoning and GPT-5.6 Sol Max reasoning is truly a thing of beauty.
+>
+> Usually I have Claude Code "drive" the process, but Codex with Sol is doing a yeoman's job following the skill:
+>
+> https://t.co/RfQkmhSaaW
+>
+> *Quoting @doodlestein:* The dialectic process of truth discovery is just as vital and powerful now as it was for the ancient Greeks. Except now you don't need to assemble a group of brilliant aristocrats in togas to partake in it.
+>
+> Instead, you can sit back and use my Dueling Idea Wizards skill to get GPT-5.5 and Opus 4.8 (and even Gemini 3.1 if you want) to do it for you via my ntm orchestration tool:
+>
+> https://t.co/n2Li1ctWeb
+>
+> The screenshots show the results of running this on my FrankenNode project (https://t.co/OZrp5GKk4G) with the following prompt in Claude Code:
+>
+> ---
+>
+> First read ALL of the AGENTS.md file and README.md file super carefully and understand ALL of both! Then use your code investigation agent mode to fully understand the code and technical architecture and purpose of the project.
+>
+> Then apply /dueling-idea-wizards in the most comprehensive and ambitious way possible to come up with the very best ideas-- the smartest and most radically innovative and accretive and useful and compelling additions you could possibly make to the project at this point.
+>
+> ---
+>
+> It cranks away for quite a while and then presents you with what are usually extremely smart, well-reasoned ideas.
+>
+> These ideas are basically the final survivors in an intense, Mad-Max style competition of brutal elimination and repeated challenges.
+>
+> Then you can turn them into beads and implement them with a swarm, again using ntm. Rinse and repeat.
+
+- **Tweet:** https://x.com/doodlestein/status/2075392866537324585
+- **Link:** https://jeffreys-skills.md/skills/dueling-idea-wizards
+- **Quoted:** https://x.com/doodlestein/status/2063451930215526880
+- **Filed:** [franken-node](./knowledge/tools/franken-node.md)
+- **What:** Jeffrey Emanuel highlights his Dueling Idea Wizards workflow as a way to use competing models to interrogate a codebase and repeatedly eliminate weak proposals; the quoted example applies it to FrankenNode before handing surviving ideas to an implementation swarm.
+
+## @levelsio - The Everything Chart Maps Personal Technology Trends
+> I'm pretty bad at a lot of things but one thing I've (accidentally or not) have been pretty good at is being early at trends
+
+A lot of these trends are in my head in some way and I wanted to visualize those on a chart. So I built another dynamic blog post (on my new vibecoded blog platform that lets me do these kinds of pages) with this chart above. The first disclaimer of course is this is completely subjective and essentially a chart based brain dump. And the second disclaimer is I don't think I'm right, it's just my own beliefs visualized!
+
+I'll keep updating the chart
+
+You can select different trends on the legend or by clicking on a line, and you can also go fullscreen! Also you can select [x] indexed view which is pretty cool too :D
+
+Let me know what I should add or change!
+
+https://t.co/9CCFoSj7Gf
+
+- **Tweet:** https://x.com/levelsio/status/2075356658738278873
+- **Link:** https://levels.io/the-everything-chart
+- **Filed:** [the-everything-chart](./knowledge/articles/the-everything-chart.md)
+- **What:** Pieter Levels publishes an interactive, deliberately subjective timeline of the trends he believes he spotted early, with line selection, fullscreen viewing, and an indexed mode that make the evolving brain dump explorable rather than a static prediction.
+
+## @Voxyz_ai - End-to-End Prompt for Parallel Coding Agents
+> ok this one is stupidly good. try it on 5.6 sol extra high in codex!
+
+it plays straight into codex's new strengths, parallel subagents and computer use, and lets 5.6 sol carry a goal all the way to done.
+
+the prompt 👇
+
+I have one complete task to push end to end: [your spec doc, or the full task in detail]. treat it as one end-to-end goal: 𝚁𝚊𝚒𝚜𝚎 𝚝𝚑𝚎 𝚠𝚑𝚘𝚕𝚎 𝚙𝚕𝚊𝚗 𝚝𝚘 𝚍𝚘𝚗𝚎, until architecture, implementation, tests, review and the final result all clear the bar. break the goal into independent parts, spawn as many parallel agents as it takes, and give each one its own goal with a clear deliverable, a verification method, and done criteria.
+
+then run it like an operator: schedule the agents in parallel, track progress, synthesize what comes back, resolve conflicts, keep implementing, verify live after every important step, review when it matters, commit when it's ready, and close with a final summary. verification must cover the real end-to-end path: browser and computer use, clicks, keyboard, whatever it takes. don't stop at partial progress unless you're blocked by missing credentials, destructive ambiguity, or conflicting requirements.
+
+- **Tweet:** https://x.com/Voxyz_ai/status/2075318992000934372
+- **What:** Vox presents a reusable operator prompt that turns an arbitrary specification into a managed multi-agent delivery effort, explicitly requiring decomposition, independent verification, live end-to-end testing, conflict resolution, review, and a completed outcome rather than partial work.
+
+## @Hitchslap1 - Chess Elo Explains Limited Variance in General Intelligence
+> Many are surprised the correlation between chess Elo ratings and general intelligence (g) is low, around ~0.25.
+
+This means cognitive ability (IQ) accounts for ~6% of the variance in performance. https://t.co/WoopVZyUZN
+
+- **Tweet:** https://x.com/Hitchslap1/status/2075290194732040447
+- **What:** The post separates chess-specific performance from broad cognitive ability by citing a modest approximately 0.25 Elo–g correlation, emphasizing that practice, domain knowledge, and other factors explain far more of the variance than IQ alone.
+
+## @ShaneHummus - YouTube Niches Gaining Momentum in Q3 and Q4
+> YouTube niches I'm seeing print money right now going from Q3 into Q4
+(coming from someone with 1.5M YouTube subscribers):
+
+- **Tweet:** https://x.com/ShaneHummus/status/2075278337660891600
+- **What:** A creator with 1.5 million YouTube subscribers signals an upcoming rundown of niches with strong late-year monetization potential, offering a practitioner-led starting point for evaluating audience demand and advertising opportunities.
+
+## @WillNessAI - Wayfinder's adaptive single-agent workflow
+> Day 1 of using @mattpocockuk's Wayfinder. I have a lot to say, but I think this sums it up:
+>
+> 1. Your agent can now be both a PM and a developer.
+>
+> 2. For the last year or so, every paradigm has been some form of Research -> Plan -> Implement. This is different, it's more like:
+>
+> Set Goal -> Task -> Adjust -> Task -> Adjust -> Task -> Adjust -> ...
+>
+> Where "Task" can be to research, to plan/grill, to implement, or to prototype.
+>
+> In hindsight, this flexibility is obviously needed for real work.
+>
+> 3. The best solution I have used for 'sizing' tasks for a single agent session.
+>
+> 4. A lot of other frameworks are HUGE. This one is small.
+
+- **Tweet:** https://x.com/WillNessAI/status/2075260831500312947
+- **What:** Will Ness characterizes Wayfinder as a lightweight operating model in which one agent can handle product-management and development work by iterating between a goal, a focused task, and reassessment. He contrasts its flexible task selection and session sizing with rigid research-plan-implementation pipelines, arguing that the smaller framework better matches real software work.
+
+## @CasJam - Seeking a more reliable Wispr Flow alternative
+> Favorite alternative to Wispr Flow for voice dictation?
+>
+> Too many papercuts lately.  Looking for better support for dictionary, better context (know when I speak mid-sentence etc.) and better keyboard customizeability.
+
+- **Tweet:** https://x.com/CasJam/status/2075242248283865349
+- **What:** Brian Casel asks for voice-dictation alternatives to Wispr Flow after recurring usability friction, especially around custom dictionaries, awareness of mid-sentence speech, and keyboard controls. The request identifies the practical integration details that determine whether AI dictation becomes dependable enough for continuous daily writing.
+
+## @chatcutapp - ChatCut offers a Codex-integrated video editor
+> Codex is now a full video editor!
+>
+> Our new plugin opens a full built-in NLE right inside the Codex app, where you and your agent can edit together, effortlessly.
+>
+> If you're already paying for Codex, you get this one for FREE.
+>
+> It's available now. Start using it in 1 minute, by just telling your Codex:
+>
+> "Turn Codex into a Video Editor, read https://t.co/mMA23r1RgY"
+
+- **Tweet:** https://x.com/chatcutapp/status/2075203997359898712
+- **Link:** https://chatcut.io/codex
+- **What:** ChatCut promotes a plugin that adds a non-linear video-editing interface to Codex so a user and coding agent can work on edits in one environment. The destination is an installation and product-marketing page rather than a standalone editorial resource, so it is retained as an archive entry without separate filing.
+
+## @damnang2 - Memory-on-logic could remake the memory business
+> https://t.co/OGCjNLFVLp
+
+- **Tweet:** https://x.com/damnang2/status/2075162510194262253
+- **Link:** https://x.com/i/article/2075161174531051520
+- **Filed:** [memory-on-logic-re-rating-memory-beyond-the-cycle](./knowledge/articles/memory-on-logic-re-rating-memory-beyond-the-cycle.md)
+- **What:** This technical investment thesis argues that the shift from standard HBM to logic-process base dies, customer-specific HBM, and eventually memory-on-logic will make memory less interchangeable. Custom designs could turn memory makers into custom-silicon partners with stickier revenue and margins, although thermal management and manufacturing yield remain major obstacles to fully stacked designs.
+
+## @0x0SojalSec - GLIMPSE brings GLM-5.2 inference to a MacBook
+> Great bro, locally GLM-5.2 now runs at 41.8 tok/s with 256k context on a single MacBook
+>
+> The new GLIMPSE engine for MLX i
+>
+> *Quoting @jun_song:* The new engine for MLX is in its final stages of development.
+>
+> Just ran GLM-5.2 on a single MacBook (116GB) hitting 41.8 tok/s with a 256k context window.
+>
+> Quality loss is only around ~4%, which puts it right at the 3-4bit quality level. The tech behind this uses a newly introduced layered architecture.
+>
+> When I first started, I was getting 10 tok/s with Kimi-K2.6 (128GB, 1024 context). Now it is fully at production level.
+>
+> Been grinding on this for months. Feels great to see it finally coming out soon.
+
+- **Tweet:** https://x.com/0x0SojalSec/status/2075139358924104037
+- **Quoted:** https://x.com/jun_song/status/2075060354640654494
+- **What:** Jun Song says the forthcoming GLIMPSE MLX engine runs GLM-5.2 locally at 41.8 tokens per second with a 256k-token context window on a 116GB MacBook, while Sojal underscores the practical significance of that result. The claimed roughly 4% quality loss places its layered architecture near 3–4-bit quantization quality while making large-model local inference far more usable.
+
+---
+
+# Wednesday, July 8, 2026
+
+## @samhogan - Model substitutions cut LLM costs by 80%
+> we're helping a customer spending $60k/mo move from OpenAI &amp; Anthropic to open source models
+>
+> they use almost every model offered by the labs, so we needed to find replacements for all of them
+>
+> after generating evals, this is what we landed on
+>
+> new cost: $12k/mo, 80% savings https://t.co/ORYlLANvkf
+
+- **Tweet:** https://x.com/samhogan/status/2075028545156567541
+- **What:** Sam Hogan reports using workload-specific evaluations to replace a customer's broad OpenAI and Anthropic usage with open-source models, lowering a stated $60,000 monthly spend to $12,000 while implying that credible savings depend on matching each proprietary model to an evaluated alternative.
+
+## @zamir_ar - NEvo synthesizes videos for target brain regions
+> Turns out it's possible to generate videos that maximally excite an arbitrary brain region using a simple search-based algorithm. It's a fully computational approach, so it's another way to speculate what a brain region represents, alongside other neuroscientific methods.
+>
+> Select an arbitrary brain region->algorithmically generate a video that jacks it up. See the visuals on the webpage https://t.co/UzKyN8MHda
+>
+> In silico (for now)
+>
+> *Quoting @yingtian_david:* 🚨 NEW PREPRINT
+>
+> Videos strongly shape activity across the visual cortex. But can we design videos that maximally drive specific brain regions?
+>
+> We present NEvo 🧬🧠 — a neural-guided evolutionary framework that synthesizes videos to maximally activate target visual ROIs.
+>
+> (1/10) https://t.co/l33jdrvYn3
+
+- **Tweet:** https://x.com/zamir_ar/status/2074960499457056950
+- **Link:** https://nevo-project.epfl.ch/
+- **Quoted:** https://x.com/yingtian_david/status/2074404756739489982
+- **Filed:** [nevo-neural-guided-evolutionary-video-synthesis](./knowledge/articles/nevo-neural-guided-evolutionary-video-synthesis.md)
+- **What:** Amir Zamir highlights Yingtian Tang's NEvo preprint, which uses neural-guided evolutionary search to synthesize videos that maximize activation in selected visual-cortex regions; the resulting stimuli provide a computational, in-silico route to hypothesize what those regions encode.
+
+## @cursor_ai - Cursor partnership to train Grok 4.5
+> We've partnered with SpaceXAI to train Grok 4.5.
+>
+> It’s our most powerful model yet and the first we've built for more than software engineering. https://t.co/U4B8Tedl34
+
+- **Tweet:** https://x.com/cursor_ai/status/2074915744999969059
+- **What:** Cursor announces a partnership with SpaceXAI to train Grok 4.5, characterizing it as its most capable model and a move beyond software-engineering specialization toward broader task coverage, although the post supplies no technical details about training or evaluation.
+
+## @ahejlsberg - TypeScript 7.0's native compiler port
+> Huge milestone for our team today: TypeScript 7 is now generally available--a native port that runs 10x faster. @typescript https://t.co/3DtJJqEZAl
+
+- **Tweet:** https://x.com/ahejlsberg/status/2074899956511760806
+- **Link:** https://devblogs.microsoft.com/typescript/announcing-typescript-7-0/
+- **Filed:** [typescript-7-0-generally-available](./knowledge/articles/typescript-7-0-generally-available.md)
+- **What:** Anders Hejlsberg announces the general availability of TypeScript 7.0, whose native compiler and tooling port is said to run ten times faster, potentially making type checks, builds, and editor feedback materially less interruptive in TypeScript development.
+
+## @karenxcheng - Rotary phone AI agent with a mechanical display
+> i hooked up a rotary phone from the 1920s to an AI agent, that replies on a mechanical display
+>
+> it’s like a dumbphone without distracting notifications
+>
+> here’s how i built this w/ @cursor_ai https://t.co/6BkanYQo64
+
+- **Tweet:** https://x.com/karenxcheng/status/2074889981475369028
+- **What:** Karen X. Cheng describes a deliberately constrained AI interface that turns a 1920s rotary phone into an agent endpoint with mechanical replies, using familiar single-purpose hardware to remove the notification and app-distraction patterns of modern smartphones.
+
+## @JJEnglert - Pairing Claude Code orchestration with new GPT coding models
+> Anthropic has given us an engineering manager and OpenAi has gifted us a top 1% engineer ❤️
+>
+> Use the two together in your work to get the best of both worlds.
+>
+> Prompt:
+>
+> Tell Claude “install the codex CLI and use it within Claude code as a sub agent. Default to GPT 5.6 Sol (or Terra).  Use it whenever I tell you use to codex.”
+>
+> *Quoting @OpenAI:* GPT-5.6 Sol, along with Terra and Luna, will launch publicly this Thursday.
+>
+> We’re expanding preview access globally now. https://t.co/Uk5HcfSc2e
+
+- **Tweet:** https://x.com/JJEnglert/status/2074822850666438893
+- **Quoted:** https://x.com/OpenAI/status/2074704958419792299
+- **What:** JJ Englert frames Claude Code as an engineering manager that can delegate implementation to the Codex CLI, recommending GPT-5.6 Sol or Terra as defaults while amplifying OpenAI's announcement that Sol, Terra, and Luna are expanding from preview toward public launch.
+
+## @petergyang - Seeking an AI-native designer to demonstrate modern workflows
+> I woudl like to interview an AI-native designer to show us how to build with design.md, components, and more vs. the typical process.
+>
+> Who's the best person to talk to?
+
+- **Tweet:** https://x.com/petergyang/status/2074705840284815678
+- **What:** Peter Yang is looking for an AI-native designer who can demonstrate a component- and design.md-driven build process, offering a practical contrast with conventional design handoffs and potentially documenting how design work changes when AI is part of the production workflow.
+
+---
+
+# Tuesday, July 7, 2026
+
+## @thesamparr - Assessing AI for long-form sales copy
+> Have anyone use ai to crack copywriting?
+>
+> Specifically, longform sales copy. Landing pages, sale decks, brochures, emails, etc.
+>
+> I've asked this last year and the answer was no.
+>
+> Personally, I don't use ai to write copy. But I do use it to brainstorm.
+>
+> But I wanna do a pulse check and see if anyone has truly nailed it (or close to nailed it) and what did you do to make it great?
+
+- **Tweet:** https://x.com/thesamparr/status/2074670001647243410
+- **What:** Sam Parr asks for proven AI workflows that can produce persuasive long-form sales materials—not merely brainstorm ideas—covering landing pages, pitch decks, brochures, and email, and seeks the methods behind any results that approach professional copywriting quality.
+
+## @CitadelSportsLV - Prediction-market expansion reports early trading profits
+> Over the last 3 months, Citadel Sports Group has made a serious push into prediction markets.
+>
+> What started as a question of whether our legacy business would translate has turned into something real.
+>
+> Public profile: $16M+ volume, $1M+ profit.
+>
+> Of course past results are not indicative of future results and prediction-market trading involves risk but we are pretty proud of what we have accomplished in a short time.
+>
+> 🧵(1/4)
+
+- **Tweet:** https://x.com/CitadelSportsLV/status/2074654676944093266
+- **What:** Citadel Sports Group says its first three months in prediction markets produced more than $16 million in volume and $1 million in profit, presenting a legacy sports-betting operator's early market-entry results with an explicit warning that they do not predict future performance.
+
+## @sound4movement - Codex Hygiene for auditing context and tool surfaces
+> Last week I burned through my entire weekly Codex limit in under 48 hours.
+>
+> Even after reducing the workload, it was clear I needed to tune my Codex setup.
+>
+> The changes helped immediately, so I turned the process into a skill others can use too:
+>
+> @OpenAIDevs
+>
+> https://t.co/gQ9c6SfzED
+
+- **Tweet:** https://x.com/sound4movement/status/2074621524510982545
+- **Link:** https://github.com/sunflower-of-parchman/codex-hygiene
+- **Filed:** [codex-hygiene](./knowledge/tools/codex-hygiene.md)
+- **What:** Codex Hygiene is a read-only skill for auditing Codex context, plugins, MCP surfaces, and local usage telemetry so developers can make evidence-based, reversible changes before recurring token exhaustion.
+
+## @ClaudeDevs - Advisor-executor routing for lower-cost Fable 5 use
+> A few patterns we frequently use with Fable 5:
+>
+> Use Fable 5 as an "advisor."
+>
+> An executor (Sonnet 5) calls Fable 5 for guidance.
+>
+> Most tokens are billed at the lower executor rate. https://t.co/JIiZ2gm99Y
+
+- **Tweet:** https://x.com/ClaudeDevs/status/2074606058128224365
+- **What:** ClaudeDevs proposes a model-routing pattern in which Fable 5 supplies high-level guidance while a Sonnet 5 executor performs most work, concentrating premium-model usage on advice and lowering token costs.
+
+## @PromptLLM - Fable 5 prompt share without context
+> Insane Fable 5 Prompt https://t.co/7QhIEehtKL
+
+- **Tweet:** https://x.com/PromptLLM/status/2074598026509738204
+- **What:** THIN: @PromptLLM flags an unspecified Fable 5 prompt as notable, but the bookmark provides neither the prompt text nor a destination that explains its intended workflow.
+
+## @doodlestein - beads_viewer static project-graph publisher
+> *Replying to @doodlestein:* You can see it for yourself here (the rest of the website should be ready later today):
+>
+> https://t.co/a4raEI8Vew
+>
+> And here is a link to beads_viewer if you want to generate a similar static site (just do `bv --pages` from your project root, assuming you used beads!):
+>
+> https://t.co/pGNHTEqQHH
+
+- **Tweet:** https://x.com/doodlestein/status/2074593732712653086
+- **Link:** https://github.com/Dicklesworthstone/beads_viewer
+- **Parent:** https://x.com/doodlestein/status/2074593432509562942
+- **Filed:** [beads-viewer](./knowledge/tools/beads-viewer.md)
+- **What:** Beads Viewer turns a Beads issue tracker into an interactive dependency-analysis TUI and can publish a static project-graph site with `bv --pages`, as illustrated by the linked FrankenSim task map.
+
+## @doodlestein - FrankenSim's 238-task Beads project graph
+> *Replying to @doodlestein:* Behold, the Beads tasks for my new FrankenSim project: 238 beads in total, drawn from both the original plan and the new plan addendum, with the visualization generated by my beads_viewer project: https://t.co/taMsobhzId
+>
+> You can see it for yourself here (the rest of the website should be ready later today):
+>
+> https://t.co/a4raEI8Vew
+
+- **Tweet:** https://x.com/doodlestein/status/2074593432509562942
+- **Link:** https://frankensim.org/beads
+- **Parent:** https://x.com/doodlestein/status/2074593215169134763
+- **What:** This reply exposes FrankenSim's 238 Beads tasks as a browsable project graph, demonstrating how a plan and its addendum can be rendered as a concrete dependency map instead of a flat issue list.
+
+## @jalendport - Cutting Claude Code system-prompt bloat
+> Followed this excellent tip by @mattpocockuk to trim Claude Code's system prompt based on my usage history, and here is what it saves me going forward:
+>
+> 📉 21,654 → 13,644 tokens per turn — 8,010 saved (~37%)
+>
+> *Quoting @mattpocockuk:* Here's a step-by-step process to kill all the bloat from your Claude Code system prompt:
+>
+> 1. Run a proxy so you can see exactly what gets sent to Claude Code (included in the article)
+> 2. "Fuck, there is so much cruft in there"
+> 3. Use my settings.json to kill all the bloat
+>
+> Down to a clean 13K tokens to start each session with. Nice.
+>
+> Full process here:
+>
+> https://t.co/Kie84HMe2A
+
+- **Tweet:** https://x.com/jalendport/status/2074579375157022961
+- **Link:** https://www.aihero.dev/how-to-kill-the-bloat-in-claude-codes-system-prompt
+- **Quoted:** https://x.com/mattpocockuk/status/2074464823232888987
+- **Filed:** [how-to-kill-the-bloat-in-claude-codes-system-prompt](./knowledge/articles/how-to-kill-the-bloat-in-claude-codes-system-prompt.md)
+- **What:** Matt Pocock's guide uses request inspection and targeted settings changes to reduce Claude Code's initial system-prompt payload; Jalen reports that applying it to his history cut per-turn tokens by about 37%.
+
+## @coreyhainesco - Free YouTube Marketing Education Versus Gated AI Content
+> All the marketing “thought leaders” are in for a rude awakening when I start publishing YouTube videos for free that are 100x better than all the AI slop they’re gating in webinars and paid communities 😅
+
+- **Tweet:** https://x.com/coreyhainesco/status/2074561588078744041
+- **What:** Corey Haines promises a free YouTube marketing series positioned as a higher-quality alternative to generic AI-driven material sold through webinars and paid communities, reflecting a bet that public educational content can outperform gated thought-leadership offerings.
+
+## @ConnorShowler - Parasite SEO Abuse on Freelance Platforms
+> This is black hat parasite SEO
+>
+> Posting to socials is as close as you're gonna get to white hat parasite SEO
+>
+> *Quoting @loganix:* i just uncovered a massive parasite seo operation running across multiple freelance platforms
+>
+> gambling networks, spam rings, ai content farms, all disguised as freelancer profiles
+>
+> one example: an illegal indian gambling operation using freelancer(dot)com as the host, pulling over 900k monthly visits before google caught it
+>
+> this is one of hundreds, potentially thousands of parasites
+>
+> dropping the full story same time tomorrow, so keep an eye out
+
+- **Tweet:** https://x.com/ConnorShowler/status/2074548534624305555
+- **Quoted:** https://x.com/loganix/status/2074070909795655910
+- **What:** Loganix reports alleged gambling, spam, and AI-content networks exploiting freelance-platform profiles to borrow their domain authority, including a Freelancer-hosted operation that drew major search traffic; Showler classifies that tactic as black-hat parasite SEO and contrasts it with publishing on social platforms.
+
+## @tferriss - Fear-Setting for Better Decisions
+> I do an exercise called “fear-setting” at least once a quarter, often once a month. It is the most powerful exercise I do. Fear-setting has produced my biggest business and personal successes, as well as repeatedly helped me to avoid catastrophic mistakes.
+
+- **Tweet:** https://x.com/tferriss/status/2074547968921723040
+- **What:** Ferriss advocates recurring fear-setting: deliberately defining the downside scenarios around a decision so that avoidable catastrophes become visible and manageable, a practice he credits with both his largest successes and better personal and business judgment.
+
+## @IterIntellectus - LLMs as Uneven Intelligence Amplifiers
+> you must see LLMs as intelligence amplifiers and their amplification depends on your actual intelligence
+>
+> so, if your IQ is 135+, with AI you can perform at the current AI maximum and it feels like real magic
+>
+> if you’re 120-135, you get a good 50% buff
+>
+> If you’re 105-120, you get a 25%
+>
+> 90-105, nothing changes
+>
+> below 90 it makes you more stupid
+>
+> *Quoting @ryanbrewer:* It’s shocking to me that LLMs didn’t create an educational renaissance. Shouldn’t I be able to learn a language in a month? What did we get wrong?
+
+- **Tweet:** https://x.com/IterIntellectus/status/2074535317965562258
+- **Quoted:** https://x.com/ryanbrewer/status/2073812031988535760
+- **What:** The quoted post asks why broadly available LLMs have not caused an educational renaissance; Vittorio answers with a speculative intelligence-amplifier model in which benefits depend sharply on the user’s existing ability, challenging the assumption that access alone makes learning radically easier.
+
+## @doodlestein - FrankenSim Prompt-Priming Workflow for System Design
+> Update: I decided to try to make this “maximally ambitious” FrankenSim project even more ambitious.
+>
+> But first, I tried to have Fable explain to me in simpler terms how the current project works, particularly the sheaf cohomology aspect, which is beyond my ken. I understand it a lot more now.
+>
+> Then I guided it through a series of questions and prompts to find the areas that would most improve the system. I had it use a scoring rubric that was very helpful for framing everything.
+>
+> Finally, after going through all this, I asked it to create an addendum document to my original plan document.
+>
+> The process I followed leads to much better results than you’d get if you directly asked for the addendum and simply asked it to improve the system.
+>
+> I even think that making it “dumb things down” for me before going into the improvements helped in that process, since the best way to understand something is to try to explain it as clearly as possible to someone else.
+>
+> I’ve written before about this kind of “pump priming” leading to better results from these models. So I thought I’d share the entire conversation so you can see exactly how I went about it:
+>
+> https://t.co/Syl7wXeLia
+>
+> Let me know what you think! Do you use similar methods in developing and expanding on your plans?
+>
+> *Quoting @doodlestein:* So if I manage to actually build this thing, who gets the plaudits? Me or Fable/Anthropic? Can we agree it's me (lol)?
+>
+> That would be like crediting Aladdin with the works of the Genie. But I DID have to ask for something odd, in a very special way...
+>
+> https://t.co/Pu2R15c6C4 https://t.co/xaFoajKOkZ
+
+- **Tweet:** https://x.com/doodlestein/status/2074516206086684692
+- **Link:** https://claude.ai/share/acefc26c-6184-4042-a67e-93cc22ce2a46
+- **Quoted:** https://x.com/doodlestein/status/2073832440158638137
+- **What:** Emanuel shares the full conversation behind an ambitious FrankenSim extension, arguing that simplifying its sheaf-cohomology design before scoring improvement paths produces stronger plans; the quoted post frames his unusual prompting as the human direction that turns Fable or Claude output into a project worth claiming.
+
+## @EXM7777 - Six-phase prompt for mining agent session history
+> https://t.co/au4TgoIh59
+
+- **Tweet:** https://x.com/EXM7777/status/2074501620235465089
+- **Link:** https://x.com/i/article/2074492979709083649
+- **Filed:** [this-prompt-will-change-your-life](./knowledge/articles/this-prompt-will-change-your-life.md)
+- **What:** This article proposes a guarded six-phase process for using local AI-agent session archives as evidence: approve a sampling plan, collect dated patterns before interpreting them, test hypotheses with the user, and convert verified insights into a roadmap and opt-in workflow improvements.
+
+## @dillon_mulroy - Pi highlights Claude Code context trimming workflow
+> pi https://t.co/Qyev6jLNAg
+>
+> *Quoting @mattpocockuk:* Here's a step-by-step process to kill all the bloat from your Claude Code system prompt:
+>
+> 1. Run a proxy so you can see exactly what gets sent to Claude Code (included in the article)
+> 2. "Fuck, there is so much cruft in there"
+> 3. Use my settings.json to kill all the bloat
+>
+> Down to a clean 13K tokens to start each session with. Nice.
+>
+> Full process here:
+>
+> https://t.co/Kie84HMe2A
+
+- **Tweet:** https://x.com/dillon_mulroy/status/2074491669508976835
+- **Link:** https://www.aihero.dev/how-to-kill-the-bloat-in-claude-codes-system-prompt
+- **Quoted:** https://x.com/mattpocockuk/status/2074464823232888987
+- **Filed:** [how-to-kill-the-bloat-in-claude-codes-system-prompt](./knowledge/articles/how-to-kill-the-bloat-in-claude-codes-system-prompt.md)
+- **What:** Dillon's brief Pi endorsement points to Matt Pocock's practical context-reduction workflow, which uses a request proxy to find system-prompt overhead and targeted settings changes to remove unused capabilities while retaining the tools an agent workflow depends on.
+
+## @maxjendrall - Objection to Anthropic-hosted HTML artifacts
+> Whoever thought I want html artifacts published to their server at anthropic is crazy
+>
+> WHAT THE FUCK
+
+- **Tweet:** https://x.com/maxjendrall/status/2074468938096820619
+- **What:** THIN: The post objects to an apparent default that publishes generated HTML artifacts to Anthropic-hosted infrastructure, raising a data-control concern but providing no technical details, example artifact, or linked documentation for verification.
+
+## @mattpocockuk - Reducing Claude Code's startup context bloat
+> Here's a step-by-step process to kill all the bloat from your Claude Code system prompt:
+>
+> 1. Run a proxy so you can see exactly what gets sent to Claude Code (included in the article)
+> 2. "Fuck, there is so much cruft in there"
+> 3. Use my settings.json to kill all the bloat
+>
+> Down to a clean 13K tokens to start each session with. Nice.
+>
+> Full process here:
+>
+> https://t.co/Kie84HMe2A
+
+- **Tweet:** https://x.com/mattpocockuk/status/2074464823232888987
+- **Link:** https://www.aihero.dev/how-to-kill-the-bloat-in-claude-codes-system-prompt
+- **Filed:** [how-to-kill-the-bloat-in-claude-codes-system-prompt](./knowledge/articles/how-to-kill-the-bloat-in-claude-codes-system-prompt.md)
+- **What:** Matt Pocock presents a measurement-first way to trim Claude Code's startup context: inspect the actual request with a local proxy, disable feature bundles or tool schemas that are genuinely unused, then compare the resulting token budget rather than optimizing blindly.
+
+## @8teAPi - Agent routing reaches engineering-manager leverage
+> I told Fable it was down to its last 10% of tokens and to use codex and sonnet for everything it could.
+>
+> It did as much work as the first 90%.
+>
+> We’ve hit the mid-level engineering manager. 6 months ahead of time.
+>
+> *Quoting @theo:* This is the relevant section of my CLAUDE.md
+>
+> I'll be real - I haven't read it much. Just vibed out what I was looking for with Fable, and had it confirm it can use Codex for the things I care about
+>
+> I still find Codex to be WAY better at computer use, verification of UI/UX work, and generally more efficient at execution on well spec'd work
+>
+> Minmaxing this has genuinely been really fun for me and I'm loving the outputs I've been getting.
+>
+> I was throwing away ~50% of my end-to-end agent-driven PRs before building this workflow. I haven't had to close a single one today :)
+
+- **Tweet:** https://x.com/8teAPi/status/2074386271422820791
+- **Quoted:** https://x.com/theo/status/2072482460122964067
+- **What:** Prakash highlights Theo's multi-model workflow: route computer use, UI verification, and well-specified execution to Codex while using other agents where they fit, producing enough higher-quality PRs to eliminate a previously large discard rate.
+
+## @Aizkmusic - Anthropic’s global-workspace interpretability study
+> *Replying to @brainage19:* @Aizkmusic What's a J-space probe
+>
+> @brainage19 New mechanistic interpretability paper from Anthropic
+> https://t.co/8Yll6fwTYX
+
+- **Tweet:** https://x.com/Aizkmusic/status/2074382491431956574
+- **Link:** https://www.anthropic.com/research/global-workspace
+- **Parent:** https://x.com/brainage19/status/2074382092755189850
+- **Filed:** [global-workspace-in-language-models](./knowledge/articles/global-workspace-in-language-models.md)
+- **What:** In response to a question about J-space probes, this post directs readers to Anthropic’s mechanistic-interpretability research on a global-workspace-like divide between broadly accessible reasoning information and other internal activity in Claude.
+
+---
+
+# Monday, July 6, 2026
+
+## @LinkBechtel - Local reproduction of Anthropic’s J-Lens research
+> was able to reproduce Anthropic's J-Lens locally https://t.co/fASnJBZDc9
+>
+> *Quoting @AnthropicAI:* New Anthropic research: A global workspace in language models.
+>
+> Of everything happening in your brain right now, only a tiny fraction is consciously accessible—thoughts you can describe, hold in mind, and reason with.
+>
+> We found a strikingly similar divide inside Claude. https://t.co/aLUPBifxth
+
+- **Tweet:** https://x.com/LinkBechtel/status/2074257579476504909
+- **Quoted:** https://x.com/AnthropicAI/status/2074185348142280912
+- **What:** Luke reports reproducing Anthropic’s J-Lens locally, highlighting the quoted global-workspace study’s claim that only a limited subset of Claude’s internal activity is broadly accessible for reasoning, much like conscious thought.
+
+## @ClaudeDevs - Choosing turn, goal, time, and proactive loops
+> https://t.co/v694m8Eaj6
+
+- **Tweet:** https://x.com/ClaudeDevs/status/2074208949205881033
+- **Link:** https://x.com/i/article/2074204645845839872
+- **Filed:** [getting-started-with-loops](./knowledge/articles/getting-started-with-loops.md)
+- **What:** The Claude Code team distinguishes manual, goal-based, scheduled, and proactive agent loops, emphasizing measurable stop criteria, verification skills, appropriate model selection, and bounded usage rather than indiscriminate autonomy.
+
+## @trq212 - A field guide to finding agentic-coding unknowns
+> *Replying to @trq212:* my keynote at AI Engineer World Fair: “A Field Guide to Fable” is live on YouTube!
+>
+> https://t.co/x6WmTovDIx
+>
+> this talk was based on a series of articles I’ve been working on, here’s the first of (hopefully) three:
+>
+> *Quoting @trq212:* https://t.co/hPiZr1kG7r
+
+- **Tweet:** https://x.com/trq212/status/2074164294204395595
+- **Link:** https://x.com/i/article/2073090223194755072
+- **Quoted:** https://x.com/trq212/status/2073100352921215386
+- **Parent:** https://x.com/trq212/status/2074163788853760175
+- **Filed:** [field-guide-to-fable-finding-your-unknowns](./knowledge/articles/field-guide-to-fable-finding-your-unknowns.md)
+- **What:** Thariq links the first article behind his keynote, arguing that effective agentic coding depends on surfacing explicit, tacit, and unforeseen unknowns before they become costly implementation assumptions.
+
+## @EXM7777 - Five workflows for preserving frontier-model judgment
+> https://t.co/BNuZ1GirbS
+
+- **Tweet:** https://x.com/EXM7777/status/2074158459545854232
+- **Link:** https://x.com/i/article/2074150113623306240
+- **Filed:** [do-this-on-your-last-day-with-fable](./knowledge/articles/do-this-on-your-last-day-with-fable.md)
+- **What:** This playbook treats temporary access to a frontier model as an opportunity to preserve durable judgment in standards, roadmaps, atomized research, bounded autonomous goals, and documented problem-solving methods that cheaper models can later execute.
+
+## @emollick - Testing Fable with maximum-scope assignments
+> I can basically guarantee you are not being ambitious enough with the work you are assigning Fable
+>
+> Start asking for the maximum possible thing to figure out the far edges of what it can do. After that, you can decide where the system reaches it limits &amp; revise requests downward
+
+- **Tweet:** https://x.com/emollick/status/2074137233607590328
+- **What:** Ethan Mollick recommends discovering Fable’s practical frontier by initially assigning the largest plausible task, then using observed failures and constraints to iteratively narrow requests to a reliable operating range.
+
+## @boringmarketer - Agent-native distribution and infrastructure opportunities
+> if you zoom out, engineering your product so that agents can FIND it might be the most important distribution bet you can make as well
+>
+> here are the biggest gaps I've seen from https://t.co/BrAIu2eQbt so far https://t.co/9ko66zwRFe
+>
+> *Quoting @gregisenberg:* Build startups for agents. I think it's the biggest opportunity of the next 10 years.
+>
+> 1. Agents live inside harnesses like Hermes. If you're  the tool it loads by default or reaches for first, you're golden. This happened in desktop, mobile eras and created huge companies.
+>
+> 2. Agents burn money in ways no human would. One bad loop spends $100 in tokens in eight minutes. Spend controls for agents is Ramp for agents.
+>
+> 3. Agents need memory they can trust. Become the shared brain they read and write to and you become infrastructure.
+>
+> 4. You obv don't hand an agent your real Stripe account. You give it a sandbox. Safe environments for agents is a category nobody's clocked.
+>
+> 5. Onboarding flips. Humans click around for ten minutes. Agents onboard by reading your docs. Your docs are now your product.
+>
+> 6. Agents get scammed by other agents. A track record you can check before you trust one becomes real money.
+>
+> 7. An agent needs to prove it's acting for a real person and has the authority to spend. Who builds the permission layer?
+>
+> 8. Escrow for machines. Money that only releases when the job is actually verified done, no human checking.
+>
+> 9. Agents fail silently and weirdly. Someone will build the "why did my agent do that" replay and it'll be mega valuable.
+>
+> 10. Refunds and disputes between agents need a judge. An agent did the job badly, who decides? A court for machines.
+>
+> 11. Agents need throwaway payment methods per task, so they don't leak your real card. Virtual cards for agents, spun up and killed on demand.
+>
+> 12. A human hits rate limits and shrugs. An agent hits them and the whole workflow dies. Selling reliable, high-throughput access becomes its own business.
+>
+> 13. Agents need to negotiate. One agent buying from another will haggle on price and terms in milliseconds. The protocol for that doesn't really exist yet.
+>
+> 14. When an agent commits on your behalf, someone's liable. A legal and insurance layer for agent actions has to get built. Probably venture funded idea.
+>
+> 15. Agents need to run 24/7 somewhere. Selling the always on box an agent lives on is going to be a big business.
+>
+> 16. Then the physical world shows up. A warehouse robot paying for its own compute. A home robot ordering its own parts. Machines with wallets.
+>
+> 17. Agents start hiring robots. A software agent posts a real world job, a humanoid picks it up. A marketplace for machine labor.
+>
+> 18. Robots need to prove they did the physical job. Verification of real-world work, photos, sensors, proof, becomes its own layer.
+>
+> Note: more ideas like this will be shared on @ideabrowser
+>
+> 19. Prompt and skill versioning becomes its own git. When your agent gets worse overnight, you need to roll back the exact skill or instruction that broke it. Version control built for agent behavior.
+>
+> 20. Agents will start subscribing to other agents. Your research agent pays a monthly fee to a specialist agent that's really good at one thing. Recurring revenue, machine to machine.
+>
+> 21. Companies will post jobs that only agents can apply to. "Wanted: an agent that can do XYZ for under like $100  per task." A job board where the applicants are all machines. Basically, fiverr for machines.
+>
+> The internet got built for people. Mobile got built for people. This wave gets built for machines, and we're as early as it gets.
+>
+> Go build for them.
+
+- **Tweet:** https://x.com/boringmarketer/status/2074136510568243677
+- **Link:** https://boringmarketing.com/audit
+- **Quoted:** https://x.com/gregisenberg/status/2074127490109350221
+- **What:** The quote maps a broad agent-economy stack—from discovery, trust, permissions, payments, and observability to machine labor—while the commentary argues that AI visibility and agent-readable product surfaces will determine which tools agents can discover and adopt.
+
+## @steipete - Crabbox for directing repository commands across sandboxes
+> Can’t recommend enough. use via https://t.co/SEj2XRpIsz
+>
+> *Quoting @cdxker:* @steipete mentioned @useblacksmith for agent sandboxes really bullish on this workflow
+
+- **Tweet:** https://x.com/steipete/status/2074007001802367446
+- **Link:** https://crabbox.sh/
+- **Quoted:** https://x.com/cdxker/status/2074002223500255438
+- **What:** Peter Steinberger strongly endorses Crabbox alongside a discussion of Blacksmith-style agent sandboxes, pointing to a workflow that routes repository commands to the appropriate isolated local, cloud, SSH, or hosted environment.
+
+## @KingBootoshi - Students learn local AI setup at Vibe Coding University
+> VIBE CODING UNIVERSITY STUDENTS ARE LEARNING HOW TO SET UP LOCAL AI! https://t.co/KBblp65CS3
+
+- **Tweet:** https://x.com/KingBootoshi/status/2073997781430419878
+- **What:** A brief announcement that Vibe Coding University students are learning to configure local AI, highlighting hands-on ownership of model environments rather than relying solely on hosted assistants.
+
+## @7h3h4ckv157 - T3MP3ST multi-agent authorized red-teaming framework
+> T3MP3ST
+>
+> A multi-agent offensive-security framework, built to turn the AI coding agent you already run into a zero-day hunter.
+>
+> Credit/Source: https://t.co/I5W28Xs9jR https://t.co/eNiuNnwIKJ
+
+- **Tweet:** https://x.com/7h3h4ckv157/status/2073991584606285908
+- **Link:** https://github.com/elder-plinius/T3MP3ST
+- **Filed:** [t3mp3st.md](./knowledge/tools/t3mp3st.md)
+- **What:** T3MP3ST coordinates an existing coding agent into an authorized red-team workflow spanning reconnaissance, exploitation, and reporting, while publishing reproducible benchmark claims and explicit scope restrictions for security testing.
+
+---
+
 # Sunday, July 5, 2026
 
 ## @doodlestein - The Most Ambitious Plan Possible
