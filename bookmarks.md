@@ -17461,6 +17461,608 @@ P.S. I have 3-2-1 backups, multiple on-site and off-site backups which you shoul
 - **Quoted:** https://x.com/sudoingX/status/2063245108548624588
 - **What:** The real value proposition of the DGX Spark isn't inference throughput — it's 121 GB of unified memory that eliminates the data-loader bottleneck, making it possible to keep an entire astronomical dataset (200k+ Kepler light curves) in RAM and train for days uninterrupted. The author is doing genuine from-scratch ML research (custom architecture, self-supervised pretraining on raw light curves) on consumer-grade hardware that previously would have required a cluster.
 
+## @0xSero - A personal stack for private networking and AI-agent access
+> Most important software in my stack:
+>
+> #1 Tailscale
+>
+> - SSH into all your devices securely
+> - Host websites for use in your home network
+> - Easy high quality VPN
+>
+> #2 VibeProxy
+>
+> - Connect all your AI subscriptions
+> - Single API which will connect to any agent
+>
+> #3 Codex App
+>
+> - Fire
+
+- **Tweet:** https://x.com/0xSero/status/2063241834864795695
+- **What:** A concise personal software-stack recommendation that pairs Tailscale for secure private-device access with VibeProxy for exposing AI subscriptions through one agent-compatible API, then identifies the Codex App as another core tool despite the tweet’s truncated final detail.
+
+---
+# Thursday, June 4, 2026
+
+## @businessbarista - Why AI strategy starts with a private skill library
+> Completely agree.
+>
+> The way you turn AI into a compounding asset is by codifying your best ways of working and then democratizing it across your company in a way that wasn't possible before.
+>
+> One of the more common requests we get from companies earlier in their AI journey now is to stand up their internal skill library & fill that library with skills that we build through interviews/sessions with top performers.
+>
+> *Quoting @hnshah:* https://t.co/Gb1RvJIyfm
+
+- **Tweet:** https://x.com/businessbarista/status/2062671949893960005
+- **Link:** https://x.com/i/article/2062641002016620545
+- **Quoted:** https://x.com/hnshah/status/2062647149582750101
+- **Filed:** [every-companys-first-ai-strategy-should-be-a-skill-library](./knowledge/articles/every-companys-first-ai-strategy-should-be-a-skill-library.md)
+- **What:** Hiten Shah argues that a company’s AI advantage comes from packaging top performers’ judgment into reusable, private skills rather than merely connecting models to data; Alex Lieberman reinforces this by describing skills built from interviews with those performers as a compounding organizational asset.
+
+## @dkundel - Seven practices for durable Codex /goal runs
+> https://t.co/Tpysob4DX5
+
+- **Tweet:** https://x.com/dkundel/status/2062650378089594955
+- **Link:** https://x.com/i/article/2062645394719547392
+- **Filed:** [guide-to-goal](./knowledge/articles/guide-to-goal.md)
+- **What:** This guide frames Codex /goal as a long-running outcome mode and recommends defining verifiable exit criteria, providing useful constraints and measurement tools, granting realistic environments, tracking progress through commits or artifacts, and reviewing accumulated changes before delivery.
+
+## @sudoingX - Persistent multi-agent workflows from anywhere
+> my workflow is just 4-6 agents running 24/7, each one spinning up a few hundred subagents a day. claude on stars, grok on builds, dedicated cursor reviewers, a hermes agent main orchestrator. all attached, all alive.
+>
+> people overcomplicate "agentic." it's not magic. it's 3 tools:
+>
+> > tmux - every agent gets a session, nothing dies when I disconnect
+> > tailnet - I reach the beast from anywhere, phone or laptop
+> > termius - the terminal that makes mobile actually usable
+>
+> I can be at dinner and check on 6 agents from my pocket. that's the unlock. genuinely cannot imagine working any other way.
+
+- **Tweet:** https://x.com/sudoingX/status/2062446086120513810
+- **What:** Sudo su describes an always-on agent operation built from persistent tmux sessions, private-network access, and a mobile-capable terminal, enabling separate orchestration, implementation, review, and research agents to continue working and be monitored remotely.
+
+## @_catwu - Anthropic's self-service analytics agent evaluation approach
+> Excited to share how Anthropic's data team has automated 95% of business analytics queries with Claude. Blog post covers how we approach evals, ablations, and online validation!
+>
+> *Quoting @ClaudeDevs:* How do we automate business analytics with Claude?
+>
+> New blog post covering our best practices for skills, data foundations, and evaluations when building agents to perform data analysis:
+>
+> https://t.co/mfEJMAQFBU
+
+- **Tweet:** https://x.com/_catwu/status/2062408623565984209
+- **Link:** https://claude.com/blog/how-anthropic-enables-self-service-data-analytics-with-claude
+- **Quoted:** https://x.com/ClaudeDevs/status/2062274312363770064
+- **Filed:** [how-anthropic-enables-self-service-data-analytics-with-claude](./knowledge/articles/how-anthropic-enables-self-service-data-analytics-with-claude.md)
+- **What:** Anthropic reports automating 95% of its business-analytics queries with Claude and highlights that dependable self-service analysis requires more than an agent: reusable skills, sound data foundations, ablation studies, offline evaluations, and online validation all support the result.
+
+---
+
+# Wednesday, June 3, 2026
+
+## @esandurrani - Honen turns organizational materials into adaptive courses
+> Introducing Honen
+>
+> The world's fastest way to train skills needed to succeed in the Al era
+>
+> Simply drop in your org's docs
+>
+> Get interactive courses that self-improve over time
+>
+> To prove out our vision, we partnered with NVIDIA to bring AI literacy to 250,000 learners
+>
+> By 2030, 78M jobs will need reskilling due to Al, and we're ensuring no person or company gets left behind
+>
+> Learn more https://t.co/4fOh4My1Bf
+
+- **Tweet:** https://x.com/esandurrani/status/2062377518951485744
+- **Link:** https://honen.com/
+- **What:** Honen is presented as enterprise learning infrastructure that transforms internal documents into interactive, continually improving courses and supplies each learner with an AI tutor, illustrated by an NVIDIA partnership aimed at large-scale AI-literacy reskilling.
+
+## @doodlestein - Modular AI skills for fundamental long/short research
+> I have what I believe is the most sophisticated skill library for doing fundamental-based long/short equity investing using AI agents anywhere in the world.
+>
+> It’s a collection of over 100 very fleshed-out skills that each include assets (similar to worksheets that the agents can fill out when relevant), scripts, and deep reference files. But it’s a lot more than that.
+>
+> It’s a coherent, cohesive, synthetic SYSTEM of modular and composable skills that form a hierarchy of abstractions.
+>
+> You have skills that apply universally to any stock; those are Level 1. For instance, a management alignment skill.
+>
+> Then you have sector/industry skills, Level 2, like regulated electric utilities, restaurants, or hospitals, to give just a few examples.
+>
+> Then you have more specialized skills that apply more narrowly, like for liquidations or spinoffs.
+>
+> And even more narrowly to specific scenarios, like commodity-exposed companies that are temporarily and unsustainably over- or under-earning.
+>
+> The skills are interconnected, with logic explaining when and how to “hand off” to another, more specialized skill. Each skill forms a contract that specified what it takes as input and generates as output.
+>
+> And the skills are all tightly interwoven with my universal cli tool, hfdt (hedge_fund_data_tool) and my ee (eidetic_engine_cli) structured memory tool.
+>
+> The hfdt tool connects to tons of different data sources and provides a highly agent-intuitive interface for retrieve and processing data of all kinds.
+>
+> I’ve mined from dozens of my own writeups and models from a decade of working at hedge funds including Millennium and Balyasny, and from many other sources.
+>
+> These skills truly contain a massive amount of knowledge about the world and about investing.
+>
+> If this sounds interesting to you, and you manage an institutional-sized long/short equity hedge fund or family office, please reach out to me.
+>
+> I can help you build a set of customized skills that you would own that operate on top of my skill library, and can integrate with any existing data sources you have that aren’t already supported by my tooling.
+>
+> *Quoting @doodlestein:* I'm truly making the finest hedge fund investment research agent tooling in the universe here. Just incredible seeing it all come together.
+>
+> You simply cannot do this kind of style factor aware ad-hoc screening with this kind of sophistication and performance anywhere else. https://t.co/V0Y67E0j1S
+
+- **Tweet:** https://x.com/doodlestein/status/2062360758864785740
+- **Quoted:** https://x.com/doodlestein/status/2060690147675422972
+- **What:** Emanuel describes an institutional equity-research agent system that layers universal, sector, and scenario-specific skills with explicit handoffs, structured inputs and outputs, proprietary research, data retrieval, and persistent memory to support sophisticated factor-aware screening.
+
+## @businessbarista - A human-directed AI content production machine
+> I built a content machine.
+>
+> It turned me into a one-person media company, has driven tens of millions in pipeline for @tenex_labs, and is allergic to AI-slop.
+>
+> It has also turned all of my employees into content creators.
+>
+> I may opensource the whole thing, but for now, I'm going to share how I built it & how it works.
+>
+> Feel free to copy & paste the steps to Claude/Codex if you want to build your own content machine.
+>
+> Step 1: Map out the process
+>
+> In order to make any of your work AI-native, you need to understand the way in which it's been done historically. This is why business context & domain expertise REALLY matters, even in a post-AI world.
+>
+> Content has been my bread & butter for the last decade, so I started by pulling out an 8.5x11 sheet of printer paper and drawing the traditional process.
+>
+> 1) Look for inspiration
+> 2) Pick a 10x content idea
+> 3) Research the idea
+> 4) Brain dump all of my thoughts about the idea
+> 5) Decide the post format I want to create
+> 6) Create a draft of the post
+> 7) Edit the post
+> 8) Create derivative versions of the post
+> 9) Go live
+> 10) Track performance
+>
+> Step 2: Where am I needed vs. not needed?
+>
+> I am needed for the first & final mile:
+>
+> First mile: picking the idea/direction & providing all of the necessary context
+> Final mile: going through the final draft with a fine tooth comb & giving final sign-off.
+>
+> AI can handle the rest:
+>
+> Looking for inspiration, researching the idea, pulling my thoughts out, writing the post, doing a first edit, creating derivative content, and tracking performance.
+>
+> Step 3: Build the Content Machine
+>
+> The machine is one pipeline, run end-to-end or step-by-step. It is a directory of skills that mimic the steps in the content process that I've delegated.
+>
+> 1) The Oracle [AI]
+> Mines my Slack, Notion, call transcripts and Gmail for spikes, moments I naturally said something worth expanding, while the Internet Reader curates an external feed of X accounts & websites I've selected.
+>
+> Qualifying ideas (≥6/10) are written to The Vault (a notion database of content ideas).
+>
+> 2) Select the idea from The Vault [Human]
+>
+> 3) The Researcher [AI]
+> Before any interview, build a sourced research-report.md: TL;DR, key facts with links, current developments, what's already been said, contrarian angles, and open questions for the interview. Claims are adversarially checked; fact is separated from opinion.
+>
+> 4) Interview Panel [AI + Human]
+> Six world-class interviewers (Joe Rogan, Howard Stern, Michael Barbaro, etc) ask 12–15 questions, one at a time, each pushing a different dimension...and never satisfied with vague answers. Won't advance without 2–3 specific stories, real numbers, and emotional specificity.
+>
+> 5) Production [AI]
+> The interview becomes a raw .md file: transcript, key stories, core insights, quotable moments, emotional anchor, surprising reveals, and the "so what." This raw file is sacred: my exact words, never paraphrased away.
+>
+> 6) Refinement [AI + Human]
+> I tell the machine what content type I want to create. It reads my custom style guide + past feedback lessons + content-type spec, then drafts in my voice...pulling real stories and quotes from the raw file. The #1 rule: write like you're texting a friend. Supports long posts, LinkedIn, X threads, and more.
+>
+> 7) Writer's Council [AI]
+> Six expert reviewers (Shaan Puri, Morgan Housel, David Perell, etc) score the draft through their own lens, splitting fixes into editorial (the machine can rewrite) and information gaps (only the creator can answer...these route back to the interview panel).
+>
+> 8) Revision Loop [AI]
+> Iterate until council scores 9/10.
+>
+> 9) Repurposing Engine [AI]
+> One anchor → 10+ natively-formatted derivatives, each re-hooked for its platform and each held to the same full Council → revision bar of 9/10. This is how two people produce like a hundred.
+>
+> 10) Final revision [Human]
+>
+> 11) Learning Loop [AI]
+> After approval, the machine compares first draft vs. final, extracts confirmed lessons, and saves them to that creator's content-lessons.md. Every future first draft starts smarter. Lessons override the style guide when they conflict.
+>
+> Feel free to steal the machine & ask me any questions about how it works!
+
+- **Tweet:** https://x.com/businessbarista/status/2062271970213863735
+- **What:** Alex Lieberman outlines a human-directed content pipeline that preserves people’s role in idea selection and final approval while agents research, interview, draft, critique, repurpose, and learn from revisions, aiming to scale output without generic AI-generated copy.
+
+## @jbulltard1 - Financing a NOK bullish call spread with put spreads
+> So here is an example of how to build a better trade than a large player. Someone bought $nok Jan 34 calls 3500x today. My database builds a better trade by selling put spreads below the 8 week and using that to buy a call spread 17/19 in a 2x1 ratio. Now you get paid to go long. https://t.co/bpogce8Gn7
+
+- **Tweet:** https://x.com/jbulltard1/status/2062249307550400959
+- **What:** jbulltard1 contrasts a large bullish NOK call purchase with a database-designed options structure that sells downside put spreads to finance a 2:1 call spread, illustrating how position construction can improve the cost and payoff of a directional trade.
+
+## @NikMilanovic - Thrive's AI accounting-firm roll-up strategy
+> 🚨 BREAKING: Joshua Kushner's @ThriveCapital  is putting $1 billion into buying local accounting firms and rebuilding them around AI.
+>
+> The acquisition arm is a company called Current.
+>
+> The pitch to a decades-old CPA firm: sell us a majority stake, keep a meaningful piece for yourselves, and we'll re-engineer the back office with AI.
+>
+> The ownership model is the part worth a look:
+>
+> → Traditional PE buys to sell inside a fixed window
+> → Thrive plans to hold for the long run, the way Berkshire Hathaway does
+> → Local partners keep real, meaningful stakes
+> Patient capital, pointed at a fragmented, unglamorous industry.
+>
+> The proof point so far is Larson Gross – one accountant, one office in Bellingham, WA in 1949, grown into a regional firm with five offices and 200 employees.
+>
+> In 2025 its partners sold control to Current.
+>
+> @Forbes reports the in-house models are hitting up to 98% accuracy on data entry.
+>
+> Worth being precise, though – data entry is the high-volume floor of accounting, not the judgment work clients actually pay for.
+>
+> The skepticism is fair, too.
+>
+> AI roll-ups have been hyped for years and mostly underdelivered. The gap between the pitch and the operating reality is still wide.
+>
+> The bet underneath all of this: that permanent capital plus AI can run a professional-services firm better than the people who spent decades building it.
+>
+> If it works in accounting, the same template is waiting for law, insurance, and consulting.
+>
+> A billion-dollar wager on the back office of American business.
+
+- **Tweet:** https://x.com/NikMilanovic/status/2062211701366489097
+- **What:** Nik Milanovic analyzes Thrive Capital's Current acquisition strategy: patient capital buys controlling stakes in local accounting firms while AI automates back-office work, but questions whether data-entry gains translate into the professional judgment clients pay for.
+
+## @ericzakariasson - Cursor Debug Mode grounds agents in runtime evidence
+> https://t.co/0PIwVLwUrC
+
+- **Tweet:** https://x.com/ericzakariasson/status/2062199026544787576
+- **Link:** https://x.com/i/article/2061967596568875008
+- **Filed:** [dont-let-your-agent-guess-runtime-context](./knowledge/articles/dont-let-your-agent-guess-runtime-context.md)
+- **What:** Eric Zakariasson's article explains Cursor Debug Mode's evidence-first loop: agents add logging to test hypotheses, inspect a local runtime trace, identify root causes, and remove temporary instrumentation after fixing problems including race conditions, memory leaks, native crashes, and SSR flicker.
+
+## @heynavtoor - Open-source Claude Code job-application pipeline
+> A scientist in Denmark figured out how to make Claude prepare his job applications. He open-sourced the whole thing.
+>
+> His name is Mads Lorentzen. He is a PhD geophysicist. He built it on top of Claude Code and released it under MIT license.
+>
+> Here is what it does. You fork the repo, fill in your background once, and it runs a five-step pipeline for every job you want to apply to.
+>
+> Step 1. It reads the job posting and scores how well you fit.
+>
+> Step 2. It drafts a tailored CV in LaTeX, picking only the experience that matches.
+>
+> Step 3. It writes a cover letter framed around what you would bring to the role.
+>
+> Step 4. A second AI agent reviews the first agent's work, points out weaknesses, and the first agent revises.
+>
+> Step 5. It compiles both into clean PDFs you can send.
+>
+> The whole thing is a folder of markdown files. The candidate profile, the writing style rules, the CV templates, the interview prep notes. Every step is plain text you can read and change.
+>
+> The job portal search is built for Danish boards. The application workflow itself works for any country.
+>
+> 489 stars. 270 forks. A fork-to-star ratio that high means people are using it, not only bookmarking.
+>
+> Mads is not a startup founder. He built this because he needed it for himself, then shared it.
+>
+> This is the future of job hunting. Not a service you pay for. A workflow you own.
+>
+> (Link in the comments)
+
+- **Tweet:** https://x.com/heynavtoor/status/2062168254416814163
+- **What:** Nav Toor describes an MIT-licensed Claude Code workflow that turns a reusable candidate profile and editable markdown rules into tailored, reviewed CVs and cover letters, offering a user-owned alternative to opaque job-application services.
+
+## @nateberkopec - A developer-tool adoption order beyond mise
+> If you're looking for an order to try this in:
+>
+> 1. mise
+> 2. hk (parallel git hooks will change your life)
+> 3. aube (you are now immune to JS hacks)
+> 4. pitchfork (a 'nicer' foreman)
+> 5. fnox (higher up if your team is heavy into password managers and everyone uses diff ones)
+>
+> *Quoting @onerinas:* Already on the mise train. Time to try the rest.
+
+- **Tweet:** https://x.com/nateberkopec/status/2062120950246842712
+- **Quoted:** https://x.com/onerinas/status/2062110565116571987
+- **What:** Berkopec turns a colleague’s intent to explore developer tooling into a practical adoption sequence: start with mise, then add faster hooks, JavaScript hardening, process management, and optionally password-manager integration.
+
+## @KingBootoshi - ADRs and lint rules align coding agents with architecture
+> I started keeping an ADR (Architectural Decision Records) inside my codebase, and having coding agents like Codex/Claude Code reference it during Q&A discussion seshes
+>
+> It makes every single conversation COMPLETELY aligned with my thought process, and improves my experience with agents in my codebase EXPONENTIALLY
+>
+> I architect software by having a simple conversation back and forth with my agent in the codebase I want to start building on
+>
+> Architecting and designing the higher level system directly is the most important layer in software engineering
+>
+> Coding by hand is null, if you are an architect (and not a coder), because agents do a REALLY good job at the manual job of ~ writing code to follow instructions ~
+>
+> In these discussions a critical design detail will come up often.
+>
+> For example, when I'm working on a database, it is critical to ensure database permissions are enforced, as mistaking what role can access what data is a company shattering error!
+>
+> To ease my anxiety on this, I create a centralized tenant scoping system that ALL AGENTS MUST USE IN THEIR CODE, or the linter will literally not pass and they CANNOT commit this code
+>
+> When I finish I tell that coding session to "Ensure tenant scoping is enforced in our codebase, make sure it is not possible for the code to run if there are any direct database calls in our code. Add this to our ADR"
+>
+> The agent will then capture this critical architectural decision in our local ADR docs.
+>
+> When future agents begin working on the codebase, they refer to our ADR docs and instantly understand the TASTE of my codebase
+>
+> Now when I'm creating a feature it's fucking crazy LMFAO
+>
+> Every decision they make is aligned with my taste, my style, and it makes it SO easy to build on top.
+>
+> It prevents cheating because we can enforce these ADR decisions as a custom ESLint rule (which Codex 5.5 is VERY good at btw), however, when agents can understand the correct path of development in the codebase, it builds on top of it perfectly.
+>
+> Anyways it's been amazing. Tell your agents about this and try it yourself!!
+
+- **Tweet:** https://x.com/KingBootoshi/status/2062106571669446800
+- **What:** KingBootoshi describes using architectural decision records as durable agent context, then enforcing critical choices such as tenant scoping with custom lint rules so generated code cannot silently violate system boundaries.
+
+## @jameygannon - Reaction to @nikitabier’s unspecified work
+> what have you done @nikitabier https://t.co/ybVMnXbpW0
+
+- **Tweet:** https://x.com/jameygannon/status/2062051907708088362
+- **What:** THIN: @jameygannon reacts to @nikitabier’s unspecified contribution, but the retained bookmark has neither a quoted post nor expanded context that explains what prompted the reaction.
+
+---
+
+# Tuesday, June 2, 2026
+
+## @badlogicgames - Durable workflow execution for long-running agent work
+> recommended reading. i really like the durability aspect of dynamic workflows. looked into how it's implemented, and while there are some minor footguns, it's smart!
+>
+> *Quoting @trq212:* https://t.co/R6exTuF7P8
+
+- **Tweet:** https://x.com/badlogicgames/status/2061941296932004175
+- **Link:** https://x.com/i/article/2061850535708483585
+- **Quoted:** https://x.com/trq212/status/2061907337154367865
+- **Filed:** [dynamic-workflows-claude-code-harness](./knowledge/articles/dynamic-workflows-claude-code-harness.md)
+- **What:** Zechner endorses the Claude Code workflow article for its durable resume behavior, while the linked piece explains how task-specific orchestration isolates planning, execution, and verification to prevent common agent failure modes.
+
+## @trq212 - Dynamic workflows build task-specific Claude Code harnesses
+> https://t.co/R6exTuF7P8
+
+- **Tweet:** https://x.com/trq212/status/2061907337154367865
+- **Link:** https://x.com/i/article/2061850535708483585
+- **Filed:** [dynamic-workflows-claude-code-harness](./knowledge/articles/dynamic-workflows-claude-code-harness.md)
+- **What:** Thariq’s article explains how Claude Code can build durable, task-specific JavaScript workflows, using isolated agents and patterns such as fan-out synthesis and adversarial verification to counter goal drift over long tasks.
+
+## @mvanhorn - Agentic Engineering Workflow Playbook
+> https://t.co/95lFnAyw0e
+
+- **Tweet:** https://x.com/mvanhorn/status/2061877533885473181
+- **Link:** https://x.com/i/article/2061440101411102721
+- **Filed:** [every-agentic-engineering-hack-i-know-june-2026.md](./knowledge/articles/every-agentic-engineering-hack-i-know-june-2026.md)
+- **What:** Matt Van Horn's long-form workflow guide advocates plan-first agentic engineering, voice-driven parallel sessions, durable research and notes context, reusable skills, and human judgment as the governing layer over agent execution; it also cautions that autonomy and remote access need explicit controls.
+
+## @FactoryAI - Factory Router's Automatic Model Selection
+> Introducing model routing to Factory.
+>
+> Factory Router picks the right model for every task, automatically.
+>
+> Maintain frontier performance while cutting costs by 25%. https://t.co/WFnJbSnwNQ
+
+- **Tweet:** https://x.com/FactoryAI/status/2061862733126275549
+- **What:** Factory announces an automatic model-routing layer intended to select a task-appropriate model rather than using one expensive default, claiming it can retain frontier-level outcomes while reducing overall inference costs by 25%.
+
+## @DavidOndrej1 - Pi Orchestration With Codex as Executor
+> &gt; pi orchestrator
+> &gt; codex cli executor
+>
+> &gt; opus 4.8 in pi
+> &gt; gpt 5.5 high in codex
+>
+> &gt; you only talk to Pi
+> &gt; codex does all the work
+>
+> &gt; Pi monitors codex in cmux pane
+> &gt; optimal tokens, clear responses
+
+- **Tweet:** https://x.com/DavidOndrej1/status/2061824210918392297
+- **What:** A proposed two-model coding workflow keeps a high-capability conversational model in Pi for orchestration while Codex executes implementation in the CLI, with Pi monitoring a cmux pane to preserve a single clear control surface for the operator.
+
+## @timsoulo - Ahrefs Findings on AI Search Citations
+> In the last 6 months at @Ahrefs, we analyzed over 1 billion data points across 14 studies. Here's what we learned about AI search optimization:
+>
+> 1) "Best X" blog listicles are the single most prominent content format cited by AI chatbots. They make up 43.8% of all page types cited by ChatGPT specifically.
+>
+> 2) 67% of ChatGPT's top 1,000 citations come from sources marketers can't influence: Wikipedia (29.7%), homepages (23.8%), app stores (6.6%). Only 32.3% are influenceable content like educational pages, reviews, news, and blog posts.
+>
+> 3) 28.3% of ChatGPT's most-cited pages have zero Google organic visibility. These pages get cited repeatedly by ChatGPT despite not ranking in Google at all. A completely separate discovery layer.
+>
+> 4) ChatGPT only cites about 50% of the URLs it retrieves. It fetches dozens of pages per query but uses half as background context without attribution. This means that being retrieved and being cited are very different things.
+>
+> 5) Adding schema markup had zero meaningful impact on AI citations. AI Overviews actually dipped −4.6%, while AI Mode (+2.4%) and ChatGPT (+2.2%) showed changes indistinguishable from zero.
+>
+> 6) YouTube mentions have the highest correlation (0.737) with AI brand visibility out of all the factors we studied (including all the conventional SEO metrics like backlinks, page count, DR, etc). This held true for both Google-owned and OpenAI products.
+>
+> 7) AI Overviews reduce clicks to the #1 result by 58%. That’s up from 34.5% just 10 months earlier. The trend is accelerating.
+>
+> 8) 99.9% of AI Overviews appear on informational intent queries. Transactional, navigational, and local searches are almost entirely AIO-free. Shopping triggers AIOs just 3.2% of the time.
+>
+> 9) For a given search query, Google’s AI Mode and AI Overviews reach the same conclusions 86% of the time — but cite almost entirely different sources (only 13.7% citation overlap).
+>
+> 10) AI Overviews change every 2.15 days on average, with 70% of content differing between consecutive observations. But semantic similarity stays at 0.95. The words, sources, and entities constantly shuffle, but the actual meaning barely moves.
+
+- **Tweet:** https://x.com/timsoulo/status/2061796432534003866
+- **What:** Ahrefs summarizes 14 studies on AI search visibility: chatbot retrieval and citation diverge from Google rankings, listicles and YouTube mentions correlate with citations, and fast-changing AI Overviews are materially reducing informational-search traffic.
+
+## @johnloeber - A Hiring-Market View of Post-ZIRP Engineering Staffing
+> Notes on 100+ Recent Technical Interviews
+>
+> I interview a ton of engineers. Recruiting is the single most important technical CEO activity. Here are a bunch of impressions
+>
+> 1. There is a severe ZIRP engineering overhang that is currently washing out. They're getting laid off, managed out, etc. after having been massively overhired around 2020-2022. This is worst for Tier-2 big tech (think PayPal, Bill, etc.) but also FAANGs. These are overwhelmingly bad engineers.
+>
+> 2. This flood of unqualified but good-on-paper candidates makes this the hardest SF hiring market I have ever seen, due to the amount of nominally strong-looking candidates that you need to grind through.
+>
+> 3. I am highly skeptical of "AI as a cause for engineering layoffs". I think this is a large-scale polite fiction -- the companies don't want to admit they overhired, the engineers don't want to admit they are bad at their jobs. Everyone's blaming AI when it's really just the market rectifying itself.
+>
+> 4. Many of these engineers appear never to have had a real engineering function at their corporations. They're sitting in meetings, "making decisions about technology" but are unable to write software. I leave many interviews baffled by what exactly they were doing for so many years, let alone what their manager was doing.
+>
+> 5. I have interviewed some engineers from FAANG companies so shockingly nontechnical that I am forced to conclude that there is either (1) a lot of resume fraud going on or (2) that there are kickback grifts within those organizations -- people hiring their cousins and splitting the pay, that kind of thing. I have no other explanation.
+>
+> 6. There's a fun side-effect where after interviewing 20+ people from certain small but public companies, I actually feel like I am gaining a short sellers' advantage: there are financial technology companies out there that, knowing what I now know, I would never deposit a single dollar into.
+>
+> 8. Based on this "exhaust" data, and extrapolating a little bit, maybe aggressively so: I think folks like @pmarca are basically right when they say that ~every tech company is overstaffed by a factor of 2-4x. Whatever the reason -- staffing ahead of need, monopolizing certain engineer types (Google-style), headcount-driven promotion incentives, the reality is that a lot of these companies are not being run for the shareholders. The aggregate SBC expense is insane, and I expect this is going to get rectified eventually.
+>
+> I'm sure that AI will play a role in rectifying this -- but I fear that people are going to blame AI for taking people's jobs when the reality is that the jobs were already long-gone, possibly always useless, but the highly-paid butts-in-seats remained. People will be mad at AI for taking away their lucrative sinecures. Maybe that's the same effect from a public policy perspective, but it feels different morally.
+
+- **Tweet:** https://x.com/johnloeber/status/2061707999685558330
+- **What:** A technical CEO argues from more than 100 interviews that post-ZIRP layoffs largely reflect earlier overhiring and weak role accountability, not AI displacement; it is a strongly stated, anecdotal view of the difficult San Francisco engineering hiring market.
+
+---
+
+# Monday, June 1, 2026
+
+## @0xSero - Agents can automate routine video editing with FFmpeg
+> *Replying to @yacineMTB:* does DaVinci resolve work on Linux or do I have to build my own video editor
+>
+> @yacineMTB Brother just prompt the agents to edit I haven’t touched an editor in 6 months even the stupidest and chuddiest of models are FFMPEG masters
+
+- **Tweet:** https://x.com/0xSero/status/2061451811140055518
+- **Parent:** https://x.com/yacineMTB/status/2061209474811957393
+- **What:** In response to a Linux video-editing question, this suggests bypassing a conventional GUI editor by directing coding agents to perform edits through FFmpeg, reflecting how command-line media pipelines can make common editing tasks programmable and agent-friendly.
+
+## @itsolelehmann - Cancer, gene-editing, and obesity advances signal medical acceleration
+> if you're under 50 and you stay healthy, i think you will live to 150 years old minimum
+>
+> the medical singularity is happening.
+>
+> just in the past 2 months alone:
+>
+> > revmed's pancreatic cancer drug (daraxonrasib) doubled survival in the deadliest cancer there is, 13.2 months vs 6.7 on chemo. it got a standing ovation from 40k+ doctors at the world's biggest cancer conference
+>
+> > a one-time gene editing infusion (verve-102) permanently switched off the gene that drives bad cholesterol and cut it up to 62% from a single dose. one and done, no daily pill for life
+>
+> > a lung cancer pill (lorlatinib) kept 60% of patients with spread cancer progression-free at 5 years. the longest anyone has ever held back a metastatic solid tumor with a single drug
+>
+> > mayo built an ai that catches pancreatic cancer on routine ct scans up to 3 years before doctors can. it spotted 73% of the earliest cases vs 39% for human radiologists
+>
+> > lilly's new weight loss drug (retatrutide) hit up to 30% body weight loss in its big phase 3 trial, and along the way it cut knee arthritis pain by 76% and dropped bad cholesterol about 20%
+>
+> and we are still just at the beginning of the exponential
+>
+> call me crazy but i'm a believer when Demis hassabis says we will cure all disease in the next 10 years
+>
+> *Quoting @docrodwong:* a standing ovation for daraxonrasib at asco.  over 40k oncologists, entrepreneurs, investors, and patient advocates together celebrating revmed's breakthru in the fight against pancreatic cancer.  u never forget these moments.  it's what innovation is all about. https://t.co/lscwBZJL0N
+
+- **Tweet:** https://x.com/itsolelehmann/status/2061414401987764360
+- **Quoted:** https://x.com/docrodwong/status/2061186253014384880
+- **What:** A bullish longevity thesis uses recent clinical results in oncology, cardiovascular gene editing, imaging AI, and obesity treatment to argue that biomedical progress is compounding rapidly; the quoted ASCO reaction highlights daraxonrasib as a prominent example of that momentum.
+
+## @tdinh_me - Autonomous agent sets up in-app purchase infrastructure
+> My mind is blown.
+>
+> I invited my bot Otto to my Revenue Cat account, it checked email, created an account, accepted the invite, set up the project, connected to App Store Connect, set up products and pricing, created a paywall, integrated the whole thing to the iOS app, and is now creating a sandbox tester account for me.
+>
+> All driven by just claude code + prompting + cli tools + peekaboo via Telegram.
+>
+> I'm watching it live just for fun, but I could have gone to the gym and come back with the in-app purchase fully implemented.
+>
+> Crazy time to be a startup founder.
+>
+> *Quoting @tdinh_me:* Literally running a startup from my phone.
+>
+> Even the build delivery page looks beautiful.
+>
+> Prompt:
+>
+> Update the OTA link with a changelog section with brief bullet point of the changes of the last 10 builds
+>
+> Let’s queue up these tasks and work in them one by one, after each task, do QA to make sure it works, then create a build and update it to the OTA link with change log, ping me via telegram, then work on the next one. If there is any issue with any of the task, take note and move on to the next one and get back to me later.
+>
+> Tasks:
+>  - (paste here)
+
+- **Tweet:** https://x.com/tdinh_me/status/2061361612460802180
+- **Quoted:** https://x.com/tdinh_me/status/2061046278612791582
+- **What:** The post combines a live account-provisioning example with a prior phone-driven task queue to show how Claude Code, CLI tools, and Telegram oversight can autonomously configure billing, ship builds, run QA, and report exceptions across a startup workflow.
+
+## @raulgalerad - Reddit marketing post argues traditional search is declining
+> this was one of the most interesting reddit posts i've seen in reddit marketing in a long time. traditional search is so dead. https://t.co/XqCq4GH5U6
+
+- **Tweet:** https://x.com/raulgalerad/status/2061328955404362156
+- **What:** A brief reaction to an unspecified Reddit marketing post that treats conventional web search as increasingly irrelevant, capturing the growing view that discovery is shifting toward community platforms and other nontraditional search surfaces.
+
+---
+
+# Sunday, May 31, 2026
+
+## @mvanhorn - Agent Cookie syncs agent session state to a second Mac
+> Introducing Agent Cookie. 🥷🏻🍪 For anyone running @OpenClaw or @NousResearch's Hermes on a Mac mini: I kept finding my agent logged out of everything, and it sucked. So I fixed it.
+>
+> "Add this to my Amazon cart." Sorry, logged out again. "Order my usual on Instacart." Nope, not logged in anymore.
+>The fix: your laptop's cookies, CLI tokens, and API keys sync to your Mac mini. Continuously. Encrypted end-to-end over your Tailscale tailnet. No logging in twice.
+>
+> 🌐 https://t.co/41VezMs9S6
+
+- **Tweet:** https://x.com/mvanhorn/status/2061259423197372566
+- **Link:** https://agentcookie.dev/
+- **What:** Agent Cookie is a session-state synchronization product for agents on a second Mac, continuously replicating browser cookies, CLI tokens, and selected API credentials over a Tailscale network so automated workflows retain their authenticated access without separate logins.
+
+## @0xSero - Personal AI infrastructure for vibe coding
+> Vibe-coding 102
+>
+> Personal AI infrastructure and tooling, how I do everything I do.
+>
+> Enjoy (: https://t.co/LpFLQRFndQ
+
+- **Tweet:** https://x.com/0xSero/status/2061208938301845539
+- **What:** 0xSero offers a walkthrough of the personal AI infrastructure behind a vibe-coding workflow, positioning integrated tools and automation as the foundation for higher-leverage individual work.
+
+## @noahzender - A system for turning reading into retention
+> A book you can't remember reading you didn't really read.
+>
+> Most books sit on shelves half-digested.
+>
+> Mine don't.
+>
+> Here's how I actually process a book: https://t.co/jsjBKSl0yT
+
+- **Tweet:** https://x.com/noahzender/status/2061183947644760356
+- **What:** Noah Zender frames reading as incomplete until its ideas can be recalled, pointing to a personal book-processing method intended to turn passive consumption into durable understanding.
+
+## @businessbarista - The search for programmatic AI video editing
+> I want to start editing my short-form & long-form videos programmatically with AI.
+>
+> A few months ago, AI video editing wasn't there yet.
+>
+> Remotion was the only thing remotely good, but it was focused on motion graphics.
+>
+> Is it still not there or are there any really good tools or GitHub repos that are 90% of the way there with video editing?
+
+- **Tweet:** https://x.com/businessbarista/status/2061149847705497861
+- **What:** Alex Lieberman asks whether AI tooling has matured enough to automate actual short- and long-form video editing, separating the need for editorial workflows from Remotion’s motion-graphics focus.
+
+## @PSkinnerTech - Why visual knowledge spaces may beat Obsidian for AI brains
+> Hot take: obsidian is a terrible form factor for an AI 2nd brain.
+>
+> GBrain is functionally best option, but non-technical users can’t reconcile that they can’t “see” what the AI knows.
+>
+> Very soon, something like @nessielabs will become the top 2nd brain option.
+
+- **Tweet:** https://x.com/PSkinnerTech/status/2061078645704155215
+- **What:** Patrick Skinner argues that AI second brains need an inspectable, visual interface rather than a conventional note vault, because users must understand what the system knows and how it is organized.
+
+## @helloiamleonie - Practical uses for personal AI agents
+> just curious:
+>
+> what’s the most useful thing your OpenClaw, Hermes Agent, etc. is doing for you?
+
+- **Tweet:** https://x.com/helloiamleonie/status/2061014719704502657
+- **What:** Leonie solicits concrete, recurring jobs people delegate to autonomous agents, helping distinguish valuable personal automation from generic enthusiasm about agent frameworks.
+
 ---
 
 # Saturday, May 30, 2026
