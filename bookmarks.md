@@ -241,8 +241,267 @@
 - **Quoted:** https://x.com/levie/status/2089921630650925170
 - **What:** Aaron Levie argues the applied-AI layer between model and enterprise workflow is a larger, more durable surface than people assumed — domain-tuned harnesses and UX, system-specific data access, vertical change management, multi-model cost/performance plus post-training, long-tail evals, and industry pricing above tokens. Vasuman compresses that to three skills (domain context, process re-engineering, AI engineering) and pitches Varick Agents as the firm that holds all three; the site is a marketing homepage, so this stays capture-only.
 
----
+## @dani_avila7 - Anthropic Skills’ discernment-nudge trigger design
+> Anthropic shipped a skill called discernment-nudge that does nothing but decide when Claude should second-guess itself in front of you
+>
+> Here's what's interesting about it, the section on when NOT to fire is 3x longer than when to fire
+>
+> Best trigger logic writing I've read this year
+>
+> Install it with:
+> /plugin marketplace add anthropics/skills
+> /plugin install discernment-nudge@anthropic-agent-skills
+>
+> https://t.co/m5W7RdldqX
 
+- **Tweet:** https://x.com/dani_avila7/status/2090266638356566321
+- **Link:** https://github.com/anthropics/skills/blob/main/skills/discernment-nudge/SKILL.md
+- **Filed:** [anthropics-skills.md](./knowledge/tools/anthropics-skills.md)
+- **What:** Dani highlights Anthropic’s public skills repository through its discernment-nudge skill, whose unusually detailed “do not trigger” rules demonstrate that reliable agent self-checks need strong restraint conditions rather than indiscriminate second-guessing.
+
+## @daniel_mac8 - Concise Claude Code output as an attention interface
+> Do this right now.
+>
+> Improves your experience at least 100x.
+>
+> It’s the start of what I call the ‘attention-interface’.
+>
+> The interface that controls not how the human interacts with the agent, but how the agent interacts with the human.
+>
+> More on that soon. https://t.co/6ETI09WlJP
+>
+> *Quoting @ClaudeDevs:* You can now set Claude Code's output style to Concise.
+>
+> Claude leads with the result, keeps responses short, and still gives full detail when you ask.
+>
+> Turn it on in /config → Output style, or set "outputStyle": "Concise" in settings.json. https://t.co/XYg7bHeVT2
+
+- **Tweet:** https://x.com/daniel_mac8/status/2090252879994978562
+- **Quoted:** https://x.com/ClaudeDevs/status/2090245922685063634
+- **What:** Daniel McAteer treats Claude Code’s concise output style as an early example of an “attention interface”: controls that shape when and how an agent asks for a human’s attention, while the quoted announcement explains how to enable its result-first behavior.
+
+## @CEOLandshark - Google site search for navigating Scribd
+> *Replying to @jack226RE:* @CEOLandshark Ooooh this is good.
+>
+> I’ve creeped around pastebin but damn this is better…
+>
+> Imagine a Hermes agent prompted on your projects that creeps around scribd premium?????
+>
+> Cc @thebeautyofsaas
+>
+> @jack226RE @thebeautyofsaas Another alpha: Scribd search is absolutely fucked. Either use Google for it w smart search (site: etc), scroll right side recommendations and/or dive into profiles
+
+- **Tweet:** https://x.com/CEOLandshark/status/2090219640030986432
+- **Parent:** https://x.com/jack226RE/status/2090200825033351602
+- **What:** Responding to a proposal for an agent to search Scribd Premium research, Pyrate warns that Scribd’s native search is unreliable and recommends Google site queries, related-item recommendations, and profile exploration as more effective discovery routes.
+
+## @SPAC89 - GitHub-connected ChatGPT as a Codex quota fallback
+> If you burn GPT 5.6 Sol on Codex and you already have ChatGPT Pro, connect GitHub to ChatGPT and keep going in the chat
+> I just did it, GPT 5.6 Pro on the repo, Almost unlimited compared to sitting on a dead Codex bar
+> And yeah, GPT 5.6 Pro is better than Fable 5
+> We're leaving a better model on the table
+
+- **Tweet:** https://x.com/SPAC89/status/2090191087222628819
+- **What:** SPAC89 proposes connecting a GitHub repository to ChatGPT Pro as a practical alternative when Codex usage is exhausted, arguing that repository-aware chat offers substantially more capacity and, in this comparison, a stronger model option.
+
+## @CEOLandshark - Scribd Premium as a research archive
+> Let me give you some ultra-alpha here, right under everyone's nose: Scribd Premium.
+>
+> That's it. You were just handed an extremely powerful axe. It's up to you where you dig &amp; how you dig it..
+>
+> *Quoting @thebeautyofsaas:* there is a good chance that you are just 2 to 3 pdfs away from changing your whole life
+
+- **Tweet:** https://x.com/CEOLandshark/status/2090188802052461037
+- **Quoted:** https://x.com/thebeautyofsaas/status/2090172446213099637
+- **What:** Pyrate amplifies the idea that a few well-chosen PDFs can be transformative, framing a Scribd Premium subscription as a high-leverage research archive whose value depends on how deliberately someone searches and investigates it.
+
+## @jspujji - Practical GEO tactics for earning AI citations
+> Talked to several GEO experts this past week managing brands getting recommended by AI. I learned a ton about how to weight the scales in your favor.
+>
+> Tipalti’s Sr. Director of Growth Marketing Stacy Pinkerton said it plainly: It's harder to fool AI than it was Google. Your content needs be good.
+>
+> How did her team level up content?
+>
+> 1/ Wrote about exactly how the brand solved a problem.
+>
+> The highest-cited pieces led with what broke, how it got fixed, the numbers around it. Z
+>
+> Commoditized content doesn't rank with ChatGPT or Claude. Tell a real story.
+>
+> 2/ Made all content AI digestible.
+>
+> Title anything valuable. Industry angle, ROI math, FAQs. Name it in a header and make it substantive.
+>
+> Don't bury numbers three paragraphs deep.
+>
+> 3/ Updated the dates.
+>
+> She tested refreshing the publish dates on old articles.
+>
+> AI wants to give great answers, which mean current answers. In 24 hours, her brand won ~40 more citations from this alone.
+>
+> This is a fraction of how to win.
+>
+> Tomorrow Stacy is live at Noon CST / 1pm EST with two other AI content experts. They'll get specific and run through a “Hot or Not” on the buzziest tactics: Reddit, LinkedIn, schema, gated content.
+>
+> Sign up even if you can't make it live. Everyone gets the recording.
+
+- **Tweet:** https://x.com/jspujji/status/2090187921533890810
+- **What:** Growth marketers pursuing AI recommendations should publish specific problem-and-outcome stories, clearly label useful facts such as ROI and FAQs, and keep dates current; Pinkerton reports that refreshing old pieces added roughly forty AI citations within a day.
+
+## @rwalk_xyz - legal-templates — CC0 startup legal library
+> Most founders copy/paste their privacy policy from Stripe or ask Claude to draft an MSA at 2:00 AM, then pray they don't get sued.
+>
+> You can stop doing this.
+>
+> We built a free, CC0-licensed legal template library for startups:
+> -MSAs
+> -Employment agreements
+> -Privacy policies
+> -More...
+>
+> And because many of you on here asked, here is an agent-friendly link to where these are posted on GitHub:
+> https://t.co/GF62d39zHo
+
+- **Tweet:** https://x.com/rwalk_xyz/status/2090166976056299990
+- **Link:** https://github.com/General-Legal/legal-templates
+- **Filed:** [legal-templates](./knowledge/tools/legal-templates.md)
+- **What:** General Legal publishes attorney-drafted, CC0-licensed startup documents in both editable Word and LLM-oriented Markdown, providing a reusable starting point for MSAs, employment agreements, privacy policies, data-processing agreements, and terms.
+
+## @NousResearch - SkillEvaluator scans Hermes skill installations
+> Hermes now leverages NVIDIA's SkillEvaluator on skill installs, checking for PII, leaked secrets, Unicode smuggling, licensing and security issues before you confirm.
+>
+> We pointed it at our own bundled skills first, and used what it found to improve 11 of them. https://t.co/7l1cSz9UlM
+>
+> *Quoting @NVIDIAAI:* We benchmarked 300+ NVIDIA verified skills to see how much they actually help agents on real tasks.
+>
+> Same task, same model, same setup. The only difference was whether the agent had the skill.
+>
+> Across the benchmarks, skills improved correctness by 41 points, effectiveness by 39, and efficiency by 35.
+>
+> SkillEvaluator is open source if you want to test your own skills before you ship them.
+
+- **Tweet:** https://x.com/NousResearch/status/2090166128509096187
+- **Quoted:** https://x.com/NVIDIAAI/status/2090113635683340622
+- **What:** Nous Research integrates NVIDIA’s open-source SkillEvaluator into Hermes installation confirmations to screen skills for sensitive data, obfuscation, licensing, and security problems, applying a benchmark-backed validation approach that improved eleven bundled skills.
+
+## @poteto - pstack — rigorous cloud-agent engineering workflows
+> this is a huge release! i shipped 1000 PRs last month and am on track to doubling that this month, all thanks to cloud agents. you can also launch cloud agents with Grok @Bot btw!
+>
+> here's how i'm so productive:
+>
+> • i built pstack (https://t.co/u9xIlN3eN0), my personal set of skills for rigorous engineering and verification. inside of our codebase i call it /lauren-mode, but it's called /poteto-mode in pstack.
+> • i use Grok @Bot routines to farm context for me: bug reports on slack, user complaints on X, generating new feature ideas. Grok Bot feeds my "outer loop", where i think about what to point my factory at next.
+> • i make heavy use of /goal, /loop, and /swarm inside of pstack to run my Full Autopilot playbook, which lets your agents/bots fully own, verify, and ship a task from start to finish.
+> • everything runs on cloud agents, so my bots work 24/7 even when i'm asleep or my laptop is offline.
+>
+> *Quoting @cursor_ai:* We're continuing to improve cloud agents in Cursor.
+>
+> They pick up work from events, hold a goal until it's met, and stay on course through long sessions. https://t.co/vACdkc7gOT
+
+- **Tweet:** https://x.com/poteto/status/2090141955695198633
+- **Link:** https://github.com/cursor/plugins/tree/main/pstack
+- **Quoted:** https://x.com/cursor_ai/status/2090136956101414982
+- **Filed:** [pstack](./knowledge/tools/pstack.md)
+- **What:** Lauren Tan describes pstack as a verification-focused skill stack that combines Grok context-gathering routines with goal, loop, and swarm workflows, illustrating Cursor’s claim that cloud agents can pursue and ship long-running tasks autonomously.
+
+## @JHTScherck - Ramp data signals a shift to in-house SEO tooling
+> DataForSEO being a trending vendor for Ramp implies companies using Ramp (startups) are moving away from SEMrush/Ahrefs/AirOps/Profound and building their own solutions.
+>
+> *Quoting @arakharazian:* New: Ramp's top SaaS vendors for August 2026
+>
+> 1/ This month, we saw continued growth in model serving / routers as more firms shift spend to cost-saving + open source AI.
+>
+> 2/ A few underrated areas of growth: a lot of competition for AI customer service / sales / voice agents, and seemingly no clear winner in this category given how many different competitors show up on this list month-over-month.
+>
+> 3/ Plus, 9% of firms are using AI to generate images and video for marketing and advertising.
+>
+> That's about half the adoption rate of Figma, and growing quickly.
+
+- **Tweet:** https://x.com/JHTScherck/status/2090129554316898790
+- **Quoted:** https://x.com/arakharazian/status/2090087803577155826
+- **What:** Scherck interprets Ramp’s August vendor rankings, which show expanding AI infrastructure and application spending, as evidence that startups are replacing packaged SEO and AI-visibility platforms with DataForSEO-powered internal tools.
+
+## @NVIDIAAI - SkillEvaluator measures the practical value of agent skills
+> We benchmarked 300+ NVIDIA verified skills to see how much they actually help agents on real tasks.
+>
+> Same task, same model, same setup. The only difference was whether the agent had the skill.
+>
+> Across the benchmarks, skills improved correctness by 41 points, effectiveness by 39, and efficiency by 35.
+>
+> SkillEvaluator is open source if you want to test your own skills before you ship them.
+
+- **Tweet:** https://x.com/NVIDIAAI/status/2090113635683340622
+- **What:** NVIDIA reports controlled benchmarks across more than 300 verified skills, finding large gains in correctness, effectiveness, and efficiency when agents receive relevant procedural guidance; it positions the open-source SkillEvaluator as a way to validate skills before release.
+
+## @adamhjk - Omarchy makes operating-system customization agent-driven
+> Switching over to omarchy, and I have to say first impressions are that it is fantastic. Putting AI at the center of the experience is so smart. Here's three trivial examples:
+>
+> 1) The default weather widget doesn't show the current days high/low temperature. Hit super-shift-a pops up your preferred coding agent, with the skills for omarchy customization preloaded. I ask it why, it explains, then offers to clone the widget and tweak it. It does. Now the weather works how I want. Amazing.
+>
+> 2) The workstation I'm on has a custom IO board that controls that fans. It's obnoxious. Same agent asked to install the right software (system76), and it does. I know how to do all this by hand, and I was doing it on arch before I used omarchy - but here it has skills that understood the method a little better.
+>
+> 3) I have multiple microphones on this workstation, and the default is always the wrong one. Setting up the built in dictation (!) was how I realized it. Ask the agent to fix the default microphone everywhere... and it does. Again, fabulous.
+>
+> Leaning in to someone else's customization preferences for things like Neovim feel really invasive right now - but given how little I'm actually *using* neovim, maybe I don't care? Going to just live with it a while and see.
+>
+> This is the first operating system that feels like it embraces the future of personalized computing. @dhh and the rest of the team did a great job here.
+
+- **Tweet:** https://x.com/adamhjk/status/2090104327503565219
+- **What:** Adam Jacob’s early Omarchy experience argues that an operating system becomes more personal when a pretrained customization agent can explain and enact small hardware, widget, and input-device changes, reducing the need to manually learn each Arch configuration path.
+
+## @huacnlee - Native themed Gmail client for Omarchy
+> Gmail as a native Omarchy app, not a browser tab or TUI.
+>
+> Designed for Omarchy specifically — every color comes from your active theme, and the layout adapts: three panes when wide, single pane when narrow.
+>
+> Official Gmail API, multi-account, fully keyboard-driven. https://t.co/u6PHpN5aS9
+
+- **Tweet:** https://x.com/huacnlee/status/2090063531127484729
+- **What:** LINK_FAILED: Could not expand link from @huacnlee; the post describes a native, keyboard-driven Omarchy Gmail client with official API access, multi-account support, adaptive panes, and colors inherited from the active system theme.
+
+## @WillNessAI - code-story turns PR diffs into chaptered change explainers
+> I just dropped a new skill made for devs working on enterprise codebases:
+>
+> About 12mo ago I was still on the "you must read all of the code" side of the pendulum.
+>
+> Starting about 3mo I have swung over to the other side of "i really dont need to read most of the code"
+>
+> However, I've realized that unfortunately the real answer  is that... it depends (cop out answer, i know)
+>
+> For almost all of my internal tooling at work, I do not read the code ever. My agents:
+> - prove to me the code works with testing/qa
+> - run reviews (code, security, etc.) before every merge
+>
+> (btw, i think 40%+ of your time should be dedicated to internal tooling, even if you are on a product team. custom software has gotten insanely cheap lately...)
+>
+> For our key services and repos where the code really does matter because the consequences of getting it wrong are high, I do think its necessary to read *some* of the code. The important stuff.
+>
+> However, I struggle to do this for two reasons:
+> 1. The pace of code is fast (and accelerating)
+> 2. I am usually working in repos that I am not familiar with
+>
+> I review code at the PR step. Agent writes code, reviews it, pushes it and creates a PR. Then I view the diff.
+>
+> I've realized that PRs are a terrible way to introduce a code change to someone. So, introducing...
+>
+> /code-story
+> Build a chaptered HTML page that teaches how and why a change works. See individual code diffs combined with explainers and diagrams.
+>
+> It helps me ramp up on every change and get a bit more comfortable in merging the code, allowing me to ask more questions and build better tests.
+>
+> SKILL:
+> https://t.co/KvRsu0bu5C
+>
+> EXAMPLE:
+> https://t.co/TFJmnauwdy
+
+- **Tweet:** https://x.com/WillNessAI/status/2090061224201576560
+- **Link:** https://github.com/will-ness-ai/skills/blob/main/skills/code-story/SKILL.md
+- **Filed:** [will-ness-ai-code-story](./knowledge/tools/will-ness-ai-code-story.md)
+- **What:** Will Ness’s `code-story` skill reframes code review as guided onboarding: it combines selected diffs, prose explainers, and diagrams into a chaptered HTML narrative so reviewers can understand consequential changes without reading an unfamiliar repository wholesale.
+
+---
 # Tuesday, August 18, 2026
 
 ## @jasonzhou1993 - treg, OpenRouter for agent tools
@@ -8682,6 +8941,605 @@ I have 200+ skills, and you want me to import 20+ of your slop skills, on the sa
 - **Quoted:** https://x.com/maxjendrall/status/2080298288872329669
 - **What:** Max showed that ChatGPT's web Work environment can apt-get Blender and actually build/render 3D scenes in-sandbox — first attempt at an OpenAI logo in grass was ugly, with a follow-up planned via visual feedback. Nick's quote is the update: Work is closer to a real workstation (install native tools, iterate on pixels) than the chat-plus-code-interpreter box people still have in their heads.
 
+## @zeroxkyle - DeepSeek CEO interview contrasts with Western AI leaders
+> IMO reading CEO of Deepseek's interview and comparing it to what Western AI leaders are saying is the largest blackpill I've taken today https://t.co/pJsTWm0hrv
+
+- **Tweet:** https://x.com/zeroxkyle/status/2080456608447087056
+- **What:** LINK_FAILED: Could not expand link from @zeroxkyle; the saved redirect resolves back to the bookmark rather than the DeepSeek CEO interview Kyle says offers a revealing contrast with Western AI leaders.
+
+## @doodlestein - Alleged Codex log-growth SSD failure
+> Damn, looks like this Codex bug really did kill my SSD, which was only 13 months old and cost me $478 (Samsung SSD 9100 PRO 4TB, PCIe 5.0x4 M.2) but now costs $902 for the same thing. It sucks because I noticed those log files growing uncontrollably and should've stopped it. https://t.co/cCZLazpyEC
+>
+> *Quoting @uzairansar:* So Codex has a bug that could kill your SSD in under a year... https://t.co/rreZDacG2S
+
+- **Tweet:** https://x.com/doodlestein/status/2080455530225529035
+- **Quoted:** https://x.com/uzairansar/status/2069117176863220061
+- **What:** Emanuel attributes a costly SSD failure to an apparent Codex log-growth bug after observing uncontrolled log files; the quoted warning broadens this into an operational reminder to monitor agent-generated disk usage and stop runaway processes before storage is exhausted.
+
+## @dani_avila7 - html-effectiveness examples for HTML agent outputs
+> If you’re experimenting with switching from markdown to HTML as an agent output format
+>
+> check this repo
+> https://t.co/OBCjRRha6b
+
+- **Tweet:** https://x.com/dani_avila7/status/2080439126390636661
+- **Link:** https://github.com/anthropics/html-effectiveness
+- **Filed:** [html-effectiveness](./knowledge/tools/html-effectiveness.md)
+- **What:** Anthropic’s example gallery makes the case for HTML as a richer agent-output medium than Markdown, with standalone browser-ready patterns for code review, status reports, diagrams, interactive editors, and design exploration without a build pipeline.
+
+## @igrigorik - Shopify Global Catalog for agentic commerce
+> Fun chat. I stand by my claim: Shopify's Global Catalog is *the* gold rush opportunity of 2026. It's open, it's free, and it's agent ready to power discovery-to-checkout.
+>
+> Docs @ https://t.co/rBA2IvcM2m
+> Demos: https://t.co/hOGa7Q0XL7
+> UCP deep-dive: https://t.co/Kyqq6WtzWP
+>
+> *Quoting @ecommcowboy:* "This is the biggest @ShopifyDevs opportunity right now."
+>
+> @igrigorik, Distinguished Engineer at Shopify, shared more about the Universal Commerce Protocol (UCP) and what's coming next during DotDev.
+>
+> The major moments:
+>
+> - UCP is a free, public, global catalogue API.
+>
+> Only Google, Amazon, and a few others have solved discovery at internet scale, and almost none expose it publicly.
+>
+> Shopify spent $100M+ over two years and made it free. "This is a picks-and-shovels moment. There's gold in that mountain."
+>
+> - Built with Google, launched in January.
+>
+> Decades of Shopify scale compressed, plus partners like Target. By April, Meta, Salesforce, Amazon, and Stripe had joined.
+>
+> - How UCP works.
+>
+> A merchant declares what it supports like cards, checkout, subscriptions, split payments, gift cards. A client or agent says "I don't speak gift cards yet, but I understand subscriptions."
+>
+> They negotiate the overlap and transact.
+>
+> - Completely open participation.
+>
+> A merchant can invent "fancy subscriptions" tomorrow, and any agent that speaks it can transact. It turns commerce into a market negotiation.
+>
+> - Modelling all of commerce is absurdly hard.
+>
+> It's the world's longest-running trade and always evolving, so you can't write a static spec. UCP is built around capability negotiation instead.
+>
+> UCP aggregates across all merchants and normalizes the permutations (one seller's size 10 is another's 9.5; blue is someone's turquoise) into coherent availability, prices, and latency.
+>
+> Thanks for coming on the show Ilya! We'd love to have you back.
+>
+> Ecomm Cowboy is live every M-F at 12P CT.
+
+- **Tweet:** https://x.com/igrigorik/status/2080377907675910492
+- **Link:** https://shopify.dev/docs/agents/catalog/global-catalog
+- **Quoted:** https://x.com/ecommcowboy/status/2080352494111105284
+- **Filed:** [shopify-global-catalog-mcp](./knowledge/articles/shopify-global-catalog-mcp.md)
+- **What:** Grigorik frames Shopify’s open Global Catalog as infrastructure for agent-led discovery and checkout, while the quoted discussion explains why UCP matters: it lets buyers and merchants negotiate supported commerce capabilities instead of relying on a static integration spec.
+
+## @kimmonismus - Adversarial Codex workflow for Erdős proofs
+> wtf is happening: A researcher says he used GPT-5.6 Sol Ultra in Codex to produce proposed solutions to six (!) Erdős problems, and published the full research trail.
+>
+> He says GPT-5.6 Sol Ultra in Codex produced proposed proofs for six Erdős problems.
+>
+> His prompts explicitly reject special cases, circular reductions and unsupported lemmas. They preserve multiple incompatible approaches and use independent agents to attack every candidate proof.
+>
+> Codex then continues without further interaction:
+>
+> "attempt -> failure -> diagnosis -> new approach -> proof draft -> adversarial audit -> repair."
+>
+> science is accelerating at unprecedented speed.
+>
+> *Quoting @Qiaoqiao2001:* I solved 6 open Erdős problems in 5 days, using @OpenAI GPT-5.6 Sol.
+>
+> I have a math background, but the Codex workflow I used does not require deep mathematical knowledge.
+>
+> Here’s exactly how I approached it, including my prompts 🧵
+
+- **Tweet:** https://x.com/kimmonismus/status/2080321539820732776
+- **Quoted:** https://x.com/Qiaoqiao2001/status/2080003441821163958
+- **What:** Wang claims a Codex-assisted process reached proposed solutions to six Erdős problems and published its research trail; Kimmonismus highlights that the result depended on an adversarial loop that rejects invalid proof shortcuts and repeatedly audits competing approaches.
+
+## @bcherny - Profiler-guided AI optimization workflow
+> *Replying to @rauchg:* Fable just found a 15-30% memory efficiency improvement in Turbopack / Next.js, nearly autonomously.
+>
+> @tobi asked me today: what have been your “holy s***” moments with AI?
+>
+> My answer was: it’s every single week. And it’s accelerating. In fact, “WTFs/day” might just be my favorite metric for AI progress.
+>
+> It’s one thing to read benchmarks or stories online. It’s another to watch these machines pull engineering feats every day.
+>
+> 3 days ago? Sol helped us find novel vulnerabilities in some of the most audited code in the world. Today? Fable helps us ship this large optimization of a very complex Rust codebase. I just saw some results of work we’ve done to shrink binaries by 10-20x. List goes on.
+>
+> @rauchg @tobi This is pretty how I optimize code these days. “Hey fable, use a dynamic workflow to get p95 time down under 300ms. Dont stop till you’re done, use a profiler”
+
+- **Tweet:** https://x.com/bcherny/status/2080172448314790016
+- **Parent:** https://x.com/rauchg/status/2080098518535110913
+- **What:** Rauch reports autonomous agents finding memory, security, and binary-size gains in difficult systems code; Cherny turns that result into a concrete practice: give an agent a measurable p95 target, a profiler, and permission to iterate until it succeeds.
+
+---
+# Wednesday, July 22, 2026
+
+## @rauchg - Fable’s autonomous Turbopack memory optimization
+> Fable just found a 15-30% memory efficiency improvement in Turbopack / Next.js, nearly autonomously.
+>
+> @tobi asked me today: what have been your “holy s***” moments with AI?
+>
+> My answer was: it’s every single week. And it’s accelerating. In fact, “WTFs/day” might just be my favorite metric for AI progress.
+>
+> It’s one thing to read benchmarks or stories online. It’s another to watch these machines pull engineering feats every day.
+>
+> 3 days ago? Sol helped us find novel vulnerabilities in some of the most audited code in the world. Today? Fable helps us ship this large optimization of a very complex Rust codebase. I just saw some results of work we’ve done to shrink binaries by 10-20x. List goes on.
+
+- **Tweet:** https://x.com/rauchg/status/2080098518535110913
+- **What:** Rauch describes a weekly cadence of production AI engineering wins, citing Fable’s near-autonomous 15–30% Turbopack and Next.js memory improvement, Sol’s vulnerability discovery, and other binary-size reductions as stronger evidence than benchmark claims alone.
+
+## @mattshumer_ - workbench.md’s chief-of-staff agent workflow
+> https://t.co/YxEHek9L8p for anyone who wants to try the workflow... it's the most powerful way to steer agents.
+>
+> I built it for myself, and it's not really a product, so expect rough edges.
+>
+> I'm happy to help if anyone gets stuck though, just tweet at me or comment!
+>
+> *Quoting @josh_bickett:* Matt Shumer (@mattshumer_) really is living in the future.
+>
+> He just showed me his setup. He is running a whole company of agents via workbench .md.
+>
+> > agents working across laptops and cloud VMs
+> > one chief of staff checking in on each agent
+> > all the agents can communicate with each other via workbench
+> > Matt chats directly with chief of staff to get updates and share input
+>
+> I've not seen anything like it. I need to up my agent game.
+
+- **Tweet:** https://x.com/mattshumer_/status/2080077448931082325
+- **Link:** https://workbench.md/
+- **Quoted:** https://x.com/josh_bickett/status/2080076133610230117
+- **What:** Shumer shares the rough personal workbench.md workflow behind a quoted description of a distributed agent organization: agents span laptops and cloud VMs, communicate through the workspace, and report through a chief-of-staff agent that he directs directly.
+
+## @toptickcrypto - GPT 5.6 Pro’s claimed Dinitz conjecture counterexample
+> These are the entirety of his prompts. Bro literally did the "make no mistakes" meme until the model solved a math problem that had been open for 30 years. https://t.co/bicPJZqCBU
+>
+> *Quoting @DmitryRybin1:* Dinitz-Garg-Goemans conjecture is false. This graph theory problem was open for ~30 years.
+>
+> The graph below has fractional flow cost 58. Any unsplittable flow (with capacity violation &lt;=15) has cost at least 60.
+>
+> Chat with GPT 5.6 Pro where this was found: https://t.co/Oi2PQoab2h https://t.co/3ihncPMpve
+
+- **Tweet:** https://x.com/toptickcrypto/status/2080011280526594119
+- **Link:** https://chatgpt.com/share/6a60b2eb-0b64-83ee-9c76-7931ca1de063
+- **Quoted:** https://x.com/DmitryRybin1/status/2079904005652893709
+- **What:** The quote claims that a GPT 5.6 Pro chat found a counterexample to the long-open Dinitz-Garg-Goemans conjecture, while the bookmark emphasizes the minimal prompting allegedly involved; the shared-chat archive exposes no substantive proof, so the mathematical result remains unverified here.
+
+## @iamgdsa - Prelaunch content testing for a couples app
+> this couples app went viral PRE LAUNCH
+>
+> that's definitely a good path to follow
+>
+> build an app, test formats at the same time
+>
+> 361K views, 3.1K shares, 1.9K saves: https://t.co/PwSCboRW4o
+
+- **Tweet:** https://x.com/iamgdsa/status/2080005230113309146
+- **What:** The post presents prelaunch content testing as a distribution strategy, using a couples app’s viral engagement metrics to argue that founders should validate short-form formats and audience interest while the product is still being built.
+
+## @alexgroberman - Microsoft’s AI-search retail readiness guide
+> A brand followed the advice in this article and generated more than $50,000 from ChatGPT, Google and Perplexity-driven traffic. https://t.co/twMGCg4ZLL
+>
+> *Quoting @alexgroberman:* https://t.co/uD01swnL8I
+
+- **Tweet:** https://x.com/alexgroberman/status/2079918278881968187
+- **Link:** https://x.com/i/article/2012725610217627648
+- **Quoted:** https://x.com/alexgroberman/status/2012895638955204897
+- **Filed:** [microsoft-aeo-geo-ai-search-retail-guide](./knowledge/articles/microsoft-aeo-geo-ai-search-retail-guide.md)
+- **What:** An annotated reading of Microsoft’s retail AI-search guidance says brands need machine-readable product data, intent-led content, and credible evidence so assistants can understand, recommend, and transact on their offerings; the bookmark adds an unverified claim of $50,000 in AI-driven traffic.
+
+---
+
+# Tuesday, July 21, 2026
+
+## @codyschneider - Facebook Ads agent: full creative and optimization loop
+> tomorrow i'm hosting a live class where
+>
+> 58 people are already going, and I'm going to teach you how to...
+>
+> Build a Facebook Ads Agent: It Makes Ads, Publishes Ads, and Manages the Account
+>
+> you'll learn:
+>
+> 4 weeks I deployed a Facebook ads for a startup, and since then it's produced 140 leads.
+>
+> ​And I'm going to teach you how to build it.
+>
+> ​Here's exactly how this agent works:
+>
+> ​1. How to win with the new Facebook Ads andromeda algorithm
+>
+> ​2. Research the pain points and outcomes of the target customer
+>
+> ​3. Makes static ads and AI UGC based on this information
+>
+> ​4. Publishing ads to Facebook via the marketing API
+>
+> ​5. Analyze the ads results based on the Facebook ads, Google analytics, and Hubspot data
+>
+> 6. ​Turn off losing ads, promoting winning ads
+>
+> ​7. Having the agent learn from the best performers
+>
+> ​join this free live class to learn how to deploy this exact agent
+>
+> even if you can't join live, this class will be recorded and shared with with everyone who signs up
+>
+> join below
+
+- **Tweet:** https://x.com/codyschneider/status/2079666490496729208
+- **What:** Cody Schneider promotes a class on an agentic paid-social workflow that connects audience research, static and AI UGC creative generation, Meta Marketing API publishing, cross-platform performance analysis, budget reallocation, and iterative learning from winning ads into one operating loop.
+
+## @usr_bin_roygbiv - Multiple résumés for different career chapters
+> People keep asking if they can see my resume to copy it
+>
+> Which one? https://t.co/qJNAnCMsid
+
+- **Tweet:** https://x.com/usr_bin_roygbiv/status/2079663778862440648
+- **What:** LINK_FAILED: Could not expand link from @usr_bin_roygbiv. Roy's brief joke points to a practical career lesson: a résumé is not a fixed universal template, since distinct roles, career stages, and target opportunities can require materially different narratives, evidence, and presentation choices.
+
+## @marclou - Self-reported startup revenue by marketing channel
+> Top marketing channels for startups on @trust_mrr:
+>
+> 🔎 SEO — $10.3M
+> ✍️ Content marketing — $8M
+> 📸 Instagram — $7.6M
+> 👍 Facebook — $6M
+> 🗣️ Word of mouth — $5.7M
+> 📝 Blog — $5M
+> 🔵 Google Ads — $4.8M
+> 🤝 Affiliate — $4.8M
+> 🎯 Meta Ads — $4.5M
+> 🎵 TikTok — $4M
+>
+> n=1,162
+>
+> (channels are self-reported)
+
+- **Tweet:** https://x.com/marclou/status/2079586201686950269
+- **What:** Marc Lou shares a self-reported channel-revenue ranking from 1,162 startups in which SEO and content marketing lead the reported totals, ahead of social, paid ads, and affiliates; the figures are useful directional evidence for channel selection but do not establish causal performance because founders reported their own attribution.
+
+## @brainextends - AI UGC's two scaling bottlenecks: voice and distribution
+> the reason your ai ugc scripts sound like ai is sometihng thay everyone skips
+>
+> before writing anything you define what the character would never say.
+>
+> before writing any script or prompt, define what the character can't say/
+>
+> normally the hard limits or ai copy blacklist
+>
+> dan broke down the full system and this is the most ROI ai ugc article i've seen in a while
+>
+> *Quoting @danclipping:* https://t.co/6wfXf9rHa2
+
+- **Tweet:** https://x.com/brainextends/status/2079556128208216541
+- **Link:** https://x.com/i/article/2079485160089653248
+- **Quoted:** https://x.com/danclipping/status/2079521180575215645
+- **Filed:** [how-to-hit-1m-ai-ugc-fable-5-edition.md](./knowledge/articles/how-to-hit-1m-ai-ugc-fable-5-edition.md)
+- **What:** Brain highlights Daniel's AI UGC framework: constrain a persona by defining its forbidden language, ground scripts in an evidence-backed source map, and batch variations in shared context; Daniel argues that, once generation quality is solved, creator-led distribution rather than prompting becomes the limiting scale problem.
+
+## @morellifit - Peptide experimentation for an aging dog
+> Andrew is right. Peptides revived my 14yr old pup.
+>
+> We started him on 1 mg daily of BPC-157 and TB-500 (five days on, two days off). Later, we added TRT.
+>
+> He's a brand new dog now, running for the first time in 2 years. Before this, he could barely walk. https://t.co/StMzMxjt8i
+>
+> *Quoting @hubermanlab:* The pet peptide industry is taking off: & yes there are a lot of data on BPC in animals. Mostly mice. But I know at least 3 dog owners who are giving BPC to their injured and/or aging dogs. The cat owners seem less peptide curious. Parrot, reptile and exotic owners eerily quiet…
+
+- **Tweet:** https://x.com/morellifit/status/2079542424867860898
+- **Quoted:** https://x.com/hubermanlab/status/2079403698523107503
+- **What:** Morelli offers a personal account of using BPC-157, TB-500, and later TRT for a mobility-impaired elderly dog, amplifying Huberman's observation that pet-peptide use is growing despite the cited evidence being primarily from animal studies rather than clinical guidance for pets.
+
+## @emilkowalski - Trusted UI-library selection for coding agents
+> New skill: /pick-ui-library
+>
+> Have your agent pick the right UI library for the task based on libraries I use and trust, instead of letting AI hand-roll a toast component or install an abandoned package.
+>
+> Includes Sonner, cmdk, base-ui, Satori, and more.
+>
+> https://t.co/jCwhthpi20
+
+- **Tweet:** https://x.com/emilkowalski/status/2079528929279250534
+- **Link:** https://github.com/emilkowalski/skills
+- **Filed:** [emilkowalski-skills.md](./knowledge/tools/emilkowalski-skills.md)
+- **What:** Emil Kowalski's existing skills collection adds /pick-ui-library, directing agents toward maintained, trusted UI dependencies such as Sonner, cmdk, base-ui, and Satori instead of fragile hand-rolled components or abandoned packages.
+
+---
+
+# Monday, July 20, 2026
+
+## @franzbruckhoff - AI still rewards taste and ambitious complexity
+> I'm leaving X for some time to focus on building.
+>
+> But before I leave, I want to share some thoughts on where we are with AI right now.
+>
+> If you are building with AI, then this is for you.
+>
+> I wish I had at least 1% of @levelsio's reach already because I feel more builders need to hear this.
+>
+> TLDR: Your skills and good taste matter a lot. Be the most ambitious you've ever been and use AI wisely.
+>
+> Superintelligence is defined as systems exceeding all human capability across pretty much all domains imaginable, and especially strategic agency. Models like Fable 5 and K3 are superhuman in some domains like code generation and breadth of recall, but they are also subhuman in domains like long-horizon autonomy, physical-world interaction, sustained original research, good taste, etc.
+>
+> We are directing them, and they remain constrained by us humans and institutions. They're not behind the steering wheel yet. The tool hasn't become our master yet. We're still the master over the tool.
+>
+> The reality is, human actors of all kind, not just deeply technical ones, are wielding AI like a magic wand now, shaping the software economy at the speed of compute, throttled by their limited attention, human speed of expression and prompting.
+>
+> You reading this, you are special. Special in your own unique and wonderful way. And what AI gives you is an amplifier to express yourself, your ideas, your dreams, your imagination, and your ambition more than you ever could before.
+>
+> It seems unfair to us old-school coders who had to grind our ways through the dark coal mines, hiking through manual coding and debugging hell in order to create amazing software systems and apps. It's frustrating as to the moon and back to see your skills become irrelevant so fast, at least if you believe the narrative that you've wasted the better part of your life acquiring them.
+>
+> It is true that there is a certain, quite strong homogenization effect. Millions of people prompting to replicate or iterate on what's known must inevitably lead to a lot of overlap with structurally low diversity. AI produces convergent styles. It's in its nature, like that one designer doing all the designs for everything. In the same way we are also all starting to sound the same, being influenced by AIs way of expressing thought.
+>
+> X, and everyone's own social circle or audience, produces selection bias. It's skewing the reality we perceive based on what the people in our feed and around us talk about or show us. So we tend to oversample trend-chasing indie apps and undersample deep tech systems, enterprise systems, research tooling or domain-specific work that flies under the radar, below the clouds of hype or algorithmic push.
+>
+> Apps that took a year to make now take mere hours, it seems. It is both true and false at the same time. Superficially it is true because you get something that appears to behave like an app that was meticulously crafted over the course of an entire year by a talented engineer or even a whole team. What took so long can now be scaffolded with ease, by anyone. Engineers, chefs, strippers. Even our non-technical partners, friends and parents. Great.
+>
+> But when we dig deeper, the truth is that complex products require reliability engineering, security, compliance, integrations, support and so much more that in the end, even with this powerful AI we have now to help us go from A to B through something like an Einstein-Rosen-Bridge warping space and time, things take their good amount of time to get right. Less than they did before, all things equal, but not mere hours.
+>
+> Your skill is still highly relevant because AI amplifies you. It gives you leverage. The widespread idea that AI renders skill irrelevant doesn't compute, because either we have output quality that varies, in which case skill still differentiates, or it doesn't vary at all. And if it doesn't vary at all, the concept of "better" is meaningless. In other terms: A quality gradient can't exist in a flattened distribution. This is essentially your mathematical proof right there that your skill is in fact highly relevant.
+>
+> What AI did is, it raised the floor dramatically. It also raised the ceiling, but not as much as the floor. This somewhat compresses the skill relevance gradient, but it doesn't eliminate it in any meaningful way.
+>
+> When was the last time that access to powerful tools has resulted in broadly equal results? Never.
+>
+> There was a time you needed to have a degree in chemistry or something in order to be able to take and develop photos. My grandfather, a scientist, used to have a laboratory for that. Taking and then developing pictures required immense skill.
+>
+> Then one day digital cameras came along. Now any fool could take pictures, faster and easier than ever, thousands a day in full color or 3D even, instead of just 10 in monochrome. And yet, we all know that some people routinely take amazingly awe-inspiring photos, National Geographic front cover style that make us pause and look, while most others take tens to hundreds of photos a day that just end up clogging up our cloud drives.
+>
+> We all have access to the same English language, but not everyone writes equally well. The equalization applies to the generation layer that is commoditized, but not to our taste, judgement, distribution, trust, or timing.
+>
+> AI smashed through barriers to entry and brought them down like the Berlin wall. Now competition floods the market and drives economic profit toward zero in the layer that got commoditized, that is, the generation layer. Margins gravitate to zero, but not equally everywhere.
+>
+> So what is it that survives this kind of "commoditization of everything"? What do we do, if we drink this snake oil? The classic sets of moats persist. Distribution, brand, trust, network effects, proprietary data, switching costs, regulatory position, capital intensity, and any kinds of significant embeddedness.
+>
+> Yes, anyone can start using Claude Code & co and copy some app's code in an hour just based on screenshots. But it doesn't copy its user base, proprietary data in the cloud, its trust, its integrations or anything like that.
+>
+> There is a sense that AI forces us to rush, because everyone is working so fast now. Well, the race was always on. So how about speed-to-trend? It's a temporary edge at best, but not a long-term differentiator. The fruits that hang low are just being picked faster overall, by more hunters and gatherers searching for them.
+>
+> There is a widespread belief that all the value is going to accrue to the frontier AI companies in the end, who are the ones selling this immense power to everyone else.
+>
+> In fact it's a bit sad to see all these non-influencer vibe coders raising their hopes for nothing, buying the picks and shovels from the AI frontier labs to go dig for gold. It's like watching 100 ducks fight for a small handful of breadcrumbs, and it's funny until you realize they are essentially fighting for their survival. That's not how the world should be, right?
+>
+> Well, in reality the frontier AI companies spend astronomical amounts of money on research and development, including things like AI infrastructure and energy, training and inference, etc.
+>
+> They themselves are essentially ducks in the lake, fighting for their survival for breadcrumbs. They suffer competitive commoditization pressure as much as we do, just at a different level. At the model layer, rather than the generation layer.
+>
+> Structurally the winners are consumers and users who capture the surplus when production costs fall to the ground, but that of course doesn't really help us builders much, at least not those who have to make a living off of it.
+>
+> And, let's be real. It may seem funny to have AI spit out an app that someone else previously spent an entire year on creating meticulously by hand, and then upload that to compete. The opportunity is short-lived, and the cost of opportunity a lot are missing is this:
+>
+> The real gold rush is not that now you can make an app in a few hours instead of a year. The non-obvious that will become common sense soon is that an app that takes 2 hours to make is worth -5$ minus the value of your time + the value of demand which is likely $0 unless you have distribution, which you then burn with slop.
+>
+> The real opportunity that AI has opened up is WIELDING ENORMOUS COMPLEXITY x EXCELLENCE.
+>
+> Just imagine for a moment what you could accomplish, if only you would take this new superpower, your amazingly valuable skills, your great taste, your power of imagination, and do something that is outrageously AMBITIOUS! Something that makes others think you must be absolutely mental to even think for a second that it could be accomplished. And then go and work for a full year on just that, utilizing AI to the fullest extent possible. Milking the beast until its dry.
+>
+> What will that be? No, not another Bumble clone. Not another weather app. For AI's sake, please, not an "app" at all. But something that the world actually needs. Think about it! Think bigger! And when you thought you've thought bigger, think even bigger. You're still aiming too low. THINK BIGGER!
+>
+> Here is my bucket list of things I want to accomplish before I die.
+>
+> - A platform that solves the number one root cause of poverty for good, giving everyone a fair chance at living a good life free of financial worries (it's far more than a "platform").
+>
+> - A floating city in international waters, driven and governed by AI under a human charter (capital intensive, long story, and yes it will be fundable and doable)
+>
+> - A digital twin of Earth for climate analytics, climate communications and Earth sciences education (the world's most advanced nature simulation by far, unlike anything you've ever seen or heard of)
+>
+> - Truly reliable, explainable AI that can reason through complex systems and across extremely vast design spaces without stalling under the pressure of combinatorial explosion, laying the foundation for generative engineering so we can work on great and complex things like the USS Voyager and other incredible things far beyond today's vibe coding
+>
+> - Something so insane, they would lock me up just for saying it out loud
+>
+> A good heuristic: If talking about it doesn't make you sound like a complete lunatic, and building it doesn't scare you, you're probably aiming too low and the thing you're about to do will be commoditized rapidly (or is already).
+>
+> Gone building. Back when there's something to show.
+>
+> *Quoting @levelsio:* Like good odds I'm wrong but I wanted to write this down:
+>
+> It's pretty clear to me that superintelligence is here and it's more powerful than us and it's moving where things are going now, not humans anymore
+>
+> I don't see many people realize this yet, it feels like that pic I posted the other day, everyone is running after the same carrot which is the AI, thinking they're special, and their work is special and their use of AI is special, but it's really not, we're all mostly making the same slop, I mean it's nice slop, useful slop but everyone is making the same slop
+>
+> And because it's so fast to make things, like people used to spend a year on just building an app, now it's done in hours, it's such an immense change, people send me their projects and it all looks the same, it's useful but it's slop
+>
+> Non-technical people (e.g. the gfs) are now building the same or better things than technical people like us
+>
+> So AI has made everybody is just as capable as everyone else, it equalized everyone in the world, as in everyone can make everything (software, music, images, art etc) now and everyone is equal, at least in the digital realm now
+>
+> And maybe now we're in some odd transitionary time where we have to find out waht the next differentiator is as coding/building/execution isn't one anymore for sure
+>
+> I thought it'd be distribution but who knows, obviously creativity and ideas, but if you can copy a successful apps in an hour, then how does that differentiating work?
+>
+> A guy on here @aporia9n wrote how he increasingly meets founders who blast through apps/products/startups, kind of money grabs, very quickly jumping on a trend, building super quickly with AI, make lots of money quick, everyone copies them, then their margins go to 0%, and they shut it down and go to the next thing, in a way they found one differentiator which is speed
+>
+> That's one way to do it, but it shows how radically things are changing I think
+>
+> For now I think the only ones winning is the AI superintelligence itself and the companies providing the AI
+
+- **Tweet:** https://x.com/franzbruckhoff/status/2079392643931349333
+- **Quoted:** https://x.com/levelsio/status/2079282135098376357
+- **What:** Franz rebuts levelsio's claim that AI equalizes builders: generation is becoming commoditized, but taste, judgment, distribution, trust, and the capacity to execute difficult long-horizon systems remain durable differentiators.
+
+## @noctadn - Cartoon ad formats to bypass ad blindness
+> people skip ads. NOBODY skips their favorite cartoons/shows.
+>
+> i cloned a regular UGC ad into a full simpsons-style cartoon — same cuts, same pacing, same voice, just yellow
+>
+> why it prints: your brain files cartoons as entertainment, not advertising. ad blindness never triggers. it's your ad wearing everyone's favorite show as a costume
+>
+> the workflow:
+>
+> - reference video
+> - the right masterprompts, tools and settings
+> - seedance 2.0 does the rest
+>
+> keeps the timing, the lip sync, the audio... swaps the entire visual world
+>
+> i wrote the full step-by-step guide with the copy-paste masterprompt and everything you need to know inside
+>
+> rt + comment "DONUT" and i'll send it (must follow so i can DM)
+>
+> *Quoting @noctadn:* doodle is one of the best converting formats in our ads manager right now
+>
+> everyone’s grinding hyperreal UGC while a pencil knight on ruled paper quietly does the same job in a fraction of the time
+>
+> why it wins: everyone's been drawing on that exact paper their whole life. the brain files it as a childhood doodle coming to life, not an ad - the guard never goes up
+>
+> im giving my whole playbook to you right now, here’s what you’re getting:
+> - all the prompts im using
+> - full step by step playbook from zero to edited ad
+> - how i create them in less than 15mins and $2
+> - how to automate full pipeline and scale even more
+>
+> rt + comment "INK" and i'll send you the full breakdown (must follow so i can DM)
+
+- **Tweet:** https://x.com/noctadn/status/2079302586579243049
+- **Quoted:** https://x.com/noctadn/status/2078188008088711231
+- **What:** noctadn pairs a Simpsons-style conversion workflow with a prior doodle-ad case to argue that familiar childhood visual language makes paid creative feel like entertainment, preserving UGC pacing while sidestepping ad blindness.
+
+## @DanielLockyer - Blacksmith cuts GitHub Actions CI time by 63%
+> Yep, switching from the default GitHub Actions runners is probably one of the easiest way to get back time in CI
+>
+> And with the speed of shipping increasing, you want to remove as many of the bottlenecks as possible
+>
+> *Quoting @koorankka:* Switched from GitHub Actions defaults to @useblacksmith.
+>
+> Average CI run duration so far is now 63% what it used to be, went from 7m 37s -&gt; 2m 50s.
+>
+> I was annoyed that I had to create a GitHub organization just for Blacksmith but seeing builds just go brrrrrrrr makes it worth it. https://t.co/ZBKULudTcu
+
+- **Tweet:** https://x.com/DanielLockyer/status/2079286250905669822
+- **Quoted:** https://x.com/koorankka/status/2079153065240801424
+- **What:** Daniel uses Iiro Krankka's 7:37-to-2:50 CI result to argue that replacing GitHub Actions' default runners is a straightforward way to remove delivery bottlenecks as teams ship more frequently.
+
+## @Jibran_05 - 2025 Wrapped's product and UGC growth playbook
+> if you're doing any type of UGC or organic growth,
+>
+> read this.
+>
+> it's the exact playbook that took our app to #1 on the AppStore
+>
+> *Quoting @Jibran_05:* https://t.co/9k0jdz5jjz
+
+- **Tweet:** https://x.com/Jibran_05/status/2079271075045834839
+- **Link:** https://x.com/i/article/2079004968523067392
+- **Quoted:** https://x.com/Jibran_05/status/2079269941857919222
+- **Filed:** [how-i-got-1-5-million-downloads-in-3-days.md](./knowledge/articles/how-i-got-1-5-million-downloads-in-3-days.md)
+- **What:** Jibran highlights his detailed 2025 Wrapped postmortem: combine cohort-level product analytics with a macro trend and one scalable UGC creator niche to turn organic interest into rapid App Store growth.
+
+## @JesseSchoberg - Three-week test of ChatGPT advertising
+> I ran ads inside ChatGPT for 3 weeks so you don't have to.
+>
+> Here's what actually happened, and who they'd be great for 👇 https://t.co/caacviZnn0
+
+- **Tweet:** https://x.com/JesseSchoberg/status/2079236028460622034
+- **What:** Jesse Schoberg introduces a three-week experiment with advertising inside ChatGPT, promising practical results and audience-fit guidance that could help marketers judge whether the emerging placement merits budget before testing it themselves.
+
+## @shwnhll - Agents turn Search Console signals into a pSEO campaign
+> This is an old school SEO play, with a new school twist.
+>
+> 1: Analyzed the queries in search console
+> 2: Noticed a pattern of potentially-programmatic queries with impressions but low clicks
+> 3: Created the new pSEO campaign targeting these long tail keywords with data-rich info
+>
+> The new school twist is that I didn’t do any of that. My agents did it on their own. 🤷‍♂️
+>
+> *Quoting @shwnhll:* 👀 love when a plan starts to come together https://t.co/ZcQnzLkJjQ
+
+- **Tweet:** https://x.com/shwnhll/status/2079232562988232741
+- **Quoted:** https://x.com/shwnhll/status/2078953856386433283
+- **What:** Shawn Hill describes agents autonomously converting Search Console queries with impressions but weak click-through rates into a data-rich programmatic SEO campaign; his quoted progress update frames the campaign as an execution plan now producing visible momentum.
+
+## @maxxmalist - Automated AI UGC for faceless influencer ads
+> i still don’t think people understand how wild ai is getting
+>
+> you can literally become an influencer in any niche without ever showing your face, or use this type of content for your ads
+>
+> and people are already taking advantage of it. just look at youtube channels or ig accounts posting amish advice, for example. this stuff is PRINTING
+>
+> on top of that, you can now automate like 90% of the work, and you don’t need to be technical at all
+>
+> just use claude code or heygen to generate a long form video with a single prompt
+>
+> this is an example from my new AI UGC system. it took me like 10 minutes and cost less than $1 to create
+>
+> at this point, it’s literally impossible to tell the difference between AI-generated videos and real footage
+>
+> and these ads convert incredibly well on both paid and organic traffic
+
+- **Tweet:** https://x.com/maxxmalist/status/2079222645175009783
+- **What:** Max argues that prompt-driven video tools such as Claude Code and HeyGen now make low-cost, largely automated AI UGC practical for nontechnical marketers, enabling faceless niche content and advertising that he says can compete with real footage.
+
+## @lightreelai - Claude-assisted influencer discovery across short-form video
+> Today, we’re introducing Claude for influencer marketing.
+>
+> Just enter your target profile and Lightreel searches millions of TikTok’s and Reels to find the best:
+>
+> -> influencers
+> -> UGC creators
+> -> micro-influencers
+>
+> Stop using VA’s and outdated databases for creator outreach. https://t.co/24BM1FFxpC
+
+- **Tweet:** https://x.com/lightreelai/status/2079219978637562277
+- **What:** Lightreel presents an AI-driven creator-research workflow that searches a large corpus of TikTok and Reels content from a target profile, positioning automated influencer, UGC creator, and micro-influencer discovery as an alternative to manual outreach research.
+
+## @muzzships - LLM referrals from SEO and YouTube
+> chatgpt is sending me users from the 8th day my saas went live
+>
+> and now almost all major LLMs are sending me users
+>
+> mastered the game :)
+>
+> cooking something for y'll in this, dm if you want to try and share any feedback 🫡 https://t.co/yIz2NpMfTG
+>
+> *Quoting @HsanC_:* LLMs are currently the biggest customer acquisition channel for my SaaS.
+>
+> All I do is focus purely on SEO + YouTube.
+>
+> - Build backlinks
+> - Create high-intent pages
+> - Optimize existing articles
+> - Record videos (for money keywords)
+>
+> This is underrated in 2026. https://t.co/yDGaamG880
+
+- **Tweet:** https://x.com/muzzships/status/2079217585951006792
+- **Quoted:** https://x.com/HsanC_/status/2079214438071116145
+- **What:** Muzammil corroborates Hasan Cagli's claim that SEO and YouTube content can generate SaaS traffic through major LLMs, reporting referrals within eight days of launch and suggesting a forthcoming workflow for improving this acquisition channel.
+
+## @BillDA - Engagement groups coordinating social-media amplification
+> PSA - when you see this interaction pattern, there is ALWAYS💯 a group chat behind the scenes where people coordinate pumping each other's posts for engagement
+>
+> Everything on social media is fake https://t.co/xhXSVZYcp7
+
+- **Tweet:** https://x.com/BillDA/status/2079209006921363694
+- **What:** Bill D'Alessandro warns that conspicuous mutual engagement patterns may be coordinated through private group chats, highlighting how engagement pods can manufacture apparent social proof and distort perceptions of organic reach.
+
+## @doodlestein - The building-block model for agentic software
+> I’ve been doing this since last year. Hence my asupersync library and my FrankenSuite set of projects.
+>
+> The mass adoption part has eluded me thus far, but I’m the single biggest user of all my libraries and I see the extreme value and utility of them every day as I build more.
+>
+> *Quoting @mitchellh:* https://t.co/RZlp39Wkrf
+
+- **Tweet:** https://x.com/doodlestein/status/2079201345072980351
+- **Link:** https://x.com/i/article/2041548775328829440
+- **Quoted:** https://x.com/mitchellh/status/2041566958681014418
+- **Filed:** [building-block-economy](./knowledge/articles/building-block-economy.md)
+- **What:** Jeffrey Emanuel connects his asupersync and FrankenSuite work to Mitchell Hashimoto's case for reusable building blocks: agentic development favors composing proven components, though independent maintainers may capture practical utility before broad adoption.
+
+## @Scobleizer - Designing businesses for AI-agent customers
+> The new business imperative: find better ways to attract and take care of AI agents, because that's where the business soon will be coming.
+
+- **Tweet:** https://x.com/Scobleizer/status/2079126689867858359
+- **What:** Robert Scoble frames AI agents as an emerging customer channel rather than merely an internal tool, arguing that companies should adapt discovery, service, and product experiences to win business mediated by autonomous systems.
+
 ---
 
 # Sunday, July 19, 2026
@@ -8727,8 +9585,93 @@ I have 200+ skills, and you want me to import 20+ of your slop skills, on the sa
 - **Tweet:** https://x.com/rileybrown/status/2078692494213050788
 - **What:** Riley Brown flags a product-design observation that users may prefer generated or finished outcomes over an editing workflow, making it worth testing how much control an interface should expose.
 
----
+## @__alpoge__ - Claimed counterexample to the Jacobian conjecture
+> hello there the jacobian conjecture is false thanx to my close friend akhil for asking about it and my other close friend fable for working during the world cup final
+>
+> ((1+xy)^3 z + y^2 (1+xy) (4+3xy), y + 3 x (1+xy)^2  z + 3 x y^2 (4+3xy), 2 x - 3 x^2 y - x^3 z): \C^3\to \C^3, has jacobian determinant -2, and sends (0, 0, -1/4), (1, -3/2, 13/2), and (-1, 3/2, 13/2) to (-1/4, 0, 0)
 
+- **Tweet:** https://x.com/__alpoge__/status/2079028340955197566
+- **What:** Levent presents a claimed explicit polynomial-map counterexample to the Jacobian conjecture: the map has a constant nonzero determinant while three distinct points map to one output, a concrete construction that would overturn the conjecture if validated.
+
+## @codyschneider - Giving paid-ad agents control of landing pages
+> for all the paid ads agents we're deploying we're now giving them their own websites they control to make landing pages
+>
+> the speed of good funnels they come up with
+>
+> i don't have words to explain what is happening
+
+- **Tweet:** https://x.com/codyschneider/status/2078978203243168179
+- **What:** Cody Schneider describes assigning autonomous paid-ad agents their own websites so they can rapidly create and iterate landing pages, suggesting that agent-controlled funnel production is making campaign experimentation dramatically faster.
+
+## @codyschneider - Instagram DMs influence B2B buying
+> you remember instagram
+>
+> yeah well people make b2b buying decisions based on the dms they get there
+
+- **Tweet:** https://x.com/codyschneider/status/2078947990216069505
+- **What:** A concise B2B marketing observation that Instagram is not merely a consumer social network: direct-message conversations can shape vendor evaluation and purchase decisions, making relationship-driven outreach commercially meaningful.
+
+## @tunahorse21 - Unspecified skills validation reaction
+> it’s crazy how skills actually work
+
+- **Tweet:** https://x.com/tunahorse21/status/2078942232988524661
+- **What:** THIN: The tweet expresses surprise that a skills mechanism works, but gives no example, linked resource, or explanation of the behavior that would make the observation assessable.
+
+## @gakonst - Nanocodex web-search implementation
+> btw codex has an undocumented /v1/alpha/search endpoint which is worth studying - i've reimplemented it and it has specific queries for sports, finance etc., very cool
+>
+> https://t.co/QofQKdRmcM
+
+- **Tweet:** https://x.com/gakonst/status/2078927695875068379
+- **Link:** https://github.com/gakonst/nanocodex/blob/master/crates/nanocodex-tools/src/web_search/mod.rs
+- **Filed:** [nanocodex](./knowledge/tools/nanocodex.md)
+- **What:** Nanocodex is a Rust library for embedding an OpenAI coding-agent lifecycle, including retained sessions and typed tools; this linked module reimplements and studies Codex's undocumented alpha search endpoint with domain-specific queries.
+
+## @yegormethod - Draft client testimonials around buyer objections
+> I write every testimonial myself. the client just signs it
+>
+> "can you write us a quick review?" is the dumbest sentence in business. you did $80k of work & you're letting an amateur write the ad for it
+>
+> clients write garbage testimonials. not because they're ungrateful... because they're not copywriters.
+>
+> left alone they produce "great to work with, very professional, highly recommend!" which is worth exactly nothing. it's the same 11 words on every plumber's google page
+>
+> I write the testimonial FOR them & send it with: "drafted something so you don't have to spend time on it. edit anything that feels off"
+>
+> & now I control the entire frame:
+>
+> the testimonial names the exact number ("$901k in new pipeline in 9 weeks")
+> it names the objection they had before buying ("thought it was overpriced, I was wrong")
+> it speaks directly to the next prospect's specific fear, because I know what that fear is & the client doesn't
+>
+> 96% sign with zero edits. people will not rewrite praise about themselves that makes them sound like a smart buyer. they'll fight you on an invoice & approve their own flattery in 4 minutes
+>
+> & here's the layer under it... the psychology holds because nothing in it is false. the results are real. the client agreed. all I did was refuse to let the most valuable sales asset I own get written by the least qualified writer in the deal
+>
+> your case studies are weak because you're outsourcing them to people who've never sold anything
+>
+> study this
+
+- **Tweet:** https://x.com/yegormethod/status/2078919092522856578
+- **What:** A B2B copywriting tactic: draft a truthful testimonial for the client to approve, using concrete outcomes, the original purchase objection, and the next buyer's concern instead of accepting generic praise.
+
+## @asparagoid - Gendered relationship-selection advice
+> This post is for young men. As a 57 year old guy who has dated a lot of beautiful women over the past 40 years, here are my top 3 tips when it comes to choosing a woman:
+>
+> - The #1 most important quality in a woman is the capacity to let go. Choose a girl you can emotionally reset instantly with a hug, a kiss on the forehead, or sex. The quicker you can flip her from a bad mood to neutral/happy, the easier she will be to deal with in a long term relationship. The opposite of this is girls who carry around resentment. Their inability to be in the present moment with you without replaying past hurts in their minds will gradually kill the relationship. The worst thing in the world is being with a woman who resents you. But always remember that many women resent by nature. If she can shift or let go or forgive quickly, the relationship will have a ground of peace
+>
+> - Choose orgasmic women. There's a massive correlation between how orgasmic a woman is and how easy to deal with she is in general. You can look at this through many lenses, from the amount of tension/stress she carries, to Reichs theories of armoring and orgiastic potential, to anything else. It doesn't matter really, it's just true. If she struggles to orgasm, she will also struggle to receive or appreciate you in all ways. Also, the lack of regular deep orgasms means her nervous system remains stuck and never truly resets deeply. A lot of men put this burden on themselves. But the truth is you can do exactly the same thing with 2 different girls. The first can have 3 intense orgasms just from penetration and the second can have zero. Don't struggle and become responsible for something that was never your problem. Pick a girl whose body can receive you and her mind will too
+>
+> - Choose infinitely flexible women. She should be happy to live with you anywhere, in almost any living situation. The important thing is that she identifies, at the deepest level, that you are her home. Not a place, not a specific environment. You. The more she grasps this intuitively, the less she will be fixated on less important attachments and materialistic nonsense in her mind, and again, the easier she will be to deal with, the less hard you will need to work to satisfy her arbitrary mental expectations, and consequently the faster you can make her the mother of your children. There's nothing more romantic than a girl telling you "I don't care where in the world we are, I just want to be with you"
+>
+> Women with these 3 qualities are usually great and marryable. And you'll know it pretty fast. Likewise, the lack of these qualities signals great danger
+>
+> Good luck!
+
+- **Tweet:** https://x.com/asparagoid/status/2078912966854865177
+- **What:** A prescriptive and strongly gendered framework for choosing a long-term partner that prioritizes quick conflict repair, sexual compatibility, and willingness to relocate, while making broad unsupported claims about women.
+
+---
 # Saturday, July 18, 2026
 
 ## @yacineMTB - Programming as the highest-value use of time
