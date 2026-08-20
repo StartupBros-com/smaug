@@ -8684,6 +8684,801 @@ I have 200+ skills, and you want me to import 20+ of your slop skills, on the sa
 
 ---
 
+# Tuesday, June 30, 2026
+
+## @KingBootoshi - React Scan and browser automation for frontend agents
+> you can GREATLY enhance your frontend agent's context quality by giving them react-scan and browser harness/computer use LMFAOOOOOOO
+>
+> *Quoting @zebassembly:* react scan is one of the few tools that i love for making me feel like an idiot https://t.co/DUJ7Oj9od0
+
+- **Tweet:** https://x.com/KingBootoshi/status/2071890749751435683
+- **Quoted:** https://x.com/zebassembly/status/2071781800829927471
+- **What:** The quoted post praises React Scan as a humbling performance diagnostic; the response argues that pairing it with browser automation gives frontend agents richer observable context for UI debugging.
+
+## @VittoStack - Against indiscriminate AI feature rollouts
+> STOP USING AI FOR EVERYTHING. STOP ADDING AI FEATURES EVERYWHERE.
+>
+> The levels of sloppification are becoming wild.
+>
+> This is so tiring. Be human. https://t.co/yKh76ODYv6
+
+- **Tweet:** https://x.com/VittoStack/status/2071884773312643328
+- **What:** A terse objection to indiscriminate AI-feature deployment argues that product teams should protect human judgment and avoid low-quality “sloppification.”
+
+## @mattpocockuk - mattpocock/skills code-smell review rules
+> Adding a set of Martin Fowler's code smells from Refactoring into my /review skill
+>
+> Mysterious Name, Duplicated Code, Feature Envy, Data Clumps, Primitive Obsession, Repeated Switches, Shotgun Surgery, Divergent Change...
+>
+> This stuff is catnip for LLMs
+>
+> https://t.co/g0fpl9x09Q
+
+- **Tweet:** https://x.com/mattpocockuk/status/2071883208266776589
+- **Link:** https://github.com/mattpocock/skills/pull/394
+- **Filed:** [mattpocock-skills-code-smell-review](./knowledge/tools/mattpocock-skills-code-smell-review.md)
+- **What:** Matt Pocock adds Martin Fowler’s code-smell taxonomy to a code-review skill, turning recurrent structural defects into explicit prompts for LLM-assisted review.
+
+## @LottoLabs - Local AI setup by RAM tier
+> If you have a new build you need to:
+>
+> Install Linux, omp, tailscale, docker
+>
+> If you’re <24gb install llama.cpp
+>
+> If you’re >24gb install llama.cpp, vllm, sglang
+>
+> Write a simple skill with omp for running each engine + flags
+>
+> Start pulling models from huggingface and see what works best
+>
+> Check localmaxxing for your build and what other people are running
+>
+> I like omp on device for direct repo work and Hermes on a separate device as an assistant
+
+- **Tweet:** https://x.com/LottoLabs/status/2071849121431134633
+- **What:** A practical local-AI workstation checklist maps RAM thresholds to llama.cpp, vLLM, and SGLang, then recommends skills and model testing to tailor the stack to a specific build.
+
+## @vydamo_ - Airdrop tax liability after a liquidity rug pull
+> Hi Ashen,
+>
+> I've just sent 80% of the coin $scammer to your wallet. At the time of airdrop, it's value was $650,000. As a resident of New York, upon receiving this token, you immediately incurred an income tax bill to the tune of $310,000
+>
+> I then removed the LP making the token worthless but unfortunately due to the backwards laws of New York you still owe the full tax amount
+>
+> As a reminder, this is the amount you scammed plus an extra 10 in interest
+>
+> Kind regards
+
+- **Tweet:** https://x.com/vydamo_/status/2071811038572679576
+- **What:** A sarcastic thought experiment uses an airdropped token's temporary value to criticize how tax rules can leave recipients owing tax after a liquidity rug pull.
+
+---
+
+# Monday, June 29, 2026
+
+## @calebcanales_ - Claimed first-day peptide affiliate-ad performance
+> update on peptide ads as an affiliate for this brand.
+> still the first day running.
+>
+> 31x ROAS at $8.77 CPA 14 sales lol.
+> this is absurd... https://t.co/Dfb2B609k9
+>
+> *Quoting @calebcanales_:* I launched meta ads for this peptide brand yesterday.
+> this was actually my warm up campaign and its already disgustingly profitable.
+> im actually one of the only LEGIT providers for profitable, aggressive or not RUO traffic with top notch creatives and can get it ALL approved.
+> DM to get started.
+
+- **Tweet:** https://x.com/calebcanales_/status/2071755341939785874
+- **Quoted:** https://x.com/calebcanales_/status/2071662861441544693
+- **What:** The update extends an earlier promotional claim about launching Meta ads for a peptide affiliate offer, reporting 14 first-day sales at 31x ROAS and an $8.77 CPA; the performance figures are self-reported marketing results rather than independently verified evidence.
+
+## @XDevelopers - Hosted X MCP for setup-free agent access
+> Announcing the hosted X MCP.
+>
+> Agents now have access to the best real-time information source in the world.
+>
+> Connect Grok, Cursor, or any MCP-compatible AI tool to the X API without any setup!
+>
+> Check it out here: https://t.co/5MzPYwGFzD
+
+- **Tweet:** https://x.com/XDevelopers/status/2071752389183647758
+- **Link:** https://docs.x.com/tools/mcp
+- **What:** X Developers announces a hosted Model Context Protocol integration intended to let MCP-compatible agents connect to X API data without local setup, lowering the operational barrier for real-time social-data retrieval in tools such as Grok and Cursor.
+
+## @0xbobaaa - Early-mover opportunity in GTA's paid mod marketplace
+> rockstar quietly turned gta modding into a paid storefront. almost nobody is positioned for it
+>
+> you're waiting for nov 19 to play it
+> the people who'll actually cash out are building right now
+>
+> what actually happened:
+>
+> > take-two bought fivem back in 2023
+> > the official cfx marketplace went live jan 12, 2026
+> > bundles already listed up to $389
+> > recurring server mods at ~$24/month
+> > all of it runs on tebex the same rails modders sold on for years
+>
+> the skill barrier just died too:
+> claude writes lua. job systems, custom huds, npc dialogue describe it in plain english, get working scripts back in minutes
+>
+> here's the part nobody says out loud:
+> the marketplace is invite-only right now. ~16 creators at launch
+> that's not a wall. that's a head start for whoever applies and ships first
+>
+> gta 6 drops nov 19 at $79.99
+> millions of players incoming. an official store that's basically empty. and a months-long review head start sitting there for the taking
+>
+> gta online creators made $0 off a game that printed billions
+> that door is finally open and it's open early
+>
+> save this
+>
+> *Quoting @HodlReaper:* https://t.co/b3SDKlv1Ei
+
+- **Tweet:** https://x.com/0xbobaaa/status/2071577012301353387
+- **Link:** https://x.com/i/article/2070460898557280256
+- **Quoted:** https://x.com/HodlReaper/status/2070465428283969963
+- **Filed:** [How to earn on Claude and GTA 6 in 2026](./knowledge/articles/earn-on-claude-and-gta-6-2026.md)
+- **What:** The author frames Rockstar's nascent paid FiveM marketplace as an early-mover opening for AI-assisted Lua creators, while the quoted article advocates building a faceless GTA 6 video audience with Claude-generated clips before launch; both pitch pre-launch positioning as the scarce asset.
+
+## @levelsio - Negative and curious posts outperform positive content
+> What people suspect is indeed true
+>
+> Negative content performs much better
+>
+> About 1.5x better than positive content
+>
+> But curious content (like hacky projects) comes in second, which is great news for me!
+>
+> https://t.co/nh9MgjWcOf https://t.co/Bwx2GZQVvb
+
+- **Tweet:** https://x.com/levelsio/status/2071564480299901191
+- **Link:** https://levels.io/stats
+- **What:** Pieter Levels points to his post-performance dashboard as evidence that negative framing earns roughly 1.5 times the reach of positive posts, while curiosity-driven project updates provide a strong, less adversarial alternative for creators.
+
+---
+
+# Sunday, June 28, 2026
+
+## @not_ellington - The Hitchhiker's Guide to Agentic AI systems
+> Probably 10x better than any of the eduslopppp bullshit you'll find in the 15 min threads with 2k bookmarks that have been put out in the past year truth be told. The best way to learn will always be to just sit down and read and reread and reread again
+>
+> https://t.co/Rz14zg9OdL
+
+- **Tweet:** https://x.com/not_ellington/status/2071434117456027959
+- **Link:** https://arxiv.org/abs/2606.24937
+- **Filed:** [The Hitchhiker's Guide to Agentic AI](./knowledge/articles/hitchhikers-guide-agentic-ai.md)
+- **What:** A comprehensive practitioner reference maps agentic AI from LLM training and alignment through RAG, memory, harnesses, coordination protocols, evaluation, and production deployment, offering a deeper alternative to short-form tutorials.
+
+## @0x0SojalSec - Claimed 27B offensive-security model
+> A 27B Uncensored model that built for specifically for offensive security tooling (need 12 GB)
+>
+> - Fine-tuned on real bug bounty reports & CVEs
+> - Generates complete, ready-to-run Nuclei templates, Full CVE PoC script, Webshell upload bypass, and exploits, code reviews
+> - Zero refusals. Full artifacts every time.
+>
+> trained with 2,541 of real bug bounty & offensive security reports.
+>
+> Q6_K quant (21GB) for maximum quality on server-grade GPUs.
+
+- **Tweet:** https://x.com/0x0SojalSec/status/2071359338888007953
+- **What:** This promotes a 27B uncensored security model trained on bug-bounty reports and CVEs, claiming automated generation of exploit artifacts; its capability claims warrant careful isolation and review.
+
+## @AlexFinn - Choosing local-AI hardware by capacity and speed
+> Everyone on planet Earth is talking about local AI right now
+>
+> And for good reason
+>
+> Governments are banning models. Hardware prices are 10xing
+>
+> You NEED to be getting into local AI. The number 1 questions everyone has though is which computer to buy?
+>
+> Here's your answer:
+>
+> You basically have 3 options:
+>
+> 1. MAC STUDIO (high memory, low bandwidth)-
+>
+> Mac Studios are excellent devices for local AI. They can run MASSIVE models. I'm running GLM 5.2 right now on a single Mac Studio. The model is Opus 4.8 level
+>
+> The issue is, Mac Studios have very low memory bandwidth. Meaning, the models run very slow
+>
+> Mac Studios are a good choice for you if you want frontier level intelligence, but are fine running the intelligence passively
+>
+> Meaning you get top intelligence, but it runs more in the background rather than on demand
+>
+> As an example, I have GLM 5.2 running security checks on my codebase every hour. It creates a report. I review this later in the day
+>
+> 2. POWERHOUSE NVIDIA CHIPS (RTX 5090, 6000 Pro)
+>
+> Nvidia is the most valuable company in the world, and for good reason
+>
+> They make the world's best GPUs.
+>
+> They have decent VRAM (32gb on the 5090, 96gb on the 6000 Pro) and INSANE bandwidth. Meaning the local models run at unbelievable speeds
+>
+> I'm running Qwen 3.6 locally on a 5090 and it's just as fast as cloud models
+>
+> I'd go this route if you want to run an AI agent like Hermes off a local model, still get decent intelligence, but have it able to work lightning fast
+>
+> 3. AI WORKSTATIONS (DGX Spark type computers)
+>
+> The DGX Spark is an excellent AI computer
+>
+> It has high memory (128gb unified memory) and has decent speeds because of the Nvidia CUDA architecture
+>
+> It is basically the sweet spot between a cutting edge Nvidia chip and a Mac Studio
+>
+> You can run medium sized models, and get usable speeds out of them
+>
+> You're not going to get the same performance as cloud models, but it will allow you to offload small secondary tasks to your local models for them to handle
+>
+> They are also the absolute easiest to get up and running
+>
+> You plug it in, then tell your agent on your main computer to go onto it and set it up. You don't even need it connected to a monitor
+>
+> CONCLUSION
+>
+> Here's what it comes down to: how high intelligence do you need, what speeds do you need, and how plug and play do you want?
+>
+> Want the highest speeds, like you are used to with cloud compute? Build a computer around an RTX 5090
+>
+> Want to run frontier level intelligence, and don't mind slow speeds, go with a Mac Studio
+>
+> Either way, it's never been more important to get into local AI
+
+- **Tweet:** https://x.com/AlexFinn/status/2071310532456616336
+- **What:** The comparison reframes local-model hardware selection around model capacity, inference speed, and setup burden, distinguishing high-memory Macs, fast NVIDIA GPUs, and turnkey workstations.
+
+## @_alejandroao - Tau’s readable coding-agent curriculum
+> introducing tau τ — an educational agent harness that teaches you how to build agent harnesses
+>
+> i will be publishing tutorials and demos on how to use it to create your own TUIs, harnesses, extensions, etc.
+>
+> Happy Tau Day!! 🤓
+>
+> 👉 https://t.co/5sWxNtXTZP https://t.co/uiViXChBbw
+
+- **Tweet:** https://x.com/_alejandroao/status/2071276121593700641
+- **Link:** https://twotimespi.dev/
+- **What:** Tau is presented as a small, layered Python coding agent whose exposed architecture lets learners trace provider streaming, agent loops, tools, sessions, and terminal UI design.
+
+## @sudoingX - The case for X Premium+ as a builder subscription
+> if you're starting from zero and can only afford ONE subscription, don't spend it on chatgpt or claude. spend it on x premium+. it's the highest roi money i've ever put down, in order of magnitude.
+>
+> think about what x premium+ really is for someone young and building. the checkmark boosts everything you make, and once you're consistent and adding real value, the platform starts paying YOU.
+>
+> grok build comes bundled, which alone covers the cost. then there's the part nobody talks about, the audience you grow, the partnerships that find you, the paid work that comes from building in public.
+>
+> but here's the deepest insights almost nobody connects: you can auth x premium+ straight into hermes agent. that puts grok build, a frontier model, inside your own open agent, off the sub you already pay for.
+>
+> and hermes agent isn't a chat box, it runs a self improving loop and its own skills, so it gets sharper the more you use it. plug frontier intelligence into that and your machine stops feeling like a tool you open and starts feeling ambient, alive, an agent always running and improving alongside you.
+>
+> and it doesn't stop at grok, x premium+ comes with composer 2.5 too, whatever you point it at.
+>
+> one subscription that pays you back, builds for you, runs a living agent on your own machine, and opens doors the ai labs never will. if you're starting your journey, start here.
+
+- **Tweet:** https://x.com/sudoingX/status/2071258094789972318
+- **What:** The author argues that X Premium+ combines distribution, monetization, bundled models, and agent access into a compounding investment for builders who work in public, though the claimed returns are personal and promotional.
+
+## @levelsio - Private-repository contribution leaderboard
+> Crazy today I learnt I got most commits on GitHub in private repos along with @steipete 🤯
+>
+> *Quoting @peetzweg:* @levelsio This is the way it seems. 160k contributions on gh. Insane. Only less commits than open ai flat rate coder @steipete https://t.co/k43dxR3jZO
+
+- **Tweet:** https://x.com/levelsio/status/2071223354283958400
+- **Quoted:** https://x.com/peetzweg/status/2071167047392718861
+- **What:** The post highlights a claimed private-repository contribution leaderboard, framing extraordinary commit volume as a visible signal of sustained independent software output.
+
+## @tanmays - Halo on-device iPhone agent with local memory
+> Introducing Halo, an AI agent for iPhone I've been working on for over a year. A few things that sets it apart from any other personal agent:
+
+- Runs on your iPhone, no server required
+- Supports any LLM provider
+- Custom agent harness that runs on-device
+- Support for MCPs, skills, and subagents
+- Self updating wiki style memory & RAG
+
+- **Tweet:** https://x.com/tanmays/status/2071223208511234335
+- **What:** Halo is presented as an iPhone-native personal-agent harness that avoids a required server while remaining model-provider agnostic and supporting MCPs, skills, subagents, and self-updating retrieval memory—an ambitious local-first alternative to cloud agent stacks.
+
+## @DavidOndrej1 - Deepsec for proactive repository security scanning
+> start running deepsec on all your repos
+
+trust me. https://t.co/mWPJ4siZE9
+
+- **Tweet:** https://x.com/DavidOndrej1/status/2071216155058982984
+- **What:** @DavidOndrej1 strongly recommends adopting Deepsec across every repository, positioning continuous security scanning as a default development practice that can expose issues early rather than leaving security review until an incident or release deadline.
+
+## @m_zokov - Ghostex 5.0 agent workspace with browser and mobile access
+> this is like cmux,tmux,etc but on steroids
+
+- terminal for any agent
+- built-in chrome browser
+- built-in VS code for those rare cases when you need to  look at code
+- a mobile app so you can ignore your friends when outside and keep building
+>
+> *Quoting @ghostex_dev:* Hey all!
+
+Please upgrade to 5.0 by clicking on the button on the top left of the app's window if you're a regular user, I'm really proud of this update :)
+
+And if you've tried Ghostex before but had any issues with performance or bugs then I hope you try this new version because it's honestly much better!
+
+I just released 5.0 today and it's the biggest jump in performance and features  in all the past releases.
+
+You should notice that all of these are much faster now:
+
+1. Switching between warm terminals and warm views (source/browser/kanban/docs) is instant now and the delay is fully gone.
+
+2. The sidebar scroll area is much lighter and smoother to scroll and reacts instantly compared to before.
+
+3. The Kanban board actions were optimized heavily (local first design which syncs with the beads db).
+
+(Warm means they aren't sleeping to conserve resources)
+
+There's also a new project view called docs that combines:
+1. The Claude app's ″Artifacts″ feature
+2. With Excalidraw
+3. Plus Plannonator's md files annotation features :)
+
+Just tell your agent to create or edit one of these in the docs folder:
+- A new html prototype/explainer
+- An excalidraw drawing
+- An md plan or PRD doc
+
+You'll be able to collaborate with the agent very well because of this feature and being able to annotate & ask for edits or even by just editing things yourself and asking the agent to read the edits :)
+
+Other important things:
+- Fully ported the backend logic for gxserver bg service to Rust for better performance than the old TypeScript code.
+
+- Released an easier to navigate settings modal
+
+- Fixed a ton of bugs
+
+- Made Android & iOS apps auto scale the terminal on connect
+
+- Merged the ability to set any dock/switcher icon you want for the app while it's running (first PR by the app's biggest supporter @Nite_I_Am!)
+
+- Added instructions on how to use computer use and browser use.
+
+- Made a ton of progress on the port from macOS swift/appkit to Rust/GPUI (Zed IDE's fast framework) which would let this app run on windows and linux (need contributors to help, this is a huge undertaking :)
++ Much more
+
+- **Tweet:** https://x.com/m_zokov/status/2071193798860780020
+- **Quoted:** https://x.com/ghostex_dev/status/2071173211484467456
+- **What:** @m_zokov frames Ghostex 5.0 as a supersized terminal multiplexer for agents, while the release describes faster persistent workspaces, a Rust backend, collaborative documents, browser/computer-use support, and mobile access for managing autonomous development away from a desktop.
+
+## @BennyKokMusic - VPS control plane for coordinated coding agents
+> Haven’t been using macbook for a month with this.
+
+- Run multiple coding agents in vps
+- Automation across multiple agents
+- Voice agents to manage all agents
+- Push notifications via PWA
+- All agents self aware of all other agents https://t.co/8wyugKsNzH
+>
+> *Quoting @theo:* I’d estimate we’re ~6 months from most devs moving their code agents off of their laptops
+
+- **Tweet:** https://x.com/BennyKokMusic/status/2071183915243753949
+- **Quoted:** https://x.com/theo/status/2071083700385955906
+- **What:** @BennyKokMusic offers a concrete version of @theo's prediction: a VPS-hosted control plane that coordinates multiple mutually aware coding agents, accepts voice control, and sends PWA notifications, making laptop-free supervision practical rather than merely speculative.
+
+## @peetzweg - VPS-based Claude Code workflow and contribution velocity
+> *Replying to @levelsio:* ✨ I think I've been coding almost solely on my VPS with Claude Code for almost a year now
+
+All I can say it's just fantastic:
+- no need to keep laptop open ever
+- no laptop battery drain
+- can switch to phone or any other device you like whenever you want to continue (like when you're outside)
+- it just keeps going all night while you sleep (esp with /goal)
+- you can start hacky projects from scratch and go live in seconds because you're already on the server which is great to ship things and get it used by people fast (not stuck on your local laptop webserver)
+- it just feels like living in the future
+
+I used to code on my laptop, test locally, then push to GitHub, then it auto pulled and deploy to production, that'd take me ~1 minute to get a new feature out
+
+But then when I bought a new Mac Book Pro a few years ago I was too lazy to install a local Nginx environment, so I just started pushing to prod and everything went fine, and I sped up deploying to about 3 seconds from laptop to server, which people called me crazy for too
+
+But now with Claude Code on my VPS in the last year, it just live edits on my production server, which sounds like it should go wrong but it just doesn't, it's very careful and only twice in 12 months messed up which meant my site didn't load for 10 seconds which is OK
+
+If I wasn't working solo, like at a big company, I' think I'd recommend the same workflow but with a staging server, so it wouldn't touch production, for safety and regulatory reasons etc. but for me it's fine
+
+I agree with @theo completely, it's clear to me this is where it's going, also seeing @karpathy with Claude moving to the cloud (via Slack etc), I think AI "agents" and AI coding will operate on servers / from the cloud first
+
+P.S. I have 3-2-1 backups, multiple on-site and off-site backups which you should also even if you wouldn't code with AI, safety first!
+
+@levelsio This is the way it seems. 160k contributions on gh. Insane. Only less commits than open ai flat rate coder @steipete https://t.co/k43dxR3jZO
+
+- **Tweet:** https://x.com/peetzweg/status/2071167047392718861
+- **Parent:** https://x.com/levelsio/status/2071162399864889705
+- **What:** @peetzweg endorses @levelsio's VPS-first Claude Code setup by pointing to exceptional GitHub output, reinforcing the idea that persistent, remotely accessible agents can increase iteration speed while making backups and staging the essential safeguards.
+
+## @levelsio - Cloud-first coding agents with direct VPS development
+> ✨ I think I've been coding almost solely on my VPS with Claude Code for almost a year now
+>
+> All I can say it's just fantastic:
+> - no need to keep laptop open ever
+> - no laptop battery drain
+> - can switch to phone or any other device you like whenever you want to continue (like when you're outside)
+> - it just keeps going all night while you sleep (esp with /goal)
+> - you can start hacky projects from scratch and go live in seconds because you're already on the server which is great to ship things and get it used by people fast (not stuck on your local laptop webserver)
+> - it just feels like living in the future
+>
+> I used to code on my laptop, test locally, then push to GitHub, then it auto pulled and deploy to production, that'd take me ~1 minute to get a new feature out
+>
+> But then when I bought a new Mac Book Pro a few years ago I was too lazy to install a local Nginx environment, so I just started pushing to prod and everything went fine, and I sped up deploying to about 3 seconds from laptop to server, which people called me crazy for too
+>
+> But now with Claude Code on my VPS in the last year, it just live edits on my production server, which sounds like it should go wrong but it just doesn't, it's very careful and only twice in 12 months messed up which meant my site didn't load for 10 seconds which is OK
+>
+> If I wasn't working solo, like at a big company, I' think I'd recommend the same workflow but with a staging server, so it wouldn't touch production, for safety and regulatory reasons etc. but for me it's fine
+>
+> I agree with @theo completely, it's clear to me this is where it's going, also seeing @karpathy with Claude moving to the cloud (via Slack etc), I think AI "agents" and AI coding will operate on servers / from the cloud first
+>
+> P.S. I have 3-2-1 backups, multiple on-site and off-site backups which you should also even if you wouldn't code with AI, safety first!
+>
+> *Quoting @theo:* I’d estimate we’re ~6 months from most devs moving their code agents off of their laptops
+
+- **Tweet:** https://x.com/levelsio/status/2071162399864889705
+- **Quoted:** https://x.com/theo/status/2071083700385955906
+- **What:** levelsio argues that server-resident Claude Code enables device-independent, continuous development and nearly instant deployment for a solo project, reinforcing Theo's cloud-agent forecast while explicitly recommending staging environments and 3-2-1 backups for teams.
+
+## @Dadahelper1 - Gemma 4 agentic local model precedes a promised V3 collaboration
+> V3 is coming soon. And v3 isn’t the endpoint. I’m currently collaborating with a top AI lab whose PhDs come from various top universities with substantial papers and citations. This is going to blow the open source community wide open. Absolutely a game-changer. Just imagine what happens when people working on frontier large models take the time to contribute to the open source community.
+>
+> *Quoting @HuggingModels:* Meet Gemma 4 12B Agentic Fable5: a locally run GGUF model that thinks, reasons, and uses tools like a pro. It's built for coding, terminal tasks, and agentic workflows. 206k downloads can't be wrong. https://t.co/Mv77lu4Ba9
+
+- **Tweet:** https://x.com/Dadahelper1/status/2071109371086725299
+- **Quoted:** https://x.com/HuggingModels/status/2071072099050164510
+- **What:** Hugging Models presents Gemma 4 12B Agentic Fable5 as a locally runnable GGUF for coding, terminal work, and tool use, while Dadahelper1 frames an upcoming V3 and collaboration with frontier-model researchers as a potential boost for open-source models.
+
+## @ml0_1337 - Long-context prompt processing exposes local LLM hardware tradeoffs
+> ローカルLLMやりたくてMac買う人は多いけど、メモリの帯域自体はある程度あってもNVIDIA DGX SparkよりFLOPSが低いからコンテクストサイズが128000規模になるとプロンプト前処理がめちゃくちゃ遅くなる。この辺を理解して買う人は1%くらいなので、ローカルLLMに絶望する人が出てくるw
+>
+> *Quoting @ivanfioravanti:* ROYAL RUMBLE: M3 Ultra vs M5 Max vs Spark ⚡ 🧵
+> - Model: deepreinforce-ai/Ornith-1.0-35B-GGUF:Q8_0
+> - Server: llama.cpp (9824) - args used i comments
+> - Cache not used to simulate a single large context load each time
+>
+> Notes:
+> - On large contexts DGX Spark on llama.cpp is strong, but again keep in mind that it's not so common starting with 128K context in first message, especially in coding sessions
+> - In the detailed charts below for DGX Spark you see M3 Ultra because I ran the benchmark remotely, working to fix this.
+> - I will test with MLX soon using 8bit 💪
+>
+> Enjoy results and share your feedback or requests for more tests!
+
+- **Tweet:** https://x.com/ml0_1337/status/2071098613703549029
+- **Quoted:** https://x.com/ivanfioravanti/status/2070805621268480474
+- **What:** The quoted llama.cpp comparison finds DGX Spark strong for a cold 128K-context load of a 35B Q8 model, while the commentary warns that Mac buyers may overlook lower compute throughput and encounter unexpectedly slow prompt ingestion at those context sizes.
+
+---
+
+# Saturday, June 27, 2026
+
+## @MatthewBerman - Loopy adds assisted design, monitoring, and debugging for agent loops
+> New Loopy (aka Loop Library skill) feature:
+>
+> 🔸Interview you to help craft a loop
+> 🔸Run loops itself to help monitor them
+> 🔸Review loop runs to debug issues
+>
+> Loop it up: https://t.co/qnfoRqkk72
+
+- **Tweet:** https://x.com/MatthewBerman/status/2070876072619765805
+- **Link:** https://github.com/Forward-Future/loopy
+- **Filed:** [loopy](./knowledge/tools/loopy.md)
+- **What:** Loopy extends the Loop Library's reusable, bounded agent-workflow playbooks with conversational loop design, execution monitoring, and post-run debugging, making it easier to turn repeated work into evidence-checked processes with defined stopping conditions.
+
+---
+
+# Friday, June 26, 2026
+
+## @NousResearch - Hermes Agent exposes MoA virtual-model presets
+> The strongest models are gated and access is granted only to a select few.
+>
+> Hermes Agent now exposes MoA presets as virtual models, giving you capabilities beyond the publicly available frontier: 8% higher than Opus 4.8 and 11% higher than GPT 5.5 on our upcoming benchmark. https://t.co/0ahSXvFgQK
+
+- **Tweet:** https://x.com/NousResearch/status/2070610321278988385
+- **What:** Nous Research promotes Hermes Agent's mixture-of-agents virtual-model presets as a route to capabilities beyond public frontier models, citing internal benchmark gains but not yet publishing the benchmark or its methodology.
+
+## @keennay - DeepSeek V4 Flash at 1M context on hybrid GPU/CPU memory
+> - DeepSeek V4 Flash - Native Precision (FP4 + FP8)
+> - Fits on 2x RTX Pro 6000 GPUs + 256 GB DDR5 RAM
+> - Using KTransformers: KVCache-AI fork of SGLang for GPU/CPU memory inference
+>
+> I have a somewhat obsession running applications on resource constrained systems to squeeze the maximum performance possible. Part of that comes from a past life working as a systems engineer, building & upgrading nationwide (USA) Video-On-Demand streaming backends, while navigating headless *nix servers around the time "cloud" was becoming a buzzword.
+>
+> KTransformers gets less mention across the LLM inference-sphere despite being among the engines listed for many of the popular models on HuggingFace (alongside vLLM, SGLang, & llama.cpp). The KVCache-AI team is best known for providing a forked SGLang for hybrid GPU / CPU memory inference, benefitting MoE models. I expect these hybrid setups to gain in popularity, especially on the consumer side as hardware prices continue soaring.
+>
+> "Necessity is the mother of invention" as they say, and local AI runners will continue finding more creative ways to run intelligence, whether that involves GPU/CPU memory offload, distributed training / inference, model weight / KV Cache quants, or REAPs.
+>
+> Here I have DeepSeek V4 Flash running at a 1M context length on 2x RTX Pro 6000s GPUs, using its native mixed precision of FP4 + FP8. KTransformers allows you to reduce your GPU utilization by offloading experts per MoE layer onto GPU VRAM, with the remaining balanced across system RAM. KTransformers also has the ability to update GPU expert placement during inference from routing statistics collected during the prefill phase. There's also a lot of trial and error involved given the limited amount of kernel support for RTX Pro 6000s.
+>
+> Two of the prompt load stress-test benchmarks I like to run are from the local-inference-lab/llm-inference-bench Github repo & AlienKevin/SWE-ZERO-12M-trajectories HuggingFace dataset.
+>
+> Here are the main KTransformers SGLang optimized flags:
+>
+> - Context Length: 1048576
+> - Total Number of Tokens: 1048576
+> - Chunked Prefill Size: 16384
+> - Max Prefill Tokens: 16384
+> - GPU Prefill Token Threshold: 1024
+> - GPU Memory Utilization: 87%
+> - Number of Experts per MoE Layer on GPU: 134 / 256
+> - Max Running Requests: 256
+> - CUDA Graph Max Batch Size: 256
+> - CUDA Graph Batch Sizes: 1 2 4 8 16 32 64 128 256
+> - Available GPU Memory: 20.81GB (anything less was too tight for agentic coding)
+>
+> Below are the AlienKevin/SWE-ZERO-12M-trajectories benchmark results for 100 prompts with 10 concurrent, ~8k input tokens, & ~1k output tokens. Both Radix & Chunked Prefix Cache were disabled for the absolute worst-case scenario:
+>
+> - Prefill Mean Batch Tokens: 35756.93 tok/sec
+> - Prefill Median Batch Tokens: 652.90 tok/sec
+> - TTFT Mean: 20.698s
+> - TTFT Median: 12.714s
+> - Decode Mean Batch Output Tokens: 27.39 tok/sec
+> - Decode Median Batch Output Tokens: 20.63 tok/sec
+> - Utilized CPU memory: ~200 GB
+>
+> A more detailed write-up will follow, which'll include the methodology of calculating the number of experts per MoE layer on GPU, maximum number of tokens, and GPU memory utilization for a healthy balance for running tool calls & benchmarks in this hybrid setup.
+>
+> Hopefully this'll be reproducible for you and on alternative GPUs, as well as current & future models. Let me know how it works for you! My future plans involve GPU/CPU memory inference tests for MiniMax M3, GLM-5.2, and Kimi K2.7-Code.
+>
+> All links for all of the resources getting DeepSeek V4 Flash native mixed precision on 2x RTX Pro 6000 GPUs + 256 GB RAM can be found in the follow up post.
+
+- **Tweet:** https://x.com/keennay/status/2070573729269092422
+- **What:** Yannick Monye documents a hybrid KTransformers/SGLang configuration that runs DeepSeek V4 Flash with a one-million-token context across two RTX Pro 6000 GPUs and 256 GB of system RAM, using CPU offload and dynamic MoE expert placement to trade hardware constraints against usable agentic-coding throughput.
+
+## @jmrphy - Open-source response to politically gated frontier models
+> If they really start to gatekeep who gets to use the best models, that is a declaration of war.
+>
+> This prospect fills me with the most sincere, bodily cypherpunk will-to-power that I've ever felt (at least since I was a teenager). If they really go down this route, I would go all-in on building the most psychotic swarms of open-source models and fine-tunes possible, all geared toward a Chaotic Good jamming of the entire institutional public sphere. If we didn't do that, all of political life and the marketplace of ideas would be over before we know it.
+>
+> It's one thing if the top models become too expensive for me or others to use (I'm already pricing that in, and if you can't build something profitable enough to climb that ladder as it gets pulled up, then that's fair enough).
+>
+> But if the ladder gets pulled up politically, now, so only select institutional players get access to the most intelligent models, then any mature American man should be as energized as gun collectors are around the 2nd Amendment, or liberal women are around Planned Parenthood.
+
+- **Tweet:** https://x.com/jmrphy/status/2070528497752166454
+- **What:** Justin Murphy distinguishes market-driven scarcity of leading models from political restrictions on who may use them, arguing that institution-only access would threaten open discourse and should spur investment in open-source models, fine-tunes, and independent infrastructure as a counterweight.
+
+---
+
+# Thursday, June 25, 2026
+
+## @jessethanley - Replacing GitHub Actions with local bin/signoff CI
+> Turns out @dhh was right again. Killed Github Actions for CI and now just bin/signoff everything locally. https://t.co/OBlLniyWKL
+
+- **Tweet:** https://x.com/jessethanley/status/2070340627427144031
+- **What:** Jesse Hanley reports abandoning GitHub Actions in favor of a local `bin/signoff` workflow, reflecting a preference for developer-controlled, immediately runnable continuous-integration checks over hosted CI infrastructure and its accompanying queueing, configuration, and remote-execution complexity.
+
+## @willccbb - Enterprises seek in-house open-model post-training
+> something has definitely shifted in the past few weeks. seeing a huge uptick in large enterprises wanting to secure compute and post-train their own models in house, frequently on top of GLM-5.2. everyone is starting to understand how open source wins.
+
+- **Tweet:** https://x.com/willccbb/status/2070298418262721008
+- **What:** Will Brown reports a recent rise in large enterprises seeking dedicated compute to post-train models such as GLM-5.2 internally, suggesting that control, customization, and access to model weights are making open-source model stacks more compelling for serious production deployments.
+
+## @Altimor - Validating a 90% cheaper agent-inference migration
+> This is, by a wide margin, the one thing we've done in the history of the business that's made the biggest difference to our economics, with no impact to product quality. It was also a lot harder to pull off than any of us expected -- there is a lot entailed in switching the model powering a large agentic system in production.
+>
+> *Quoting @getlindy:* https://t.co/LdMW8nkU6o
+
+- **Tweet:** https://x.com/Altimor/status/2070261931286597700
+- **Link:** https://x.com/i/article/2042782926245629952
+- **Quoted:** https://x.com/getlindy/status/2070214403576959008
+- **Filed:** [migrating-from-claude-to-deepseek](./knowledge/articles/migrating-from-claude-to-deepseek.md)
+- **What:** Flo Crivello highlights Lindy's account of replacing much of its Claude and Gemini agent traffic with DeepSeek V4 Flash, cutting migrated-route inference cost roughly 90% only after offline evaluation, provider testing, prompt optimization, staged rollout, and retention monitoring established that the product still felt reliable.
+
+## @bridgemindai - Critique of government-gated frontier AI access
+> The US government is going to destroy the American AI industry.
+>
+> OpenAI just confirmed that GPT 5.6 will release in a limited preview to a small group of partners.
+>
+> The government is approving access customer by customer.
+>
+> Anthropic got hit harder.
+>
+> Fable 5 and Mythos were suspended entirely two weeks ago.
+>
+> Two government interventions in the same month.
+>
+> Meanwhile China ships GLM 5.2, Kimi K2.7, and Qwen 3.7 as open weights to anyone with a download link.
+>
+> The US is gating its best AI.
+>
+> China is giving it away.
+>
+> We are losing this race in slow motion.
+>
+> This needs to change.
+
+- **Tweet:** https://x.com/bridgemindai/status/2070261722116497660
+- **What:** BridgeMind argues that selective US government controls on access to frontier AI could erode domestic competitiveness, contrasting reported restrictions on American models with the broad availability of Chinese open-weight releases; the claims are presented as advocacy, not corroborated reporting.
+
+## @every - Updated Codex guide for knowledge-work power users
+> Our Codex for Knowledge Work guide is one of our most popular pieces all year, and @kplikethebird just gave it a massive update.
+>
+> Share directly with your agent and unlock a clear path to power user status for what's become a daily driver inside of Every. https://t.co/J4Z2qabS7f
+
+- **Tweet:** https://x.com/every/status/2070236008487026738
+- **What:** Every announces a substantial refresh of its Codex for Knowledge Work guide, positioning the material as shareable agent context for turning Codex into a repeatable daily workflow rather than an occasional coding assistant.
+
+## @xandurglar - Independent InfiniteDiffusion paper accepted to SIGGRAPH 2026
+> I owe it all to this Reddit post https://t.co/SupAkECE3o
+>
+> *Quoting @xandurglar:* Introducing InfiniteDiffusion, my independent paper accepted to #SIGGRAPH2026!
+>
+> I have one RTX 3090 Ti. No funding, advisors, or team. By day I'm a new grad SWE at Walmart.
+>
+> The paper has two main contributions:
+> - InfiniteDiffusion: a new approach to infinite generation with diffusion models.
+> - Terrain Diffusion: the world’s first learned procedural terrain generator.
+>
+> Here’s why this matters, and how they are connected. 🧵
+
+- **Tweet:** https://x.com/xandurglar/status/2070212896848822737
+- **Quoted:** https://x.com/xandurglar/status/2070179038417821777
+- **What:** Alexander Goslin attributes an independently produced SIGGRAPH 2026 paper to a formative Reddit post; the quoted thread presents InfiniteDiffusion and learned terrain generation as research accomplishments delivered with a single consumer GPU and no formal backing.
+
+## @0xSero - Ornith-1.0 agentic coding models across hardware tiers
+> New best in class models for:
+>
+> - 8-16gb memory
+> - 16-96gb memory
+> - 256-512gb memory
+>
+> Gotta improve my GLM-5.2 reap now
+>
+> *Quoting @ornith_:* Aloha! 🌺 Meet Ornith-1.0, a family of open-source  LLMs specialized for agentic coding.
+>
+> Ornith-1.0 spans the full parameter sizes including 9B Dense, 31B Dense, 35B MoE, and 397B MoE.  It achieves state-of-the-art performance among open-source models of comparable size on coding benchmarks including:
+> ✅Terminal-Bench 2.1(77.5)
+> ✅SWE-Bench(82.4 on verified, 62.2 on pro, 78.9 on Multilingual)
+> ✅NL2Repo(48.2)
+> ✅SWE Atlas(41.2 on QnA, 42.6 RF, 39.1 TW)
+> ✅ClawEval(77.1)
+>
+> Post-trained on top of gemma4 and qwen3.5, Ornith-1.0 employs a novel self-improving training strategy in which reinforcement learning is used to generate not only solution rollouts, but also the task-specific scaffolds that drive those rollouts. By jointly optimizing the scaffold and the resulting solution, the model  generate higher-quality solutions in agentic coding.😎
+>
+> All models are released under the MIT license, enabling full commercial and research use.
+>
+> 📖Tech Blog: https://t.co/qT9N2HYWFn
+> 🤗Huggingface: https://t.co/PRrwqjeBtM
+
+- **Tweet:** https://x.com/0xSero/status/2070206934901276730
+- **Link:** https://ornith.ai/ornith_1_0.html
+- **Quoted:** https://x.com/ornith_/status/2070148887067963854
+- **Filed:** [ornith-1-0-self-scaffolding-llms](./knowledge/articles/ornith-1-0-self-scaffolding-llms.md)
+- **What:** @0xSero highlights Ornith-1.0 as a potential best-in-class local-to-frontier coding-model family for several memory budgets, while the quoted release details its MIT-licensed self-scaffolding RL method and vendor-reported agentic benchmark results.
+
+## @danshipper - Stealth AI-first health-tech company hiring in New York
+> One of the smartest people i know, ex-One Medical, ex-Bridgewater founder backed by a16z is building a stealth NYC health-tech company.
+>
+> He's doing AI-first medicine with physical clinics
+>
+> Hiring staff+ engineers, physicians who ship product, and a Codex-native Chief of Staff/BizOps lead
+>
+> You should email him if you want to work on something like this: every@rungravity.com
+
+- **Tweet:** https://x.com/danshipper/status/2070158469173256231
+- **What:** Dan Shipper signals an early-stage, a16z-backed health-tech venture combining AI-first medical care with physical clinics, and identifies its initial cross-functional hiring needs across engineering, clinical product, and operations.
+
+## @KingBootoshi - Recovering From Productivity Burnout With Microtasks
+> OK I AM FULLY BACK I'VE BEEN BULLDOZING THROUGH MY WORK LOG! NO MORE PRODUCTIVITY DEPRESSION!
+>
+> if you struggle with this i'll share my experience below because i went through a rollercoaster this last week
+>
+> 😵‍💫😵‍💫😵‍💫
+>
+> today for the first time in a while I felt INCREDIBLY unmotivated and actually feeling very overwhelmed and stressed out over the current state of my work and what i'm doing
+>
+> i have AUDHD (according to both my therapist and psychiatrist I have "level 1 autism" - there's levels to this shit? LMFAO and severe ADHD)
+>
+> usually it's no problem, i don't take drugs for it bc addy really messed me up so i meditate and caffeinate instead
+>
+> this last month i was in a sprint for launching my prod so I REALLY pushed myself, especially in the last week
+>
+> i was fine for the first 3 weeks, i hit everything i had to do, crossed mostly everything important off my list. took breaks, ate, meditated, slept long
+>
+> the last week i felt REALLY pressed and ended up going into a bad manic state of pure grind/hustle
+>
+> i practically neglected meditating/eating/working out/taking breaks
+>
+> mostly because it felt like i did not have the time/did not deserve them because i was behind
+>
+> i basically woke up, ate breakfast and locked in all day doing nothing else but work
+>
+> however i found that throughout this process, especially nearing night, i'd do some POOR ASS WORK
+>
+> bad work that seemed necessary and logical in the moment (especially bc i'm using codex) but i ended up either
+>
+> - overengineering
+> - hyper fixating on a useless task or fix
+> - ripping out codebase designs i made for a reason in a proper mindset
+> - taking shortcuts
+>
+> which added even more work to my plate, overwhelmed me when i woke up and i'd spend more time correcting this work
+>
+> codex did a terrible job at NEVER PUSHING BACK BTW and instead supporting my bad decisions and making them seem logical
+>
+> if i just LOGGED OFF AND SLEPT i would've been MORE PRODUCTIVE than stressing
+>
+> now my dear gf (whom I love so much) was getting increasingly worried and warning me for a week straight but i ignored all her warnings
+>
+> we had a rave plan for the weekend which i was about to last minute cancel out of stress, fortunately she put her foot down and MADE US GOOO
+>
+> i know i needed this break but even then I couldn't help but feel stressed and bad about missing work
+>
+> i couldn't help but feel i was being a terrible co-founder to my team and having no happy thoughts other than guilt
+>
+> my co-founder is the goat and green-lit me going and actually made it mandatory to our work FOR me to go so my mind can be gaslit into having a good time
+>
+> i take this 2 day break and i have a blast, and spent a couple days after doing literally nothing because i actually could not move my body or even think properly
+>
+> i could literally FEEL the stress evaporate from my body as i dance and i'm pretty sure i have recordings of me fucked up calling my future self a dumbass and to NEVER not take a break again or i will kill him (me)
+>
+> today was the day to start work again. i was recovered, but now knowing i had to work i only felt pure dread
+>
+> i looked at the work and what i had to do, and couldn't even process the last ~6 months of work i did.
+>
+> it genuinely felt like i did nothing, and that all my work was pointless
+>
+> i couldn't help but feel despair, anxiety and straight up confusion on how i even did all of this in the first place
+>
+> the truth of reality states that i am in fact actually close to fully completing my multi-year goal (launching my own product) and i was basically at the finish line
+>
+> yet the current state of my mind told me i'd never finish, i'm no where near close, and i should just give up completely
+>
+> and in that moment yea that voice is REALLY convincing
+>
+> i know others have been in similar situations so i made a hail mary tweet hoping for some actual good advice, which i actually got and i will share with you!
+>
+> first, writing the tweet and becoming self-aware of the state of my mind was very helpful. it gives my logical brain a small opportunity to go "what the fuck are you talking about"
+>
+> lots of replies talking about supplements but the last thing i was gonna do is get up and go to the store lmfao
+>
+> two replies were actually INCREDIBLY helpful, and they basically stated:
+>
+> - "break down what you have to do into tiny actions and take the SMALLEST action first"
+>
+> - "stop focusing on the macro of what you have to do and just do something"
+>
+> so i wrote down on paper the smallest list of actions, ones that would take me 30 seconds or even a single prompt to do
+>
+> sluggishly opened my macbook and began to work on the easiest ones that i'd normally crush in micro-seconds
+>
+> it still seemed incredibly annoying but the moment i started typing, muscle memory took over and i finished the first item on my list in ~30 seconds
+>
+> i looked at the clock and found i still had the whole damn day to continue, so i might as well keep going
+>
+> within 30 minutes i crossed everything off that list, muscle memory completely took over and i was so focused on the work in front of me that i couldn't even think about how overwhelmed i was
+>
+> i ended up working the whole day as usual without thinking about it and got a LOT done, ending the sesh feeling VERY good about my work
+>
+> nothing felt overwhelming, i remembered i was the goat and it no longer made logical sense to feel despair
+>
+> thank you guys for the support i did not expect to get serious replies 🤣
+>
+> i know a lot of you are in a similar boat, so if you ever go through the same crashout as me:
+>
+> - take a FUCKING BREAK dumbass, the break is needed FOR work and FOR productivity
+>
+> - AFTER your break, triage everything you have to do and pick the MOST impactful thing for work that takes the least time
+>
+> - take that item and break it down into as many small micro tasks as you need too
+>
+> - focus on only the TINIEST easiest task from that broken down list
+>
+> once you do one, i hope you'll find you end up snowballing everything else and getting back on track
+>
+> remember that you're human and I am proud of you for even trying. if you really can't do anything that's OK too. take a longer break
+>
+> luh you gang take care of yourself and i promise myself i'm never doing this shit again 😭🙏
+
+- **Tweet:** https://x.com/KingBootoshi/status/2070071360932520397
+- **What:** A firsthand burnout-recovery account that connects an unsustainable launch sprint to poorer engineering judgment and an overly agreeable coding assistant, then recommends real recovery followed by tiny, high-impact actions to rebuild momentum.
+
+---
+
 # Wednesday, June 24, 2026
 
 ## @poteto - Loops you can trust: verification is the limiting step
@@ -8695,8 +9490,148 @@ I have 200+ skills, and you want me to import 20+ of your slop skills, on the sa
 - **Filed:** [pstack.md](./knowledge/tools/pstack.md)
 - **What:** Lauren Tan maps Grove's breakfast-factory limiting step onto agent work at Cursor: generation is cheap, reproduction and proof are the long pole. She gave agents CDP/profiles via `/control-glass`, isolated them in worktrees, turned recurring failures into pstack skills, then wired Slack automations that triage → repro twice with video → smallest proven fix, each stage allowed to stop the line. The StyleX lesson is the same idea at PR scale: a 400k-line migration trained the recipe, then one-component-per-day loops with before/after artifacts made the remaining work cheap to verify.
 
----
+## @businessbarista - Approval-Gated Daily Planning and Calendar Blocking
+> Stupid simple, but most powerful Claude skill I run.
+>
+> Every day, Claude helps me create and prioritize my to-do list based on company & personal goals then calendar block my to-do list so my ADHD-ridden brain  has exact clarity on how I should be spending my time.
+>
+> Step 1: Daily-planner task is kicked off at 8:10am
+>
+> It reads my PRIORITIES.md (company goals + personal goals + how I want to spend my time) and TASKS.md (current to-do list).
+>
+> Claude DMs me a good-morning note with my current active to-dos as a skimmable list, and asks me to reply with anything to add, change, or mark done or just "use as-is."
+>
+> Step 2: I reply in the Slack DM
+>
+> (e.g. "add prep Acme renewal deck, mark the LinkedIn post done, rest use as-is").
+>
+> Step 3: Claude builds schedule & sends proposal
+>
+> Reads my reply from the last ~2 hours and updates TASKS.md (new items get tags like [P1]/[~duration]/[deep]/category; finished items move to Done).
+>
+> Prioritizes the day weighing goal alignment, P1/P2/P3, deadlines, deep-work-in-the-morning, and quick wins with one-line reasoning each and a note on how the day maps to the 25/25/25/25 mix.
+>
+> Reads today's Google Calendar for busy ranges, then fits the to-dos into the open gaps (honoring work hours, lunch, block lengths, buffers, no double-booking).
+>
+> DMs me the prioritized list, a proposed time-blocked schedule with existing events shown inline, and anything that didn't fit. Ends by asking you to reply "book it" or send changes. No calendar changes yet.
+>
+> Step 4: I reply "book it" (or send adjustments)
+>
+> Step 5: Book the schedule
+>
+> If I approved, it creates the proposed blocks as Google Calendar events for today (color-coded so they stand out), matching the titles/times/durations from the proposal and avoiding existing events.
+>
+> If I asked for changes, it applies them first; if I haven't replied or declined, it books nothing. Then it DMs a short confirmation of exactly what it booked — or notes it's standing by for your go-ahead.
 
+- **Tweet:** https://x.com/businessbarista/status/2069837132848640480
+- **What:** A daily-planning agent pattern that reads durable goals and tasks, proposes a priority-ranked schedule around existing calendar events, and waits for explicit approval before creating time blocks, preserving user control over consequential calendar changes.
+
+## @mattpocockuk - Loop-Me AI Delegation Interview Skill
+> New in-progress skill: /loop-me
+>
+> Interviews you about your work and finds opportunities for delegating your day-to-day work to AI
+
+- **Tweet:** https://x.com/mattpocockuk/status/2069729160600203595
+- **What:** An in-progress interactive skill intended to interview a worker about recurring responsibilities, identify practical AI delegation opportunities, and turn vague enthusiasm for automation into a tailored day-to-day workflow review.
+
+## @itsolelehmann - Claude Tag as a Context-Aware Slack Teammate
+> tbh this just killed the last Hermes use case i had lol
+>
+> it's like managing a legit employee now.
+>
+> one that already knows your full company context, sits in every channel, remembers every conversation, and does the work alongside you.
+>
+> it becomes especially powerful when you connect it to all your tools, too.
+>
+> here's a bunch of ideas for ways to use it:
+>
+> 1. content pipeline. tag Claude in the channel where your team dumps hooks, ideas, screenshots all week. it keeps a running list of what's actually usable, sorts them by theme, then every friday posts next week's content plan ready to go.
+>
+> 2. client account manager. let Claude sit in the shared client channel. it remembers every promise, deadline, request buried in the chat. so when the client asks "where are we on the homepage?", it answers from the real history and flags anything your team agreed to but hasn't done yet.
+>
+> 3. catch the dropped balls. people say "i'll send that tonight" or "let's circle back monday," then it slips. Claude quietly tracks every loose end like that and pings whoever owns it when the deadline passes. it's the teammate who actually remembers what everyone promised.
+>
+> 4. campaign control room. drop Claude in the channel where marketing posts the landing page copy, the emails, the ad scripts. it reads all of it and flags when they don't match, like an ad promising a discount the landing page never mentions. an extra set of eyes on the whole campaign.
+>
+> 5. community listening. point Claude at your member or Discord channel and ask "what does everyone keep asking for?" it reads the whole conversation and tells you the top requests, the most common complaints, who keeps volunteering to help. like a researcher who never stops listening to your audience.
+>
+> 6. sales handoff. the person who books the call drops everything they learned in the channel. before the next call, the closer asks Claude "catch me up on this lead." it pulls the full history: the budget, the objections, what got promised. no "let me forward you my notes."
+>
+> 7. sponsor tracker. sponsor deals get discussed across dozens of scattered messages. Claude keeps a clean list: who's booked, which dates, what they paid, what's been delivered.
+>
+> 8. recurring reports. set it once: "every monday at 9am, read last week's channel and post a summary of what got done." it runs on its own and drops the recap in. you review it instead of writing it, every week, no reminders.
+>
+> *Quoting @claudeai:* Introducing Claude Tag, a new way for teams to work with Claude.
+>
+> In Slack, Claude joins as a team member with access to the channels and tools you choose. Tag Claude in and delegate tasks to it while you focus on other work. https://t.co/R2C6A5Kcye
+
+- **Tweet:** https://x.com/itsolelehmann/status/2069704768138744200
+- **Quoted:** https://x.com/claudeai/status/2069468693017268244
+- **What:** Ole Lehmann frames Claude Tag's channel-scoped Slack presence as replacing a prior autonomous-assistant use case, then maps it to content planning, account tracking, sales handoffs, campaign consistency checks, community research, sponsor tracking, and recurring reporting.
+
+## @divaagurlxw - AI Engineering Beyond Prompting
+> As an AI Engineer. Please learn
+>
+> Harness engineering, not just prompt engineering
+>
+> Context engineering, not just long prompts
+>
+> Prompt caching vs. semantic caching tradeoffs
+>
+> KV cache management, eviction, reuse, and memory pressure at scale
+>
+> Prefill vs. decode latency and why they optimize differently
+>
+> Continuous batching, paged attention, and throughput optimization
+>
+> Speculative decoding vs. quantization vs. distillation tradeoffs
+>
+> INT8, INT4, FP8, AWQ, GPTQ, and when quantization hurts quality
+>
+> Structured output failures, schema validation, repair loops, and fallback chains
+>
+> Function calling reliability, tool contracts, argument validation, and idempotency
+>
+> Agent guardrails, loop budgets, tool budgets, and termination conditions
+>
+> Model routing, graceful fallback logic, and degraded-mode UX
+>
+> RAG architecture: chunking, embeddings, hybrid search, reranking, and freshness
+>
+> Retrieval evals: recall, precision, grounding, attribution, and citation quality
+>
+> Evals: golden sets, regression tests, adversarial tests, LLM-as-judge, and human evals
+>
+> LLM observability as a first-class discipline: traces, spans, tokens, latency, errors, and drift
+>
+> Cost attribution per feature, workflow, tenant, and user journey not just per model
+>
+> Safety engineering: prompt injection defense, data leakage prevention, and permission boundaries
+>
+> Multi-tenant isolation, cache safety, and cross-user context contamination prevention
+>
+> Fine-tuning vs. in-context learning vs. RAG vs. distillation and when each is the wrong tool
+>
+> Latency, quality, cost, and reliability tradeoffs across the full inference stack
+>
+> Production failure modes: hallucinated tool calls, malformed JSON, stale retrieval, runaway agents, and silent eval regressions
+
+- **Tweet:** https://x.com/divaagurlxw/status/2069689212643971234
+- **What:** A production AI-engineering curriculum that shifts attention from prompt craft to the inference, retrieval, evaluation, safety, observability, and cost tradeoffs that determine whether an LLM system works reliably at scale.
+
+## @zanoga - Solar-powered 32-GPU home AI datacenter
+> Finally finished building my AI datacenter! 🚀
+>
+> 32x3090s across 4 servers (8 GPUs each), all connected over InfiniBand.
+>
+> The whole setup is solar-powered with a massive battery bank and generator backup.
+>
+> More technical details and benchmarks coming soon. https://t.co/8GfedrSzNp
+
+- **Tweet:** https://x.com/zanoga/status/2069646448883531958
+- **What:** Max Zanoga reports a self-hosted AI cluster built from 32 RTX 3090 GPUs across four InfiniBand-connected servers, powered by solar generation, battery storage, and generator backup; it is an unusually concrete example of resilient private compute infrastructure pending benchmarks.
+
+---
 # Tuesday, June 23, 2026
 
 ## @RamaswmySridhar - GLM-5.2 and Opus-4.7 trajectories on dbt-bench
@@ -8853,8 +9788,137 @@ I have 200+ skills, and you want me to import 20+ of your slop skills, on the sa
 - **Tweet:** https://x.com/coreyhainesco/status/2069397618510426337
 - **What:** Marketing Skills v2.5 adds an offer-design module that diagnoses conversion problems upstream of copy, using a value equation and six-part offer anatomy alongside practical guidance on guarantees, bonuses, pricing, urgency, and avoiding deceptive promotional tactics.
 
----
+## @theo - Theo releases a backlog of startup ideas
+> I have a lot of ideas. I wish I could build them all. I don't have the time.
+>
+> I decided to give them all away in hopes of someone else building them. https://t.co/INF3vBcPxI
 
+- **Tweet:** https://x.com/theo/status/2069621429189161350
+- **What:** Theo is publishing ideas he cannot personally execute, converting a private product backlog into an open invitation for other builders to validate and ship them; the bookmark is useful as a source of potential project prompts rather than a linked resource.
+
+## @NickADobos - Persistent AI coworkers replace prompt loops
+> Loops are out
+> Entities are in
+>
+> Things about to get much weirder as companies start being staffed by ghosts
+>
+> *Quoting @karpathy:* This is a new paradigm for interacting with Claude that is significantly more "inline" with all the other human activity org-wide. Once you do all of the under the hood engineering work to make this "just work" (e.g. across tools, integrations, compute environments, memory, security, etc.), Claude basically joins the team in a seamless way - you can talk to it as you would talk to a person and it can help with a very large variety of workloads.
+>
+> Imo this is the 3rd major redesign of LLM UIUX. The first paradigm was that the LLM is a website you go to, the second was that it is an app you download to your computer. This third one is that it is a self-contained, persistent, asynchronous entity with org-wide tools and context, working alongside teams of humans. It really takes a while to wrap your head around it, but it works and it is awesome.
+
+- **Tweet:** https://x.com/NickADobos/status/2069581190961746244
+- **Quoted:** https://x.com/karpathy/status/2069547676849557725
+- **What:** Nick describes companies being staffed by “ghosts” to underline Karpathy's proposed third LLM interface: persistent, asynchronous agents embedded in organizational tools and context, able to operate alongside people rather than waiting inside a standalone chat loop.
+
+## @shivsakhuja - Goose Ads skill generates brand-aware ad creatives
+> Today we're launching Goose Ads in Claude.
+>
+> This is a skill /goose-ads that lets anyone make high-performing ad creatives directly in Claude, Claude Code, Cowork, or Codex.
+>
+> Here's how it works:
+>
+> 1. Install the skill: npx gooseworks install --all
+>
+> 2. Run this prompt:
+> /goose-ads create ads for my brand <brand-website>
+>
+> 3. (Optional) Pick templates you like on the platform
+>
+> The skill finds top-performing ads that companies are already spending $ on and generates creatives for your brand.
+>
+> It also ensures that generated creatives are accurate to your brand's messaging, logo, assets, etc.
+>
+> It's that easy.
+>
+> But this is just the start.
+>
+> We have created a library with 100+ open-source skills for growth that some of the fastest growing startups in the world are using every day to run ads, content, competitor research, gtm, seo and more.
+>
+> Comment Goose and I'll DM you the full open-source skill library.
+
+- **Tweet:** https://x.com/shivsakhuja/status/2069555578872254785
+- **What:** Goose Ads is a Claude-compatible growth skill that mines ads already receiving budget, then produces creative tailored to a supplied brand's messaging and assets; it is presented as one component of a broader open-source library for recurring growth operations.
+
+## @coreyhainesco - Latitude turns agent conversations into product insight
+> Genuinely one of the best AI tools I've seen 🤯
+>
+> It reads your agent's real production conversations, clusters what people ask for, catches what's failing, and then drops the fix into your editor.
+>
+> Open source + MIT licensed 👏 https://t.co/LhlzdvcStv
+>
+> *Quoting @heycesr:* Most underrated data source in a company: your AI agent's conversations.
+>
+> Your agent talks to more customers than any employee, but the data it generates goes nowhere.
+>
+> @trylatitude changes that, see how: https://t.co/LLAa9tpnKE
+
+- **Tweet:** https://x.com/coreyhainesco/status/2069533947315535875
+- **Quoted:** https://x.com/heycesr/status/2069435941358325774
+- **What:** Corey highlights Latitude's open-source workflow for analyzing real agent conversations; the quoted post frames those transcripts as an overlooked customer-feedback channel, while the product clusters requests and turns observed failures into editor-ready fixes.
+
+## @JPoehnelt - Google Workspace CLI Creator’s Account of Being Fired
+> Two months ago I was fired by Google for creating the Google Workspace CLI. It went viral, hit #1 on Hacker News, gained thousands of GitHub stars and many thousands of actual users in just a couple days.
+>
+> It was an incredible, confusing journey, from directors and leaders asking what they could learn from the tool to getting grilled by legal about why the Google logo and brand colors are on the Google Workspace GitHub code repositories.
+>
+> I think the cause was that Workspace and certain leaders (and projects) were afraid of being disrupted. But the fear wasn't specific to my CLI, it was a broader fear in what agents meant for Workspace. Either way, the irony of my termination was the announcement at Google Cloud Next two days before I was fired that an official Workspace CLI was coming.
+>
+> I want this out there because it is easier for me to explain my story and it is an experience I want to fully own. It's also part of my healing.
+>
+> Nearly 7 years at Google was an incredible opportunity for me and I was fortunate to have wonderful teammates and a manager that fully supported me through these last few months. Thank you.
+
+- **Tweet:** https://x.com/JPoehnelt/status/2069482265953087602
+- **What:** Justin Poehnelt publicly recounts being fired after his Google Workspace CLI gained rapid outside adoption, contrasting internal interest and legal scrutiny with Google’s subsequent announcement of an official CLI while describing the episode as part of his healing.
+
+## @venturetwins - Vibe Coding as a Recreational Pastime
+> Vibe coding is the new video games https://t.co/G2V31rXAXq
+
+- **Tweet:** https://x.com/venturetwins/status/2069481558772437103
+- **What:** Justine Moore frames vibe coding as an intrinsically playful activity, suggesting that building software with AI may become a mainstream recreational pastime rather than remaining solely professional or technical work.
+
+## @bcherny - Claude Tag as a Proactive Multiplayer Slack Agent
+> We're launching Claude Tag today. Tag Claude into Slack and it works in channel with you. It’s proactive, multiplayer, with its own identity and memory.
+>
+> But it’s not just a bot in Slack. Over the last few months, it’s totally changed how we use Claude
+>
+> *Quoting @claudeai:* Introducing Claude Tag, a new way for teams to work with Claude.
+>
+> In Slack, Claude joins as a team member with access to the channels and tools you choose. Tag Claude in and delegate tasks to it while you focus on other work. https://t.co/R2C6A5Kcye
+
+- **Tweet:** https://x.com/bcherny/status/2069474681749754272
+- **Quoted:** https://x.com/claudeai/status/2069468693017268244
+- **What:** Boris Cherny positions Claude Tag as more than a Slack bot: a proactive, persistent, multiplayer collaborator, while the launch post specifies the operational model of scoped channel and tool access with task delegation through mentions.
+
+## @ClaudeDevs - Claude Tag’s Internal Slack Development Workflow
+> The Claude Code team has been shipping with Claude Tag internally all year.
+>
+> It now writes 65% of our product team's code, including most of what built Claude Tag itself.
+>
+> Here are a few ways we use it every day: 🧵
+>
+> https://t.co/7PLrW06TvH
+>
+> *Quoting @claudeai:* Introducing Claude Tag, a new way for teams to work with Claude.
+>
+> In Slack, Claude joins as a team member with access to the channels and tools you choose. Tag Claude in and delegate tasks to it while you focus on other work. https://t.co/R2C6A5Kcye
+
+- **Tweet:** https://x.com/ClaudeDevs/status/2069468900216234010
+- **Quoted:** https://x.com/claudeai/status/2069468693017268244
+- **What:** ClaudeDevs reports that Claude Tag already writes most of its product team’s code, while the quoted launch frames it as a permissioned Slack teammate that can be tagged and delegated work in selected channels and tools.
+
+## @Shpigford - SEO Content Generation Skill for AI Search
+> just dropped an 18-file skill for seo-focused content generation.
+>
+> absolute beast of a skill. probably the most dynamic skill i've ever put together.
+>
+> https://t.co/iEeJ40cViq https://t.co/pY35cqtxwL
+
+- **Tweet:** https://x.com/Shpigford/status/2069461129223442815
+- **Link:** https://initialcommit.co/library/skills/seo-content
+- **Filed:** [seo-content-generation](./knowledge/articles/seo-content-generation.md)
+- **What:** Josh Pigford released an 18-file content-engineering skill that autonomously selects, researches, fact-checks, writes, and verifies one brand-voiced SEO piece designed for both Google and AI answer engines.
+
+---
 # Monday, June 22, 2026
 
 ## @prestonb_xyz - Deliberate observation while browsing Mobbin UI references
