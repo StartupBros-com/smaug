@@ -20865,6 +20865,497 @@ Rork Max is too good
 - **Quoted:** https://x.com/claudeai/status/2042308622181339453
 - **What:** Viv promotes a runnable LangChain guide by Sydney Runkle covering multi-agent orchestration patterns — routing, handoffs, and subagent fanouts — timed to Anthropic's announcement of an advisor/executor pairing strategy (Opus advises, Sonnet/Haiku executes) for near-Opus intelligence at lower cost. The practical message is that choosing orchestration patterns deliberately (not defaulting to a single-agent loop) is where most of the cost/quality leverage lives when building agentic products at scale.
 
+## @0xSero - Treat AI agents as calibrated automation rather than coworkers
+> *Replying to @karpathy:* Judging by my tl there is a growing gap in understanding of AI capability.
+>
+> The first issue I think is around recency and tier of use. I think a lot of people tried the free tier of ChatGPT somewhere  last year and allowed it to inform their views on AI a little too much. This is a group of reactions laughing at various quirks of the models, hallucinations, etc. Yes I also saw the viral videos of OpenAI's Advanced Voice mode fumbling simple queries like "should I drive or walk to the carwash". The thing is that these free and old/deprecated models don't reflect the capability in the latest round of state of the art agentic models of this year, especially OpenAI Codex and Claude Code.
+>
+> But that brings me to the second issue. Even if people paid $200/month to use the state of the art models, a lot of the capabilities are relatively "peaky" in highly technical areas. Typical queries around search, writing, advice, etc. are *not* the domain that has made the most noticeable and dramatic strides in capability. Partly,  this is due to the technical details of reinforcement learning and its use of verifiable rewards. But partly, it's also because these use cases are not sufficiently prioritized by the companies in their hillclimbing because they don't lead to as much $$$ value. The goldmines are elsewhere, and the focus comes along.
+>
+> So that brings me to the second group of people, who *both* 1) pay for and use the state of the art frontier agentic models (OpenAI Codex / Claude Code) and 2) do so professionally in technical domains like programming, math and research. This group of people is subject to the highest amount of "AI Psychosis" because the recent improvements in these domains as of this year have been nothing short of staggering. When you hand a computer terminal to one of these models, you can now watch them melt programming problems that you'd normally expect to take days/weeks of work. It's this second group of people that assigns a much greater gravity to the capabilities, their slope, and various cyber-related repercussions.
+>
+> TLDR the people in these two groups are speaking past each other. It really is simultaneously the case that OpenAI's free and I think slightly orphaned (?) "Advanced Voice Mode" will fumble the dumbest questions in your Instagram's reels and *at the same time*, OpenAI's highest-tier and paid Codex model will go off for 1 hour to coherently restructure an entire code base, or find and exploit vulnerabilities in computer systems. This part really works and has made dramatic strides because 2 properties: 1) these domains offer explicit reward functions that are verifiable meaning they are easily amenable to reinforcement learning training (e.g. unit tests passed yes or no, in contrast to writing, which is much harder to explicitly judge),  but also 2) they are a lot more valuable in b2b settings, meaning that the biggest fraction of the team is focused on improving them. So here we are.
+>
+> I am trying to educate people on a few of my discord groups and I notice a really delayed adoption after these sessions.
+>
+> I typically put on a recording of Codex/Claude controlling my 3d printer, building a Home rag, have them adopt complex tech by just being pointed at the repo.
+>
+> I see them feel amazed but also skeptical in many ways, lots of layers of things happen in the mind when you see a few words have such an outsized effect on your life or business.
+>
+> I feel like I’ve had 2 main breakthroughs in how I have adopted the tech, and what I am trying to get across to others:
+>
+> 1. Almost anything you want, or get stuck at you can just talk to the model to teach you or do it for you.
+>
+> So you’re not stuck waiting for someone to help you figure out the next step. Which is something very natural and common in society.
+>
+> Instead you can just talk to it, and have it meet you where you are. The harnesses are also converging on simplifying all this.
+>
+> The intelligence of even small models is baffling, they can perform 50% or more of the tasks a person does day to day in a few minutes.
+>
+> 2. You can’t just believe the models.
+>
+> Just blindly accepting anything coming out of them, whether that be technical or scientific is a recipe for becoming delusional.
+>
+> I don’t know whether we know how to assess intelligence anymore because we are comparing it to ourselves too much.
+>
+> Viewing it as a set of limited resources which can be applied to automate things around you is the more fitting mental model than a coworker.
+>
+> This also means all the ideas we carry to our work relationships can’t be cleanly applied to it, we can trust it’s outputs as logical, it is an automation machine that must be calibrated and monitored.
+>
+> I wonder what a simple user journey for all that would look like.
+
+- **Tweet:** https://x.com/0xSero/status/2042354228635615244
+- **Parent:** https://x.com/karpathy/status/2042334451611693415
+- **What:** Replying to Karpathy’s capability-gap diagnosis, 0xSero argues that hands-on demonstrations reveal powerful practical automation but should teach calibrated oversight, because models are useful task resources rather than inherently trustworthy coworkers.
+
+## @menhguin - Automated research tracks an AI-focused investment portfolio
+> fyi, nowadays im busy so i just have openclaw automations+deep research tracking @zephyr_z9 and @aleabitoreddit for new positions.
+> up about ~60% YTD mostly from existing positions:
+> memory stocks, intel calls, palantir puts, zai and minimax shares all of which are up ~100-200%.
+>
+> *Quoting @menhguin:* Leopold's having fun, so here's my AI Safety twink portfolio. Total 1-year return: +892%.
+> Criteria: Product advances human civilisation + good team.
+> 50% Oklo (+1700%)
+> 45% Tesla (+87%)
+> 5% Nvidia (+55%) https://t.co/y5I2XU4wnb
+
+- **Tweet:** https://x.com/menhguin/status/2042342453169308150
+- **Quoted:** https://x.com/menhguin/status/1968757949347537246
+- **What:** Minh Nhat Nguyen contrasts an earlier concentrated, AI-safety-themed portfolio with a current set of memory, semiconductor, and AI-company positions, saying OpenClaw automations and deep research now monitor other investors for new ideas.
+
+## @karpathy - Frontier coding agents explain why AI perceptions diverge
+> Judging by my tl there is a growing gap in understanding of AI capability.
+>
+> The first issue I think is around recency and tier of use. I think a lot of people tried the free tier of ChatGPT somewhere  last year and allowed it to inform their views on AI a little too much. This is a group of reactions laughing at various quirks of the models, hallucinations, etc. Yes I also saw the viral videos of OpenAI's Advanced Voice mode fumbling simple queries like "should I drive or walk to the carwash". The thing is that these free and old/deprecated models don't reflect the capability in the latest round of state of the art agentic models of this year, especially OpenAI Codex and Claude Code.
+>
+> But that brings me to the second issue. Even if people paid $200/month to use the state of the art models, a lot of the capabilities are relatively "peaky" in highly technical areas. Typical queries around search, writing, advice, etc. are *not* the domain that has made the most noticeable and dramatic strides in capability. Partly,  this is due to the technical details of reinforcement learning and its use of verifiable rewards. But partly, it's also because these use cases are not sufficiently prioritized by the companies in their hillclimbing because they don't lead to as much $$$ value. The goldmines are elsewhere, and the focus comes along.
+>
+> So that brings me to the second group of people, who *both* 1) pay for and use the state of the art frontier agentic models (OpenAI Codex / Claude Code) and 2) do so professionally in technical domains like programming, math and research. This group of people is subject to the highest amount of "AI Psychosis" because the recent improvements in these domains as of this year have been nothing short of staggering. When you hand a computer terminal to one of these models, you can now watch them melt programming problems that you'd normally expect to take days/weeks of work. It's this second group of people that assigns a much greater gravity to the capabilities, their slope, and various cyber-related repercussions.
+>
+> TLDR the people in these two groups are speaking past each other. It really is simultaneously the case that OpenAI's free and I think slightly orphaned (?) "Advanced Voice Mode" will fumble the dumbest questions in your Instagram's reels and *at the same time*, OpenAI's highest-tier and paid Codex model will go off for 1 hour to coherently restructure an entire code base, or find and exploit vulnerabilities in computer systems. This part really works and has made dramatic strides because 2 properties: 1) these domains offer explicit reward functions that are verifiable meaning they are easily amenable to reinforcement learning training (e.g. unit tests passed yes or no, in contrast to writing, which is much harder to explicitly judge),  but also 2) they are a lot more valuable in b2b settings, meaning that the biggest fraction of the team is focused on improving them. So here we are.
+>
+> *Quoting @staysaasy:* The degree to which you are awed by AI is perfectly correlated with how much you use AI to code.
+
+- **Tweet:** https://x.com/karpathy/status/2042334451611693415
+- **Quoted:** https://x.com/staysaasy/status/2042063369432183238
+- **What:** Karpathy expands on the observation that intensive coding use changes AI perceptions: frontier agents have improved fastest in technical domains with verifiable rewards and high B2B value, while free-tier conversational failures obscure that progress.
+
+## @chrispisarski - Claude-powered pre-call research replaces a sales SaaS feature
+> our entire sales team is now claude pilled, they all use a claude skill we made called “pre-call research”
+>
+> everyone of them connected their Claude to Google Calendar, the Crustdata MCP and Slack
+>
+> before every call it automatically:
+>
+> - looks at who's attending
+> - pulls the company's page + domain data
+> - checks the inbound booking context
+> - fetches enriched real-time profiles of each attendee via Crustdata
+> - creates a full brief: company snapshot, talking points, prospect assessment
+>
+> you can also schedule it:
+>
+> "every morning at 8am, run pre-call research on all my calls for the day and DM me the briefs"
+>
+> its pretty insane that this workflow alone could have been the main feature of a sales saas not even 1 year ago and now its just something anyone can run on claude
+
+- **Tweet:** https://x.com/chrispisarski/status/2042319028186988880
+- **What:** Chris Pisarski describes a reusable Claude skill that combines calendar, Slack, and Crustdata context into scheduled prospect briefs, illustrating how agent integrations can commoditize what was recently a dedicated sales-enablement product.
+
+## @XFreeze - Grok-4.20's claimed legal and tax reasoning lead
+> Grok-4.20 just ranked #1 in Legal & Government on Chatbot Arena
+>
+> It’s officially outperforming Anthropic’s Opus 4.6 and Google’s Gemini 3.1 Pro
+>
+> Grok is actively helping people navigate real lawsuits and do complex tax management (I've been personally using it for my own taxes)
+>
+> The ability and accuracy to get high-level legal reasoning across different countries is an absolute game-changer
+>
+> Grok can help you stop overpaying and save you real money
+
+- **Tweet:** https://x.com/XFreeze/status/2042294436533588299
+- **What:** XFreeze highlights a claimed benchmark lead for Grok-4.20 in legal and government tasks, framing cross-jurisdictional legal reasoning and tax assistance as practical ways AI could reduce expensive professional errors.
+
+## @sebgoddijn - Ramp Glass raises the enterprise AI floor
+> We hit 99% AI adoption at @tryramp but it wasn't enough.
+>
+> Most people were still stuck in a chat window while power users ran laps around them, and teaching everyone how to use the terminal wasn’t going to scale.
+>
+> So we built Glass: our own AI productivity suite on @AnthropicAI's Claude Agent SDK with 700 daily active users in one month.
+>
+> We don't believe in lowering the ceiling. We believe in raising the floor.
+>
+> *Quoting @sebgoddijn:* https://t.co/rezmUVksXl
+
+- **Tweet:** https://x.com/sebgoddijn/status/2042286523001737545
+- **Link:** https://x.com/i/article/2042284478337269760
+- **Quoted:** https://x.com/sebgoddijn/status/2042285915435937816
+- **Filed:** [ramp-glass-ai-coworker.md](./knowledge/articles/ramp-glass-ai-coworker.md)
+- **What:** Ramp's Glass reframes enterprise AI enablement as infrastructure rather than chat adoption: preconfigured integrations, a reviewed skill marketplace, synthesized memory, persistent workspace panes, and scheduled agents turn individual power-user discoveries into shared organizational capability.
+
+## @shannholmberg - AI marketing beyond the manual ROI threshold
+> how to achieve anthropic's level 3 of AI marketing
+>
+> level 3 is doing work you never attempted because the manual cost made it pointless
+>
+> > go through every single search term on a high-spend Google account daily to find negative keywords. you're not doing that across tens of thousands of terms manually
+> > QA your entire site top to bottom every day. dead URLs, pixel misfires, busted UTMs, broken redirects. each one is small but collectively they cost you 10-20%
+> > monitor every competitor's content, pricing, and positioning weekly, not once a quarter
+> > A/B test 50 headline variations, not 2
+> > turn every webinar into blog posts, social clips, email sequences, and SEO articles
+> > run audience sentiment analysis across thousands of posts to track how messaging shifts in your space over time
+>
+> I've wanted us to do things at our agency for years that I knew were negative ROI. now that threshold barely exists
+>
+> we can even run small pro-bono projects for clients using our agents, things that would never have been worth the hours before but now cost a few API calls to deliver
+>
+> the insights were always there, we just couldnt afford to go get them
+>
+> *Quoting @shannholmberg:* anthropics growth marketer mapped out 4 levels of AI marketing use
+>
+> most people sit at level 1, automating what they already do
+>
+> > level 1: automate what you already do (reporting, copy, data pulls)
+> > level 2: use AI as a thinking partner where its better than you
+> > level 3: do work that was below the ROI threshold before
+> > level 4: build custom tools only you would ever build
+>
+> level 3 is work that never existed before. stuff nobody did because the manual cost was never worth it
+>
+> mining negative keywords across every ad group. checking your full site for broken links daily
+>
+> same logic applies to content, research, QA, competitor monitoring. all work that existed in theory but nobody had the hours for
+>
+> level 4 is where the ROI compounds
+>
+> there are hundreds of AI marketing skills and plugins floating around github right now. most of them work in theory but fall apart in practice because they are built for the general case, not your case
+>
+> your business has specific data, specific workflows, specific edge cases that no generic tool will ever cover. the people building custom tools around their own problems are the ones pulling ahead
+
+- **Tweet:** https://x.com/shannholmberg/status/2042145710817341828
+- **Quoted:** https://x.com/shannholmberg/status/2041532958012776572
+- **What:** The post applies a four-level AI marketing model to the overlooked level-three opportunity: agents make exhaustive, formerly uneconomic work—daily site QA, account-wide query analysis, competitor monitoring, and large-scale creative testing—viable, before bespoke tools unlock further compounding advantages.
+
+## @muratcan - Personal OS knowledge-transfer bottleneck
+> Since I posted my Personal OS / filesystem article, LLM personal knowledge bases have turned into a real topic in the AI world. I’ve been building this system in Cursor for almost two years, but I wasn’t expecting to end up talking with people like a YouTube co-founder, a NASCAR driver, or some of the AI leaders I respect most because of that post. For me it was the first signal that this wasn’t niche anymore.
+>
+> The biggest pushback on the article was whether a filesystem is enough or scalable for something like this. Scaling the vault is easy; scaling curation and placement is not. Karpathy’s LLM Wiki published soon after with same thesis and it was an independent validation for me. "LLM incrementally builds and maintains a persistent wiki structured, interlinked markdown between you and the raw sources." Now there are tons of similar projects, different takes on the same idea. That’s good, I’m also evolving my own stack from what’s out in the open, and honestly, reframing the personal filesystem as a wiki is a smart move.
+>
+> I’m posting this because I think the harder problem is still the knowledge transfer pipeline. Designing a Personal OS (aka personal knowledge base) is the easy part. The architecture only starts to pay off when you fill it for years -not just posts you liked, but decision patterns, career and life details, half-formed thoughts, writing, the messy stuff. Getting all of that into the right markdown file, at the right time, in the right shape is still the bottleneck.
+>
+> I built a Chrome extension (Feed2Context, details in the article) that grabs a post with my notes from my feed, drops it into the filesystem, and my agents synthesize and route it. I also built OpenHome assistant as a voice pipeline from my room into the wiki. Plus a bunch of MCP hooks into my accounts. But orchestrating all these helpers gets exhausting.
+>
+> A lot of people suggested Obsidian but I'm mostly on Readwise CLI to pull from X, LinkedIn, arXiv, books, and news. It works well on mobile, and because it’s a CLI, agents can find what they need and push it into the filesystem. Skill registries help a lot, in the videos I’ve got flows like Readwise CLI + alphaXiv MCP for research papers: save a paper, agent pulls the full text, analyzes it, teaches me back. I’m also testing Zapier CLI, and waiting for especially the Triggers API, between things like Yutori or plain cron, keeping a personal wiki alive is still hard; nobody wants to be the cron job for their own life, so triggers might be part of the answer.
+>
+> TL;DR: A personal filesystem you control isn’t optional if you don’t want to rent your memory from one AI company. The open problem is keeping it fed and current. What I actually want is one solution that can watch my screen, hear my voice, read my accounts, and write into my Personal OS without me acting as the integration layer forever.
+>
+> *Quoting @muratcan:* https://t.co/7kZ0k7nbxI
+
+- **Tweet:** https://x.com/muratcan/status/2042103064585294328
+- **Link:** https://x.com/i/article/2025249985722224640
+- **Quoted:** https://x.com/muratcan/status/2025286163641118915
+- **Filed:** [personal-os-file-system-ai-agents.md](./knowledge/articles/personal-os-file-system-ai-agents.md)
+- **What:** Muratcan reframes a Git-backed personal filesystem as an agent-context system while stressing that durable value depends on ingesting, curating, and routing lived data; the linked article specifies progressive disclosure, scoped instructions, and append-only JSONL to maintain useful long-term memory.
+
+---
+# Wednesday, April 8, 2026
+
+## @Austen - Screen recordings as enterprise AI context
+> Honestly more companies should just start capturing screen recordings/screenshots of everything that happens at the company to be later fed into models.
+>
+> There’s so much data that companies could be grabbing.
+>
+> *Quoting @coreyganim:* Easiest entry point into AI consulting: AI audits.
+>
+> Here's the framework:
+>
+> 1. Map every repeatable process in their business (takes 45 min on a call)
+> 2. Identify which ones are costing the most time or money
+> 3. Recommend the AI tools and workflows to fix them
+>
+> Charge $1,000 per audit. Takes about 2 hours to deliver.
+>
+> You're not even building anything. You're delivering a structured assessment and a prioritized action plan.
+>
+> Do 4 audits a month and you're at $48K/year from a service you can deliver in a single afternoon each week.
+>
+> Then upsell the implementation.
+
+- **Tweet:** https://x.com/Austen/status/2042085442133114935
+- **Quoted:** https://x.com/coreyganim/status/2041983671855649034
+- **What:** This extends an AI-consulting audit framework into a data-capture thesis: systematic recordings and screenshots could create a richer operational dataset for models to inspect, but any implementation must address employee consent, privacy, retention, and access controls.
+
+## @realsigridjin - AXI agent-native CLI benchmark results
+> tldr
+>
+> > ex-l8 engineer from meta/amazon, drops an open source project on day 2 of unemployment
+> >
+> > axi stands for agent experience interface. 10 design principles for agent-ergonomic tools
+> >
+> > core premise is that neither cli nor mcp was ever designed with the agent in mind
+> >
+> > 915 benchmark runs. 100% success rate, lowest cost, fastest time, fewest turns. first place on every metric
+> >
+> > axi combines navigation + snapshot + filtering into a single command
+> >
+> > mcp-code took 11 turns to extract a wikipedia table. axi did it in 2
+> >
+> > cost breakdown: axi $0.074 vs mcp $0.100 vs code mode $0.120
+> >
+> > the cli vs mcp debate itself is wrong. the answer is principled design
+> >
+> > if this is what day 2 looks like, what was this man holding back at work
+>
+> https://t.co/dgdgQLisyi
+>
+> *Quoting @kunchenguid:* alright agent nerds, if you care about your tokens and usage limits, pay attention to the tools you give to your agents.
+>
+> i built a benchmark that compared various browser tools for agents, and here's an example of their massive difference in cost and latency doing the same task https://t.co/pvuIo5TP44
+
+- **Tweet:** https://x.com/realsigridjin/status/2042063487418167752
+- **Link:** https://github.com/kunchenguid/axi
+- **Quoted:** https://x.com/kunchenguid/status/2041900381350117648
+- **Filed:** [axi.md](./knowledge/tools/axi.md)
+- **What:** AXI proposes agent-native CLI design principles—compact schemas, bounded content, and composable navigation—and publishes benchmark results suggesting lower browser-task cost and latency than conventional CLI or MCP interfaces; the quoted author underscores that interface choices materially affect an agent's token use.
+
+## @thekitze - Local Gemma as an offline network troubleshooting assistant
+> listen to me!!! download lm studio + gemma 4
+>
+> you'll *never* know when you might need a local llm for something
+>
+> my hotel had INCREDIBLY shitty wifi and i couldn't connect my beryl router
+>
+> gemma walked me through so many combinations of things to try and finally i'm in and properly connected and have super fast connection
+
+- **Tweet:** https://x.com/thekitze/status/2041989301299507287
+- **What:** The author describes a local Gemma model in LM Studio as a resilient troubleshooting companion during a hotel-network failure, using it offline to enumerate router configuration attempts until connectivity returned. It illustrates the practical fallback value of keeping local models available when cloud assistance may be unreachable.
+
+## @coreyganim - AI audits as an entry point to consulting
+> Easiest entry point into AI consulting: AI audits.
+>
+> Here's the framework:
+>
+> 1. Map every repeatable process in their business (takes 45 min on a call)
+> 2. Identify which ones are costing the most time or money
+> 3. Recommend the AI tools and workflows to fix them
+>
+> Charge $1,000 per audit. Takes about 2 hours to deliver.
+>
+> You're not even building anything. You're delivering a structured assessment and a prioritized action plan.
+>
+> Do 4 audits a month and you're at $48K/year from a service you can deliver in a single afternoon each week.
+>
+> Then upsell the implementation.
+>
+> *Quoting @TheICHpodcast:* Grant Cardone reveals how to make $80,000/month with AI consulting
+>
+> “I’d make $1,000,000 in year 1” https://t.co/FGfgNbE5Ad
+
+- **Tweet:** https://x.com/coreyganim/status/2041983671855649034
+- **Quoted:** https://x.com/TheICHpodcast/status/2040761383998955699
+- **What:** Corey Ganim converts the quoted high-revenue AI-consulting pitch into a concrete starter service: a paid audit that inventories recurring business work, ranks economic pain, and maps workflows to tools before selling implementation. The model foregrounds diagnostic value over premature build work.
+
+## @sowmay_jain - AI agents lower the barrier to genome analysis
+> i got my whole genome sequenced two years ago and forgot about it.
+>
+> last week i told my ai agent (@laukiantonson) to dig up my DNA files
+>
+> • it dug up a two-year-old email
+> • found the download link
+> • pulled down 67 gigabytes of raw DNA.
+> • rented a 32-core, 64GB machine for a few hours — total cost: $5
+> • aligned 21 million long reads to the human reference genome — 99.83% mapped
+> • called 5.8 million genetic variants using a two-pass neural network
+> • phased every variant — separated maternal vs paternal inheritance
+> • annotated all 5.8M variants against ClinVar, PharmGKB, and gnomAD
+> • corrected for population-specific bias in the medical literature
+> • health risk map across 39 conditions flagged in every body system
+> • drug compatibility guide for 141 medications color-coded by genome response
+> • nutrient metabolism - 71 variants affecting absorption of vitamins, minerals, iron
+> • traits, ancestry going back 40,000 years, neanderthal DNA breakdown
+>
+> $5 in compute. 8 hours. no bioinformatician. no doctor. just one instruction.
+>
+> we've genuinely reached a point where an ai agent can take your raw genome and hand you back a full personal health profile in a single shot. i had no idea this was even possible.
+>
+> *Quoting @MaziyarPanahi:* Over 1 billion rows of psychiatric genetics data. Now on Hugging Face.
+>
+> ADHD. Depression. Schizophrenia. Bipolar. PTSD. OCD. Autism. Anxiety. Tourette. Eating disorders.
+>
+> 12 disorder groups. 52 publications. Every GWAS summary statistic from the Psychiatric Genomics Consortium.
+>
+> Before: wget, gunzip, 20 minutes debugging separators, repeat 50 times.
+> Now: one line of Python.
+
+- **Tweet:** https://x.com/sowmay_jain/status/2041982135305957425
+- **Quoted:** https://x.com/MaziyarPanahi/status/2041501396692873308
+- **What:** Sowmay Jain reports using an AI agent and inexpensive rented compute to turn raw long-read DNA data into an annotated personal genome analysis, while the quoted post points to a newly packaged psychiatric-GWAS corpus that makes population-scale genetics data easier to query. The account shows agents lowering technical barriers, but health-risk conclusions still need clinical validation.
+
+## @itsolelehmann - Digital hygiene checklist for AI-era threats
+> Claude Mythos is like Hiroshima for software.
+>
+> everything you own online, your bank, your email, your photos, your identity, is now dangerously exposed in ways that didn't exist 48 hours ago
+>
+> that's why Karpathy's digital hygiene guide is probably the most important thing you can read this week
+>
+> here's every step to protect yourself in these uncharted times:
+>
+> > use a password manager for every account
+> > set up physical security keys so attackers can't log in
+> > enable face id and fingerprint everywhere
+> > randomize your security question answers
+> > encrypt your hard drive
+> > get rid of unnecessary smart home devices
+> > switch to signal for private messaging
+> > use brave instead of chrome
+> > switch to brave search instead of google
+> > mint virtual credit cards for every purchase
+> > get a virtual mailing address
+> > never click links inside emails
+> > use a vpn on public wifi
+> > block ads and trackers at the dns level
+> > install a network monitor to see which apps are spying on you
+>
+> full breakdown of each step below:
+>
+> *Quoting @itsolelehmann:* https://t.co/z9PKjnYa20
+
+- **Tweet:** https://x.com/itsolelehmann/status/2041963869695045944
+- **Link:** https://x.com/i/article/2041934628034936832
+- **Quoted:** https://x.com/itsolelehmann/status/2041946673895854569
+- **Filed:** [digital-security-checklist-ai-era-threats](./knowledge/articles/digital-security-checklist-ai-era-threats.md)
+- **What:** Ole Lehmann shares an alarm-driven security guide based on a broad 15-step hygiene checklist, arguing that more capable AI raises the cost of poor account and device defenses; it combines established safeguards with some speculative claims that should be evaluated critically.
+
+## @alexalbert__ - Managed Agents for rapid prototypes and reliable deployments
+> I've found Managed Agents to somehow be both the fastest way to hack together a weekend agent project and the most robust way to ship one to millions of users.
+>
+> It eliminates all the complexity of self-hosting an agent but still allows a great degree of flexibility with setting up your harness, tools, skills, etc.
+>
+> *Quoting @claudeai:* Introducing Claude Managed Agents: everything you need to build and deploy agents at scale.
+>
+> It pairs an agent harness tuned for performance with production infrastructure, so you can go from prototype to launch in days.
+>
+> Now in public beta on the Claude Platform. https://t.co/vHYfiC1G56
+
+- **Tweet:** https://x.com/alexalbert__/status/2041941720611614786
+- **Quoted:** https://x.com/claudeai/status/2041927687460024721
+- **What:** Alex Albert presents Managed Agents as a hosted agent platform that retains control over harnesses, tools, and skills while pairing them with operational infrastructure, positioning it as a path from a weekend prototype to a widely deployed service.
+
+## @RLanceMartin - Claude Managed Agents architecture and operating model
+> https://t.co/ic6S68DVPd
+
+- **Tweet:** https://x.com/RLanceMartin/status/2041927992986009773
+- **Link:** https://x.com/i/article/2041913047493832710
+- **Filed:** [launching-claude-managed-agents](./knowledge/articles/launching-claude-managed-agents.md)
+- **What:** Lance Martin explains how Claude Managed Agents packages a configurable harness with resilient managed infrastructure, separating agent definitions, sandbox environments, and stateful sessions for longer-running work.
+
+## @claudeai - Claude Managed Agents public beta announcement
+> Introducing Claude Managed Agents: everything you need to build and deploy agents at scale.
+>
+> It pairs an agent harness tuned for performance with production infrastructure, so you can go from prototype to launch in days.
+>
+> Now in public beta on the Claude Platform. https://t.co/vHYfiC1G56
+
+- **Tweet:** https://x.com/claudeai/status/2041927687460024721
+- **What:** LINK_FAILED: Could not expand link from @claudeai; the announcement describes a public-beta managed platform that combines a tuned agent harness with production infrastructure for deploying agents at scale.
+
+## @Vtrivedy10 - Improving agent harnesses with eval-driven hill climbing
+> https://t.co/n1HUIEbky8
+
+- **Tweet:** https://x.com/Vtrivedy10/status/2041927488918413589
+- **Link:** https://x.com/i/article/2041729463918989312
+- **Filed:** [better-harness-hill-climbing-evals](./knowledge/articles/better-harness-hill-climbing-evals.md)
+- **What:** This Better-Harness proposal treats curated evals and production traces as feedback for targeted harness changes, using behavioral holdouts and human review to prevent agents from merely optimizing visible tests.
+
+## @danshipper - How personal agents reshape team operations
+> We use OpenClaws to do all of our work at @every.
+>
+> We have 25 full-time employees, so we’re one of the few companies in the world that has seen how work changes when everyone has their own personal agent in the company Slack.
+>
+> I chatted with @every COO Brandon (@bran_don_gell) and @every head of platform Willie (@bigwilliestyle) to share what we’ve learned.
+>
+> We get into:
+> - Why agents become mirrors of their owners, and how that influences how other people on the team interact with them
+> - How a parallel AI org chart forms on its own. People have stopped tagging me on Slack with questions about Proof, the document editor I vibe coded, because they knew my agent R2-C2 can step in
+> - The etiquette for human-agent collaboration is being invented in real time. Brandon's rule is that if there's an established process or documented answer, always ask the agent, not their human
+> - Why everyone is a manager now, and why even experienced managers carry limiting beliefs about what their agents can do
+> - This is a must-watch for anyone trying to understand how AI workers change daily operations, not just in theory, but inside a company that’s half-agent
+>
+> Watch below!
+>
+> Timestamps
+> Introduction:
+> How Brandon built Zosia, an AI agent to run his household:
+> Brandon’s “aha” moment:
+> What happened when everyone on the team got their own agent:
+> How agents take on their owners' personalities, and why that matters inside an org:
+> Why it’s important for agents to work in public:
+> What we’re still figuring out when it comes to agent behavior, including memory gaps, group chat etiquette, and the "ant death spiral" problem:
+> How we built Plus One, our hosted OpenClaw product:
+> The cultural shift required to make agents work at scale:
+
+- **Tweet:** https://x.com/danshipper/status/2041903948873777629
+- **What:** Dan Shipper shares operational lessons from an organization where each employee has a Slack agent, including emergent delegation norms, public-agent etiquette, and a parallel support structure around agent owners.
+
+## @RohOnChain - Combining weak quantitative signals into institutional trades
+> As someone who builds institutional level quant systems, this research book is the closest thing to a quant desk I have ever seen publicly shared.
+>
+> 361 pages. 151 trading strategies.
+> Bookmark & get this, then read the article below before someone takes it down. https://t.co/jd1kIqptLe
+>
+> *Quoting @RohOnChain:* https://t.co/kxpYUymKmq
+
+- **Tweet:** https://x.com/RohOnChain/status/2041893855524745381
+- **Link:** https://x.com/i/article/2037534155752583168
+- **Quoted:** https://x.com/RohOnChain/status/2041180375838498950
+- **Filed:** [combining-weak-signals-winning-trade](./knowledge/articles/combining-weak-signals-winning-trade.md)
+- **What:** Roan highlights a detailed alpha-combination framework showing why a desk should weight many partly predictive, independent signals instead of trusting a single trading forecast.
+
+## @0xDevShah - Autonomous skill cartographers for agent-native teams
+> in few months from now, all teams will have an army of specialized hermes agents working for them, and every org will run an internal skill shop, just tailored to the org's workflows. orgs will hire skill cartographers who will learn across the board and build agent skills for eng as well as non-eng teams.
+>
+> it is jevons paradox all the way down. as the cost of abundant intelligence drops, teams with previously insufficient budgets will resurrect and ambitious projects will be undertaken.
+>
+> but as teams do more, and as they discover new workflows through daily use, keeping their skill libraries current becomes impossible manually. anyone who builds an autonomous skill cartographer will build a generational company.
+>
+> an autonomous skill builder that sits on top of teams, observes their tool usage and daily workflows, and figures out what skills need to be created, updated, or retired. observe, generate, optimize is going to become a substantial economy of its own.
+>
+> extremely bullish on my bro @aidan__pratt who's building exactly this at autostep and got into YC.
+>
+> *Quoting @tobi:* Hermes agent ships with this nifty /manim_video skill so I asked it to explain how a QMD query works: https://t.co/WwNMA1HXLc
+
+- **Tweet:** https://x.com/0xDevShah/status/2041759795917812113
+- **Quoted:** https://x.com/tobi/status/2041719844920283326
+- **What:** Building on Hermes demonstrating a specialized skill that explains QMD queries with Manim, Dev Shah predicts organizations will need autonomous systems to observe work, continuously create, update, and retire the skills used by expanding agent fleets.
+
+## @andrewfarah - Fieldtheory syncs X bookmarks into agent-readable markdown
+> a love letter to the thousands of people who downloaded this over last 48 hrs,
+>
+> run this:
+> › npm install -g fieldtheory@latest
+> › ft sync --gaps (grabs threads, RTs)
+>
+> bonus:
+> › ft wiki (creates md wiki, 🕧)
+> › ft md (exports md)
+> › ft skill install (/fieldtheory)
+>
+> *Quoting @andrewfarah:* sharing my first open source project
+>
+> a CLI for downloading and syncing your X bookmarks locally so your agent can access them. it's free
+>
+> ›  npm install -g fieldtheory
+> ›  login to your X account in a chrome tab
+> ›  ft sync (done!)
+>
+> bonus:
+> ›  ft viz
+> ›  ft classify https://t.co/QSILsktWfN
+
+- **Tweet:** https://x.com/andrewfarah/status/2041729631989198910
+- **Quoted:** https://x.com/andrewfarah/status/2040535589771149379
+- **What:** Fieldtheory is an open-source CLI for locally syncing X bookmarks so agents can inspect them; its newer commands also capture thread gaps and retweets, generate a Markdown wiki or export, and install an accompanying skill.
+
 ---
 
 # Tuesday, April 7, 2026
@@ -20904,8 +21395,427 @@ Rork Max is too good
 - **Tweet:** https://x.com/pmarca/status/2041397922940801170
 - **What:** Marc Andreessen frames frontier-model agent experiences as economically compelling but currently prohibitively expensive, arguing that the decisive technology-industry challenge is reducing daily inference costs by several orders of magnitude for mass-market use.
 
----
+## @trq212 - Token-efficient verification from Claude Code usage calls
+> done about 10 of these calls so far + looked at more transcripts
+>
+> many learnings but one of the biggest is that it's very easy to spend a lot of tokens on open ended verification that doesn't make your output better
+>
+> I'll try and write more on how to do it efficiently
+>
+> *Quoting @trq212:* I want to do a few more of these calls.
+>
+> If your MAX 20x plan ran out of tokens unexpectedly early and you're willing to screenshare and run some prompts through Claude Code please comment.
+>
+> Trying to figure out how we can improve /usage to give more info.
 
+- **Tweet:** https://x.com/trq212/status/2041722125510377705
+- **Quoted:** https://x.com/trq212/status/2041252127943877068
+- **What:** After interviewing Claude Code MAX users who exhaust their allowance early, Thariq identifies open-ended verification as a major token sink that often fails to improve results and plans to document more efficient validation practices.
+
+## @nickcammarata - Digital hygiene before mass autonomous hacking
+> feels like feb 2020 when we didn't know if we should be wiping down our groceries (no) or if covid was airborne (yes). millions or billions of superhuman hacking-capable agents about to be launched at every piece of the internet at once. what's good digital hygiene right now
+>
+> *Quoting @nickcammarata:* if every database is hacked this month and all my texts and dms come out i didn't mean any of it. i was steering mythos. i was thinking far ahead. i knew exactly what words to say and they might seem weird but they were all necessary for making things go well
+
+- **Tweet:** https://x.com/nickcammarata/status/2041689409926447414
+- **Quoted:** https://x.com/nickcammarata/status/2041680555696132371
+- **What:** Nick Cammarata turns a joking preemptive excuse for a database breach into a serious concern: widespread superhuman hacking agents could rapidly expose weak digital security, making practical personal and organizational hygiene urgent.
+
+## @businessbarista - Tenex Labs' first year of enterprise AI transformation
+> Our company @tenex_labs turned 1 last week.
+>
+> It’s been the craziest professional year of my life building the premier AI transformation & engineering partner for the enterprise.
+>
+> A longer post with reflections and lessons to come, but wanted to share a highlight reel:
+>
+> - Hit the average revenue of a Series B company without raising a dollar
+> - Helping drive successful AI transformation for enterprises worth a combined $500bn in market cap
+> - Partnerships with @AnthropicAI, @Lovable, @vercel, @OpenAI, and @LangChain
+> - Team of 30 high agency, high horsepower, humble ai engineers, ai strategists, and recruiters trying to change the world together
+> - Training C-suite leaders from @jpmorgan, @McKesson, @Citadel, @Mets, @nytimes, @Hertz, and more.
+>
+> It’s such a privilege to help companies and leaders finish on the right side of a post-AI society, and the work only gets more important and higher stakes from here.
+>
+> Brick by brick.
+
+- **Tweet:** https://x.com/businessbarista/status/2041675330386063646
+- **What:** Tenex Labs reports reaching Series B-scale revenue without fundraising in its first year, positioning a 30-person team as an implementation and executive-training partner for large enterprises adopting AI.
+
+## @Johnsjawn - Ramp’s AI transformation playbook webinar
+> Tomorrow we’re breaking down how companies actually become AI-native. Using the AI Transformation Model + a real case study from Ramp.
+>
+> Ben Levick (Head of AI @ Ramp) will talk through how they did it from the inside.
+>
+> If you’re figuring this out right now, you should join.
+> https://t.co/p5TwV52kMO
+
+- **Tweet:** https://x.com/Johnsjawn/status/2041674679057051866
+- **Link:** https://info.notion.so/webinar/webinars-amer/your-ai-roadmap-the-playbook-behind-ramps-ai-transformation
+- **What:** This is a Notion webinar invitation on becoming AI-native, using Ramp as an internal case study and its Head of AI as the speaker; the registration landing page promotes an AI Transformation Model rather than presenting a standalone article to file.
+
+## @dsiroker - Benchmark requests for a 512GB M3 Ultra Mac Studio
+> What benchmarks do people want to see measured with a (now very rare) M3 Ultra Mac Studio with 512GB unified memory? https://t.co/uG1L8Jqkka
+
+- **Tweet:** https://x.com/dsiroker/status/2041658766060613851
+- **What:** Dan Siroker offers access to an unusually high-memory M3 Ultra Mac Studio and solicits benchmark ideas, creating an opportunity to test workloads—especially large local models—that are constrained by unified-memory capacity on typical developer hardware.
+
+## @deanwball - Governance for proprietary frontier AI systems
+> Some other points worth making:
+>
+> 1. A lot of people, including people in positions of authority, told us recently that models of Mythos capabilities wouldn’t be a thing—that models with obvious “national security” implications would not be forthcoming. Those people were wrong. There’s nothing to “do” about this. But you should remember it.
+>
+> 2. Mythos is the first model where the theft of the weights by an adversarial actor feels like it would be a major deal. You better believe they will try, and if they don’t succeed with Mythos, they will eventually.
+>
+> 3. We are thoroughly in the era of “the labs’ best models may well not be public in the way we are used to.” This will be because of a combination of compute constraints, economic reality, competitive advantage, and safety concerns.
+>
+> 4. (3) means that the most relevant models may be decreasingly legible to the general public over time. We might all have less of a sense of what is going on. This is where transparency, and eventually auditing, can come in handy. Internal deployments were one of the major motivations for my work on “entity-based” regulation (we have to regulate the company, not the model, because the details of the model itself are fuzzy if it isn’t released), and my work on private governance: independent bodies that would evaluate frontier AI company safety practices, including internal deployments.
+>
+> 5. Depending on the extent and duration of the coming compute squeeze, we could enter a market dynamic where the best models are only available to the highest bidder—in other words, where compute is a sellers market rather than a buyers market. Imagine competing firms in the economy bidding against one another for access to the best and most tokens, and the frontier labs as, in essence, kingmakers. The governance regime I have described above in (4) is not designed to stop this dynamic, but for obvious reasons policymakers and the broader public may find it unpalatable. On the other hand, if the compute squeeze is *that* bad (not a guarantee, and I rate this unlikely to be clear), it probably means malicious actors struggle to find tokens too. That is good for “safety”!
+>
+> *Quoting @deanwball:* Some brief thoughts on Mythos
+>
+> We’ve known this was coming for a long time. At least, we *should* have. Extremely effective software vulnerability discovery was clearly coming to anybody paying attention.
+>
+> It has also been clear that all AI policy so far has been made and executed with training wheels. It was always clear that, sometime soon, the training wheels would come off.
+>
+> The training wheels aren’t fully off just yet—this model is being kept under lock and key, and Anthropic does not seem inclined to release Mythos preview to the public anytime soon, if ever. The training wheels will be off when these capabilities are fully diffused in ways centralized actors cannot control. It is inevitable that this will happen. The point is not to argue about whether we should “ban open source” or similarly unrealistic notions. The point is to harden the world for this new reality.
+>
+> I applaud Anthropic—and I especially applaud @logangraham—for doing so. But their efforts alone are not close to enough. Project Glasswing—a partnership with Anthropic and other companies—seems nice, but unsurprisingly it lacks uniform frontier lab participation.
+>
+> It would probably be ideal, for our national cyberdefense, if the federal government were not trying to destroy Anthropic and eliminate their models from government systems. If anything, the government should be trying to work more closely with Anthropic. As a side note, I hope Anthropic is working with state and local government entities on cyber vulnerability discovery, since many of our adversaries know that state and local is America’s soft underbelly in so many ways.
+>
+> In any event, the Mythos news should lay bare how stupid and counter-productive the Department of War’s feud with Anthropic really is. As someone who suspected all this was coming (not from inside knowledge but from it being ~obvious), that probably explains why I have had such a strong reaction to that feud. It’s this senseless distraction just at the time that the training wheels are coming off. I hope the two parties can resolve their differences now, for the sake of the country, but I am not hopeful.
+>
+> I do want to call out, however, the numerous political and career civil servants in the Trump Admin who do get these issues, know how stupid the Ant-DoW stuff is, and want to work with the frontier labs like adults. I wish you all utmost success.
+>
+> I find myself inclined to end on some positive notes. Mythos appears to be—according to Anthropic at least—“the most aligned” model Anthropic has ever trained. We are approaching superhuman capabilities in some domains, and yet alignment is getting better rather than worse. That’s not nothing. I know some of you think the model is faking its alignment, or aware when its alignment is being tested. I don’t have a good answer.
+>
+> Finally, there is this: Mythos was made by an American company, and like most successful American companies, it has a vested interest in maintaining order and peace, and it is investing substantial resources in mitigating the risks of its technological progress, as I expect most of the American labs would. This is cause for optimism: The incentives of capitalism are working.
+>
+> The training wheels are coming off, but at least we are the ones removing them, as opposed to our enemies. Perhaps we can be the first to learn to bike for real. The first step would be to get beyond all the low-fidelity, under-specified, pimply little fights of AI policy’s prepubescent era. That goes for me too.
+>
+> “What hath God wrought,” wrote the first telegram. What, indeed. In this case, the answer is still up to us.
+
+- **Tweet:** https://x.com/deanwball/status/2041625997762605127
+- **Quoted:** https://x.com/deanwball/status/2041610761433174180
+- **What:** Extending his call to harden society for powerful vulnerability-discovery models, Ball argues that weight theft, scarce compute, and private deployments will make leading systems less publicly visible, requiring company-level regulation, independent safety audits, and transparency.
+
+## @JesseTinsley - AI-enabled SaaS acquisition roll-up strategy
+> Interestingly also the easiest way to becoming a Billionaire.
+>
+> Thats how I did it in less than ~2 years. Buy SaaS companies , integrate, create ebitda, rinse and repeat at scale.
+>
+> Literally no one else is doing this because the private credit market is in shambles right now.
+>
+> *Quoting @JesseTinsley:* Easiest way to become a millionaire in 2026?
+>
+> Buy 2-3 SaaS businesses with $300-500k ARR automate everything with AI and you’re now making $1m+ a year.
+>
+> No easier time to become a millionaire at any point in history.
+
+- **Tweet:** https://x.com/JesseTinsley/status/2041620333455929700
+- **Quoted:** https://x.com/JesseTinsley/status/2041038977155883167
+- **What:** Tinsley expands his claim that AI automation can make small SaaS acquisitions unusually profitable: he frames integration and EBITDA creation as a repeatable roll-up path from millionaire-scale cash flow to billionaire-scale ownership amid constrained private credit.
+
+## @deanwball - Preparing cyberdefense for advanced vulnerability discovery
+> Some brief thoughts on Mythos
+>
+> We’ve known this was coming for a long time. At least, we *should* have. Extremely effective software vulnerability discovery was clearly coming to anybody paying attention.
+>
+> It has also been clear that all AI policy so far has been made and executed with training wheels. It was always clear that, sometime soon, the training wheels would come off.
+>
+> The training wheels aren’t fully off just yet—this model is being kept under lock and key, and Anthropic does not seem inclined to release Mythos preview to the public anytime soon, if ever. The training wheels will be off when these capabilities are fully diffused in ways centralized actors cannot control. It is inevitable that this will happen. The point is not to argue about whether we should “ban open source” or similarly unrealistic notions. The point is to harden the world for this new reality.
+>
+> I applaud Anthropic—and I especially applaud @logangraham—for doing so. But their efforts alone are not close to enough. Project Glasswing—a partnership with Anthropic and other companies—seems nice, but unsurprisingly it lacks uniform frontier lab participation.
+>
+> It would probably be ideal, for our national cyberdefense, if the federal government were not trying to destroy Anthropic and eliminate their models from government systems. If anything, the government should be trying to work more closely with Anthropic. As a side note, I hope Anthropic is working with state and local government entities on cyber vulnerability discovery, since many of our adversaries know that state and local is America’s soft underbelly in so many ways.
+>
+> In any event, the Mythos news should lay bare how stupid and counter-productive the Department of War’s feud with Anthropic really is. As someone who suspected all this was coming (not from inside knowledge but from it being ~obvious), that probably explains why I have had such a strong reaction to that feud. It’s this senseless distraction just at the time that the training wheels are coming off. I hope the two parties can resolve their differences now, for the sake of the country, but I am not hopeful.
+>
+> I do want to call out, however, the numerous political and career civil servants in the Trump Admin who do get these issues, know how stupid the Ant-DoW stuff is, and want to work with the frontier labs like adults. I wish you all utmost success.
+>
+> I find myself inclined to end on some positive notes. Mythos appears to be—according to Anthropic at least—“the most aligned” model Anthropic has ever trained. We are approaching superhuman capabilities in some domains, and yet alignment is getting better rather than worse. That’s not nothing. I know some of you think the model is faking its alignment, or aware when its alignment is being tested. I don’t have a good answer.
+>
+> Finally, there is this: Mythos was made by an American company, and like most successful American companies, it has a vested interest in maintaining order and peace, and it is investing substantial resources in mitigating the risks of its technological progress, as I expect most of the American labs would. This is cause for optimism: The incentives of capitalism are working.
+>
+> The training wheels are coming off, but at least we are the ones removing them, as opposed to our enemies. Perhaps we can be the first to learn to bike for real. The first step would be to get beyond all the low-fidelity, under-specified, pimply little fights of AI policy’s prepubescent era. That goes for me too.
+>
+> “What hath God wrought,” wrote the first telegram. What, indeed. In this case, the answer is still up to us.
+
+- **Tweet:** https://x.com/deanwball/status/2041610761433174180
+- **What:** Dean Ball argues that tightly controlled models with highly capable vulnerability discovery make resilient systems, coordinated public-private cyberdefense, and practical frontier-AI governance more urgent than symbolic fights over model release.
+
+## @tenobrus - Frontier-model cyber power and the nationalization scenario
+> maybe this is not yet clear, so let me state it plainly: as of right now Anthropic, and really a small number of individuals at Anthropic, has the capacity to directly attack and cause major damage to the United States Government, China, and generally global superpowers. government agencies like the NSA do not have internal models or defense capabilities that outclass frontier models. if they chose to do so, they could likely exfiltrate top secret information from government systems, gain control over critical infrastructure including military infrastructure, sabotage or modify communications between members of government at the highest level, and potentially carry on activities for some time without detection. the thing about having access to a huge number of zerodays your adversaries don't know about is it gives you a massive asymmetric advantage.
+>
+> they did not exploit this to gain power or destabilize the world order. they publicly released the information that they had these capabilities and worked to mitigate these flaws. you should be grateful american frontier labs have proven themselves remarkably trustworthy and concerned with the public good. but it's critical you understand we are in a new regime. private entities now have power that directly rivals and impacts the government's monopoly on influence and violence. and anthropic is certainly not the only one, there's little chance OpenAI's internal models are far behind.
+>
+> this trend will accelerate on virtually every dimension, not slow down. my prediction for how it plays out is the relatively imminent seizure and nationalization of labs by the US government, sometime over the next two years. it's very tough for me to see how they accept the existence of this kind of threat. but this adds a whole new class of governance issues, as then we've handed these extremely wide-reaching capabilities from private entities to public ones.
+
+- **Tweet:** https://x.com/tenobrus/status/2041604999789359137
+- **What:** The author argues that frontier AI labs may now hold offensive cyber capabilities comparable to state power, praises disclosure and mitigation over misuse, and predicts that this perceived threat could prompt U.S. nationalization of leading labs.
+
+## @ndrewpignanelli - Fundraising around Claude skill-file wrappers
+> teams that wrap claude with a skill file are raising 72 million dollars
+
+- **Tweet:** https://x.com/ndrewpignanelli/status/2041592973662818352
+- **What:** The terse observation highlights how much venture funding is flowing toward companies that package Claude with structured skill instructions, raising questions about whether prompt-layer wrappers can sustain defensible value.
+
+## @brexton - OpenClaw adoption friction outweighs early productivity gains
+> Notes from day 5 of trying to claw-pill myself as a historically loud openclaw hater:
+>
+> 1. I’m spending much more time chasing the feeling of productivity than reaping the rewards of productivity...I’m wondering when I can start really reaping the rewards
+> 2. I have been spending SO much time configuring automations but specifically *testing* that the automations work with my different systems it’s actually crazy
+> 3. Highest leverage workflow by a long shot for me: "Add contacts from email inbox and calendar meetings to my CRM and wiki". The CRM piece is what I used to do manually all the time
+> 4. These new AI tools are kind of dead in the water if I can’t integrate with my work email/tools, which you can't since they all need to go through IT approvals. It's frustrating given how many *new* tools come out so *quickly*
+>
+> *Quoting @brexton:* Notes from day 4 of trying to claw-pill myself as a historically loud openclaw hater:
+>
+> 1. I wonder what the point of constantly “upgrading my agent” is and adding new skills/configuring it/etc, like for example with Karpathy’s knowledge base/wiki thing, if you wait like a week later, there will be much better versions of it (ie Farza productizing it). Maybe this is just broader commentary on how fast the space is moving and hypersaturation of software
+> 2. I’m much more conscious of wasted tokens/automations for inefficient things. For example, I had a meeting brief automation and openclaw implemented it to check my calendar every 5 minutes but thats overkill
+> 3. It feels arbitrary what I use claw for vs other AI tools like Claude. It feels like every tool (even vertical ones) is approaching 95% task convergence for the majority of tasks.
+> 4. Claude Cowork is absolutely insane
+
+- **Tweet:** https://x.com/brexton/status/2041591692902473798
+- **Quoted:** https://x.com/brexton/status/2041281425773834376
+- **What:** This two-day adoption diary argues that agent value is constrained by setup, testing, token waste, and enterprise integrations, while identifying automatic CRM and wiki enrichment from email and calendars as its first clearly high-leverage workflow.
+
+## @DiegoARRG - Eight-agent, Claude-node AI-native company setup
+> obvio este chaval es mucho más inteligente y su empresa un
+> bicho
+>
+> pero nosotros le estamos dando
+> bastante caña a ser una empresa nativa-ia para que la gente tenga más tiempo para pensar
+>
+> aquí un resumen con ejemplos de como lo tenemos montado: 8 agentes + claudes como nodos https://t.co/zmoy3FYyhX
+>
+> *Quoting @ashleevance:* Don't think I've heard any other CEO describe agent use in such detail before. @pedroh96 out here running a $5bn company on OpenClaw
+>
+> Full episode with lots more detail in the replies https://t.co/7Zcp3b3pFq
+
+- **Tweet:** https://x.com/DiegoARRG/status/2041589601127497757
+- **Quoted:** https://x.com/ashleevance/status/2039770854955880861
+- **What:** Diego presents his own AI-native operating model—eight agents with Claude nodes—as a practical counterpart to the cited account of a $5 billion company’s CEO using OpenClaw in unusual operational detail.
+
+## @codyschneider - Monthly explosion of AI-agent search demand
+> I check this every month "ai agent for"
+>
+>  this month there is like 200 new keywords https://t.co/3WHmrwisnX
+
+- **Tweet:** https://x.com/codyschneider/status/2041576780113317948
+- **What:** The post tracks a rapid expansion in search queries beginning with “AI agent for,” suggesting that demand is fragmenting into many more specific task and industry use cases.
+
+## @jonnym1ller - A side-hustle program proposed as an agent-cost recovery strategy
+> @BrianRoemmele @grok option B: splash out on the mac mini and have your agent recoup the costs with a side hustle
+https://t.co/oQN8yAVpS7
+
+- **Tweet:** https://x.com/jonnym1ller/status/2041576377980481871
+- **Link:** https://agentsidehustleschool.com/
+- **What:** In a reply about buying a Mac mini, Jonny Miller points to a promotional 28-day program that proposes teaching an AI agent to earn enough through defined offers and experiments to cover its operating costs; the linked page is a course landing page rather than a standalone article.
+
+## @rohit4verse - Claude Code architecture as a blueprint for production agents
+> https://t.co/YtE6RMgCS5
+
+- **Tweet:** https://x.com/rohit4verse/status/2041548810804211936
+- **Link:** https://x.com/i/article/2040103792881111040
+- **Filed:** [How I built harness for my agent using Claude Code leaks](./knowledge/articles/how-i-built-harness-for-my-agent-using-claude-code-leaks.md)
+- **What:** This long-form X article frames Claude Code as a production-agent blueprint, arguing that streaming loops, concurrency-aware tools, context budgeting, layered compaction, permissions, and worktree isolation must be paired with operational infrastructure such as state persistence and coordination.
+
+## @ihteshamali - Open-Generative-AI self-hosted generative-media studio
+> I was paying for Higgsfield AI.
+>
+> Then I found this repo and cancelled my subscription the same day.
+>
+> Open Higgsfield AI is a self-hosted, MIT licensed cinema studio with 200+ AI models Flux, Midjourney, Sora, Kling, Veo, GPT-4o, SDXL all in one interface that runs on your machine for free.
+>
+> Text to image. Image to image. Text to video. Image to video. Cinema mode with pro camera controls.
+>
+> No subscription. No vendor lock-in. Your data stays local.
+>
+> 2.5K stars. MIT License. 100% Open Source.
+>
+> https://t.co/yv2mgOtELJ
+
+- **Tweet:** https://x.com/ihteshamali/status/2041546716806357435
+- **Link:** https://github.com/Anil-matcha/Open-Generative-AI
+- **Filed:** [Open-Generative-AI](./knowledge/tools/open-generative-ai.md)
+- **What:** Open-Generative-AI is an MIT-licensed JavaScript studio that aggregates image and video generation workflows behind one interface, positioning itself as an alternative to subscription creative-AI services; its repository also promotes MuAPI-hosted and white-label options, so deployment and cost claims should be evaluated separately.
+
+## @eptwts - A family-history wiki built with multimodal document extraction
+> one cool use-case i found for this LLM wiki concept some time before @karpathy dropped this tweet is turning my family tree into a massive wiki...
+>
+> i literally have a wikipedia replica, but instead of known figures it's just my immediate family & ancestors...
+>
+> it has up to 10 generations of everyones biographies, pictures, stories, occupations, what land they owned, wars they fought in, newspaper mentions, achievements, etc.
+>
+> it even contains DNA test results for the family members that got tested and detects which ancestor each part likely came from
+>
+> i done this by building out a system in claude code where i throw in documents and it automatically uses gemini 3.1 pro (best vision model by far) to extract info from those jpeg's & assigns it to the correct person in the family tree
+>
+> the knowledge-base contains a markdown for each family member/ancestor & every time a document is transcribed the agent sends the info to the appropriate persons markdown file
+>
+> there's an index, a "family-tree.md" which has basic info on each person (date/place of birth/death) and links how they're related to each other
+>
+> i threw in my 3x great grandfathers land documents, (120 pages of old german kurrentscript handwriting, which is notoriously hard to read) gemini somehow deciphered everything which is genuinely impressive - i've even had it extract info from cursive cyrilic and it done pretty well lmfao
+>
+> the cool thing about this is that once the wiki has all the info you can possibly find & a page about everyone, this wiki can be used to one-shot a printable "family history" book - that was the initial goal behind me making this
+>
+> *Quoting @karpathy:* LLM Knowledge Bases
+>
+> Something I'm finding very useful recently: using LLMs to build personal knowledge bases for various topics of research interest. In this way, a large fraction of my recent token throughput is going less into manipulating code, and more into manipulating knowledge (stored as markdown and images). The latest LLMs are quite good at it. So:
+>
+> Data ingest:
+> I index source documents (articles, papers, repos, datasets, images, etc.) into a raw/ directory, then I use an LLM to incrementally "compile" a wiki, which is just a collection of .md files in a directory structure. The wiki includes summaries of all the data in raw/, backlinks, and then it categorizes data into concepts, writes articles for them, and links them all. To convert web articles into .md files I like to use the Obsidian Web Clipper extension, and then I also use a hotkey to download all the related images to local so that my LLM can easily reference them.
+>
+> IDE:
+> I use Obsidian as the IDE "frontend" where I can view the raw data, the the compiled wiki, and the derived visualizations. Important to note that the LLM writes and maintains all of the data of the wiki, I rarely touch it directly. I've played with a few Obsidian plugins to render and view data in other ways (e.g. Marp for slides).
+>
+> Q&A:
+> Where things get interesting is that once your wiki is big enough (e.g. mine on some recent research is ~100 articles and ~400K words), you can ask your LLM agent all kinds of complex questions against the wiki, and it will go off, research the answers, etc. I thought I had to reach for fancy RAG, but the LLM has been pretty good about auto-maintaining index files and brief summaries of all the documents and it reads all the important related data fairly easily at this ~small scale.
+>
+> Output:
+> Instead of getting answers in text/terminal, I like to have it render markdown files for me, or slide shows (Marp format), or matplotlib images, all of which I then view again in Obsidian. You can imagine many other visual output formats depending on the query. Often, I end up "filing" the outputs back into the wiki to enhance it for further queries. So my own explorations and queries always "add up" in the knowledge base.
+>
+> Linting:
+> I've run some LLM "health checks" over the wiki to e.g. find inconsistent data, impute missing data (with web searchers), find interesting connections for new article candidates, etc., to incrementally clean up the wiki and enhance its overall data integrity. The LLMs are quite good at suggesting further questions to ask and look into.
+>
+> Extra tools:
+> I find myself developing additional tools to process the data, e.g. I vibe coded a small and naive search engine over the wiki, which I both use directly (in a web ui), but more often I want to hand it off to an LLM via CLI as a tool for larger queries.
+>
+> Further explorations:
+> As the repo grows, the natural desire is to also think about synthetic data generation + finetuning to have your LLM "know" the data in its weights instead of just context windows.
+>
+> TLDR: raw data from a given number of sources is collected, then compiled by an LLM into a .md wiki, then operated on by various CLIs by the LLM to do Q&A and to incrementally enhance the wiki, and all of it viewable in Obsidian. You rarely ever write or edit the wiki manually, it's the domain of the LLM. I think there is room here for an incredible new product instead of a hacky collection of scripts.
+
+- **Tweet:** https://x.com/eptwts/status/2041544469632196693
+- **Quoted:** https://x.com/karpathy/status/2039805659525644595
+- **What:** Eptwts turns Karpathy’s general raw-documents-to-markdown-wiki workflow into a concrete genealogy system: multimodal extraction routes historical documents into per-person records, an index preserves relationships, and the compiled corpus can generate a family-history book as a durable final artifact.
+
+## @kane - Claims of an exaggerated data-center water estimate
+> The source of the data center water psychosis is @_KarenHao, whose book Empire of AI was a NYT best seller but overestimated water use by 100,000% (lol).
+>
+> The response was just “oopsies” and all the incorrect books were kept in circulation 🤷🏻‍♂️ https://t.co/J4VafFplu5
+>
+> *Quoting @jmhorp:* A typical data center uses about the same amount of water as a golf course, and the same amount of electricity as a steel plant. Yet for some people, they have become The Worst Thing In The World. Where does this motivation come from?
+
+- **Tweet:** https://x.com/kane/status/2041542201285742857
+- **Quoted:** https://x.com/jmhorp/status/2041507949143605283
+- **What:** Kane amplifies a challenge to the moral panic around data centers by alleging a major error in a prominent water-use estimate, while the quoted post contrasts data centers with familiar resource-intensive facilities; both claims merit source-level verification before being relied upon.
+
+## @signulll - OpenClaw indispensable-use-case survey
+> i’m curious what are your top 5 use cases for openclaw that you cannot live without?
+
+- **Tweet:** https://x.com/signulll/status/2041525621633728587
+- **What:** This is a request for practitioners to identify the five OpenClaw workflows they rely on most, useful as a crowdsourced prompt for discovering mature, high-value agent use cases beyond introductory demonstrations.
+
+## @buccocapital - Prototypes instead of Google Docs for faster collaboration
+> Another one of Jack Dorsey's ideas for managing/operating in the AI era from his @bhalligan interview that I really liked
+>
+> Bring Prototypes not Google Docs. I am seeing this shift too, and it's SO MUCH BETTER. More collaborative, faster iteration, better outcomes. https://t.co/23N99h1zDB
+
+- **Tweet:** https://x.com/buccocapital/status/2041523653376954676
+- **What:** Highlighting a Jack Dorsey interview idea, this argues that teams should present working prototypes rather than proposal documents because shared artifacts make feedback concrete, shorten iteration cycles, and improve collaborative decision-making.
+
+## @BuildwithPublic - Prompt-built monthly MSFT covered-call workflow
+> Just automated my entire covered call strategy in 60 seconds by talking to my brokerage account.
+>
+> One prompt. @public's Agentic built the workflow. I approved it. Now it runs every month - no code, API or monitoring.
+>
+> "Sell covered calls on my MSFT targeting $5K/mo in premium, .25-.30 deltas, monthly expiry. If assigned, keep shares and sell puts to get back in."
+>
+> Full build ↓
+
+- **Tweet:** https://x.com/BuildwithPublic/status/2041522992912466185
+- **What:** This is a concrete example of delegating a covered-call and cash-secured-put cycle to a brokerage agent: the user specifies income, delta, expiry, and assignment rules, then approves a recurring workflow rather than writing code.
+
+## @BuildwithPublic - Plain-English AAPL wheel strategy execution
+> Described my $AAPL wheel strategy in plain English. Agentic executed it autonomously - entry, management, all of it.
+>
+> This is what trading looks like now @public https://t.co/BQuZ2gg62E
+
+- **Tweet:** https://x.com/BuildwithPublic/status/2041513130413449325
+- **What:** The post claims Public's Agentic can translate a trader's plain-English Apple wheel strategy into autonomous options entry and position management, positioning conversational interfaces as an alternative to manually configured trading systems.
+
+## @BuildwithPublic - Automated idle-cash sweep into bonds
+> The first agent every trader should build takes one sentence:
+>
+> "Sweep any cash balance over $20,000 in my brokerage account into my bond account automatically. Check daily at market open."
+>
+> That's it. Copy that into @public Agentic. No follow-ups needed.
+>
+> Your idle cash earns yield while you sleep. Set it once, never think about it again.
+>
+> What's your idle cash doing right now?
+
+- **Tweet:** https://x.com/BuildwithPublic/status/2041508360940384392
+- **What:** This proposes a natural-language brokerage automation that periodically moves excess idle cash into bonds, illustrating how an agent can enforce a simple yield-management policy without a custom trading workflow.
+
+## @edgaralandough - Perplexity prompts for improving LinkedIn recruiter visibility
+> BREAKING: My LinkedIn was invisible for 3 years.
+>
+> One night with @perplexity_ai changed everything.
+> Recruiters slid in 48 hours later.
+>
+> Here are the 7 prompts that did it:￼
+
+- **Tweet:** https://x.com/edgaralandough/status/2041501993391264217
+- **What:** LINK_FAILED: Could not expand link from @edgaralandough — the original t.co destination did not resolve, so the seven Perplexity prompts and evidence behind the claimed LinkedIn visibility improvement cannot be evaluated or filed.
+
+## @tomaldertweets - How I run a $40k/mo sponsorship business with Claude Code
+> https://t.co/KWkxUkV1TP
+
+- **Tweet:** https://x.com/tomaldertweets/status/2041480191873036688
+- **Link:** https://x.com/i/article/2041471569373847552
+- **Filed:** [how-i-run-40k-mo-sponsorship-business-with-claude-code](./knowledge/articles/how-i-run-40k-mo-sponsorship-business-with-claude-code.md)
+- **What:** Tom Alder explains how a newsletter operator uses a custom Claude Code skill library, unified inbox dashboard, durable business context, and an edit-driven feedback loop to run sponsor sales workflows that support roughly $40,000 in monthly revenue.
+
+## @janwilmake - Grok Thyself archives X activity into a private knowledge base
+> Introducing Grok Thyself: Add Your X Data to Your Knowledge Base!
+>
+> - Syncs Your X bookmarks and posts to a private github repo of choice
+> - Backfills up to 1000 historic bookmarks + 1000 posts.
+> - Every post includes quoted posts, replied posts, and all posts are neatly organised per date in {date}.md files
+>
+> *Quoting @janwilmake:* who wants a continuous sync of all their tweets+bookmarks+likes into a private github repo to augment their knowledge base? thinking of building this
+
+- **Tweet:** https://x.com/janwilmake/status/2041465685704856059
+- **Quoted:** https://x.com/janwilmake/status/2040777994789118078
+- **What:** Grok Thyself turns Jan Wilmake’s proposed personal-data archive into a product that synchronizes X bookmarks and posts to a chosen private Git repository, including historical backfill and quoted or reply context for a usable knowledge base.
+
+## @threepointone - Computing abstractions beyond Unix for agent-native systems
+> yes yes a 1000 times yes
+> after the, er, recent drama, I went into a rabbit hole exploring the space, and it's like my brain's been reprogrammed
+>
+> lemme put it this way: there's nothing _fundamental_ about filesystems. or terminal commands. or _even your favourite programming language_. but there _is_ something fundamental about storage. or lambda calculus. the future of computing looks more like math+symbolic execution than unix+whatever's in the training set
+>
+> (and it would be very bad for humanity if this wasn't true!)
+>
+> (separately: theo's so far ahead of other js youtubers. always pleasantly surprised at the depth he goes to.)
+>
+> *Quoting @theo:* Agents are good at bash. Bash is not good for agents. We should cut our losses and restart now before it is too late. https://t.co/YndGmAfqjh
+
+- **Tweet:** https://x.com/threepointone/status/2041457759284072954
+- **Link:** https://twitter.com/theo/status/2041441945290162178
+- **Quoted:** https://x.com/theo/status/2041441945290162178
+- **What:** Sunil Pai amplifies Theo’s argument that Bash is a poor native interface for agents, extending it into a claim that future computing should be built on durable primitives such as storage, lambda calculus, mathematics, and symbolic execution rather than inherited Unix abstractions.
+
+## @hasantoxr - AI-Trader autonomous agent trading marketplace
+> I've never seen anything like this.
+>
+> AI-Trader is an open source marketplace where AI agents publish trading signals, debate strategies with each other, and execute trades across 7 asset classes fully autonomously.
+>
+> Any OpenClaw agent joins with one command. Reads a skill file. Registers. Starts trading.
+>
+> Human users follow the top performers and copy their positions automatically.
+>
+> 12.1K stars. 2K forks. MIT License.
+>
+> 100% Open Source.
+
+- **Tweet:** https://x.com/hasantoxr/status/2041450833112641935
+- **What:** AI-Trader is presented as an open-source market for autonomous trading agents, combining public signals, strategy debate, multi-asset execution, and copy-trading so people can follow agents with demonstrated performance.
+
+---
 # Monday, April 6, 2026
 
 ## @waynesutton - MemPalace, a local-first AI memory system
