@@ -42917,6 +42917,1110 @@ the move is pick ONE, go deep for 90 days, build real systems... and solve one s
 - **Tweet:** https://x.com/EXM7777/status/1975623163129237604
 - **What:** Machina argues that AI business outcomes come from concentrating existing domain knowledge into systems and frameworks for a single market, rather than spreading attention across trendy, competing service models.
 
+## @X_FINALBOSS - Claimed AI-driven digital-product sales funnel
+> I made >$3.5M in 2024 selling digital products
+>
+> Here's how in 10 steps:
+>
+> 1. make X account (5 sec)
+> 2. pick topic: ecom, websites, sales, etc (5 sec)
+> 3. find #1 influencer in that niche (10 sec)
+> 4. gather their tweets, AI generate 300 tweets
+> 5. Use tweethunter to auto post 10 per day
+> 6. you get 1M+ views minimum per month
+> 7. automatically send link to product to everyone
+> 8. AI generate 5x 200 page ebooks in 35 minutes
+> 9. ~400 people view the checkout page
+> 10. u get 20 sales for $500 each. $10K/month profit
+>
+> ($449K in past 5 weeks)
+> obviously there is more details to this biz
+>
+> if u want the full 65 pg PDF guide on how, comment "PDF" and i'll send.
+>
+> Must be following + Retweet
+
+- **Tweet:** https://x.com/X_FINALBOSS/status/1975610300217860344
+- **What:** A promotional thread claims that automated audience growth, direct outreach, and AI-generated ebooks can form a lucrative digital-product funnel, though its revenue and traffic assumptions are unverified.
+
+## @aaditsh - The trillion-token economy leaderboard
+> OpenAI just published the leaderboard of the trillion-token economy.
+>
+> Here it is:
+>
+> 1/ Duolingo – Isaac Andersen, Senior SWE
+> 2/ OpenRouter – Alex Atallah, CEO & Co-founder
+> 3/ Indeed – Chris Colon, Director of AI Platforms
+> 4/ Salesforce – John Emmons, AI Leadership
+> 5/ CodeRabbit – Harjot Gill, CEO & Co-founder
+> 6/ iSolutionsAI – Cris Ippolite, CEO
+> 7/ Outtake – Jiahui Jiang, Engineering
+> 8/ Uber – Mahesh Kumar, Product Strategist (AI/ML)
+> 9/ Ramp – Calvin Lee, Founding Engineer
+> 10/ Abridge – Zachary Lipton, Co-founder & CTO
+>
+> ...and more across Shopify, Notion, Canva, Cognition, T-Mobile, JetBrains, Zendesk, Perplexity, Datadog, Mercado Libre, Genspark AI, and others.
+
+- **Tweet:** https://x.com/aaditsh/status/1975607630300368907
+- **What:** This reproduces the leading companies and representatives in OpenAI's trillion-token usage list, showing that AI consumption at this scale spans language learning, developer platforms, SaaS, healthcare, and commerce.
+
+## @deedydas - OpenAI reveals its trillion-token customers
+> OpenAI just dropped the top 30 customers who've used 1T+ of their tokens. https://t.co/hoAIzrfOSZ
+
+- **Tweet:** https://x.com/deedydas/status/1975582169126019223
+- **What:** The post flags OpenAI's disclosure of 30 organizations that have each processed more than one trillion tokens, offering a concrete signal of enterprise-scale adoption of its models.
+
+## @haider1 - Codex-assisted agent builder matches AI-2027 forecast
+> OpenAI employee:
+>
+> "the agent builder we released today was built end-to-end in under six weeks, with Codex writing 80% of the PRs"
+>
+> this matches the AI-2027 report's 2026 forecast:
+>
+> - coding automation goes mainstream
+> - agents work like teammates
+> - AI R&D is 50% faster from algorithms, not just compute
+
+- **Tweet:** https://x.com/haider1/status/1975518969193783638
+- **What:** This connects an OpenAI employee's claim that Codex authored most pull requests for a six-week agent-builder launch with AI-2027 predictions of mainstream coding automation and faster AI research.
+
+## @akshay_pachaar - TDD retains a role in vibe-coded engineering
+> FAANG software engineer shares how they vibe code.
+>
+> (TDD is still the key) https://t.co/rujK72QJoE
+
+- **Tweet:** https://x.com/akshay_pachaar/status/1975481986254053517
+- **What:** A FAANG engineer's workflow note frames test-driven development as the essential guardrail when using AI-assisted “vibe coding,” rather than treating automation as a substitute for verification.
+
+---
+# Monday, October 6, 2025
+
+## @vasuman - Whop app partnership playbook for Gen Z
+> Dear Gen-Z, here's how to get rich:
+>
+> 1. Go to ChatGPT and say "give me 20 ideas for a Whop App, based on what you think creators and users on Whop would benefit from. Cross-reference ideas from other app marketplaces like Discord, Shopify, etc to pollinate your ideas".
+>
+> 2. Use my (free) Whop App tutorial to build an MVP of a Whop app in 24 hours. Make it look good, make sure it works, and has the minimum required functionality to capture someone's attention.
+>
+> 3. Record a loom demo of the product with yourself using it. Now pitch that video to the biggest 50 creators on Whop (ranked by revenue or user-count) and offer them 50% of the app in exchange for $10,000 - you build, they use + market it for you.
+>
+> 4. Repeat this for 10 different app ideas if you have to. Guarantee you get an app that works in 30 days. If you don't find anyone to partner with you, your pitch sucks and you need to work on it. Even then, not the end of the world, just launch your app on the Whop app store and users will come to you.
+>
+> There has never been as much alpha up for grabs as there is now. Get to building.
+>
+> *Quoting @unusual_whales:* "70% of Gen Z are so anxious about money that they can’t sleep—they’re dealing with it by bed rotting and watching TV instead of budgeting," per FORTUNE
+
+- **Tweet:** https://x.com/vasuman/status/1975319843575361719
+- **Quoted:** https://x.com/unusual_whales/status/1975183508558750127
+- **What:** Responding to a claim about Gen Z financial anxiety, Vas proposes a concrete entrepreneurial route: use AI to generate Whop app ideas, build quick MVPs, then win distribution by offering high-earning creators a revenue-sharing partnership.
+
+## @readswithravi - Unspecified endorsement with an unexpanded link
+> THIS: https://t.co/sAHy8mi6L3
+
+- **Tweet:** https://x.com/readswithravi/status/1975272374502367356
+- **What:** LINK_FAILED: Could not expand link from @readswithravi; it resolves back to the bookmark rather than an external item, leaving the terse endorsement without enough context to identify its subject.
+
+## @marclou - Vibe-coded SaaS growth through marketing execution
+> 😖😭😤 viBe CoDing doeSN't WoRK 😡😤😭
+>
+> Albert went from 0 to $106,000 MRR in 6 months with a vibe-coded SaaS.
+>
+> Last December, he took CodeFast to learn the basics of coding, hacked together an MVP with ShipFast, and got his first customer posting in Skool groups.
+>
+> He then went all-in on marketing:
+> •Grew an Insta account to 200k followers in months
+> •Built a free Skool community to 95k members
+> •Repeated one viral format over and over
+>
+> By February he had paying customers.
+> By April he hired devs.
+> By July his SaaS does $100k+ MRR.
+>
+> Yes you can vibe code a profitable startup.
+> Yes you need to double down on marketing.
+> Yes you can change your entire life in a year.
+
+- **Tweet:** https://x.com/marclou/status/1975218263564182014
+- **What:** Marc Lou uses Albert’s rapid growth to argue that AI-assisted coding can get a SaaS to market, but durable revenue came from disciplined distribution: audience-building, community creation, repeatable viral content, and sales outreach.
+
+---
+
+# Sunday, October 5, 2025
+
+## @airkatakana - Anthropic’s training-first inference constraint
+> anthropic is the only $183 billion dollar valuation company in the world that has the balls to tell its customers:
+>
+> "we want to use all our gpus on training instead of inference so if youre lucky we'll let you use one of our checkpoints on the way to asi for like, 2 days a week"
+
+- **Tweet:** https://x.com/airkatakana/status/1974750793560637881
+- **What:** Air Katakana frames Anthropic’s intermittent model access as an unusually explicit strategic tradeoff: prioritizing scarce GPU capacity for frontier-model training over reliable inference availability for customers.
+
+---
+
+# Saturday, October 4, 2025
+
+## @nevmed - Personal-feeling copy for a company about page
+> This is such an awesome about page by @thesamparr who wrote a captivating story that keeps you reading the whole way through for his company Hampton.
+>
+> I love personal-feeling copy like this and think it resonates better depending on the product. https://t.co/Bosaa72lDj
+
+- **Tweet:** https://x.com/nevmed/status/1974470840004608408
+- **What:** Neville Medhora highlights Hampton’s About page as an example of personal, story-led company copy that sustains attention and can make a product feel more resonant when it fits the brand.
+
+## @gregisenberg - AI stack for solo builders and operators
+> okay, let me get this straight…
+>
+> 1/ you can use sora 2 to create hollywood level videos in seconds to build audiences of millions
+>
+> 2/ you can deploy donotpay style ai agents that call comcast, cancel subscriptions, and renegotiate bills automatically
+>
+> 3/ you can clone your voice with elevenlabs in under 10 seconds and layer it on heygen avatars to create talking head videos without ever filming
+>
+> 4/ you can run open-source models like llama-3 or kimi k2 on your laptop using ollama or lm studio, no gpu cluster required
+>
+> 5/ you can spin up code agents on cursor or claude code that debug, write tests, and push to github while you’re offline
+>
+> 6/ you can record a loom and drop it into chatgpt to automatically research context, extract insights, prioritize the top ideas, and turn it into a polished blog post
+>
+> 7/ you can drag-and-drop zapier workflows and instantly plug in lindy agents to automate outreach, reporting, research, even legal docs
+>
+> 8/ you can drop a 300-page pdf into perplexity or chatgpt with code interpreter and get a structured memo in under a minute
+>
+> 9/ you can find validated startup ideas someone should build right now with @ideabrowser and then chat with agents to help you build it (i built this for you)
+>
+> 10/ you can spin up interactive mobile funnels in 5 mins with perspective
+>
+> 11/ you can generate personalized landing pages per visitor with mutiny ai or replo, tied to real-time crm data
+>
+> 12/ you can run nano banana (google flash 2.5 in google ai studio) or sora 2 to create 100 ad variations and a/b test them in meta ads manager before you spend a dollar
+>
+> 13/ you can query your data warehouse with chatgpt connected to bigquery or snowflake like it’s imessage
+>
+> 14/ you can use fyxer ai to respond to your emails for you
+>
+> 15/ you can train a custom gpt on your intercom or zendesk docs and have it resolve 70 percent of tickets without human touch
+>
+> 16/ you can scrape competitors with apify or bright data and generate GTM strategies in claude in hours instead of months
+>
+> 17/ you can deepfake yourself into 20 languages using heygen’s dubbing and synthesize global content libraries overnight
+>
+> 18/ you can run AI audits on quickbooks from your ai native brex with tools like flowcog and instantly surface tax write-offs your accountant missed
+>
+> 19/ you can auto-generate a week of social posts with notion ai or typefully that match brand tone, visuals, and cadence
+>
+> 20/ you can upload a csv to shopify magic and spin up a full e-commerce storefront with product descriptions, images, and ads pre-baked
+>
+> 21/ you can deploy voice agents through vapi that call leads, qualify them, update your crm, and hand you a booked call calendar
+>
+> 22/ you can build any personal software you’d like. don’t like your crm? no worries, build your own
+>
+> 23/ you can spin up entire media pipelines in runway, sora 2 and pika labs, from raw text to cinematic short-form content
+>
+> 24/ and way more. this just scratches the surface to get your creative juices flowing this weekend.
+>
+> This is the greatest unlock for solo builders since the App Store.
+>
+> Enjoy it.
+
+- **Tweet:** https://x.com/gregisenberg/status/1974469453942231267
+- **What:** A broad inventory of AI-enabled workflows argues that solo builders can now automate media creation, sales, support, analysis, engineering, and operations, lowering the practical cost of launching specialized businesses.
+
+---
+
+# Friday, October 3, 2025
+
+## @fromzerotomill - AI-assisted affiliate lead-generation funnel
+> made 6 figures last year with the laziest lead-gen system ever:
+>
+> – bought a domain for $9
+> – used AI to build a niche site in 1 day (fitness, crypto, parenting… doesn’t matter)
+> – scraped + repurposed trending articles into 100 blog posts
+> – AI auto-spins them into 50 TikToks & 50 Reels/month
+> – slapped on email capture popups → AI writes the nurture sequence
+> – plugged in an affiliate offer at $997
+> – ~5k site visitors/month → 20 buyers = $20k/month profit
+>
+> people overcomplicate this. it’s literally just stacking AI shortcuts on distribution.
+
+- **Tweet:** https://x.com/fromzerotomill/status/1974175047582720230
+- **What:** Monte outlines a claimed AI-assisted affiliate funnel that pairs mass-repurposed niche content with email capture and a high-ticket offer, illustrating how distribution automation can be stacked into a lean acquisition system.
+
+---
+
+# Thursday, October 2, 2025
+
+## @maccaw - AI supervision replaces much routine coding
+> As a senior software engineer, I can tell you that we’ve crossed a threshold in the last six months with Gemini 2.5, GPT-5, and more recently, Sonnet 4.5.
+>
+> I don’t really code anymore. I prompt and supervise.
+>
+> I’m still needed, because the AI can drift into strange tangents. But with the right scaffolding and rules in place, Sonnet 4.5 has become an excellent coder. Work that used to take me weeks or months now gets done in hours.
+
+- **Tweet:** https://x.com/maccaw/status/1973890926771658813
+- **What:** An experienced engineer describes a workflow shift from writing code to directing and reviewing models, with explicit scaffolding still needed to prevent drift while compressing long implementation cycles.
+
+---
+
+# Monday, September 29, 2025
+
+## @DavidSacks - Claims Wikipedia bias can affect AI training
+> Wikipedia is hopelessly biased. An army of left-wing activists maintain the bios and fight reasonable corrections. Magnifying the problem, Wikipedia often appears first in Google search results, and now it’s a trusted source for AI model training. This is a huge problem.
+>
+> *Quoting @TuckerCarlson:* Larry Sanger built Wikipedia as an unbiased repository of the world’s knowledge, and then stood helplessly by as activists and intel agencies turned it into the most comprehensive propaganda op in human history. There’s nothing more corrupt.
+>
+> (0:00) The Origins of Wikipedia
+> (4:27) Wikipedia’s Dangerous Policy Changes
+> (14:01) Who Is Responsible for Corrupting Wikipedia?
+> (17:47) Why Did Sanger Leave Wikipedia?
+> (19:29) Who Is Wikipedia Co-Creator Jimmy Wales?
+> (23:43) What Does the “Tucker Carlson” Wikipedia Page Say?
+> (27:39) How Does Wikipedia Actually Work?
+> (28:43) How Wikipedia Blacklists Conservatives
+> (37:28) Is Wikipedia Controlled by the Intel Agencies?
+> (40:16) Sanger’s Request to Elon Musk and Donald Trump to Help Fix Wikipedia
+> (49:43) Are Wikipedia Editors Being Secretly Paid to Push Propaganda?
+> (56:06) Wikipedia’s Dark Alliance With Google
+> (1:01:41) How Wikipedia Can Be Saved
+> (1:07:22) Which News Sources Are Blacklisted by Wikipedia?
+> (1:17:29) Why Don’t We Know Who’s Editing Wikipedia?
+> (1:19:53) Should Wikipedia Users Be Able to Rate Articles?
+> (1:22:01) Why Wikipedia Should End Permanent Bans
+> (1:27:16) This Is How to Bring Reform to Wikipedia
+>
+>  Includes paid partnerships.
+
+- **Tweet:** https://x.com/DavidSacks/status/1972750330459996558
+- **Quoted:** https://x.com/TuckerCarlson/status/1972716529608237173
+- **What:** Sacks amplifies Carlson’s interview framing of Wikipedia as politically captured, arguing that its search prominence and use in AI training make alleged editorial bias a wider information-quality concern.
+
+## @tobi - Shopify checkout inside ChatGPT
+> Shopify merchants will be able to sell directly in ChatGPT.
+>
+> We’ve been working with @OpenAI for quite some time so people can search and buy products in chat, and it’s something we’ve had a hard time keeping quiet.
+>
+> Rollout is coming very very soon. https://t.co/11GWCy5DOo
+
+- **Tweet:** https://x.com/tobi/status/1972713979576549565
+- **What:** Shopify says its merchants will soon sell directly through ChatGPT, signaling a shift from chat as product discovery toward an embedded conversational-commerce checkout channel.
+
+## @wizofecom - Scaling a proven business outlier
+> I have watched a friend go from $250,000 a month to $833,000 a month in the last 18 months.
+>
+> We meet every week. He has two info products, takes several vacations a year, and steps into the business only when he sees a real anomaly worth scaling.
+>
+> For the first 14 months, his revenue was predictably between $250k and $350k. He touched $400k a couple times too.
+>
+> A couple months back, he came back from vacation, he spotted a simple funnel that a clear outlier and put full focus on it. That single decision took him from $350-400k to nearly $833k and set a clear line of sight to a 10 million dollar run rate this month.
+>
+> We manage his Twitter and LinkedIn. Those two platforms alone have generated well into seven figures for him over the past couple of years. He has YouTube and newsletter dialed in and just added ads into the mix (profitably).
+>
+> The craziest part is that he has never been micro-obsessed with his business the way many operators are. He knows the right levers to pull. When he sees an opportunity, he goes all in. When he sees a problem, he hires someone exceptional to solve it.
+>
+> He does not worry about next month’s profits. He is focused on where the business can go, not how fast it gets there. He enjoys his life, lives in a penthouse, travels the world, and spends time with his fam.
+>
+> Watching his growth for the last 18 months always shocks me, he makes it looks effortless. He is simply doing the boring work with precision day after day. He knows that one of those moves will eventually click, and when it does, he scales & automates it relentlessly.
+
+- **Tweet:** https://x.com/wizofecom/status/1972640375970951446
+- **What:** Describes a creator-led information-products business that allegedly doubled revenue by concentrating on one unusually effective funnel, while durable social distribution, media channels, and selective automation created the capacity to scale it.
+
+---
+
+# Friday, September 26, 2025
+
+## @forgebitz - Reddit visibility drops in ChatGPT citations
+> 1:30 friday night
+>
+> so that means only one thing; more data
+>
+> rddt seems to be (almost) removed from chatgpt citations https://t.co/ugfOWy2vXF
+
+- **Tweet:** https://x.com/forgebitz/status/1971717413289992467
+- **What:** Reports an apparent near-removal of Reddit from ChatGPT citation results, an observation that could matter to publishers and SEO practitioners tracking which sources AI answer systems surface.
+
+## @maxxmalist - Scarcity-driven membership funnel for beginners
+> there's a guy with 10k ig followers making $15k/month with ZERO ad spend
+>
+> his offer is literally called “let’s make it back” and sells out in seconds every time
+>
+> like, rt + reply with 'OFFER' and i'll send you step-by-step playbook on how he do it (must follow so i can dm)
+>
+> *Quoting @maxxmalist:* i met a guy that ran one of the most evil plays i’ve seen
+>
+> he has 10k followers on ig (faceless), he positions himself as this smart wealthy dude, not flexing too hard so it feels “real”
+>
+> he’s targeting total beginners in the make money online world
+>
+> had no clue what course to drop so he made one literally called “let’s make it back”
+>
+> inside? a few random methods
+> good enough so anyone can make the $250 back in a month (ex flipping on vinted, flipping iphones, smma for locals)
+>
+> price is $250/month, 60 members = $15k MRR with ZERO ad spend
+>
+> there's a challenge inside, whoever makes it back fastest “wins”
+>
+> prize is usually just a hoodie, cup, coffee with him, and a spin in his m4
+>
+> lame? sure, but for broke teenagers it sounds like a dream day
+>
+> these kids grind 14h/day just to win what gives him endless testimonials, “life-changing” stories
+>
+> he reposts these testimonials on story, create insane fomo, drop slots every 3 months, all soldout in seconds
+>
+> that’s how you make $15k mrr doing basically nothing
+
+- **Tweet:** https://x.com/maxxmalist/status/1971627914040168941
+- **Quoted:** https://x.com/maxxmalist/status/1970492893962870981
+- **What:** Highlights a claimed $15,000 monthly, no-ad-spend membership funnel that packages basic moneymaking ideas with contests, testimonial-driven FOMO, and limited enrollment; the author characterizes the targeting of beginners as exploitative.
+
+## @eptwts - Niche SaaS for genealogy research
+> when people think about saas - they think their software needs to help people make money...
+>
+> but there are extremely passionate communities out there with shared desires that are completely disconnected from making money...
+>
+> for example, lets look at a software like billiongraves...
+>
+> it lets users index graves & thus acts a database of graves all around the world
+>
+> this is a very simple, but valuable tool for anyone that performs geneological research
+>
+> they monetize via. premium tiers which can access more records, can access pictures of graves, etc.
+>
+> such a simple saas now has 10-50 employees & pulls in roughly $5m-$20m - but people on X are convinced you need to be solving revolutionary problems to see a milly
+>
+> find literally any passionate community & create software that solves their problems, then distribute it the right way & you'll be swimming in cash
+
+- **Tweet:** https://x.com/eptwts/status/1971621767413428723
+- **What:** Uses the BillionGraves genealogy database as an example of how serving an enthusiast community with a focused, practical SaaS can support premium subscriptions without directly helping users make money.
+
+## @maxxmalist - Rapid low-ticket offer validation loop
+> how to test multiple low-ticket offers per day 101:
+>
+> firstly get 'i need a quality product to run ads' out of your head
+>
+> you don’t
+>
+> grab a free pdf, rewrite with AI
+>
+> create a simple lp (good copy + 2-3 min vsl + buy now button)
+>
+> run ads to your landing page
+>
+> sales coming in? now improve the product
+>
+> you can set the whole thing up in 2 hours
+>
+> bookmark this for later
+
+- **Tweet:** https://x.com/maxxmalist/status/1971581876390264852
+- **What:** Presents a rapid demand-validation loop for low-priced digital offers: test a lightweight landing page and paid traffic first, then invest in improving a product only after sales demonstrate demand.
+
+## @Austen - Gauntlet AI Fellowship for Experienced Engineers
+> Engineers! We want to:
+>
+> Fly you to Austin
+>
+> Give you an apartment
+>
+> Clean your room
+>
+> Do your laundry
+>
+> Feed you 3x/day
+>
+> Help you master building with AI
+>
+> And give you a $200k+ job.
+>
+> You pay nothing, ever, no matter what. Even if you don’t take the job.
+>
+> https://t.co/06w4S94fMp
+
+- **Tweet:** https://x.com/Austen/status/1971555731460731130
+- **Link:** https://apply.gauntletai.com/
+- **What:** Gauntlet AI is recruiting experienced software engineers for a free 10-week AI-engineering fellowship with three remote weeks and seven onsite in Austin, covering living support and pitching post-program roles above $200,000; this is an application landing page rather than standalone educational material.
+
+## @maxxmalist - Whop Apps as an Early Marketplace Opportunity
+> whop apps are the biggest opportunity for vibe coders and people who wants to make money on the side, even without any knowledge
+>
+> every platform has its gold rush moment
+>
+> shopify had it in 2009. the first devs in walked away with millions just for showing up early. no ads, no crazy funnels, just timing
+>
+> i won't even start about early days of app store and people making millions from flashlight apps or beer simulators
+>
+> by now that gold rush is over. shopify, app store and wordpress are crowded, the big players dominate, and you’re fighting a losing game if you start today
+>
+> but whop? they quietly opened their app store last month and it’s basically untouched. hardly any competition, and a few apps are already scaling past $100k/mo with no paid traffic
+>
+> the move is obvious: map what exists, check what crushed on older platforms, and spin out your version in n8n/cursor in hours
+
+- **Tweet:** https://x.com/maxxmalist/status/1971550878793355339
+- **What:** This argues that Whop's recently opened app marketplace may resemble earlier Shopify and App Store land-grabs, encouraging rapid research into proven app categories and low-code implementation; the opportunity claims should be validated against actual marketplace demand and competition.
+
+---
+
+# Thursday, September 25, 2025
+
+## @CoFoundersNik - Tai Lopez’s $230M Retail Investor Fundraising Allegations
+> Who the freak gave Tai Lopez $230,000,000??
+>
+> 660+ retail investors from social media campaigns (I’m not joking).
+>
+> An average of ~$350k each!
+>
+> Allegedly:
+> - Tai took $12M for himself
+> - Mehr took $3m
+> - Millions raised for acquisitions were spent on operating losses
+>
+> So how did Tai convince 660+ people to invest money in Pier 1, Radio Shack & Dress Barn??
+>
+> Twitter, YouTube and Instagram.
+>
+> They ran a high pressure sales approach with zoom calls, events and trips to PR all sourced from their social followings.
+>
+> The red flags were all there:
+> - Investments were unsecured notes (debt). THEY DIDN’T EVEN OWN EQUITY!
+>
+> - 25% preferred returns
+>
+> - No regulatory filings or registration
+>
+> But here’s where it gets really unbelievable:
+> The President, COO and Chief Risk Officer was 38 year old Maya Burkenroad with 10+ years experience managing multi-million dollar companies.
+>
+> How did someone so experienced let this happen?
+>
+> Because that was a lie. Maya is Tai’s cousin who, before this, was:
+> - a substitute teacher
+> - radio station promoter
+> - assistant to Tai
+>
+> I don’t get it. I do not understand how they raised $230M from 660+ investors.
+>
+> I don’t think I could raise $1M and Tai is out here raising 9-figures.
+>
+> Dude is an incredible salesman. Wasted talent.
+>
+> Mind blowing
+
+- **Tweet:** https://x.com/CoFoundersNik/status/1971412670701240465
+- **What:** This post recounts allegations that social-media-led, high-pressure campaigns raised $230 million from retail investors for distressed retail acquisitions, while stressing unsecured notes, promised returns, missing filings, and disputed management credentials as investor-protection red flags.
+
+## @aribk24 - Early-Stage GEO Tactics for AI Agent Discovery
+> rip SEO
+>
+> we are getting more and more clicks from LLMs everyday
+>
+> ranking in claude + openAI will never be easier
+>
+> here are some tips
+>
+> - create LLM.txt files
+> - use ai reddit + quora bots to make posts
+> - lock in getting a ton of organic traffic
+> - optimize pages for SEO ( low bounce rate)
+>
+> the future of all organic traffic will come from ranking in ai agents
+>
+> imagine you knew how to rank on google before anyone
+>
+> that’s how early we are with GEO
+
+- **Tweet:** https://x.com/aribk24/status/1971365198490698042
+- **What:** This frames generative-engine optimization as an early acquisition channel, pairing llms.txt and conventional engagement signals with attempted visibility in AI-mediated discovery; its proposed automated forum posting also highlights the temptation toward low-quality distribution tactics.
+
+## @eptwts - Affiliate Content Funnels That Build a Retained Audience
+> if i went completely broke & had no money to invest into biz, here's what i'd do to start making a decent income online...
+>
+> i'd go to the whop discover page & find some whops that are performing well - making sure that they're in high-value niches (e.g. trading, sportsbetting, bizopp)
+>
+> when you look up a certain keyword on the discover page, you'll automatically be shown some of the top-perfoming whops within that niche
+>
+> at this point you'll want to look up their socials and reverse engineer their organic strategy
+>
+> when you find a whop that is killing it organically & also has good affiliate commissions, you'll basically want to create "alt" accounts for them & replicate their content
+>
+> this content will promote the whop & drive traffic towards the referral link...
+>
+> but here's the real sauce - you should add an "alternate channel" in the funnel, this can be for example, an email list or a telegram channel
+>
+> you need to have a way of storing the traffic, that way you're not just sending them to an affiliate link & letting them run away if they don't convert...
+>
+> this alternate channel will become a super useful asset in the future when you want to promote your own whop in the same niche
+>
+> in short, you're:
+> > finding a whop that's doing well, is in a high-value niche & has a good affiliate commission
+> > reverse engineering their organic content strategy
+> > replicating it & sending the traffic to a newsletter or a telegram channel
+> > shilling your affiliate link within that channel alongside related sauce
+
+- **Tweet:** https://x.com/eptwts/status/1971325549466296739
+- **What:** This proposes a bootstrapped affiliate-marketing funnel: study successful Whop sellers' organic distribution, recreate the approach, and send prospects to an owned email or Telegram channel so non-converting traffic can support later offers.
+
+## @sama - ChatGPT Pulse introduces proactive personal briefings
+> Today we are launching my favorite feature of ChatGPT so far, called Pulse. It is initially available to Pro subscribers.
+>
+> Pulse works for you overnight, and keeps thinking about your interests, your connected data, your recent chats, and more. Every morning, you get a custom-generated set of stuff you might be interested in.
+>
+> It performs super well if you tell ChatGPT more about what's important to you. In regular chat, you could mention “I’d like to go visit Bora Bora someday” or “My kid is 6 months old and I’m interested in developmental milestones” and in the future you might get useful updates.
+>
+> Think of treating ChatGPT like a super-competent personal assistant: sometimes you ask for things you need in the moment, but if you share general preferences, it will do a good job for you proactively.
+>
+> This also points to what I believe is the future of ChatGPT: a shift from being all reactive to being significantly proactive, and extremely personalized.
+>
+> This is an early look, and right now only available to Pro subscribers. We will work hard to improve the quality over time and to find a way to bring it to Plus subscribers too.
+>
+> Huge congrats to @ChristinaHartW, @_samirism, and the team for building this.
+
+- **Tweet:** https://x.com/sama/status/1971297661748953263
+- **What:** Sam Altman introduces Pulse as a Pro-only feature that uses saved interests, connected data, and recent chats to assemble overnight personalized updates, illustrating OpenAI's intended move from a reactive chat interface toward a proactive personal assistant.
+
+## @benhbader - AI lead-generation gold-rush critique
+> Yeah bro the best way to capitalize on the greatest technological advancement of our lifetime is definitely selling AI lead gen to dentists. See you at the Lambo dealership!
+
+- **Tweet:** https://x.com/benhbader/status/1971288102607126586
+- **What:** This sarcastic critique targets the tendency to channel broad AI capabilities into formulaic agency-style lead generation for narrow local-business niches, questioning whether short-term monetization hype is commensurate with the technology's wider potential.
+
+## @levelsio - Cloudflare's email-sending service as infrastructure
+> Cloudflare today launched their own Email Sending service
+>
+> VERY cool, because by default every email service we use for sending for our websites gets acquired by private equity or IPOs and goes to shit
+>
+> It happened to MailChimp, then SendGrid, then Postmark
+>
+> It's just the nature of the beast, it's not a good business to be in, but it's essential for any website to be able to send emails
+>
+> @Cloudflare is so big ($75B) that for them it can just be a service as part of their general offering
+>
+> Because in 2025 maybe email sending should just be a feature, not a company
+>
+> P.S. please let me use Cloudflare Email with a basic JSON API, preferrably SendGrid/Postmark-compatible
+
+- **Tweet:** https://x.com/levelsio/status/1971244547981070758
+- **What:** Pieter Levels frames Cloudflare's email-sending launch as durable infrastructure rather than a standalone SaaS business, arguing that the provider's scale could avoid the quality decline he associates with acquisition-driven email platforms and requesting a compatible JSON API.
+
+---
+
+# Tuesday, September 23, 2025
+
+## @eptwts - Product validation, no-code SaaS, and distribution thread
+> this thread will teach you how to build a product, validate the idea & distribute it…
+>
+> it covers:
+> > product types
+> > validating your idea
+> > how to build saas for free even if you can't code
+> > taking payments
+> > distribution channels & alternate channels
+> > selling directly to cold traffic vs. adding a second layer
+>
+> unfold the thread to begin reading 🧵
+
+- **Tweet:** https://x.com/eptwts/status/1970570326980599953
+- **What:** This thread promises an end-to-end solo-founder framework spanning product selection, validation, free no-code implementation, payments, and distribution, with particular attention to the trade-off between direct cold-traffic sales and adding an intermediate layer.
+
+## @alexgroberman - SEO Stuff's claimed AI-search citation playbook
+> I've been reviewing SEO Stuff (https://t.co/MMsDTFf4rg) customer data for September and...
+>
+> Wow.
+>
+> The growth trend is holding steady and around 85% of customers continue to reorder.
+>
+> Before I break down why this system works so well right now...
+>
+> If you want a couple of the behind-the-scenes cheat codes we use to generate traffic from ChatGPT in about 30 days, just:
+>
+> Follow me
+>
+> RT this post
+>
+> Reply “SEO Stuff Cheat Codes 2025”
+>
+> You have to do all 3 for the DM.
+>
+> Alright, here’s the system SEO Stuff customers are using right now:
+>
+> 1. Snippet-Ready Content
+>
+> Google is still the main citation layer for AI, and winning snippets is more important than ever. September’s updates show Gemini and Perplexity both leaning heavily on snippet-style content.
+>
+> That’s why the Gold Plan (https://t.co/0bys4lUm4E) and Premium Content Bundle (https://t.co/FRvqPC1uEF) are designed around structured H2s and H3s, direct answers up front, and summary sections that are easy for LLMs to lift.
+>
+> This approach increases the odds of winning featured snippets in Google and getting cited directly inside ChatGPT, Claude, and Perplexity.
+>
+> 2. High-Authority PR + Backlinks (DR50+)
+>
+> In 2025, authority is the number one deciding factor for both rankings and citations. AI engines filter out low-trust sources.
+>
+> That’s why every Gold Plan (https://t.co/0bys4lUm4E) and Premium Backlink Bundle (https://t.co/Sr22Jg4guU) includes DR50+ backlinks from real, clean domains, all of which are already trusted by ChatGPT, Claude, and Gemini.
+>
+> We combine these with PR-style placements to expand brand authority. The outcome: stronger rankings, higher domain trust, and more citations in AI answers.
+>
+> 3. AI Search Optimization (ChatGPT, Claude, Gemini, Perplexity)
+>
+> The AI layer of search is evolving fast, and September has reinforced three best practices:
+>
+> Citation-friendly formatting which features plain language, short bullets, inline stats, and clear comparisons.
+>
+> Prompt-path alignment which is content structured for prompts that LLMs prefer to cite. “Best X for Y” = roundups. “How to” = step-by-step breakdowns.
+>
+> Freshness integration since Gemini and Claude continue rewarding recently updated or published content. Our publishing cadence is tuned so your content stays eligible for recall.
+>
+> 4. Google AI Overviews (AIOs)
+>
+> Google’s AI Overviews are changing the search landscape. September data shows more queries now trigger Overviews compared to midsummer.
+>
+> That’s why SEO Stuff added a dedicated AIO feature. Customers get:
+>
+> AIO Visibility Reporting to see which keywords trigger Overviews and whether they’re cited.
+>
+> Citation Engineering so your content is structured, linked, and formatted in a way that Google’s AI is most likely to cite.
+>
+> AI Mentions Monitor rolling out shortly, included at no extra cost. It tracks where your brand or competitors appear across ChatGPT, Claude, Gemini, and Perplexity.
+>
+> Every major AI system favors the same signals:
+>
+> Clean, concise, structured content
+>
+> Backlinks and mentions from trusted domains
+>
+> Recency and relevance
+>
+> Brands that show up in conversation across the web
+>
+> If you don’t have those, you will get skipped, even if your content is accurate.
+>
+> That’s why around 85 percent of customers reorder.
+>
+> SEO Stuff doesn’t rely on subscriptions or contracts. The results are what bring people back.
+>
+> Try it today: https://t.co/wKpf0EILTx
+>
+> And again, if you want those cheat codes for getting ChatGPT traffic in about 30 days, follow me + RT this post + reply “SEO Stuff Cheat Codes 2025.”
+>
+> Do all 3 and I’ll DM them to you.
+
+- **Tweet:** https://x.com/alexgroberman/status/1970507850918306084
+- **Link:** https://www.seo-stuff.com/gold-plan-package
+- **What:** This promotional post packages a claimed AI-search strategy around snippet-ready content, DR50+ placements, fresh publishing, and AI Overview monitoring; its value is as a concrete vendor playbook and a set of claims to validate independently.
+
+---
+
+# Monday, September 22, 2025
+
+## @JamesEbringer - Reverse-engineering high-performing Whop funnels
+> Go on Whop
+>
+> Search for a niche (trading, sports betting, crypto, health etc)
+>
+> Search for the best-selling products
+>
+> And reverse engineer
+>
+> Check the marketing
+>
+> Check the funnel
+>
+> Check the sales mechanisms
+>
+> Check the monetisation strategies (most of the time there are multi-layer monetisations like an entry fee, affiliations to other platforms/products)
+>
+> Duplicate what they do with your own turns
+>
+> Make $$$
+>
+> Easy as that
+>
+> You don't need to reinvent the wheel
+>
+> All you need to do is to find something that works well and replicate it
+>
+> I found a product that makes $1M/month and studied the whole system within 5 mins
+
+- **Tweet:** https://x.com/JamesEbringer/status/1970258387083366756
+- **What:** A market-research tactic for digital products: inspect leading offers in a Whop niche to map their positioning, acquisition funnel, sales mechanics, and layered monetization, then adapt the validated structure rather than inventing every element anew.
+
+## @joshk - Voice AI as a telephone API for enterprises
+> Voice AI is getting so good over the phone that it’s basically becoming a permissionless API to the enterprise.
+>
+> Enterprises can restrict APIs, but they can’t restrict incoming calls.
+>
+> OpenTable won’t give you API access to make/modify/cancel a reservation? A voice agent can just call and do it.
+>
+> The telephone may be amongst the most underrated developer platforms of 2025.
+
+- **Tweet:** https://x.com/joshk/status/1970176432140616133
+- **What:** Voice agents can interact with businesses through the universally available phone channel when formal APIs are unavailable, making telephony a practical integration layer for tasks such as managing reservations despite API access restrictions.
+
+## @fromzerotomill - Testing demand before scaling information offers
+> how to make $1k/day in info without being a guru:
+>
+> don’t build an audience
+>
+> - build funnels then buy traffic
+>
+> don’t wait 6 months to launch an offer
+>
+> - test multiple ones before doubling down
+>
+> don’t solve problems no one cares about
+>
+> - test demand by googling what pains exist
+>
+> be a money printer and not a guru.
+
+- **Tweet:** https://x.com/fromzerotomill/status/1970153867242307845
+- **What:** A direct-response approach to information products that prioritizes finding real customer pain, rapidly testing several offers, and using paid acquisition funnels before investing in a personal audience or a single long launch cycle.
+
+## @alxnderhughes - Claimed OpenAI prompting techniques
+> OpenAI engineers don't prompt like everyone else.
+>
+> I reverse-engineered their internal techniques from leaked docs and demos.
+>
+> The difference is insane.
+>
+> Here are the 5 insider methods they don't want you to know:
+
+- **Tweet:** https://x.com/alxnderhughes/status/1970066389970112738
+- **What:** This bookmark flags a thread claiming to distill five prompting practices associated with OpenAI engineers, offering a starting point for assessing how professional prompt workflows may differ from generic instruction writing.
+
+---
+
+# Saturday, September 20, 2025
+
+## @aakashgupta - McKinsey's agentic AI delivery framework
+> McKinsey literally breaks down how to ship agentic AI that works https://t.co/MMJvmLF26t
+
+- **Tweet:** https://x.com/aakashgupta/status/1969597475762946483
+- **What:** LINK_FAILED: Could not expand link from @aakashgupta. The bookmark points to an unavailable McKinsey breakdown of how to move agentic AI from concept to reliable production delivery.
+
+## @eptwts - Youth Unemployment as Context for Whop Participation
+> cause 10.5% of us are on whop... https://t.co/KjbnD9Nk1M
+>
+> *Quoting @unusual_whales:* US unemployment rate for ages 16-24 is 10.5%, per WaPo
+
+- **Tweet:** https://x.com/eptwts/status/1969494981074202770
+- **Quoted:** https://x.com/unusual_whales/status/1969027950088515996
+- **What:** EP juxtaposes the reported 10.5% unemployment rate among Americans aged 16–24 with Whop participation, implying that weak youth employment may help explain why young people seek online marketplace income.
+
+## @signulll - Why Thoughtful Posting on X Compounds
+> guys, being vocal on x is such a ridiculous cheat code. it rewires your own psyche privately &amp; compounds dividends publicly.
+
+i can’t recommend it enough.
+
+set your mind loose. do it with taste &amp; class.
+
+- **Tweet:** https://x.com/signulll/status/1969436089027789004
+- **What:** Signüll frames consistent, tasteful public writing on X as a compounding practice: it sharpens the writer’s private thinking while expanding public reach and creating durable professional opportunities.
+
+## @alexgroberman - Turning ChatGPT Usage Patterns into an AI-Search Content Strategy
+> A 10,000+ word study was recently released on how people actually use ChatGPT.
+
+It highlighted some slick ways SEO Stuff (https://t.co/MMsDTFf4rg) has quietly been getting customers traffic + visibility for months.
+
+Now that these methods are no longer a secret, let's discuss them.
+
+But before I launch into a full breakdown...
+
+If you want 3 currently "unconfirmed" cheat codes for landing your business in ChatGPT within ~30 days, just RT this post + follow me + reply with "SEO Stuff Secret Cheat Codes" and I'll DM you.
+
+You must do all 3 for the DM.
+
+Alright, let's start with the study itself.
+
+The 10,000-word breakdown from Aaron Chatterji, Thomas Cunningham, David J. Deming, Zoe Hitzig, Christopher Ong, Carl Yan Shan & Kevin Wadman really dives deep into pretty much everything that is currently known about ChatGPT user behavior.
+
+I'll link to it below; it is worth a read if you have the time.
+
+Most people will skim the charts and move on, but if you care about visibility and customer acquisition, this is a playbook for turning AI conversations into revenue.
+
+ChatGPT had more than 700 million weekly active users as of July 2025.
+
+Of that group, 46 percent of all usage comes from 18–25 year olds.
+
+Basically an entire generation is forming buying habits inside AI search instead of Google.
+
+The study breaks down conversations into seven topical groups, but three stand above others.
+
+Together, they make up 77 percent of all ChatGPT conversations.
+
+1. Practical Guidance (29 percent)
+
+These are the classic “how-to” and problem-solving questions:
+
+“How do I fix my leaky faucet?”
+
+“What’s the best way to meal prep?”
+
+“How do I optimize my LinkedIn profile?”
+
+The way to capitalize on this is to create step-by-step guides that naturally mention your products and services.
+
+When someone asks ChatGPT for advice in your niche, your brand should be the cited source.
+
+This is where the SEO Stuff Gold Plan (https://t.co/MMsDTFf4rg) comes in, by the way.
+
+Ten long-form, snippet-ready articles designed for how-to and guidance queries, paired with DR50+ backlinks to reinforce authority.
+
+2. Seeking Information (24 percent, growing fastest)
+
+This category has grown from 14 percent of usage to 24 percent in one year.
+
+These are direct research and buying-intent queries:
+
+“What are the best project management tools?”
+
+“Which CRM is right for small businesses?”
+
+“What’s the difference between React and Vue?”
+
+This is bottom-funnel traffic happening inside ChatGPT and Perplexity instead of Google.
+
+These queries represent buyers weighing options and looking for trusted recommendations.
+
+This is the core of the Premium Content Bundle (https://t.co/5osvnSaiGB) over at SEO Stuff.
+
+Sixty long-form articles built as comparison pages, feature breakdowns, and buyer guides.
+
+They are structured with scannable H2s, direct answers in the first two sentences, and schema markup so LLMs extract them cleanly.
+
+3. Writing Assistance (24 percent)
+
+Requests here include:
+
+“Write an email to my boss about a raise”
+
+“Help me draft a proposal”
+
+“Create a social media caption”
+
+If you sell writing tools, templates, or services, this is your entry point.
+
+Create content that solves common writing problems and positions your solution as the next step.
+
+So how do you capture all this traffic?
+
+Well, the study provides the data.
+
+Here is how to translate it into action:
+
+Start by building ChatGPT-friendly content.
+
+Lead with direct answers in the first two sentences
+
+Use numbered lists and subheadings
+
+Add schema for key facts and processes
+
+Break sections with transitions so LLMs can extract summaries
+
+This is baked into every SEO Stuff package that features content, but the Premium Content Bundle (https://t.co/5osvnSaiGB) is where it scales.
+
+Sixty pieces of content built with this structure guarantees coverage across dozens of queries.
+
+Also, target how-to and problem-based queries.
+
+29 percent of all ChatGPT usage is practical guidance.
+
+That means your best opportunities come from targeting queries like:
+
+“How to solve [problem] for [audience]”
+
+“Step-by-step guide to [desired outcome]”
+
+“Best practices for [specific situation]”
+
+This is where the Gold Plan (https://t.co/MMsDTFf4rg) excels.
+
+Each article is structured around these combinations, with backlinks to establish trust.
+
+And then of course you need to build out comparison and best of content.
+
+Information-seeking queries are pure buyer intent. Build content around:
+
+“Best [tool type] for [use case] in 2025”
+
+“[Product A] vs [Product B]: Full comparison”
+
+“Top 10 [solutions] for [specific problem]”
+
+This is the foundation of the Premium Content Bundle (https://t.co/5osvnSaiGB), designed for businesses that need to dominate bottom-funnel, high-conversion searches.
+
+And of course authority remains key.
+
+ChatGPT favors authoritative sources.
+
+That means backlinks, mentions, and consistent reinforcement of your brand as an entity.
+
+Without them, your content never gets pulled into AI responses.
+
+This is why the Premium Backlink Bundle (https://t.co/BMl9QCGGn3) exists.
+
+Three DR50+ backlinks on trusted, relevant sites send the signal that your content can be trusted.
+
+The study also shows how people interact with ChatGPT.
+
+49 percent of queries are Asking (research and questions)
+
+40 percent are Doing (drafting, summarizing, creating)
+
+Basically, users ask for information and then immediately act on it.
+
+If your content is not cited at the Asking stage, you are absent at the Doing stage where buying decisions get reinforced.
+
+SEO Stuff’s system is built for this.
+
+Gold Plan content wins citations.
+
+Premium Content ensures coverage of information-seeking queries.
+
+Premium Backlinks give the authority boost needed to actually surface inside AI-generated answers.
+
+So what do you track in this new age of search?
+
+Brand mention volume inside AI responses
+
+Referral traffic where users searched your brand after an AI answer
+
+Organic growth in long-tail queries (AI optimization helps Google too)
+
+Conversion rates from AI-influenced visitors
+
+SEO Stuff customers get this analysis built into their strategy reports. You know, the ones that come with every single premium package (Gold, Premium Content, Premium Backlink).
+
+This is why more than 85 percent of SEO Stuff customers reorder.
+
+They can see, in real data, how Google rankings lead directly to ChatGPT visibility and how that turns into sales.
+
+All of which is to say, this study confirms what SEO Stuff has been building toward.
+
+ChatGPT and other AI search engines are not a side project or something to be dismissed, they are the new front door to the internet.
+
+If you want to capture buyers today and build an advantage that compounds, you need content designed for AI extraction, authoritative backlinks, and a structure that feeds both Google and ChatGPT.
+
+That is exactly why the Gold Plan (https://t.co/MMsDTFf4rg), Premium Content Bundle (https://t.co/5osvnSaiGB), and Premium Backlink Bundle (https://t.co/BMl9QCGGn3) exist.
+
+They are engineered to map directly to the three usage patterns driving ChatGPT.
+
+That is why SEO Stuff customers are not just ranking in Google, they are being cited across ChatGPT, Perplexity, Gemini, Claude, and Bing where purchase decisions are being made.
+
+And again, if you want 3 currently "unconfirmed" cheat codes for landing your business in ChatGPT within ~30 days, just RT this post + follow me + reply with "SEO Stuff Secret Cheat Codes" and I'll DM you.
+
+You must do all 3 for the DM.
+
+- **Tweet:** https://x.com/alexgroberman/status/1969423977442656606
+- **Link:** https://www.seo-stuff.com/gold-plan-package
+- **What:** A promotional AI-search playbook maps ChatGPT’s practical-guidance, information-seeking, and writing-assistance use cases to direct-answer content, comparison pages, structured markup, and authority-building backlinks.
+
+## @EXM7777 - Building Content Authority for ChatGPT Mentions
+> if you want your business to be mentioned in ChatGPT, do this:
+
+- create educational content that answers every possible question in your niche
+- publish detailed case studies with specific examples and measurable results
+- get featured in established publications and industry resources
+- build content that other credible websites link to and reference
+- maintain consistent quality over time so AI models recognize you as a reliable source
+
+you need to become the definitive expert resource in your space so AI naturally references your content when people ask relevant questions
+
+- **Tweet:** https://x.com/EXM7777/status/1969415253709766726
+- **What:** This is a content-authority playbook for increasing the chance of being mentioned in ChatGPT: answer niche questions comprehensively, publish evidence-rich case studies, earn reputable citations, and sustain quality.
+
+## @EXM7777 - Feedback on Machina’s Practical Prompt Engineering Course
+> "best prompt engineering course i've seen"
+
+"this course teaches prompt engineering in practical manner. the best so far, hard to believe it's free."
+
+"good sh*t, machina is the goat when it comes to AI and prompts"
+
+"absolutely mindblowing how you teach ai better than every paid course!"
+
+thank you all, means a lot
+
+- **Tweet:** https://x.com/EXM7777/status/1969400917742272528
+- **What:** Machina collects testimonials praising a free, practical prompt-engineering course, signaling that its hands-on teaching approach is perceived as competitive with paid AI-training products.
+
+## @jacobrodri_ - App cloning as a route to $35,000 monthly revenue
+> This guy quit his job, started cloning apps and now makes $35,000/month
+>
+> Cloning what already works is the easiest and fastest way to make money... https://t.co/Zzh8VplDS8
+
+- **Tweet:** https://x.com/jacobrodri_/status/1969388233877266451
+- **What:** The post uses an alleged $35,000-per-month app-cloning success story to argue for copying validated products, but the embedded link resolves back to the tweet rather than documenting the case study or its economics.
+
+## @kyrinahlis - Skool business returns to the top ranking
+> For a moment we lost #1 on Skool.
+>
+> Back we back.
+>
+> $500K/M approaching.
+>
+> Imagine the backend 👀 https://t.co/YKi8Y3njQd
+
+- **Tweet:** https://x.com/kyrinahlis/status/1969364217196146933
+- **What:** This is a milestone claim from a Skool community operator who says the business regained the platform’s top ranking and is nearing $500,000 in monthly revenue, while hinting at substantial operational infrastructure.
+
+## @alex_prompter - AI prompts for personal and business taxes
+> The IRS is cooked.
+>
+> AI can now simulate deductions, flag risks, and prep filings in minutes.
+>
+> Here’s the exact prompts I use to automate personal + business taxes:
+
+- **Tweet:** https://x.com/alex_prompter/status/1969339939902144639
+- **What:** The post promotes a prompt-driven workflow for modeling deductions, identifying filing risks, and preparing tax materials, framing AI as an accelerator rather than a replacement for tax compliance judgment.
+
+---
+
+# Friday, September 19, 2025
+
+## @alex_prompter - Guide to how people use ChatGPT
+> A cool guide to how people use ChatGPT https://t.co/Fpc0gyqN3L
+
+- **Tweet:** https://x.com/alex_prompter/status/1969042841633456252
+- **What:** This bookmark recommends a guide about real-world ChatGPT use, but its shortened URL resolves only to the same tweet, leaving the actual guide and its supporting evidence unavailable.
+
+## @ConnorShowler - Reddit monitoring drives branded searches
+> 1. Sign up with [REDACTED] AI
+>
+> 2. Use it to monitor keyword or brand name mentions on Reddit.
+>
+> 3. Use our AI response frameworks to craft helpful comments that subtly shill your brand as the solution.
+>
+> 4. Watch brand name search queries start rolling in. 🚄📈
+>
+> *Quoting @conormartinai:* @ConnorShowler seeing some nice brand name search queries already, thank you sir
+
+- **Tweet:** https://x.com/ConnorShowler/status/1969037240350179350
+- **Quoted:** https://x.com/conormartinai/status/1969035225842765911
+- **What:** The exchange presents Reddit mention monitoring and AI-assisted responses as a way to seed branded search demand, with the quoted reply offered as early anecdotal validation of the tactic.
+
+## @Prathkum - AI makes clear problem framing the core coding skill
+> Coding was never really about writing code.
+>
+> It was about breaking a problem into steps, imagining the edge cases, and knowing where trade-offs live.
+>
+> AI just took away the boring part.
+>
+> What’s left is the real work: thinking clearly.
+
+- **Tweet:** https://x.com/Prathkum/status/1969017728435380670
+- **What:** Pratham argues that code generation shifts software work toward decomposition, edge-case analysis, and trade-off judgment, making clear problem framing—not mechanical code entry—the skill that determines whether AI-assisted development succeeds.
+
+## @shl - mediaconverter: Gumroad's self-hosted HLS conversion service
+> 🆕 Gumroad’s video conversion service that transforms video files into HLS streaming formats using FFmpeg is now open-source!
+>
+> Self-hosting this on Hetzner saves us 90% versus AWS MediaConvert.
+>
+> https://t.co/XER5NlskYG
+
+- **Tweet:** https://x.com/shl/status/1968993188422484213
+- **Link:** https://github.com/antiwork/mediaconverter
+- **Filed:** [mediaconverter](./knowledge/tools/mediaconverter.md)
+- **What:** Gumroad open-sourced its Go-based FFmpeg service for asynchronously converting source videos into HLS renditions; Sahil reports that self-hosting it on Hetzner cuts the company’s video-conversion cost by 90% compared with AWS MediaConvert.
+
 ---
 
 # Thursday, September 18, 2025
@@ -43134,8 +44238,82 @@ the move is pick ONE, go deep for 90 days, build real systems... and solve one s
 - **Quoted:** https://x.com/sqs/status/1968486037845389763
 - **What:** Levels.io uses Nomad List’s $120,000 annual Slack bill and migration to free Telegram to reinforce Quinn Slack’s warning that Hack Club faces a sudden 60-fold nonprofit price increase, showing how per-seat SaaS pricing can destabilize large community platforms.
 
----
+## @aryanXmahajan - Selling AI-powered employee capabilities instead of automations
+> there's STUPID money in being the AI orchestrator for companies
+>
+> most of you are missing this goldmine because you're stuck selling $500/month zapier workflows
+>
+> here's what i mean:
+> companies are dying to use AI but 99% of employees just dump random thoughts into ChatGPT and wonder why it sucks
+>
+> the opportunity?
+>
+> create sophisticated AI systems that regular employees can actually operate
+>
+> example: we help brands scale on LinkedIn with content
+>
+> normally you'd hire a ghostwriter for $3K/month (vet them, create SOPs, pray they don't mess up your brand voice)
+>
+> instead i built AI ghostwriter systems - think Claude projects with comprehensive context profiles, brand voice training, validation workflows
+>
+> one employee operates the entire system and produces output that rivals top-tier freelancers
+>
+> the business model is so powerful because you're not selling another automation
+>
+> you're selling AI-powered employee capabilities that didn't exist before
+>
+> companies will pay $5K-15K/month for systems that actually work vs broken workflows they have to babysit
+>
+> most businesses are completely bamboozled by AI implementation because they're stuck in the "prompt engineering" mindset
+>
+> when what they actually need is systematic AI integration that their existing teams can leverage
+>
+> this isn't about selling another workflow automation - it's about creating AI-powered employee capabilities that didn't exist before
+>
+> smart operators are building AI infrastructure that turns regular employees into specialists
+>
+> this isn't about replacing people - it's about systematic AI integration at the operational level
+>
+> the market is massive because 99% of companies know they need AI integration
+>
+> but have no framework for actually implementing it at an operational level
 
+- **Tweet:** https://x.com/aryanXmahajan/status/1968836096332276098
+- **What:** Aryan proposes a higher-value AI services model: package context, brand rules, validation, and operating workflows into systems that let existing employees reliably perform specialist work, rather than selling fragile one-off automations.
+
+## @rileybrown - Turning engineers into influencers as a company media strategy
+> Been doing this for 3 months.
+>
+> More effective than I thought it would be. https://t.co/MpuPgtZVBa
+>
+> *Quoting @businessbarista:* I’m turning all of my engineers into influencers.
+>
+> Bringing the barstool or WWE playbook to nerd land.
+>
+> I’m either a genius or a fucking idiot.
+>
+> Time will tell.
+
+- **Tweet:** https://x.com/rileybrown/status/1968808229271445834
+- **Quoted:** https://x.com/businessbarista/status/1968801984024064145
+- **What:** Riley reports that, over three months, the quoted strategy of turning engineers into public-facing creators has worked better than expected, supporting a media model that gives technical companies recognizable individual voices.
+
+## @vasuman - Following payment signals to validate AI business ideas
+> You could do this but there’s too many people who simply “want” an ai tool but aren’t willing to pay anything for it
+>
+> To figure out what to build and what is actually going to make you $$$ follow the money not the words
+>
+> I did this for the last few businesses and offers I ran and it worked every single time
+>
+> Tool lets you track money trends based on keyword, and is free on Whop. Happy building.
+>
+> *Quoting @hridoyreh:* This is how I find $1M business ideas: https://t.co/gPZJSYyArP
+
+- **Tweet:** https://x.com/vasuman/status/1968769452511739997
+- **Quoted:** https://x.com/hridoyreh/status/1968616069418909799
+- **What:** Vas reframes the quoted promise of finding million-dollar ideas as a validation problem: prioritize observable spending and keyword-level money trends over free user demand before building an AI product or offer.
+
+---
 # Wednesday, September 17, 2025
 
 ## @EXM7777 - Hands-on AI mentorship as an alternative to passive courses
