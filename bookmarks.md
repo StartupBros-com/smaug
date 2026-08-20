@@ -521,6 +521,117 @@
 - **Tweet:** https://x.com/realmadhuguru/status/2090242427944833047
 - **What:** Madhu Guru recommends deriving a precise failure taxonomy from hundreds of production traces so each distinct retrieval, grounding, refusal, or ambiguity failure can become a targeted eval and improvement loop.
 
+## @LinearUncle - Herdr agent runtime for revived Omarchy hardware
+> 如果你有一台旧电脑在吃灰，别浪费啊， 拿来跑agent!
+> 别犹豫了， 赶紧装上最近爆火的Linux Omarchy 发行版！十几年前 4GB 的电脑都行！
+>
+> 非常轻量，安装只要几分钟，我的旧Windows 笔记本已经上车了！
+>
+> 安装完毕后，推荐 2 个方案跑agent任务：
+> 1. herdr (https://t.co/K8PrsCDMm6) 主控电脑上命令行操作远程omarchy，就像在自己电脑上
+> 2.  https://t.co/lqgNbi8RYw 类似linear（jira,禅道）的ai任务管理系统，在主控电脑上给远程电脑派发任务异步执行
+>
+> *Quoting @dhh:* You don't actually need to buy a new computer to enjoy Omarchy. It's a verifiable youth tonic for old hardware. We have endless testimonials from people bringing back 10+ year old machines — some with as little as 4GB RAM! — and enjoying them more with Omarchy than a modern mac.
+
+- **Tweet:** https://x.com/LinearUncle/status/2090277530230223301
+- **Link:** https://github.com/herdrdev/herdr
+- **Quoted:** https://x.com/dhh/status/2089973876818072055
+- **Filed:** [herdr](./knowledge/tools/herdr.md)
+- **What:** The bookmark pairs DHH's argument that Omarchy revives decade-old machines with as little as 4GB RAM with a practical Chinese workflow for turning them into remote agent workers, using Herdr for terminal control and Multica for asynchronous task dispatch from a primary computer.
+
+## @biwills - Cloudflare GitHub Actions Runner for private jobs
+> i've been playing around with running github actions on cloudflare the past few weeks.. introducing:
+>
+> npx cloudflare-github-actions-runner
+>
+> an easy cli to set up cloudflare containers w/ your github accounts/orgs
+>
+> - walks you through all the steps
+> - generates a private & custom github app
+> - only enabled for private repos
+> - supports caching build assets with R2
+> - all containers are ephemeral
+> - supports all default cloudflare container sizes
+> - support custom machine sizes (change runs-on)
+>
+> zero config to manage, everything is handled for you
+>
+> just change
+> runs-on: ubuntu-latest
+> to
+> runs-on: cloudflare-ubuntu-latest
+>
+> https://t.co/rZ4LPpB76J
+>
+> *Quoting @elithrar:* related: use Cloudflare Sandboxes as a self-hosted GitHub Actions runner.
+>
+> since Sandboxes support Docker-in-Docker, you can offload your runners to CF infra. good middle-ground between "will my Actions run at all" and "migrate to @cloudflare/ci" 😎 https://t.co/W0eK9up5Ql
+
+- **Tweet:** https://x.com/biwills/status/2090248844470792498
+- **Link:** https://github.com/biw/cloudflare-github-actions-runner
+- **Quoted:** https://x.com/elithrar/status/2087885798502748615
+- **Filed:** [cloudflare-github-actions-runner](./knowledge/tools/cloudflare-github-actions-runner.md)
+- **What:** This TypeScript CLI provisions a GitHub App and disposable Cloudflare Container runners for private repositories, with R2-backed dependency caching and preset or custom `runs-on` sizes; the quoted post frames the approach as a middle ground between unreliable Actions capacity and adopting Cloudflare CI outright.
+
+## @_0xpainn - Free GLM-5.3 access through ZCode
+> https://t.co/Ha5b67ZdHu just made GLM-5.3 FREE in the ZCode app starting today 😳
+>
+> it's their new flagship model. same base as GLM-5.2, all gains from post-training. launched today.
+>
+> what you get for $0:
+> -5M GLM tokens every day
+> -50% better coding than GLM-5.2 on https://t.co/Ha5b67ZdHu's Code Bench
+> -SOTA among open-source models on Terminal-Bench 3.0
+> -1M context, 128K output
+>
+> this replaces:
+> -Claude Pro: $20/mo
+> -Kimi K3: $3/M in, $15/M out
+>
+> all for $0
+>
+> how to grab it (2 min):
+>
+> step 1: go to https://t.co/pzmGQY2ZUH
+> >download the desktop app
+> works on mac, windows, linux
+>
+> step 2: create an account
+> >sign up with email, no card
+>
+> step 3: manage model > choose plan
+> >pick the $0.00 plan
+>
+> and you get GLM-5.3 for $0
+>
+> no official end date yet
+>
+> this is the easiest way to get GLM-5.3 right now
+>
+> Or use https://t.co/zfBzl48isH straight in the browser.
+>
+> Works in Cline, Kilo Code, Claude Code, and any OpenAI-compatible tool.
+>
+> Important: the $0 plan's daily quota is 5M tokens - confirm it in the app after signup. reasoning is always-on, no way to switch it off.
+>
+> try this before it gets crowded
+>
+> *Quoting @_0xpainn:* After cancelling $200/mo Claude plan
+> I replaced Opus 5 with Deepseek V4 Pro on teamorouter 99.9% off right now, basically free
+> and i plugged it into the official deepseek harness setup
+> here is how (3 min) 1. sign up at https://t.co/IPrMlG1po5
+> 2. grab your api key
+> 3. add it in custom provider in deepseek harness
+>
+> base url is https://t.co/6aqlf3XtCw
+> it also works with codex, claude code, hermes, openclaw and more
+> This is one of the best thing you ll do this week
+
+- **Tweet:** https://x.com/_0xpainn/status/2089978274050912729
+- **Link:** https://chat.z.ai/
+- **Quoted:** https://x.com/_0xpainn/status/2089679010070450383
+- **What:** The bookmark promotes a free daily GLM-5.3 allowance through ZCode and contrasts it with an earlier claim that a discounted Teamorouter route to DeepSeek V4 Pro could replace an expensive Claude plan, presenting third-party model access as a lower-cost coding-agent alternative.
+
 ---
 # Tuesday, August 18, 2026
 
@@ -82459,6 +82570,678 @@ This one is so special. Get ready!
 
 ---
 
+# Thursday, July 20, 2023
+
+## @CaseyMericle - Repurchase options for liquidity-constrained sellers
+> You: My offer is $1,000,000
+>
+> Seller: It’s worth $2,000,000
+>
+> Y: Whew, idk about that. But you need cash today for something is that right?
+>
+> S: Yes
+>
+> Y: How about this I’ll buy it at $1MM & give you an option to buy it back for a year at $1.1 MM
+>
+> That way you can take that cash to go solve a problem & I can buy something
+>
+> We’ll both agree that if you don’t come back it wasn’t really worth $2MM, because if it was you would’ve bought it again
+>
+> But in the meantime you’ve got your fingers on my money & your property
+>
+> What do ya say?
+
+- **Tweet:** https://x.com/CaseyMericle/status/1681990468270280705
+- **What:** Casey Mericle proposes buying an asset at a discounted cash price while granting the seller a one-year repurchase option at a premium, a structure that supplies urgent liquidity, compensates the buyer for capital at risk, and tests the seller’s asserted valuation.
+
+---
+
+# Wednesday, July 19, 2023
+
+## @BrianFOConnor - How leaders make million-dollar decisions
+> Why do top 500 companies keep decisions secret?
+>
+> Each choice could lose MILLIONS.
+>
+> So for 6 years:
+> I helped these leaders choose their best option.
+>
+> 10 tips to reveal how $1M+ decisions are actually made (that you can use today):
+
+- **Tweet:** https://x.com/BrianFOConnor/status/1681650525555642368
+- **What:** Brian O’Connor introduces a ten-part guide based on six years advising senior leaders on high-stakes choices, aiming to translate the confidential decision practices behind potential million-dollar losses into techniques usable by operators without enterprise access.
+
+---
+
+# Tuesday, July 18, 2023
+
+## @tdinh_me - Unverified $500K landing-page build claim
+> This landing page costs $500K to build: https://t.co/5gFgQohnnm
+
+- **Tweet:** https://x.com/tdinh_me/status/1681510293187473408
+- **What:** LINK_FAILED: Could not expand link from @tdinh_me; the sole shortened URL resolves only to this tweet, so the purported $500,000 landing page cannot be inspected to assess its design, implementation, or rationale for the stated cost.
+
+## @JarrodDeaton - Ten alternatives to bank financing for business growth
+> Most entrepreneurs think banks are the only way to get loans.
+>
+> The reality?
+>
+> They’re often the worst place to look.
+>
+> Here’re 10 ways I’ve funded my business growth to $13m annual revenue.
+
+- **Tweet:** https://x.com/JarrodDeaton/status/1681272704400228353
+- **What:** Jarrod Deaton introduces a practical funding thread drawn from building a $13 million annual-revenue business, arguing that founders should look beyond conventional banks and evaluate multiple financing structures that better fit growth-stage constraints.
+
+## @NathanLands - Code Interpreter as an affordable personal developer
+> Code Interpreter has been out for 10 days, and it's incredible. It's like having a personal dev capable of running scripts for $20.
+>
+> Some are even calling it GPT4.5. I think they're right.
+>
+> Here are the best examples and resources I've found:
+
+- **Tweet:** https://x.com/NathanLands/status/1681257509296955397
+- **What:** Nathan Lands frames ChatGPT Code Interpreter as a major practical capability jump because a low-cost subscription can execute scripts and give non-programmers hands-on development assistance, then introduces a curated thread of early use cases and learning resources.
+
+---
+
+# Sunday, July 16, 2023
+
+## @TanmayS_Chauhan - Ten psychological triggers for sales copy
+> In 1977, The world's Highest-paid Copywriter started a workshop.
+>
+> Each participant paid $4000.
+>
+> For 23 years, he taught the same 10 Psychological triggers to boost Sales.
+>
+> Here's a breakdown: https://t.co/IYhtoNDOYE
+
+- **Tweet:** https://x.com/TanmayS_Chauhan/status/1680563097700794375
+- **What:** A copywriting thread promises a breakdown of ten enduring persuasion triggers taught in a long-running premium workshop, connecting behavioral psychology to more effective sales messaging.
+
+---
+
+# Friday, July 14, 2023
+
+## @ModestMitkus - Six no-cost website traffic tactics
+> My website makes me $30,000/month.
+>
+> Sadly, most people still don't know how to get website visitors.
+>
+> Here're 6 easy ways how to get traffic and sales (with $0): https://t.co/pHw8cq2BPq
+
+- **Tweet:** https://x.com/ModestMitkus/status/1679846176995299329
+- **What:** A website owner offering six free acquisition tactics, positioning organic traffic generation as the practical link between a site’s audience growth and its sales potential.
+
+---
+
+# Thursday, July 13, 2023
+
+## @thechrisperry - Memorializing product-management interview questions
+> Google is standardizing interview questions (finally?) so I am forced to retire my bootleg interview questions. In honor of the great service they've done over 200+ PM interviews, I'm going to do a thread that I expect no one to read but I have no other way to memorialize them.
+
+- **Tweet:** https://x.com/thechrisperry/status/1679493168478273536
+- **What:** A product-management interviewer plans to preserve a battle-tested question set used across 200-plus interviews after Google’s standardized process renders those informal prompts obsolete.
+
+---
+
+# Wednesday, July 12, 2023
+
+## @petergyang - Shopify's meeting-cost accountability experiment
+> Shopify deleted 12,000 meetings this year.
+>
+> Today, they went a step further with a tool that shows the $$$ cost of holding meetings.
+>
+> I spoke to @nejatian (Shopify's COO) about meeting bloat and protecting craft time.
+>
+> Here are 6 spicy takes from our interview 👇 https://t.co/0CWxcscNua
+
+- **Tweet:** https://x.com/petergyang/status/1679130177819881475
+- **What:** Peter Yang previews an interview with Shopify COO Kaz Nejatian on replacing meeting overload with visible cost accounting, so teams can defend uninterrupted time for focused craft.
+
+## @Codie_Sanchez - Due diligence before business partnerships
+> Every time I’ve had a business partnership go badly it’s because of one thing:
+>
+> I didn’t do enough homework upfront.
+>
+> Here’s what I wish I did instead:
+
+- **Tweet:** https://x.com/Codie_Sanchez/status/1679121939934199810
+- **What:** A partnership lesson framing failed ventures as a diligence failure: founders should investigate a prospective partner’s incentives, track record, and working fit before committing.
+
+## @thejustinwelsh - A reusable $4M solo-business blueprint
+> My entire $4M business plan:
+>
+> (feel free to steal) https://t.co/8SVpnsyZBR
+
+- **Tweet:** https://x.com/thejustinwelsh/status/1679100949116092416
+- **What:** LINK_FAILED: Could not expand link from @thejustinwelsh; the short URL loops to the source post, but the bookmark promises a reusable business-plan blueprint behind Justin Welsh's reported $4M solo business.
+
+---
+
+# Tuesday, July 11, 2023
+
+## @Codie_Sanchez - AI marketing platform for independent auto-repair shops
+> I found a company that’s disrupting a $780B/year industry.
+>
+> • The market: Auto repair
+> • The target: Locally-owned shops
+> • The product: All-in-one AI marketing
+>
+> Here’s the breakdown:
+
+- **Tweet:** https://x.com/Codie_Sanchez/status/1678759558192197633
+- **What:** Codie Sanchez tees up a company breakdown about all-in-one AI marketing for locally owned auto-repair shops, illustrating a vertical-software opportunity in a large but fragmented traditional service market.
+
+---
+
+# Saturday, July 8, 2023
+
+## @cremieuxrecueil - PNAS analysis of personality and intelligence
+> PNAS recently published what is hands-down the most detailed study of the relationship between measured personality and intelligence
+>
+> Let's go through it
+>
+> First up: Neuroticism and the General Factor of Personality
+>
+> Intelligence is negatively related to uneven temper and anxiety! https://t.co/dGyyOU8tvi
+
+- **Tweet:** https://x.com/cremieuxrecueil/status/1677791286848356353
+- **What:** LINK_FAILED: Could not expand link from @cremieuxrecueil; the post introduces a detailed PNAS study of personality–intelligence relationships and highlights an inverse association between intelligence, anxiety, and emotional volatility.
+
+## @girdley - The Green Box Exercise for end-of-life preparedness
+> What happens in the days after you die?
+>
+> It will be horrible for your loved ones.
+>
+> I just learned about something you can do to make that easier for them:
+>
+> The Green Box Exercise. https://t.co/Yuy9uW3n7j
+
+- **Tweet:** https://x.com/girdley/status/1677652513686958082
+- **What:** LINK_FAILED: Could not expand link from @girdley; the short URL loops to the source post, while the tweet points to the Green Box Exercise as a way to organize information and reduce the practical burden on loved ones after a death.
+
+---
+
+# Friday, July 7, 2023
+
+## @CharlieBennett - Sam Parr's three-step content framework
+> The genius who made $30M from content creation:
+>
+> Sam Parr.
+>
+> The secret to his success?
+>
+> His 3-step system for creating irresistible content: https://t.co/q8tOd8Otxm
+
+- **Tweet:** https://x.com/CharlieBennett/status/1677354370596315140
+- **What:** LINK_FAILED: Could not expand link from @CharlieBennett; the short URL loops to the source post, but the bookmark identifies Sam Parr's claimed three-step system for producing content that attracts an audience.
+
+## @SteveOnSpeed - Early lessons in wealth building
+> 22 life lessons that most people who will never become millionaires learn the hard way.
+>
+> 1: Being authentic &gt; being nice.
+>
+> 2. Money is attracted to people who work.
+>
+> 3. If you're easily offended, find something productive to do.
+
+- **Tweet:** https://x.com/SteveOnSpeed/status/1677306735827058688
+- **What:** This is the opening of a 22-point motivational thread that links wealth-building to authenticity, sustained work, and emotional resilience; the saved excerpt establishes the thread's mindset-focused framing rather than documenting the full list of lessons.
+
+---
+
+# Thursday, July 6, 2023
+
+## @Codie_Sanchez - Small-business sale multiples by industry
+> How much do small businesses sell for?
+>
+> Top 10 industries by earnings multiple:
+>
+> 1. Education &amp; Children - 3.09x
+> 2. Online &amp; Technology - 3.08x
+> 3.  Manufcaturing - 2.95x
+> 4. Automotive &amp; Boat - 2.91x
+> 5. Wholesale &amp; Distributors - 2.64x
+
+- **Tweet:** https://x.com/Codie_Sanchez/status/1677082750908547072
+- **What:** This partial valuation ranking compares earnings multiples for small-business sectors, showing education, online technology, manufacturing, automotive, and wholesale near the top; it is useful as a quick screen for where lower-middle-market acquisitions may command stronger exit prices.
+
+---
+
+# Wednesday, July 5, 2023
+
+## @FluentInFinance - Seven tax-planning tips for keeping more income
+> Taxes are your biggest expense in life so strategic tax planning is a must, pay your legal share and not a dollar more.
+>
+> Tax code is over 75,000 pages and the wealthy use every page to legally avoid taxes (and you should too)
+>
+> Here are 7 tax tips that can save thousands:
+
+- **Tweet:** https://x.com/FluentInFinance/status/1676672757281456128
+- **What:** This is the opening to a practical tax-planning thread that frames lawful use of deductions and tax-code provisions as a major wealth-preservation lever, while promising seven techniques intended to reduce an individual's tax bill by thousands.
+
+---
+
+# Monday, July 3, 2023
+
+## @awilkinson - Personal Monopoly subscriptions for true fans
+> What if I told you you could create a $1,000,000+ recurring revenue business with 80-97% net margins that would take less than 10 hours a month of work?
+>
+> Sounds like a scam, doesn't it.
+>
+> But read on.
+>
+> Kevin Kelly says you only need 1,000 true fans.
+>
+> This creates what I call a Personal Monopoly:
+>
+> https://t.co/5MCINU2DMi
+>
+> If you have 1,000 superfans, you can do anything.
+>
+> You can tap them to help you with projects.
+>
+> You can start a new business in a heartbeat.
+>
+> You can use them to amplify your message.
+>
+> As of today, I have far more than 1,000 fans.
+>
+> Around 231,000 followers on Twitter.
+>
+> This is insanely powerful, but of course, most of those aren't True Fans.
+>
+> There's a lot of noise. Maybe 5% of my followers are true fans.
+>
+> And a ton of it is spam, or critics, or even bots.
+>
+> And because it's so noisy I've come to ignore most of the messages and replies.
+>
+> So, as an experiment, for the next few months I'm using Twitter's Subscription features and letting my true fans subscribe for $29 a month.
+>
+> First of all, it's insane that more people with big audiences aren't using this paid subscription feature.
+>
+> Basically, you set a monthly price, and you gate certain tweets as only for your subscribers.
+>
+> This is, if it works, one of the world's best businesses.
+>
+> Just for being you, and engaging with your top 5% fans, you could effectively build a crazy profitable, $1M+ recurring revenue business.
+>
+> Lets do the math:
+>
+> 1% conversion on 230,000 = 2,300
+> $800,400 in Annual Recurring Revenue
+>
+> 2.5% conversion on 230,000 = 5,750
+> $2,001,000 in Annual Recurring Revenue
+>
+> 5% conversion on 230,000 = 11,500
+> $4,002,000 in Annual Recurring Revenue
+>
+> And if you do it right, it will actually make your subscribers money (helping them with their businesses) and make you money outside of the subscription (find opportunities, partners, deals, etc in my case).
+>
+> It reminds me of Howard Stern getting ripped off by Sirius XM: https://t.co/geLHez1NM3
+>
+> We're all farmers sitting on oil, harvesting vegetables when we should be drilling.
+>
+> Today, I'm drilling the oil.
+>
+> Here's what I'm doing for my subscribers:
+>
+> - Quick responses to any questions or pitches
+>
+> - Monthly Subscriber Only Ask Me Anything sessions on Zoom (the first one is coming up this Friday!)
+>
+> - Sharing opportunities for jobs and partnerships - I'm always looking for people to run companies and deals and new businesses to buy. (I'm already in discussions with a few subscribers about partnering on projects.)
+>
+> - Creating a subscriber-only WhatsApp group chat so we can all discuss stuff and ask questions
+>
+> - Whatever else my 1,000 True Fans want.
+>
+> I'll report back on how it goes. So far, I have over 130 paid subscribers.
+>
+> I'm doing my first subscriber only AMA on Zoom this Friday at 10:15AM PST. Be there or be square.
+>
+> Subscribe now, I'll be tweeting out the details in a few hours to my subscribers :-)
+>
+> *Quoting @awilkinson:* Things can go wrong in life.
+>
+> Your business can fail.
+>
+> You can lose all your money.
+>
+> But there's one thing you can't lose. And it gives you an insane advantage.
+>
+> A following.
+>
+> Nobody can take away a massive email list or social media following.
+>
+> And why is this powerful?
+>
+> It creates what I call a Personal Monopoly.
+>
+> It means that you can, with one tweet, launch a new business to hundreds of thousands of people for free.
+>
+> This is a profound advantage in life. Marketing is expensive.
+>
+> When most people launch their businesses, it's like a fart in the wind.
+>
+> They make a tweet to their 100 followers.
+>
+> They buy a few small ads.
+>
+> They try to get in the press.
+>
+> Usually nobody notices.
+>
+> But with a huge social following, you can instantly reach 100,000, 500,000 or even 1,000,000+ people in seconds.
+>
+> All you need is 1,000 true fans, and you're good forever.
+>
+> To me, this is more powerful than having money.
+>
+> I'd rather have 10 million Twitter followers than $10,000,000.
+>
+> But building that following is a lot of work.
+>
+> Creating content is stressful and time consuming and pulls you away from "the knitting" — your day job.
+>
+> Unless you want to become a full-time influencer (which is a recipe for a miserable life, IMO), you're best staying focused on your business.
+>
+> So, today, Tiny is launching a new business to help people build their personal monopolies.
+>
+> It's called Foundry.
+>
+> TLDR: The team at Foundry builds loyal audiences for entrepreneurs and investors by creating content that's authentic across all their channels.
+>
+> Newsletter. Social. YouTube. Podcasts. You name it.
+>
+> Think of it as autopilot for building a personal brand.
+>
+> Foundry was created based on my own personal experience and, ironically, this tweet in and of itself is a testament to my Personal Monopoly idea.
+>
+> I'm using the 225,000 Twitter followers that I've painstakingly built over the past 5 years to launch a new business that will probably do over $1,000,000 in revenue this year.
+>
+> Do you want to be able to write a tweet like this? Go talk to Foundry :-)
+>
+> https://t.co/GxisJN7G1P
+
+- **Tweet:** https://x.com/awilkinson/status/1675887322678824960
+- **Link:** https://awilkinson.medium.com/howard-stern-is-getting-ripped-off-1b721cc2f3f2
+- **Quoted:** https://x.com/awilkinson/status/1668678904935247873
+- **Filed:** [howard-stern-is-getting-ripped-off](./knowledge/articles/howard-stern-is-getting-ripped-off.md)
+- **What:** Wilkinson tests a $29-per-month X subscription for high-intent followers, extending his claim that a loyal audience is a portable “Personal Monopoly” and using the Howard Stern comparison to argue that direct fan access may be an underexploited, high-margin business.
+
+---
+
+# Saturday, July 1, 2023
+
+## @dom_lucre - X Blue's two-hour video upload limit
+> So Elon Musk, you say you want me to upload the tinfoil hat-supporting, conspiracy theory-filled, Fall of The Cabal Movie Full Version? Well, that is a crazy request, but I got you Big Musk, don't say I never did anything for you. https://t.co/YN2WqOYPrL
+>
+> *Quoting @elonmusk:* Twitter Blue Verified subscribers can now upload 2 hour videos (8GB)!
+
+- **Tweet:** https://x.com/dom_lucre/status/1675012781781680130
+- **Quoted:** https://x.com/elonmusk/status/1659238056132501506
+- **What:** This quote uses X Blue's newly announced two-hour, 8 GB video-upload limit to propose hosting a video the author describes as conspiracy-laden, illustrating how expanded publishing capacity can also amplify contentious long-form material.
+
+---
+
+# Thursday, June 29, 2023
+
+## @matt_gray_ - The 80/20 System for Energy and Focus
+> How to gain energy, focus, and clarity (as fast as humanly possible).
+>
+> The 80/20 System: https://t.co/ZU4c0Q6qgf
+
+- **Tweet:** https://x.com/matt_gray_/status/1674390988658180096
+- **What:** Matt Gray promotes an “80/20 System” intended to improve energy, focus, and mental clarity quickly, presenting it as a prioritization framework for concentrating effort on the habits and actions with the largest personal payoff.
+
+---
+
+# Wednesday, June 28, 2023
+
+## @BrianFeroldi - Investor Visuals on Long-Term Stock Returns
+> 15 visuals every investor should memorize:
+>
+> 1: In the long run, stocks win: https://t.co/MBHRdLEvGN
+
+- **Tweet:** https://x.com/BrianFeroldi/status/1674024195989151745
+- **What:** Brian Feroldi begins a visual investor-education series with the historical case for long-term stock ownership, using memorable charts as a way to ground investing decisions in broad market-return patterns rather than short-term noise.
+
+---
+
+# Wednesday, June 21, 2023
+
+## @AliAbdaal - Starting a YouTube Channel From Zero
+> I have 4,391,728 Youtube Subscribers.
+>
+> If I were to start from 0 in 2023, here’s exactly what I’d do: https://t.co/4Ye6lrrD7X
+
+- **Tweet:** https://x.com/AliAbdaal/status/1671515918017462272
+- **What:** Ali Abdaal introduces a beginner-focused YouTube growth guide informed by the scale of his own channel, promising to translate an established creator’s experience into an actionable starting strategy for 2023.
+
+---
+
+# Monday, June 19, 2023
+
+## @thejustinwelsh - Reclaiming Time After a 9-to-5
+> When I worked a 9 to 5, this was my schedule:
+>
+> - Wake up at 5:30
+> - Get ready/drink coffee
+> - 1-hour commute at 7:30a
+> - In office from 8:30a to 5:00p
+> - Go to the gym from 5:00p to 6:00p
+> - 1-hour commute back home at 6:15p
+> - Dinner &amp; 2 hours of quality time w/ my wife
+>
+> But now?
+
+- **Tweet:** https://x.com/thejustinwelsh/status/1670767197902315521
+- **What:** Justin Welsh contrasts a tightly scheduled office-and-commute routine with the implied freedom of his current work, using the time costs of employment to introduce a personal case for building a more flexible professional life.
+
+---
+
+# Thursday, June 15, 2023
+
+## @hunterhammonds - Design Agency Revenue Playbook
+> My design agency made $135,000 in the first 30 days.
+>
+> It's about to hit $250k/mo. $15k per client.
+>
+> Here's how we did it 🚀 https://t.co/gOGVOaPZ4L
+
+- **Tweet:** https://x.com/hunterhammonds/status/1669330295554981889
+- **What:** Hunter Hammonds frames a rapid-growth design agency case study around high-ticket client pricing, positioning the promised thread as a playbook for turning early traction into a roughly $250,000 monthly service business.
+
+---
+
+# Tuesday, June 13, 2023
+
+## @ankurnagpal - Solar projects as a tax-saving investment
+> I used to think the tax incentives in real estate were unparalleled
+>
+> But my mind was just blown after learning about the economics of investing in solar projects 🤯
+>
+> Probably the best tax saver out there for anyone with a high W-2 or business owner income
+>
+> Here's how it works:
+
+- **Tweet:** https://x.com/ankurnagpal/status/1668750254680965121
+- **What:** An introduction to a thread arguing that solar-project investments can offer unusually strong tax advantages for high W-2 earners and business owners, positioning the strategy as a potential alternative to real-estate tax incentives.
+
+## @awilkinson - Personal Monopoly through owned audience distribution
+> Things can go wrong in life.
+>
+> Your business can fail.
+>
+> You can lose all your money.
+>
+> But there's one thing you can't lose. And it gives you an insane advantage.
+>
+> A following.
+>
+> Nobody can take away a massive email list or social media following.
+>
+> And why is this powerful?
+>
+> It creates what I call a Personal Monopoly.
+>
+> It means that you can, with one tweet, launch a new business to hundreds of thousands of people for free.
+>
+> This is a profound advantage in life. Marketing is expensive.
+>
+> When most people launch their businesses, it's like a fart in the wind.
+>
+> They make a tweet to their 100 followers.
+>
+> They buy a few small ads.
+>
+> They try to get in the press.
+>
+> Usually nobody notices.
+>
+> But with a huge social following, you can instantly reach 100,000, 500,000 or even 1,000,000+ people in seconds.
+>
+> All you need is 1,000 true fans, and you're good forever.
+>
+> To me, this is more powerful than having money.
+>
+> I'd rather have 10 million Twitter followers than $10,000,000.
+>
+> But building that following is a lot of work.
+>
+> Creating content is stressful and time consuming and pulls you away from "the knitting" — your day job.
+>
+> Unless you want to become a full-time influencer (which is a recipe for a miserable life, IMO), you're best staying focused on your business.
+>
+> So, today, Tiny is launching a new business to help people build their personal monopolies.
+>
+> It's called Foundry.
+>
+> TLDR: The team at Foundry builds loyal audiences for entrepreneurs and investors by creating content that's authentic across all their channels.
+>
+> Newsletter. Social. YouTube. Podcasts. You name it.
+>
+> Think of it as autopilot for building a personal brand.
+>
+> Foundry was created based on my own personal experience and, ironically, this tweet in and of itself is a testament to my Personal Monopoly idea.
+>
+> I'm using the 225,000 Twitter followers that I've painstakingly built over the past 5 years to launch a new business that will probably do over $1,000,000 in revenue this year.
+>
+> Do you want to be able to write a tweet like this? Go talk to Foundry :-)
+>
+> https://t.co/GxisJN7G1P
+
+- **Tweet:** https://x.com/awilkinson/status/1668678904935247873
+- **What:** LINK_FAILED: Could not expand link from @awilkinson; the t.co destination did not resolve, but the tweet argues that a durable owned audience is a “Personal Monopoly” and introduces Foundry, a service for building that distribution across channels.
+
+---
+
+# Sunday, June 4, 2023
+
+## @heydannymiranda - Muted words for a better information diet
+> Muting specific words has made my Twitter experience 1,000x better.
+>
+> Highly recommended.
+>
+> [Settings ➡️ Privacy &amp; Safety ➡️ Mute and block ➡️ Muted words] https://t.co/3fYtj9gLB8
+
+- **Tweet:** https://x.com/heydannymiranda/status/1665449347952123905
+- **What:** A concrete information-diet tactic: X's muted-word filters can remove recurring topics and phrases before they consume attention, improving the feed without requiring the user to unfollow otherwise valuable accounts.
+
+---
+
+# Saturday, June 3, 2023
+
+## @george__mack - Drug-free approaches to creativity
+> How to get creative (without taking drugs): https://t.co/ClNOrUsklB
+
+- **Tweet:** https://x.com/george__mack/status/1665059465144463362
+- **What:** A pointer to a practical creativity guide focused on non-pharmacological methods, framing creative output as something that can be deliberately supported through habits and working conditions rather than altered states.
+
+---
+
+# Saturday, May 27, 2023
+
+## @george__mack - Smartphone as a practical pocket computer
+> How to turn your smartphone into a magic pocket computer
+>
+> 10 practical examples: https://t.co/n8d4ndfYFU
+
+- **Tweet:** https://x.com/george__mack/status/1662528127179038721
+- **What:** A prompt toward ten practical smartphone workflows that treats the device as a flexible personal computer, encouraging users to get more leverage from tools they already carry rather than using it only for passive consumption.
+
+---
+
+# Wednesday, May 24, 2023
+
+## @awilkinson - Operating practices Tiny learned to avoid
+> Here's a big list of things that don't seem to work, based on the last 20 years of running Tiny:
+>
+> • Giving an advisor or advisory board free equity to advise a CEO without putting any real skin in the game  and investing their own money (they usually go "thanks for the free equity" and occasionally respond to emails)
+>
+> • Variable price/cost plus contracts (going over budget = vendor makes more money - natural incentive to go over budget)
+>
+> • Synergy between two entities, unless they are almost 100% identical and it happens naturally between the two management teams with a clear profit incentive (even then, rarely works)
+>
+> • Hiring people with traditional finance backgrounds—especially big corporate accounting—as opco CFOs (I see this a ton - first time entrepreneurs in small businesses hire a bean counter when they need somebody who is willing to roll up their sleeves and operate the business alongside them with a financial lens)
+>
+> • Hiring outside management/compensation/etc consultants (they have no alignment and get paid regardless of the outcome / often incentivized to tell you to change everything so they sound smart / they can't deliver hard news to management because they serve them / "consulting is the art of picking your pocket watch to tell you the time")
+>
+> • Fractional CFO/finance people vs. in-house finance (you'd almost always pay the same amount just in-housing, except you get 1/20th of their time and attention and they aren't aligned with you)
+>
+> • Hiring a big company person to run a small or medium company (no scrappiness, used to a big cushy org full of support - usually don't know how to hire, how to do HR, how to incentivize, how to run an actual org, think TOO big)
+>
+> • Hiring a CEO from a business with X business model (for example, ads) and expecting them to execute Y business model (for example, recurring membership revenue) in your business (people typically keep executing the strategy they know and love/are comfortable with - “to a person with hammer, everything looks like a nail”)
+>
+> • Expecting a business to disrupt itself or incubate its own “labs” projects (these are usually expensive boondoggles and the innovator’s dilemma typically kicks in “never expect someone to understand something that their paycheck depends on them not understanding”)
+>
+> • Expecting a CEO to issue dividends vs. horde cash when their incentives don’t align with dividend receiving shareholders (CEOs will often  press to keep as much cash on the balance sheet as possible, unless dividends benefit them as well - you essentially incentivize them to create silly R&D projects or at least project the need for massive cash investment)
+>
+> There's so many more. Will share as I think of them :-)
+
+- **Tweet:** https://x.com/awilkinson/status/1661486803659145216
+- **What:** A seasoned operator's anti-pattern list focused on alignment: avoid uninvested advisors, incentive-misaligned vendors and executives, ill-fitting large-company hires, and internal innovation expectations that conflict with the core business.
+
+---
+
+# Monday, May 22, 2023
+
+## @thejustinwelsh - Building a $4M one-person business without ads
+> Yesterday, my little one-person business crossed $4M in revenue.
+>
+> It took 1,352 days, I ran zero ads &amp; operate at a 94% margin.
+>
+> Here are the 20 steps of my wild &amp; strange journey:
+>
+> Hope it's helpful to someone.
+>
+> [🧵 thread]
+
+- **Tweet:** https://x.com/thejustinwelsh/status/1660619395532505094
+- **What:** A milestone thread from a solo founder presenting a 1,352-day path to $4 million in revenue, emphasizing organic acquisition and unusually high margins instead of paid advertising.
+
+---
+
+# Monday, May 15, 2023
+
+## @jakezward - Prioritizing existing blog content over new posts
+> Stop publishing new blog content.
+>
+> I see too many websites with 100s of blog posts that get no traffic.
+>
+> Yet they're still publishing 4+ new posts per month.
+>
+> If you already have existing content, do this instead:
+
+- **Tweet:** https://x.com/jakezward/status/1658080608906625027
+- **What:** An SEO-content prioritization prompt: sites with large back catalogs and little traffic may gain more by improving, consolidating, and promoting existing pages than by continuing routine new-post production.
+
+---
+
 # Friday, May 12, 2023
 
 ## @sethjkramer - No Code MBA’s visual AI app-building course
@@ -82479,6 +83262,41 @@ This one is so special. Get ready!
 
 ---
 
+# Wednesday, April 12, 2023
+
+## @DrJimFan - AutoGPT's self-cloning agent architecture
+> AutoGPT is a prototype of the next frontier: "Agent Smith" AI that recursively clones itself.
+>
+> Achieved by (1) identifying *when* its context gets overwhelming and needs offloading;
+> (2) distilling the “cognitive overflow” part into a prompt directive for its clone;
+> (3) talking back and forth with the newly minted siblings to get the job done.
+>
+> It's far from perfect yet, but we'll soon see this emergent paradigm get a lot more powerful. The funny thing is that GPT Agent Smiths can't do "Neuralink" via high-bandwidth Matrix. Texting is still the bottleneck 🤣
+
+- **Tweet:** https://x.com/DrJimFan/status/1646186278743072770
+- **What:** An early description of a multi-agent pattern where an AI detects context pressure, delegates distilled work to cloned agents, and coordinates by text despite the communication bottleneck between siblings.
+
+---
+
+# Tuesday, April 11, 2023
+
+## @thejustinwelsh - Consistent visibility over viral marketing
+> Solopreneurs don't need viral content.
+>
+> Marketing is about getting on base every day.
+>
+> - Familiar face
+> - Familiar name
+> - Familiar content
+> - Familiar opinions
+>
+> It's cliché as hell but play Moneyball.
+
+- **Tweet:** https://x.com/thejustinwelsh/status/1645762933266305026
+- **What:** A case for solopreneurs to build trust through repeated, recognizable publishing rather than chasing rare viral hits, using a Moneyball-style focus on steady incremental marketing results.
+
+---
+
 # Friday, April 7, 2023
 
 ## @GregLuntX - Six-Email Product Sales Funnel Framework
@@ -82492,6 +83310,80 @@ This one is so special. Get ready!
 
 - **Tweet:** https://x.com/GregLuntX/status/1644396793524891654
 - **What:** Greg Lunt highlights a free Nicolas Cole and Dickie Bush YouTube breakdown of a reportedly seven-figure email funnel, specifically offering a reusable six-email sequence for direct product sales.
+
+---
+
+# Wednesday, March 29, 2023
+
+## @ArjunMahadevan - Twenty crowdsourced life tips from Reddit
+> Most life hacks suck.
+>
+> So I crowdsourced the best from 21.9 million people on Reddit.
+>
+> Here are 20 life tips you wish you knew when you were 20:
+
+- **Tweet:** https://x.com/ArjunMahadevan/status/1641060681121255428
+- **What:** A crowdsourced self-improvement thread that filters advice from a large Reddit audience into twenty practical life tips, positioning collective experience as an alternative to shallow, viral “life hack” content.
+
+---
+
+# Tuesday, March 21, 2023
+
+## @thejustinwelsh - Why creators should repurpose their daily content
+> If you're publishing content daily, remember:
+>
+> - 75% of your followers didn't see it
+> - 80% of your followers won't remember
+> - 100% of your new followers never saw it
+>
+> Repurpose often.
+>
+> Nobody remembers your content like you remember your content.
+
+- **Tweet:** https://x.com/thejustinwelsh/status/1638202618395729920
+- **What:** A content-distribution argument for reusing posts: audience reach, memory, and follower turnover mean creators perceive repetition far more strongly than their audience does, so repurposing expands a post’s effective lifespan.
+
+---
+
+# Wednesday, March 15, 2023
+
+## @thejustinwelsh - Four side-project models targeting $150 daily revenue
+> Everyone should have a side project that earns $150+ per day.
+>
+> Here are 4 simple examples that might help:
+
+- **Tweet:** https://x.com/thejustinwelsh/status/1635978477395402752
+- **What:** An entrepreneurial thread that sets a modest daily-revenue target for side projects and promises four accessible business examples, making recurring supplemental income feel more concrete and actionable.
+
+---
+
+# Tuesday, March 14, 2023
+
+## @svpino - Demonstration of AI-generated social-media images
+> Instagram is dead.
+>
+> In the next 3 - 5 years, every single image in social media will be generated by AI.
+>
+> And here is the kicker: It will be impossible to tell fake from reality.
+>
+> I wrote a few lines of Python code to show you how screwed we are:
+
+- **Tweet:** https://x.com/svpino/status/1635611742008147968
+- **What:** A warning about generative image models eroding visual authenticity on social platforms, illustrated with a small Python experiment meant to show how easily synthetic imagery could become indistinguishable from photographs.
+
+---
+
+# Wednesday, February 22, 2023
+
+## @mattschnuck - Five questions for stronger leadership conversations
+> The most sought-after exec coach in Silicon Valley coached @naval.
+>
+> Then continued on to coach the CEO’s of Reddit, OpenAI, and Coinbase....even Sequoia Capital.
+>
+> Here are 5 “MAGIC” questions he has all his leaders ask their teams:
+
+- **Tweet:** https://x.com/mattschnuck/status/1628426021073719299
+- **What:** A leadership thread framing five team questions as a practical coaching method, drawing credibility from an executive coach whose clients include prominent technology founders, CEOs, and investors.
 
 ---
 
