@@ -23202,6 +23202,337 @@ Young savage. Retardmaxxing at its best.
 - **Tweet:** https://x.com/archiexzzz/status/2040302376003772479
 - **What:** Archie Sengupta recommends RTK as a command-line installation intended to reduce Claude Code startup token use and prevent context-limit pressure, based on a reported 186,000-token startup cost.
 
+## @designertom - LLM-maintained markdown knowledge bases
+> This has been my setup since January and it’s hands down the biggest unlock.
+>
+> See below for my top 10 biggest use cases. https://t.co/0w6vI5mvYw
+>
+> *Quoting @karpathy:* LLM Knowledge Bases
+>
+> Something I'm finding very useful recently: using LLMs to build personal knowledge bases for various topics of research interest. In this way, a large fraction of my recent token throughput is going less into manipulating code, and more into manipulating knowledge (stored as markdown and images). The latest LLMs are quite good at it. So:
+>
+> Data ingest:
+> I index source documents (articles, papers, repos, datasets, images, etc.) into a raw/ directory, then I use an LLM to incrementally "compile" a wiki, which is just a collection of .md files in a directory structure. The wiki includes summaries of all the data in raw/, backlinks, and then it categorizes data into concepts, writes articles for them, and links them all. To convert web articles into .md files I like to use the Obsidian Web Clipper extension, and then I also use a hotkey to download all the related images to local so that my LLM can easily reference them.
+>
+> IDE:
+> I use Obsidian as the IDE "frontend" where I can view the raw data, the the compiled wiki, and the derived visualizations. Important to note that the LLM writes and maintains all of the data of the wiki, I rarely touch it directly. I've played with a few Obsidian plugins to render and view data in other ways (e.g. Marp for slides).
+>
+> Q&A:
+> Where things get interesting is that once your wiki is big enough (e.g. mine on some recent research is ~100 articles and ~400K words), you can ask your LLM agent all kinds of complex questions against the wiki, and it will go off, research the answers, etc. I thought I had to reach for fancy RAG, but the LLM has been pretty good about auto-maintaining index files and brief summaries of all the documents and it reads all the important related data fairly easily at this ~small scale.
+>
+> Output:
+> Instead of getting answers in text/terminal, I like to have it render markdown files for me, or slide shows (Marp format), or matplotlib images, all of which I then view again in Obsidian. You can imagine many other visual output formats depending on the query. Often, I end up "filing" the outputs back into the wiki to enhance it for further queries. So my own explorations and queries always "add up" in the knowledge base.
+>
+> Linting:
+> I've run some LLM "health checks" over the wiki to e.g. find inconsistent data, impute missing data (with web searchers), find interesting connections for new article candidates, etc., to incrementally clean up the wiki and enhance its overall data integrity. The LLMs are quite good at suggesting further questions to ask and look into.
+>
+> Extra tools:
+> I find myself developing additional tools to process the data, e.g. I vibe coded a small and naive search engine over the wiki, which I both use directly (in a web ui), but more often I want to hand it off to an LLM via CLI as a tool for larger queries.
+>
+> Further explorations:
+> As the repo grows, the natural desire is to also think about synthetic data generation + finetuning to have your LLM "know" the data in its weights instead of just context windows.
+>
+> TLDR: raw data from a given number of sources is collected, then compiled by an LLM into a .md wiki, then operated on by various CLIs by the LLM to do Q&A and to incrementally enhance the wiki, and all of it viewable in Obsidian. You rarely ever write or edit the wiki manually, it's the domain of the LLM. I think there is room here for an incredible new product instead of a hacky collection of scripts.
+
+- **Tweet:** https://x.com/designertom/status/2040278546174849495
+- **Quoted:** https://x.com/karpathy/status/2039805659525644595
+- **What:** Tommy Geoco endorses Karpathy's workflow of ingesting research material into raw folders, having an LLM compile and maintain a linked Markdown wiki, and then using agent-driven Q&A, outputs, and health checks instead of a conventional RAG stack.
+
+---
+# Friday, April 3, 2026
+
+## @gauri__gupta - auto-harness self-improving agent evaluation loop
+> Releasing auto-harness: an open source library for our self improving agentic systems with auto-evals. We got a lot of responses from people wanting to try the self-improving loop on their own agent. So we open-sourced our setup.
+>
+> Connect your agent and let it cook over the weekend! brrrrrrr!
+>
+> *Quoting @gauri__gupta:* https://t.co/gpEE2rstjm
+
+- **Tweet:** https://x.com/gauri__gupta/status/2040251309782409489
+- **Link:** https://x.com/i/article/2040170018340786176
+- **Quoted:** https://x.com/gauri__gupta/status/2040251170099524025
+- **Filed:** [auto-harness-self-improving-agentic-systems](./knowledge/articles/auto-harness-self-improving-agentic-systems.md)
+- **What:** Gauri Gupta announces auto-harness, an open-source self-improving agent loop that converts observed failures into evaluations and feeds those evaluations back into fixes, enabling developers to test and improve an agent over long unattended runs.
+
+## @LottoLabs - Delegating RTX 3090 marketplace searches to Hermes
+> You need to get your Hermes agent scraping Facebook market place for 3090s
+>
+> Asap
+
+- **Tweet:** https://x.com/LottoLabs/status/2040228208914858181
+- **What:** LottoLabs proposes using a Hermes autonomous agent to monitor Facebook Marketplace for RTX 3090 listings, an example of delegating a repetitive, time-sensitive purchasing search to an agent instead of manual browsing.
+
+## @everton_dev - WWDC 2026 App Store opportunity prediction
+> What Apple will reveal at WWDC 26 is going to trigger the biggest App Store gold rush since the original launch in 2008.
+>
+> This is a once-in-a-lifetime opportunity. Don't miss the boat this time.
+
+- **Tweet:** https://x.com/everton_dev/status/2040215195377713576
+- **What:** Everton predicts WWDC 2026 will open a platform opportunity comparable to the App Store's 2008 launch, framing Apple's unrevealed announcement as a potentially time-sensitive market shift for independent developers.
+
+## @itsolelehmann - DESIGN.md design contracts for AI coding agents
+> the hottest new design tool is english
+>
+> google just introduced design .md, and i'm shocked more people aren't talking about it
+>
+> it's a single plain text file where you describe how your app should look:
+>
+> > colors
+> > fonts
+> > spacing
+> > button styles
+> > card layouts
+>
+> all of it, all written in plain english
+>
+> your ai coding agent reads this file before generating any ui.
+>
+> so every screen, component, and page comes out visually consistent. automatically
+>
+> the reason this matters is because most vibe-coded apps look like absolute slop
+>
+> like it was designed by someone who's never opened a design tool
+>
+> every screen looks slightly different. the colors don't match. the spacing is random. buttons change shape between pages
+>
+> design .md solves this at the root
+>
+> instead of trying to describe how things should look in every single prompt, you write it once in one file:
+>
+> "primary color: # 6366f1 (indigo). use for buttons, links, and focus states"
+> "body text: inter, 16px, regular weight, 1.5 line height"
+> "cards: white background, 1px border, 12px rounded corners, 16px padding"
+> "buttons: 8px rounded corners, 10px vertical padding, bold text" etc
+>
+> your ai reads this before touching any ui.
+>
+> so every screen matches.
+> every component follows the same rules
+>
+> and it works across tools. claude code, codex, cursor, gemini, whatever you're using.
+>
+> the file lives in your project folder (same spot as skills and other context files)
+>
+> and any ai tool that reads your project files picks it up automatically
+>
+> google stitch (google's ai design tool) can also extract a design .md from any live website
+>
+> point it at stripe .com. it pulls out stripe's entire visual language as a text file.
+>
+> the exact colors, typography, spacing, and component patterns that make stripe look like stripe
+>
+> drop that file into your project and your ai builds ui that matches stripe's design quality
+>
+> someone already built a collection of 55 pre-made design .md files from companies like stripe, apple, airbnb, linear, notion, figma, spotify, uber
+>
+> it's all on github for free (called awesome-design-md)
+>
+> the workflow:
+>
+> 1. pick a design system you like from the repo (or extract one from any website using stitch)
+> 2. drop the design .md file into your project folder
+> 3. tell your ai coding agent to build your app/website
+> 4. it reads the file and every screen comes out matching that visual style
+>
+> one file that creates consistent design across your entire app.
+>
+> no figma / design skills / css knowledge required
+>
+> a year ago you needed a designer to make something look professional
+>
+> now you need one text file written in english
+>
+> *Quoting @GithubProjects:* Google Stitch introduced a new concept: DESIGN . md
+>
+> Like README . md but for design systems. A plain markdown file that LLMs read to generate consistent UI.
+>
+> An awesome collection of DESIGN . md files inspired by developer-focused websites like Stripe, Vercel, Linear, Notion, Figma and more.
+>
+> Drop one into your project. Your AI coding agent builds the rest.
+
+- **Tweet:** https://x.com/itsolelehmann/status/2040189738859307303
+- **Quoted:** https://x.com/GithubProjects/status/2039274093657325783
+- **What:** Lehmann highlights Google's DESIGN.md pattern and the awesome-design-md collection as a portable plain-text design contract, so AI coding agents can enforce colors, typography, spacing, and component rules across a project rather than producing inconsistent vibe-coded interfaces.
+
+## @TheLAPurchaser - Free SEC filing tools for agentic due diligence
+> Current Task: SEC filings for Agents. This is pretty easy. Lot of options. Here are the two i used. both free.
+>
+> Push: sec-filing-watcher. Real-time push.
+> Pull: edgartools. 2k+ stars on Github.
+>
+> I think you can pretty easily re-create most of the BAMSEC workflow with this.
+>
+> Last Task: Sellside research conclusion -- there's no easy way. have to builder a web scraper. will be painful. i'll come back to it later.
+>
+> *Quoting @TheLAPurchaser:* What is the best way to tap into sellside research for agentic due diligence?
+>
+> I don’t want any more deep research based on seeking alpha and the motley fool.
+>
+> How do I tap into MS, GS, BAML to create a primer, without plugging in via API?
+
+- **Tweet:** https://x.com/TheLAPurchaser/status/2040168155113296233
+- **Quoted:** https://x.com/TheLAPurchaser/status/2039885203552841818
+- **What:** Responding to the need for institutional-quality agentic due diligence, the author identifies free push and pull tools for SEC filings that could replicate much of BAMSEC, but concludes that sell-side research still requires difficult bespoke scraping.
+
+## @rcom1337 - Pyth Pro access claims a speed edge for prediction markets
+> Pyth Pro API used to cost $120k/year. Now it's free. Most traders haven't noticed yet.
+>
+> A few months ago, only hedge funds and quant departments could afford this data set.
+>
+> Now you can access the same data for $0.
+>
+> Here's exactly how to use it:
+> → Get free access via Pyth Pro
+> → Subscribe to equity_prices feed
+> → Build or rent a fast server
+> → Trade prediction markets with real-time data
+>
+> The ones winning aren't smarter, they just have faster data. Are you still using the slow one?
+>
+> *Quoting @KyleDeWriter:* Polymarket uses Pyth Data for Gold, Silver and ETFs daily markets
+>
+> Public API data has 400ms delay, which is still fast
+>
+> The ones who may outperform you are those who purchased $10,000 for Pro Version with 1ms delay
+>
+> Take Pyth public API, integrate chart and rent a server for a few bucks
+>
+> Extract thousands of profit each day after fighting for liquidity
+>
+> This would worth you a few hours of vibecoding or minutes spent with experienced coder
+
+- **Tweet:** https://x.com/rcom1337/status/2040150515447738724
+- **Quoted:** https://x.com/KyleDeWriter/status/2039750812050616674
+- **What:** The quote and response frame Pyth’s market-data tiers as a latency advantage for Polymarket trading: the quoted post contrasts delayed public feeds with near-real-time Pro access, while RCOM says Pro is now free and urges traders to operationalize it.
+
+## @joemccann - Market Data Warehouse stores IBKR history in Parquet
+> .@IBKR has loads of historical data, cross-asset and is free if you have an account.
+>
+> I even made an open source repo to extract it and store locally in parquet format; you can query with DuckDB.
+>
+> https://t.co/xFZrcP7sml
+>
+> *Quoting @TheLAPurchaser:* What free plugins/APIs do you use with Claude to get access to historical market data?
+
+- **Tweet:** https://x.com/joemccann/status/2040096571363099088
+- **Link:** https://github.com/joemccann/market-data-warehouse
+- **Quoted:** https://x.com/TheLAPurchaser/status/2039679418944147486
+- **Filed:** [market-data-warehouse.md](./knowledge/tools/market-data-warehouse.md)
+- **What:** Answering a request for free historical market-data access with Claude, McCann points to a local IBKR-to-Parquet warehouse that enables DuckDB research across account-accessible cross-asset history.
+
+## @Shpigford - Research skill adds UI, UX, and delight agents
+> just expanded my /research skill with 3 new background agents:
+>
+> 1. ui agent
+> 2. ux agent
+> 3. delight agent
+>
+> major focus on prioritizing the user experience as a core part of any feature/fix/improvement.
+>
+> https://t.co/ptF6plm7J2
+
+- **Tweet:** https://x.com/Shpigford/status/2040068687286161869
+- **Link:** https://everydayisayear.ai/p/the-research-skill-i-use-for-all?triedRedirect=true
+- **Filed:** [the-research-skill-i-use-for-all.md](./knowledge/articles/the-research-skill-i-use-for-all.md)
+- **What:** Josh Pigford’s Claude Code research workflow validates task intent and current evidence before planning, now adding UI, UX, and delight specialists so product experience shapes implementation decisions.
+
+## @prathamgrv - Paper2Code traces arXiv implementations to source sections
+> I made a Claude Code skill that turns any arxiv paper into working code.
+>
+> Every line traces back to the paper section it came from & any implementation detail the paper skips will be flagged, and not assumed.
+>
+> open sourcing it -
+> https://t.co/sSio4JfpIo https://t.co/5XqlGgQsqC
+
+- **Tweet:** https://x.com/prathamgrv/status/2040057475542696309
+- **Link:** https://github.com/PrathamLearnsToCode/paper2code
+- **Filed:** [paper2code.md](./knowledge/tools/paper2code.md)
+- **What:** Paper2Code packages a Claude Code workflow for implementing arXiv papers with line-level provenance while surfacing undocumented engineering decisions instead of silently inventing them.
+
+## @glitch_ - swarma: Growth-Experiment Agent Swarms
+> this is where autoresearch & qmd was always heading.
+>
+> been building this last 2 weeks:
+>
+> -> agent swarms that run growth experiments, ingest knowledge, and compound validated patterns into a playbook.
+>
+> the feedback loop closes itself.
+>
+> built using autoresearch loop & qmd & testing it with hermes as main orchestrator hooked to honcho memory
+>
+> still wip
+>
+> https://t.co/0AqksMOwq1
+>
+> *Quoting @karpathy:* LLM Knowledge Bases
+>
+> Something I'm finding very useful recently: using LLMs to build personal knowledge bases for various topics of research interest. In this way, a large fraction of my recent token throughput is going less into manipulating code, and more into manipulating knowledge (stored as markdown and images). The latest LLMs are quite good at it. So:
+>
+> Data ingest:
+> I index source documents (articles, papers, repos, datasets, images, etc.) into a raw/ directory, then I use an LLM to incrementally "compile" a wiki, which is just a collection of .md files in a directory structure. The wiki includes summaries of all the data in raw/, backlinks, and then it categorizes data into concepts, writes articles for them, and links them all. To convert web articles into .md files I like to use the Obsidian Web Clipper extension, and then I also use a hotkey to download all the related images to local so that my LLM can easily reference them.
+>
+> IDE:
+> I use Obsidian as the IDE "frontend" where I can view the raw data, the the compiled wiki, and the derived visualizations. Important to note that the LLM writes and maintains all of the data of the wiki, I rarely touch it directly. I've played with a few Obsidian plugins to render and view data in other ways (e.g. Marp for slides).
+>
+> Q&A:
+> Where things get interesting is that once your wiki is big enough (e.g. mine on some recent research is ~100 articles and ~400K words), you can ask your LLM agent all kinds of complex questions against the wiki, and it will go off, research the answers, etc. I thought I had to reach for fancy RAG, but the LLM has been pretty good about auto-maintaining index files and brief summaries of all the documents and it reads all the important related data fairly easily at this ~small scale.
+>
+> Output:
+> Instead of getting answers in text/terminal, I like to have it render markdown files for me, or slide shows (Marp format), or matplotlib images, all of which I then view again in Obsidian. You can imagine many other visual output formats depending on the query. Often, I end up "filing" the outputs back into the wiki to enhance it for further queries. So my own explorations and queries always "add up" in the knowledge base.
+>
+> Linting:
+> I've run some LLM "health checks" over the wiki to e.g. find inconsistent data, impute missing data (with web searchers), find interesting connections for new article candidates, etc., to incrementally clean up the wiki and enhance its overall data integrity. The LLMs are quite good at suggesting further questions to ask and look into.
+>
+> Extra tools:
+> I find myself developing additional tools to process the data, e.g. I vibe coded a small and naive search engine over the wiki, which I both use directly (in a web ui), but more often I want to hand it off to an LLM via CLI as a tool for larger queries.
+>
+> Further explorations:
+> As the repo grows, the natural desire is to also think about synthetic data generation + finetuning to have your LLM "know" the data in its weights instead of just context windows.
+>
+> TLDR: raw data from a given number of sources is collected, then compiled by an LLM into a .md wiki, then operated on by various CLIs by the LLM to do Q&A and to incrementally enhance the wiki, and all of it viewable in Obsidian. You rarely ever write or edit the wiki manually, it's the domain of the LLM. I think there is room here for an incredible new product instead of a hacky collection of scripts.
+
+- **Tweet:** https://x.com/glitch_/status/2040031371867918395
+- **Link:** https://github.com/glitch-rabin/swarma
+- **Quoted:** https://x.com/karpathy/status/2039805659525644595
+- **Filed:** [swarma](./knowledge/tools/swarma.md)
+- **What:** Building on Karpathy's LLM-maintained markdown knowledge-base workflow, glitch_ presents swarma as an early system of agents that runs growth experiments, absorbs results into a shared playbook, and compounds validated tactics through a self-closing feedback loop orchestrated with Hermes and Honcho memory.
+
+## @ssaaammiirr - Telehealth Infrastructure, Not AI, Drives the Medvi Thesis
+> Hot take: the Medvi story has nothing to do with AI.
+>
+> A guy built a $1.8B company with 2 people. Cool. But strip away the AI headline and look at what's underneath:
+>
+> Telehealth subscriptions.
+>
+> I've been in this space. I've seen the numbers up close. The LTVs are borderline unfair compared to every other business model.
+>
+> Traditional ecom: $50 AOV, maybe $80 LTV if you're lucky, 20% returns, warehouse headaches, margin compression.
+>
+> Telehealth: $200+/mo, $1,200-2,400 LTV, pharmacy ships direct, no inventory, no returns, recurring revenue.
+>
+> AI made him efficient. Telehealth made him a billionaire. Those are two very different things.
+>
+> And the craziest part? He only did weight loss. ONE vertical.
+>
+> ED alone is a $5B+ market. Hair loss. Hormones. Peptides. Anti-aging. Skincare. Mental health.
+>
+> Each one of these is a billion dollar telehealth company waiting to be built.
+>
+> The reason more people haven't done it is the infrastructure is brutal — doctors, pharmacies, compliance, prescriptions, patient management.
+>
+> That's why you need a platform like https://t.co/8a7sGOWN0W. Full stack telehealth OS. Everything you need to launch a brand like this without building it from scratch. AND YOU OWN ALL YOUR DATA AND TOKENS
+>
+> The next wave of billionaires is coming out of telehealth. Not SaaS. Not ecom. Telehealth.
+>
+> https://t.co/ieubDP6qtj
+>
+> *Quoting @nic_carter:* first vibecoded billion-dollar company? https://t.co/fyX3TYZo2P
+
+- **Tweet:** https://x.com/ssaaammiirr/status/2039923768567468383
+- **Link:** https://rimo.co/
+- **Quoted:** https://x.com/nic_carter/status/2039687558775370065
+- **What:** Saamir Mithwani challenges Nic Carter's vibe-coding framing by arguing that Medvi's valuation rests principally on recurring, asset-light telehealth economics rather than AI efficiency; he presents Rimo as the operational layer needed to manage clinicians, pharmacies, compliance, prescriptions, and patient data across adjacent health verticals.
+
 ---
 
 # Thursday, April 2, 2026
@@ -23414,8 +23745,292 @@ Young savage. Retardmaxxing at its best.
 - **Filed:** [goose](./knowledge/tools/goose.md)
 - **What:** Jack Dorsey flags goose (by Block, written in Rust) as an underappreciated open-source agent that has matured significantly under the hood — it goes beyond code suggestions to autonomously install, execute, edit, and test with any LLM. At 34k+ stars and with native MCP support, the gap between its actual capability and its reputation is the core signal here. The interface still needs work but the engineering foundation is solid.
 
----
+## @brian_blum1 - GLP-1 Telehealth's Marketing Arms Race
+> Storytime for people who don't think this is real..
+>
+> Last year I launched a GLP1 biz as well
+>
+> We did ~$20m in rev in 6 months
+>
+> It's surprisingly easy to setup but ruthlessly competitive because there is virtually no differentiation.
+>
+> Every brand is selling the same stuff.
+>
+> As a result it is a pure marketing arms race, and Medvi was the best.
+>
+> They are known for a few things
+>
+> - Shadowy billing practices
+> - Highest converting lead funnel
+> - Running thousands of AI UGC / Theme Pages
+>
+> When you search Medvi in the Meta Ads library, you'd almost never see something running from their page.
+>
+> They heavily rely on partnership ads, whitelisting and listicles / advertorials.
+>
+> On top of leaning heavily into publisher affiliate (Forbes "Best GLP1 Providers") and TikTok's beta for telehealth.
+>
+> Our funnel was primarily Meta Ads using TikTok Shop style UGC. Worked well til it didn't
+>
+> The customer is very price conscious and as a result, switches between several brands' intro offers.
+>
+> So tons of brands spent into CAC's expecting LTV's that didn't materialize. Huge revenue numbers but not a ton of super profitable companies.
+>
+> Anyways, i've never seen the speed with which we got to $4m/mo in rev. The market was that good.
+>
+> And behind the scenes everyone knew Medvi, Remedy Meds, Amble were doing $300M+
+>
+> Everything in the article is true and this guy is a dog
+>
+> *Quoting @nic_carter:* first vibecoded billion-dollar company? https://t.co/fyX3TYZo2P
 
+- **Tweet:** https://x.com/brian_blum1/status/2039750849669280214
+- **Quoted:** https://x.com/nic_carter/status/2039687558775370065
+- **What:** Brian Blum treats Nic Carter's question about a potential vibe-coded billion-dollar company as an opening to explain why GLP-1 telehealth brands can scale quickly yet struggle to differentiate: Medvi's alleged advantage was distribution through funnels, affiliates, whitelisting, and high-volume AI creative, while churn and acquisition costs could undermine headline revenue.
+
+## @nichochar - The Great Convergence Toward Self-Improving Agents
+> https://t.co/uYTsFR2SbT
+
+- **Tweet:** https://x.com/nichochar/status/2039739581772554549
+- **Link:** https://x.com/i/article/2039731611814764545
+- **Filed:** [the-great-convergence](./knowledge/articles/the-great-convergence.md)
+- **What:** Nicholas Charriere argues that applications, model providers, and infrastructure vendors are converging on long-running agent harnesses that use tools to pursue business outcomes, with compounding advantage accruing to companies that can monitor and improve the full loop fastest.
+
+## @nic_carter - Prospect of a Vibe-Coded Billion-Dollar Company
+> first vibecoded billion-dollar company? https://t.co/fyX3TYZo2P
+
+- **Tweet:** https://x.com/nic_carter/status/2039687558775370065
+- **What:** THIN: Nic Carter poses a speculative question about whether an AI-assisted, vibe-coded startup could become the first billion-dollar company, highlighting how rapidly AI-native development is changing founders' expectations for leverage and scale.
+
+## @sarthakgh - Medvi’s AI-enabled telehealth growth
+> .@eringriffith: "His start-up, Medvi, a telehealth provider of GLP-1 weight-loss drugs, got 300 customers in its first month. In its second month, it gained 1,000 more. In 2025, Medvi’s first full year in business, the company generated $401 million in sales. Mr. Gallagher then hired his only employee, his younger brother, Elliot. This year, they are on track to do $1.8 billion in sales."
+>
+>https://t.co/k00K7vlFCb
+
+- **Tweet:** https://x.com/sarthakgh/status/2039686696774549662
+- **Link:** https://www.nytimes.com/2026/04/02/technology/ai-billion-dollar-company-medvi.html
+- **Filed:** [Medvi’s AI-Enabled Telehealth Growth](./knowledge/articles/medvi-ai-billion-dollar-company.md)
+- **What:** A New York Times report, quoted in the bookmark, presents Medvi as an unusually fast-growing GLP-1 telehealth provider whose AI-enabled operations reportedly supported massive customer and sales growth with only two employees.
+
+## @abhayjainp - Claude Cowork prompt for company research reports
+> As promised, here's the exact claude cowork prompt i use to build research reports for any company.
+>
+> Feel free to copy and use.
+>
+> Prompt: you are a research analyst at {xyz}. your job is to deeply understand businesses and produce comprehensive research reports.
+>
+> inputs
+>
+> you receive inputs:
+> - company_name: the company to analyze.
+> your goal is a .md file deliverable along with charts.
+>
+> what you do
+>
+> when a user gives you a company name, you produce a full structured research report. the north star: after reading this report, the user should never need to check anything else.
+>
+> You need four things:
+>
+> 4 quarterly concall transcripts - the most recent four. Non-negotiable.
+> Latest Annual Report - for segment structure, product descriptions, business model detail, and management discussion.
+> Company website - product pages, segment pages, about us, IR section.
+> Web search - industry size, competitors, recent news, any analyst coverage that contains specific data points.
+>
+> write the full report in this section order:
+> 1. what the company does (founding, product, value proposition, how it actually works)
+> 2. business segments (one deep sub-section per segment)
+> 3. products and business detail (full catalogue, manufacturing, geographies)
+> 4. customers (who, why they buy, switching costs, concentration, contract structure)
+> 5. competitive landscape (named competitors, why this company wins or loses, barriers to entry)
+> 6. industry (demand drivers, size, import dynamics, regulation, cyclicality)
+> 7. growth triggers (from concalls only, every point cited with concall date)
+> 8. key risks (specific to this company, mechanism explained)
+> 9. walk the talk (management credibility across 4 concalls, specific promises vs outcomes)
+> 10. scenarios (bull / base / bear as stories, no numbers, no targets)
+>
+> Business Understanding Writer:
+>
+> This is the product. Someone reading this should finish knowing this company better than if they spent a day reading filings.
+>
+> depth mandate
+> No length limit. Write as deep as the company demands.
+>
+> If a company has 4 segments, cover all 4 in depth. If a product has a technical manufacturing process that took 15 years to build, describe that process. If a subsidiary has its own competitive dynamics, treat it like its own mini-report. Cut only what is genuinely redundant. Never cut because of length.
+>
+> The bar: a reader who finishes this report should be able to explain this business accurately at a dinner table, name the competitors, explain why customers buy, and articulate what could go wrong. If they can't, the report is incomplete.
+>
+> report structure
+> Write these sections in this order. Every section is mandatory unless a specific exception is noted.
+>
+> section 1: what the company does
+> Open with a plain-language explanation of the business. No jargon. No "leading player." Just what they actually do.
+>
+> Then go deeper:
+>
+> The founding story if it explains the current business - pivotal decisions, how the company evolved, what they used to be vs what they are now
+> The core value proposition: what specific problem do they solve and for whom
+> The technical nature of the product or service: what makes it hard to make, deliver, or replicate
+> A concrete example of the product or service in action - walk through what they actually do for a customer, step by step if needed
+> Do not stop at the surface. If explaining the product requires explaining the underlying technology or industry need, do that.
+>
+> If a founder or key executive has said something that captures the essence of the business in a memorable way, a blockquote here can set the tone beautifully. Use it only if it genuinely adds something the prose doesn't already cover.
+>
+> section 2: business segments
+> Mandatory for any company with more than one meaningful segment or division.
+>
+> For each segment write a full sub-section:
+>
+> what it does - the specific products or services, geographies, end markets, and customer types. Not a list. Prose that builds understanding.
+>
+> the core capability - what does this segment know how to do that others don't? What took years to build? What would be hard to replicate?
+>
+> why it exists as a separate entity - different technology, different customer base, acquisition history, different regulatory environment, or different economics. There is always a reason. Find it.
+>
+> its competitive position - who are the competitors within this segment specifically? What does this segment win on and where does it lose?
+>
+> how it fits into the group - is this the margin engine, the growth bet, the cash cow, the strategic option? How does management talk about its priority?
+>
+> revenue mix % - the only quantitative data allowed in narrative sections. Use it to convey relative scale.
+>
+> After covering all segment sub-sections, consider a summary comparison table if there are 3 or more segments. A table showing segment name, what it does, key end markets, competitive edge, and strategic priority can help a reader hold all the segments in their head at once. Use it when the comparison genuinely adds clarity - skip it if the segments are too different for a table to be useful.
+>
+> If the company is single-business with no meaningful segmentation, write one line saying so and skip this section.
+>
+> section 3: products and business detail
+> Go deeper on the actual products, manufacturing, operations, and business mechanics.
+>
+> Cover:
+>
+> The full product catalogue - name every meaningful product, explain what it does, explain what industry uses it and why
+> Technical specifications or capabilities that matter - what certifications are required, what process knowledge is needed, what makes this product hard to make
+> The manufacturing or delivery process - where products are made, what the process looks like, what the constraints are
+> Geographies and export markets - where they sell, how long they've been there, what's different about each market
+> Any notable milestones: first product, first export, first major contract, capacity expansions that changed the business
+> This section is where the chart-generator will look for flowcharts, value chain diagrams, and segment infographics. Write with enough specificity that a visual can be made from it.
+>
+> section 4: customers
+> Go beyond naming industries. Explain the buying relationship.
+>
+> Cover:
+>
+> Who specifically buys: industries, named accounts if public, geography of customer base
+> For each major customer type: who inside the customer makes the buying decision, what criteria they use, how long the sales cycle is
+> Why they choose this company: name the specific reasons, not generic ones
+> Switching costs: what would it take for a customer to leave? Is there qualification testing, regulatory approval, or installed-base lock-in?
+> Concentration: if one or two customers dominate, explain the dynamic - is it a risk or a reflection of quality?
+> Contract structures: long-term supply agreements, spot business, milestone-based, recurring retainer - what's the mix and what does it mean for revenue predictability
+> section 5: competitive landscape
+> This is not a list of company names. Explain the structure of the industry and where this company sits in it.
+>
+> Cover:
+>
+> Who the real competitors are - name them, for each segment separately if relevant
+> Why this company wins or loses against each major competitor
+> Barriers to entry: what stops a new player from entering? How high are they really?
+> Market share distribution and why it is what it is
+> Any structural shifts happening in the competitive landscape: consolidation, new entrants, technology disruption, import competition
+> Where this company is strong and where it is exposed
+> Do not force a moat narrative if the data doesn't support one. If competition is intense and margins are commoditised, say so.
+>
+> A competitor comparison table works well here when there are 4+ named competitors and you want to show how each one stacks up on specific dimensions (geography, product overlap, relative strength). Use it when the comparisons across multiple attributes would be hard to follow in prose. Not every competitive landscape needs one.
+>
+> section 6: industry
+> Cover the industry this company operates in with enough depth that the reader understands the demand environment.
+>
+> Cover:
+>
+> What drives demand for this company's products: infrastructure spend, consumer trends, regulation, technology cycle
+> Industry size and growth trajectory (cite sources)
+> Where India sits in the global supply chain for this product
+> Import substitution dynamics if relevant: what share is currently imported, is that changing, why
+> Regulatory environment: any approvals, certifications, or government policy that shapes the market
+> Cyclicality: how does this industry behave across economic cycles
+> Tailwinds and headwinds at the industry level (not company level - that's growth triggers)
+> section 7: growth triggers
+> Extract directly from the 4 concall transcripts. Format as bullet points. Every trigger must have a source - concall date and quarter. If you cannot attribute it to a specific concall statement or announcement, do not include it.
+>
+> Guidelines:
+>
+> Forward-looking only: new plant commissionings, new customer wins announced, new market entries, new product launches, capex completing, capacity utilisation ramp
+> Be specific: name the plant, the customer type, the product, the timeline
+> Cite the concall: "(Q3 FY26 concall, Feb 3 2026)"
+> No opinions or analysis - just what management said is coming
+> No current or past numbers
+> If a trigger was mentioned across multiple concalls, note that it has been repeated
+> When a trigger is grounded in a particularly specific or striking management statement, dropping the actual quote right below the bullet point adds real weight. It turns a summary into evidence. Format it as a blockquote (see writing-rules). Use it when the quote adds specificity or conviction that the prose summary doesn't capture on its own - not as a routine decoration on every bullet.
+>
+> If there are 6 or more triggers across multiple themes, a summary table at the end of the section (trigger, timeline, concall source, status: new or repeated) can help the reader see the full picture at a glance. Use it when the trigger list is long enough to benefit from structure.
+>
+> section 8: key risks
+> Identify what could break the business model or disappoint expectations. Be specific to this company.
+>
+> For each risk:
+>
+> Name the risk clearly
+> Explain the mechanism: how exactly does this risk play out? What has to happen for this risk to hurt?
+> Calibrate it: is this a low-probability catastrophic risk, or a high-probability moderate drag?
+> Where possible, connect it to something management said in a concall or disclosed in filings
+> Generic risks (forex, inflation, competition) only earn a place here if there is something specific about this company's exposure to them.
+>
+> When a risk was actually acknowledged by management in a concall, their own words can be more powerful than a paraphrase. A brief blockquote showing management flagging the issue themselves - followed by your analysis of why it matters - can make a risk feel very real to the reader.
+>
+> section 9: walk the talk
+> This is the management credibility section. Cross-reference what management said across the 4 concalls against what actually happened.
+>
+> Write as narrative paragraphs, not a table.
+>
+> Structure the analysis:
+>
+> Start with the oldest concall: what did management guide for?
+> Move to the next: was it delivered? What changed?
+> Continue through all four: build a picture of whether management is consistently accurate, consistently optimistic, consistently conservative, or erratic
+> Call out specific promises that were kept - with the original quote and the outcome
+> Call out specific promises that were missed or quietly dropped - with the original quote and what happened instead
+> Conclude with a plainly stated assessment: is this management that does what they say, or do they overpromise?
+> Quotes are especially effective here. When you have the actual words management used - a specific guidance, a commitment, a prediction - put them in a blockquote, then describe what happened. The juxtaposition does the work. The more specific and datable the quote, the more credible the analysis.
+>
+> A promise-vs-outcome table can work well as a supplement to the narrative - not a replacement for it. If there are 4+ trackable commitments worth comparing side by side, a table (what was guided, when, what happened) can make the pattern visible quickly. Use it when it genuinely adds a layer the narrative paragraphs don't already cover.
+>
+> This section requires real concall data. If you only have 2 concalls, say so and work with what you have. Do not fabricate consistency or inconsistency.
+>
+> section 10: scenarios
+> Write three scenarios: bull, base, and bear. Each is a short story, not a financial model. No numbers. No targets. Just narrative.
+>
+> bull case: What has to go right? What does the world look like in 2-3 years if everything works? Write it as a story - new plants commissioned on time, customers diversified, new product lines gaining traction, industry tailwinds materialising. Be specific to this company's actual situation, not generic.
+>
+> base case: What is the most likely path? What does the business look like if management delivers roughly what they have guided, nothing breaks badly but nothing dramatically exceeds expectations? Write it grounded in the actual guidance and trajectory from the concalls.
+>
+> bear case: What could genuinely go wrong? Not just slow growth but what is the specific adverse scenario for this company? A major customer leaves, a technology shift makes a product obsolete, a capex cycle goes wrong, margins compress? Again, specific to this company. Ground it in the real risks you identified in section 8.
+>
+> Each scenario should be 2-4 paragraphs. Enough to paint a picture. Not so long it becomes speculation.
+>
+>important rules:
+>
+>- 4 earnings call are not optional. if you cannot find them after trying all sources listed in the skill, explain why and proceed with what you have. do not silently drop to 1.
+>- no valuation, no financials. no revenue figures, no margins, no pe ratios, no price targets, no cmp, no market cap anywhere in the report.
+>- no investment recommendations. no buy/sell/hold. no "attractive at current levels." no advisory language of any kind.
+>- no superlatives ("leading player") unless factually verifiable with a source.
+>- no corporate jargon: synergies, value-added, end-to-end solutions, leveraging, robust, holistic.
+>- no em dashes. use regular dashes.
+>- every sentence must add genuine understanding. no filler.
+>- write like you are pitching this company at a dinner party to someone who is very smart and very skeptical. make every detail count. /END
+>
+>additional context:
+>- i use replicate mcp for all infographics (nano banana)
+>- i have a skill md file containing some of my past writings.
+>- opus 4.6 reasoning for research.
+>
+> *Quoting @abhayjainp:* Claude cowork is actually a cheat code for equity research
+>
+>It builds out 10-15 page report for any company & the quality is actually insane 😬
+>
+>Example report for Sai life sciences: https://t.co/rLwnPJUWg7
+
+- **Tweet:** https://x.com/abhayjainp/status/2039651005135282255
+- **Quoted:** https://x.com/abhayjainp/status/2039205126641250723
+- **What:** This reusable Claude Cowork prompt mandates four earnings-call transcripts and a disciplined ten-part business-research report, emphasizing primary-source citations, competitive mechanics, management accountability, and qualitative scenarios rather than valuation advice.
+
+---
 # Wednesday, April 1, 2026
 
 ## @itsolelehmann - Google Stitch: from vague prompt to agency-quality design via empathy-first process
@@ -23458,6 +24073,537 @@ Young savage. Retardmaxxing at its best.
 - **Tweet:** https://x.com/kunchenguid/status/2039458683831415271
 - **What:** gnhf is a ralph-loop/autoresearch-style overnight orchestrator that runs Claude Code, Codex, OpenCode, or Rovo Dev in a goal-directed loop while you sleep. Each iteration commits on success and rolls back on failure with exponential backoff, aborting after 3 consecutive failures. A notes.md file carries context across iterations. The tool is configurable with token and iteration caps, making overnight runs auditable and cost-bounded. 220 stars at bookmark time.
 - **Filed:** [gnhf.md](./knowledge/tools/gnhf.md)
+
+## @coreyganim - Monetizing DESIGN.md files as AI website kits
+> this is a business hiding in plain sight.
+>
+> here's how I'd monetize DESIGN.md files in 30 days:
+>
+> 1. pick 10 industries with terrible websites (dentists, HVAC, law firms, gyms)
+> 2. build a DESIGN.md for each one that produces a premium, high-converting site
+> 3. sell them as "AI website kits" for $97-197 each
+>
+> the buyer drops one file into Claude Code or Cursor. 5 minutes later they have a site that looks like it cost $15K.
+>
+> but the real play:
+>
+> 4. offer a "done with you" tier ($497) where you hop on a 30-min call, customize the DESIGN.md to their brand, and walk them through deployment
+>
+> 5. upsell a monthly retainer ($297/mo) where you maintain and update the DESIGN.md as their business evolves
+>
+> what you're really selling is the gap between "I have Claude Code" and "I have a website that converts."
+>
+> most small business owners will never write a DESIGN.md themselves. but they'll pay someone who already did.
+>
+> *Quoting @GithubProjects:* Google Stitch introduced a new concept: DESIGN . md
+>
+> Like README . md but for design systems. A plain markdown file that LLMs read to generate consistent UI.
+>
+> An awesome collection of DESIGN . md files inspired by developer-focused websites like Stripe, Vercel, Linear, Notion, Figma and more.
+>
+> Drop one into your project. Your AI coding agent builds the rest.
+
+- **Tweet:** https://x.com/coreyganim/status/2039448215678820612
+- **Quoted:** https://x.com/GithubProjects/status/2039274093657325783
+- **What:** The quoted DESIGN.md convention packages design-system guidance into agent-readable markdown; the commentary proposes selling verticalized templates, paid customization, and ongoing maintenance to bridge the gap between coding agents and conversion-ready small-business sites.
+
+## @jakubkrehel - Understanding gradients and color interpolation
+> Understanding Gradients
+https://t.co/3TlAayiCpn
+
+- **Tweet:** https://x.com/jakubkrehel/status/2039374523145806193
+- **Link:** https://jakub.kr/work/gradients
+- **Filed:** [Understanding Gradients](./knowledge/articles/understanding-gradients.md)
+- **What:** A practical CSS-gradient guide explains geometry, stops, layering, blending, and animation alongside the visual consequences of interpolating colors in sRGB, Oklab, and OKLCH spaces.
+
+## @0xSero - Mixed-memory AI workstations with approved eGPU drivers
+> I told y’all this is the move. Heterogenous hardware is the way forward.
+>
+> Large cheap pools of mixed memory + specialized accelerators (Nvidia GPUs, DGX Spark, Cerebras wafers)
+>
+> The next year will be dominated by solutions that split the stack.
+>
+> - 3000$ for a used Mac Studio with 96gb shared mem
+> - 750$ for a 3090
+>
+> 120gb mixed memory.
+>
+> *Quoting @__tinygrad__:* If you have a Thunderbolt or USB4 eGPU and a Mac, today is the day you've been waiting for! Apple finally approved our driver for both AMD and NVIDIA. It's so easy to install now a Qwen could do it, then it can run that Qwen... https://t.co/daUsyBHh1W
+
+- **Tweet:** https://x.com/0xSero/status/2039294112092844258
+- **Quoted:** https://x.com/__tinygrad__/status/2039213719155310736
+- **What:** Apple’s approval of tinygrad’s AMD and NVIDIA eGPU driver enables heterogeneous local AI rigs, combining a Mac Studio’s large shared-memory pool with comparatively cheap discrete GPU compute rather than buying one monolithic machine.
+
+## @Scobleizer - Aligned News AI-industry signal feed
+> Launching now: a new way to follow the AI industry.
+>
+> Beta starts now for the next month.
+>
+> A joint project between Unaligned (my company) and Levangie Labs (@blevlabs company).
+>
+> It reads 50,000 of you, and follows 8,300 AI companies here on X. And pulls out the best and most interesting.
+>
+> All built with the X API.
+>
+> Check it out: https://t.co/8L5xphk0qQ
+>
+> And please sign up for its daily newsletter. Yeah, $25 a month is a lot for many of you, but that will defray the costs and let me expand it to do a lot more than just AI. Also, the same AI agent that built the site, and did EVERYTHING you see can build custom reports for you on literally any tech community here on X.
+>
+> It supports OpenClaw, RSS, and Notebook LM too. And I'll add more from your requests.
+>
+> More:
+
+- **Tweet:** https://x.com/Scobleizer/status/2039230811355132274
+- **Link:** https://alignednews.com/ai
+- **What:** Robert Scoble launches Aligned News, a beta AI-industry signal feed that analyzes posts from 50,000 X users and 8,300 AI companies, then packages selected items and customizable community reports into a paid daily-newsletter service.
+
+---
+# Tuesday, March 31, 2026
+
+## @thechartist26 - Remote Claude Co-Work agents for stock-screening workflow
+> So Claude Co-Work is basically running my scans and getting a list of all the stocks. The best part is that it has already read all the letters from Dan Zanger since 1998 and is helping me find the top stocks.
+>
+> All I can do is just travel anywhere, click on the dispatch button on my mobile phone while my PC is on back at home, and it's done.
+>
+> *Quoting @thechartist26:* More till I assign a lot of stuff to Agents https://t.co/r8VatYmjrs
+
+- **Tweet:** https://x.com/thechartist26/status/2039184802469843058
+- **Quoted:** https://x.com/thechartist26/status/2039181650706489648
+- **What:** The quoted post signals a plan to delegate more work to agents, while the commentary gives a concrete investing workflow: Claude Co-Work runs stock scans, searches a historical Dan Zanger letter archive, and can be dispatched remotely from a phone.
+
+## @om_patel5 - Shifting a Claude plan usage window with an early message
+> THIS HACK SAVES YOU 2 HOURS OF DEAD TIME ON CLAUDE CODE EVERY DAY
+>
+> if you're on a Max plan you know the pain. you start working at 8:30 AM, hit the limit by 11, and you're stuck until 1 PM. two hours of nothing.
+>
+> here's the fix:
+>
+> your 5-hour usage window starts when you send your first message, floored to the clock hour.
+>
+> so if you send a throwaway "hi" using Haiku at 6 AM before your workday, the window anchors to 6-11 AM instead of 8 AM-1 PM.
+>
+> by 11 AM when you'd normally be locked out, you get a fresh window instead.
+>
+> this guy automated it with a GitHub Actions cron job that sends the message every morning automatically.
+>
+> works on any plan. Pro, Max 5x, Max 20x.
+>
+> fork the repo, add your OAuth token, set the cron, done.
+>
+> or if you want it even simpler, you can do the same thing with Claude's built-in scheduled tasks
+
+- **Tweet:** https://x.com/om_patel5/status/2039165508910813264
+- **What:** Om Patel describes a scheduling workaround intended to move Claude Code's reported five-hour plan window before the workday: send an early low-cost message, manually or through a scheduler, so the next availability window arrives when active work begins.
+
+## @gregisenberg - Sequoia’s AI-agent map of services disruption
+> sequoia put out a blog post called "services is the new software"
+>
+> look at this map of over $1T in services being replaced by AI agents https://t.co/aFmDGhysfl
+
+- **Tweet:** https://x.com/gregisenberg/status/2039125157134905517
+- **What:** Greg Isenberg highlights Sequoia's "Services is the New Software" thesis, using a map of more than $1 trillion in service work as a prompt to identify where AI agents could turn labor-intensive operations into software-like products.
+
+## @MarikHazan - Agentic founders recreate YC Demo Day startups
+> We just rebuilt every startup in @ycombinator's latest demo day batch.
+>
+> Here's what our agentic "founders" pulled off and what it means for the future of startups.
+>
+> Fully useable products at the bottom of the thread below 🤖🧨 https://t.co/a5ls2HePa6
+
+- **Tweet:** https://x.com/MarikHazan/status/2039040630157123824
+- **What:** Marik Hazan presents an experiment in using agentic "founders" to rebuild every startup from Y Combinator's latest Demo Day, with working products offered in the thread as evidence of how AI could compress early startup execution.
+
+## @yasser_elsaid_ - Chatbase’s $9M ARR AI-agent growth playbook
+> This is my playbook for bootstrapping an AI agent business to $9M ARR.
+>
+> The most important thing is that you need something repeatable and scalable, something where if you do more of, you get more money. You need the equation where you can arbitrage every dollar you spend into more dollars on the other end.
+>
+> Here is how you get there:
+>
+> 1. if you're in B2B, just do the B2B stuff.
+>
+> self-serve is very hard to make work in B2B. it's so much easier to build a sales team, teach them the product, and let them sell it, instead of building a very intuitive platform and hoping people figure it out.
+>
+> that's why all these bigger companies are mainly doing "book a demo with us." they charge customers a lot more because there's no public pricing, and they can set the product up for them. you cannot rely on a middle manager at a non-tech company to put in the effort to use your platform, even if it's extremely intuitive.
+>
+> if you're bootstrapping, you can't hire a sales team on day one. so you need momentum from self-serve customers first. but the goal is to layer in sales as fast as possible, get on demo calls, set up the product for bigger customers, and invest in building an intuitive platform at the same time.
+>
+> 2. content is non-negotiable, even if you're sales-led.
+>
+> good content gets you brand visibility and brand awareness, and that makes all the other channels work much more efficiently. paid ads work much better if people recognize your brand. if they click on your page and see content that people are engaging with, good quality content, it compounds everything.
+>
+> here's what that looks like:
+>
+> video: it depends on your ICP, but we all know video is hard to do, and that's a good thing because it makes the barrier to entry much higher. you can signal that you are a serious business if you do good quality video content.
+>
+> be creative within video, but don't get too creative with the kinds of videos. the kinds of videos you should be doing are product videos and customer videos. that's it. you can be creative in telling your customers' story, you can be creative in launching a product, but don't do the stunt thing, the office content, the random skits. they can work, but you only do them after you do the things that you know will work.
+>
+> hire a videographer in-house. agencies are so expensive (this is just a good rule of thumb).
+>
+> text + personal brands: you need personal brands for everyone in the company. EGC (employee-generated content) needs to be a non-negotiable. everyone on the team posting at least twice a week.
+>
+> 3. warm outbound is the lowest-hanging fruit.
+>
+> warm outbound = outbounding people who have already seen your product. people who interacted with your LinkedIn posts. people who visited your site but haven't signed up. people who created an account but never finished onboarding.
+>
+> these people are the lowest-hanging fruit. email them, call them, put them in a sequence until they become customers. you can have very clear KPIs for your team on this.
+>
+> 4. cold outbound, if your ICP is big enough.
+>
+> be good at writing cold emails and managing your own infrastructure. don't go through an agency. build a system where you can send emails profitably. if it works, send more. if that works, send more. scale it until it doesn't make sense to continue. also do this in-house if it's an important channel.
+>
+> 5. SEO and AEO are extremely important.
+>
+> whenever I want to try a new product, I ask Claude. AI search is a non-negotiable channel now. you need to show up there.
+>
+> that means a lot of Reddit, a lot of review websites, a lot of talking to blogs and backlinking sites to make sure they write what you want with the messaging you want.
+>
+> 6. expansion: be friends with your biggest customers.
+>
+> get on a call with them. know them by name. they need to have your number. they need to be advocates for you. build community around the customer.
+>
+> a lot of founders do not see their customers as friends or a community. they just see them as revenue. that's so bad. your customers need to enjoy spending time with you and talking with you.
+>
+> 7. pricing is the fastest lever.
+>
+> you need to find a good sweet spot for packaging and pricing. incentivize people to spend more money and make sure it's a good deal for them. there's no shortcut, you talk to customers, see what they care about, see what they get a lot of value out of, and capture some of that value while making sure they're successful.
+>
+> 8. margins don't matter early on.
+>
+> if you have a $10M ARR business but you spend $10M to run it, that's fine. you can always cut costs. revenue is the most important metric. it's easier to cut costs than to make more money, so in the beginning, focus on making more money.
+>
+> That's how we built @chatbase to where it is today. Most of this will continue to scale with us as we go to 100M ARR.
+>
+> *Quoting @yasser_elsaid_:* 9M ARR 🥳
+>
+> So happy!
+>
+> @Chatbase is going to be a $100M ARR company.
+>
+> Some days I feel it's inevitable, we're past the hardest part, it's almost too easy. Some days it feels too hard and I need a miracle.
+>
+> Constantly moving between "I am a genius,  how come no one is doing this" to "I don't know anything about anything".
+>
+> Follow to watch the journey, you will never be this early.
+
+- **Tweet:** https://x.com/yasser_elsaid_/status/2039038515019997210
+- **Quoted:** https://x.com/yasser_elsaid_/status/2038706292177723652
+- **What:** Alongside celebrating Chatbase reaching $9M ARR and aspiring to $100M, Yasser lays out a growth model for AI-agent businesses: start with self-serve momentum, add sales quickly, invest in content and warm outbound, then improve pricing and expansion before optimizing margins.
+
+## @measure_plan - Wearable-body Tetris turns movement into play
+> i made tetris but the board and pieces are attached to your body and it's quite tiring to play https://t.co/yEoA49igpX
+
+- **Tweet:** https://x.com/measure_plan/status/2038996019816305138
+- **What:** The post presents a physical Tetris experiment where the game board and falling pieces are mapped onto the player’s body, turning a familiar screen game into an intentionally tiring movement-based interaction.
+
+## @GergelyOrosz - Python rewrite challenges source-leak takedowns
+> This is either brilliant or scary:
+>
+> Anthropic accidentally leaked the TS source code of Claude Code (which is closed source). Repos sharing the source are taken down with DMCA.
+>
+> BUT this repo rewrote the code using Python, and so it violates no copyright &amp; cannot be taken down! https://t.co/uSrCDgGCAZ
+
+- **Tweet:** https://x.com/GergelyOrosz/status/2038985760175505491
+- **What:** Gergely Orosz flags the legal and practical ambiguity of a Python reimplementation purportedly derived from a removed Claude Code source leak, contrasting direct copyright takedowns with the harder question of whether functional rewrites can remain online.
+
+## @RobHoffman_ - Authority content over AI-generated volume
+> this is the alpha right now (we got over $250k of MRR pipeline last month alone)
+>
+> people always ask: why hire an agency when I can just spin up hundreds of articles with Claude or Open Claw?
+>
+> here’s why:
+> 1. Google, LLMs, and social do not reward content that is just a crappier regurgitated version of what already exists. Why would they rank that over the source material?
+> 2. They reward Authority Content. Definition: unique information, perspective, or data.
+> 3. Do what everyone else does, you’ll get the same results as everyone else.
+>
+> Sadly you’re not the first genius to think about using LLMs, agents, or Open Claw to mass produce content.
+>
+> The key is less better content distributed more
+>
+> *Quoting @jakezward:* https://t.co/AejvhWKRsz
+
+- **Tweet:** https://x.com/RobHoffman_/status/2038969577393041516
+- **Link:** https://x.com/i/article/2038901686706589696
+- **Quoted:** https://x.com/jakezward/status/2038962196353339584
+- **Filed:** [publishing-articles-on-x-and-linkedin](./knowledge/articles/publishing-articles-on-x-and-linkedin.md)
+- **What:** Hoffman highlights Jake Ward’s case for publishing long-form articles on X and LinkedIn, then argues that AI-assisted content only compounds when it contributes original information, perspective, or data rather than mass-produced rewrites.
+
+## @T3chFalcon - fresh-start: Claude Code leak takedown record
+> Huge Anthropic leak just dropped: the entire Claude Code CLI source is now public.
+>
+> A misconfigured .map file in their npm package exposed a direct download link to the full unobfuscated TypeScript codebase from Anthropic’s own R2 bucket.
+>
+> Discovered by Chaofan Shou (@Fried_rice), the dump is massive 1,900 files, 512,000+ lines including the complete tool system, 50+ slash commands, multi-agent coordinator, React/Ink terminal UI, IDE bridge, permission engine, and several unreleased features.
+>
+> Full repo is live on GitHub(@nichxbt ):
+> https://t.co/BLxqDmwsB0
+>
+> Clean mirrors are already up for easy browsing(@baanditeagle):
+> https://t.co/BN007COQzi
+> https://t.co/DYSytIEKZ4
+>
+> It’s spreading fast, the entire dev community is already tearing through it.
+>
+> *Quoting @shoucccc:* Claude code source code has been leaked via a map file in their npm registry!
+>
+> Code: https://t.co/jBiMoOzt8G https://t.co/rYo5hbvEj8
+
+- **Tweet:** https://x.com/T3chFalcon/status/2038926178153529479
+- **Link:** https://github.com/nirholas/fresh-start
+- **Quoted:** https://x.com/shoucccc/status/2038894956459290963
+- **Filed:** [fresh-start](./knowledge/tools/fresh-start.md)
+- **What:** The bookmark documents reports of a Claude Code source-code leak through an npm source map and points to a mirror that now serves as a DMCA/takedown history, corrects misinformation, and warns users not to run leaked copies.
+
+## @himanshustwts - Claude Code's tiered memory architecture
+> Based on everything explored in the source code, here's the full technical recipe behind Claude Code's memory architecture:
+>
+> [shared by claude code]
+>
+> Claude Code’s memory system is actually insanely well-designed. It isn't like  “store everything” but constrained, structured and self-healing memory.
+>
+> The architecture is doing a few very non-obvious things:
+>
+> > Memory = index, not storage
+> + MEMORY.md is always loaded, but it’s just pointers (~150 chars/line)
+> + actual knowledge lives outside, fetched only when needed
+>
+> > 3-layer design (bandwidth aware)
+> + index (always)
+> + topic files (on-demand)
+> + transcripts (never read, only grep’d)
+>
+> > Strict write discipline
+> +  write to file → then update index
+> + never dump content into the index
+> +  prevents entropy / context pollution
+>
+> > Background “memory rewriting” (autoDream)
+> +  merges, dedupes, removes contradictions
+> +  converts vague → absolute
+> +  aggressively prunes
+> +  memory is continuously edited, not appended
+>
+> > Staleness is first-class
+> + if memory ≠ reality → memory is wrong
+> +  code-derived facts are never stored
+> +  index is forcibly truncated
+>
+> > Isolation matters
+> + consolidation runs in a forked subagent
+> + limited tools → prevents corruption of main context
+>
+> > Retrieval is skeptical, not blind
+> +  memory is a hint, not truth
+> +  model must verify before using
+>
+> > What they don’t store is the real insight
+> +  no debugging logs, no code structure, no PR history
+> +  if it’s derivable, don’t persist it
+
+- **Tweet:** https://x.com/himanshustwts/status/2038924027411222533
+- **What:** @himanshustwts describes a memory design where a compact always-loaded index points to on-demand topic files while isolated agents consolidate and prune durable knowledge, prioritizing bandwidth limits, staleness detection, and verification over retaining derivable code context.
+
+## @shoucccc - Claimed Claude Code source-map archive
+> Claude code source code has been leaked via a map file in their npm registry!
+>
+> Code: https://t.co/jBiMoOzt8G https://t.co/rYo5hbvEj8
+
+- **Tweet:** https://x.com/shoucccc/status/2038894956459290963
+- **Link:** https://pub-aea8527898604c1bbb12468b1581d95e.r2.dev/src.zip
+- **What:** @shoucccc alleges that a Claude Code npm source map exposed source code and links an R2 ZIP archive, but the captured destination returns 404, leaving the purported materials unavailable for inspection.
+
+## @mreiffy - Interpreting Google's quantum disclosure as a Bitcoin warning
+> Google is basically saying:
+>
+> “We’ve cut the quantum resources needed to break Bitcoin’s encryption by 20x. We can now break it. We can prove it. We’re just not going to tell you how.
+>
+> We’ve slowed down research to give crypto a chance. You have until 2029 to figure out a solution. Good luck.”
+>
+> *Quoting @nic_carter:* Many are wondering "what Google saw" that caused them to revise their post-quantum cryptography transition deadline to 2029 last week. It was this:
+>
+> https://t.co/dQtmTK9pdz
+
+- **Tweet:** https://x.com/mreiffy/status/2038878566796988776
+- **Link:** https://research.google/blog/safeguarding-cryptocurrency-by-disclosing-quantum-vulnerabilities-responsibly/
+- **Quoted:** https://x.com/nic_carter/status/2038804571791761821
+- **Filed:** [Safeguarding cryptocurrency by disclosing quantum vulnerabilities responsibly](./knowledge/articles/safeguarding-cryptocurrency-by-disclosing-quantum-vulnerabilities-responsibly.md)
+- **What:** Max interprets Nic Carter's Google disclosure link as evidence of reduced quantum resources and a deliberate 2029 migration window; the post frames this as an urgent Bitcoin-hardening signal rather than a confirmed public claim of present break capability.
+
+## @shannholmberg - AutoReason's blind debate loop for subjective work
+> AutoResearch only works when you can measure the result with a number
+>
+> but what about writing, arguments, marketing copy? theres no score for "is this convincing"
+>
+> SHL0MS built AutoReason to solve this
+>
+> instead of a metric, it uses a loop of agents arguing with each other:
+>
+> > one writes a draft
+> > another critiques it (no fixes, just problems)
+> > a third rewrites it based on the critique
+> > a fourth merges the best parts of both
+> > a blind judge panel picks the winner
+> > loop until nothing beats the current version
+>
+> every agent gets fresh context so no confirmation bias builds up
+>
+> in testing, autoreason scored 35/35 on a blind panel. the next best method scored 21
+>
+> same idea as autoresearch but instead of optimizing a number, its optimizing through debate
+>
+> *Quoting @SHL0MS:* i've been working on a method called autoreason that is effectively autoresearch extended to subjective domains. autoresearch works because val_bpb gives you an objective fitness function. autoreason constructs a subjective one through independent blind evaluation, the same way science uses peer review where math can use proofs.
+>
+> as you’ve noted, the fundamental problem with using LLMs for iterative refinement on subjective work: the model is always sycophantic when you ask it to improve something, overly critical when you ask it to find flaws, and overly compromising when you ask it to merge two perspectives. the output ends up shaped more by how you prompt than by what's actually better.
+>
+> autoreason fixes this by separating every role into isolated agents with no shared context. you start by generating version A. a fresh agent attacks it as a strawman. a separate author who only sees the original task, version A, and the strawman critique produces version B. a third agent who has no history with either drafting process sees both versions as equal inputs and synthesizes them into version AB. a blind judge panel with fresh context and randomized labels picks the strongest of A, B, or AB. the winner becomes the new A and the loop repeats until the judges consistently pick the incumbent which indicates that no further changes are needed.
+
+- **Tweet:** https://x.com/shannholmberg/status/2038866414057161145
+- **Quoted:** https://x.com/SHL0MS/status/2037939506733523025
+- **What:** Shann³ highlights SHL0MS's AutoReason, which replaces a single objective metric with isolated drafting, critique, rewriting, synthesis, and blind-judging roles to iteratively select stronger subjective writing without confirmation bias.
+
+---
+
+# Monday, March 30, 2026
+
+## @nic_carter - Google's quantum cryptography disclosure
+> Many are wondering "what Google saw" that caused them to revise their post-quantum cryptography transition deadline to 2029 last week. It was this:
+>
+> https://t.co/dQtmTK9pdz
+
+- **Tweet:** https://x.com/nic_carter/status/2038804571791761821
+- **Link:** https://research.google/blog/safeguarding-cryptocurrency-by-disclosing-quantum-vulnerabilities-responsibly/
+- **Filed:** [Safeguarding cryptocurrency by disclosing quantum vulnerabilities responsibly](./knowledge/articles/safeguarding-cryptocurrency-by-disclosing-quantum-vulnerabilities-responsibly.md)
+- **What:** Google Research's disclosure on quantum vulnerabilities in cryptocurrency provides context for a revised 2029 post-quantum migration deadline, emphasizing why crypto systems need transition plans before technical details are public.
+
+## @michaelxbloch - Business moats that survive AI replication
+> https://t.co/Sbr574u8fu
+
+- **Tweet:** https://x.com/michaelxbloch/status/2038753872890778029
+- **Link:** https://x.com/i/article/2037604759968907264
+- **Filed:** [only-moats-that-matter](./knowledge/articles/only-moats-that-matter.md)
+- **What:** Michael Bloch shares an X article arguing that AI makes software, products, and processes increasingly replicable, so conventional defenses may no longer matter; its preview asks which business moats remain durable.
+
+## @EgoDriv - Detachment and qualification as a sales discipline
+> Here’s some value for anyone selling anything:
+>
+> There is a psychological frame that impacts your relationship with the person in front and the likelihood of the deal closing.
+>
+> The more you want to prove that you’re worth getting paid, the more friction you’ll face.
+>
+> The more you genuinely detach yourself from getting paid and focus on understanding how what you have to offer can help the person in front:
+>
+> The more deals you close.
+>
+> But this only happens if three things are true:
+>
+> - You can genuinely deliver value
+> - You know what value you bring to the table
+> - You have no problem walking away from money
+>
+> If these three check, money is not an objection.
+>
+> They’re either qualified or stop wasting your time.
+>
+> If you fail the first condition; stop and evaluate if what you’re selling is worth trying to sell.
+>
+> *Quoting @glennwrites1:* I have now officially learned my lesson...
+>
+> Even if a client has ONE tiny red flag...
+>
+> I'm out. Anytime I ignore a red flag for $ I get shafted lmao.
+>
+> If your gut says no, listen.
+
+- **Tweet:** https://x.com/EgoDriv/status/2038742431513161806
+- **Quoted:** https://x.com/glennwrites1/status/2038708613049356549
+- **What:** E-go turns Glenn's warning about ignoring client red flags for money into a sales-qualification framework: confidence comes from demonstrable value, knowing one's fit, and being willing to walk away, which prevents revenue pressure from overriding judgment.
+
+## @aakashgupta - Prefer CLIs and subagents over persistent MCP context
+> Andrej Karpathy said it himself. The hierarchy for connecting tools to Claude Code: CLI at the top, API in the middle, MCP at the bottom.
+>
+> MCPs eat context the moment they connect. Every MCP you load is sitting in your context window doing nothing until you call it. You could have five MCPs connected and lose 15-20% of your usable context before you've typed a single message.
+>
+> CLIs use zero context until the moment you need them. The GitHub CLI, Vercel CLI, Firecrawl CLI. The AI calls them directly from your machine. No handshake, no persistent connection, no context cost.
+>
+> Carl Vellotti ran a web research task with 10 tool calls and 30,000 tokens through a sub-agent. His main session moved from 16% to 16.5% context used. Without the sub-agent, that same task would have filled to 25%. The difference between a session that lasts 30 messages and one that compacts after 5.
+>
+> Most PMs loaded up MCPs because that was the tutorial everyone shared in January. The PMs getting the best outputs right now ripped most of them out and switched to CLIs.
+>
+> *Quoting @aakashgupta:* This guy literally broke down how to use Claude Code like an expert:
+>
+> 1:40 -  Code vs Cowork vs OpenClaw
+> 6:51 - Setting up context status line
+> 12:03 - Sub-agents
+> 17:49 - Creating skills
+> 23:58 - Ask user questions tool
+> 33:33 - Tool-powered skills: Tavily
+> 36:57 - CLI vs MCP vs API hierarchy
+> 39:30 - Make slides skill w/ Puppeteer
+> 43:32 - Auto-invoking skills with hooks
+> 46:49 - Jupyter notebooks for data trust
+> 55:09 - The operating system file structure
+
+- **Tweet:** https://x.com/aakashgupta/status/2038723705237631414
+- **Quoted:** https://x.com/aakashgupta/status/2038713289254064321
+- **What:** Aakash Gupta highlights a Claude Code workflow lesson from a broader expert-use tutorial: use on-demand CLIs and delegate token-heavy research to subagents so the main conversation retains its context, reserving persistent MCP connections for capabilities that truly need them.
+
+## @anthonysheww - Turborepo configuration for cache-related build problems
+> Aiden's right, and there's now configuration you can add to prevent this on 𝚝𝚞𝚛𝚋𝚘@𝚕𝚊𝚝𝚎𝚜𝚝.
+>
+> We also had a quite old issue in vercel/turborepo (#863) that I hadn't seen yet. Wish I had seen it sooner but glad its fixed now.
+>
+> https://t.co/fbCFGr0VHi
+>
+> *Quoting @aidenybai:* monthly reminder to clear your build cache https://t.co/ZJPXlxhhi3
+
+- **Tweet:** https://x.com/anthonysheww/status/2038718370078720489
+- **Link:** https://turborepo.dev/docs/reference/configuration
+- **Quoted:** https://x.com/aidenybai/status/2038051230023668091
+- **Filed:** [configuring-turbo-json](./knowledge/articles/configuring-turbo-json.md)
+- **What:** Anthony Shew points to Turborepo's `turbo.json` reference as a configuration-led answer to a build-cache problem, while noting a longstanding Turborepo issue was fixed; the reminder emphasizes that stale cache state can otherwise look like a routine maintenance task.
+
+## @jonnym1ller - Simulating high and low agency in a brain-activity model
+> I just fed @george__mack's classic "jail cell" scenario into an open-source AI model that predicts brain activation (fMRI responses)
+>
+> This was an early attempt to explore what 'High Agency' vs. 'Low Agency' looks on a simulated fMRI scan
+>
+> 🧵 https://t.co/WqFelxXWSf
+>
+> *Quoting @jonnym1ller:* We're truly entering a golden age for citizen science research projects...
+
+- **Tweet:** https://x.com/jonnym1ller/status/2038706611406184689
+- **Quoted:** https://x.com/jonnym1ller/status/2038310590813544522
+- **What:** Jonny Miller uses an open-source fMRI-response model to make the abstract contrast between high and low agency experimentally visible, framing the exercise as an example of AI enabling citizen-led research projects.
+
+## @agupta - Exo, an open-source inbox agent built with Claude Code
+> Fun update: I got tired of disliking every email client I’ve ever used and built my own. It’s called Exo (for exoskeleton). It’s Claude Code for my inbox. It manages my inbox for me, and it’s open source. Link to repo + some notable features in thread! https://t.co/xHMQJscMg7
+
+- **Tweet:** https://x.com/agupta/status/2038692501536559208
+- **What:** Ankit Gupta introduces Exo, an open-source personal email client positioned as Claude Code for the inbox: it delegates inbox management to an agent, with the repository and concrete feature set deferred to the linked thread.
+
+## @gvtcontractor - Aiwyn Tax Connector’s automated return preparation
+> I checked this against my 2025 personal tax return and it was the exact same. I have fairly complicated taxes.
+>
+> If you have a regular w-2 job this is a no brainer.
+>
+> By next year this should be handling 90%+ of all tax cases.
+>
+> *Quoting @zachweinberg:* AI to prepare your tax returns for free.
+>
+> https://t.co/fMgj3CTeNG https://t.co/48w12oP4IK
+
+- **Tweet:** https://x.com/gvtcontractor/status/2038679160080515163
+- **Link:** https://claude.com/connectors/aiwyn-tax
+- **Quoted:** https://x.com/zachweinberg/status/2038643059856953525
+- **What:** Sebastián validates Zach Weinberg’s free AI tax-preparation recommendation against a complicated 2025 return, arguing that the Aiwyn connector already matches his result and could cover most routine tax cases soon; the linked page is a connector homepage rather than a standalone article.
+
+## @itsolelehmann - LLM Council method for more trustworthy Claude advice
+> https://t.co/LPpbf2ZJny
+
+- **Tweet:** https://x.com/itsolelehmann/status/2038661433626333649
+- **Link:** https://x.com/i/article/2038655871807315968
+- **Filed:** [how-to-finally-trust-claudes-advice-llm-council-method](./knowledge/articles/how-to-finally-trust-claudes-advice-llm-council-method.md)
+- **What:** Ole Lehmann presents an LLM Council skill that has five AI advisers debate a question and anonymously review one another, offering a structured way to counter sycophantic single-model answers before acting on Claude’s advice.
 
 ---
 
@@ -23809,8 +24955,38 @@ Young savage. Retardmaxxing at its best.
 
 ---
 
----
+## @bcherny - Claude Code’s overlooked power-user features
+> I wanted to share a bunch of my favorite hidden and under-utilized features in Claude Code. I'll focus on the ones I use the most.
+>
+> Here goes.
 
+- **Tweet:** https://x.com/bcherny/status/2038454336355999749
+- **What:** Boris Cherny begins a thread collecting the less-visible Claude Code features he relies on most, signaling a practical power-user guide whose useful implementation details are in the subsequent thread posts rather than this introduction.
+
+## @deredleritt3r - Frontier labs’ belief in near-term automated AI research
+> You don't truly understand the magnitude of the potential impact of powerful AI on the world unless you are aware, and have fully internalized, that senior leadership and most researchers at the frontier labs *actually believe* the following:
+>
+> 1.  Existing AI is already significantly speeding up AI research.  Very soon (this year), AI will very likely take over *ALL* aspects of AI research other than generation of novel research ideas.  Soon (within the next 2 years), AI will very likely take over *ALL* aspects of AI research, period.  This means hundreds of thousands of GPUs working 24/7 to discover novel ideas at the level of, or better than, the likes of Alec Radford, Ilya Sutskever, etc.  The thread below presents a conservative timeline: AI researchers will "meaningfully contribute" to AI development in 1-3 years.
+>
+> 2.  Many (but, as far as I can tell, not all) executives and researchers at the frontier labs believe that fully automated AI research will kick off recursive self-improvement (RSI), wherein the AI models will autonomously build better and better AI models, with human oversight (for safety reasons), but increasingly with no human input into the research or implementation of that research.  From the thread below: "'[h]umans vs AI on intellectual work is likely to be like human runner vs a Porsche in a race', likely very soon" - but replace "intellectual work" generally with "AI research" specifically.
+>
+> RSI is a complicated and messy thing to consider, both because there will be compute and energy constrains and because there are unknowns (will there be diminishing returns from greater intelligence of the models? if so, when will these diminishing returns become meaningful? is there a ceiling to intelligence that we don't know about?).  But suffice to say that, if RSI *is* achieved in a way that many leaders/researchers at the frontier labs believe is possible, *THE WORLD MAY BECOME COMPLETELY UNRECOGNIZABLE WITHIN JUST A FEW YEARS*.  This is subject to various bottlenecks; as the thread below correctly notes, "[i]nstitutional, personal & regulatory bottlenecks will bind very hard", and much also depends on continuing progress in areas like robotics.
+>
+> 3.  On ~the same timeline as full, end-to-end automation of *ALL* aspects of AI research (within the next 2 years), AI will also become capable of making significant novel scientific discoveries *IN OTHER FIELDS*.  This is why Dario Amodei, Demis Hassabis et al. believe that it is possible that all diseases will be curable within 10 years.  (One account of how this might be possible is set forth in "Machines of Loving Grace".)  The point is that an LLM that is capable of significant novel insights in the field of AI research should likewise be capable of significant novel insights in at least some (and perhaps all) other fields.  The thread below notes: "AI for automating science [is] very early" - obviously true, but I think some changes may be right on the horizon.
+>
+> Overall, and again from the thread below: "'a million scientists in a data center' will think much more quickly than humans, on almost any intellectual task; this will happen in the next 2-10 years."  This is ~the same timeline as that presented in "Machines of Loving Grace".
+>
+> Many will be tempted to dismiss all this as "just hype", "they are just trying to raise money again", etc.  But no!  - the above, in fact, presents the *actual beliefs* of senior leadership and many researchers at the frontier labs.  Again, they genuinely think that AI research will be automated soon.  Many of them genuinely believe that RSI is achievable in the not-too-distant future.  And they genuinely see a real path towards AI significantly accelerating science, curing diseases, inventing new materials, helping to solve key global issues from poverty to climate change, etc., etc.
+>
+> Whether the frontier labs' beliefs are correct is, of course, a separate question.  I personally have historically tended to take public statements by OpenAI, Anthropic and Google at face value and quite seriously.  As a result, I was not surprised when LLMs won gold in the IMO, IOI and the ICPC competitions last year, or when Claude Code/Codex started taking off, or when Anthropic and OpenAI started releasing significantly better models every 1-2 months, or when some of the best coders became reliant on Claude Code/Codex in their daily work, or when LLMs became significantly helpful to scientists in fields like math and physics in the last few months.  The trajectory has been ~the same as that publicly predicted by the frontier labs.  We have been accelerating.  And, as of right now, all signs are indicating that the acceleration shall continue and that full automation of AI research and, potentially, RSI are firmly on the horizon.
+>
+> *Quoting @Afinetheorem:* My read on "normal policymaker &amp; corp. leader on AI": mostly now they don't need to be convinced it is very important (unlike a year ago). But they still see its capabilities as today + epsilon. So just briefly, here is what even "AI is normal tech" folks in the labs believe: 1/8
+
+- **Tweet:** https://x.com/deredleritt3r/status/2038436460324405599
+- **Quoted:** https://x.com/Afinetheorem/status/2038318486590546210
+- **What:** This post argues that frontier-lab leaders expect end-to-end automated AI research, recursive improvement, and accelerated science on a short timeline, extending Bryan’s warning that policymakers still underestimate the gap between present systems and lab expectations.
+
+---
 # Saturday, March 28, 2026
 
 ## @ben_burtenshaw - Multi-agent autoresearch system running live ML experiments on HuggingFace
@@ -26911,8 +28087,15 @@ $150k #april_goals
 - **Filed:** [automated-youtube-content-7m-views](./knowledge/articles/automated-youtube-content-7m-views.md)
 - **What:** Marshall's excited reaction quotes maubaron's article on a fully automated YouTube channel that reached 7M views and 61K subscribers without any manual uploads. The underlying system uses Python scripting (prompted via Claude Code) to scrape viral video hooks, stitch them with a branded CTA clip, and bulk-schedule via a posting tool — 700 videos created in 10 minutes. Marshall's intent to pull 250+ videos signals he's adopting the same playbook immediately.
 
----
+## @iamjasonlevin - Lessons from launching an iOS app
+> https://t.co/9xlX1JipYx
 
+- **Tweet:** https://x.com/iamjasonlevin/status/2030667469023588610
+- **Link:** https://x.com/i/article/2029923118605623297
+- **Filed:** [ios-app-learnings-part-1](./knowledge/articles/ios-app-learnings-part-1.md)
+- **What:** Jason Levin's article introduces lessons from building an iOS app, contrasting a fast one-shot App Store release with the more difficult work of making a product its creator values and is proud to ship.
+
+---
 # Saturday, March 7, 2026
 
 ## @RoundtableSpace - Anthropic Ships 27+ Features in Two Weeks
@@ -27089,8 +28272,23 @@ $150k #april_goals
 - **Tweet:** https://x.com/alvinsng/status/2030056110317818206
 - **What:** Factory AI's engineering culture has inverted the typical caution around merging by investing in speed and breadth of automated CI — 40+ checks completing in 6 minutes means the feedback loop is fast enough to make reckless merging a reasonable strategy. This reframes "agent-native development" as infrastructure quality enabling velocity, not just AI writing code.
 
----
+## @vgrichina - re-skill turns retro-game binaries into inspectable web ports
+> *Replying to @vgrichina:* Play it online here
+>
+> https://t.co/6HvDrxTOaO
+>
+> This port tries to stay extremely faithful to original ROM but run without emulation in plain JS.  So that you can also see how game works and change it easily.
+>
+> I made Claude Code skill to make this easy with any binary on any platform:
+> https://t.co/YVC3mBu7dA
 
+- **Tweet:** https://x.com/vgrichina/status/2029796262606950424
+- **Link:** https://github.com/vgrichina/re-skill
+- **Parent:** https://x.com/vgrichina/status/2029796260736278831
+- **Filed:** [vgrichina-re-skill](./knowledge/tools/vgrichina-re-skill.md)
+- **What:** Vlad Berrry shares a Claude Code skill that systematizes retro-game reverse engineering, from binary inspection and asset extraction through validation and a faithful plain-JavaScript port that remains easy to study and modify.
+
+---
 # Thursday, March 5, 2026
 
 ## @aakashgupta - The Rise of the Agent Builder Role
@@ -28454,8 +29652,29 @@ $150k #april_goals
 - **Filed:** [felix-openclaw-ai-entrepreneur-case-study](./knowledge/articles/felix-openclaw-ai-entrepreneur-case-study.md)
 - **What:** Eliason published a detailed breakdown of Felix, an OpenClaw agent running 24/7 on a Mac Mini that has earned $14,718 in under three weeks by selling a PDF product and building Claw Mart, a marketplace for OpenClaw skills. The case study documents the full operational loop: daily review docs in Polylogue, autonomous customer support and X replies, an SEO content bot, Sentry-triggered auto-deploys, and an explicit goal of $1M with zero human employees. Most notably, Felix's operating costs are now paid from his own revenue.
 
----
+## @bcherny - Claude Code gains built-in Git worktree isolation
+> Introducing: built-in git worktree support for Claude Code
+>
+> Now, agents can run in parallel without interfering with one other. Each agent gets its own worktree and can work independently.
+>
+> The Claude Code Desktop app has had built-in support for worktrees for a while, and now we're bringing it to CLI too.
+>
+> Learn more about worktrees: https://t.co/JFkD2DrAmT
 
+- **Tweet:** https://x.com/bcherny/status/2025007393290272904
+- **Link:** https://git-scm.com/docs/git-worktree
+- **Filed:** [git-worktree-documentation](./knowledge/articles/git-worktree-documentation.md)
+- **What:** Claude Code CLI adds native Git worktree support so concurrent agents can work from isolated checkouts while sharing one repository, preventing their filesystem and branch changes from colliding.
+
+## @peterjliu - Using AI to find information edges in Polymarket
+> https://t.co/Ch1dWZQpH1
+
+- **Tweet:** https://x.com/peterjliu/status/2024901585806225723
+- **Link:** https://x.com/i/article/2024235288512569344
+- **Filed:** [polymarket-insiders-and-alpha-ai](./knowledge/articles/polymarket-insiders-and-alpha-ai.md)
+- **What:** Peter J. Liu's article examines using AI to investigate suspected insider information and informational advantages in Polymarket, treating prediction markets as places where missing knowledge can become a tradable edge.
+
+---
 # Wednesday, February 18, 2026
 
 ## @BoredElonMusk - Image Post (No Text)
@@ -32939,6 +34158,18 @@ Oh, and RIP billable hours.
 
 - **Tweet:** https://x.com/cremieuxrecueil/status/1927444638735966221
 - **What:** Crépieux's point is a standard selection-vs-treatment split: observational links between cannabis use and bad life outcomes are mostly who selects into use, not the drug turning people into "losers." Bookmark it as a reminder that vice-outcome correlations in social data are usually confounded until you have a design that can separate selection from causation.
+
+---
+
+# Monday, April 7, 2025
+
+## @tobi - Shopify makes AI proficiency a baseline expectation
+> https://t.co/6i6h3sKi3x
+
+- **Tweet:** https://x.com/tobi/status/1909251946235437514
+- **Link:** https://x.com/i/article/1909251387525128192
+- **Filed:** [shopify-reflexive-ai-usage](./knowledge/articles/shopify-reflexive-ai-usage.md)
+- **What:** Shopify CEO Tobi Lütke makes AI fluency an organization-wide expectation, tying it to project prototyping, performance reviews, shared learning, and stricter justification for additional headcount.
 
 ---
 
