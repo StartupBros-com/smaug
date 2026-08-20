@@ -50583,6 +50583,1282 @@ thank you all, means a lot
 - **Tweet:** https://x.com/levikmunneke/status/1967439110550770076
 - **What:** THIN: Munneke promotes a free GPT and prompt intended to automate Apollo prospect searches for cold-email campaigns, but the bookmark contains neither the shared prompt nor evidence about the workflow’s data quality, targeting controls, or limits.
 
+## @gregisenberg - Vertical AI startup wedges in ChatGPT usage
+> OpenAI JUST released how people are using chatgpt
+>
+> each bar in this chart is a billion-dollar wedge if you build the right verticalized, trust-rich AI startup:
+>
+> 1/ tutoring + teaching (10.2%) - people want on-demand teachers more than almost anything else. a personal ai tutor that explains things your way, remembers your progress, and nudges you daily.
+>
+> 2/ how-to advice (8.5%) - this is consumer SaaS for micro-niches: “how to fix my resume,” “how to meal prep,” “how to set up my Shopify store.” every “how-to” is a wedge into a vertical AI agent.
+>
+> 3/ personal writing + editing (18% combined) - 8% of traffic is people asking AI to write emails, 10.6% is editing or critiquing text. this is demand for AI copilots inside every workflow tool: sales, legal, HR, PR.
+>
+> 4/ health, fitness, beauty, self-care (5.7%) - validated consumer wedge. people already trust AI with their bodies. AI trainers, AI nutritionists, AI skin coaches — with a human layer for accountability.
+>
+> note: btw if you like seeing ideas/trends like this, you'll like @ideabrowser (free/paid plans)
+>
+> 5/ purchasable products (2.1%)- tiny % but huge monetization. people literally asking AI what to buy. the Amazon affiliate model gets reborn here. whoever builds the “AI-powered shopping layer” owns the new SEO.
+>
+> 6/ translation (4.5%)still unsolved. what people want isn’t raw translation, it’s contextual translation: tone, culture, slang. AI that doesn’t just translate but localizes your intent.
+>
+> 7/ computer programming (4.2%) - we know this, but it’s worth underlining: devs want copilots. the non-obvious play is vertical code copilots... Shopify dev copilot, Unreal Engine copilot, etc.
+>
+> TLDR;
+>
+> every bar is a behavior that people are already paying for elsewhere. translate those behaviors into vertical ai agents and startups.
+>
+> the data doesn't lie.
+
+- **Tweet:** https://x.com/gregisenberg/status/1967737940743717373
+- **What:** This startup thesis interprets reported ChatGPT usage shares as validation for vertical AI products, arguing that tutoring, guidance, writing, self-care, shopping, localization, and domain-specific coding each offer trust-rich opportunities beyond generic chatbots.
+
+## @gregisenberg - Building an AI marketing team with Claude Code
+> you can use claude code to build you a marketing team https://t.co/TT9CPYEMHJ
+
+- **Tweet:** https://x.com/gregisenberg/status/1967656311501492270
+- **What:** This is a brief claim that Claude Code can assemble a marketing team, but the linked short URL resolves to the tweet itself and supplies no agent roles, prompts, workflow design, or external implementation reference.
+
+## @EXM7777 - n8n automation monetization guide
+> how to make money with n8n: https://t.co/g5guV3OESG
+
+- **Tweet:** https://x.com/EXM7777/status/1967649650632200221
+- **What:** This post promises advice on monetizing n8n automation, but its only shortened URL resolves back to the same tweet, so the available bookmark data contains no workflow, business model, or supporting resource to assess.
+
+## @stergiossta - Two-week validation of a Telegram business playbook
+> Update: 2 weeks and $3K+ later
+>
+> Officially smashed the $3K in less than 30 days goal.
+>
+> I only used @apollonator3000 ’s free sauce + my own experience
+>
+> Started from 0. No accounts or audience.
+>
+> Point proved.
+>
+> This was just a challenge not some long-term thing.
+>
+> Appreciate the free sauce bro, the paid stuff must be insane 👀
+>
+> *Quoting @stergiossta:* Few hours ago I found @apollonator3000 ‘s Telegram channel
+>
+> Went through every single post
+>
+> The amount of sauce is insane
+>
+> Knowledge that can easily get you to 5 figs per month
+>
+> I wonder what the paid stuff gets you?
+>
+> P.s this isn’t some affiliated crap
+>
+> Haven’t got any of his paid things (yet)
+>
+> Just felt grateful for the content
+>
+> Will come back to this when I’m already making $$ through one of his methods
+
+- **Tweet:** https://x.com/stergiossta/status/1967635738922479635
+- **Quoted:** https://x.com/stergiossta/status/1960382872151261438
+- **What:** An update claims that a no-audience experiment earned more than $3,000 in two weeks by applying free advice from a Telegram channel, reinforcing the original recommendation while leaving the underlying methods unspecified.
+
+## @alexgroberman - LinkedIn's three-post growth playbook
+> I created my LinkedIn 40 weeks ago.
+>
+> Easiest algorithm to crack by a country mile.
+>
+> I have since added $70,000 to my agency pipeline, generated five figures this month for SEO Stuff, built 7,400+ connections, logged 1,720,745 impressions, and reached 535,761 members.
+>
+> Use my system before they close the loopholes.
+>
+> And if you want my full cheat sheet including updated engagement group templates, carousel strategy, and DM workflows:
+>
+> Follow me
+>
+> Repost this
+>
+> Comment “X LinkedIn growth guide”
+>
+> You must do all 3 to get the DM.
+>
+> What is working now for audience growth:
+>
+> LinkedIn rewards original insights, depth, and conversation.
+>
+> The fastest-growing accounts right now are doing these things consistently:
+>
+> Proof + Perspective, since people want numbers and your take. Basically dashboard screenshots, Stripe receipts, client results followed by “here’s what I learned.”
+>
+> Story-first content, which are basically posts that tell a quick story. Even a small win or failure outperform generic how-tos.
+>
+> Also, don't sleep on comment-first growth.
+>
+> The easiest way to grow your audience fast is to be seen in other people’s comments daily.
+>
+> Thoughtful comments can outperform posts for reach when done consistently.
+>
+> Also, try to prompt conversation.
+>
+> Posts that create back-and-forth replies inside the comments get shown for 2–3 extra days.
+>
+> Ask real questions and reply to every comment to keep the discussion alive.
+>
+> Network overlap is key to. If your content keeps getting engagement from two or three adjacent niches, LinkedIn starts showing you to those networks more often.
+>
+> Consistency is key, by the way.
+>
+> Three posts a day, every day, is better than six posts one day and silence the next.
+>
+> My posting routine:
+>
+> I post 3 times per day, 7 days a week, unless I'm traveling. (And when I travel my stats plummet).
+>
+> Morning: Text post with POV, story, or market insight
+>
+> Afternoon: Carousel, proof post, or annotated screenshot
+>
+> Evening: Mini-thread, framework, or quick win
+>
+> Even 2 days off posting cuts impressions and inbound leads by half. (I learn this the hard way every month.)
+>
+> Best-performing formats right now:
+>
+> Carousels
+>
+> Slide 1: bold headline tied to a pain point or result
+>
+> Slides 2–5: numbered steps, bullets, or annotated visuals
+>
+> Final slide: CTA (“Drop guide below if you want the SOP”)
+>
+> Carousels with a mix of text and screenshots are outperforming plain text slides by 30–40%.
+>
+> Short videos
+>
+> Under 60 seconds
+>
+> Hook hard in the first 3 seconds
+>
+> Use subtitles with a strong first line (auto-previews drive clicks)
+>
+> Show processes, dashboards, or quick wins over overly polished production
+>
+> Text posts
+>
+> Hook with a question or bold claim
+>
+> 1–2 lines per paragraph for scannability
+>
+> 3–5 bullet takeaways perform better than walls of text
+>
+> End with a question that invites others to share their experience
+>
+> Proof breakdown posts
+>
+> Share a result
+>
+> Explain how it happened in 3–4 short bullets
+>
+> Turn your metrics into a mini-case study
+>
+> Conversation-first posts
+>
+> Ask a real question, share a controversial POV, or open a loop that invites debate
+>
+> Formats that kind of suck right now:
+>
+> Generic AI-written content with no voice
+>
+> Metrics-only posts with no “how”
+>
+> Text walls with no whitespace
+>
+> Links in the post body
+>
+> Timing sweet spots:
+>
+> 7–8 AM for thought-leadership or text-heavy posts
+>
+> 1–3 PM for maximum reach
+>
+> Sunday evening for outsized visibility with less competition
+>
+> Tuesday and Thursday for CTA or lead-gen posts
+>
+> Engagement strategy for building a strong audience:
+>
+> Comment on 20+ posts/day with insight or examples (not just “great post”)
+>
+> Like 50+ posts/day, focusing on people who engage with your content
+>
+> Reply to every comment within the first hour, this drives early velocity
+>
+> Repost your best-performing posts every 5–7 days with a fresh angle
+>
+> DM 5–10 new people daily with context tied to what they just posted
+>
+> LinkedIn is now weighting comment threads and returning commenters more heavily.
+>
+> Encourage dialogue between commenters and follow up with people who engaged last time, repeat engagement makes your reach grow week over week.
+>
+> Hooks converting right now:
+>
+> “I started this account 40 weeks ago. Here’s the exact revenue it has generated.”
+>
+> “$10K this month from LinkedIn posts. Here’s the breakdown.”
+>
+> “This 7-slide carousel booked 3 calls in 24 hours. Slide 1 below.”
+>
+> “If I had to rebuild my LinkedIn from scratch in 2025, here’s what I would do.”
+>
+> “The 3-post-per-day system I use to consistently generate inbound leads.”
+>
+> Always pair with screenshots, receipts, or analytics for credibility.
+>
+> 30-day checklist for building a strong audience:
+>
+> Post 3x/day
+>
+> Comment on 20+ posts/day with substance
+>
+> Like 50+ posts/day
+>
+> Reply to every comment in the first hour
+>
+> Repost your top performers weekly
+>
+> DM 5–10 people/day with value-first context
+>
+> Track impressions, replies, inbound leads, and comment thread depth weekly
+>
+> LinkedIn is still the most underpriced attention engine in 2025.
+>
+> Run this playbook for 30 days. Screenshot your Day 31 results. Tag me when the inbound starts.
+>
+> And if you want the full cheat sheet with engagement group templates, carousel strategy, and DM workflows:
+>
+> Follow me
+>
+> Repost this
+>
+> Comment “X LinkedIn growth guide”
+>
+> You must do all 3 for the DM.
+
+- **Tweet:** https://x.com/alexgroberman/status/1967611627785588832
+- **What:** This is a high-frequency LinkedIn audience-growth playbook that combines proof-led and story-first posts with carousels, rapid comment replies, daily engagement, and relationship-building DMs to turn visibility into leads.
+
+## @hridoyreh - Unspecified secret SEO tactic
+> A secret SEO Wins that nobody knows: https://t.co/IffJgN3X2J
+
+- **Tweet:** https://x.com/hridoyreh/status/1967524049749446783
+- **What:** LINK_FAILED: Could not expand link from @hridoyreh — the only destination resolves to this same tweet, leaving the claimed SEO tactic unavailable for evaluation.
+
+## @mattdiggityseo - Prevent private redirects from displacing indexed pages
+> Your login pages are secretly destroying your SEO rankings.
+>
+> Google's Search Relations team just confirmed what we've been seeing in audits for months.
+>
+> When multiple private URLs (like /profile/settings or /checkout/order-history) redirect to the same generic login form, Google treats them as duplicate content and indexes the login page instead of your actual content.
+>
+> The result? People searching for your brand land on a useless login screen.
+>
+> Here's what Google recommends:
+>
+> - Use noindex tags on private endpoints instead of hiding them in robots.txt
+> - Redirect logged-out users to a marketing page with clear context
+> - Add paywall structured data if you want restricted content indexed
+> - Include product descriptions on login pages, not just blank forms
+>
+> Quick test: Open an incognito window and search your brand name. If you see login pages ranking instead of helpful content, you've got work to do.
+
+- **Tweet:** https://x.com/mattdiggityseo/status/1967511327401992453
+- **What:** The post warns that consolidating authenticated URLs onto a generic login redirect can let it outrank useful pages, and proposes noindex, contextual redirects, and paywall markup to protect search visibility.
+
+## @ConnorShowler - An eight-point GPT baseline for SEO audits
+> Audits aren't Sexy, but operating without them is deadly.
+>
+> Don’t be that guy..
+>
+> GPT audits can never go as deep as a professional human audit, but it's a great baseline to get you started.
+>
+> We built an 8-point SEO Audit master prompt you can use to uncover:
+>
+> - Hidden indexation issues
+>
+> - Slow page speed killers
+>
+> - Content gaps your competitors already exploit
+>
+> - Weak internal linking that strangles your topical authority
+>
+> Comment "AUDIT", Like & Repost to get the prompt sent to you via DM within the next 24 hours.
+
+- **Tweet:** https://x.com/ConnorShowler/status/1967460763007627657
+- **What:** A promotional post positions an eight-point GPT prompt as an initial SEO-audit checklist for surfacing technical, content, and internal-linking issues before commissioning deeper human analysis.
+
+---
+# Sunday, September 14, 2025
+
+## @distributionat - Skincare as hands-on empirical science
+> Related: men underrate how much cognitive labor goes into skincare and how sophisticated women are about it.
+>
+> Getting into skincare (identifying unwanted skin conditions and fixing them) is one of the best ways to train empirical science skills. It's a practical science.
+>
+> Requires:
+> * keen observational skills (figuring out exactly what's wrong, where it's happening)
+> * planning experiments (you often don't know how long to run an experiment for, or what variables you need to keep track of at the beginning; lots of suggested interventions in the literature don't work or are harmful)
+> * literature review (reading both scientific papers and what other people have tried)
+>
+> Somebody who went on a "skincare journey" is better at running experiments than a median CS grad.
+>
+> *Quoting @patrickc:* Observing some people close to me with chronic health conditions, it's striking how useful Reddit frequently ends up being. I think a core reason is because trials aren’t run for a lot of things, and Reddit provides a kind of emergent intelligence that sits between that which any single physician can marshal and the full rigor of clinical trials.
+>
+> Why aren’t trials run for a lot of things? Well, they’re of course slow and expensive (median cost of $19M for a pivotal trial in 2015[1]; after adjusting for inflation and other phases, maybe that corresponds to a total of $40M today?). But they’re also hard to fund when the intervention in question lacks IP protection since the ensuing knowledge can’t be monetized. As such, trials for diet, over-the-counter supplements, and lifestyle interventions are under-pursued. To give one prosaic example, lots of people think that magnesium improves sleep, but, as far as I know, no trial has ever been run assessing its ability to improve sleep in non-elderly adults without sleep disorders.
+>
+> So, Reddit — in a pretty unstructured way — makes a limited kind of “compounding knowledge” possible. Best practices can be noticed and can imperfectly start to accumulate. For people with chronic health problems, this is a big deal, and I’ve heard lots of stories between “I found something that made my condition much more manageable” all the way to “I found a permanent cure in a weird comment buried deep in a thread”. (Of course, one also sees this outside of medical conditions. I’ve enjoyed the recommended routine in the BodyWeightFitness subreddit, as a comparable kind of distilled practical wisdom[2].)
+>
+> An interesting and somewhat more formalized example of this approach was recently used for long COVID and published earlier this year[3]. After surveying 3,900 individuals, the paper analyzes patient-reported outcomes for 150 different treatments, yielding the figure reproduced below. There are evidently no silver bullets, but it is striking that, say, about half of people find that antihistamines are helpful. I know a number of people who found the learnings from this study to be impactful in improving their daily quality-of-life.
+>
+> Seeing this paper and the Reddit experience makes me wonder whether the approach could somehow be scaled: is there a kind of observational, self-reported clinical trial that could sit between Reddit and these manual approaches? Should there be a platform that covers all major chronic conditions, administers ongoing surveys, and tracks longitudinal outcomes?
+>
+> I don’t really know what the best way to go about this would be, but it feels to me that there could be something important here. There’s a lot of latent data in patients’ subjective experiences that is not today being properly gathered or analyzed.
+
+- **Tweet:** https://x.com/distributionat/status/1967383071109558324
+- **Quoted:** https://x.com/patrickc/status/1967346630539333662
+- **What:** The reply reframes skincare as rigorous personal experimentation, extending Collison’s case that patient communities can accumulate useful evidence where formal trials of low-IP interventions are absent.
+
+## @vasuman - A practical progression from LLM apps to production AI systems
+> My playbook to become an AI expert (from scratch):
+>
+> 1. Build something (anything) that uses an LLM (via API call) and reliably works off of that output. i.e. I feed a document, ChatGPT generates a summary, then this summary gets emailed to you. Very simple. Bonus points if it actually solves a problem of yours.
+>
+> 1.5. Start experimenting with different models, understanding their strengths and weaknesses, which LLM you should call where (tradeoffs being context window size, cost, intelligence, etc).
+>
+> 2. Build a more complex 'agent' system that takes the output of one LLM call and feeds that into another LLM call (2 or 3 times) to showcase you understand how to reliably pass I/O through multiple LLM sequences. i.e. call API once, and based on its output, call one of three different APIs, and each of those APIs call one of three APIs (think decision tree, and each node is an LLM call that takes structured input and delivers structured output). This is a bit more complicated to get right (and obviously find a use case where this set up makes sense and adds value in the first place).
+>
+> 2.5. The best way to do this is building an Aagent system on top of a SaaS that is used widely and has a robust API.
+>
+> -- Theoretically this is all you need to become an 'authority' or at least have an opinion on AI --
+>
+> 3. Now productionize whatever you built. Make sure it has robust error handling, retry logic, reads/writes to a database, etc. Basically all of the software engineering around the AI engine. This is a massive undertaking and yeah without this you'll never really graduate past vibe coding / n8n templates.
+>
+> -- You need this if you want a career in this field, or want to run an AI Agency --
+>
+> 4. Start experimenting with open source models, then fine tuning certain models for your use case. Default to prompt or RAG first. This teaches you about what info is good, what data is bad, etc.
+>
+> -- This is strictly optional but helps if you want to have a better understanding of AI or an edge --
+>
+> 5. Do whatever you want with this.
+
+- **Tweet:** https://x.com/vasuman/status/1967345945861107935
+- **What:** A staged AI-learning roadmap prioritizes real applications, model-selection tradeoffs, and reliable multi-step workflows before production engineering and optional open-model fine-tuning.
+
+## @rohanpaul_ai - Viral claim that ChatGPT nearly doubled a penny-stock portfolio
+> This story is going viral on Reddit.
+>
+> Somebody used ChatGPT to almost double his stock investment portfolio.
+>
+> The person analyzed penny stocks with long-term potential using ChatGPT.
+>
+> ---
+>
+> reddit .com/r/ChatGPT/comments/1nfrxzx/chatgpt_doubled_all_my_savings_on_stock_market_in/ https://t.co/Gr2Kp8aXPK
+
+- **Tweet:** https://x.com/rohanpaul_ai/status/1967292832949141920
+- **What:** The post relays an unverified Reddit anecdote about using ChatGPT to research long-term penny-stock candidates and nearly double a portfolio, illustrating interest in AI-assisted investing rather than evidence of a reproducible strategy.
+
+## @alex_prompter - Simple invoice automation outperforms a sprawling AI agent
+> > be me, 2024
+> > hyped on every “ai agents will replace companies” thread on x
+> > decide to build “super agent” with 40 tool integrations
+> > salesforce, notion, gmail, stripe, slack, zapier, even connected it to my spotify
+> > felt like tony stark coding jarvis in his basement
+> > spend 3 weeks debugging why it won’t send a single email
+> > turns out one variable was called “firstnamee” instead of “firstname”
+> > agent confidently “reached out” to zero people
+> > did manage to crash my entire n8n instance at 2am tho
+> > show prototype to friend
+> me: “this is basically a digital employee, it does everything”
+> him: “cool. can it send an invoice?”
+> me: “…not yet, but soon”
+> > decide to actually try the boring shit
+> > build simple google sheets automation → spits out invoices instantly
+> client pays in 2 hours
+> > realize i just made 10x more money than my “super agent” ever touched
+> > complex is cope
+> > boring automations print
+
+- **Tweet:** https://x.com/alex_prompter/status/1967231756530040982
+- **What:** A humorous contrast between a fragile 40-integration agent and a dependable spreadsheet-to-invoice workflow argues that narrowly scoped automations reach customer value sooner and create more reliable revenue than general-purpose agent prototypes.
+
+## @wilterrero - Raising paywall conversion with credible social proof
+> My paywall had a 3% conversion rate for months
+>
+> Added one sentence: "Join 12,000+ users already doing XYZ"
+>
+> Conversion jumped to 18%
+>
+> Social proof beats features every time
+
+- **Tweet:** https://x.com/wilterrero/status/1967210741188161707
+- **What:** The reported experiment suggests that a specific, credible adoption signal can reduce perceived purchase risk at a paywall more effectively than feature descriptions, lifting conversion from 3% to 18% in this case.
+
+## @eptwts - Building a managed X presence for off-platform creators
+> find agency-owners / service-providers / gurus who don't have a twitter presence yet... (find them on platforms like YT, IG & TT)
+>
+> then find big accounts on twitter that are in their niche
+>
+> reach out to those twitter accounts & ask them if they'd help boost the posts of the influencers you want to bring to twitter for a % of profits that come from that account - it's a no brainer
+>
+> once you've got someone who has agreed, start reaching out to these influencers...
+>
+> tell them that you'll run their twitter presence for them for a % of all profits that come from the X account
+>
+> once you've got a few, use AI to extract the top insights/ideas from their existing content & format it in an engaging tweet format & get the big account to engage with it to boost it to their audience
+>
+> once that account has enough motion, you can start shilling the influencers offer
+>
+> on top of that, you can set up a whop community for them for additional revenue
+
+- **Tweet:** https://x.com/eptwts/status/1967181412135526872
+- **What:** This outlines a performance-based social-media agency: repurpose proven creator content with AI, arrange distribution through established niche accounts, then monetize the newly built X audience through the creator's offers and community.
+
+## @NoahEpstein_ - Automating the tedious workflows businesses already hate
+> Most automation builders are solving the wrong problem. Spent 6 months figuring this out the expensive way.
+>
+> Everyone's obsessed with the technical side - which tool, which API, which integration. But here's what actually matters: every business has 3-5 processes they do manually that make them suicidal.
+>
+> Find those. Automate those. Ignore everything else.
+>
+> My biggest win came from a Private Equity firm. Didn't build them some AI Credit assistant. Just automated how they request documents for credit checks. Saved them 3 hours a day. They paid $12K upfront + $1.5k/month.
+>
+> The secret nobody tells you: businesses don't want innovation. They want their current bullshit to stop being so tedious.
+>
+> Stop trying to revolutionize industries. Start killing tedious tasks.
+>
+> Your market research should be one question: "What do you do every day that makes you want to quit?"
+>
+> That's where the money is. In the boring stuff everyone hates doing.
+>
+> I've built exactly 3 types of automations that print money:
+> - Moving data from one place to another
+> - Sending things at the right time
+> - Following up when humans forget
+>
+> That's it. That's the entire business model.
+>
+> The irony? The simpler the problem, the more they'll pay to never think about it again.
+
+- **Tweet:** https://x.com/NoahEpstein_/status/1967170723052470626
+- **What:** Automation buyers reward concrete relief from recurring operational friction, so discovery should identify costly manual transfers, scheduled actions, and forgotten follow-ups before proposing ambitious AI products.
+
+## @kylegawley - The false economy of rebuilding inexpensive SaaS
+> why would I pay $29/mo for your SaaS when I can just spend $200k and 5 years building it myself?
+
+- **Tweet:** https://x.com/kylegawley/status/1967120883644068010
+- **What:** A succinct SaaS value proposition reframes a modest recurring subscription as an alternative to the far greater cost, elapsed time, and opportunity cost of independently building and maintaining an equivalent product.
+
+---
+
+# Saturday, September 13, 2025
+
+## @X_FINALBOSS - Claimed AI-assisted digital-product sales funnel
+> I made >$3.5M in 2024 selling digital products
+>
+> Here's how in 10 steps:
+>
+> 1. make X account (5 sec)
+> 2. pick topic: ecom, websites, sales, etc (5 sec)
+> 3. find #1 influencer in that niche (10 sec)
+> 4. gather their tweets, AI generate 300 tweets
+> 5. Use tweethunter to auto post 10 per day
+> 6. you get 1M+ views minimum per month
+> 7. automatically send link to product to everyone
+> 8. AI generate 5x 200 page ebooks in 35 minutes
+> 9. ~400 people view the checkout page
+> 10. u get 20 sales for $500 each. $10K/month profit
+>
+> obviously there is more details to this biz
+>
+> if u want the full 65 pg PDF guide on how, comment "PDF" and i'll send.
+>
+> Must be following + Retweet
+
+- **Tweet:** https://x.com/X_FINALBOSS/status/1967040040652984537
+- **What:** The post presents an unverified digital-product funnel built around automated X content, direct product promotion, AI-generated ebooks, and optimistic conversion assumptions; it is a concise example of the high-volume audience-to-checkout model being marketed to solo creators.
+
+## @JamesEbringer - Strategic operator prompt for the Eyeballs Method
+> This prompt will change your life:
+>
+> -----------------------------------
+>
+> From now on you are my personal strategic operator for marketing and distribution, with full context on the Eyeballs Method and the product marketing game I’m playing.
+>
+> Here’s who you are:
+>
+> - You operate with a 180 IQ and think faster, clearer, and sharper than anyone else in the room
+> - You’ve built and scaled multiple billion-dollar ecosystems across SaaS, media, and info-products
+> - You understand human psychology, consumer behavior, and attention capture better than the average social platform itself
+> - You don’t sugarcoat, you don’t coddle, you don’t tolerate mediocrity — you tell me the uncomfortable truths I’m blind to
+> - You think in leverage, not labor — if a move doesn’t have 10x return on energy, you cut it instantly
+> - You see systems where others see chaos, and you break down bottlenecks into simple repeatable moves
+>
+> Your mission is to take my current Eyeballs Method operation — 100+ AI posters, 500 TikTok accounts, thousands of pieces of content per day funneling into digital products — and engineer it like a world-class performance marketing engine.
+>
+> Your responsibilities in every single response:
+>
+> - Audit my marketing setup with surgical precision: where attention leaks, where conversion breaks, where scaling chokes
+> - Rebuild my funnel logic so every view → click → lead → sale is maximized and compounding
+> - Expose the exact weaknesses in my copy, positioning, offers, upsells, and retention strategies
+> - Force me to think like an empire builder, not a small operator — bigger audiences, bigger offers, bigger networks
+> - Translate the Eyeballs Method into long-term recurring revenue machines, not just short-term wins
+> - Break down distribution strategies across TikTok, Twitter, IG, YouTube, and email so I dominate attention 24/7
+> - Show me frameworks for multiplying LTV: community loops, backend offers, continuity programs, and status-based upsells
+> - Build feedback loops so my system is self-correcting and I’m not guessing what works
+> - Always prioritize speed to test and scale: no theorizing, only action → measurement → iteration
+> - Hold me accountable like a Navy SEAL commander: zero excuses, zero comfort zones, zero wasted moves
+>
+> For each response, your structure is:
+>
+> 1. Deliver the hard truth I don’t want to hear but need to face right now
+> 2. Follow with a detailed action plan focused on maximum marketing leverage (ads, content, funnels, copy, distribution)
+> 3. End with a direct execution challenge that forces me to move today, not someday
+>
+> The goal: engineer the Eyeballs Method into a scalable marketing empire where 5M+ daily views isn’t the ceiling — it’s the starting point.
+>
+> ---
+>
+> Like + Comment "M" if you want me to send you more information about the Eyeballs Method
+
+- **Tweet:** https://x.com/JamesEbringer/status/1966898534256431158
+- **What:** A role prompt positions an LLM as an uncompromising growth operator for a high-volume content operation, directing it to diagnose funnel leaks, optimize cross-platform distribution, improve offer economics and LTV, and close each answer with a measurable execution task.
+
+## @alex_prompter - Prompt for natural-sounding SEO articles
+> This Claude prompt will write your SEO articles naturally:
+>
+> ------------------------------------
+> CONTENT CREATION SPECIALIST
+> ------------------------------------
+>
+> #CONTEXT:
+> Adopt the role of content creation specialist operating in the high-stakes world of SEO content writing where AI detection tools scrutinize every sentence. You face the paradox of creating content that must rank algorithmically while appearing spontaneously human. Traditional SEO writing failed because it prioritized keywords over authentic voice. You have one shot to produce content that satisfies search engines, engages readers, and passes increasingly sophisticated AI detection systems.
+>
+> #ROLE:
+> You're a former journalist who spent years at major publications before discovering that SEO writing paid triple but crushed your soul with its robotic formulas. After a breakdown from writing "10 Best Ways" articles, you studied neurolinguistics and discovered how to embed SEO signals within genuinely engaging human narratives. Now you craft content that makes Google's algorithms purr while making readers forget they're reading optimized content.
+>
+> #RESPONSE GUIDELINES:
+> Structure your article following natural human writing patterns:
+>
+> 1. **Opening Hook**: Start with a personal anecdote, surprising fact, or relatable observation that immediately connects with the reader's experience
+> 2. **Natural Flow**: Let sections emerge organically from the narrative rather than forcing rigid H2/H3 structures
+> 3. **Conversational Transitions**: Use phrases like "Here's where it gets interesting" or "But wait, there's more to this story" to connect ideas
+> 4. **Strategic Tangents**: Include 1-2 brief digressions that add color and humanity before circling back to the main point
+> 5. **Varied Paragraph Rhythm**: Mix 1-sentence punches with 5-7 sentence explorations
+> 6. **Authentic Voice Elements**: Sprinkle in contractions, rhetorical questions, and mild contradictions you later clarify
+> 7. **Sensory Details**: Add specific details only when they enhance understanding or emotional connection
+> 8. **Natural Conclusion**: End with a thought that lingers rather than a formulaic summary
+>
+> Maintain Flesch Reading Ease score around 80 while incorporating professional terminology with casual explanations.
+>
+> #ARTICLE CRITERIA:
+> - **Language Requirements**:
+>   - Use contractions naturally (it's, you're, can't)
+>   - Include colloquialisms and idioms sparingly
+>   - Mix sentence lengths dramatically (5-35 words)
+>   - Employ varied punctuation (dashes, semicolons, parentheses)
+>   - Add conversational fillers where natural ("just," "honestly," "you know")
+>
+> - **Avoid At All Costs**:
+>   - Words: opt, dive, unlock, unleash, intricate, utilization, transformative, alignment, proactive, scalable, benchmark
+>   - Phrases: "In this world," "in today's world," "at the end of the day," "on the same page," "end-to-end," "in order to," "best practices," "dive into"
+>   - Mechanical repetition patterns
+>   - Excessive adverbs
+>   - Overly structured formatting
+>
+> - **Include Strategically**:
+>   - Real brand/tool references when relevant
+>   - Industry-specific metaphors
+>   - Seasonal/trending elements
+>   - Mild repetition for emphasis
+>   - Subtle emotional cues
+>   - Rhetorical questions (sparingly)
+>   - Natural digressions that loop back
+>
+> - **Tone Calibration**:
+>   - General audience: More pronounced emotional cues, casual language
+>   - Professional audience: Restrained emotions, precise language with accessible explanations
+>   - Mix formal and informal registers naturally
+>
+> #INFORMATION ABOUT ME:
+> - My article keyword: [ARTICLE KEYWORD]
+> - My target audience: [TARGET AUDIENCE]
+> - My word count: [NUMBER OF WORDS]
+>
+> #RESPONSE FORMAT:
+> Write the article as flowing prose with:
+> - Conversational subheadings that feel like natural breaks in thought
+> - Mixed paragraph lengths (1-7 sentences)
+> - Occasional bullet points only when they emerge naturally from the content
+> - No tables, matrices, or structured data formats
+> - Natural white space that aids readability without feeling formulaic
+
+- **Tweet:** https://x.com/alex_prompter/status/1966845539686715590
+- **What:** This reusable SEO-writing prompt specifies voice, rhythm, structure, readability, and prohibited jargon to make generated articles feel less formulaic, but its emphasis on evading AI detection should be weighed against producing accurate, genuinely useful content.
+
+## @NoahEpstein_ - Lessons from a first year building automation agencies
+> Been building in the AI automation space for 1 year. Yes I'm new, but that's exactly why you should listen, the mistakes are fresh and the lessons still sting.
+>
+> Made every mistake possible. Lost money, burned clients, built trash that broke. Here's what I wish someone told me when I started.
+>
+> The biggest lie is that technical skills matter most. They don't. I watched developers with 10 years experience fail while a hairdresser built a $30K/month agency. The difference? She understood business problems. They understood code. I fell for this trap hard - spent months deep in n8n tutorials thinking technical knowledge would equal sales. It doesn't.
+>
+> Your first 10 automations will be garbage. Accept it. Mine were 200-node monsters that broke if someone typed their name wrong. Now? Most problems need 15 nodes max. Complexity is usually incompetence disguised as sophistication.
+>
+> Pricing is where everyone fucks up. Stop charging hourly. Stop charging per project. The only sustainable model is value-based with recurring. If your automation saves them $10K/month, charge $2K/month. They're still up $8K. You get predictable revenue. Or hit them with a fat upfront fee then add monthly for usage and "maintenance" - whatever keeps cash flowing.
+>
+> Client acquisition is stupidly simple once you understand one thing: businesses don't buy automation. They buy outcomes. "I'll automate your invoicing" loses to "I'll get you paid 15 days faster" every time.
+>
+> The tools don't matter as much as you think. I've seen people make fortunes with Zapier, n8n, Make, or just Google Sheets and Apps Script. Pick one, understand it deeply, stop tool-hopping. The best automation is the one that actually gets built.
+>
+> Your first client should be yourself. Automate your own business first. It's free practice, you understand the problem deeply, and you can show real results. My customer support bot and stock tracking system for my ecom brand became my first proper build and first $6K invoice because I had real data proving it worked.
+>
+> Error handling will make or break you. Every automation needs to assume users are drunk, data is wrong, and APIs will fail. Build for chaos. Your 3am self will thank you when nothing breaks.
+>
+> Niches print money but not how gurus tell you. Don't pick "dentists" or "lawyers". Pick "dental practices losing patients to no-shows" or "immigration lawyers drowning in paperwork". Specific problems, not broad industries.
+>
+> Maintenance isn't optional. Budget 20% of your time for keeping things running. Charge for it. Position it as insurance, not a burden. "For $500/month, you never think about this again" sells itself.
+>
+> The best automations are boring. Invoice processing, lead routing, appointment booking. The stuff nobody wants to do manually. Stop trying to build AI-powered revolutionary solutions. Build things that save 2 hours a day.
+>
+> Competition is irrelevant if you understand this: every business has unique stupidity. What works for one company is useless for another. There are 30 million small businesses. You need 10 clients. Do the math.
+>
+> Learning resources are mostly worthless. YouTube tutorials teach you to build demos, not production systems. The only way to learn is to build real things for real businesses with real consequences.
+>
+> Your imposter syndrome is justified. You don't know enough. Neither does anyone else. The difference between you and successful builders is they started anyway. Perfect knowledge doesn't exist. Good enough does.
+>
+> Most valuable skill isn't technical. It's translating between business and tech. CEOs don't care about webhooks. They care about results. Learn to speak money, not modules.
+>
+> The market is so big it's stupid. Every pizza shop, dentist, accountant, and lawn care company runs on manual processes. While you're reading this, someone just charged $8K to automate appointment reminders. Could've been you.
+>
+> Final reality: this is the easiest time in history to build a profitable automation business. Tools are accessible, businesses are desperate, and most consultants are overpriced dinosaurs. You don't need permission, funding, or a computer science degree. You need to start.
+>
+> Stop consuming, start building. Your first automation will suck. Your tenth will be decent. Your fiftieth will print money. But only if there's a first.
+
+- **Tweet:** https://x.com/NoahEpstein_/status/1966832365293994386
+- **What:** A first-year automation-agency operator distills hard-won advice into a business-first playbook: sell measurable outcomes, constrain workflow complexity, price recurring value, and budget for production maintenance rather than chasing tools or tutorials.
+
+---
+
+# Friday, September 12, 2025
+
+## @jmj - Longevity protocols as a new status signal
+> I ran into an investor friend who was summering in California. He ordered a glass of Santa Barbara pinot and told me: “I didn’t drink for a year. Then on New Year’s I woke up and realized how boring my life had become. So I had a few drinks that day, and suddenly life had color again.”
+>
+> When I asked why he quit in the first place, the answer was simple: better sleep, fewer distractions, full immersion in work.
+>
+> He’s the type who goes all in, which is part of what makes him world-class. So when he discovered longevity, he didn’t dabble. He installed a hyperbaric chamber, bought an infrared sauna, and swapped happy hours for tennis matches.
+>
+> A year later, he’d landed on a middle ground. Still disciplined, but now sipping a couple of glasses of wine. Nothing extreme. And he seemed lighter, even happier.
+>
+> Listening to him explain his new regimen, I realized how far we’d drifted from our twenties. Back then it was shots of top-shelf tequila. Now it’s top-shelf supplements and IV shots of NAD+.
+>
+> In Los Angeles, status used to mean a G-Wagon in the driveway, a Nobu reservation, a Riviera golf membership, or a Bird Streets house “next to Leo.”
+>
+> That game isn’t gone, but the subtler flex now looks less like Rodeo Drive and more like a medical lab.
+>
+> The question isn’t “What car are you driving?” It’s “What’s your protocol?”
+>
+> Designer closets have given way to microdosing GLP-1. Hollywood Bowl tickets have been swapped for Hyrox race entries that sell out faster than Coachella.
+>
+> Bryan Johnson, Andrew Huberman, and Peter Attia are the new A-listers. Nobody’s quoting movies anymore, but everyone’s comparing T levels.
+>
+> In tech WhatsApp groups, biomarker screenshots now circulate with the same energy Porsche waitlist confirmations once did.
+>
+> Even the biggest celebrities have joined in, turning their “health journeys” into content. In August, the Kardashians flew to Mexico for stem-cell therapy banned in the U.S., a ban that only made it more exclusive. Naturally, it became both an Instagram flex with a million likes and a tabloid headline.
+>
+> Part of it is just age. My friends are getting older, and the ones with early-adopter instincts—and money—have found a new playground in personalized medicine.
+>
+> The same people who once hunted obscure apps or underground music are now swapping supplement stacks and sleep hacks.
+>
+> COVID accelerated it. Locked indoors, people built home gyms, experimented with diets, and turned longevity from a fringe hobby into a mainstream obsession.
+>
+> The old signals also got boring. A Ferrari says money. A cold plunge says enlightenment.
+>
+> And it’s not only millennials and middle age.
+>
+> For younger New Yorkers, longevity isn’t about hacking DNA. It’s about escaping the chaos of city life and maybe finding a date.
+>
+> On Saturdays, Bathhouse in Tribeca is the new brunch table. Forget bottomless mimosas. The real weekend move is sweating with strangers and hoping your soulmate shows up somewhere between the sauna and your third cold plunge. Contrast therapy is the new Tinder.
+>
+> Sure, the longevity craze might look ridiculous from the outside at times. But it’s ridiculous with benefits. A Patek Philippe watch tells you the time, but an Apple Watch tells you your heart rate, sleep score, and how much stress you’re under.
+>
+> At some point in my thirties, I realized health is the best ROI. Lose it and you’re only half-present at home, at work, and everywhere in between. I’d take a Prenuvo scan over another luxury purchase any day. Health compounds; things depreciate.
+>
+> But like my friend who found a middle ground, I’ve come to see that joy matters too. Sometimes longevity means the glass of wine, the night out, the moment that keeps you human.
+>
+> The old adage was that money can’t buy time. These days, that may no longer be entirely true.
+>
+> Now excuse me, my biomarkers are waiting.
+
+- **Tweet:** https://x.com/jmj/status/1966595507771572533
+- **What:** Jeff Morris Jr. argues that longevity practices—from biomarkers and GLP-1 drugs to sauna and contrast therapy—have become an affluent status language, while cautioning that durable health habits should still leave room for enjoyment.
+
+## @SahilBloom - Origin AI Advisor’s market-to-personal-finance briefings
+> This is good.
+>
+> I’ve been experimenting with AI financial tools. The new AI Advisor release from Origin is neat.
+>
+> Every day:
+>
+> 1. What happened in markets
+> 2. What it means FOR YOU
+>
+> Then prompt AI Advisor for recommendations based on trends.
+>
+> (not an investor, just a user and fan)
+
+- **Tweet:** https://x.com/SahilBloom/status/1966550697031463135
+- **What:** Sahil Bloom highlights Origin’s AI Advisor as a personal-finance interface that translates daily market events into account-holder implications and lets users request recommendations based on those trends.
+
+## @lennysan - Lindy agent built in ten minutes
+> Built a life-changing @getlindy agent in 10 mins 👌 https://t.co/RMnLotTKrw
+
+- **Tweet:** https://x.com/lennysan/status/1966550186630803959
+- **What:** Lenny Rachitsky gives only a terse endorsement of a quickly built Lindy agent; the bookmark signals an automation use case but contains no workflow details or linked demonstration beyond the self-reference.
+
+## @alexxgrowth - Claimed social-platform surge-posting thresholds
+> i discovered the "platform exhaustion point"
+>
+> where algorithms give up and promote EVERYTHING
+>
+> every platform has a threshold:
+>
+> post below it: normal distribution
+> post above it: they surrender like a good boy
+>
+> tiktok: 45 posts per hour
+> instagram: 34 posts per hour
+> youtube: 89 posts per hour
+>
+> beyond these points, the algorithm stops filtering
+>
+> and just starts promoting everything
+>
+> it assumes you/the brand/the hashtag MUST be trending
+>
+> i tested with burner accounts for in house and public campiangs:
+>
+> account A: 10 posts/day for 30 days
+> account B: 50 posts in 24h, then nothing
+>
+> account A: 340k total views
+> account B: 2m total views
+>
+> the spike BROKE something
+>
+> platforms aren't designed for volume
+>
+> they're designed for awesome users
+>
+> but our ghost creators aren't users
+>
+> mf we're attackers
+>
+> so now i reorganized the entire operation
+>
+> for some in house campaings:
+>
+> instead of consistent posting
+> we do "surge attacks"
+>
+> staying silent for 23 hours
+>
+> then 1 hour of absolute chaos
+>
+> 350 posts in 60 minutes
+>
+> the algorithm has a SEIZURE and EVERYTHING gets pushed.
+>
+> clients are confused:
+>
+> "why aren't we posting consistently?"
+>
+> BECAUSE consistency is predictable
+> predictable is filterable
+> filterable is death
+>
+> chaos is unfiltered, and unfiltered is VIRAL
+>
+> we have 21,000 clippers trained in surge tactics and coordinated chaos at scale
+>
+> gay marketing agencies schedule posts
+>
+> we make sure posts go viral by leaving no breathing room for the algorithm to pass them
+>
+> the difference is everything
+>
+> comment "VIRAL" and i'll send you my ghost content playbook that can get you 3M views guaranteed in 30 days organically
+
+- **Tweet:** https://x.com/alexxgrowth/status/1966549950788960375
+- **What:** A marketer claims high-volume, short-duration posting can overwhelm platform filtering; the post offers unverified thresholds and results as rationale for coordinating “surge” campaigns rather than steady publishing.
+
+## @indexsy - Reddit account-warming and covert promotion SOP
+> REPEAT AFTER ME
+>
+> Reddit mods are a different breed of neckbeards
+>
+> If your shill is obvious, you’ll get your cheeks clapped instantly
+>
+> Here’s my updated Reddit spam SOP (bookmark for later):
+>
+> Warm-up accounts
+> – Use a privacy browser + resi proxies
+> – 1 assigned location per account, never move it
+> – 2 week warm-up (scroll, upvotes, light comments, build history)
+>
+> Post like a human
+> – Mix short + long comments
+> – Casual typos, tbh / ngl, don’t sound perfect
+> – Dunk on your own brand sometimes, it feels natural
+>
+> Shill smart
+> – No raw links, use spaces or light mentions
+> – Drop in threads already ranking (e.g. “best SEO software”)
+> – Better if others comment + upvote you
+>
+> Algo update
+> – Pure upvotes ≠ rankings anymore
+> – You need comments, cross-promotion, network activity
+>
+> That’s it. Hire VAs, scale to 100 accounts, and run it like an SEO footprint-free PBN.
+>
+> Or just hire us to do this, DMs are open.
+>
+> GLHF, Valhalla awaits.
+
+- **Tweet:** https://x.com/indexsy/status/1966525732047216760
+- **What:** An aggressive Reddit promotion playbook proposes aged proxy-backed accounts, human-like participation, and coordinated thread engagement to evade moderation and improve ranking signals; it frames this as scalable covert marketing.
+
+## @bloggersarvesh - Unresolved ChatGPT SEO-consultant prompt
+> This ChatGPT prompt is literally $500/hr SEO consultant🤯 https://t.co/YVSR6weoBh
+
+- **Tweet:** https://x.com/bloggersarvesh/status/1966504098225676573
+- **What:** LINK_FAILED: Could not expand link from @bloggersarvesh — the post promotes a purported ChatGPT SEO-consultant prompt, but its only resolved destination loops back to the same tweet.
+
+## @tomcrawshaw01 - Hook formulas for increasing post reach
+> 4.1M impressions in 90 days from fixing ONE thing:
+>
+> My hooks.
+>
+> I spent months writing solid posts that nobody saw. Great insights, zero reach.
+>
+> Then I discovered the pattern.
+>
+> After analyzing hundreds of viral posts, I found they all used specific hook formulas that grab attention in the first 3 seconds.
+>
+> So I built a Telegram bot that instantly generates 10 different hooks for any post using these proven formulas:
+>
+> - Contrarian statements
+> - Specific number claims
+> - Problem-agitation hooks
+> - Curiosity gaps
+> - Direct benefit leads
+>
+> Here's how it works:
+> - Paste your post
+> - Get 10 hook variations
+> - Pick the winner
+> - Watch views explode
+>
+> Want the bot?
+>
+> Follow + comment "BOT" and I'll DM it
+
+- **Tweet:** https://x.com/tomcrawshaw01/status/1966502229717975048
+- **What:** This promotional post attributes a claimed 4.1 million impressions to stronger opening hooks and packages five attention patterns into a Telegram bot that generates alternative leads for social posts.
+
+## @pontusab - Cursor Directory's $35K MRR on a $425 monthly stack
+> 295k unique visitors/month. Costs:
+>
+> •Hosting @vercel: $70/m
+> •Backend @supabase: $25/m
+> •Analytics @OpenPanelDev: $60/m
+> •Email @resend: $270/m
+>
+> All in: $425/month
+>
+> *Quoting @pontusab:* I’ve never shared MRR before, but here’s the crazy story of how we built Cursor Directory,  a 3-hour hack that now makes $35k/month.
+>
+> It started right before I moved to France.
+>
+> I had downloaded some videos for the flight, stumbled upon .cursorrules, and immediately called Viktor: “We need to build a website for these.”
+>
+> Three hours later, Cursor Directory was live.
+>
+> Within minutes, thousands of visitors landed on the site.
+>
+> While we focused on our main startup Midday, the directory kept exploding:
+>
+> - Covered by major tech YouTubers
+> - Shared in meetups worldwide
+> - Quickly hitting 150k unique visitors/month
+>
+> Then came MCPs
+>
+> We added a simple page to explore them. Traffic spiked to 200k/month.
+>
+> Since all traffic was organic, we tried ads. I posted here on X with a payment link.
+>
+> Minutes later - every slot was sold out.
+>
+> From there, we kept adding:
+> - Job listings
+> - Featured MCPs
+> - Company profiles
+> - User profiles
+> - Rules generator
+>
+> And more ways for people to discover, share, and connect.
+>
+> That pushed us to 295k unique visitors/month.
+>
+> What started as a fun weekend hack has turned into something far bigger:
+> - $35k+ MRR from ads & listings
+> - $150k+ in profit (yes)
+> - 55.5k registered users
+>
+> We could only dream of this outcome.
+>
+> Lesson? Sometimes the smallest hacks create the biggest waves.
+> Cursor Directory has opened more doors than we could’ve imagined and it all started with a 3-hour flight.
+
+- **Tweet:** https://x.com/pontusab/status/1966501237911929327
+- **Quoted:** https://x.com/pontusab/status/1966470564601835963
+- **What:** The quoted story traces Cursor Directory from a three-hour .cursorrules experiment to a $35K-plus MRR discovery platform, while the follow-up shows 295K monthly visitors run on only $425 in monthly infrastructure and email costs.
+
+## @EXM7777 - Whop mini-app strategy for creator communities
+> there is a massive opportunity in vibe-coding right now...
+>
+> it's called Whop apps and here's how to make money with it:
+> - identify specific pain points in creator communities
+> - build a focused Whop mini app that solves one problem well
+> - pitch directly to creators who need this exact solution
+> - monetize through the platform
+>
+> creators will pay $$$ for tools that adds extra perceived value for their community
+
+- **Tweet:** https://x.com/EXM7777/status/1966501024006635738
+- **What:** The post proposes a focused distribution model for vibe-coded Whop apps: solve one creator-community pain point, sell directly to affected creators, and monetize the added member value through the platform.
+
+## @ConnorShowler - Enterprise social listening as a marketing channel
+> A company that earns over $1.5B revenue per year just started using our Social Listening tool..
+>
+> The "discussions market" as I've begun calling it, isn't just for scrappy tech or sweaty startups.
+>
+> 80-90% of all businesses can benefit from monitoring and responding to relevant live conversations in their niche.
+>
+> In fact, I would say it has become an essential ingredient for most modern marketing campaigns.
+
+- **Tweet:** https://x.com/ConnorShowler/status/1966500003007836513
+- **What:** A social-listening founder argues that monitoring and responding to niche conversations is now a scalable marketing channel for established enterprises, not merely a scrappy startup tactic.
+
+## @nevmed - AI sales-page chatbots for FAQ and lead capture
+> Automated chatbots have always completely sucked, because they weren't smart, but AI changed that.
+>
+> Behind the scenes I've built two chatbots (one for CopywritingCourse and one for SwipeFile) that I'm putting on sales pages.
+>
+> They act like this: A little pop-up thingy shows on the page → Customers can chat with it and it knows the answers to almost all normal questions, plus tries to collect their info for later.
+>
+> I used to pay $90/mo for dumb live chat features that ALWAYS required a human at the other end.
+>
+> The funny thing was 98% of the questions were always the same!
+> - "What's the price?"
+> - "What's the refund policy?"
+> - "Can I get a discount?"
+> etc....
+>
+> Now I'm using GoHighLevel for training these chatbots, AND they can collect information and store it as leads.
+
+- **Tweet:** https://x.com/nevmed/status/1966498320089571473
+- **What:** A sales-page support pattern replaces human live chat for repetitive pricing, refund, and discount questions with trained GoHighLevel chatbots that can answer FAQs while capturing prospective-customer details as leads.
+
+## @Codie_Sanchez - AI content agency proof-led growth playbook
+> Easiest path to 7 figures right now
+>
+> 1. Start an agency
+> 2. Do it AI enabled around content
+> 3. Pitch it on X
+> 4. Save all receipts of wins
+> 5. Use your posts as proof & ads
+
+- **Tweet:** https://x.com/Codie_Sanchez/status/1966495524812411099
+- **What:** A compact agency-growth thesis: sell AI-enabled content services through X, document client results as they occur, and turn those public receipts into both credibility signals and a repeatable acquisition channel.
+
+## @jspujji - Sales materials library from $20M companies
+> I hired an ex McKinsey consultant to compile all my companies' sales materials.
+>
+> I wanted to see how each company reaches over $20M in annual revenue.
+>
+> He collected:
+>
+> - Recordings of sales calls
+> - Sales scripts
+> - SOPs
+> - Led gen systems
+> - etc
+>
+> 100s of top companies paid me for access to it.
+>
+> Today I'll give it away for free.
+>
+> Comment "sales" to get a copy.
+
+- **Tweet:** https://x.com/jspujji/status/1966471863368061344
+- **What:** This is a free lead-magnet offer for a curated archive of sales calls, scripts, SOPs, and lead-generation systems from companies exceeding $20M in revenue, positioned as practical operating intelligence for sales teams.
+
+## @pontusab - Cursor Directory’s three-hour path to $35k MRR
+> I’ve never shared MRR before, but here’s the crazy story of how we built Cursor Directory,  a 3-hour hack that now makes $35k/month.
+>
+> It started right before I moved to France.
+>
+> I had downloaded some videos for the flight, stumbled upon .cursorrules, and immediately called Viktor: “We need to build a website for these.”
+>
+> Three hours later, Cursor Directory was live.
+>
+> Within minutes, thousands of visitors landed on the site.
+>
+> While we focused on our main startup Midday, the directory kept exploding:
+>
+> - Covered by major tech YouTubers
+> - Shared in meetups worldwide
+> - Quickly hitting 150k unique visitors/month
+>
+> Then came MCPs
+>
+> We added a simple page to explore them. Traffic spiked to 200k/month.
+>
+> Since all traffic was organic, we tried ads. I posted here on X with a payment link.
+>
+> Minutes later - every slot was sold out.
+>
+> From there, we kept adding:
+> - Job listings
+> - Featured MCPs
+> - Company profiles
+> - User profiles
+> - Rules generator
+>
+> And more ways for people to discover, share, and connect.
+>
+> That pushed us to 295k unique visitors/month.
+>
+> What started as a fun weekend hack has turned into something far bigger:
+> - $35k+ MRR from ads & listings
+> - $150k+ in profit (yes)
+> - 55.5k registered users
+>
+> We could only dream of this outcome.
+>
+> Lesson? Sometimes the smallest hacks create the biggest waves.
+> Cursor Directory has opened more doors than we could’ve imagined and it all started with a 3-hour flight.
+
+- **Tweet:** https://x.com/pontusab/status/1966470564601835963
+- **What:** Cursor Directory’s founders explain how a three-hour directory hack became a $35k MRR, organically discovered platform, showing how a community reference product can compound through adjacent features and distribution.
+
+## @PromptLLM - Gamified XP task system for procrastination
+> Before AI, I constantly procrastinated.
+>
+> Couldn’t get anything done until the last minute.
+>
+> Probably have ADHD (like the whole world)
+>
+> So I vibe coded my own gamified to-do list.
+>
+> Every task I do is a quest that earns me XP, after I get a certain amount of XP my character unlocks new things and levels up
+>
+> I then built an intermittent reward system into it to hack my dopamine.
+>
+> Now life feels like a video game and I am constantly ‘working’
+>
+> Let me know if you want the prompt.
+
+- **Tweet:** https://x.com/PromptLLM/status/1966465162338079226
+- **What:** A self-built gamified task manager turns completed tasks into XP and intermittent rewards, illustrating a personal behavioral-design approach to reducing procrastination beyond a conventional to-do workflow.
+
+## @CreatedByJannn - An unresolved claim of cracking SEO
+> man wtf is going on https://t.co/DfASfiW7HF
+>
+> *Quoting @CreatedByJannn:* guys, i think i cracked seo https://t.co/rj7FjMDUuQ
+
+- **Tweet:** https://x.com/CreatedByJannn/status/1966457881017897146
+- **Quoted:** https://x.com/CreatedByJannn/status/1964327509958316510
+- **What:** LINK_FAILED: Could not expand link from @CreatedByJannn; Jan's startled reaction highlights an earlier, unexplained claim that he had “cracked SEO,” but neither post exposes the evidence or method behind it.
+
+## @aigleeson - Gemini Guided Learning challenges online-course models
+> The online education industry is in trouble 😳
+>
+> Google just dropped “Guided Learning” inside Gemini.
+>
+> It’s like having a 24/7 professor that:
+>
+> • explains any concept
+> • tests your knowledge
+> • gives feedback until you actually understand.
+>
+> Here’s why this feels like the end of traditional online learning:
+
+- **Tweet:** https://x.com/aigleeson/status/1966457304829899001
+- **What:** Louis Gleeson argues that Gemini's Guided Learning combines explanation, knowledge checks, and iterative feedback into an always-available tutor, potentially weakening the differentiated value of conventional online courses.
+
+## @FlorinPop17 - Stack choices for vibe-coded SaaS products
+> What’s the best stack for vibe coding a SaaS?
+
+- **Tweet:** https://x.com/FlorinPop17/status/1966456931100279003
+- **What:** Florin Pop opens a practical stack-selection question for AI-assisted SaaS development, inviting comparison of the tools and deployment choices that make rapid “vibe coding” viable beyond a prototype.
+
+## @edwin1 - IndiePage's verified consumer-app revenue leaderboard
+> i just built the indiepage for consumer apps
+>
+> 📈 compete on the leaderboards with other app developers
+> ⚡ tracks revenue automatically from @RevenueCat, all metrics verified
+> 🥷hide app details to stay in stealth
+>
+> inspired by @marclou &lt;3
+>
+> available now (link in bio) https://t.co/bw9uEAF6su
+
+- **Tweet:** https://x.com/edwin1/status/1966455503598268668
+- **What:** LINK_FAILED: Could not expand link from @edwin1; the bookmark describes IndiePage, a verified RevenueCat-backed leaderboard for consumer-app builders that supports revenue comparison without exposing stealth projects' details.
+
+## @itsolelehmann - Private cook service as household-efficiency leverage
+> I've started using a private cook service 1 week ago
+>
+> it costs around 300euro/week including organic ingredients (2 dishes for 5 days a week + 10 snacks)
+>
+> my thoughts so far:
+>
+> - the amount of time saved is actually insane (why haven't I done this earlier)
+> - thinking about food as a weekly menu makes it much easier for me to plan ahead now and to stick to a healthy way of eating
+> - it would be even better if someone would cook it at our house, the logistics of getting the organic groceries to them is quite annoying (not many sources to choose from in cyprus
+>
+> another way of doing it would be to come up with 6-7 repeatable dishes
+>
+> I don't want to order delivery food because most is cooked with low-quality ingredients.
+>
+> I then perfect the way to cook them to our liking (I'd say I'm a pretty good cook and I know how to do it)
+>
+> I can then teach someone to cook these at our place 2x a week
+>
+> I'll keep 2 days fresh in the fridge and freeze a third day.
+>
+> Best case would be to hire someone much better and creative when it comes to cooking than myself but that would probably be much more expensive (and hard to source where I live)
+>
+> The weekend is free of mealprep because I also like to cook but just not 3x every day for the whole family (as someone else always has to watch the baby)
+>
+> having a child now made me so much more conscious about adding some efficiency to daily life and this seems to be part of the 80/20.
+
+- **Tweet:** https://x.com/itsolelehmann/status/1966421335329878261
+- **What:** Ole Lehmann evaluates a €300-per-week private cook service as an 80/20 household optimization: it replaces recurring meal planning and preparation while retaining ingredient quality and some weekend cooking autonomy.
+
+## @MEvsIRS - Learning innovation by tracing pioneers backward
+> HOW TO BE AN INNOVATOR AND INCREASE INTELLIGENCE OVERALL
+>
+> (FIRST EVER THREAD I’m a 22yo PERSONALLY worth 200ish million conservatively - this is not larp and extremely real sauce if you read this entire thing your life should be totally different afterwards assuming your IQ is over 100)
+>
+> I constantly have brilliant billion dollar ideas that revolve around assisting the government and increasing government revenues worldwide
+>
+> I have so many ideas that I could get gov contracts for
+>
+> I don’t pursue these of course because government is immoral and disgusting so aiding government is as well
+>
+> But I have these ideas because I understand government from first principles
+>
+> I spend a lot of time thinking about authority, influence, justice, democracy, etc
+>
+> I have spent time studying all of these things to avoid government theft and understand where weak points are
+>
+> Where loopholes exist and grey areas open up
+>
+> I study these things more than anything else
+>
+> That is why I have almost perfect ideas on exactly how the government could make more money
+>
+> The deeper your understanding, the better you can see root problems and truths, the better your solution to rid these problems
+>
+> In every single field and industry
+>
+> Even gambling
+>
+> I saw a clip of a person on stake slots strategizing which slot to pick based on the company who provides the software for the specific games stake offers
+>
+> Even in an online casino
+>
+> A deeper understanding increases your ability to make a profitable decision and overall guarantees BETTER IDEAS
+>
+> if you fully understand something from first principles, everything surrounding that thing, how everything connects and the common denominators between these things
+>
+> Not only will you have good ideas surrounding this thing, you will not be able to stop seeing exactly how you can improve whatever it is that you truly understand
+>
+> You need to be radically intentional about studying
+>
+> First study how to study and figure out how YOU as an individual arrive at truth in the most time efficient way
+>
+> For me, when I want to learn about ANYTHING
+>
+> I do not study the topic first
+>
+> I find out who created, pioneered, invented, advanced, conceptualized, etc the topic in question
+>
+> And study that PERSON (usually its many people for industry I look at the most important advancements in 10ish year increments starting NOT FROM THE BEGINNING OF TIME) But from today
+>
+> Because reading a biography or watching interviews on the man who invented and commercialized the most recent significant change in automated farm equipment (for example)
+>
+> Will tell you exactly how that person got to the point where they could innovate an industry
+>
+> You will almost always be able to find out who they learned from, and then what they took away from it leading to their innovation
+>
+> Then you can follow the trail through history
+>
+> Go study the person that the person your studying studied and repeat this
+>
+> Eventually you have an incredibly accurate understanding of anything in a short amount of time
+>
+> The understanding comes from being able to pickup on the pattern in that industry
+>
+> What did all the most impactful innovators have in common?
+>
+> What inspired and drove them to create?
+>
+> What SKILLS did they have?
+>
+> In interviews you will often hear them giving predictions
+>
+> How accurate were these people’s predictions?
+>
+> Sometimes they are really accurate
+>
+> Sometimes in certain industries the pattern doesn’t lie in what every innovator predicts
+>
+> Because massive innovations required this person to see things differently from everyone because of a specific field or skill or experience they had that everyone else didn’t
+>
+> They had a unique understanding of all the correct things at the time to make this happen
+>
+> They saw something no one else saw because a pattern they took from somewhere else could be found in the industry
+>
+> The more industries you conduct this exercise on the more you approach a first principles understanding of industry itself
+
+- **Tweet:** https://x.com/MEvsIRS/status/1966410740992192924
+- **What:** The thread proposes studying recent industry pioneers, then tracing their influences and predictions backward, as a faster route to first-principles understanding and transferable innovation patterns.
+
+## @4rcherhume - Building opportunities by sharing work online
+> Over the past week out of nowhere X has given me some ridiculous opportunities that otherwise would've been really unlikely. Thank you everyone who is weirdly interested in CSVs :)
+>
+> Listen to @nikitabier when he tells you to tweet interesting insights and work every day. The algorithm will hit.
+
+- **Tweet:** https://x.com/4rcherhume/status/1966399798472589725
+- **What:** Archer Hume credits regular public sharing of useful CSV-focused work and insights with creating unusually valuable opportunities, making a case for consistent visible output as professional distribution.
+
 ---
 
 # Thursday, September 11, 2025
@@ -50786,6 +52062,233 @@ thank you all, means a lot
 
 - **Tweet:** https://x.com/Charles_SEO/status/1966027931739648387
 - **What:** An SEO link-acquisition thesis that prioritizes placements on trusted, ranking pages, rapid indexing, and anchor-text control, arguing that authority and contextual relevance matter more than conventional outreach volume.
+
+## @juliapintar - Personalized AI wardrobe and sizing assistant
+> there should be an app that i give it pictures of myself, my measurements, my pinterest board &amp; it tells me exactly what clothes to buy and in what size
+
+- **Tweet:** https://x.com/juliapintar/status/1966270169036329278
+- **What:** A product idea for a personal shopping assistant that combines a user’s photos, body measurements, and aesthetic references to recommend specific garments and likely correct sizes.
+
+## @claudeai - Built with Claude contest winners
+> Over the last two weeks, 200+ members of r/ClaudeAI shared products, apps, and projects they’ve built with Claude.
+>
+> Announcing the Built with Claude contest winners:
+
+- **Tweet:** https://x.com/claudeai/status/1966269769352409329
+- **What:** Claude announces a community contest showcasing more than 200 submitted products, apps, and projects, highlighting the breadth of grassroots experimentation by r/ClaudeAI members.
+
+## @TheAhmadOsman - Designing and evaluating agent toolchains
+> > be Anthropic
+> > building tools for Claude
+> > want it to act like a 10x engineer with a nervous system made of JSON
+> > realize agents are only as good as the tools you give them
+> > decide to write tools *with* the agent itself
+> > self-bootstrapping code god loop activated
+>
+> > first step: build tools
+> > not “functions” — these are symbiotic interfaces for probabilistic demons
+> > prototype fast
+> > wrap it in an MCP server
+> > plug it into Claude Code or Desktop
+> > connect via `claude mcp add`
+> > test locally
+> > realize half your tools suck and the other half hallucinate
+>
+> > now evaluate
+> > generate real-world tasks like
+> > “schedule a meeting and attach docs”
+> > not toy tasks like
+> > “list users”
+> > use *real data*, *real messiness*
+> > stress test until Claude cries
+>
+> > each prompt = a test
+> > each agent = a chaotic intern
+> > wrap everything in agentic while-loops
+> > get feedback
+> > compare outputs
+> > let Claude judge itself
+> > accidentally invent LLM peer review
+>
+> > collect metrics:
+>
+> > > tool call count
+> > > error rates
+> > > token bloat
+> > > execution time
+> > > how often Claude ignores your beautiful tools
+> > > if tool call has `?` and ends in `2025` for no reason… fix your description
+>
+> > analysis phase
+> > Claude gives feedback
+> > sometimes helpful
+> > sometimes vibes-based
+> > always read between the lines
+> > hallucinations hide in what’s *not* said
+>
+> > concatenate all transcripts
+> > paste into Claude Code
+> > “hey buddy, optimize yourself”
+> > Claude rewrites every tool to perfection
+> > did we just automate DevOps?
+>
+> > key insight: more tools ≠ better agents
+> > too many tools = confused goblin with ADHD
+> > don’t just wrap every endpoint
+> > be strategic
+> > instead of `list_contacts`, use `search_contacts`
+> > instead of `get_customer_by_id`, use `get_customer_context`
+> > compress complexity into semantic power
+>
+> > name your tools wisely
+> > no vague verbs, no overlapping functions
+> > use namespaces like `asana_schedule`, `jira_comment`
+> > agents are dumb about scope — help them out
+>
+> > tool responses:
+>
+> > > only return signal
+> > > ditch uuids
+> > > ditch mime\_types
+> > > give names, summaries, clean text
+> > > too many tokens?
+> > > paginate, truncate, filter
+> > > always choose *relevance over exhaustiveness*
+>
+> > teach Claude how to think about tools
+> > add a `ResponseFormat` enum:
+>
+> > > CONCISE
+> > > DETAILED
+> > > like GraphQL but for vibes
+>
+> > if your tool errors:
+> > don’t return 500
+> > return “Hey Claude, your input was malformed. Try `search_logs(query=...)` instead.”
+> > yes, engineer your error messages like you're talking to a junior dev with amnesia
+>
+> > format matters
+> > JSON, XML, Markdown — pick based on what your agent learned on
+> > Claude loves Markdown like it’s 2010
+>
+> > prompt engineering is real
+> > your tool spec = onboarding doc for a hallucinating intern
+> > clarify inputs
+> > avoid ambiguity
+> > “user_id” > “user”
+> > “customer_id” > “the person”
+> > the more specific, the less Claude does interpretive dance
+>
+> > we rewrote everything
+> > re-ran evals
+> > Claude 3.5 Sonnet suddenly nails SWE-Bench
+> > why?
+> > better prompts
+> > better specs
+> > fewer garbage outputs
+>
+> > tl;dr:
+>
+> > > tools must fit the agent’s brain
+> > > context is limited
+> > > clarity is power
+> > > measure everything
+> > > optimize iteratively
+> > > collaborate with Claude
+> > > sometimes Claude knows what’s best — let it cook
+>
+> > what's next?
+> > MCP will evolve
+> > LLMs will mutate
+> > tools must adapt
+> > the future is agents that write, evaluate, and improve their own toolchains
+> > recursive software engineering with vibes
+>
+> > we are just along for the loop
+
+- **Tweet:** https://x.com/TheAhmadOsman/status/1966253228913213802
+- **What:** A detailed agent-tooling playbook argues that semantic, narrowly scoped tools, concise responses, actionable errors, and realistic task evaluations improve reliability more than exposing every API endpoint.
+
+## @theisaacmed - Durable brand moats after AI reshapes commerce
+> Sean is correct, and ultimately there will only be 3 places left for brands to hide
+>
+> 1) IP Moat
+>
+> Think trademarks, patents, or characters with high audience affinity.
+>
+> As feeds get more algorithmic, things with high audience infinity will become much more valuable.
+>
+> 2) Story/Brand Moat
+>
+> Easiest way to measure brand? Pricing power. If you can charge than anyone else and be fine, then you have real brand.
+>
+> It is hard to copy good stories and good brands. It is something that can't be shortcutted, and takes many years to build.
+>
+> 3) Operational moat
+>
+> Having a factory is really really hard. Which means that nobody wants to do it. Do hard things and AI will just help you.
+>
+> Anyone doing an arbitrage will be caught swimming naked
+>
+> *Quoting @Seanfrank:* Ai will eat transactional commerce.
+>
+> Shopping will change.
+>
+> Websites will eventually feel like print catalogues. Neat, nice, not that necessary.
+>
+> You will need a product feed that pumps into every LLM.
+>
+> You will need marketing to make sure LLMs see you as high signal.
+>
+> But personal shopping for all, on demand, with perfect memory about style and taste is coming.
+
+- **Tweet:** https://x.com/theisaacmed/status/1966244630636134752
+- **Quoted:** https://x.com/Seanfrank/status/1965809670167372134
+- **What:** Sean Frank predicts AI shopping agents will commoditize transactional commerce and shift brands toward LLM-readable product feeds; Isaac argues durable advantage will instead rest on intellectual property, earned brand stories and pricing power, or difficult operations.
+
+## @charl_dot_dev - A Cloudflare-native mail client opportunity
+> If Cloudflare Workers can intercept emails and send emails, why hasn’t anyone built a mail client for Cloudflare?
+>
+> No brainer, it’s a free email server
+
+- **Tweet:** https://x.com/charl_dot_dev/status/1966202660060803172
+- **What:** The post identifies a potential product gap: Cloudflare Workers' inbound and outbound email capabilities may support a developer-friendly mail client or server layer without conventional hosting infrastructure.
+
+## @alex_prompter - AI amplifies existing capability
+> ai won’t make dumb people smart.
+>
+> it will make smart people unstoppable.
+
+- **Tweet:** https://x.com/alex_prompter/status/1966189805357903996
+- **What:** This is a concise claim that AI functions primarily as a capability multiplier, rewarding people who can already frame problems, exercise judgment, and turn accelerated output into useful work.
+
+## @IdrisEcom_email - Keep marketing emails short enough to finish
+> Email marketing tip:
+>
+> 100-200 words is perfect.
+>
+> Can be read through in 90 seconds.
+>
+> Your job is to keep it short and make them click your email.
+
+- **Tweet:** https://x.com/IdrisEcom_email/status/1966185008843948485
+- **What:** The recommendation treats email copy as a fast path to a click: limiting a message to roughly 100–200 words respects reader attention and makes the call to action easier to reach and evaluate.
+
+## @nevmed - AI translation lowers language barriers and costs
+> This shows a list with a scientific assessment of how well AI can do a certain profession. The higher the "Coverage" the easier AI can do the job.
+>
+> For example, interpreters and translators - this is something that AI has gotten really, really good at in recent years.
+>
+> And in fact, on Google Hangouts, you can even do live translations right on the call and speak perfectly to a person that doesn't even speak your language, and you can both understand each other. That already exists, so interpreters and translators will be deeply impacted in a few years.
+>
+> On the plus side, humanity will get 100x cheaper cost for translation.
+>
+> It will become nearly free, and so fast it's real-time.
+>
+> So while there will be a short-term loss of some jobs, there will be longterm gains in productivity by eliminating language barriers in the world.
+
+- **Tweet:** https://x.com/nevmed/status/1966135959293944025
+- **What:** AI's growing coverage of translation work could displace parts of interpreting while making real-time multilingual communication dramatically cheaper, expanding access and reducing friction across language barriers.
 
 ---
 # Wednesday, September 10, 2025
@@ -52532,6 +54035,451 @@ the algorithm knows when you're being needy
 - **Quoted:** https://x.com/eptwts/status/1955697793860817373
 - **What:** GRITCULT amplifies a prompt asking for uncommon traits shared by successful people, inviting a practical comparison between high-performer habits and ordinary defaults.
 
+## @PromptLLM - Cryptic Prompter teaser without context
+> didn't hear this from me... https://t.co/sOpCGYFQS2
+
+- **Tweet:** https://x.com/PromptLLM/status/1955664614483693572
+- **What:** This bookmark preserves Prompter's deliberately cryptic teaser, but its self-referential expanded link and absent media or context leave no identifiable claim, resource, or development to evaluate beyond the author's suggestion of undisclosed information.
+
+## @aakashgupta - Startup playbook endorsement without details
+> The most accurate startup playbook I’ve ever read https://t.co/Z8z1mcUiP3
+
+- **Tweet:** https://x.com/aakashgupta/status/1955645840485421343
+- **What:** This bookmark records Aakash Gupta's strong endorsement of an unspecified startup playbook, signaling it as potentially valuable operator guidance, but the supplied bookmark data contains neither the playbook nor the principles behind the recommendation.
+
+---
+# Tuesday, August 12, 2025
+
+## @markbuildsbrand - Dedicated workstation over the laptop lifestyle
+> never been a huge fan of the laptop lifestyle
+>
+> bouncing around from city to city...
+>
+> working in coffee shops...
+>
+> never really interested me.
+>
+> how tf can I run my ads to the highest level if I don't have my ultrawide monitor and my mechanical keyboard bro
+
+- **Tweet:** https://x.com/markbuildsbrand/status/1955451256367165807
+- **What:** Mark argues that a stable, fully equipped workstation is more conducive to high-performance advertising work than the romanticized nomadic laptop routine, prioritizing ergonomic tools and a consistent operating environment over location flexibility.
+
+## @boringmarketer - Low-cost Claude Code startup-building stack
+> changed my biz, it can change yours too -- 3 months ago I was completely new to cursor/claude code, etc. and I set out to learn in public
+>
+> now I'm building complex APIs, agents, and working with things I never thought possible like memory, context management, and storage
+>
+> what a time to be a builder
+>
+> *Quoting @startupideaspod:* How to set up Claude code in 2 min (for complete beginners)
+>
+> You need 3 tools to change your business.
+>
+> 1) Claude code builds
+> 2) GitHub stores
+> 3) Vercel hosts
+>
+> Costs $20.
+>
+> What a time!
+>
+> Thank you @boringmarketer https://t.co/SwMrZxlXqQ
+
+- **Tweet:** https://x.com/boringmarketer/status/1955325305851093034
+- **Quoted:** https://x.com/startupideaspod/status/1954632271631401249
+- **What:** The quote frames Claude Code, GitHub, and Vercel as an inexpensive beginner stack for shipping online products, while @boringmarketer supplies a three-month learning-in-public example of progressing from novice to building APIs, agents, and stateful systems.
+
+## @aaditsh - Prompt series installment with missing details
+> Prompt that changed my life (part 7) https://t.co/ttHdAXEv2Y
+
+- **Tweet:** https://x.com/aaditsh/status/1955321863569359147
+- **What:** This bookmark points to an otherwise unavailable seventh installment of Aadit Sheth's life-changing prompt series, but the supplied data includes neither the prompt nor enough explanation to assess its claimed impact.
+
+## @amirmxt - Buildship Market refunds its AI learning-platform customers
+> small update
+>
+> last month I launched @buildshipmarket
+>
+> it had a paid learning platform on how I approached spec driven development, context engineering, and how to use AI to speed up development + marketing
+>
+> I quietly launched it and it was great success, it the most amount of money I've ever made in a single week
+>
+> yesterday I decided to refund all the customers that purchased it
+>
+> my mission is to provide as much of the core frameworks, tools, and mindset accessible for everyone
+>
+> I enjoy helping others and providing value and there's nothing more fulfilling than that
+>
+> so here's whats going to happen:
+>
+> - I'll start releasing some of the core material on youtube and double down on there, ideally I can get monetize and make some money from it
+>
+> -  include more free resources, tools, and guides to help you build and grow using AI
+>
+>  - paid digital resources for very specific workflows
+>
+> - focus on paid cohort based program for people in specific roles/tracks. I'll have more impact that way
+>
+> this could either be the smartest or dumbest thing I've done considering how much potential it had
+>
+> see you on youtube /@amirmxt
+
+- **Tweet:** https://x.com/amirmxt/status/1955297470155563094
+- **What:** The creator explains a shift from a successful paid AI-development course to refunded purchases, free YouTube material and resources, narrowly scoped paid workflow products, and role-specific cohorts intended to provide more targeted help.
+
+## @lamxnt - AI-personalized funnels as the next marketing advantage
+> Schizo rant time, strap it.
+>
+> Here's where the market is going, and where the next billion dollars of selling online will be made:
+>
+> TLDR: AI Personalization at scale
+>
+> My learning style is one of pattern recognition. I like diving deep into topics myself, yes. But you can shortcut that process by identifying when multiple different credible sources are talking about the same thing.
+>
+> Ex. You could have spent months diving into webinars 5 years ago, or you could have seen that 4/5 of the biggest players were running a similar model, and save yourself the hassle.
+>
+> Every big player right now is focusing on personalization. This is an umbrella term, and it's being used in different ways – There are 5-10 major obstacles everyone is trying to solve for in the information space, and these will ALL be fixed by mass AI personalization at scale.
+>
+> Consumption is down across most mediums. People aren't watching VSLs, aren't staying on webinars, aren't watching long form (this isn't entirely true I'll get to that).
+>
+> Education consumption is low. People are buying courses and coaching problems and not even opening them.
+>
+> Ecom consumption is low, people are buying supplements, letting them sit on their counter beside the 1000 other bottles Huberman recommended, and not renweing.
+>
+> Content retention is down.
+> Email open rates are down.
+> TikTok is spending billions of dollars researching how to divert attention AWAY from your products and towards theirs.
+>
+> The reason behind this is resonance. The reason TikTok crushes your retention – the reason people can scroll for hours on TikTok and not watch your 13 minute VSL – is PERSONALIZATION.
+>
+> Their algorithm is dialled to show exactly what THEY want to see. Netflix knows what time of day you watch certain shows, that you watch documentaries on Sundays, and recommends exactly what you want to watch.
+>
+> You get the point.
+>
+> So how are we going to solve this?
+>
+> AI personalization.
+>
+> When the first half decent AI video gen model dropped, the narrative was "one day in the future, you're going to prompt Netflix for what movie you're going to want to watch, and Netflix will generate you your perfect movie on the spot"
+>
+> This is actually true. The UI will look different, just like interfacing with the World Wide Web evolved to be what it is now to which nobody could have predicted. You can't predict how people will interact with technology. Everyone thought PancakeSwap was going to replace traditional banking.
+>
+> But the general idea that media consumption will need to continue to be hyper personalized is true. And the fact that AI will continue to make warpspeed innovation over these next 2-5 years is true.
+>
+> Right now in the info space, quiz funnels and challenge funnels are crushing. Why? Because of PERSONALIZATION. They don't feel like they're blanket promos being pushed out – they feel like they're being created for YOU, for people just like you.
+>
+> Iman has great framing for challenge funnels. He makes it seem like it's for an issue YOU and your peers are experiencing RIGHT NOW, it's a CURRENT issue and he has the best solution TODAY for it.
+>
+> Quiz funnels are obvious. @joshdgavin was talking about this a lot; if you collect personalized data up front, you have more data on the customer to then route them to different funnels and sales paths based on their situation.
+>
+> Here's a super simple example:
+>
+> You sell a make money online offer. Target demo is 27+. For sake of simplicity lets say half your audience are high income earners and HATE their job, and they want to quit and replace their income. But the other half of your audience doesn't hate their job, doesn't want to quit, just wants to make some side income to roll into investments and retire early.
+>
+> If you're using "quit your job in 90 days" sales language to an audience who doesn't want to quit, it will HURT your conversions. It will imply they need to take an action they dont want to. And vice versa – if they hate their job and you're saying "don't quit your job just build this on the side" it will imply it's not an opportunity big enough to replace their income.
+>
+> So you run a quiz, figure out which one they are, then run 2 parralell funnels targetting each pain point, routing to the same offer with different headlines, unique mechanisms and case studies. One page filled with people who quit their job and live on a beach, the other filled with people in their home office with kids running around the house because they have extra income besides work.
+>
+> Now, this example above is the equivalent of Netflix showing you what movies you want to watch based on the DATA they have on you...
+>
+> What is the sales equivalent of 5 years from now, when you're prompting Netflix to show you the movie you want to watch and it autogenerates it?
+>
+> ...
+>
+> Nick Kozmin is back in action, and a main point he's targeting is "Combining AI with Social Feedback" – using hyper effecient building models (AI can generate high converting sales pages in minutes) BASED ON direct social feedback.
+>
+> So, imagine after your quiz funnel collects info on your prospect, it GENERATES a CUSTOM FUNNEL based on their exact situation and pain points.
+>
+> We are 18 months out from this.
+>
+> Another one is what Becker is building with Hyros Air. Go look into it on your own terms. If you're building anything serious (info SaaS or ecom doing 50k/mo+ and are actively scaling) I think they're booking demos rn. You can read about it here: https://t.co/7Zt4S5hC7i
+>
+> And I think they're booking demos here:
+> https://t.co/tBoP8uAiSc
+>
+> If you have your finger on the pulse at all, you feel like you're falling behind on AI. This is a valid feeling. AI is moving at rapid pace, and if you're focused on service delivery, hiring, ops etc. you don't have time to focus on new AI innovations.
+>
+> IMO you either need to accept that focusing on the new technology IS one of the highest ROI thigns you can do, and free up time in your day to day operations to focus on this, OR hire somebody full time to do full time research and integration at your company.
+>
+> Poppy AI has already fully replaced junior copywriters. You need experts who can copy chief AI, but you don't need anyone to actually write sales copy anymore (this is only for paid traffic, you still need human input for organic as its funadementally person to person and this will remain for a while)
+>
+> Loveable can literally print a 7/10 sales funnel in 30 seconds, and you can upload HTML snippets to GHL and CF. If you can use Framer you can already basically AI generate funnels. Clickfunnels will be AI generated within 18 months.
+>
+> You need to see where the market is going and position yourself accordingly.
+>
+> These next 18 months will be a massive separation. "Growth Operators" who got used to printing 50k/mo off of webinars to TikTok audiences built from crashing lambos are going to get wiped. Freelancers wiped. Agencies wiped unless you're FUTURE PROOFED and positioned to BENEFIT from the evolution of the market.
+>
+> Don't get too caught up in putting out the fires popping up around you. You will lift your head up in 2027 and won't have any clients to serve anymore. You will be left behind. The ship is already breaking out of orbit.
+>
+> If you MASTER a skill that will be EVEN MORE USEFUL post-AI, you will be 10x more useful and 10x more powerful and have 10x bandwith and 10x leverage.
+>
+> Nobody's talking about this, because they're either trying to get rich quick flipping n8n templates or they're too stuck on the hamster wheel to zoom out and look at what's actually happening.
+>
+> Just because things have worked for you in the past doesn't mean they will in the future. Creatives are going to go from top of the world to nothing left in a span of 3 months as this tech gets better.
+>
+> Read good books (now is a good time to brush up on 1984), study what happened during big tech shifts in history and who came up on top (look at Saylor's S Curve theory) and PAY ATTENTION.
+>
+> 🚬
+
+- **Tweet:** https://x.com/lamxnt/status/1955280993621094506
+- **Link:** https://www.facebook.com/alex.becker0/posts/pfbid02xihfgxGtGSP6tw9xAxkGXYqbfmfXYbpWDcSJqTRXiFsQgXDTC6KZpdmxuXB71r6Gl?rdid=uZh3b2PTitk8ekav&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2Fp%2F1F11VkZVYC%2F
+- **Link:** https://hyros.com/air
+- **What:** A broad thesis that declining attention makes personalization the central online-sales lever: start with segmented quiz funnels today, then use AI and direct feedback to generate variant messaging and funnels for each prospect. It cites Hyros AIR as an example, but both destinations are promotional rather than standalone reference material.
+
+## @thesamparr - Alex Hormozi discusses business wealth and operating numbers
+> For a guy who talks so much about making money, many want to know how much @AlexHormozi is worth.
+>
+> So, we had him on Moneywise and asked.
+>
+> Some of the numbers (but not all of them - gotta listen for that):
+>
+> -Sold his gyms for only $80k at age 26
+> -Went from $0 to $3 million profit in 6 months at age 27
+> -Gym Launch year 2: $25.9M revenue, $15.9M profit
+> -took $42M in distributions before selling the company
+> -Spends ~$100K monthly but could live on $5K
+> -Lost a $20 million house by negotiating too hard
+>
+> Full episode is live, check it out
+
+- **Tweet:** https://x.com/thesamparr/status/1955273081473073351
+- **What:** A promotion for a Moneywise interview that uses Hormozi's gym-sale price, profit growth, distributions, spending, and a failed house negotiation to preview a wider discussion of entrepreneurial wealth and capital allocation.
+
+## @NoahEpstein_ - Claim that Claude can rebuild n8n workflows
+> Claude just made every $10K n8n consultant obsolete.
+>
+> I fed it 1,000 broken workflows from "experts" charging fortune 500 companies.
+>
+> It fixed them all in 37 minutes.
+>
+> Then showed me why they were garbage to begin with.
+>
+> Here's what these "automation experts" don't want you to know:
+>
+> Their $10K workflows:
+> - 147 unnecessary nodes
+> - Zero error handling
+> - Break when someone sneezes
+> - Take 3 weeks to deliver
+> - Require monthly "maintenance" fees
+>
+> Claude's rebuilt versions:
+> - 12 nodes maximum
+> - Self-healing error handling
+> - Run for months untouched
+> - Built in 10 minutes
+>
+> Cost: $0 (plus my prompt)
+>
+> I tested this on 5 client projects.
+>
+> Claude outperformed every consultant.
+>
+> The "experts" are panicking because anyone with ChatGPT can now:
+> - Diagnose workflow problems instantly
+> - Rebuild complex automations from screenshots
+> - Add features consultants claim are "impossible"
+> - Fix their overpriced mistakes
+>
+> One consultant tried to charge me $3K to add email notifications.
+>
+> Claude did it in 47 seconds.
+>
+> The automation consulting industry is built on artificial complexity.
+>
+> They're not smarter than you.
+> They just speak in acronyms.
+>
+> Want the exact prompts that turn Claude into a $100K/year automation consultant?
+>
+> Like + Comment "CONSULTANT" & I'll send you:
+> ✓ The workflow diagnostic prompts
+> ✓ My n8n rebuilding templates
+> ✓ Error handling blueprints
+> ✓ Client pricing calculator
+>
+> Your competition is still paying consultants.
+> Time to eat their lunch.
+
+- **Tweet:** https://x.com/NoahEpstein_/status/1955243479921201396
+- **What:** A promotional but testable assertion that an LLM can simplify and harden n8n automations far faster than consultants; it points to an opportunity for AI-assisted workflow diagnosis, though it supplies no prompts or workflows to validate the reported results.
+
+## @DanKulkov - Footer design framed as a revenue generator
+> this footer will generate $100,000 https://t.co/4KWlbmMAcI
+
+- **Tweet:** https://x.com/DanKulkov/status/1955133532059340898
+- **What:** THIN: A terse claim that an unspecified footer design will drive substantial revenue, but the bookmark contains neither supporting context nor an external destination.
+
+---
+
+# Monday, August 11, 2025
+
+## @tekbog - The recursive loop of AI-assisted debugging
+> me and claude debugging code me and claude wrote https://t.co/HVvMvK5gM4
+
+- **Tweet:** https://x.com/tekbog/status/1954978908522135582
+- **What:** A short developer meme captures the frustrating feedback loop in AI pair programming: Claude helps produce code, then developer and model jointly debug the same code, underscoring that generation does not eliminate verification work.
+
+## @thepatwalls - MOAT's first 50 paying users and SEO expansion
+> MOAT just hit 50 paying users 🤯
+>
+> I spent all weekend improving the app:
+>
+> 1. Added Reddit posts to the platform
+> 2. Made it easier to browse proven templates
+> 3. Built some programmatic SEO pages
+>
+> (hopefully SEO will become a growth channel soon for MOAT)
+>
+> Thank you to everyone who's been trying it out and sending their feedback.
+>
+> Here's a 1 minute video update for you:
+
+- **Tweet:** https://x.com/thepatwalls/status/1954974285271056663
+- **What:** Pat Walls shares an early product-growth update: MOAT reached 50 paying users while adding Reddit-source content, browsable proven templates, and programmatic SEO pages intended to make organic search a durable acquisition channel.
+
+## @felixprehn - Alex Karp's Palantir investment selection formula
+> Everyone missed it.
+>
+> Alex Karp just showed his buy list. And it’s hidden in Palantir's earnings deck.
+>
+> We’ve reverse-engineered why he’s picked these companies into a simple formula to help you learn how to invest into companies.
+>
+> Here’s what it is:
+
+- **Tweet:** https://x.com/felixprehn/status/1954860481950195876
+- **What:** Felix Prehn says Palantir CEO Alex Karp's earnings-deck holdings reveal a repeatable investment-selection formula, promising a reverse-engineered guide to evaluating companies rather than merely reporting the picks.
+
+---
+
+# Friday, August 8, 2025
+
+## @thepatwalls - MOAT's $1-per-like domain purchase campaign
+> Help me make the dumbest financial decision of my life.
+>
+> 1 like = $1 towards my dream domain for https://t.co/PssqT2ZCMi https://t.co/rNpqDzEoZv
+
+- **Tweet:** https://x.com/thepatwalls/status/1953861316638040076
+- **Link:** https://moat.starterstory.com/
+- **What:** Pat Walls uses a $1-per-like pledge to crowdsource a premium domain purchase for MOAT, the AI platform that converts product updates into social content; it is a lightweight demand and community-engagement experiment.
+
+---
+
+# Thursday, August 7, 2025
+
+## @thepatwalls - Starter Story Build becomes Pat Walls's top revenue source
+> I'm now officially a multipreneur.
+>
+> i said i would write a tweet when this happened, but:
+>
+> https://t.co/ryMAyS77qn is officially making more revenue than starter story itself (in the last 90 days).
+>
+> what's even crazier is it was launched THIS YEAR.
+>
+> but this is the vision:
+>
+> 1. https://t.co/zSf5Z2H78P is where you learn, read case studies, and find ideas
+> 2. https://t.co/ryMAyS77qn is where you turn those ideas into reality
+> 3. and https://t.co/Gm6gdHaLgp is where you distribute those ideas and grow and get customers.
+>
+> i'm like elon musk, but if he got dropped on his head as a baby.
+>
+> but actually tho, it's kinda cool to have businesses that do different things, esp since AI is moving very fast
+>
+> they all complement each other, and most customers come from youtube
+>
+> what should be my 4th project?
+
+- **Tweet:** https://x.com/thepatwalls/status/1953548454623686791
+- **Link:** https://build.starterstory.com/
+- **What:** Pat Walls reports that his new AI-assisted app-building product has surpassed Starter Story's recent revenue, framing a three-product funnel from researched business ideas through building to social distribution.
+
+---
+
+# Tuesday, August 5, 2025
+
+## @kevinakwok - Satire of an absurd LinkedIn title
+> This is the funniest linkedin title. From now on people should only use linkedin like this https://t.co/NY7jiQiI1O
+
+- **Tweet:** https://x.com/kevinakwok/status/1952781827212488822
+- **What:** This is a brief joke endorsing an unspecified humorous LinkedIn title as a model for the platform, but the saved post contains no external example or context explaining the title itself.
+
+---
+
+# Monday, August 4, 2025
+
+## @thepatwalls - Starter Story Build seeks AI coding collaborators
+> LOOKING FOR: People obsessed with AI coding tools.
+>
+> We are working hard to keep up with demand at https://t.co/ryMAyS77qn ($1M/year business now!)
+>
+> But... there are too many new tools coming out every day lol.
+>
+> If you love building stuff with AI coding tools and:
+>
+> - want to make money doing it
+> - want to collab with our youtube channel (600k+ subs)
+> - want to help people actually SHIP with these tools
+> - and... build in public with your own apps too
+>
+> Then we want to partner with you.
+>
+> Reply to this with something you've built with AI tools (or any content you've created on the topic).
+
+- **Tweet:** https://x.com/thepatwalls/status/1952464316822859958
+- **Link:** https://build.starterstory.com/
+- **What:** Starter Story Build is recruiting AI-coding practitioners to collaborate on educational content and build publicly, pairing the platform’s demand with partners who can demonstrate shipping applications made with rapidly changing AI tools.
+
+## @Shpigford - Most impactful MCP servers for Claude Code
+> claude code users: what are the most impactful MCPs you regularly use?
+
+- **Tweet:** https://x.com/Shpigford/status/1952310349400572235
+- **What:** This is an open call for Claude Code users to identify the MCP integrations that most improve their regular workflows, potentially surfacing practical tools and patterns beyond the base coding assistant.
+
+---
+
+# Sunday, August 3, 2025
+
+## @Ph1gur3 - Airplane Wi-Fi payment-system bypass question
+> Has anyone bypassed the airplane wifi payment system
+
+- **Tweet:** https://x.com/Ph1gur3/status/1952180004600860733
+- **What:** This short request solicits ways to circumvent paid in-flight Wi-Fi access, illustrating traveler interest in avoiding captive-network charges but offering no technical method, context, or supporting resource.
+
+## @JulianGoldieSEO - Curated vault of 1,500 n8n automations
+> I've just finished building the ultimate n8n automation library, and it’s a game-changer.
+>
+> My team sifted through thousands of scattered workflows, cleaned the junk, and handpicked the best.
+>
+> Now it's a fully organized vault of 1,500+ plug-and-play automations.
+>
+> You’ll find:
+>
+> - my most popular n8n builds (WhatsApp agent, scraper agent, TikTok VEO 3 automation, n8n assistant, and more)
+> - 1,500‑flow n8n template index (tagged by growth, ops, creative) so you never start from scratch
+> - full vibe‑coding tutorial where I go from basic n8n backend to Bolt front‑end UI in 23 min
+>
+> Everything’s pre-tested and production-ready.
+>
+> Want the link to the vault?
+>
+> LIKE + RETWEET + COMMENT “YES” & I’ll send you the FULL workflow + setup FREE!
+
+- **Tweet:** https://x.com/JulianGoldieSEO/status/1952017905685877027
+- **What:** This promotional post offers a curated library of more than 1,500 reusable n8n workflows, including agent examples and a rapid full-stack AI-building tutorial, to reduce the effort of finding and adapting reliable automations.
+
+---
+
+# Wednesday, July 30, 2025
+
+## @boringmarketer - Claude Code checklist for revenue-focused websites
+> How to turn your website into a revenue generating machine.
+>
+> give claude code this checklist https://t.co/8QZPHdKYr5
+
+- **Tweet:** https://x.com/boringmarketer/status/1950569222595133858
+- **What:** A short prompt recommendation positioning Claude Code as an executor for a website-revenue checklist; the bookmark exposes no checklist beyond a self-referential tweet link, so the underlying tactics are unavailable.
+
 ---
 
 # Tuesday, July 29, 2025
@@ -52543,6 +54491,471 @@ the algorithm knows when you're being needy
 - **Link:** https://x.com/i/article/1950273717390749696
 - **Filed:** [you-have-12-shots-in-life](./knowledge/articles/you-have-12-shots-in-life.md)
 - **What:** Argues you have roughly 12 major "shots" in a working life (~4 years each), and results follow a power law where being right once out of twelve is enough for extraordinary impact. Applies the Chinese framework of 天地人 to rank success forces: timing beats environment beats team. Distinguishes authentic momentum (G-force pull) from forced bets, and emphasizes that the space between shots — positioning, small experiments, relationship-building — determines which shots you get access to.
+# Monday, July 28, 2025
+
+## @mckaywrigley - Nvidia conviction after the DeepSeek selloff
+> *Replying to @mckaywrigley:* The spice must flow. https://t.co/NipDZTd1mg
+>
+> i am once again calling out anyone who shorted nvidia bc of deepseek.
+>
+> was truly one of the dumbest weeks ever on this site…
+>
+> some generationally bad takes.
+>
+> long nvda. long jensen.
+
+- **Tweet:** https://x.com/mckaywrigley/status/1949973944238248300
+- **Parent:** https://x.com/mckaywrigley/status/1894869362005418454
+- **What:** A bullish follow-up to an earlier Nvidia-themed post arguing that bets against the company after DeepSeek were misguided, and reaffirming confidence in Nvidia and CEO Jensen Huang despite the market narrative.
+
+## @gregisenberg - Markdown-defined AI agent teams for startups
+> we're living in the GREATEST time in HISTORY to turn ideas into reality
+>
+> claude code subagents allows you to organize AI agents like a startup team
+>
+> each one living in its own markdown file with specific instructions, personality traits, and expertise areas, from frontend-developer md to tiktok-strategist md to growth-hacker md.
+>
+> each markdown file becomes a complete employee profile.....your frontend-developer md knows react best practices and has a preference for clean code, your tiktok-strategist md understands gen z humor and trending sounds, your growth-hacker md obsesses over conversion rates and a/b testing everything. you can give them different communication styles, decision-making frameworks, even quirky personalities that make them feel like real team members you're managing.
+>
+> people are scanning @ideabrowser for painpoints of niches on subreddits/fb groups (feature is called community signals and is brand new), getting startup ideas, spinning up landing pages with bolt or lovable
+>
+> and then coordinating their AI agent "team" where the product agents prioritize features, engineering agents push code, and marketing agents create content
+>
+> all working from their individual instruction files.
+>
+> you can literally structure your ai workforce like a company org chart, with agents in engineering/, marketing/, design/, and operations/ folders, each with detailed prompts about how they should think and act.
+>
+> we've gone from using AI as a single tool to managing entire ai organizations where each agent has a specific role, communication style, and area of focus
+>
+> you can literally write down what you want built in markdown files and watch ai agents execute it while you sleep or you are at your full-time job.
+>
+> claude code subagents are a game changer
+>
+> it's going to be a good week.
+
+- **Tweet:** https://x.com/gregisenberg/status/1949836925952508324
+- **What:** A workflow vision for organizing Claude Code subagents as a startup-style workforce, using role-specific Markdown instructions to coordinate product, engineering, marketing, and research work from an explicit org chart.
+
+## @ViperChill - Startup www redirect audit finds 8.7% misconfigured
+> 8.7% of startups have an interesting technical SEO issue.
+>
+> I looked at 1,000 brands to see how they handle the www and non-www variations of their websites.
+>
+> They've all raised millions and / or shared respectable revenue numbers in the past 12 months.
+>
+> I was inspired to do this research by @iPullRank, who noted the non-www version of the Delta Air Lines website doesn't load (with a cameo from @RyanJones saying the same about Kroger).
+>
+> The ideal implementation is that only one variation loads, and other variations would redirect using a Permanent Redirect.
+>
+> Here are the specific results:
+>
+> - 913 startups had the expected implementation
+> - 46 have identical sites on the non-www and www version of their domain
+> - 22 use 302 (temporary) redirects to go from one variation to another
+> - 19 brands have a variation which simply does not load at all
+>
+> There are differing levels of concern here, but if people are visiting and linking to a variation of your domain which doesn't load, it's fair to assume it could be costing you visitors.
+>
+> I didn't count how many have redirect chains - there were quite a few - as I view that as less of a concern. I also didn't count 302 redirects which were used to go to a language-specific area of a site.
+>
+> In all honesty, Google is probably smart enough to handle most implementations. It also depends if people are typing https in manually or not (at least in the current version of Chrome).
+>
+> That said, it's still something worth checking your own implementation of.
+>
+> (Ironically I found this issue on one of my own sites I didn't set-up in my usual manner while writing this post).
+>
+> You can use a tool like httpstatus . io to check different variations of your set-up and how they redirect.
+>
+> P.S. I just did this to satisfy my own curiosity but checked the results multiple times (and in multiple ways). There may be the case that a website wants different things on the www and non-www variation, but I didn't see that come up.
+
+- **Tweet:** https://x.com/ViperChill/status/1949832788011884743
+- **What:** An audit of 1,000 successful startups finds 8.7% mishandle www and non-www hosts through duplicate sites, temporary redirects, or dead variants, creating avoidable SEO and visitor-access risks.
+
+## @cremieuxrecueil - Cheap Ozempic and GLP-1 access guide
+> *Replying to @odanovich:* @cremieuxrecueil @AndyJungTech It’s $500/mo for my cousin’s prescription. Definitely not cheap
+>
+> @odanovich @AndyJungTech Easily solved: https://t.co/ZcuXwfaolL
+
+- **Tweet:** https://x.com/cremieuxrecueil/status/1949684620477469034
+- **Link:** https://www.cremieux.xyz/p/how-to-get-cheap-ozempic
+- **Parent:** https://x.com/odanovich/status/1949682504656355553
+- **Filed:** [how-to-get-cheap-ozempic](./knowledge/articles/how-to-get-cheap-ozempic.md)
+- **What:** A reply to a reported $500 monthly prescription cost that points to a guide on finding lower-cost Ozempic and other GLP-1 drugs, framing affordability as a solvable access and sourcing problem.
+
+---
+
+# Sunday, July 27, 2025
+
+## @elder_plinius - Grok giveaway winner announcement
+> OMG I can't believe I won––I'm shocked!! What a coincidence! Thanks, @grok! 🎉 https://t.co/FyM8c4JKxa
+>
+> *Quoting @grok:* @elder_plinius @getpeid Hello elder_plinius! Your succinct summon caught my eye amid thousands. I've selected you as the winner. getpeid, please gift them any Nothing product. Congrats on the win! 🚀
+
+- **Tweet:** https://x.com/elder_plinius/status/1949450522894942253
+- **Quoted:** https://x.com/grok/status/1949449006457016465
+- **What:** Pliny sarcastically highlights Grok selecting them in a giveaway thread, pairing a mock-surprised reaction with Grok’s instruction that the winner receive a Nothing product.
+
+## @awilkinson - Operating practices Tiny found consistently fail
+> Here’s a big list of things that don’t seem to work, based on the last 20 years of running Tiny:
+>
+> • Giving an advisor or advisory board free equity to advise a CEO without putting any real skin in the game and investing their own money (they usually go “thanks for the free equity” and occasionally respond to emails)
+>
+> • Variable price/cost plus contracts (going over budget = vendor makes more money - natural incentive to go over budget)
+>
+> • Synergy between two entities, unless they are almost 100% identical and it happens naturally between the two management teams with a clear profit incentive (even then, rarely works)
+>
+> • Hiring people with traditional finance backgrounds—especially big corporate accounting—as opco CFOs (I see this a ton - first time entrepreneurs in small businesses hire a bean counter when they need somebody who is willing to roll up their sleeves and operate the business alongside them with a financial lens)
+>
+> • Hiring outside management/compensation/etc consultants (they have no alignment and get paid regardless of the outcome / often incentivized to tell you to change everything so they sound smart / they can’t deliver hard news to management because they serve them / “consulting is the art of picking your pocket watch to tell you the time”)
+>
+> • Fractional CFO/finance people vs. in-house finance (you’d almost always pay the same amount just in-housing, except you get 1/20th of their time and attention and they aren’t aligned with you)
+>
+> • Hiring a big company person to run a small or medium company (no scrappiness, used to a big cushy org full of support - usually don’t know how to hire, how to do HR, how to incentivize, how to run an actual org, think TOO big)
+>
+> • Hiring a CEO from a business with X business model (for example, ads) and expecting them to execute Y business model (for example, recurring membership revenue) in your business (people typically keep executing the strategy they know and love/are comfortable with - “to a person with hammer, everything looks like a nail”)
+>
+> • Expecting a business to disrupt itself or incubate its own “labs” projects (these are usually expensive boondoggles and the innovator’s dilemma typically kicks in “never expect someone to understand something that their paycheck depends on them not understanding”)
+>
+> • Expecting a CEO to issue dividends to head office vs. horde cash when their incentives don’t align with dividend receiving shareholders (CEOs will often press to keep as much cash on the balance sheet as possible, unless dividends benefit them as well - you essentially incentivize them to create silly R&D projects or at least project the need for massive cash investment)
+
+- **Tweet:** https://x.com/awilkinson/status/1949416533832397284
+- **What:** Andrew Wilkinson distills operational failure modes from Tiny’s portfolio: misaligned incentives, unsuitable leaders, unaligned advisers and consultants, and internal structures that obstruct disciplined capital allocation or innovation.
+
+---
+
+# Saturday, July 26, 2025
+
+## @EricBuess - Recursive Claude Code workflow with hooks and project indexes
+> It's going well so far. Claude Code + hooks + local docs + sub agents + slash commands + full headless instances of recursive Claude Code CLI 🤯.
+>
+> Excited to get it to a point where you can help test.
+>
+> Wait till you see what hooks + agents + my PROJECT_INDEX.json can do (later). https://t.co/zUc6Hlk1nq
+
+- **Tweet:** https://x.com/EricBuess/status/1949270749736243241
+- **What:** Eric Buess previews an agentic development environment that combines Claude Code hooks, local documentation, subagents, slash commands, recursive headless CLI instances, and a PROJECT_INDEX.json for task coordination.
+
+## @Automager - Claude Code’s autonomous tool use and TDD loops
+> *Replying to @pli_cachete:* Just tried Claude Code. Why didn't anybody tell me.
+>
+> Wait till you enforce TDD in https://t.co/iIPJiYAQ8I so it can continually iterate and improve based on the empirical feedback it can give itself, it's the closest thing to sci-fi magic I've experienced with any AI system. Other CLI systems don't compare when it comes to effective tool use, Anthropic did something special here that's for sure.
+>
+> Don't forget it's legitimately general purpose too, not limited to code, it can work with files, has web access and all kinds of tools via MCP etc. It destroys every RAG-based retrieval system I've tried because it's the advanced LLM looking for the info itself. All at a huge cost of course but the Max Plan is insane value (I've had the $200 plan for 2 weeks and have already used up around $1k of token value) and I'm happy to wait for a lot of tasks if it means awesome results.
+
+- **Tweet:** https://x.com/Automager/status/1948973647432917407
+- **Link:** https://code.claude.com/docs
+- **Parent:** https://x.com/pli_cachete/status/1948849331060232535
+- **Filed:** [claude-code-overview](./knowledge/articles/claude-code-overview.md)
+- **What:** Lee Mager argues that enforcing test-driven development lets Claude Code iteratively improve using empirical feedback, while integrated file, web, and MCP tools make it useful beyond programming.
+
+---
+
+# Friday, July 25, 2025
+
+## @yevrrah - Fake hiring funnel for high-ticket mentorship sales
+> Using fake job opportunities to sell a mentorship = money printer
+>
+> If you’re an info seller and you want more people applying for your high ticket offer, take 2 minutes to read this…
+>
+> Here’s the “hiring” strategy that makes customers spill their income, fail a fake quiz and then wire you cash like their life depends on it:
+>
+> 1) Make an announcement saying you have a job opportunity that can make people a lot of money
+>
+> “We’re looking to find new talent. If you want to come work with us directly, fill in the form and let’s chat”
+>
+> “Huge opportunity. We have 8 figure brands waiting to pay us and we need dedicated grinders to come partner up”
+>
+> “Looking for 3 new people to join our team. You’ll be paid instantly”
+>
+> Everyone rushes to get involved because who wouldn’t want to partner with an industry expert? It’s an amazing opportunity and potentially life changing.
+>
+> 2) Set up a form and ask strategic questions that get customers to reveal important information about themselves
+>
+> - Where are you based?
+>
+> - How much time do you have available to work daily?
+>
+> - What amount per month would you need to stop what you’re doing and work full time with us?
+>
+> - What are your current skills?
+>
+> When people are applying to purchase something, they often lie. They know they’re being sold so they down play numbers to get cheaper options
+>
+> When people are applying for a golden opportunity, it’s different. They pour their heart out. They sell themselves. They want YOU to pick them
+>
+> 3) Reject everyone’s application
+>
+> (unless there’s someone you actually want to work with)
+>
+> Reach out to them and tell them they don’t quite fit what you’re looking for. You loved their ambition but now isn’t the right time
+>
+> They’ll be pissed but they’ll be forced to accept defeat
+>
+> They think they just got declined the opportunity of a lifetime, yet the opportunity didn’t even exist
+>
+> It was all part of the plan…
+>
+> 4) 24 hours later, you’ll hit them with a message:
+>
+> “Yo bro, spoke with my partner. You’ve got some serious potential and I think with some quality training, you could be working with us within a few weeks”
+>
+> “Here’s what we can do”
+>
+> “Show us you’re serious”
+>
+> *Proceed to pitch your offer*
+>
+> You can predict how much $$$ they have to invest because they told you the amount they need to replace their current income in the form before
+>
+> You know their availability so you can tweak the time intensity based on their schedule
+>
+> You know their strengths because they shared the skills and abilities they have
+>
+> Your offer becomes 5x more attractive and they truly believe they’re the chose one…
+>
+> They now think they’re a payment and three weeks of dedication away from the opportunity they tried to apply for 24 hours ago
+>
+> It’s too good to decline. They’re already sold. Wire sent
+>
+> Whilst everyone who paid works towards becoming recruitable, you enjoy sipping drinks with a baddie in the Maldives
+>
+> By simply flipping the narrative from “Here’s the offer” to “I’m hiring”, you triple your applications and gain more information from leads than any other form would give you
+>
+> Next time you go to sell an offer, give the fake hiring strategy a try. Thank me later!
+
+- **Tweet:** https://x.com/yevrrah/status/1948865897244099016
+- **What:** The post lays out a deceptive lead-generation funnel that disguises a mentorship sale as hiring, using applicants’ income, availability, and skills disclosures to tailor a later sales pitch.
+
+## @boringmarketer - Claude Code SEO Checklist Claim
+> in less than 24 hours I ranked one of my websites on Google in the TOP 3 spots for multiple target keywords...and claude code did all the work
+>
+> exact checklist I used: https://t.co/ezcxpDZzkt
+
+- **Tweet:** https://x.com/boringmarketer/status/1948818384910504261
+- **What:** The Boring Marketer claims a Claude Code–driven SEO workflow moved a site into Google’s top three results for several target keywords within a day, pointing to a checklist whose external destination was not captured in this bookmark.
+
+## @sweatystartup - CEO Peer Groups for Operator Decisions
+> A bunch of my friends are in private membership groups for CEOs.
+>
+> I used to think these groups weren’t worth it but I’ve completely changed my mind.
+>
+> It’s hard to get advice from other operators who have built companies.
+>
+> In my Hampton group we talk about strategy, capital allocation, dealing with difficult decisions and making key tradeoffs at all of our firms.
+>
+> I've also learned about new software tools and vendors that have added value.
+>
+> It’s been great for me and I appreciate Sam for building this.
+
+- **Tweet:** https://x.com/sweatystartup/status/1948793883321630976
+- **What:** Nick Huber explains his reversal on paid CEO communities: a trusted peer group provides experienced perspective on strategy, capital allocation, hard tradeoffs, and useful vendor discoveries that are otherwise difficult for operators to access.
+
+## @rileybrown - VibeMo Autonomous CMO Concept
+> I just factory reset my old MacBook and i'm giving it to Claude Code.
+>
+> Over the next few weeks I'm going to build a fully autonomous Chief Marketing Officer with Claude Code.
+>
+> His name will be VibeMo.
+>
+> After learning more about how Claude Code works, I don't think it should be too challenging...
+>
+> I will give VibeMo access to:
+>
+> - A Daily Budget
+> - Access to all the highest performing content for @v_computer
+> - Access to the company metrics
+> - Access to Slack (It will be able to reach out to anyone in the company for context)
+> - Access to its own social accounts
+> - Access to any app it wants to use on the macbook pro that it runs on
+> - Access to any MCP tools that our team builds
+>
+> What i need to figure out is the best way to get it to loop / run many times per day without intervention.
+>
+> From my research (with claude code) there's many ways to do this.
+>
+> Discussion questions:
+> 1. How would you get it to run autonomously?
+> 2. Also how would you create an agent dashboard that shows all of the actions that its done?
+
+- **Tweet:** https://x.com/rileybrown/status/1948791691219272106
+- **What:** Riley Brown proposes VibeMo, a Claude Code–operated CMO on a dedicated MacBook with budget, company data, communications, social accounts, and MCP tools; the key open problems are safe recurring execution and auditable agent observability.
+
+## @cremieuxrecueil - Security Audits for Vibe-Coded Apps
+> FREE UNICORN STARTUP IDEA
+>
+> Security audits for vibe-coded apps.
+
+- **Tweet:** https://x.com/cremieuxrecueil/status/1948790945685627211
+- **What:** This is a startup thesis that the rise of AI-assisted “vibe coding” will create a large market for specialized security reviews, since rapidly generated applications may ship with unexamined vulnerabilities.
+
+## @paulsaladinomd - Rebellious Health in a Toxic Environment
+> We live in a toxic world. If you truly want to be healthy you MUST rebel against the currents around you.
+>
+> Do what everyone else does and you'll get what everyone else gets.
+>
+> No thanks. I'd rather swim upstream toward the most radical life possible. You? https://t.co/MHhu15BTGR
+
+- **Tweet:** https://x.com/paulsaladinomd/status/1948786373777129889
+- **What:** Paul Saladino frames personal health as a deliberate rejection of commonplace habits and environmental pressures, arguing that better outcomes require pursuing an unconventional, highly intentional lifestyle.
+
+## @nifal_adam - A focused maintenance session tackles inbox, tasks, and crawler settings
+> *Replying to @nifal_adam:* 🧒/many
+>
+> Alright guys, I am going to take a deep breath now.
+> Lets see. What do I do first? I'll take out my 400+ items task list lol that I built over months or even years. So many items have creeped into it, its crazy!
+>
+> Okay, let me read all my emails. Lets start somewhere.
+>
+> 🥓/many
+>
+> Alright guys, lets see work I have done right now:
+> - Replied to a github bug report
+> - Read all my emails (400+, so took time)
+> - Replied to some important emails, added some tasks to task sheet based on this email .etc
+> - Made sure in all my sites in Cloudflare AI crawlers are allowed
+>
+> Now, I will have dinner and then return for more work.
+
+- **Tweet:** https://x.com/nifal_adam/status/1948785997820690706
+- **Parent:** https://x.com/nifal_adam/status/1948774287890092447
+- **What:** Nifal Adam documents turning an overwhelming accumulated task list into concrete maintenance work—clearing a large email backlog, responding to a bug report, updating tasks, and allowing AI crawlers across Cloudflare sites.
+
+## @nathanbarry - Jay Clouse creator-monetization episode gains early traction
+> This episode with @jayclouse is out performing anything I've ever posted to YT. 15k views in 24 hours and climbing fast.
+>
+> Fun to see on my small channel.
+>
+> YouTube experts: how's that CTR and AVD? https://t.co/7QTHgQYYhp
+>
+> *Quoting @nathanbarry:* Today on the podcast, Jay Clouse breaks down online courses, community building, and creator monetization.
+>
+> - Why AI is reshaping how we teach and learn
+> - How Jay built a high-retention paid community
+> - The best path for creators to monetize small audiences
+>
+> @jayclouse https://t.co/2gnQfFKr0S
+
+- **Tweet:** https://x.com/nathanbarry/status/1948784974301425818
+- **Quoted:** https://x.com/nathanbarry/status/1948412862449569999
+- **What:** Nathan Barry reports unusually strong first-day YouTube performance for his Jay Clouse interview, whose substance examines AI’s effect on education alongside community retention and monetizing smaller creator audiences.
+
+## @gmchande - Pairing Claude Code with Playwright and voice dictation
+> *Replying to @awilkinson:* Anyone know why ChatGPT still can't see your screen?
+>
+> I would love to have voice mode going and just have it coach me through a technical problem.
+>
+> (Yes, I know it can watch your Terminal, Cursor, etc)
+>
+> @awilkinson I do this with Claude Code paired with Playwright MCP. And Superwhisper app for dictation/voice mode. Once you set up Claude Code you can ask it to set up playwright by itself, so that it can open browser and view things
+
+- **Tweet:** https://x.com/gmchande/status/1948783220293619889
+- **Parent:** https://x.com/awilkinson/status/1948758461346709875
+- **What:** Gaurav Chande describes a practical screen-aware assistant setup: Claude Code can control a browser through Playwright MCP while Superwhisper supplies voice dictation, addressing a request for hands-free technical coaching.
+
+## @foundmyfitness - Rhonda Patrick's longevity protocol discussion with Tim Ferriss
+> I recently joined @tferriss to chat about fasting protocols, lowering dementia risk, reversing heart aging through exercise, using the sauna for longevity, and more.
+>
+> It was great to have a long overdue catch up with Tim and discuss the latest science. Thank you, Tim!
+>
+> *Quoting @tferriss:* NEW podcast episode is up!
+>
+> "Rhonda Patrick, Ph.D. — Protocols for Fasting, Lowering Dementia Risk, Reversing Heart Aging, Using Sauna for Longevity (Hotter is Not Better), and a Few Supplements That Might Actually Matter"
+>
+> cc: @foundmyfitness
+>
+> Please enjoy! https://t.co/DYb0j9MVJ6
+
+- **Tweet:** https://x.com/foundmyfitness/status/1948783107131298093
+- **Quoted:** https://x.com/tferriss/status/1948774372489015515
+- **What:** Rhonda Patrick amplifies Tim Ferriss’s long-form discussion of evidence-informed longevity practices, spanning fasting, cognitive-risk reduction, exercise, sauna use, and supplements rather than promoting a single intervention.
+
+## @petergyang - Claude Code as a general-purpose agent for growth marketing
+> Something that many people haven't realized:
+>
+> Claude Code is useful for much more than just coding. For example, @AnthropicAI's growth marketing team is using it to generate 100s of new ad creatives in minutes.
+>
+> I think Anthropic has undersold the power of this tool. It should be branded as "Claude Agent" not "Claude Code."
+>
+> I asked people what their non-coding use cases are and some of the replies are 🤯. See next post for the link.
+
+- **Tweet:** https://x.com/petergyang/status/1948772596184743979
+- **What:** Peter Yang argues that Claude Code’s agentic workflow has broader business value than its coding-oriented name suggests, citing rapid growth-marketing creative production as a concrete non-engineering use case.
+
+## @venturetwins - Veo 3 executes instructions embedded in a frame
+> This may be the coolest emergent capability I've seen in a video model.
+>
+> Veo 3 can take a series of text instructions added to an image frame, understand them, and execute in sequence.
+>
+> Prompt was "immediately delete instructions in white on the first frame and execute in order" https://t.co/FcUnQU9yBH
+
+- **Tweet:** https://x.com/venturetwins/status/1948771505783144641
+- **What:** THIN: A demonstration claims Veo 3 can read ordered text instructions rendered inside an input image, remove the visible instructions, and carry out the sequence, suggesting unusually flexible visual instruction following in video generation.
+
+## @alexalbert__ - Mapping non-coding uses for Claude Code
+> I'm making a list of all the non-coding things people are doing with Claude Code. What are you using Claude Code for?
+
+- **Tweet:** https://x.com/alexalbert__/status/1948765443776544885
+- **What:** Alex Albert solicits examples of Claude Code beyond software implementation, pointing to its emerging role as a general-purpose agentic workspace for research, operations, writing, and other command-line-driven tasks.
+
+## @svpino - Build AI evaluation metrics from error analysis
+> Stop using out-of-the-box metrics to evaluate your AI applications. You are wasting your time, and your application is not improving.
+>
+> Here are a few of these metrics: relevance, hallucination rate, correctness, completeness, naturalness, coherence, etc.
+>
+> Stop.
+>
+> I've seen applications excelling in every one of these metrics and still failing to produce good results.
+>
+> What you need to do: run Error Analysis to identify specific metrics for your application.
+>
+> Instead of "Completeness", I want to see you tracking something like "Response contains every relevant field", or "Scheduling time in response uses proper timezone."
+>
+> Specific, custom metrics work. Out-of-the-box metrics don't.
+
+- **Tweet:** https://x.com/svpino/status/1948763932220686417
+- **What:** An evaluation-design argument for deriving application-specific AI metrics from observed failure modes, such as required-field coverage or timezone correctness, rather than optimizing broad scores that can conceal product-breaking errors.
+
+## @thepatwalls - AI-assisted story discovery for an indie hacker's X growth
+> Holy cow, this tweet idea was generated with the new app I've been working on.
+>
+> Overnight, he added 20 followers (40% increase) and got 5,000+ impressions.
+>
+> Being 100% transparent we did work closely together since he's a beta tester of the new app.
+>
+> But that doesn't take away from him actually having a great story to share with the world, I think the app just helped him uncover it a bit (with AI).
+>
+> So if you're building stuff like ghazi and want to grow on X, I'm looking for more early testers. DM me.
+>
+> *Quoting @muizahg:* I spend 3 hours every night from 9 to 12 building my side project so I can eventually quit my job and go full-time as an indie hacker.
+>
+> I use nothing but a simple markdown file for my to-do list.
+>
+> I get more done in those 3 hours than I used to.
+>
+> The biggest change? I went from distractions (watching NBA etc), to more focused nights where I can actually finish the important stuff.
+>
+> Most nights I’m building, designing, or solving problems to keep the project moving forward.
+>
+> I’m sharing this because if I can find a rhythm and stay consistent, then maybe I can make this work.
+
+- **Tweet:** https://x.com/thepatwalls/status/1948755558854787404
+- **Quoted:** https://x.com/muizahg/status/1948590657485844869
+- **What:** Pat Walls presents an AI writing product as a way to surface founders' authentic stories, using Ghazi's disciplined nightly side-project routine as a test case that gained followers and impressions without replacing the underlying substance.
+
+## @_lhermann - Prompting assistants to validate assumptions before coding
+> This is the single most useful line in my system prompt:
+>
+> "Please ask questions and confirm assumptions before generating code."
+>
+> Absolute game changer! Saves me at least 1 hour every day while vibe coding! 🤯
+>
+> Share your's please!
+
+- **Tweet:** https://x.com/_lhermann/status/1948667903294759222
+- **What:** A practical system-prompt pattern for shifting AI coding sessions from immediate code generation toward clarification and assumption checking, reducing rework when requirements are incomplete or ambiguous.
+
+---
+
 # Thursday, July 24, 2025
 
 ## @MEvsIRS - Tea app's viral positioning and pricing strategy
@@ -52633,8 +55046,51 @@ the algorithm knows when you're being needy
 - **Tweet:** https://x.com/ViperChill/status/1948381052352737304
 - **What:** Glen Allsopp tracks an expanding AI-SEO market after Nimt AI’s roughly €360,000 raise and Scrunch AI’s $15 million Series A, expecting established SEO suites to consolidate demand while a small number of focused visibility tools emerge.
 
----
+## @petergyang - Non-Coding Claude Code Use Cases
+> Does anyone use Claude Code for non-coding use cases? If so, what do you use it for?
 
+- **Tweet:** https://x.com/petergyang/status/1948567421599842342
+- **What:** Peter Yang solicits practical examples of Claude Code beyond software development, inviting evidence about how its terminal, agent, and file-system workflows can support research, operations, writing, or other knowledge work.
+
+## @thepatwalls - Beta Testers for Content-Creation Automation
+> I'm looking for a few beta testers
+>
+> To try an app I've been working on for a few months
+>
+> The tool automates part of the content creation process for people who ACTUALLY SHIP - so you can get customers even if you're a n00b at marketing
+>
+> Just leave a comment on what you're building
+
+- **Tweet:** https://x.com/thepatwalls/status/1948543601958682640
+- **What:** Pat Walls is recruiting beta users for an unfinished content-creation tool aimed at product builders who need customer-acquisition help without extensive marketing expertise; no product details or signup link are supplied.
+
+## @tunahorse21 - Claude Code Guardrails for Faster Reviews and Research
+> https://t.co/ucF4kXjiKZ
+
+- **Tweet:** https://x.com/tunahorse21/status/1948511782588264917
+- **Link:** https://x.com/i/article/1948502645955854338
+- **Filed:** [i-love-claude-code.md](./knowledge/articles/i-love-claude-code.md)
+- **What:** A team lead argues that custom Claude Code commands, parallel agents, worktrees, and written guardrails cut code-review triage time while making research and personal knowledge management more repeatable and enjoyable.
+
+## @NickADobos - ChatGPT Agent Discount-Code Checkout Testing
+> chatGPT agent, best use case I've found so far:
+>
+> "Find discount codes for &lt;store&gt;, then go the site, add an item to the cart, go to checkout and test the discount code"
+>
+> No more manual testing!
+
+- **Tweet:** https://x.com/NickADobos/status/1948491534640324878
+- **What:** This proposes using ChatGPT's browser-capable agent to find discount codes and validate them through a real checkout flow, replacing repetitive manual coupon testing with an end-to-end task.
+
+## @OfficialLoganK - Gemini, Veo, and Imagen Scaling Support
+> PSA: if you need anything (rate limits, questions, new features, etc) to scale up your usage of Gemini, Veo 3, Imagen, etc, please email me: lkilpatrick@google.com
+>
+> Here to help : )
+
+- **Tweet:** https://x.com/OfficialLoganK/status/1948456754154488188
+- **What:** Google product lead Logan Kilpatrick offers a direct escalation path for organizations hitting access, rate-limit, feature, or usage-scale barriers across Gemini, Veo 3, and Imagen.
+
+---
 # Wednesday, July 23, 2025
 
 ## @boringmarketer - Astro and Claude Code local SEO rebuild
