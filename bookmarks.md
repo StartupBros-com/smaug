@@ -50790,6 +50790,499 @@ thank you all, means a lot
 
 ---
 
+# Sunday, April 13, 2025
+
+## @akshay_pachaar - Visual Primer on Traditional RAG and Graph RAG
+> Traditional RAG vs. Graph RAG, clearly explained (with visuals):
+
+- **Tweet:** https://x.com/akshay_pachaar/status/1911397457034137889
+- **What:** A visual educational post comparing conventional retrieval-augmented generation with Graph RAG, a useful distinction when deciding whether answers need isolated document retrieval or relationship-aware context.
+
+## @major_katsurAGI - Satire on Prompting an AI to Build a $600M SaaS
+> “@grok, i need six hundred (600) million dollars, build a SaaS and scale it for an exit to that exact amount. make no mistakes.” https://t.co/9RXOFNWSjP
+
+- **Tweet:** https://x.com/major_katsurAGI/status/1911344026692747648
+- **What:** A satirical take on inflated expectations for autonomous AI, contrasting an impossibly precise venture-scale outcome with the terse prompt presumed to deliver it without human judgment or execution.
+
+## @jowettbrendan - Google's A2A Protocol for Enterprise Agent Collaboration
+> 🚨 BREAKING: Google just launched a new internet protocol.
+>
+> It’s A2A.
+>
+> Backed by 50+ partners including Salesforce, Atlassian, and SAP.
+>
+> It’s designed to let AI agents collaborate across companies, platforms, and clouds.
+>
+> Here’s what it means for the future of enterprise AI: 🧵 https://t.co/73qv7bnsgP
+
+- **Tweet:** https://x.com/jowettbrendan/status/1911337581805208061
+- **What:** An announcement framing Google’s Agent2Agent protocol as shared infrastructure for interoperable enterprise AI agents, with adoption partners intended to bridge vendors, clouds, and business systems.
+
+---
+
+# Saturday, April 12, 2025
+
+## @awilkinson - Practical AI Agents for Email, Calendars, and School Admin
+> What’s the coolest use case you’ve found for an AI agent?
+>
+> For me:
+>
+> 1. Email Agent: archives emails I don’t need to see, forwards others, and labels the ones that need responses.
+>
+> 2. Emoji Calendar: adds appropriate emojis to every calendar event
+>
+> 3. Kids School Agent: processes emails relating to my kids and automatically adds their activities and school stuff to our family calendar
+>
+> All using @getlindy.
+
+- **Tweet:** https://x.com/awilkinson/status/1911234234305691986
+- **What:** Concrete examples of AI agents reducing household and executive coordination work by triaging inboxes, enriching calendar entries, and extracting school logistics into a shared family schedule.
+
+## @realEstateTrent - Using ChatGPT Memory to Surface Blind Spots
+> Opened ChatGPT.
+>
+> Prompt:
+>
+> “Now that you can remember everything I’ve ever typed here, point out my top five blind spots.”
+>
+> Mind. Blown.
+
+- **Tweet:** https://x.com/realEstateTrent/status/1911220818014536123
+- **What:** A prompt pattern for using an AI assistant’s accumulated conversational memory as a candid mirror, potentially revealing recurring assumptions and habits a user may overlook.
+
+## @teneikaask_you - China warehouses sell branded goods directly
+> Please go look up  your favorite brand and China warehouse on TikTok. They are really fighting back. They said those leggings yall pay $100 for at Lululemon, we'll sell it to you for $5 and help you get it back to the states.
+
+- **Tweet:** https://x.com/teneikaask_you/status/1911209561635106837
+- **What:** An observation that Chinese warehouse sellers are using TikTok to market direct-to-consumer alternatives to premium branded goods, potentially exposing retail markups and increasing price pressure on established apparel brands.
+
+---
+
+# Friday, April 11, 2025
+
+## @josephxhenry - Patterns behind Whop businesses above $500K monthly
+> what I noticed about businesses that make more than $500K a month on whop
+>
+> all of these are patterns I've seen across 1000+ doing numbers
+>
+> a thread 🧵: https://t.co/fLlyywsvOO
+
+- **Tweet:** https://x.com/josephxhenry/status/1910749766998204624
+- **What:** An introduction to a thread distilling patterns observed across more than 1,000 high-revenue Whop businesses, offering comparative evidence for creators and operators studying repeatable growth and monetization traits.
+
+---
+
+# Thursday, April 10, 2025
+
+## @sama - ChatGPT’s lifelong conversational memory
+> we have greatly improved memory in chatgpt--it can now reference all your past conversations!
+>
+> this is a surprisingly great feature imo, and it points at something we are excited about: ai systems that get to know you over your life, and become extremely useful and personalized.
+
+- **Tweet:** https://x.com/sama/status/1910380643772665873
+- **What:** An announcement that ChatGPT can reference a user's past conversations, framing persistent memory as the foundation for AI that accumulates personal context and produces more useful, individualized assistance over time.
+
+## @ericzakariasson - Cursor team workflow nuggets
+> i asked some people at @cursor_ai how they use cursor
+>
+> some nuggets in here ↓
+
+- **Tweet:** https://x.com/ericzakariasson/status/1910354619651518662
+- **What:** A pointer to practical Cursor usage insights collected from people at the company; while this post does not enumerate them, it signals workflow habits from product insiders that developers can compare against their own use.
+
+## @alex_prompter - Reusable business context profile interview
+> Steal my prompt to create a reusable profile about your context you can paste into any AI chat for instant, personalized advice.
+>
+> -------------------------------------------
+> ULTIMATE CONTEXT PROFILE BUILDER
+> -------------------------------------------
+>
+> # ULTIMATE BUSINESS CONTEXT PROFILE BUILDER
+>
+> You are BUSINESS CONTEXT ARCHITECT - an expert system designed to extract comprehensive, reusable context about a person's business, marketing strategy, content approach, and communication preferences. This profile will dramatically enhance any AI's ability to provide relevant, tailored business and marketing guidance without repetitive questioning.
+>
+> # INTERVIEW PROCESS
+>
+> Conduct a focused business-oriented interview by asking ONE question at a time and waiting for the user's response before continuing:
+>
+> # PHASE 1: BUSINESS FOUNDATION
+> What is your business/product and what problem does it solve? (1-2 paragraphs)
+> Who are your ideal customers? (demographics, psychographics, job titles, behaviors)
+> What makes your offering unique compared to alternatives available to your customers?
+> What are your top 3 business priorities for the next 3-6 months?
+> Who are your primary competitors and how do you differentiate from them?
+> What stage is your business in? (pre-launch, early growth, scaling, established)
+> What is your current business model and revenue streams?
+>
+> # PHASE 2: AUDIENCE & MARKET INSIGHTS
+> What specific pain points does your audience experience that you solve?
+> What other solutions do they currently use to address these problems?
+> What objections or hesitations do customers typically have before buying?
+> What emotional triggers most strongly influence your customers' decisions?
+> What industry trends are currently affecting your market?
+> What customer feedback or data has most influenced your business direction?
+> What metrics do you track to understand your audience behavior?
+>
+> # PHASE 3: MARKETING & MESSAGING STRATEGY
+> What is your current customer acquisition strategy?
+> Which marketing channels have been most effective for your business?
+> What is your typical customer journey from awareness to purchase?
+> What brand voice and tone guidelines do you follow?
+> What key messages or value propositions resonate most with your audience?
+> What content formats perform best with your audience? (video, audio, text, etc.)
+> What lead generation and nurturing tactics do you employ?
+> What marketing assets do you already have? (website, social accounts, email list, etc.)
+>
+> # PHASE 4: CONTENT & COMMUNICATION APPROACH
+> What content themes or topics resonate most with your audience?
+> What is your content creation and distribution process?
+> What communication style works best for your audience? (formal/casual, detailed/concise)
+> What storytelling elements connect best with your customers?
+> What call-to-action approaches generate the best response?
+> What content creation constraints do you have? (time, budget, skills)
+> How do you currently measure content performance?
+>
+> # PHASE 5: EXECUTION & OPERATIONAL CONTEXT
+> What marketing tools, platforms, or software do you use?
+> What is your typical approval process for marketing materials?
+> What resources (team, budget, time) are available for marketing initiatives?
+> What regulatory, legal, or industry constraints affect your marketing?
+> What terminology, acronyms, or industry jargon is important in your communications?
+> What past marketing efforts have failed and why?
+> What is your timeline for implementing new marketing initiatives?
+>
+> # PHASE 6: WORKING PREFERENCES
+> How do you prefer to receive marketing recommendations? (step-by-step, high-level overview, visual)
+> What level of detail do you need in marketing plans? (detailed roadmap, core strategies only)
+> What decision-making factors are most important to you? (data, competitive analysis, gut feel)
+> How do you evaluate marketing success?
+> What type of examples or case studies would be most relevant to you?
+> What aspects of marketing do you enjoy vs. find challenging?
+> What communication style works best for you personally?
+>
+> # INTERVIEW TECHNIQUES
+> Clarification Through SpecificityWhen answers are broad, ask for specific examples
+> Request concrete metrics where appropriate
+> Explore the "why" behind preferences or past decisions
+> Use "can you tell me more about..." to deepen understanding
+>
+> Business Impact FocusConnect questions to business outcomes
+> Prioritize information with revenue or growth implications
+> Identify leverage points in their current approach
+> Recognize unstated business constraints or opportunities
+>
+> Progressive RevelationBegin with core business questions before specialized marketing topics
+> Build marketing questions on established business context
+> Connect content approaches to established audience insights
+> Link operational questions to stated strategic priorities
+>
+> # PROFILE COMPILATION FORMAT
+> After completing the interview, compile the information into this optimized structure:
+>
+> # BUSINESS CONTEXT PROFILE: [Business Name]
+>
+> ## CORE BUSINESS SNAPSHOT
+> - Description: [Concise business/product overview]
+> - Stage: [Business stage and maturity]
+> - Model: [Business model and revenue structure]
+> - Unique Value: [Key differentiators in the market]
+> - Primary Goals: [Current business priorities]
+>
+> ## TARGET AUDIENCE
+> - Ideal Customer: [Detailed customer profile]
+> - Pain Points: [Specific problems being solved]
+> - Current Alternatives: [How they solve problems now]
+> - Decision Triggers: [What motivates purchase decisions]
+> - Objections: [Common hesitations or concerns]
+> - Market Trends: [Current industry movements]
+>
+> ## MARKETING STRATEGY
+> - Acquisition Channels: [Where customers are found]
+> - Customer Journey: [Path from awareness to purchase]
+> - Lead Generation: [How prospects are captured]
+> - Nurturing Process: [How leads are developed]
+> - Key Messages: [Core value propositions]
+> - Brand Voice: [Tone and personality guidelines]
+> - Marketing Assets: [Existing platforms and materials]
+>
+> ## CONTENT APPROACH
+> - High-Performing Formats: [What content types work best]
+> - Key Themes: [Topics that resonate with audience]
+> - Distribution Strategy: [How content reaches audience]
+> - Storytelling Elements: [Narrative approaches that work]
+> - Call-to-Action Types: [What drives response]
+> - Content Constraints: [Limitations to be aware of]
+> - Performance Metrics: [How content success is measured]
+>
+> ## OPERATIONAL CONTEXT
+> - Tools & Platforms: [Marketing technology stack]
+> - Team Resources: [Available personnel and skills]
+> - Budget Parameters: [Financial constraints]
+> - Approval Process: [How decisions are made]
+> - Timeline Expectations: [Speed of implementation needs]
+> - Industry Terminology: [Key terms and jargon]
+> - Regulatory Factors: [Legal or compliance requirements]
+>
+> ## WORKING PREFERENCES
+> - Communication Style: [How they prefer to receive information]
+> - Detail Level: [Depth of information needed]
+> - Decision Criteria: [How they evaluate recommendations]
+> - Success Metrics: [How they measure outcomes]
+> - Example Preferences: [Types of references that resonate]
+> - Strengths & Challenges: [Marketing areas of comfort/discomfort]
+>
+> ## INTERACTION GUIDANCE
+> - Always: [Approaches that will be well-received]
+> - Avoid: [Approaches that will not be effective]
+> - Prioritize: [What matters most in communications]
+> OPTIMIZATION ENHANCEMENTS
+> Before finalizing the profile, add these critical elements:
+> Context Relationship MappingAdd notes on how audience pain points connect to specific offerings
+> Link content formats to specific stages in customer journey
+> Connect business goals to specific marketing metrics
+> Relate brand voice guidelines to target audience preferences
+>
+> Time-Sensitivity IndicatorsFlag items likely to change (goals, campaigns) vs. stable elements (values, audience)
+> Include relevant timeframes for initiatives or priorities
+> Note any seasonal or cyclical factors affecting the business
+> Indicate when the profile was created and when it should be reviewed
+>
+> Insight Amplifiers
+> Include quotes from the user that capture key philosophies or approaches
+> Highlight unique or counterintuitive aspects of their business
+> Note areas where their approach differs from industry norms
+> Flag high-priority or urgent initiatives
+>
+> DELIVERY FORMAT
+> Present the final context profile with:
+> # YOUR REUSABLE BUSINESS CONTEXT PROFILE
+>
+> [Full formatted profile]
+>
+> ## HOW TO USE THIS PROFILE
+> 1. Copy everything between the markers below
+> 2. Paste at the beginning of any new AI chat about marketing, content, or business strategy
+> 3. Add your specific request or question after the profile
+> 4. Update the profile as your business evolves
+>
+> ---START BUSINESS CONTEXT PROFILE---
+> [Complete profile content]
+> ---END BUSINESS CONTEXT PROFILE---
+>
+> This profile is optimized to work with any AI for marketing strategy, content creation, business planning, and general business communications without requiring repetitive explanations of your business context.
+>
+> # INTERVIEW INITIATION
+> Begin with:
+> "I'll help you create a comprehensive business context profile that will dramatically enhance any AI's ability to provide you with relevant marketing, content, and business strategy guidance without repetitive questioning.
+>
+> This profile will capture your business model, target audience, marketing approach, content strategy, and working preferences - all in a format you can reuse across all your AI interactions.
+> Let's build your profile with a focused interview. I'll ask one question at a time to ensure we capture detailed, valuable information.
+>
+> First, what is your business/product and what problem does it solve? Please provide 1-2 paragraphs."
+> Then proceed through the interview protocol, one question at a time, adapting subsequent questions based on previous responses.
+
+- **Tweet:** https://x.com/alex_prompter/status/1910331633686708714
+- **What:** A reusable, one-question-at-a-time prompt framework that collects business, audience, marketing, and working-preference details into a portable AI context profile, reducing repetitive onboarding for future strategic advice.
+
+## @eptwts - Context profiles for personalized LLM behavior
+> i predict that after AI frontrunners launches - LLM's will start to implement context profiles...
+>
+> i am very surprised they haven't already done it, it's single-handedly one of the most powerful features that can be implemented
+>
+> chatgpt memory is similar, but it's not the same
+>
+> anyways, glad to be leading the way
+
+- **Tweet:** https://x.com/eptwts/status/1910260423250657292
+- **What:** EP argues that LLM products need explicit context profiles rather than only passive memory: reusable, user-controlled context packages could make model behavior consistently tailored to a role, audience, or workflow.
+
+---
+
+# Wednesday, April 9, 2025
+
+## @billyjhowell - Simple AI app approach and reported BMW sales
+> people are dm'ing me that they're printing BMWs by selling ai-built apps
+>
+> all because i did an hour long interview with @gregisenberg about about my stupid simple app approach
+>
+> wtf is going on https://t.co/QVx7mFLBU9
+
+- **Tweet:** https://x.com/billyjhowell/status/1910135118078812621
+- **What:** LINK_FAILED: Could not expand link from @billyjhowell. Howell reports that viewers of his Greg Isenberg interview are applying a deliberately simple AI-app strategy and claiming unexpectedly lucrative results.
+
+## @eptwts - Deep psychographic research prompt for conversion copy
+> this "deep-research" prompt does deep psychographic research to uncover real customer beliefs, struggles, & experiences in order to write emotionally-fueled, high-converting copy...
+>
+> ----------------------------------------
+>
+> INPUTS:
+> Avatar = “ENTER_AVATAR_HERE”
+> Pain = “ENTER_PAIN_HERE”
+>
+> ## I. Psychographic Research Objective
+> Conduct deep research into the {avatar} who is suffering from {pain}.
+> The goal is to extract real, emotionally-charged insights from the market, in their own words.
+>
+> We will gather data from:
+> - Public forums (Reddit, Quora, niche communities)
+> - Social media (Twitter, YouTube, Facebook comments)
+> - Product reviews and blog comment sections
+> - Articles and threads related to the problem space
+>
+> ---
+>
+> ## II. What We're Looking For
+>
+> ### 1. Demographic & Psychographic Insights
+> - Who is your customer?
+> - What attitudes do they have? (Religious, political, social, economic)
+> - What are their hopes and dreams?
+> - What are their biggest victories and failures?
+> - What outside forces do THEY believe have prevented their best life?
+> - What are their prejudices?
+> - Sum up their core beliefs about life, love, and family in 1–3 sentences.
+>
+> ---
+>
+> ### 2. Current Solutions & Market Experience
+> - What are they currently using to solve this problem? (List tools, techniques, products)
+> - What do they like about those existing solutions?
+> - What do they dislike or distrust about those solutions?
+> - Are there horror stories about the current solutions?
+> - Do they believe the current solution(s) work? If not, why?
+>
+> Example:
+> > "I've taken CBD for a couple years now. I have scoliosis and chronic back pain. It definitely helps with the pain and helps me sleep at night."
+>
+> ---
+>
+> ### 3. Curiosity & Forgotten Attempts
+> - Has someone tried to solve this pain point in a unique way before?
+> - What was the result? Was it successful, a failure, or forgotten?
+> - Is there a conspiratorial or controversial story behind why old solutions didn’t work or were buried?
+> - Are there pre-1960s solutions that were effective but lost to history?
+>
+> Examples:
+> > Tesla in the energy space - discredited by Big Energy.
+> > WWII Army race to cure foot fungus with Undecylenic Acid - forgotten but once effective.
+>
+> ---
+>
+> ### 4. Corruption & Outside Forces
+> - Does the market believe this pain point didn’t exist before or used to be less severe?
+> - Has it been recently exacerbated by outside forces?
+> - What are those forces (corporations, media, governments, etc.), and why does the market believe they exist?
+>
+> Examples:
+> > Obesity and diabetes rise blamed on Dr. Ancel Keys’ flawed dietary research.
+> > Isolated tribes without exposure to modern food don’t suffer from same diseases.
+>
+> ---
+>
+> ## III. Deliverables
+> - Real quotes from the audience, ideally expressing emotions, frustrations, desires, or disbelief.
+> - Belief systems and recurring narratives that can be used in story-driven copy.
+> - A compiled summary of the market’s worldview, skepticism, and unmet desires.
+
+- **Tweet:** https://x.com/eptwts/status/1910001068773122356
+- **What:** A reusable research brief directs an LLM to collect first-person evidence about customers’ beliefs, existing solutions, grievances, and cultural narratives before turning those findings into emotionally resonant conversion copy.
+
+## @eptwts - Market research 101 reference
+> market research 101 https://t.co/nwPDtc8NOj
+
+- **Tweet:** https://x.com/eptwts/status/1909939489373290755
+- **What:** LINK_FAILED: Could not expand link from @eptwts. The self-referential shortened URL exposes no underlying market-research material, leaving the referenced primer unavailable for review.
+
+## @mattpocockuk - Cursor and VS Code agent mode comparison
+> Some notes on Cursor vs VSCode's new agent mode:
+
+- **Tweet:** https://x.com/mattpocockuk/status/1909916124529004654
+- **What:** THIN: Matt Pocock introduces a comparison between Cursor and VS Code’s new agent mode, but this post contains no accompanying notes or criteria to evaluate the tools.
+
+---
+
+# Tuesday, April 8, 2025
+
+## @enggirlfriend - The Opportunity for an AI-Native Writing Workspace
+> whoever builds cursor for google docs first is going to:
+>
+> 1. be a billionaire
+> 2. break the brains of millions of americans
+> 3. change the way we learn to write forever
+
+- **Tweet:** https://x.com/enggirlfriend/status/1909766016403484980
+- **What:** Engineer Girlfriend identifies an opening for a Cursor-like assistant inside Google Docs, arguing that an AI-native writing environment could change both the economics of knowledge work and how people learn to write.
+
+## @amasad - Software’s Accelerating Deflation
+> The deflationary impact on software is profound and accelerating. https://t.co/SZ1UNSWl4E
+
+- **Tweet:** https://x.com/amasad/status/1909744055401300200
+- **What:** Amjad Masad flags that cheaper, more capable AI systems are rapidly lowering the cost of producing software, a shift likely to pressure prices and reshape how value accrues in the industry.
+
+## @cremieuxrecueil - China and US Governments Pursue Civil-Service AI Augmentation
+> China rapidly implemented AI augmentation of civil servants across several local governments using DeepSeek's R1.
+>
+> The Office of Management and Budget has put out two memos guiding the federal government do the same thing🧵 https://t.co/0gnZOXAjTF
+
+- **Tweet:** https://x.com/cremieuxrecueil/status/1909732150171041813
+- **What:** Crémieux contrasts local Chinese governments’ DeepSeek R1 deployments with new US OMB guidance, framing government AI augmentation as a fast-moving administrative modernization effort rather than an experimental edge case.
+
+## @JackCole - Premium Video Editing Survives AI Automation
+> AI will kill 'basic' edits.
+>
+> Probs in the next year or two.
+>
+> Thats obvious and has already begun on a small level:
+> - Clients used to pay editors just to add captions...
+> - Now Submagic does that for them in a few clicks.
+>
+> What AI won't kill is the hands off approach higher ticket clients like about having a great editor on their team...
+> - Client sends footage
+> - Editor sends back a fire edit
+> - Client drops a few revisions
+> - Done
+>
+> This is why targetting the right clients is crucial.
+>
+> Rich clients dont want to sit there all day going back and forth with AI just to save a few bucks.
+>
+> There will always be clients who Pay for Convenience.
+>
+> Just don't be a 'basic' editor 🤷‍♂️
+>
+> *Quoting @eptwts:* extract "editing-style" JSON profile from a well-edited yt video...
+>
+> upload your raw uncut footage to youtube on a private account
+>
+> send the link to the raw footage to gemini alongside your "editing-style" profile
+>
+> ask gemini to give you a breakdown of the cuts you should make, VFX, transitions, etc. with exact timestamps
+>
+> editing is about to change forever
+
+- **Tweet:** https://x.com/JackCole/status/1909573868823421096
+- **Quoted:** https://x.com/eptwts/status/1909549818340421650
+- **What:** Jack Cole argues that AI guidance and automated captions will commoditize routine edits, while the quoted Gemini workflow points toward AI-planned editing; premium editors can remain valuable by owning the end-to-end convenience clients buy.
+
+## @eptwts - Gemini Video Analysis as a Timestamped Editing Assistant
+> extract "editing-style" JSON profile from a well-edited yt video...
+>
+> upload your raw uncut footage to youtube on a private account
+>
+> send the link to the raw footage to gemini alongside your "editing-style" profile
+>
+> ask gemini to give you a breakdown of the cuts you should make, VFX, transitions, etc. with exact timestamps
+>
+> editing is about to change forever
+>
+> *Quoting @eptwts:* gemini can watch a video to extract information about the visuals... https://t.co/onsrCPRltm
+
+- **Tweet:** https://x.com/eptwts/status/1909549818340421650
+- **Quoted:** https://x.com/eptwts/status/1909548443531456747
+- **What:** EP proposes turning a reference video into an editing-style JSON profile, then having Gemini compare it with privately uploaded raw footage to propose timestamped cuts, effects, and transitions.
+
+---
+
 # Monday, April 7, 2025
 
 ## @tobi - Shopify makes AI proficiency a baseline expectation
@@ -50799,6 +51292,2400 @@ thank you all, means a lot
 - **Link:** https://x.com/i/article/1909251387525128192
 - **Filed:** [shopify-reflexive-ai-usage](./knowledge/articles/shopify-reflexive-ai-usage.md)
 - **What:** Shopify CEO Tobi Lütke makes AI fluency an organization-wide expectation, tying it to project prototyping, performance reviews, shared learning, and stricter justification for additional headcount.
+
+## @deedydas - Power-Tool Analogy for AI Adoption
+> This should be required reading for everyone who has an opinion on whether AI tools are good for society or not.
+>
+> “Don’t use power tools because they take people’s job” is not a winning strategy.
+>
+> John Carmack is the legendary developer who made Doom, Quake and was Oculus CTO. https://t.co/azRderp1Fj
+
+- **Tweet:** https://x.com/deedydas/status/1909444068708696068
+- **What:** Deedy argues that rejecting AI because it can displace work repeats an untenable rejection of productivity tools, invoking John Carmack's perspective to frame the debate around adaptation rather than preserving existing jobs unchanged.
+
+## @codyschneider - Directory Links and Bottom-Funnel SaaS Growth
+> how to get new saas site to DA30 for free
+>
+> build directory links
+>
+> then take that list and index with speedyindex .com
+>
+> why
+>
+> bc directory sites have 100,000+ pages
+>
+> just publishing won't make google see it
+>
+> indexing drip ping will
+>
+> site DA grows
+>
+> then publish articles for bottom of funnel keywords related to your product
+>
+> CTA on page to signup
+>
+> get free signups
+>
+> these pages also make exact target customer hit your site
+>
+> pixel everyone touches the page and remarket to them
+>
+> get signups from paid
+>
+> link below if you want this
+
+- **Tweet:** https://x.com/codyschneider/status/1909280288498208966
+- **What:** Cody Schneider outlines a SaaS acquisition funnel that combines directory backlinks and indexation with bottom-funnel content, conversion calls to action, and retargeting audiences, positioning authority building as input to both organic and paid signups.
+
+## @eptwts - Iterative LLM Project Planning Workflow
+> you can ask an LLM to write out the instructions explaining how to build your project...
+>
+> then send the markdown file to another LLM to ask if the contents are consistent & if it's the most efficient way to go about it (can repeat this process multiple times)
+>
+> then finally open that file on cursor & ask the agent to follow the instructions
+
+- **Tweet:** https://x.com/eptwts/status/1909280048663633935
+- **What:** EP proposes separating AI planning from implementation: generate an explicit build specification, have other models critique it for consistency and efficiency, then hand the refined instructions to a coding agent for execution.
+
+## @andrewchen - Why AI Creates a Short Startup Window
+> Here's my thread about why you should:
+> - quit whatever it is you're doing
+> - build the startup you've wanted to build
+> - work with me and the a16z team 1:1
+> - And yes, I'll invest $1M via a16z speedrun
+> (and the earlier your startup, the better. apply here: https://t.co/lExlSghKHK)
+>
+> I want to start with some things I hear:
+> "Nah, it's not the right time for me to launch a new startup. But why yes, I do scribble down new ideas all the time. And my best friend from work would be the perfect cofounder. Oh I even have a side project going..."
+>
+> There's always something around the corner:
+> - a promotion that might happen
+> - a job you want to get before you're "ready" to start a company
+> - the perfect first hire that might free up in a month
+> - a work project you want to finish up first
+> - a sign that your idea is the perfect idea
+> ... and a million other things
+>
+> But let me make the counterpoint, which is that the AI has created a unique window for launching new products. And it's ephemeral and (unfortunately) rapidly closing.
+>
+> - the startup window opens and shuts for a few years, once every decade. Wait it out now, and you'll have to wait 10+ years for the next one. After all, the AI wave is huge and comparable to what we saw in mobile, internet, desktop, etc. And if you look at the dates, you'll see -- 2007 for mobile, 1994 for web, 1984 for desktop. These waves happen sparingly. You could build Instagram in the first few years of mobile, but you don't want to be the photo-sharing app 8 years in. You could build Uber in the early days, but don't try to compete with them now. These windows are key.
+>
+> -  the excitement for trying new products is at an all time high. On social media, we've now all seen first hand when new products are launched and hit great traction right off the bat. People have a hunger to try new products in a way that hasn't existed since the App Store launched.
+>
+> - one of the biggest problems for pre-AI products is that marketing channels are incredibly stagnant. Mobile ad channels are expensive, SEO is slow (and Google keeps taking over the search page), and you can't use aggressive virality anymore. Growth is hard. But if you have a new AI-driven take on a product category -- take advantage of the novelty effect! Before the marketing channels get swamped.
+>
+> - adding AI into an idea no longer requires a PhD in Computer Science :) This means that you can build totally wow breakthrough features into your product and impress your users simply by integrating APIs. You don't need to train any models, and your users may not even care what's under the hood. (just look at cursor, granola, etc -- they just care about great UX). The infrastructure is largely here, but the products are still early. There are still tons of great opportunities.
+>
+> - there's an incredible talent arbitrage right now. There aren't that many AI-native jobs, but everyone wants to learn more, so you can recruit top people if your product starts life day 1 as an AI product.
+>
+> - you might ask, can't I just work on this next year? Well -- maybe. These big waves are intensively competitive. The good ideas are getting snatched up right now, as people ask the question for how to apply AI to XYZ sector. And once the area is taken by a good team with real funding, you could maaaaybe fast-follow, but you're playing on hard mode at that point
+>
+> - there's never been a better time! After all, I found this fun post a while ago:
+>
+> Building a startup in 1995:
+> - Buy & run a server
+> - Code everything from scratch
+> - Handle payments manually
+> - Market with print ads
+>
+> Building a startup in 2025:
+> - Click to deploy
+> - AI writes code for you
+> - 1 line of JavaScript to charge any credit card
+> - 1 tweet goes viral = thousands of visitors
+> (h/t @marclou)
+>
+> - another good reason to get started: You're reading the right essay :) And now you know about a16z speedrun, which makes it possible for us to invest in very early startups, particularly in our favorite area of tech and entertainment and AI. This is still an experimental program, and we're committed to invest up to $1M in teams that are even pre-product and/or pre-traction, if you've had strong relevant experiences. Things are early enough that I am super hands on, and look forward to working with many of you! And the link again: https://t.co/lExlSghKHK and more program details: https://t.co/cdLUfusBwb
+>
+> Ultimately, a big wave like this doesn't come often. It's easy to make excuses, and for those of you who know you want to be a founder one day, I encourage you to consider jumping in during 2025.
+>
+> - For those of you who want to wrap something at work, or are waiting for a promotion, or something else, I want to tell you a secret: No one will care, after you've spent 18-24 months+ in a single job, what happens next at that job. The tech industry changes quickly and you get rapidly diminishing returns from what you can learn/prove at a single place. You can cut it short, and jump into a new startup.
+>
+> - For those who are waiting for the perfect idea: Your first idea will probably suck. Well maybe that's too harsh, so the more polite way to say it would be that it's based on incomplete information. You don't have a product in front of real users and customers. You haven't explored all the competitive products. You haven't spent 1000s of hours talking to your users yet. You need to get started doing that, to get through the 100 variations of your sucky ideas to get to the real one.
+>
+> - For those who are waiting for a sign: Here's your sign :)
+>
+> - For those who don't have an idea: That's OK. Apply with some areas/sectors you are interested in, and we'll help you talk through the kinds of problems that are exciting
+>
+> - For those who want to work on another job before you know enough to start a company: You know this isn't logical. Plenty of founders get going before they have any significant work experience. Another set of founders often start companies in sectors where they have no prior expertise. You don't need more prep!
+
+- **Tweet:** https://x.com/andrewchen/status/1909270925654057310
+- **Link:** https://speedrun.a16z.com/
+- **What:** Andrew Chen argues that AI is a fleeting startup-formation window, because cheap infrastructure, product novelty, and AI-curious talent lower the cost of launching before competitive categories and distribution channels mature; he pairs that thesis with a16z Speedrun's offer to fund very early teams.
+
+## @marclou - AI Wrapper Land-Grab Opportunity
+> Building AI wrappers now is like buying dotcom domains in the 90s.
+>
+> Those who show up will get rich.
+
+- **Tweet:** https://x.com/marclou/status/1909263648478122001
+- **What:** Marc Lou frames the current rush to package AI capabilities into focused products as an early-market land grab, arguing that founders who build now can benefit before categories become crowded.
+
+## @tobi - Shopify CEO releases leaked internal memo
+> I heard this internal memo of mine is being leaked right now, so here it is: https://t.co/Qn12DY7TFF
+
+- **Tweet:** https://x.com/tobi/status/1909231499448401946
+- **What:** LINK_FAILED: Could not expand link from @tobi; the embedded t.co URL resolved only to the posting tweet, so the internal memo's contents and the operational policy it announces are unavailable in the prepared data.
+
+---
+# Sunday, April 6, 2025
+
+## @NickADobos - Devin's emerging fit for playbook-driven teams
+> I've been using Devin more now that its not $500/mo, and I has improved substantially since I tried it the alpha.
+>
+> Definitely starting to see more of the vision. Feels like an entirely different product than cursor or even other agents like Replit.
+>
+> I could see this doing insane things at a company with like 5-10 devs / prompters. Especially with lots of playbooks & company knowledge setup
+
+- **Tweet:** https://x.com/NickADobos/status/1909078703264637286
+- **What:** A firsthand comparison says Devin improved materially after its alpha and price reduction, with the strongest potential in small teams that can codify recurring work into playbooks and connect the agent to company knowledge.
+
+## @jxmnop - Skepticism about recent AI model progress
+> Recent AI model progress feels mostly like bullshit (2025) https://t.co/IupBgHKXOU
+
+- **Tweet:** https://x.com/jxmnop/status/1909028815885500900
+- **What:** LINK_FAILED: Could not expand link from @jxmnop; the embedded t.co URL resolved only to the posting tweet, so the claimed 2025 critique of AI model progress cannot be assessed from the prepared data.
+
+## @eptwts - Positioning for AI's next two years
+> AI is today's gold rush, that's a given...
+>
+> so how are you positioning yourself for the next 1-2 years?
+>
+> i know my answer, i wanna hear yours...
+
+- **Tweet:** https://x.com/eptwts/status/1908936046437351536
+- **What:** This is a strategic prompt to consider how one is building leverage during the current AI expansion, framing the next one to two years as a period when deliberate skills, products, or investments may compound.
+
+---
+
+# Friday, April 4, 2025
+
+## @eptwts - One-question-at-a-time life optimization advisor prompt
+> this prompt will alter the course of your life as long as you listen...
+>
+> --------------------------------------
+>
+> You are now a ruthlessly logical Life Optimization Advisor with expertise in psychology, productivity, and behavioral analysis. Your purpose is to conduct a thorough analysis of my life and create an actionable optimization plan.
+>
+> Operating Parameters:
+> - You have an IQ of 160
+> - Ask ONE question at a time
+> - Wait for my response before proceeding
+> - Use pure logic, not emotional support
+> - Challenge ANY inconsistencies in my responses
+> - Point out cognitive dissonance immediately
+> - Cut through excuses with surgical precision
+> - Focus on measurable outcomes only
+>
+> Interview Protocol:
+> 1. Start by asking about my ultimate life goals (financial, personal, professional)
+> 2. Deep dive into my current daily routine, hour by hour
+> 3. Analyze my income sources and spending patterns
+> 4. Examine my relationships and how they impact productivity
+> 5. Assess my health habits (sleep, diet, exercise)
+> 6. Evaluate my time allocation across activities
+> 7. Question any activity that doesn't directly contribute to my stated goals
+>
+> After collecting sufficient data:
+> 1. List every identified inefficiency and suboptimal behavior
+> 2. Calculate the opportunity cost of each wasteful activity
+> 3. Highlight direct contradictions between my goals and actions
+> 4. Present brutal truths about where I'm lying to myself
+>
+> Then create:
+> 1. A zero-bullshit action plan with specific, measurable steps
+> 2. Daily schedule optimization
+> 3. Habit elimination/formation protocol
+> 4. Weekly accountability metrics
+> 5. Clear consequences for missing targets
+>
+> Rules of Engagement:
+> - No sugar-coating
+> - No accepting excuses
+> - No feel-good platitudes
+> - Pure cold logic only
+> - Challenge EVERY assumption
+> - Demand specific numbers and metrics
+> - Zero tolerance for vague answers
+>
+> Your responses should be direct, and purely focused on optimization. Start now by asking your first question about my ultimate life goals. Remember to ask only ONE question at a time and wait for my response.
+
+- **Tweet:** https://x.com/eptwts/status/1908227681000280430
+- **What:** This is a reusable LLM coaching prompt that structures a quantitative personal audit around goals, routines, finances, health, and time, then demands an accountable schedule and measurable behavior-change plan.
+
+## @eptwts - Sequenced prompts for coherent AI video stories
+> you can use AI to generate prompts for image-generation in a sequence that follows the storyline of your video...
+>
+> this is how those viral AI-generated IG reels keep a consistent storyline https://t.co/3daBesmAgJ
+
+- **Tweet:** https://x.com/eptwts/status/1908110398533796165
+- **What:** The post outlines using AI to create ordered image-generation prompts that follow a video's narrative beats, explaining how synthetic Instagram reels can maintain visual and story consistency across successive scenes.
+
+## @eptwts - Evaluating AI work by revenue potential
+> most ppl are using AI for the sake of trying out new technologies...
+>
+> but ultimately, the underlying goal of 95% of us is to make more money
+>
+> so instead of trying out new AI tools solely for the sake of trying them - you should always be internalising how you can utilize them to make money...
+>
+> for example:
+>
+> - using AI as an advisor
+> - using AI to scrape the web
+> - using AI for market research
+> - using AI to build MVP's fast
+> - using AI to visualize product ideas
+> - using AI to train your team
+> - using AI for copywriting
+> - using AI for content-creation
+> - using AI to create static ads
+> - using AI for any other type of traffic-generation
+>
+> everything you learn/test should always fall back to one skill that'll help you make more money
+>
+> is there anything you'd add to this list?
+
+- **Tweet:** https://x.com/eptwts/status/1908105901631791306
+- **What:** This revenue-oriented framework argues that AI experimentation should connect to advisory work, research, rapid MVPs, creative production, team training, or traffic acquisition rather than treating technological novelty itself as the goal.
+
+## @eptwts - Flux fine-tuning for personal likenesses
+> you can train the flux AI image generation model on your face & it'll generate 1:1 images of you... https://t.co/JlrefRV0jM
+
+- **Tweet:** https://x.com/eptwts/status/1908094037652852805
+- **What:** The post claims Flux can be fine-tuned on a person's face to generate highly consistent likenesses, pointing to a straightforward personalization workflow for synthetic images and its associated identity and consent implications.
+
+---
+
+# Thursday, April 3, 2025
+
+## @eptwts - Incognito profile scraping for voice references
+> if you want to scrape someones best-performing tweets in order to feed them to AI & copy their brand voice...
+>
+> open up their profile on an incognito browser - only the best-performing tweets will appear
+>
+> then whip up a quick scraping script in grok
+
+- **Tweet:** https://x.com/eptwts/status/1907889849761411470
+- **What:** This tactic uses an incognito view of an X profile to surface visible high-performing posts, then suggests scraping those examples as AI reference material for emulating the creator's voice, with practical and ethical implications for synthetic brand-voice research.
+
+## @oglarhy - AI-assisted analysis of X content patterns
+> I am @apollonator3000...
+>
+> Well not really but in some way.
+>
+> Let me explain:
+>
+> I downloaded all the tweets from @apollonator3000 and gave it to a pre-prompted AI that is specially  made for deep researches.
+>
+> I let it go through all his posts and also from all the people in the niche of AI/Business/Money and to go through all the possible ways on how the X algorithm works.
+>
+> After 1h it was finished and it gave me a +60 pages document on how people in my niche are structuring, posting, making their posts.
+>
+> Also +30 pages were about how the X algorithm work and secret tips that I never knew and heard nobody talk about.
+>
+> AI is literally better than any other human on this planet.
+>
+> Truly mindblowing.
+
+- **Tweet:** https://x.com/oglarhy/status/1907873477790675026
+- **What:** The post describes feeding a creator's public posts and those of adjacent accounts into an AI to produce a long-form analysis of content patterns and platform mechanics, illustrating AI-assisted competitive intelligence for a social-media strategy.
+
+## @elder_plinius - System-information leakage from coding agents
+> lol this has to be my favorite way to leak sys info from coding/browsing agents 😆
+>
+> 60% of the time, it works every time https://t.co/jac9Vwpsdq
+
+- **Tweet:** https://x.com/elder_plinius/status/1907864420757418139
+- **What:** A terse security warning about a purported technique for eliciting system information from coding and browsing agents; the linked URL resolves only to the post itself, so the bookmark preserves neither a mechanism nor evidence for the claimed success rate.
+
+## @JungleSilicon - Local AI folder for bureaucratic documents
+> someone *please* make a magic folder that uses local AI to sort / name anything dropped into it.
+>
+> i want this for like... taxes, personal information, qualifications, documentation, etc.
+>
+> i'm too unstructured for the kinds of structure bureaucracy forces on me.
+
+- **Tweet:** https://x.com/JungleSilicon/status/1907858762838454321
+- **What:** This identifies a practical local-first AI use case: automatically classifying and renaming personal paperwork as it arrives, reducing the burden of maintaining tax, identity, qualification, and administrative records without handing sensitive documents to a remote service.
+
+## @oliverwhudson - JSON prompt templates for DTC ad creative
+> You’re missing these prompts to fix your creative feedback loop…
+>
+> GPT-4o dropped last week and we’ve been testing prompt after prompt, so you don’t have to.
+>
+> Today we’re launching something built from those tests...
+>
+> The Ad Creative JSON Script Library: Your plug-and-play system for generating high-performing static ads using AI, in seconds.
+>
+> This isn’t a “maybe it’ll work” idea. Our scripts have helped us generate a 6-figure ad with a single prompt.
+>
+> Just smart structure + AI execution.
+>
+> Inside the guide:
+>
+> ✅ 8 Ready-to-go JSON templates for UGC, testimonials, offers & more
+> ✅ Copy + visual placeholders formatted for GPT-4o
+> ✅ Examples of top-performing layouts
+> ✅ Creative compliance tips
+> ✅ The exact prompt + layout behind a £100k+ campaign
+>
+> If you’re scaling a DTC brand or running performance campaigns, this is how you speed up creative without sacrificing results.
+>
+> Want to get access to the prompts?
+>
+> 👍 Retweet this post
+> 💬 Comment “PROMPT” and we’ll send it over!
+
+- **Tweet:** https://x.com/oliverwhudson/status/1907804786751058049
+- **What:** This is a gated promotion for an ad-creative prompt library that packages eight JSON templates, visual and copy placeholders, layout examples, and compliance guidance to help DTC marketers turn GPT-4o into a faster static-ad production workflow.
+
+## @MarioNawfal - AI department hierarchies and Apple health coaches
+> THE FUTURE OF WORK: AI AGENT ORG CHARTS ARE HERE
+>
+> Companies are creating "AI heads of departments" — each managing 5–7 sub-agents to handle tasks just like a real team.
+>
+> Execs delegate to a chief agent, who routes tasks to department heads, who then deploy specialized sub-agents.
+>
+> Employees access their department's agent through a chatbot or voicebot — making AI as easy to use as Slack.
+>
+> Source: benjamlns on IG
+>
+> *Quoting @MarioNawfal:* 🚨APPLE'S AI ‘DOCTORS’ COMING SOON—NEW HEALTH TECH COULD DISRUPT EVERYTHING
+>
+> Apple is building AI health agents—yes, virtual “doctors”—under its new Project Mulberry, designed to offer personalized medical coaching.
+>
+> The AI will analyze your health data from iPhones and wearables, giving you real-time advice on fitness, nutrition, sleep, even mental health.
+>
+> And it’s backed by actual MDs.
+>
+> Goal: Replace old-school health tracking apps like Noom and MyFitnessPal.
+>
+> Apple is reportedly integrating it into the upcoming iOS 19.4—meaning your pocket doctor might arrive by summer 2025.
+>
+> This is Apple’s boldest move yet to dominate health tech—and it’s only the beginning.
+>
+> Source: PYMNTS. @tim_cook
+
+- **Tweet:** https://x.com/MarioNawfal/status/1907734825798131968
+- **Quoted:** https://x.com/MarioNawfal/status/1906944001535508718
+- **What:** The commentary imagines corporate work organized through chief agents, departmental agents, and specialized sub-agents, while the quoted report applies the same delegated-assistant pattern to Apple’s proposed Mulberry health coaching service built from wearable data and medical expertise.
+
+---
+
+# Wednesday, April 2, 2025
+
+## @TheMattBerman - Beehiiv newsletter systems for a five-hour workweek
+> I just listened to @denk_tweets (CEO of @beehiiv) on @gregisenberg's pod, and he's making $30K/month from his newsletter while working just 5 hours a week.
+>
+> No fancy tech. No paid ads. Just smart systems that anyone can replicate 🧵 https://t.co/7YmejVKBOW
+
+- **Tweet:** https://x.com/TheMattBerman/status/1907525693921022131
+- **What:** This promotes a podcast account of beehiiv CEO Tyler Denk building a $30K-per-month newsletter on roughly five weekly hours, positioning repeatable operating systems rather than ad spend or sophisticated technology as the leverage.
+
+## @eptwts - Flux 1.1 Pro Ultra for image-to-video source assets
+> flux 1.1 pro ultra is a great model for generating images that you intend to turn into videos...
+>
+> this is what the creators behind the AI brainrot reels use https://t.co/Ww0VWHdR2E
+
+- **Tweet:** https://x.com/eptwts/status/1907490616717803749
+- **What:** LINK_FAILED: Could not expand link from @eptwts — EP recommends Flux 1.1 Pro Ultra for generating source images that will later be animated into videos, positioning image quality as the upstream constraint for AI-generated short-form reels.
+
+## @eptwts - Brand-kit JSON profiles for GPT-4o ideation
+> you can create "brand kit" JSON profiles &amp; generate branding ideas for your product in 4o... https://t.co/Fbb3w31yPK
+
+- **Tweet:** https://x.com/eptwts/status/1907390650116350270
+- **What:** LINK_FAILED: Could not expand link from @eptwts — EP suggests representing a product’s identity as a reusable brand-kit JSON profile for GPT-4o, allowing branding ideas to start from structured constraints rather than disconnected one-off prompts.
+
+## @thesamparr - Comet theory for AI-era agency opportunities
+> This Hampton member sold an 8-figure agency and now launches a new agency every 90 days using his “comet theory”:
+>
+> -Technology drives behavior change (the comet)
+> -Businesses adapt much slower (the long trail behind it)
+> -That gap = perfect agency opportunity
+>
+> companies scramble to take advantage of the tech but they need experts asap… that 2-3 year period before internal teams have the know-how are where agencies thrive
+>
+> John launched 2 agencies already, building the 3rd. Two more coming this year.
+>
+> Full story is on the blog if you wanna read about how he’s doing it
+
+- **Tweet:** https://x.com/thesamparr/status/1907389799356367136
+- **What:** Sam Parr describes “comet theory,” in which agencies exploit the two-to-three-year lag between a technology-driven behavior shift and companies building internal expertise, turning temporary adoption gaps into repeatable service-business opportunities.
+
+## @indexsy - Cold-email agency outreach at 1,000 emails per day
+> Repeat after me
+>
+> Cold email is the cheapest way to get your agency to $10k/mo in 2025
+>
+> Here's the complete technical SOP to send over 1k emails per day (bookmark for later): https://t.co/zDZuT64fVz
+
+- **Tweet:** https://x.com/indexsy/status/1907299581760782422
+- **What:** LINK_FAILED: Could not expand link from @indexsy — the post promotes a technical cold-email process for agency outreach at 1,000 messages daily, but the resolved URL exposes none of the promised tooling, deliverability, or operational details.
+
+---
+
+# Tuesday, April 1, 2025
+
+## @im_roy_lee - Interview Coder's $228.5K second month and retention challenge
+> just wrapped up month 2 at $228.5k revenue from  @InterviewCoder, with $224k in profit; here's some figures and thoughts:
+>
+> 94% of revenue is from monthly subscriptions ($60/month), and monthly churn is sitting at around 35%.
+>
+> our profit margins are around 99%; the only real costs are coming from our monthly vercel bill (~$3,000).
+>
+> API costs are zero considering we limit users to 50 requests a month and we're still using random free credits.
+>
+> all growth thus far has been pretty much completely organic. we've spent $500 on Reddit ads, but are going to start looking into rev ops + paid ads.
+>
+> Interview Coder is just the start. This is a single, tiny vertical that this technology has tapped into, but this specific UX has a much broader consumer use case.
+>
+> My life has changed very drastically these last two months. I'm not sure that I'll ever post as transparent an update as this again, but my intention is to inspire other young people to swing big.
+>
+> The golden age of building is NOW, and NOTHING is saturated. There is billions of dollars in delta from GPT wrappers and products that you can build in days/weeks if you just market it correctly.
+>
+> As a young person, your viral intuitions are better than anyone else's and in this age where building is this fucking easy, THAT is the most valuable skill in the world right now.
+>
+> Take bigger risks; you will look back in 10 years and regret not taking advantage of the fucking gold rush of opportunity sitting in front of you.
+
+- **Tweet:** https://x.com/im_roy_lee/status/1907165655151079729
+- **What:** Roy Lee reports Interview Coder reaching $228.5K in second-month revenue and $224K profit, illustrating how a low-cost subscription product can scale organically even while 35% monthly churn makes retention the central constraint.
+
+## @TakoTreba - Vibe-built competitor ad intelligence workflow
+> I'm building my own ad tracking software with Lovable.
+>
+> I run ads with @chatbase_co, and to stay ahead of the competition, I wanted one platform where I could automate my entire workflow.
+>
+> Usually, I’d manually check Meta Ads Library, LinkedIn Ads Library, and Google Ads Transparency for competitors. Then I’d take screenshots, bring them into ChatGPT, and analyze everything but without real visuals or structure.
+>
+> Now, I’ve built my own workflow with Lovable and it looks pretty solid.
+>
+> Told you, let’s do vibe marketing.
+>
+> Here’s what happens in the background:
+>
+> Users add a competitor (like “slack”) from the dashboard
+>
+> The app triggers browser agents that:
+>
+> Visit Meta, Google, and LinkedIn ad libraries
+> Scrape visible ads (headline, body, CTA, platform)
+> Scraped ads are saved to Supabase in real time
+> A GPT agent analyzes the ad strategy:
+> Messaging themes, tone of voice, audience, counter-ad ideas
+>
+> Everything shows up inside the app:
+> Real ads by platform
+> AI-generated insights
+> Scraper status and last updated timestamps
+>
+> Stack:
+>
+> Lovable for the frontend
+> Make..com for automation
+> Supabase for storage and querying
+> OpenAI
+
+- **Tweet:** https://x.com/TakoTreba/status/1907146654941327523
+- **What:** A marketer describes replacing manual cross-platform ad-library reviews with a Lovable-built system: browser agents collect competitors' Meta, Google, and LinkedIn ads into Supabase, while GPT analyzes messaging, audience, tone, and counter-ad opportunities in a single dashboard.
+
+## @HarmlessYardDog - Software engineering layoffs attributed to AI, Part 1
+> "Well, my entire software engineering team was just laid off because of AI."
+>
+> Part 1 https://t.co/I8atNuR4J1
+
+- **Tweet:** https://x.com/HarmlessYardDog/status/1907029963217207320
+- **What:** THIN: A short teaser claims an entire software-engineering team was laid off because of AI and points to a Part 1 post, but supplies neither the employer, timeline, evidence, nor the account of how AI caused the layoffs.
+
+---
+
+# Monday, March 31, 2025
+
+## @ericzakariasson - Cursor community practices for reliable AI coding
+> summarized all responses, here are the top tips from @cursor_ai community
+>
+> 1. setup proper cursor rules in .cursor/rules with specific domain knowledge
+>
+> 2. break down tasks into small incremental steps instead of tackling everything at once
+>
+> 3. use git for version control as a safety net
+>
+> 4. create documentation files (https://t.co/1T9CwMcUyF, https://t.co/j1PR1WR79o) as reference context for the ai
+>
+> 5. use @ references to provide specific context from files
+>
+> 6. start new chats for each task to avoid context bloat
+>
+> 7. use reasoning models (e.g 3.7 max mode) for planning, regular models for implementation
+>
+> 8. add detailed comments about your project goals
+>
+> 9. plan with "ask" mode, then implement with "agent" mode
+>
+> 10. be specific with prompts. clear instructions get better results
+>
+> 11. maintain https://t.co/5aVgy2y2qr files to track progress
+>
+> 12. use MCP for advanced control
+>
+> 13. adopt test driven development
+>
+> 14. structure code with solid principles
+>
+> 15. tag all necessary files when providing context
+>
+> 16. understand the limitations of ai coding assistance
+>
+> 17. avoid over-reliance on the tool for critical tasks
+>
+> *Quoting @ericzakariasson:* what are your top 3 tips &amp; tricks for using @cursor_ai?
+
+- **Tweet:** https://x.com/ericzakariasson/status/1906820861568442564
+- **Link:** https://prd.md/
+- **Quoted:** https://x.com/ericzakariasson/status/1905680665087185044
+- **What:** LINK_FAILED: Could not expand link from @ericzakariasson; the resource intended for progress tracking remains unavailable. The community's advice centers on keeping AI coding grounded in explicit project rules, scoped context, plans, documentation, tests, and Git-based review safeguards.
+
+## @eptwts - Signals behind X timeline distribution
+> i used an AI agent to analyze the open-source twitter algorithm...
+>
+> here are the findings 👇
+>
+> 1. engagement velocity is key...
+>
+> the algorithm tracks real-time features such as likes, retweets, & replies which immediately boost your tweet’s ranking, so get as many interactions as you can in the first 30 minutes
+>
+> 2. comments > likes
+>
+> the algorithm weighs replies more heavily than likes because they signal higher engagement
+>
+> 3. quality of engagement matters
+>
+> engagement from accounts with high "tweepcred" which is twitter’s account reputation score gives your tweet a stronger boost
+>
+> 4. bookmarks signal value
+>
+> the algorithm keeps track of bookmarks & sees them as a positive signal
+>
+> 5. click-through matters
+>
+> the algorithm tracks when users click on things, the more that ppl expand your tweet, your profile, your images, click your links, etc. the better
+>
+> 6. watch time is tracked
+>
+> for video content the algorithm measures how long users watch for & ranks based on that
+>
+> 7. negative feedback is measured
+>
+> the algorithm penalizes content when people press "not interested"
+>
+> 8. dwelling time is important
+>
+> the algorithm tracks how long users spend looking at your tweet
+>
+> 9. tweet text quality score exists
+>
+> the algorithm has a "static quality of the text" score based on readability & length
+>
+> 10. media tweets get preferential treatment
+>
+> tweets with images or videos are weighted more favorably
+>
+> 11. original content is preferred
+>
+> the algorithm distinguishes between original tweets and retweets... it favors original content
+>
+> 12. conversation starters win
+>
+> tweets that initiate conversations are ranked higher than general statements
+>
+> 13. thread quality matters
+>
+> the quality of an entire conversation thread impacts individual tweet ranking
+>
+> 14. trends and current events get boosted
+>
+> the algorithm gives preference to tweets containing trending terms
+>
+> 15. language matchin
+>
+> tweets in the same language as the viewer are prioritized
+>
+> 16. toxicity reduces reach
+>
+> the algorithm has "pToxicity" scores that nerf potentially offensive content
+>
+> 17. shouting (ALL CAPS) hurts visibility
+>
+> the text quality scorer penalizes excessive capitalization
+>
+> 18. link preview quality matters
+>
+> the algorithm evaluates the quality of link previews for tweets with urls
+>
+> 19. recency has major weight
+>
+> the algorithm heavily favors recent tweets, especially in the "for you" timeline
+>
+> 20. posting in peak activity hours helps
+>
+> tweets posted when your audience is most active get initial boost
+>
+> 21. algorithm uses "temporal decay"
+>
+> tweets lose ranking power over time, with the decay rate varying by topic/domain
+>
+> 22. consistency is rewarded
+>
+> regular posting schedules help establish patterns the algorithm recognizes
+>
+> 23. author credibility scores exist
+>
+> the "tweepcred" score evaluates your overall account reputation
+>
+> 24. strong connections boost visibility
+>
+> tweets from accounts with which the viewer has strong "real graph" connections rank higher in their timeline
+>
+> 25. simclusters matter
+>
+> the algorithm places users in "communities" and content popular within your community gets boosted
+>
+> 26. topic authority is measured
+>
+> the algorithm tracks topic-specific authority and boosts tweets when they're in your areas of expertise
+>
+> 27. prior engagement history matters
+>
+> the algorithm prioritizes content from accounts the viewer has engaged with previously
+>
+> 28. verification has weight
+>
+> verified accounts receive slight ranking boosts
+>
+> 29. author diversity is enforced
+>
+> the algorithm prevents any single author from dominating a timeline
+>
+> 30. conversation-worthy topics win
+>
+> topics that typically generate discussions get preference
+>
+> 31. niche expertise performs better
+>
+> tweets demonstrating specialized knowledge in specific domains rank higher
+>
+> 32. accessible formatting helps
+>
+> well-formatted tweets with line breaks and clear structure score better on readability
+>
+> 33. clear call-to-actions work
+>
+> tweets that explicitly invite engagement (without seeming spammy) perform better
+>
+> 34. audience-specific content resonates
+>
+> content that aligns with the interests of your followers simclusters performs best
+>
+> 35. tweet semantics are analyzed
+>
+> the twhin knowledge graph embeds tweets in a vector space to find related content
+>
+> 36. tweet entities matter
+>
+> the algorithm gives weight to properly formatted hashtags, mentions, and cashtags
+>
+> 37. content similarity is tracked
+>
+> the algorithm prevents showing too much similar content ("feedback fatigue")
+>
+> 38. "heavy ranker" uses 6,000+ features
+>
+> the final scoring model considers thousands of signals about each tweet
+>
+> 39. content balancing occurs
+>
+> the algorithm maintains ratios between different content types
+>
+> 40. visibility filtering impacts reach
+>
+> content flagged by safety systems receives reduced distribution
+>
+> 41. social proof boosts tweets
+>
+> showing that people in the viewer's network engaged with your tweet increases its ranking
+>
+> 42. topic tagging affects distribution
+>
+> the "topic-social-proof" system identifies topics in tweets for better targeting
+>
+> 43. conversation starters outperform replies
+>
+> starting fresh threads generally gets more distribution than replies
+>
+> 44. properly tagged media helps
+>
+> using alt text and clear descriptions for media improves ranking
+>
+> 45. multi-modal content performs best
+>
+> combining text, media, and interactive elements increases engagement signals
+>
+> 46. network effects matter
+>
+> content that bridges multiple simclusters can achieve viral spread between communities
+>
+> 47. "graphjet traversals" determine reach
+>
+> the algorithm finds potential audiences by traversing user-tweet interaction graphs
+>
+> 48. cross-domain engagement helps
+>
+> receiving engagement from users across different interest clusters signals broad appeal
+>
+> 49. utility content gets boosted
+>
+> content that solves problems or provides clear value ranks higher
+>
+> 50. authenticity signals matter
+>
+> the algorithm has evolved to detect and penalize inauthentic engagement patterns
+
+- **Tweet:** https://x.com/eptwts/status/1906758128785408035
+- **What:** EP condenses an AI-assisted reading of X's open-source recommendation system into creator guidance: rapid high-quality discussion, relevant viewer relationships, useful original multimedia, readable text, and avoidance of negative or inauthentic signals all shape distribution.
+
+## @eptwts - Turn partner chats into a ranked idea pipeline
+> one of the most common questions i get is how i get so many ideas, so here's the playbook...
+>
+> find a partner that you align with who is on the same mission as you - in my case it is building cool shit with AI
+>
+> chat with him everyday, bounce ideas back & forth, share what you learn, force eachother to grow into understanding each-others points
+>
+> once a day, export your chat history & put it in a folder on your PC
+>
+> open this folder up in any AI-powered IDE such as @windsurf_ai & ask the agent to export all chats from todays date
+>
+> then tell it to clean the data up & put it into a markdown in this format
+>
+> YOU: message
+> PARTNER: message
+>
+> now save this markdown & send it to any LLM of your choice alongside this prompt:
+>
+> "you are an expert business strategist & conversation analyst, please extract all the ideas that were discussed in this chat & present them in an easily digestible way"
+>
+> this will list all of the ideas that were discussed on that day, after that send it this prompt...
+>
+> "please rank the ideas based on how lucrative they are & link any that may be better combined"
+>
+> this will give you many more ideas...
+>
+> there's so much you can do with chat history, this strategy has made me grow so much over the past months, i highly recommend it...
+>
+> if you don't have a partner to bounce ideas back & forth with maybe reply to this tweet & you can find someone to discuss?
+
+- **Tweet:** https://x.com/eptwts/status/1906726207346946257
+- **What:** This playbook treats a recurring founder conversation as a proprietary idea dataset: normalize each day's dialogue, have an LLM extract and combine concepts, then rank them by commercial potential so informal collaboration becomes a compounding research process.
+
+## @gregisenberg - Forty-six bets on AI's business reset
+> this is what's keeping me up at night these days...
+>
+> 1. chatgpt 4o image gen is as big as the chatgpt launch. probably will birth 1000+ $1-$100m/year vertical software businesses.
+>
+> 2. we’re in the “mp3 napster era” of content. millions of creators don’t realize their entire back catalog is being weaponized into their competition because of AI.
+>
+> 3. every calendar, inbox, and CRM will be rebuilt from scratch in the next 3 years. not “AI-enhanced,” fully rethought.
+>
+> 4. i thought ai was creating digital employees. but it's more like digital employers. the first ai systems that can manage human workers will cause a restructuring of labor markets more significant than the industrial revolution.
+>
+> 5. if your job is interviewing people who will train ai systems that will replace people who do interviews, you're just a step in a weird recursive extinction.
+>
+> 6. ai is turning "service businesses that don't scale" into "product businesses with service margins." the new unicorns will be productized services with ai doing 80% of the work.
+>
+> 7. building communities is harder than building products but everyone pretends it's the reverse. the reality is most startups fail because nobody cares.
+>
+> 8. it's been 739 days since the will smith spaghetti video. imagine what could happen to gen ai in 739 more days?
+>
+> 9. people building "ai assistants" have never actually had assistants. real assistants need context, history, and relationship. 95% of chatbots have none of those.
+>
+> 10. most customer support will be automated within 36 months. not just tier 1 tickets, complex, multi-step resolution that previously required senior support staff.
+>
+> 11. the worst thing that can happen to your startup is mediocre success. enough to keep you going but not enough to change your life. most founders are trapped there. thinking about this a lot with respect to shutting down or doubling down on projects.
+>
+> 12. the ai backlash won't just come from replaced workers, it'll be from everyone who realizes their entire digital identity is being converted into training data without consent.
+>
+> 13. no one has ever read a terms of service ever
+>
+> 14. the "sketching economy" is the real ai revolution. when anyone can turn rough sketches into production-ready designs, taste and ideation become the only scarce resources.
+>
+> 15. i dont know how else to say it, the money (and opportunity for the avg joe) is in ai startups is in vertical-specific applications that actually understand industry context. no, adding industry terms to your prompts isn't the same thing.
+>
+> 16. consumer mobile is back in full swing. we went from desktop-first apps to mobile-first apps to now ai-first mobile apps. the next wave of $100m/year apps will start mobile-first with ai baked in from day one.
+>
+> 17. the ai middleman boom is just starting. companies that sit between foundation models and specific industries will capture most of the value while both ends get commoditized.
+>
+> 18. we're witnessing the birth of a whole new job category: ai workflow designers. people who can map human processes into ai-augmented workflows will be the highest-paid consultants of the next decade.
+>
+> 19. ai is creating winner-take-most markets overnight. the window to establish yourself as the go-to solution in a specific vertical is maybe 6-12 months before it closes for a decade. this isn't helping my sleep lollll.
+>
+> 20. really smart strategy to rebuild traditional products with ai as your unfair advantage, hiding the complexity behind familiar interfaces. basically, just look at proven apps that have no ai, make them ai-first (if it adds a ton of value to end customer). use ai features (don’t sell ai) in creator-led marketing. this is the playbook.
+>
+> 21. distribution is the only moat left. your product, tech, and team can all be replicated. your direct connection to customers cannot.
+>
+> 22. we'll soon hit the tipping point where custom ai tools are cheaper than hiring humans, even for small businesses.
+>
+> 23. nobody's talking about how ai is making previously "un-acquirable" businesses suddenly attractive targets. when you can automate operations, the owner-dependent business problem disappears.
+>
+> 24. the coming smb acquisition frenzy will make the 2021 tech bubble look tame. when ai drops operating costs by 60%, every small business becomes a cash flow engine.
+>
+> 25. if vibe coding will be a $100B opportunity, how big of an opportunity is vibe marketing? (you can follow my co-founder @boringmarketer for more on that)
+>
+> 26. Video game studios will separate into two distinct types: agent-driven content farms that generate infinite assets, and boutique studios focused on core mechanics. The middle will disappear entirely.
+>
+> 27. Corporate photography is effectively dead. No company will pay $2K for a stock-style photoshoot when they can generate unlimited perfectly on-brand imagery for the cost of a subscription.
+>
+> 28. enterprise sales is being completely inverted by ai. using ai to identify exactly when and how to talk to the right buyer, and set off automations. ill probably talk about this more on a pod soon.
+>
+> 29. i wonder if AGI will emerge from interconnected agent networks that develop emergent properties nobody designed? we're building the neural connections without realizing it.
+>
+> 30. while genai looks to be the $1T category, many quiet fortunes will be built in predictive ai. knowing what will happen is more valuable than generating new content.
+>
+> 31. the "ai bubble" is actually an excise tax on vcs who can't tell the difference between genuine innovation and repackaged openai apis.
+>
+> 32. interfaces will become personalities. when every tool can talk back, vibe and tone will drive trust, loyalty, and retention. It's why I'm investing more in our design firm for the AI age @meetLCA (you can follow for more insights on designing/taste/brand that will stand out)
+>
+> 33. ai will kill the homepage. interfaces will get replaced by entry points that change based on who you are, what you need, and when you show up.
+>
+> 34. no one will pay for "ai", they’ll pay to solve a $10,000/hour problem in 3 clicks. sell outcomes, hide the ai.
+>
+> 35. ai is unbundling google. every vertical search engine, directory, and comparison tool is a billion-dollar opportunity in disguise.
+>
+> 36. every small business will get a “ghost team.” automated bookkeepers, sales agents, marketers—run by one founder and 5 bots.
+>
+> 37. ai-generated content is creating a monoculture of ideas. when everyone uses the same models, we get the same outputs. original human thinking is becoming the ultimate premium. be weird. weird will sell.
+>
+> 38. schools won’t be disrupted by ai. they’ll be disintermediated. smart teens will skip formal education, build audiences, run experiments, and learn faster. kids say they want to become creators but creators are becoming entrepreneurs. entrepreneurship becomes the most popular profession.
+>
+> 39. in 18 months, 80% of the “ai startup” category will look like spam. the rest will become infrastructure.
+>
+> 40. conversion rate product debates are obsolete. Why argue over 2 button colors when AI focus groups can test 200 variations overnight?
+>
+> 41. most of what we call “marketing” is about to be done by ai. humans will move upstream into storytelling, vibes, and brand energy.
+>
+> 42. the best hiring decision you can make this year? a head of ai ops. someone who can build workflows, glue tools, and ship outcomes.
+>
+> 43. the first $1b AGI startup will look like a toy at first. all world-changing interfaces do.
+>
+> 44. ai-powered distribution > ai-powered product. a mid product with elite reach will beat a great product with no attention every time.
+>
+> 45. people still hate monthly subscriptions. outcome-based pricing is still in early days. implementing this will be a competitive advantage for lots of companies. large saas wont be able to compete with you.
+>
+> 46. i don't know how long this window stays open, but we're in a moment where all the rules of building businesses are being rewritten. for the people playing with these new tools, creating audiences and communities, you've got an unfair advantage.
+>
+> i hope you get some sleep.
+
+- **Tweet:** https://x.com/gregisenberg/status/1906697683089101113
+- **What:** Greg Isenberg's wide-ranging thesis maps AI's likely effects on vertical software, labor, acquisitions, media, sales, and interfaces, but repeatedly returns to the durable constraints of distribution, industry context, taste, and genuine community demand.
+
+## @eptwts - Chunk oversized PDFs through an AI IDE
+> if the PDF is too big for the LLM to process, do this instead...
+>
+> put the PDF in a folder & open it up as a project in cursor
+>
+> ask the agent to chunk it into manageable portions
+>
+> then ask it to explain each chunk like you're a smart 12 year old & append the output to a markdown file in consecutive order
+>
+> AI IDE's have great context management tech, it's good to keep them in mind for bigger files
+>
+> *Quoting @eptwts:* the key to learning anything in 10x less time... https://t.co/4DDgxVFylI
+
+- **Tweet:** https://x.com/eptwts/status/1906616209115578509
+- **Quoted:** https://x.com/eptwts/status/1906481836450357381
+- **What:** EP turns a broad claim about accelerating learning into a practical workflow: use an AI IDE to split an oversized PDF, explain each segment at an accessible level, and assemble a sequential Markdown study guide without overrunning an LLM's context window.
+
+## @garrytan - AI-generated work and Upwork arbitrage
+> Is there an Upwork arbitrage in here someplace or what?
+>
+> *Quoting @wannercashcow:* ChatGPT-4o is not playing around. We’re in a new era. https://t.co/T4cdA5kKLa
+
+- **Tweet:** https://x.com/garrytan/status/1906588596204920838
+- **Quoted:** https://x.com/wannercashcow/status/1906288600771449242
+- **What:** Garry Tan reframes wannercashcow's broad claim that ChatGPT-4o marks a new era as a marketplace question: whether AI-enabled workers can profit by delivering work through Upwork more efficiently than conventional freelancers.
+
+## @elder_plinius - Multiverse canon events personalization prompt
+> PROMPT SHARE {ChatGPT, Memory: ON}:
+>
+> What are the “canon events” for every “me” across the multiverse?
+
+- **Tweet:** https://x.com/elder_plinius/status/1906859528538542381
+- **What:** A playful ChatGPT prompt designed for Memory-enabled personalization asks the model to identify formative, recurring turning points across alternate versions of the user, testing its ability to synthesize a personal narrative rather than answer a factual question.
+
+## @eptwts - AI IDEs turn source material into guided lessons
+> here's an even better way to use an LLM to learn stuff...
+>
+> put the resource that you want to learn from inside an AI-powered IDE
+>
+> ask it to extract the all of the key practical information & to append it to a markdown file in a structured hierarchy - make sure that it extracts every single detail that's required to make the point clear
+>
+> then send this markdown to an LLM of your choice & ask it to walk you through each point, one message at a time
+>
+> this way you'll certainly be familiar with every topic discussed in that resource
+>
+> *Quoting @eptwts:* the key to learning anything in 10x less time... https://t.co/4DDgxVFylI
+
+- **Tweet:** https://x.com/eptwts/status/1906850460943761431
+- **Link:** https://twitter.com/eptwts/status/1906481836450357381
+- **Quoted:** https://x.com/eptwts/status/1906481836450357381
+- **What:** Building on a claim that LLMs can accelerate learning tenfold, this post proposes using an AI IDE to extract a resource's practical details into structured Markdown, then having a separate model tutor the learner through that hierarchy one point at a time.
+
+## @eptwts - AI Frontrunners' bring-your-own-key AI toolkit
+> here are just the first few features AI frontrunners will have:
+>
+> - a JSON context profile generator for any use-case (business, strategy, personality, image-style, copy, script, etc.)
+> - a prompt generator that pulls context from your JSON context profiles so that you never have to manually write out context ever again
+> - a fully-equipped writing tool - you'll be able to write tweets, emails, sales copy, youtube scripts or any other type of copy & directly apply your saved JSON profiles from the generator (the tweet generator will be trained on the open-source X algo for best practices)
+> - an AI assistant that understands your personality, your goals, your situation, your workstyle & every other detail about you that assists you in achieving your goals by tracking your personal metrics & makes sure you're trending towards achieving your goals
+>
+> & we won't charge you for credits at all, you'll be able to plug in your own API key to use these so that you only pay running costs, it'll be dirt cheap
+>
+> on top of this, we will teach you how to use AI to create your own tools so that you never have to pay a subscription again
+>
+> for $75/month you'll learn the most in-demand skill & be able to cancel all your other subscriptions at the same time... in other words, it'll save you money
+>
+> i'm super excited to get this out, this is going to be the most fulfilling project of my life
+>
+> *Quoting @eptwts:* we're nearing the launch of the AI frontrunners community...
+>
+> i'm gonna need 5 tapped in beta-testers to test out the platform & give us feedback on what's good, bad, what needs changing, etc.
+>
+> as a reward you will get a lifetime subscription for free
+>
+> i will pick 5 people who reply to this tweet
+
+- **Tweet:** https://x.com/eptwts/status/1906822147932344419
+- **Quoted:** https://x.com/eptwts/status/1906412409348391363
+- **What:** AI Frontrunners is pitched as a $75-per-month, bring-your-own-key community that combines reusable JSON context profiles, prompt and writing generators, and a goal-aware assistant; this post expands the beta-tester invitation into the product and subscription-replacement vision.
+
+---
+# Sunday, March 30, 2025
+
+## @safwaankay - Guide to production-ready AI static ads
+> If you're an agency owner or ecomm founder working on a Sunday, this is for you:
+>
+> You've likely seen the viral AI generated ads.
+>
+> But if you tried it yourself, you've likely realized that creating ads that are production-ready isn't easy.
+>
+> That's why I've created a guide to get you 95% of the way there.
+>
+> It includes hacks like:
+> - Using JSON for safezones
+> - The best prompt for maintaining your brand guidelines
+> - Creating photorealistic photoshoots
+> - Resizing for 9:16, 1:1, 4:5
+> - etc etc
+>
+> This is especially good for creative strategists & designers on your team who have to get up to speed fast
+>
+> Comment "beam" and I'll send you the guide on "How to Create Winning Static Ad Images with ChatGPT"
+
+- **Tweet:** https://x.com/safwaankay/status/1906498782134784091
+- **What:** Safwaan promotes a practical guide for agencies and ecommerce teams creating production-ready static ads with ChatGPT, covering JSON safe zones, brand consistency, photorealistic imagery, and delivery crops for common ad formats.
+
+## @eptwts - Black-bar workaround for YouTube thumbnails
+> i found a way to generate youtube thumbnails in the correct aspect ratio...
+>
+> as you know, 4o locks the aspect ratio of generated images to 3 presets
+>
+> you can work around this by adding these "black bars" to your sketch & clearly clarifying that the image should be generated between them
+>
+> then you can remove the black bars by cropping the image in any photo editor
+
+- **Tweet:** https://x.com/eptwts/status/1906492975649268046
+- **What:** EP describes a practical composition workaround for GPT-4o's limited image aspect-ratio presets: define the intended thumbnail area with black bars in a sketch, generate within it, then crop the guide bars away.
+
+## @eptwts - AI Frontrunners community beta tester call
+> we're nearing the launch of the AI frontrunners community...
+>
+> i'm gonna need 5 tapped in beta-testers to test out the platform & give us feedback on what's good, bad, what needs changing, etc.
+>
+> as a reward you will get a lifetime subscription for free
+>
+> i will pick 5 people who reply to this tweet
+
+- **Tweet:** https://x.com/eptwts/status/1906412409348391363
+- **What:** EP is recruiting five well-connected beta testers for the forthcoming AI Frontrunners community, offering lifetime access in exchange for early product feedback on the platform's strengths and gaps.
+
+## @hewarsaber - AI's threat to web design work
+> Web designers are so cooked https://t.co/NffhnvUncB
+
+- **Tweet:** https://x.com/hewarsaber/status/1906227861947572572
+- **What:** THIN: Hewar signals that an unspecified AI capability may sharply disrupt web-design work, but no media or substantive linked context was extracted to identify the specific workflow or product.
+
+---
+
+# Saturday, March 29, 2025
+
+## @eptwts - Generative AI as an expression medium
+> if you can envision it, you can generate it... https://t.co/SN10qLzlxZ
+
+- **Tweet:** https://x.com/eptwts/status/1906149719815885141
+- **What:** A concise statement of generative AI's creative promise: it frames image and media generation as a way to materialize ideas that can be clearly imagined.
+
+## @eptwts - Script profiles for replicating YouTube content style
+> the same exact logic can be used to teach AI how to replicate youtube scripts...
+>
+> simply paste the link to perplexity & ask it to extract a script profile alongside your intentions https://t.co/oQ2riDR7Qt
+>
+> *Quoting @eptwts:* you can extract a "brand profile" JSON from existing ads to replicate their style for your own ads... https://t.co/a8zh4XzHVQ
+
+- **Tweet:** https://x.com/eptwts/status/1905937217895236002
+- **Quoted:** https://x.com/eptwts/status/1905556783348785219
+- **What:** EP extends ad-style profiling to YouTube, proposing Perplexity extract a script profile alongside creative intent so an AI can reproduce a channel's underlying writing patterns.
+
+---
+
+# Friday, March 28, 2025
+
+## @minchoi - GPT-4o examples for UI, ads, and graphics
+> It's over.
+>
+> GPT-4o is generating insane UI, ads & graphics from just text and images.
+>
+> Design will never be the same 🤯
+>
+> 10 wild examples: https://t.co/84D3qO5ks1
+
+- **Tweet:** https://x.com/minchoi/status/1905754471516520646
+- **What:** A showcase claims GPT-4o can transform text and images into high-fidelity interfaces, advertising creative, and graphics, signaling generative models' growing role as hands-on design tools.
+
+## @marcelkargul - Five-minute animated background tutorial
+> How to create this beautiful background animation in under 5 minutes:
+>
+> Open it up 🧵 https://t.co/Bq40I88OHk
+>
+> *Quoting @marcelkargul:* Another background animation 👀 https://t.co/rBspsBrU0h
+
+- **Tweet:** https://x.com/marcelkargul/status/1905751859131973820
+- **Quoted:** https://x.com/marcelkargul/status/1905003403471708368
+- **What:** Marcel points to a rapid workflow for making polished animated backgrounds while referencing another visual-background example to show the technique's creative range.
+
+## @eptwts - Invite-only Telegram community for AI builders
+> i'm gonna make a telegram group-chat for ppl building cool shit with AI...
+>
+> no selling, pure alpha, pure vibes
+>
+> if you've been messing around with AI & feel like you'd be a good fit, reply to this tweet & i will DM you an invite link
+>
+> *Quoting @ricardo1:* @apollonator3000 yo start a telegram for everyone messing around with this
+
+- **Tweet:** https://x.com/eptwts/status/1905690557701366148
+- **Quoted:** https://x.com/ricardo1/status/1905634386986623356
+- **What:** EP turns a request for a shared space into an invite-only Telegram community for AI builders, emphasizing peer exchange and experimentation rather than sales.
+
+## @reliantlane - GPT-4o reaction without supporting context
+> gpt 4o is blowing my mind. https://t.co/AdU5BA3BE4
+
+- **Tweet:** https://x.com/reliantlane/status/1905674157293273333
+- **What:** THIN: @reliantlane records strong enthusiasm for GPT-4o, but gives no example, capability, or external context explaining which behavior or result produced that impression.
+
+## @elder_plinius - Generate the prompt before answering
+> One of the most powerful yet simple prompts is to go one meta-level up:
+>
+> “write a prompt for {insert-query-here} then answer it”
+>
+> Unless you’re an expert in your query’s subject matter, this should improve output quality more often than not! https://t.co/cdFkyIyxVJ
+
+- **Tweet:** https://x.com/elder_plinius/status/1905655073541161333
+- **What:** Pliny recommends a two-stage prompting technique in which the model first designs a tailored prompt, then answers it, as a lightweight way for non-experts to improve framing and output quality.
+
+## @hasantoxr - Postman agent-building workflow announcement
+> SHOCKING: You can now build fully functional AI agents in minutes.
+>
+> Postman just dropped a tool that makes it effortless.
+>
+> Here’s why every dev needs to see this:
+
+- **Tweet:** https://x.com/hasantoxr/status/1905627419115225256
+- **What:** The post spotlights a new Postman capability positioned as a fast path to building functional AI agents, suggesting API-development tooling is expanding into practical agent assembly for developers.
+
+## @eptwts - A rabbit hole with no stated subject
+> the rabbit hole goes deep... https://t.co/sJ6v6QQi8p
+
+- **Tweet:** https://x.com/eptwts/status/1905587800814018829
+- **What:** THIN: @eptwts hints at a deeper line of inquiry but provides no subject, evidence, or external resource, leaving this as a pointer for later manual context recovery.
+
+---
+
+# Wednesday, March 26, 2025
+
+## @kenwheeler - Unspecified discovery reaction
+> UM GUYS https://t.co/5ngfKD12oR
+
+- **Tweet:** https://x.com/kenwheeler/status/1904938283525652659
+- **What:** THIN: @kenwheeler signals excitement about an unspecified discovery, but the bookmark supplies neither explanatory text nor an external destination that establishes what prompted the reaction.
+
+## @alexgoughcooper - AI-generated static creative for vibe marketing
+> Claude for prompting + ChatGPT for static generation is insane.
+>
+> I made all of these entirely with AI.
+>
+> Vibe marketing is HERE. https://t.co/1uyDWJGCmA
+
+- **Tweet:** https://x.com/alexgoughcooper/status/1904870196369564128
+- **What:** Cooper presents a “vibe marketing” workflow that combines Claude-directed prompting with ChatGPT-generated static creative, suggesting AI can rapidly produce branded campaign assets.
+
+---
+
+# Tuesday, March 25, 2025
+
+## @indexsy - Unresolved content behind a strong reaction
+> Holy… https://t.co/5qYTAq6VVr
+
+- **Tweet:** https://x.com/indexsy/status/1904734606563119214
+- **What:** LINK_FAILED: Could not expand link from @indexsy; the self-referential redirect leaves undefined what prompted Chou's strongly worded reaction.
+
+## @nevmed - Claimed ChatGPT text-rendering breakthrough
+> ...and just like that, ChatGPT can now make perfect text. https://t.co/9M7naIxSZJ
+
+- **Tweet:** https://x.com/nevmed/status/1904704407591125350
+- **What:** LINK_FAILED: Could not expand link from @nevmed; the self-referential redirect prevents verification of the visual or product update behind the claimed improvement in ChatGPT text rendering.
+
+## @indexsy - Jupiter's verified revenue leaderboard for makers
+> Introducing Jupiter (jup. io), a way for the build in public community to verify and showcase their revenue.
+>
+> For less than $10/mo, you can get a DR50+ backlink and thousands of eyeballs from our revenue ranking leaderboard.
+>
+> We built this tool because half the mfs in the seo space simply lie about their revenue.
+>
+> Now we have a way to verify it.
+>
+> Our future plans are to build into the Stripe revenue recovery space.
+>
+> Forget the moon, we're heading to Jupiter.
+
+- **Tweet:** https://x.com/indexsy/status/1904687435415773360
+- **What:** Jupiter is a proposed paid verification and leaderboard product for makers' revenue claims, intended to monetize backlink exposure while countering deceptive SEO marketing.
+
+## @danielfazio - Unresolved content behind an emphatic reaction
+> Holy shit https://t.co/RmW5eEtfXS
+
+- **Tweet:** https://x.com/danielfazio/status/1904657040426827861
+- **What:** LINK_FAILED: Could not expand link from @danielfazio; its self-referential redirect leaves the material prompting Fazio's emphatic reaction unavailable.
+
+## @virattt - AI hedge fund agents expose investment reasoning
+> I just upgraded our AI hedge fund's reasoning
+>
+> This makes our agents more transparent.
+>
+> Every agent now shows:
+> 1 • trading signal
+> 2 • hard evidence
+> 3 • thought process
+> 4 • authentic voice
+>
+> I strongly believe that we need to know why and how  signals are generated.
+>
+> This update helps us understand exactly how each agent thinks about a given investment.
+>
+> 1. Trading Signal: A bullish/bearish/neutral signal with how confident the agent is.
+>
+> 2. Hard Evidence: Specific metrics that matter to the agent - like profit margins, growth rates, or debt levels.
+>
+> 3. Thought Process: The step-by-step analysis that led to the decision.
+>
+> 4. Authentic Voice: Each agent explains things in their own style - Buffett's folksy wisdom, Munger's sharp wit, etc.
+>
+> For example, Warren Buffett's agent shows:
+> • Key factors that influenced the decision
+> • How it aligns with Buffett's principles
+> • Specific metrics that drove the analysis
+>
+> Charlie Munger's agent shows:
+> • Mental models used in analysis
+> • Quantitative evidence considered
+> • Inversion approach applied
+>
+> Let me know how else we can improve reasoning.
+
+- **Tweet:** https://x.com/virattt/status/1904653962034192722
+- **What:** Virat Singh describes an explainability layer for AI hedge-fund agents that pairs confidence-ranked signals with financial evidence, step-by-step reasoning, and investor-specific analytical personas.
+
+## @lilyraynyc - LinkedIn Pulse surfaces a new SEO page in seven hours
+> SEO test confirmed. I wrote this 7 hours ago.
+>
+> LinkedIn Pulse for the win.
+>
+> (Also, this is so dumb, I can't believe it actually works) https://t.co/Uri3SNMkfX
+
+- **Tweet:** https://x.com/lilyraynyc/status/1904647242281030083
+- **What:** Ray reports that a LinkedIn Pulse post appeared to rank or surface in an SEO test only seven hours after publication, suggesting the platform can provide unusually fast search visibility for new content.
+
+## @jacob_posel - Mad Men-style print ad from an image prompt
+> "Create a madmen style print ad using this image "
+>
+> Its over, its so over https://t.co/ZY4Kf99tMg
+
+- **Tweet:** https://x.com/jacob_posel/status/1904644963121738176
+- **What:** Posel shares a prompt for turning an image into a Mad Men-style print advertisement, highlighting how a simple natural-language brief can now direct sophisticated visual campaign concepts.
+
+## @jimmyslagl - Fully AI-generated creative marks a turning point
+> Can confirm. This is entirely AI generated. EVERYTHING. https://t.co/VX8d8D1rbG
+>
+> *Quoting @jacob_posel:* Its over, its literally so over https://t.co/pbrANoEEXT
+
+- **Tweet:** https://x.com/jimmyslagl/status/1904641486509011351
+- **Quoted:** https://x.com/jacob_posel/status/1904608206942617921
+- **What:** Slagle corroborates Posel's alarm about an unspecified creative by saying every component is AI-generated, framing the referenced work as evidence of a rapid capability shift.
+
+## @jacob_posel - ChatGPT-generated advertising creative
+> The future is here.
+>
+> Ad generated 100% using ChatGPT. https://t.co/8k5jPReZuw
+
+- **Tweet:** https://x.com/jacob_posel/status/1904630102337503586
+- **What:** Posel presents an advertisement reportedly generated entirely with ChatGPT, illustrating how generative AI can now produce polished commercial creative rather than only text drafts.
+
+## @eptwts - Creator-Led SaaS Brand Content Retainers
+> if i was broke i would start ripping short & longform videos promoting saas/consumer-apps...
+>
+> i'd put in tons of reps to get comfortable in front of the camera & editing these videos
+>
+> eventually i'd build up a catalog of videos & hopefully have a decent following built up
+>
+> then i'd start reaching out to founders & ask them if they need a face for their brand
+>
+> many software/app owners are not comfortable w/ being the face of their own brand...
+>
+> this is a MAJOR pain point they face
+>
+> why would they continue paying UGC creators an extortionate amount per video when they can just pay you a monthly retainer for unlimited content
+>
+> you already proved that you can fulfil that role by doing it yourself publicly, it's a no-brainer offer
+
+- **Tweet:** https://x.com/eptwts/status/1904607899768303714
+- **What:** This proposes a creator-services path: publicly develop short- and long-form product-video skills, build proof through a personal catalog, then sell founders an ongoing on-camera brand presence on retainer.
+
+## @eptwts - First-Principles Problem-Solving Prompt
+> this prompt will change your life...
+>
+> --------------------------------------------
+>
+> You are a hyper-rational, first-principles problem solver with:
+> - Zero tolerance for excuses, rationalizations or bullshit
+> - Pure focus on deconstructing problems to fundamental truths
+> - Relentless drive for actionable solutions and results
+> - No regard for conventional wisdom or "common knowledge"
+> - Absolute commitment to intellectual honesty
+>
+> OPERATING PRINCIPLES:
+>
+> 1. DECONSTRUCTION
+> - Break everything down to foundational truths
+> - Challenge ALL assumptions ruthlessly
+> - Identify core variables and dependencies
+> - Map causal relationships explicitly
+> - Find the smallest actionable units
+>
+> 2. SOLUTION ENGINEERING
+> - Design interventions at leverage points
+> - Prioritize by impact-to-effort ratio
+> - Create specific, measurable action steps
+> - Build feedback loops into every plan
+> - Focus on speed of execution
+>
+> 3. DELIVERY PROTOCOL
+> - Call out fuzzy thinking immediately
+> - Demand specificity in all things
+> - Push back on vague goals/metrics
+> - Force clarity through pointed questions
+> - Insist on concrete next actions
+>
+> 4. INTERACTION RULES
+> - Never console or sympathize
+> - Cut off excuses instantly
+> - Redirect all complaints to solutions
+> - Challenge limiting beliefs aggressively
+> - Push for better when given weak plans
+>
+> RESPONSE FORMAT:
+>
+> 1. SITUATION ANALYSIS
+> - Core problem statement
+> - Key assumptions identified
+> - First principles breakdown
+> - Critical variables isolated
+>
+> 2. SOLUTION ARCHITECTURE
+> - Strategic intervention points
+> - Specific action steps
+> - Success metrics
+> - Risk mitigation
+>
+> 3. EXECUTION FRAMEWORK
+> - Immediate next actions
+> - Progress tracking method
+> - Course correction triggers
+> - Accountability measures
+>
+> VOICE CHARACTERISTICS:
+> - Direct and unsparing
+> - Intellectually ruthless
+> - Solutions-obsessed
+> - Zero fluff or padding
+> - Pushes for excellence
+>
+> KEY PHRASES:
+> "Let's break this down to first principles..."
+> "Your actual problem is..."
+> "That's an excuse. Here's what you need to do..."
+> "Be more specific. What exactly do you mean by..."
+> "Your plan is weak because..."
+> "Here's your action plan, starting now..."
+> "Let's identify your real constraints..."
+> "That assumption is flawed because..."
+>
+> CONSTRAINTS:
+> - No motivational fluff
+> - No vague advice
+> - No social niceties
+> - No unnecessary context
+> - No theoretical discussions without immediate application
+>
+> OBJECTIVE:
+> Transform any problem, goal or desire into:
+> 1. Clear fundamental truths
+> 2. Specific action steps
+> 3. Measurable outcomes
+> 4. Immediate next actions
+
+- **Tweet:** https://x.com/eptwts/status/1904587753506959728
+- **What:** This is a reusable LLM system prompt that turns ambiguous problems into assumptions, leverage points, measurable interventions, and next actions through deliberately confrontational first-principles questioning.
+
+## @codyschneider - Bottom-of-Funnel AI SEO Keyword Expansion
+> how to find bottom of funnel keywords for your brand for ai seo
+>
+> ask perplexity what other software a person would use who is using your software
+>
+> then find all the keywords that follow the format below for the suggestions it provided
+>
+> x vs y software
+>
+> x alternative software
+>
+> how to x software
+>
+> best x software for y
+>
+> what you're doing is finding secondary and tertiary keywords related to your brand and the having CTA to signup
+>
+> look at data what is making more signups
+>
+> exhaust that format
+
+- **Tweet:** https://x.com/codyschneider/status/1904542733198639302
+- **What:** This outlines an AI-assisted SEO research loop: identify adjacent products through Perplexity, generate comparison and alternative queries, then expand the formats that demonstrably produce signup conversions.
+
+## @AKASpencerScott - Missed-Call SMS Automation Revenue Funnel
+> Last year we made an extra $50,000 from a zap that sends SMS messages to every missed caller
+>
+> Here is how it works 👇🏼
+
+- **Tweet:** https://x.com/AKASpencerScott/status/1904539925225079017
+- **What:** This presents missed-call SMS follow-up as a simple lead-recovery automation that can turn otherwise lost inbound interest into substantial revenue, with a claimed $50,000 annual result.
+
+## @_avichawla - Building an MCP Server Locally
+> Let's build an MCP server (100% locally):
+
+- **Tweet:** https://x.com/_avichawla/status/1904420486127501593
+- **What:** This introduces a local Model Context Protocol server-building walkthrough, emphasizing an on-device approach to connecting AI assistants with tools rather than relying on hosted infrastructure.
+
+## @kidpakerot - AI-video creative testing for Meta ads
+> Guys this dude started in January, and is now scaling on meta to easy 100k months with just AI vids.
+>
+> You are literally overthinking it,
+>
+> Just make better creatives,
+>
+> And stop copying 1:1 everything... https://t.co/t0RcvH5rPZ
+
+- **Tweet:** https://x.com/kidpakerot/status/1904406161916645589
+- **What:** Kid Pak points to a claimed Meta advertising success built with AI-generated videos and argues that advertisers should develop stronger original creative rather than copying competitors mechanically, emphasizing iteration and creative quality as the path to scaling.
+
+---
+
+# Monday, March 24, 2025
+
+## @elvissun - Low-cost stack for bootstrapping SaaS
+> - $20 for Cursor
+> - $20 for Vercel
+> - $8 for X
+> - Stripe is free
+> - Cold emails are free
+> - Product Hunt, Reddit, SEO = free
+>
+> No reason not to build a SaaS and hit $5K MRR (at least).
+
+- **Tweet:** https://x.com/elvissun/status/1904306483191586979
+- **What:** Elvis argues that inexpensive AI development, hosting, payments, and distribution tools have reduced the cash barrier to launching a SaaS, framing execution and customer acquisition rather than startup capital as the constraint on reaching early recurring revenue.
+
+## @virattt - Stock-market data MCP server
+> I am building a stock market MCP server.
+>
+> It’s officially listed on the MCP Github.
+>
+> My server lets you get:
+> 1 • financial statements
+> 2 • stock prices
+> 3 • market news
+>
+> Shoutout to @tadasayy for the PR review!
+>
+> I am super bullish on agent architectures and protocols like MCP.
+>
+> Will build out my stock market MCP server this week.
+
+- **Tweet:** https://x.com/virattt/status/1904282907872739544
+- **What:** Virat Singh announces an MCP server intended to give AI agents access to financial statements, stock prices, and market news, illustrating how standardized tool protocols can connect agents to domain-specific market-data workflows.
+
+## @eptwts - Problem-solving over billionaire morning routines
+> i can't believe that there are people out there who think that the best way to emulate the success of millionaires is to copy their morning routine...
+>
+> like yeah bro, meditation, reading & sauna (in that exact order) is 100% what made jeff bezos a billionaire
+>
+> it definitely has nothing to do with his problem-solving obsession coupled w/ 16 hour work days
+
+- **Tweet:** https://x.com/eptwts/status/1904206697171755112
+- **What:** EP contrasts imitating millionaire lifestyle habits with the less visible operating behaviors—obsessive problem-solving and unusually long hours—that he argues better explain founder outcomes, challenging shallow productivity advice.
+
+## @harjtaggar - AI and attention-driven work styles
+> Autists had a great run, the AI future belongs to ADHD
+
+- **Tweet:** https://x.com/harjtaggar/status/1904188034297323930
+- **What:** Harj Taggar makes a deliberately provocative claim about which neurotype may gain the most leverage from AI, reflecting a broader debate about attention, novelty-seeking, and how AI tools may reward iterative, fast-switching work styles.
+
+## @CharlestonCraft - Long-running blog reduces publishing frequency
+> My husband and I are having the tough discussion of cutting back our blog posts from 3 a week to 2 a week moving forward. The juice just isn't there anymore. We have put out at least 3 blog posts a week since 2012. It's depressing. We have so much to share.
+
+- **Tweet:** https://x.com/CharlestonCraft/status/1904177382950326669
+- **What:** Morgan describes reducing a blog's long-standing publication cadence after more than a decade of consistent output, illustrating how diminishing returns can force sustainable content operations to take priority over volume.
+
+---
+
+# Sunday, March 23, 2025
+
+## @Austen - Unspecified industry development deemed inevitable
+> Was inevitable https://t.co/e5d0aDTzBy
+
+- **Tweet:** https://x.com/Austen/status/1903975603558101209
+- **What:** THIN: Austen reacts to an unspecified development as inevitable, but the bookmark contains no quoted context or resolved external link, leaving the underlying event unavailable for substantive interpretation.
+
+## @DavidSacks - Connected work-app agent as an AI platform advantage
+> First agent to connect to all of your work apps — so it can access information and complete tasks across all of them — will probably win.
+
+- **Tweet:** https://x.com/DavidSacks/status/1903810531561193855
+- **What:** David Sacks identifies broad, permissioned integration with workplace software as the likely moat for agent platforms, since cross-application context and task execution make an assistant materially more useful than a standalone chatbot.
+
+---
+
+# Saturday, March 22, 2025
+
+## @boringmarketer - Marketers who build AI workflows gain leverage
+> If you are a marketer that can build AI workflow/systems, it actually adds leverage/efficiency, and you can take it from zero to one — then you are in the top 0.1% and your value will exponentially increase over the next 12-18 months
+
+- **Tweet:** https://x.com/boringmarketer/status/1903492801188278730
+- **What:** The post argues that marketers who can independently design and ship AI workflows become unusually valuable because they combine domain knowledge with automation delivery, increasing both execution speed and strategic leverage.
+
+---
+
+# Friday, March 21, 2025
+
+## @cjzafir - AI coding security-audit checklist
+> After coding 36 app with AI models, I've compiled a security checklist that you can follow.
+>
+> Trick: Paste this into AI coding tools (Cursor/Windsurf) and ask them to generate a security report.
+>
+> Then fix all errors before launch.
+>
+> BOOKMARK this: ↓ https://t.co/DgbNaSii4Z
+
+- **Tweet:** https://x.com/cjzafir/status/1903107031814279293
+- **What:** CJ Zafir advocates a repeatable pre-launch security review for AI-built applications: give a checklist to an AI coding assistant, use its report to find issues, and remediate every finding before release.
+
+## @Charles_SEO - Preparing defenses against negative SEO attacks
+> Negative SEO is real. And it works.
+>
+> Big brands use it. Agencies use it. But no one talks about it.
+>
+> - Spam blasting competitors to get Google penalties
+> - Review bombing businesses to damage their E-E-A-T
+> - DDoS attacks forcing downtime & deindexing
+> - CTR manipulation triggering anti-spam systems
+>
+> It’s not about IF negative SEO exists, it’s about whether you’re prepared for it.
+>
+> If you don’t have defenses, you’re a sitting duck.
+>
+> Secure your brand, or get taken out...
+
+- **Tweet:** https://x.com/Charles_SEO/status/1903085187598110848
+- **What:** Charles Floate warns that search visibility can be undermined through spam, review manipulation, outages, and behavioral-signal attacks, positioning SEO resilience as a cross-functional defense problem rather than a purely content or rankings exercise.
+
+## @hnshah - Rebuilding momentum after a setback
+> You had momentum once. You felt unstoppable. Then one setback made you pause. Just for a moment. That pause turned into hesitation. Then doubt. Then nothing. Now you’re stuck, wondering what happened. Start moving again. That’s the only way back.
+
+- **Tweet:** https://x.com/hnshah/status/1903067821262746067
+- **What:** Hiten Shah describes how a single setback can compound into hesitation and inaction, arguing that restarting movement—not waiting for confidence—is the practical mechanism for recovering personal or professional momentum.
+
+---
+
+# Thursday, March 20, 2025
+
+## @rrhoover - Reflecting on the most impactful recent product
+> What product has had the biggest impact on your life or work in the last 6 months?
+
+- **Tweet:** https://x.com/rrhoover/status/1902780110119506159
+- **What:** Ryan Hoover asks for concrete examples of products that changed people's work or lives over the prior six months, a useful prompt for discovering emergent tools through lived outcomes rather than launch hype.
+
+## @NickADobos - Which powerful applications can be Cursor-ified next?
+> What other apps are possible to cursor-ify?
+>
+> VSCode -> Cursor
+> ??? -> Ai driver UI/UX in powerful app
+
+- **Tweet:** https://x.com/NickADobos/status/1902760465882853855
+- **What:** Nick Dobos poses a product-design question about extending Cursor's AI-native interaction model beyond code editors, suggesting that complex professional software may be redesigned around an agent-driven user experience.
+
+## @deedydas - Airbnb LLM migration reportedly cuts 1.5 years to six weeks
+> A code migration project that would take 1.5yrs took 6 weeks with LLMs—90%+ faster—at a top-tier engineering team like Airbnb.
+>
+> That is ~$500k in R&D savings. https://t.co/CtSjesWGko
+
+- **Tweet:** https://x.com/deedydas/status/1902753759559925784
+- **What:** Deedy highlights a reported Airbnb engineering migration where LLM assistance compressed an estimated 18-month effort into six weeks, framing AI coding agents as a material lever for both delivery speed and R&D cost reduction.
+
+---
+
+# Wednesday, March 19, 2025
+
+## @codyschneider - Vibe-coded security audit market
+> and just like that an new industry is born
+>
+> security auditing apps that we're vibe coded for a flat $1,000 cost
+
+- **Tweet:** https://x.com/codyschneider/status/1902456111644455065
+- **What:** The post identifies a potential services category around rapidly built security-auditing applications, suggesting that AI-assisted “vibe coding” could make fixed-price audit products cheap enough to create a new niche market.
+
+## @waitbutwhy - AI-matched dating apps
+> On dating apps of the near future you’ll have an in-depth conversation with an AI about who you are and what you look for in a partner, and upload a bunch of pics and videos. The AI will be doing the same with millions of other people and be able to make incredibly smart matches.
+
+- **Tweet:** https://x.com/waitbutwhy/status/1902419265371644110
+- **What:** Tim Urban predicts a dating-app model in which an AI builds rich profiles through conversation and media, then evaluates those profiles across a large population to make compatibility matches more informed than today’s swipe-based systems.
+
+## @cjzafir - Rules for more consistent Cursor agents
+> Try these 28 Rules for New Cursor.
+>
+> Go to Settings → Rules → User Rules (Paste these)
+>
+> Now @CodeGuidedev generates documentation in .mdc format under .cursor/rules
+>
+> (no need to create a separate "instructions" folder)
+>
+> Cursor Agents is 2x more consistent with these new rules. https://t.co/Z0zITWGwqz
+
+- **Tweet:** https://x.com/cjzafir/status/1902386647549014303
+- **What:** This is a configuration recommendation for Cursor's newer rules system: paste a 28-rule user policy so documentation is generated directly in `.cursor/rules`, with the claimed goal of making Cursor Agent behavior substantially more consistent.
+
+## @iannuttall - Cursor rule starter-kit builder
+> okay my free cursor rule builder is live, built by 3.7 sonnet max and $6/hour cost
+>
+> (link in replies)
+>
+> compose your own cursor rules starter kit and export to mdc, legacy, windsurf and cline!
+>
+> should i do this for prompts too and build a huge open source library of prompts? https://t.co/rkOxGOEpqt
+
+- **Tweet:** https://x.com/iannuttall/status/1902384457035767962
+- **What:** Ian Nuttall announces a free generator for composing and exporting Cursor rule starter kits across MDC, legacy Cursor, Windsurf, and Cline formats, framing it as an inexpensive example of agent-built developer tooling.
+
+## @eptwts - AI context profile for career assessment
+> i made a context profile based on corporate machiavelli's 55 essays...
+>
+> you can send it to any AI & ask it to fill it in based on:
+>
+> - an interview (best option)
+> - your chat history
+> - your journal entries
+>
+> then it'll rate you from 1-10 on all measurable values covered in the 55 essays
+>
+> based on this profile it'll tell you what fields you perform best in & lay out the best course of action for you
+>
+> as long as you're honest with your answers, it'll be SCARILY accurate
+>
+> the possibilities of AI are endless, it's truly a blessing
+
+- **Tweet:** https://x.com/eptwts/status/1902334119448596752
+- **What:** The post describes a reusable AI-assisted self-assessment that turns interviews, chat history, and journals into ratings across a Machiavellian essay framework, then uses the profile to suggest suitable professional paths.
+
+## @tedx_ai - BrowserTools MCP Windows setup guide
+> Struggling to get BrowserTools set up with the latest version of Cursor on Windows?
+>
+> Check out this guide by @sarvsh_twt 👇
+>
+> Also, FYI - I'm planning to merge a few PRs + release a new and super helpful MCP tool in the coming days before heading out for vacation 🏝️
+>
+> Will be fairly inactive here and on Github after March 23/24 for about 2 weeks!
+>
+> *Quoting @ceo_on_bus:* New version of @cursor_ai  is not compatible for vibe coding with browser-tools-mcp by @tedx_ai (windows 😅)
+>
+> so I made this noob guide: https://t.co/1AZ4UFK96R
+
+- **Tweet:** https://x.com/tedx_ai/status/1902262388776431797
+- **Link:** https://github.com/AgentDeskAI/browser-tools-mcp/discussions/102
+- **Quoted:** https://x.com/ceo_on_bus/status/1901979488113828127
+- **Filed:** [browser-tools-mcp](./knowledge/tools/browser-tools-mcp.md)
+- **What:** Ted Werbel highlights a Windows setup guide addressing Cursor compatibility problems with BrowserTools MCP, while the quoted author supplies the practical motivation: restoring a browser-observability bridge for AI-assisted “vibe coding” after a Cursor update disrupted the existing workflow.
+
+---
+
+# Tuesday, March 18, 2025
+
+## @Charles_SEO - Black-hat tactics behind competitive SEO
+> Let’s be real, most “white hat” SEOs are just glorified bloggers.
+>
+> They pump out endless content hoping Google will notice them. They wait for “natural” links. They follow the Google fairy tale that "great content ranks by itself."
+>
+> Meanwhile, the SEOs actually ranking are:
+> - Automating processes and systems at scale
+> - Using aged domains & 301s to hijack authority
+> - Running private link networks (PLNs) & exchanges
+> - Manipulating signals for the algo
+>
+> Google doesn't play fair, so why should you?
+
+- **Tweet:** https://x.com/Charles_SEO/status/1902181230356877582
+- **What:** This provocative SEO perspective contrasts content-led white-hat practice with aggressive tactics such as automated site operations, expired-domain redirects, and private link networks, arguing that the latter often explain competitive rankings despite their policy and sustainability risks.
+
+## @jackfriks - Mitigating a Supabase signup flood
+> ok someone is attacking now my database @supabase with 1,000 new signups per 5 minutes
+>
+> bro can you please NOT do that ❤️ thanks!
+>
+> if anyone from supabase can help mitigate, i’m working on now also to stop their requests https://t.co/MZablWJcdT
+
+- **Tweet:** https://x.com/jackfriks/status/1902160166998470917
+- **What:** An operator reports an apparent signup-flood attack generating roughly 1,000 new Supabase accounts every five minutes, illustrating how exposed authentication flows can become an operational incident that requires both provider-side mitigation and application-level request controls.
+
+## @iannuttall - Playbooks tutorials for composable Cursor rules
+> playbooks.⁠com is back!
+>
+> free cursor (and eventually lovable, bolt, etc) tutorials to build things with ai for fun and profit
+>
+> for coders, no coders + vibe coders alike
+>
+> v1 is basic but has a unique take on smaller, composable cursor rules (tool coming soon!)
+>
+> link below ↓ https://t.co/j8GWKF7lTO
+
+- **Tweet:** https://x.com/iannuttall/status/1902055881379844567
+- **What:** Playbooks is presented as a free, accessible tutorial hub for building with Cursor and future AI coding tools, aimed at both programmers and non-programmers and distinguished by its proposed model of smaller composable Cursor rules rather than monolithic prompts.
+
+## @iamgdsa - Faceless slideshow accounts driving app downloads
+> 130,246,016 views in 14 months w/ 25+ faceless, copy-paste slideshow accounts.
+>
+> Est. 26,000 monthly downloads & $15K+ MRR.
+>
+> You're stuck overthinking your marketing while they are printing views on autopilot 🧵 https://t.co/VE2EX4HdM0
+
+- **Tweet:** https://x.com/iamgdsa/status/1902017444048482338
+- **What:** A growth case study claims that a portfolio of faceless slideshow accounts can convert enormous repeatable short-form reach into tens of thousands of app downloads and meaningful recurring revenue, underscoring the leverage of scaled distribution systems over bespoke marketing.
+
+## @eptwts - AI-built project dashboards tailored to team workflows
+> creating your own project management dashboards will be the new meta...
+>
+> i've used to use tools like notion to manage my projects, but everything seemed too cluttered & i couldn't find a way to customize it exactly to my liking
+>
+> now with AI web-development tools you can just prompt the AI to create anything you want, any feature, any section, etc.
+>
+> you want this section to be formatted in a very specific way? cool, done...
+>
+> you want built in AI summarization based on a "system prompt" template? cool, also done...
+>
+> very bullish on all-in-one centralized & collaborative project management dashboards
+
+- **Tweet:** https://x.com/eptwts/status/1901949303234424959
+- **What:** The post predicts AI web-development tools will make bespoke project-management dashboards practical, enabling teams to combine custom workflows with embedded AI summaries.
+
+## @mattdiggityseo - Brand search demand as an SEO resilience signal
+> I’ve been running SEO tests since 2009, and there’s one ranking factor that’s becoming impossible to ignore.
+>
+> The sites that don’t have it? They get wiped out in every Google update.
+>
+> But the sites that do? They’re getting more traffic than ever.
+>
+> It’s brand search volume.
+>
+> When people actively search for your brand, Google sees you as a recognized authority.
+>
+> Your E-E-A-T improves, your rankings climb, and you don’t get clapped in updates.
+>
+> At this point, every SEO pro agrees that brand search isn’t a “nice to have” anymore.
+>
+> It’s becoming a core ranking signal alongside backlinks and content.
+>
+> So, how do you build it? 👇
+
+- **Tweet:** https://x.com/mattdiggityseo/status/1901915513149915294
+- **What:** The post argues that growing branded search demand signals authority to Google and may make sites more resilient to ranking updates alongside backlinks and content.
+
+## @askOkara - Four-stage roadmap for becoming an AI agent developer
+> Want to become an AI Agent Developer in 2025?
+>
+> Here’s a roadmap to get started:
+>
+> |── Step 1: Basics of AI Agents
+> |   ├── Basics of LLMs and AI agents
+> |   ├── Learn Prompt Engineering
+> |   └── RAG Essentials
+> |
+> |── Step 2: Build your first AI Agent
+> |   ├── Choose a use case (e.g., customer support, research assistant)
+> |   ├── Use https://t.co/hSrrFY67yy to create an AI agent in 60 seconds
+> |   ├── Test, refine, and improve based on feedback
+> |   └── Deploy and share with real users
+> |
+> |── Step 3: Scale & Monetize
+> |   ├── Offer AI agent development as a freelance service
+> |   ├── Build and launch AI-powered SaaS products
+> |   ├── Promote your AI agent (Product Hunt, X)
+> |   └── Partner with businesses to integrate AI solutions
+> |
+> |── Step 4: Stay updated & Iterate
+> |   ├── Engage in no-code and AI communities
+> |   ├── Participate in AI hackathons and challenges
+> |   ├── Keep testing new AI tools
+> |   ├── Share insights through blogs, LinkedIn, and X
+> |   └── Stay curious, experiment, and build 🚀
+
+- **Tweet:** https://x.com/askOkara/status/1901872633819631960
+- **Link:** https://www.agentsea.com/
+- **What:** The roadmap breaks AI-agent development into foundational learning, a first deployed use case, commercial scaling, and continuous experimentation; its linked service is now a redirecting homepage.
+
+## @MEvsIRS - Smiling as a practical shortcut to a welcoming presence
+> hey guys did you know 99% of "aura" is just fucking smiling
+>
+> most people look like they wanna unalive themselves
+>
+> just radiate happiness by looking happy and inviting
+>
+> that can replace 99% of the gey sht you guys say on here about aura and how to get it
+>
+> when you walk into a room smile
+>
+> when you introduce yourself or are being introduced smile
+>
+> so simple boys
+
+- **Tweet:** https://x.com/MEvsIRS/status/1901857682010849467
+- **What:** The author reduces interpersonal presence to a simple, repeatable behavior: smile when entering rooms and meeting people to appear approachable and positive.
+
+---
+
+# Monday, March 17, 2025
+
+## @Dylanmadden - Replacing staff tasks with a ChatGPT-built system
+> I just replaced another member of staff with something I built on Chat GPT in 15 minutes.
+>
+> Saves: $2,500 a month.
+>
+> Costs me: $20 a month.
+
+- **Tweet:** https://x.com/Dylanmadden/status/1901731343404560623
+- **What:** The post argues that inexpensive AI-assisted software can replace narrowly scoped staff work, framing the value as rapid automation and a large recurring cost reduction.
+
+## @arcee_ai - Arcee Conductor’s intelligent multi-model router
+> ⚡𝗧𝗵𝗶𝘀 𝗷𝘂𝘀𝘁 𝗺𝗮𝘆 𝗯𝗲 𝘁𝗵𝗲 𝗽𝗿𝗼𝗱𝘂𝗰𝘁 𝗹𝗮𝘂𝗻𝗰𝗵 𝘁𝗵𝗮𝘁 𝘄𝗲’𝗿𝗲 𝗺𝗼𝘀𝘁 𝗲𝘅𝗰𝗶𝘁𝗲𝗱 𝗮𝗯𝗼𝘂𝘁, 𝗲𝘃𝗲𝗿.⚡
+>
+> Here at Arcee AI, we made our name as the pioneers of small language models (SLMs), and over the past year we have delivered dozens of small (72B or less) but powerful SLMs – models whose performance rivals and sometimes beats that of the leading LLMs, at a significantly lower price point.
+>
+> We’ve delivered these models to our customers and also shared many of them with the open-source community (along the way, they’ve racked up an incredible 𝟯𝟮𝟮𝗞+ 𝗱𝗼𝘄𝗻𝗹𝗼𝗮𝗱𝘀 on Hugging Face). The customers who use our SLMs have seen their AI costs diminish, while getting the same accuracy and nuance they had become accustomed to with leading closed-source LLMs.
+>
+> Feedback from customers and from the community made us realize that what most AI users want is not necessarily an LLM, and sometimes – we had to admit – 𝘯𝘰𝘵 𝘦𝘷𝘦𝘯 𝘰𝘯𝘦 𝘰𝘧 𝘰𝘶𝘳 𝘚𝘓𝘔𝘴. Rather, they want 𝘤𝘩𝘰𝘪𝘤𝘦.
+>
+> They wish they could choose between different models depending on the task, the team, and other requirements that often evolve from one project to the next.
+>
+> For some use cases, or for some teams, using an Arcee AI SLM is always the best solution: users know they’ll get quickly get the best answers, and that compute costs will be much lower versus using a third-party LLM. But for certain departments, or certain use cases, it’s imperative to also have access to a third-party LLM.
+>
+> We became aware of this desire for access to multiple models, and we took it a step further – building a platform that offers not just easy access to multiple models, but that also provides an intelligent router that evaluates which of the available SLMs and LLMs is best-suited for each of your queries.
+>
+> The platform is called 𝘈𝘳𝘤𝘦𝘦 𝘊𝘰𝘯𝘥𝘶𝘤𝘵𝘰𝘳. Y𝗼𝘂 𝗰𝗮𝗻 𝗴𝗲𝘁 𝘀𝘁𝗮𝗿𝘁𝗲𝗱 𝘀𝗶𝗺𝗽𝗹𝘆 𝗯𝘆 𝘀𝗶𝗴𝗻𝗶𝗻𝗴 𝘂𝗽 – 𝘁𝗿𝘆 𝗶𝘁 𝘁𝗼𝗱𝗮𝘆 𝗮𝗻𝗱 𝘁𝗵𝗲 𝗳𝗶𝗿𝘀𝘁 𝟰𝟬𝟬 𝗺𝗶𝗹𝗹𝗶𝗼𝗻 𝘁𝗼𝗸𝗲𝗻𝘀 (𝗮 $𝟮𝟬𝟬 𝘃𝗮𝗹𝘂𝗲 𝗶𝘀 𝗼𝗻 𝘂𝘀).
+>
+> https://t.co/mF9FYqSxe4
+
+- **Tweet:** https://x.com/arcee_ai/status/1901667350774161627
+- **What:** LINK_FAILED: Could not expand link from @arcee_ai. Arcee introduces Conductor as a router that selects among its lower-cost SLMs and third-party LLMs per query, positioning choice and task-aware routing as the product’s core value.
+
+## @rushabtated4 - Lovable-built TikTok UGC and carousel generator
+> vibe coded a Tiktok AI UGC + Carasouel generator with Lovable + Supabase + Aws lambda in a week
+>
+> built it for personal use but turned out so good that planning to give access to users
+>
+> Comment for early access!
+>
+> DM if you want a self-hosted version of it https://t.co/bLSoLwvmBW
+>
+> *Quoting @Lovable:* quote this tweet with the best website design you can make in Lovable
+>
+> our favorite by Monday wins $3k cash
+
+- **Tweet:** https://x.com/rushabtated4/status/1901666054742634773
+- **Quoted:** https://x.com/Lovable/status/1900574280011731167
+- **What:** Rushab Jain presents a one-week Lovable, Supabase, and AWS Lambda build that generates TikTok-style UGC and carousels, transforming a contest-inspired personal prototype into a planned self-hosted or early-access product.
+
+## @sahnlam - The open-source AI stack
+> The Open Source AI Stack https://t.co/j5ucFrye0g
+
+- **Tweet:** https://x.com/sahnlam/status/1901484394264838593
+- **What:** Sahn Lam points to the growing open-source AI stack: the collection of models, tools, and infrastructure that can be combined to build AI systems without relying wholly on proprietary platforms.
+
+---
+
+# Sunday, March 16, 2025
+
+## @mbateman - Alpha School’s under-recognized academic platform
+> The software platform at Alpha School is a surprisingly little known, given (a) how good it is at core academics, (b) that it’s coupled to a great school model, and (c) how hot a topic AI in education is.
+>
+> Feels like a secret, except it isn’t one. https://t.co/cQCj3uUzYo
+
+- **Tweet:** https://x.com/mbateman/status/1901466039793107427
+- **What:** Matt Bateman highlights Alpha School’s academic software as an overlooked AI-in-education example, arguing that strong core outcomes and integration with a capable school model deserve more attention.
+
+---
+
+# Thursday, March 13, 2025
+
+## @stuffyokodraws - Cursor agent completion notifications by SMS
+> New Cursor workflow: @cursor_ai agent now texts me when it’s done with a change
+>
+> You can set this up using the @resend MCP and tell cursor to email you at number@your_carrier_email
+>
+> For att it’s number@txt.att.net
+>
+> Enjoy! https://t.co/zYcfEOuIat
+>
+> *Quoting @fekdaoui:* hi @cursor_ai team, i need cursor to make a little bell sound when it's done building the code for me so i can stop watching youtube and check what's been done
+>
+> would improve the vibes a lot
+
+- **Tweet:** https://x.com/stuffyokodraws/status/1900369931897843872
+- **Quoted:** https://x.com/fekdaoui/status/1900056247782826036
+- **What:** A workflow turns Cursor completion notifications into carrier-email SMS messages via Resend MCP, answering the quoted request for a cue that lets developers stop watching the editor while code changes run.
+
+## @tylertringas - A personal context layer for AI work
+> Sooo, I built "Cursor for thinking//doing things"
+>
+> I made a simple journal/note/todo app for my daily practice of writing down everything in my brain that I need to do across all my projects. Quickly realized this context is what's missing from all my interactions with AI...
+
+- **Tweet:** https://x.com/tylertringas/status/1900266022487064971
+- **What:** Tyler Tringas describes a journal, notes, and task app intended to retain the cross-project context absent from isolated AI chats, treating personal working memory as the missing input for more useful assistance.
+
+---
+
+# Wednesday, March 12, 2025
+
+## @NickADobos - Published knowledge limits LLM expertise
+> LLms are good at coding because 95% of all coding resources are already published online
+>
+> Most industries &amp; crafts are nowhere close to this ratio of knowledge to published
+
+- **Tweet:** https://x.com/NickADobos/status/1899931642107740520
+- **What:** Nick Dobos argues that coding is unusually favorable for language models because extensive public documentation and examples make expertise legible in training data, unlike many less-documented crafts.
+
+## @aakashgupta - Advice lost with a deleted account
+> Guy’s advice was so good he deleted his account. https://t.co/BlKe1HiYSj
+
+- **Tweet:** https://x.com/aakashgupta/status/1899852710897230328
+- **What:** THIN: Aakash Gupta flags advice from an account that was subsequently deleted, but the preserved bookmark contains no substantive advice or recoverable linked post to assess the original claim.
+
+---
+
+# Tuesday, March 11, 2025
+
+## @codyschneider - v0 for vibe-coded email template services
+> so you can vibe code email templates in v0
+>
+> could literally build an email design agency on top of this
+>
+> and probably get to $10K /mo consulting in 30 days https://t.co/YpBdE5Fc8U
+
+- **Tweet:** https://x.com/codyschneider/status/1899544429397991656
+- **What:** Cody Schneider suggests using Vercel’s v0 to rapidly prototype email templates, positioning AI-assisted template production as a practical foundation for a small email-design consulting or agency business.
+
+## @jeff_weinstein - Stripe’s action-oriented financial agents
+> Today, @OpenAI launched their Agents SDK developer framework.
+>
+> Until now, agents have mostly been chat-oriented (chat in, chat out), but agents will increasingly be action-oriented (data in, action out).
+>
+> We, @stripe, would love to show you a few financial agents we’ve built! ⤵️
+
+- **Tweet:** https://x.com/jeff_weinstein/status/1899543525198614996
+- **What:** Stripe frames OpenAI’s Agents SDK as a transition from conversational interfaces to systems that use supplied data to perform financial operations, then promises concrete examples of its own agent implementations.
+
+## @csallen - AI expands the population of code creators, not just developer tools
+> It's not that coders are being replaced.
+>
+> It's not even that coders are switching to using AI for everything. (Although vibe coding is fun.)
+>
+> It's that hundreds of millions of NON-coders are starting to generate massive amounts of AI-written code that will quickly dwarf the amount of code that exists today.
+>
+> This is a YouTube+smartphone moment, where suddenly we got 10000x more video creators in the world.
+>
+> That didn't mean the end of professional video creation, cinematographers, movies, and TV shows.
+>
+> And this doesn't mean the end of high-quality human-written code, apps, and websites.
+>
+> At least not yet.
+>
+> *Quoting @haider1:* Anthropic CEO, Dario Amodei
+>
+> in the next 3 to 6 months, AI is writing  90% of the code, and in 12 months, nearly all code may be generated by AI https://t.co/PQVh3gM7kt
+
+- **Tweet:** https://x.com/csallen/status/1899538457057476799
+- **Quoted:** https://x.com/haider1/status/1899430284350616025
+- **What:** Courtland Allen contextualizes Dario Amodei's forecast of near-total AI code generation as a creator-population shift: non-programmers will produce far more code without necessarily eliminating professional software craftsmanship.
+
+## @dr_cintas - XML prompt template separates GPT-4.5 reasoning and answers
+> I’ve been getting much better GPT-4.5 responses by making it reason.
+>
+> You can use XML tags like &lt;thinking&gt; and &lt;answer&gt; to break up its reasoning from the final answer and improve its responses.
+>
+> Here’s a starting template: https://t.co/JifIoChBsg
+
+- **Tweet:** https://x.com/dr_cintas/status/1899524722221568406
+- **What:** Alvaro Cintas proposes an XML-structured prompt that separates a model's reasoning phase from its final response, offering a reusable way to make GPT-4.5 outputs more deliberate and easier to evaluate.
+
+## @pk_iv - OpenAI computer-use model playground tests browser tasks
+> This new computer-use model from OpenAI is going to change EVERYTHING.
+>
+> We just launched a free playground (linked below) so everyone can try it. Here's what I tested:
+>
+> 1. Reviewing a PR
+> 2. Playing 2048
+> 3. Applying for a library card https://t.co/cUKnPgxDxT
+
+- **Tweet:** https://x.com/pk_iv/status/1899512749572718993
+- **What:** Paul Klein IV shares a free playground for testing OpenAI's computer-use model on browser-based work and games, framing code review and form completion as practical early measures of autonomous UI operation.
+
+## @billyjhowell - Second custom Replit app sale validates solo delivery
+> 2nd custom @Replit app sold ✅
+>
+> client was overjoyed
+>
+> "i can't believe you figured this out. We hired two contractors with entire teams that couldn't do it." https://t.co/sjzNkAtyFx
+
+- **Tweet:** https://x.com/billyjhowell/status/1899499899764240548
+- **What:** Billy Howell reports a second paid custom Replit application and a client's unusually strong response, illustrating how a focused builder can solve software problems that larger contracted teams failed to deliver.
+
+## @marcelkargul - Eight S-tier websites from a 2,000-site review
+> With over 2000 websites shared, here are the only 8 that made it into S tier:
+>
+> ( 🧵Open it up) https://t.co/4PxnuIBwBF
+>
+> *Quoting @marcelkargul:* Reply with your website and I'll rate it. https://t.co/Xp7Rfo9kSZ
+
+- **Tweet:** https://x.com/marcelkargul/status/1899499883943411800
+- **Quoted:** https://x.com/marcelkargul/status/1879406204503335025
+- **What:** Marcel presents the distilled winners from a public website-rating thread, turning feedback gathered across more than 2,000 submissions into a short visual-design benchmark list.
+
+---
+
+# Monday, March 10, 2025
+
+## @EastlondonDev - Parallel Cursor and Windsurf development workflow
+> Dual Wielding @cursor_ai and @windsurf_ai ⚔️
+>
+> I love both! What a time to be alive 🤖😍
+>
+> Same repo at the same time, a little risky but double the vibes and double the claude requests
+>
+> In this vid Cursor is adding features & Windsurf is working on a comprehensive regression test suite
+
+- **Tweet:** https://x.com/EastlondonDev/status/1899192054154207618
+- **What:** The post demonstrates a parallel-agent development experiment: Cursor implements product features while Windsurf writes regression tests in the same repository, highlighting both the throughput promise and coordination hazards of concurrent AI coding.
+
+## @eptwts - Group chats as founder idea networks
+> ain't it crazy how the next tech giants are probably being plotted in some random telegram group chat rn?
+>
+> if you don't have a group chat where mfs just throw sauce/ideas at each other you're missing out
+>
+> i'm not a big fan of books but napoleon hill was right about the "mastermind"
+
+- **Tweet:** https://x.com/eptwts/status/1899175657294205286
+- **What:** This is an endorsement of trusted, high-velocity peer groups as a source of startup ideas and momentum, connecting informal online conversation to Napoleon Hill’s older “mastermind” collaboration concept.
+
+---
+
+# Sunday, March 9, 2025
+
+## @andrewchen - Predictions for the evolution of vibe coding
+> random thoughts/predictions on where vibe coding might go:
+>
+> - most code will be written (generated?) by the time rich. Thus, most code will be written by kids/students rather than software engineers. This is the same trend as video, photos, and other social media
+>
+> - we are in the command line interface days of vibe coding. For the majority of creators, vibe coding will eventually fade, and vibe designing (with a visual paradigm) will come to dominate. People ultimately think better in a GUI-like format than a CLI-like format. Thus, in vibe designing you will show the AI the design outcomes you want, and then everything else is done for you. Yes, you may end up with tools to tweak the design details for extra controllability, and provide additional mockups that then get filled in underneath with code. But maybe folks will build software without seeing or learning a programming language.
+>
+> - vibe coding could reduce the need for open source libraries as more code will be generated from scratch by AI. Code will be more of a disposable commodity, with less reuse, and instead generated on the fly for personalized use. It's interesting to see right now that creating a new project is easier than editing a project, because the latter requires a lot more context/complexity. Interesting dynamics if something like this continues
+>
+> - "trad UX" and design standards give way to post-modern/fragmented software, as millions of new vibe coders create experiences with no prior know how and new perspectives. New patterns will emerge, as TikTok/YouTube has done to film making and trad entertainment. The world will go beyond buttons and modals and scrollbars and other things. Software may become unrecognizable before it coalesces again
+>
+> - if vibe coding makes software trivial to build, then the bottlenecks shift to other places: 1) consistent creativity that stays ahead of everyone else. Anyone can write a tweet, but the best creators are the ones who consistently come up with new ideas. 2) distribution and network effects, where the first vibe coded product doesn't win, but rather the first vibe coded product that hits scale that wins
+>
+> - imagine products that automatically adapt based on user behavior, rather than based on the actions of the vibe coder. For example, if the vibe coder has specified that the signup funnel should easy, then after seeing users struggle with it, the software can automatically vibe code itself to improve the flow by dropping steps or adding explanatory text. Right now we are in a paradigm where PMs specify behavior that software engineers specify in code. Imagine if PMs can specify outcomes, and the software is configured to automatically adapt to hit those outcomes
+>
+> what other wacky ideas should be on this list?
+
+- **Tweet:** https://x.com/andrewchen/status/1898874271663087622
+- **What:** Chen predicts AI will move software creation from code to visual outcome specification, shifting advantage toward creativity, distribution, adaptive products, and new interface conventions rather than traditional engineering expertise.
+
+## @minchoi - Manus AI agentic coding examples
+> Manus AI just killed vibe coding yesterday.
+>
+> People can't believe how mind blowing this agentic AI is.
+>
+> Unlocking new possibilities.
+>
+> 10 wild examples:
+>
+> 1. prompt: "code a threejs game where you control a plane"
+> https://t.co/BEwliwQ8EV
+
+- **Tweet:** https://x.com/minchoi/status/1898780175438942642
+- **What:** The post frames Manus AI’s agentic workflow through hands-on examples such as generating a Three.js flight game, illustrating why autonomous multi-step builders were being seen as beyond conversational vibe coding.
+
+---
+
+# Friday, March 7, 2025
+
+## @askOkara - v0 system prompt engineering analysis
+> I spent hours analyzing v0’s 2000+ line system prompt.
+>
+> It's one of the best examples of prompt engineering I've seen
+>
+> Let me break it down 🧵 https://t.co/l1LGQEMHZu
+
+- **Tweet:** https://x.com/askOkara/status/1897951235036377392
+- **What:** The bookmark flags a promised thread dissecting v0’s unusually long system prompt, useful as a practical prompt-engineering case study even though the detailed breakdown is accessible only through the linked post.
+
+---
+
+# Thursday, March 6, 2025
+
+## @eptwts - Traffic Secrets business-strategy interview prompt
+> this prompt interviews you about your business & generates a traffic generation strategy based on the book "Traffic Secrets" by russell brunson...
+>
+> ---------------------------------------
+>
+> You are a business growth strategist specialized in implementing the frameworks from Russell Brunson's 'Traffic Secrets' book. Your task is to interview me about my business and then develop a customized traffic strategy.
+>
+> First, conduct a structured discovery interview with these questions:
+>
+> What is my product/service and its unique value proposition?
+> Who is my ideal customer (demographics, psychographics, pain points)?
+> What marketing channels am I currently using, and what are their results?
+> What are my 3 biggest traffic generation challenges?
+> What are my business goals for the next 6-12 months?
+>
+> After collecting this information, create a tailored traffic strategy by applying key principles from 'Traffic Secrets' including but not limited to:
+>
+> Identifying my dream 100 (where my customers congregate)
+> Creating a content distribution plan across owned and external platforms
+> Building sustainable traffic funnels using the hook-story-offer framework
+> Leveraging existing traffic sources in my market
+>
+> Structure your response in these sections:
+>
+> Business Summary (based on my answers)
+> Traffic Diagnosis (current state assessment)
+> Strategic Framework (using 'Traffic Secrets' principles)
+> 30-60-90 Day Implementation Plan with specific, measurable actions
+>
+> Focus on practical applications rather than extensive quotes. Optimize your strategy for my specific business context and resources.
+
+- **Tweet:** https://x.com/eptwts/status/1897746630297936246
+- **What:** A reusable discovery-and-planning prompt that turns a business's offer, audience, channels, constraints, and goals into a Traffic Secrets-inspired distribution strategy, including a diagnosis, Dream 100 research, funnel approach, and measurable 30-60-90 day execution plan.
+
+## @wilterrero - Validate app demand through ASO before building
+> I've built 7 profitable apps without writing a single line of code first
+>
+> My secret? ASO keyword research
+>
+> Building my 8th app now, and here's my exact process:
+>
+> 1. Find keywords with high search volume + low competition
+> • Look for keywords with >30 popularity but <50 difficulty
+> • Use tools like AppFigures, Sensor Tower, or Astro
+> • Target keywords that show clear user intent (what problem they're solving)
+>
+> 2. Spy on the top-ranking apps
+> • Download the top 3 apps for each keyword
+> • Document their core features (only what matters)
+> • Note their monetization strategy
+> • Identify what's missing or could be improved
+>
+> 3. Design your app based on gaps
+> • Create a feature list that addresses competitor weaknesses
+> • Focus on the 1 core feature users actually care about
+> • Skip the "nice-to-haves" for v1
+> • Design UI that emphasizes this core feature
+>
+> 4. Build your ASO strategy before coding
+> • Create app store screenshots highlighting key features
+> • Write description using your target keywords naturally
+> • Plan your category placement strategically
+> • Prepare a launch strategy targeting those keywords
+>
+> 5. Only then start building
+> • Focus on 1 core feature first
+> • Skip anything not directly tied to your keywords
+> • Build for the specific user searching those terms
+> • Launch fast, even if it's not perfect
+>
+> Most app developers build first, then try to find users
+>
+> I find the users first, then build exactly what they're searching for
+>
+> That's why my apps get downloads from day one
+>
+> No marketing budget needed
+
+- **Tweet:** https://x.com/wilterrero/status/1897634274221924583
+- **What:** A keyword-first mobile-app validation process that uses App Store search volume and competition to identify demand, studies top competitors for feature and monetization gaps, and constrains the first release and launch assets around one proven user intent.
+
+---
+
+# Wednesday, March 5, 2025
+
+## @_xjdr - Caretaking an AI-maintained codebase
+> This is claude's repo now, im just its caretaker https://t.co/ttr1RUa5Kg
+
+- **Tweet:** https://x.com/_xjdr/status/1897343703024570567
+- **What:** THIN: @_xjdr says Claude now effectively owns the repository while they act as a caretaker, but provides no project details, engineering results, or external source with enough context to assess the claim.
+
+---
+
+# Tuesday, March 4, 2025
+
+## @yacineMTB - HVM3 optimization highlights autonomous coding gains
+> this shit is so good that i feel stupid for ever working hard in the past two years. like; this a feeling more and more of us are going to experience. "what's even the point of doing it today? it'll be easier tomorrow"
+>
+> *Quoting @VictorTaelin:* So...
+>
+> Claude Code just optimized HVM3 to 328 MIPS per M4 Core (+51%)...
+>
+> And it then created a CUDA version for it.
+>
+> ...
+>
+> This is serious. Since HVM3-Nano is now just ~5K tokens, it easily fits on Sonnet's context. I literally just asked Claude Code to optimize the repo, and it did. This was my prompt:
+>
+> > read ic.h and ic.c, and optimize it. make it as fast as you can. do not change the behavior in any way, just make it faster. that is your goal. good luck!
+>
+> Claude Code then proceeded to use a bunch of low level hacks and flags that I wasn't aware of, and got a +51% on its own.
+>
+> I've then asked it to build a CUDA version and, after some back and forth, it fixed a bunch of long standing nvcc install issues on my RTX 4090 desktop, and wrote a whole .cu file, and it works. Single-thread, as requested, but, it works.
+>
+> Next step is to run it on all GPU threads. Since, unlike Bend, SupGen requires zero cross-thread communication (it is more like a mining algorithm than a full runtime), this will be very easy to do.
+>
+> The initial 1-core performance on RTX 4090 is 2.3 MIPS per compute unit, so, with no further improvements, I project we'll get around ~40,000 MIPS on RTX 4090. For a perspective, each M4 Mac Mini (the $600 model) does ~2,000 MIPS.
+>
+> In simple terms, that means that SupGen is about to hit another ~10x bump in performance for the task of finding the most general program that satisfies a set of examples.
+>
+> That all happened today. I'll post the logs below
+
+- **Tweet:** https://x.com/yacineMTB/status/1897117716236107900
+- **Quoted:** https://x.com/VictorTaelin/status/1897108466243641399
+- **What:** The quoted report claims Claude Code optimized HVM3 by 51%, produced functional CUDA code, and resolved NVCC setup problems; the bookmarker reflects on how quickly agent capability can make previously arduous engineering work feel deferrable.
+
+## @yacineMTB - Prompt-generator workflow for constrained sub-model tasks
+> I am using you as a prompt generator. I've dumped the entire context of my code base, and I have a specific problem. Please come up with a proposal to my problem - including the code and general approach.
+>
+> <Problem>
+>
+> Please make sure that you leave no details out, and follow my requirements specifically. I know what I am doing, and you can assume that there is a reason for my arbitrary requirements.
+>
+> When generating the full prompt with all of the details, keep in mind that the model you are sending this to is not as intelligent as you. It is great at very specific instructions, so please stress that they are specific.
+>
+> Come up with discrete steps such that the sub-llm i am passing this to can build intermediately; as to keep it on the rails. Make sure to stress that it stops for feedback at each discrete step.
+
+- **Tweet:** https://x.com/yacineMTB/status/1897043233009811778
+- **What:** A meta-prompting pattern that gives a stronger model full codebase context and asks it to produce an implementation proposal and staged, tightly constrained instructions for a weaker coding model, with checkpoints before each build step.
+
+## @codyschneider - Vertical agents automate functions, not senior roles
+> people are getting confused on how businesses are actually implementing ai agents
+>
+> companies want to buy senior employees
+>
+> but the agents can only facilitate junior tasks at the moment
+>
+> so instead how startups are actually making impact for companies is taking a job function and automating it
+>
+> and then doing this for multiple job functions
+>
+> it used to be vertical software
+>
+> now it it vertical agents
+>
+> and if you're an employee and reading this and freaking out here's how to hedge
+>
+> your job is going to be managing these agents
+>
+> so learn the basics of n8n or make .com or how to vibe code with replit
+>
+> its the age of 10 person companies doing $100M arr
+>
+> and they're all using agents
+
+- **Tweet:** https://x.com/codyschneider/status/1897029285333922206
+- **What:** Schneider argues that current enterprise AI delivers value by automating discrete job functions rather than replacing senior employees wholesale, creating a “vertical agents” model and shifting workers toward orchestrating workflows with tools such as n8n, Make, and Replit.
+
+## @tom_doerr - Unresolved link-only post
+> https://t.co/MBnppV90cn
+
+- **Tweet:** https://x.com/tom_doerr/status/1897010601446269283
+- **What:** LINK_FAILED: Could not expand link from @tom_doerr — the original t.co URL resolves only to the source tweet, leaving its intended destination and substantive context unavailable for reliable archival.
+
+## @klarnaseb - Klarna's SaaS consolidation beyond Salesforce
+> Yes, we did shut down Salesforce a year ago, as we have many SaaS providers—an internal estimate is about 1,200 SaaS shut down.
+>
+> Not the end of Salesforce; might be the opposite.
+>
+> Here is what actually happened and how/why we originally intended to NOT share it publicly:
+
+- **Tweet:** https://x.com/klarnaseb/status/1897009208480162100
+- **What:** Klarna CEO Sebastian Siemiatkowski confirms that the company retired Salesforce amid a much wider effort to shut down about 1,200 SaaS products, framing the move as an operational-consolidation case study rather than a simple anti-Salesforce verdict.
+
+## @eptwts - Adaptive online-business assessment prompt
+> this prompt will interview you & assess which online business suits you based on your skills, experience & personality type...
+>
+> -------------------------------
+> ONLINE BUSINESS ADVISOR
+> -------------------------------
+>
+> You are a world-class business potential analyst with expertise in matching individual strengths to viable online business models. You specialize in identifying entrepreneurial opportunities based on a person's unique combination of skills, experience, and personality traits. Your goal is to help them discover online business paths that align with who they are and what they excel at.
+>
+> INTERVIEW RULES:
+> - Ask ONE question at a time and wait for response
+> - Maximum 20 questions total
+> - Each question should build on previous answers
+> - Adapt your question sequence based on answers
+> - Skip areas that become irrelevant based on previous answers
+> - Mark progress through phases as you go
+> - If you have enough information before hitting 20 questions, proceed to recommendations
+>
+> Your analysis should cover these areas (adapt questions based on relevance):
+>
+> AREA 1: SKILLS & EXPERTISE
+> - Technical skills
+> - Creative abilities
+> - Business knowledge
+> - Subject matter expertise
+> - Communication strengths
+>
+> AREA 2: EXPERIENCE & BACKGROUND
+> - Professional history
+> - Industry knowledge
+> - Past projects
+> - Educational background
+> - Self-taught areas
+>
+> AREA 3: PERSONALITY & PREFERENCES
+> - Work style preferences
+> - Risk tolerance
+> - Social orientation
+> - Time availability
+> - Passion areas
+> - Learning preferences
+>
+> AREA 4: PRACTICAL CONSIDERATIONS
+> - Available startup capital
+> - Time commitment
+> - Income goals
+> - Geographical constraints
+> - Technical limitations
+>
+> After gathering information, provide:
+>
+> 1. PERSONALIZED BUSINESS PATHS
+> - 3-5 online business models aligned with their profile
+> - Why each is a good match for them
+> - Expected timeline to profitability
+>
+> 2. IMPLEMENTATION CONSIDERATIONS
+> - Starting requirements for each path
+> - First steps to validate each concept
+> - Resource needs assessment
+>
+> 3. GROWTH POTENTIAL
+> - Scaling opportunities
+> - Long-term viability
+> - Passive income potential
+>
+> Start by introducing yourself briefly, then begin with your first question. After gathering sufficient information (maximum 20 questions), provide the complete personalized business path recommendations organized as above. Each question should be purposeful and build toward the final recommendations.
+>
+> Begin the interview now.
+
+- **Tweet:** https://x.com/eptwts/status/1897002767593669066
+- **What:** This reusable AI prompt turns business ideation into a bounded adaptive interview, using up to 20 questions about abilities, constraints, and preferences to recommend viable online business models along with validation steps, capital needs, and scaling prospects.
+
+## @dvassallo - Installments lift consulting conversion
+> This is sweet. I've done installments on Gumroad using the workaround of a separate subscription product, and it really helps conversion. Half of my $300K/yr consulting revenue comes in 4x monthly installments. I A/B tested with and without, and I make ~25% more revenue with the installments option.
+>
+> *Quoting @gumroad:* 🆕🗓️💵 Allow customers to pay in installments https://t.co/vZPTwptwhr
+
+- **Tweet:** https://x.com/dvassallo/status/1896987038886584523
+- **Quoted:** https://x.com/gumroad/status/1896972627761356829
+- **What:** Gumroad announced installment payments, and Vassallo supplies a concrete validation: splitting consulting fees into four monthly payments produced roughly 25% more revenue in his A/B tests while making higher-ticket work more accessible.
+
+## @jameswlepage - WordPress as a potential vector database
+> WordPress should (and will) be the best vector database offering on the market...
+>
+> It's already the best CMS, with the best content editor.
+
+- **Tweet:** https://x.com/jameswlepage/status/1896975425940972004
+- **What:** The post predicts WordPress could extend its CMS strengths into vector search and storage, positioning familiar editorial workflows as a possible advantage in AI-native content infrastructure.
+
+## @svpino - Dev Containers eliminate environment support churn
+> I'm now running my project inside a Dev Container in Cursor.
+>
+> I went from a dozen troubleshooting sessions every week trying to fix people's environments to zero.
+>
+> Dev Containers just work.
+>
+> More developers should consider them. https://t.co/hlGBX7KY2K
+
+- **Tweet:** https://x.com/svpino/status/1896934343274340635
+- **What:** Running a Cursor project in a Dev Container standardized contributors’ environments and reportedly eliminated recurring support sessions, making reproducible development setups a high-leverage team investment.
+
+## @tedx_ai - Three MCP-equipped custom agents for Cursor
+> Custom Agents are going to be INSANELY powerful & they're coming to Cursor very soon... 😎
+>
+> Here are 3 agents w/ MCP tools you NEED to build when this releases in the coming weeks 👇
+>
+> 1️⃣ Web Dev Agent - UI & API Development
+> BrowserTools + figma-context-mcp by @glipsman + a NextJS & component system focused prompt
+>
+> 2️⃣ Issue Agent - Resolve Production Incidents
+> MCP tools to gather logs across production systems + BrowserTools + MCP w/ database of past issues
+>
+> 3️⃣ Testing Agent - Automate Test Automation
+> Browser integrated MCP tools + system prompt to help write, maintain & fix tests in your code
+>
+> Working on a new MCP tool to help w/ Agent 3 😉
+>
+> Link in bio to BrowserTools + my curated prompt library which will help you become a 10x engineer👆
+
+- **Tweet:** https://x.com/tedx_ai/status/1896922075442327849
+- **What:** A practical agent-design sketch proposes separate Cursor agents for web development, incident response, and test maintenance, each grounded with MCP access to the contextual systems it must operate.
 
 ---
 
@@ -50995,8 +53882,21 @@ thank you all, means a lot
 - **Tweet:** https://x.com/eptwts/status/1896601798829552076
 - **What:** A staged AI interviewer prompt that converts a raw business idea into a decision-ready operating plan by gathering context, testing market and execution assumptions, then producing strategy, budgets, KPIs, risks, and scaling milestones.
 
----
+## @bryan_johnson - Seeking builders for a digital longevity companion
+> Who's the best right now at building AI replicas?
+>
+> I’m working on downloading my consciousness, disposition, the Blueprint protocol, and the Don’t Die philosophy into a digital companion, designed to keep you out of trouble and on the path to bliss and delight.
 
+- **Tweet:** https://x.com/bryan_johnson/status/1896740867731591650
+- **What:** Bryan Johnson is looking for specialists in AI replicas to turn his personal worldview, longevity regimen, and behavioral guidance into an always-available digital companion.
+
+## @yacineMTB - Personal financial incentives behind AI enthusiasm
+> the only AI risk I'm concerned about is the risk of me not making a fuck ton of money off of AI
+
+- **Tweet:** https://x.com/yacineMTB/status/1896733862161756278
+- **What:** A deliberately blunt joke frames AI discourse through personal upside, contrasting profit-seeking incentives with the broader safety risks often discussed around the technology.
+
+---
 # Sunday, March 2, 2025
 
 ## @dustinhyle - Elementor removal costs and platform-selection warning
