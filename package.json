@@ -24,9 +24,10 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.29.0",
+    "better-sqlite3": "^12.9.0",
     "dayjs": "^1.11.10"
   },
-  "devDependencies": {},
   "engines": {
     "node": ">=20"
   }

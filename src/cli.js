@@ -14,6 +14,8 @@
 
 import { fetchAndPrepareBookmarks } from './processor.js';
 import { initConfig, loadConfig } from './config.js';
+import { runSearch, runBrain } from './brain/cli.js';
+import { runServe } from './brain/mcp.js';
 import { execSync } from 'child_process';
 import fs from 'fs';
 import path from 'path';
@@ -337,6 +339,18 @@ async function main() {
       break;
     }
 
+    case 'search':
+      await runSearch(args.slice(1));
+      break;
+
+    case 'brain':
+      await runBrain(args.slice(1));
+      break;
+
+    case 'serve':
+      await runServe();
+      break;
+
     case 'help':
     case '--help':
     case '-h':
@@ -357,6 +371,11 @@ Commands:
   fetch --media  EXPERIMENTAL: Include media attachments
   process        Show pending tweets
   status         Show current status
+  search "<q>"   Search the brain (FTS5 over knowledge/ + bookmarks.md)
+  brain index    Index or refresh the brain from markdown sources
+  brain stats    Show corpus + query-log stats
+  brain doctor   Report index health issues
+  serve          Start stdio MCP server (register with Claude Code / Hermes)
 
 Examples:
   smaug setup                    # First-time setup
