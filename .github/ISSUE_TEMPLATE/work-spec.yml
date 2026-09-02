@@ -1,0 +1,90 @@
+name: Work Spec (bead-quality)
+description: A self-contained, implementation-ready unit of work. Use for anything that will open a worktree + draft PR.
+title: "<type>: <short summary>"
+labels: ["work-spec"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        This issue is the ONLY thing an implementer (human or agent) should need to read.
+        Do not write "see the plan doc": embed everything here. Link the source plan for
+        provenance only, never as a required reference.
+  - type: dropdown
+    id: work_type
+    attributes:
+      label: Type
+      description: Conventional-commit prefix this work will land under.
+      options:
+        - feat
+        - fix
+        - perf
+        - chore
+        - docs
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Context & Motivation
+      description: "Why this exists; what breaks or is missing without it. Restate the relevant plan content here; do not rely on a link."
+      placeholder: |
+        - Problem:
+        - Why now:
+        - Source plan (optional, provenance only): docs/plans/...
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance_criteria
+    attributes:
+      label: Acceptance Criteria (testable assertions)
+      description: "Concrete, checkable statements, one per line. Enumerate edge cases explicitly; no 'handle edge cases' without naming them. This section seeds the worktree's VERIFY.md verbatim (verify-seed.sh)."
+      placeholder: |
+        - [ ] ...
+        - [ ] ...
+    validations:
+      required: true
+  - type: textarea
+    id: planted_negative
+    attributes:
+      label: Planted negative (what a wrong implementation would fail)
+      description: "For each criterion above, name a case a naive WRONG implementation would fail. It must be near-identical to its positive and differ ONLY in the forbidden dimension. A suite that only proves the happy path cannot detect a gate that stopped gating. If a criterion genuinely admits none, write why."
+      placeholder: |
+        - <criterion>: <near-identical case that must FAIL> (differs only in: <dimension>)
+    validations:
+      required: true
+  - type: textarea
+    id: no_claim_boundary
+    attributes:
+      label: No-Claim Boundary (what green here will NOT prove)
+      description: "Write this BEFORE implementing. Pre-stating the limits makes over-claiming a violation of this issue's own text instead of a judgment call at merge time. Name what a passing result leaves unproven: untested surfaces, fixtures standing in for live systems, downstream adoption not performed here."
+      placeholder: |
+        Green proves ... It does NOT prove:
+        - ...
+    validations:
+      required: true
+  - type: textarea
+    id: test_plan
+    attributes:
+      label: Test Plan (with logging requirements)
+      description: "What automated tests will be added or run, AND what must be logged at what point so a reviewer can confirm correctness from the log alone. 'Tests pass' is not a test plan."
+      placeholder: |
+        - Unit:
+        - Integration / e2e:
+        - Logging: what gets logged, where, at which step
+    validations:
+      required: true
+  - type: input
+    id: dependencies
+    attributes:
+      label: Dependencies (rationale only — the edges live on the issue)
+      description: "Native blocked-by edges are the machine contract (issue #431): wt-new.sh --blocked-by N[,M] at claim time, or gh issue edit --add-blocked-by (gh >= 2.94.0). gh-ready.sh filters on the graph, never on this field. Use this field for the WHY and for cross-repo refs the graph can't hold."
+    validations:
+      required: false
+  - type: checkboxes
+    id: definition_of_done
+    attributes:
+      label: Definition of Done
+      options:
+        - label: Tests pass (as specified above)
+        - label: Linters / typechecks clean
+        - label: Draft PR opened from a worktree referencing this issue number

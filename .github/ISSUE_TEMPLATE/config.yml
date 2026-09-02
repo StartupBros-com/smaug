@@ -1,0 +1,6 @@
+# Forces every web-UI issue through one of the two forms (work-spec or
+# quick-capture). This does NOT constrain `gh issue create --body-file`, which
+# bypasses forms entirely; the wt-new.sh skeleton and human review are the only
+# guard on that path. Accepted gap, not a bug.
+blank_issues_enabled: false
+contact_links: []
