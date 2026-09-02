@@ -1,0 +1,12 @@
+name: Quick Capture
+description: A one-liner idea, bug, or chore not worth a full Work Spec yet. Upgrade to a Work Spec (add acceptance criteria + test plan) before opening a worktree.
+title: "<short summary>"
+labels: ["quick-capture"]
+body:
+  - type: textarea
+    id: note
+    attributes:
+      label: What & why
+      description: One or two sentences. No structure required.
+    validations:
+      required: true
