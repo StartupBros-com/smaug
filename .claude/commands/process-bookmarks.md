@@ -304,11 +304,7 @@ git add "$ARCHIVE_FILE"  # The archiveFile path from config
 git add knowledge/
 
 # Commit with descriptive message
-git commit -m "Process N Twitter bookmarks from $DATE
-
-🤖 Generated with [Claude Code](https://claude.com/claude-code)
-
-Co-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>"
+git commit -m "Process N Twitter bookmarks from $DATE"
 
 # Push immediately
 git push
