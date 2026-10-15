@@ -295,6 +295,15 @@ function buildBirdEnv(config) {
   return env;
 }
 
+// Capture through a temp file to work around bird CLI pipe buffering.
+// Preserve read -> unlink -> parse ordering, including failure behavior.
+function captureBirdJson(command, tmpFile, timeout, env) {
+  execSync(`${command} > "${tmpFile}"`, { timeout, env, shell: true });
+  const output = fs.readFileSync(tmpFile, 'utf8');
+  fs.unlinkSync(tmpFile);
+  return JSON.parse(output);
+}
+
 export function fetchBookmarks(config, count = 10, options = {}) {
   try {
     const env = buildBirdEnv(config);
@@ -323,14 +332,8 @@ export function fetchBookmarks(config, count = 10, options = {}) {
 
     // Use temp file to work around bird CLI pipe buffering bug
     const tmpFile = path.join(os.tmpdir(), `smaug-bookmarks-${Date.now()}.json`);
-    execSync(`${cmd} > "${tmpFile}"`, {
-      timeout: useAll ? 180000 : 60000, // 3 min for --all, 60s otherwise
-      env,
-      shell: true
-    });
-    const output = fs.readFileSync(tmpFile, 'utf8');
-    fs.unlinkSync(tmpFile);
-    const parsed = JSON.parse(output);
+    // 3 min for --all, 60s otherwise
+    const parsed = captureBirdJson(cmd, tmpFile, useAll ? 180000 : 60000, env);
     // bird CLI v0.6.0+ returns { tweets: [...], nextCursor: ... } for paginated requests
     // but plain arrays for non-paginated. Handle both formats.
     let bookmarks = Array.isArray(parsed) ? parsed : (parsed.tweets || []);
@@ -354,14 +357,7 @@ export function fetchLikes(config, count = 10) {
     const birdCmd = config.birdPath || 'bird';
     // Use temp file to work around bird CLI pipe buffering bug
     const tmpFile = path.join(os.tmpdir(), `smaug-likes-${Date.now()}.json`);
-    execSync(`${birdCmd} likes -n ${count} --json > "${tmpFile}"`, {
-      timeout: 60000,
-      env,
-      shell: true
-    });
-    const output = fs.readFileSync(tmpFile, 'utf8');
-    fs.unlinkSync(tmpFile);
-    const parsed = JSON.parse(output);
+    const parsed = captureBirdJson(`${birdCmd} likes -n ${count} --json`, tmpFile, 60000, env);
     // Handle both array and object formats for consistency
     return Array.isArray(parsed) ? parsed : (parsed.tweets || []);
   } catch (error) {
