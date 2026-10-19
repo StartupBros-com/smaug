@@ -173,18 +173,8 @@ export async function fetchXArticleContent(articleUrl, config, sourceTweetId = n
 
   // Last resort: scrape meta tags (can't get full content - X articles require JS to render)
   try {
-    const controller = new AbortController();
-    const timeout = setTimeout(() => controller.abort(), 15000);
-    
-    const response = await fetch(articleUrl, {
-      headers: {
-        'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36'
-      },
-      signal: controller.signal,
-      redirect: 'follow'
-    });
-    clearTimeout(timeout);
-    
+    const response = await fetchArticleResponse(articleUrl, 15000);
+
     const html = await response.text();
     const titleMatch = html.match(/<title>([^<]+)<\/title>/i);
     const descMatch = html.match(/<meta[^>]*name=["']description["'][^>]*content=["']([^"']+)["']/i) ||
@@ -541,19 +531,25 @@ export async function fetchGitHubContent(url) {
   }
 }
 
+/** Fetch article headers with the caller's timeout; body handling stays with the caller. */
+async function fetchArticleResponse(url, timeoutMs) {
+  const controller = new AbortController();
+  const timeout = setTimeout(() => controller.abort(), timeoutMs);
+
+  const response = await fetch(url, {
+    headers: {
+      'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36'
+    },
+    signal: controller.signal,
+    redirect: 'follow'
+  });
+  clearTimeout(timeout);
+  return response;
+}
+
 export async function fetchArticleContent(url) {
   try {
-    const controller = new AbortController();
-    const timeout = setTimeout(() => controller.abort(), 30000);
-
-    const response = await fetch(url, {
-      headers: {
-        'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36'
-      },
-      signal: controller.signal,
-      redirect: 'follow'
-    });
-    clearTimeout(timeout);
+    const response = await fetchArticleResponse(url, 30000);
 
     const text = await response.text();
     // Limit to 50KB like the old curl | head -c 50000
