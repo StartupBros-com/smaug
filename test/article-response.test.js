@@ -19,11 +19,14 @@ function setup(t, { html = 'a'.repeat(1000), fetchError, bodyError, abort = fals
     return JSON.stringify(bird);
   });
   syncBuiltinESMExports();
+  const abortControllerDescriptor = Object.getOwnPropertyDescriptor(globalThis, 'AbortController');
   t.after(() => {
+    Object.defineProperty(globalThis, 'AbortController', abortControllerDescriptor);
     t.mock.restoreAll();
     syncBuiltinESMExports();
   });
-  t.mock.method(globalThis, 'AbortController', class {
+  // Node 20 exposes AbortController through a lazy accessor, not a value method.
+  Object.defineProperty(globalThis, 'AbortController', { configurable: true, writable: true, value: class {
     constructor() {
       Object.defineProperty(this, 'signal', { value: { aborted: false } });
       this.abort = () => {
@@ -33,7 +36,7 @@ function setup(t, { html = 'a'.repeat(1000), fetchError, bodyError, abort = fals
       controllers.push(this);
       events.push(['controller']);
     }
-  });
+  } });
   t.mock.method(globalThis, 'setTimeout', (callback, delay) => {
     const timer = { callback, delay };
     timers.push(timer);
