@@ -1,3 +1,149 @@
+# Sunday, November 8, 2026
+
+## @emilkowalski - New /gestures skill for building polished app gestures
+> New skill: /gestures
+>
+> Helps you build beautiful, intuitive gestures for your app.
+>
+> Adds rubber banding, velocity support for dragging, drags that carry momentum, everything I learned from building Sonner and Vaul, and more.
+>
+> I've been using it a lot recently, you'll love it. https://t.co/1vIxxNo8NI
+
+- **Tweet:** https://x.com/emilkowalski/status/2119406396160540738
+- **What:** Emil Kowalski (author of Sonner and Vaul) released a /gestures agent skill that teaches coding agents to implement refined touch and drag interactions: rubber banding, velocity-aware dragging and momentum. It packages his lessons from those libraries; the tweet's link only points back at itself, probably to an attached demo, so no repo was captured.
+
+## @cu30rry_ - Why pstack (poteto-mode) works: it encodes classic engineering principles
+> なぜ pstack が良いのかは /poteto-mode を呼んでおけば、最高峰のエンジニアの仕事をエージェントが再現してくれるからだ
+>
+> 実際に多くの名著と呼ばれる技術書で言われていることと、pstack はかなり重なる部分がある
+>
+> ・principle-subtract-before-you-add：不要なコード（デッドコード、重複した検証、スタブへの参照）を先に消してから開発
+> ・principle-laziness-protocol：過剰実装を避け、削除と、問題を解くために、一番小さい変更をする
+> ・/poteto-mode：目的・完了条件を明確に定義し、検証方法をエージェントに渡す
+>
+> しかも各ファイルの設計もシンプルでありつつ、洗練されているし、人間は基本 /poteto-mode さえ覚えておけばいいというUXの高さを実現している
+>
+> エンジニアの思考がまとまった至高のフレームワークであると同時に、エージェントも人も認知負荷が少ないUXとなっている
+>
+> これは、@poteto さんのバックグラウンドがあってこそのプラグインだ
+>
+> *Quoting @inoino65536:* O'Reillyのベタープログラマという書籍を読んだのだけど、これは俺なんかよりAIが読んだ方がいいだろ。大体はpstackに詰め込まれてる。もっと広まってくれ！読書中のメモ載せときます。(Notes: readability, good naming, comments explain why, keep code minimal, DRY, KISS, delete dead code, reuse existing knowledge, keep structure and docs tidy, understand the user's true need, prioritize, avoid over-implementation, define done criteria up front, improve continuously.)
+
+- **Tweet:** https://x.com/cu30rry_/status/2119379401842516265
+- **Quoted:** https://x.com/inoino65536/status/2118906585821163741
+- **What:** (Japanese) Praises poteto's pstack agent plugin because invoking /poteto-mode makes an agent follow principles also found in an O'Reilly "Better Programmer" book (per the quoted notes): subtract before adding, smallest change that solves the problem, and define the goal, done-criteria and verification up front. Highlights its low cognitive load, since users mostly just remember one command.
+
+## @awe0_io - Meta open-sources Astryx, an agent-ready React design system
+> Meta 这次真把家底掏出来了。
+>
+> 内部打磨了整整 8 年、支撑超过 13,000 个应用的设计系统，直接开源了，名字叫 Astryx。
+>
+> 150 多个现成 UI 组件，按钮、表单、弹窗、深色模式、品牌主题全都有。
+>
+> 最有意思的是，它连 AI Agent 都考虑进去了。通过 CLI 和 MCP，AI 可以直接使用组件文档和模板，不用每次写前端都从零开始造轮子。
+>
+> 以前让 AI 写界面，出来什么样全看运气。现在可以让它沿着一套成熟的设计规范来搭建。
+>
+> 而且是 MIT 开源协议，目前还处于 Beta 阶段。
+>
+> GitHub：https://github.com/meta/astryx
+
+- **Tweet:** https://x.com/awe0_io/status/2119354093458395284
+- **Link:** https://github.com/meta/astryx
+- **Filed:** [astryx.md](./knowledge/tools/astryx.md)
+- **What:** Meta open-sourced Astryx (MIT, Beta), the design system it built over eight years for 13,000+ internal apps, with 150+ React 19 components, theming, dark mode and templates. Its CLI and MCP give AI agents direct access to component docs and templates, so generated UI follows a mature system instead of being improvised.
+
+## @steveruizok - Designing products for high-trust private networks (tldraw)
+> There's a huge product opportunity downstream of Tailscale etc too. At @tldraw we've started designing for "high trust networks" and it's been a beautiful thing.
+>
+> 1. Features that would be a nightmare on the internet are okay on my computer and mostly okay on private networks. Websites that execute user-generated scripts, control production systems, allow for users to send desktop notifications, spend tokens, or directly prompt my agent. Crazy stuff that would only make sense if everyone was in a committed polycule.
+>
+> 2. When everyone on the server can be trusted to have _external_ reasons for good behavior (eg keeping their job, or maintaining friends, family, church, mafia org), the software can be designed in a default social way. Most apps default to isolation, low horizontal visibility, highly restricted collaboration. Makes sense if the social contracts are inside of the app, but if you can trust that they live outside of the app then you can get wild. Example being small group chat names as an emergent comedy phenomenon because anyone in the group can change the name.
+>
+> 3. This can work for commercial products, too, not just internal stuff. Security matters more than ever but the way we've seen that manifest is that more companies are more confident in their own solutions than anything we could provide, to the point where owning data and access is a better value proposition than having it managed. Always has been true for big companies but now even small companies can get a good secure network set up pretty easily, and the hooks we need to build are easy enough.
+>
+> tldraw offline got us started down this road (and shout out to @pendev for first introducing me to the idea of desktop + mcp). We've been bringing that product to private networks and it's been exciting to see how much we can get away with. Keep an eye out
+>
+> *Quoting @mschoening:* I think @Tailscale could be 100x larger than it is today in just a few years.
+>
+> The open internet is dying. Agents will turn it into a toxic wasteland. UniFi, Tailscale, Discord, and AWS all win in that scenario.
+>
+> Call of Duty lobbies are a good analogy. When games are overrun by cheaters (humanoids), humans retreat to private, high-trust lobbies.
+>
+> The same thing happened with the Facebook Wall (blast from the past): people retreated to group chats.
+>
+> Besides not being a cozy place to hang out it's also dangerous to advertise your existence (dark forest theory of the internet)...
+
+- **Tweet:** https://x.com/steveruizok/status/2119330296558506291
+- **Quoted:** https://x.com/mschoening/status/2119104164072665416
+- **What:** Max Schoening argues agents will turn the open internet into a wasteland so people retreat to private high-trust networks (Tailscale, UniFi, Discord), and tldraw's Steve Ruiz extends that into a product thesis. On trusted networks you can ship features that are unsafe on the public web (running user scripts, prompting agents, spending tokens), design for open collaboration, and sell self-owned data and access to small companies.
+
+## @KingBootoshi - "Data-first household" system prompt line for agents
+> system prompt i just sent my agents
+>
+> "we are a DATA first household. all conclusions must be backed by proven data via probing, reading files , or using your tools to pull data.  ALWAYS prove facts before making a conclusion"
+>
+> this will 100x your agent i swear it's fucking insane
+
+- **Tweet:** https://x.com/KingBootoshi/status/2119314641843376499
+- **What:** A short system-prompt snippet telling agents to ground every conclusion in evidence gathered by probing, reading files or running tools, and never to assert facts unproven. It is a cheap anti-hallucination instruction, claimed (anecdotally, with no measurements) to sharply improve agent reliability.
+
+---
+
+# Saturday, November 7, 2026
+
+## @doodlestein - Prompt Coda to Let Agent Swarms Decide Autonomously
+> This prompt coda is very useful if you're using frontier models, have everything nicely planned out with a good architecture, and want to have as many agents as possible working for you:
+>
+> "Remember: use your expert judgment on all decisions to make the optimal choice. I believe in you! Keep cranking away on all that, friend! You're doing a great job. YOU decide everything you said you are "still waiting on me" for!! YOU ARE THE BOSS"
+
+- **Tweet:** https://x.com/doodlestein/status/2119292045625852217
+- **What:** Jeffrey Emanuel's prompt coda that tells frontier-model agents to make their own judgment calls instead of stalling on "waiting on me" questions, so many agents can run in parallel once the plan and architecture are solid.
+
+## @GarrettPetersen - Prompt: Find Objects Lacking Stable Canonical IDs
+> Good prompt: "Find every object in this codebase that's referenced without a stable, canonical ID."
+
+- **Tweet:** https://x.com/GarrettPetersen/status/2119213952106373177
+- **What:** Shares a single-sentence audit prompt for coding agents that surfaces objects referenced by position, name or ad-hoc keys instead of a stable canonical ID, a common source of fragile references and data-model bugs worth fixing early.
+
+## @LoganTGott - Inbound Content Engine: Grok Bot, Voice Notes, Kill List and Claude
+> Gonna say it again because you guys aren't listening:
+>
+> Grok Bot scraping viral posts + your own voice notes + a kill list + Claude + posting daily on LinkedIn and X = inbound
+>
+> could not be easier right now
+
+- **Tweet:** https://x.com/LoganTGott/status/2119200963147772176
+- **What:** Outlines a lightweight inbound-lead recipe: a Grok bot harvests viral posts, combined with your own voice notes and a kill list of banned topics or phrasing, Claude drafts content, and you post daily on LinkedIn and X. Details are sparse; it is a stack outline, not a tutorial.
+
+## @veliorix - Ousterhout's Philosophy of Software Design as Anti-Slop Agent Prompts
+> THE BEST ANTI-SLOP PROMPT LIBRARY FOR AI CODE IS A SHORT BOOK FROM 2018.
+>
+> the line going around right now, "deepen modules and simplify interfaces", is chapter 4 of John Ousterhout's A Philosophy of Software Design. deep module = small interface, a lot of work hidden inside.
+>
+> the same book has 3 more lines that work just as well on agents:
+>
+> - "pull complexity downwards": the function absorbs the mess so callers stay simple
+> - "define errors out of existence": change the API so the edge case can't happen, instead of adding another try/catch
+> - "design it twice": make the agent sketch two radically different approaches before it writes a line
+>
+> models already know these terms. you just have to name the principle.
+
+- **Tweet:** https://x.com/veliorix/status/2119152590625861873
+- **What:** Argues that named principles from Ousterhout's A Philosophy of Software Design (deep modules, pull complexity downwards, define errors out of existence, design it twice) work as short, effective prompts that steer coding agents away from sloppy code, since models already know the terms.
+
+## @thomasmc - satmux: BBR TCP Multiplexer to Fix Inflight Wi-Fi
+> Life hack if your flight doesn't have Starlink: ask your agent to bypass the 443 split-TCP proxy via a $0.03/h BBR multiplexer and get ~4× faster, reset-free internet.
+>
+> Open-sourcing it from the clouds: https://t.co/TBH5uRX9AO https://t.co/zeGQv0PfJA
+
+- **Tweet:** https://x.com/thomasmc/status/2119102696280240176
+- **Link:** https://github.com/Th0rgal/satmux
+- **Filed:** [satmux.md](./knowledge/tools/satmux.md)
+- **What:** Zero-dependency Python tool that tunnels traffic over persistent non-443 BBR carriers to a cheap ground VM, dodging GEO inflight Wi-Fi split-TCP proxies and DNS interception; reports 3.6x faster bursts with no resets, and a coding agent can set it up.
+
+---
+
 # Wednesday, August 19, 2026
 
 ## @DavidOndrej1 - One-line push to install a tool named bb
