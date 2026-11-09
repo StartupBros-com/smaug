@@ -1,4 +1,38 @@
+# Monday, November 9, 2026
+
+## @anthonyriera - "Delete over simplify" codebase audit prompt, pitched for Claude Fable 5.2
+> Claude Fable 5.2 is out and it's the perfect time to run this god-level prompt on your codebase:
+>
+> "I want you to audit our codebase, is anything here unnecessary, overly complicated in our current setup, or based on weak assumptions? Challenge them. 
+>
+> - What can be deleted entirely?
+> - What can be simplified now that unnecessary pieces are gone?
+>
+> Then make the changes. Prefer deleting over simplifying, simplifying over optimizing, and optimizing over automating.
+>
+> This product is being used by thousands of customers, do not cut any corners."
+>
+> This prompt is one I run often and leads to the best results.
+>
+> *Quoting @claudeai:* Introducing Claude Fable 5.2 and Claude Mythos 5.2, designed to tackle the most daunting technical challenges.
+>
+> They’re capable collaborators on ambitious projects in many fields, and show improvements in areas like coding, reasoning, and vision.
+
+- **Tweet:** https://x.com/anthonyriera/status/2119870644514893997
+- **Quoted:** https://x.com/claudeai/status/2119867114450268322
+- **What:** Anthony shares a reusable codebase-audit prompt that challenges weak assumptions and ranks delete > simplify > optimize > automate, timed to Anthropic's Claude Fable 5.2 and Mythos 5.2 launch announcement.
+
+---
+
 # Sunday, November 8, 2026
+
+## @Voxyz_ai - Prompt to find implicit state machines and improve UX, DX and AX
+> Vibecoders, 𝗜'𝗺 𝗯𝗲𝗴𝗴𝗶𝗻𝗴 𝘆𝗼𝘂, open your messiest project and paste this into Claude Code or Codex:
+>
+> "Find all of the implicit state machines in my app. Make the best decision that will elevate all three: the user experience (UX), developer experience (DX), and agent experience (AX) always, without breaking anything."
+
+- **Tweet:** https://x.com/Voxyz_ai/status/2119444845890617507
+- **What:** Vox offers a one-shot refactoring prompt for Claude Code or Codex that surfaces implicit state machines (scattered boolean flags and ad-hoc status logic) and makes them explicit to improve user, developer and agent experience.
 
 ## @TheWontonShawn - Walmart+ Thanksgiving feast for 10 deal with Double10 promo code
 > Right now there is a deal on Walmart+.  You search "Thanksgiving feast for 10" and then you add all the items to the cart.  It totals $35, then you type in promo code "Double10" and it takes off an additional $10.  You get a ton of stuff including a whole turkey and all the sides.  Even if you aren't cooking Thanksgiving dinner, this is a lot of food for $25, especially right now!
