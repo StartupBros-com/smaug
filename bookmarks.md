@@ -144,6 +144,1591 @@
 
 ---
 
+# Wednesday, October 28, 2026
+
+## @vikramcantsingh - Muse Spark Open Kernel Challenge, $100K for faster GPU kernels
+> learned what a kernel is last night https://twitter.com/vikramcantsingh/status/2115617677582467083
+>
+> *Quoting @danielgross:* We're launching a $100,000 challenge to see who can make Muse Spark run fastest: https://openkernelchallenge.dev/
+
+- **Tweet:** https://x.com/vikramcantsingh/status/2115617677582467083
+- **Quoted:** https://x.com/danielgross/status/2113351902402613558
+- **Link:** https://openkernelchallenge.dev/
+- **What:** Vikram jokes about just learning what a GPU kernel is while quoting Daniel Gross's launch of the Muse Spark Open Kernel Challenge, a $100,000 prize contest (Meta, Paradigm, Andromeda) to speed up Meta's Muse Spark Open by optimizing its GPU kernels and SGLang serving.
+
+## @stalman - Demo of a cluster of 8 iPhones and 2 Mac Studios
+> Take a minute to appreciate this demo of what an insane rig of 8 iPhone and 2 Mac Studios is capable of https://twitter.com/stalman/status/2115591845611012607
+
+- **Tweet:** https://x.com/stalman/status/2115591845611012607
+- **What:** THIN: @stalman praises a video demo of a rig combining 8 iPhones and 2 Mac Studios working together; the video is attached media and the specific workload (likely local compute or inference) is not stated in the text.
+
+## @OpenAIDevs - Up to $500/month API credits for ChatGPT Pro and Business subscribers
+> Starting today, eligible ChatGPT Pro and Business subscribers can claim up to $500 per month in API credits to build apps and agents. https://twitter.com/OpenAIDevs/status/2115583698074755078
+
+- **Tweet:** https://x.com/OpenAIDevs/status/2115583698074755078
+- **What:** OpenAI announces that eligible ChatGPT Pro and Business subscribers can claim up to $500 per month in API credits for building apps and agents, effectively bundling API spend into the subscription; eligibility details were not in the tweet text.
+
+## @rauchg - Vercel AI Gateway virtual models as "DNS for models"
+> This is like DNS for models. An alias that *resolves* to a model, giving you traffic-steering abilities.
+>
+> Solves a huge number of problems. From not having teams stuck on old model versions, to saving on costs, to removing "decision paralysis". Try it!
+>
+> *Quoting @vercel:* Introducing virtual models on AI Gateway.
+>
+> Use a single virtual model ID across agents to:
+> • Centrally manage model strings and configs
+> • Immediately update to new models
+> • Enforce Zero Data Retention
+>
+> Read the blog post → https://vercel.com/blog/ai-gateway-virtual-models
+
+- **Tweet:** https://x.com/rauchg/status/2115573969369845855
+- **Quoted:** https://x.com/vercel/status/2115571121622073355
+- **Link:** https://vercel.com/blog/ai-gateway-virtual-models
+- **What:** Vercel AI Gateway adds virtual model IDs: one alias across agents that resolves to a real model, so teams can centrally swap model strings, adopt new models immediately, steer traffic for cost, and enforce Zero Data Retention; Rauch likens it to DNS. The blog page extracted as raw HTML, so detail comes from the tweets.
+
+## @yonasbe - Vercel CI is a new CI engine, not a GitHub Actions runner
+> For anyone wondering, Vercel CI isn't a GitHub Actions runner. It's a new CI engine (Level 4 in our guide: https://x.com/yonasbe/status/2110776607942295732) built around Turborepo.
+>
+> With third-party GHA runners (like @starslingdev and others), GitHub Actions still controls CI, while the runner providers supply the compute.
+>
+> With Vercel CI, Vercel handles both orchestration and execution. It determines which tasks a change affects, reuses cached results, and runs the rest on Vercel's compute.
+>
+> The tradeoff: faster runners with your existing GHA setup vs. a new CI engine with built-in task orchestration and caching, which means adding turbo.json, tagging tasks, and moving off workflow YAML. Both report checks to PRs.
+>
+> If you're already on Vercel + Turbo, it looks promising and seems like a step in the right direction for a new CI engine.
+>
+> *Quoting @vercel:* Introducing Vercel CI
+>
+> • Intelligently skips tasks with Turborepo
+> • 2-6× faster CI in our internal repositories
+> • Optimized for agents via Vercel MCP and CLI
+>
+> After nearly 8 million tasks, we're excited for the future of agentic CI. In beta on all plans. https://vercel.com/blog/introducing-vercel-ci
+
+- **Tweet:** https://x.com/yonasbe/status/2115570546922668075
+- **Quoted:** https://x.com/vercel/status/2115526935636021696
+- **Link:** https://x.com/yonasbe/status/2110776607942295732
+- **What:** Clarifies that Vercel CI replaces GitHub Actions orchestration (Level 4 "switch CI engines" in Yonas's Levels of CI guide, which runs from Actions caching through swapping runners to agent-driven test selection), versus third-party GHA runners that only supply faster compute; adopting it means adding turbo.json and moving off workflow YAML.
+
+## @heinenbros - Embedding a full product demo in an email signature
+> You can just put an entire product demo in your email signature.
+>
+> I am about to become the most insufferable person to receive an email from. https://twitter.com/heinenbros/status/2115568642243039495
+
+- **Tweet:** https://x.com/heinenbros/status/2115568642243039495
+- **What:** THIN: @heinenbros says an entire product demo can be embedded in an email signature and jokes about becoming insufferable to email; the demo itself is attached media and no tool or method is named in the text.
+
+## @kunchenguid - Three ways to speed up CI for agent-speed development
+> now that we all agreed to not review most of the code any more, CI became the next bottleneck
+>
+> at agent speed, if our CI pipeline is simply "run all the build, lint, tests", it'll become a major slow down
+>
+> here are a few things i suggest for how to optimize:
+>
+> 1. balance load between CI and CD
+>
+> CI protects main branch. CD protects production. if you can tolerate some delay in deploying your main branch to production, then you can do less in CI and do more in CD
+>
+> for example, for a cross platform app i made my CI pipeline skip most mac and windows tests because linux already covered the same functionality
+>
+> the tradeoff is occasionally i'd catch a mac or windows-only bug in CD before release, but in exchange, my CI pipeline became 15x faster - well worth it
+>
+> 2. modularize your codebase such that changes are isolated
+>
+> then you can make your CI only run build, lint, test for the module being touched
+>
+> this requires careful consideration for cross-module protocols. they should likely be their own modules, so when they do change, you know you probably need to test all dependent modules
+>
+> 3. for large modules, invest in test selection
+>
+> in CI, try to only run tests that are covering the areas being changed. doing accurate test selection is not easy though, and often requires continuous tuning
+>
+> i have a nightly loop specifically doing audit of past test runs and tweak my test selection to be more accurate. a big codebase of mine got pretty good at this - 20x faster CI compared to running all tests, and almost never miss any real problem
+
+- **Tweet:** https://x.com/kunchenguid/status/2115565245293039814
+- **What:** Practical CI-speed playbook: move cross-platform checks from CI to CD (15x faster pipeline), modularize so CI only tests touched modules, and use test selection tuned by a nightly audit loop of past runs (20x faster with almost no missed problems).
+
+## @sethrose - Using Muse to track spam-text TCPA violations in a Google Sheet
+> Normal people block spam texts.
+>
+> Me? I found out TCPA violations can cost $500–$1,500 each, so naturally I put my @Muse to work tracking potential violations in a Google Sheet. https://twitter.com/sethrose/status/2115559371492991038
+
+- **Tweet:** https://x.com/sethrose/status/2115559371492991038
+- **What:** THIN: @sethrose jokes that since TCPA violations carry $500-$1,500 statutory damages each, he has his Muse AI agent log unwanted spam texts into a Google Sheet as potential claims; the tweet has an attached media item not captured in the text.
+
+## @rauchg - Vercel CI: faster infra, Turborepo skipping, and agentic CI via `vercel ci`
+> Vercel CI solves the "AI coding bottleneck" via:
+> ① Fast and stable infrastructure (faster work)
+> ② Turborepo integration (less work)
+> ③ Agentic CI
+>
+> ① is obvious. Your CI is slow, flaky, goes down. We solve that. We operate 20 worldwide clusters doing millions of microVMs per day.
+>
+> ② is less obvious, but very powerful. Turborepo was designed to intelligently skip and cache prior work. The graph of dependencies is computed, not written.
+>
+> Ask your agent to migrate to @turborepo and start saving money and time. Even if you don't use us. But you should, it's really good.
+>
+> ③ is a game-changer. `vercel ci` in the CLI is the first step, because now your agents can inspect, abort, trigger, replay CI. Vercel Agent can help optimize it. And this is just the start.
+>
+> You can expect a lot of hooks and capabilities to make CI something far more intelligent, that can even capture the nuance and judgment an engineer would have ("Are those tests even worth running?")
+>
+> Agentic CI is the future of how we ship software. Excited to build it with you all!
+>
+> *Quoting @vercel:* Introducing Vercel CI
+>
+> • Intelligently skips tasks with Turborepo
+> • 2-6× faster CI in our internal repositories
+> • Optimized for agents via Vercel MCP and CLI
+>
+> After nearly 8 million tasks, we're excited for the future of agentic CI. In beta on all plans. https://vercel.com/blog/introducing-vercel-ci
+
+- **Tweet:** https://x.com/rauchg/status/2115539426684408300
+- **Quoted:** https://x.com/vercel/status/2115526935636021696
+- **Link:** https://vercel.com/blog/introducing-vercel-ci
+- **What:** Vercel launches a beta CI engine built on Turborepo task skipping and caching (claimed 2-6x faster internally), with a `vercel ci` CLI and MCP so agents can inspect, abort, trigger and replay runs; Rauch frames CI as the next bottleneck for AI-speed coding. The linked blog page extracted as raw HTML, so detail comes from the tweets only.
+
+## @tarasshyn - Disable Claude Code "Co-authored-by" attribution via settings.json
+> To remove this "Co-authored-by: Claude" crap:
+>
+> ~/.claude/settings.json
+>
+> {
+>   "attribution": {
+>     "commit": "",
+>     "pr": ""
+>   },
+>   "includeCoAuthoredBy": false
+> }
+
+- **Tweet:** https://x.com/tarasshyn/status/2115525255875686466
+- **What:** Config snippet for stripping the "Co-authored-by: Claude" trailer from Claude Code commits and PRs by setting empty `attribution.commit` and `attribution.pr` strings plus `includeCoAuthoredBy: false` in ~/.claude/settings.json.
+
+## @Marie_Haynes - Google Connected Apps Platform lets MCP apps run inside Search and Gemini
+> While everyone is talking about Gemini 4 Carbon today, Google just announced something even bigger for Search Marketers:
+>
+> You can now build apps (using MCP) that can be used directly inside Google Search and Gemini.
+>
+> Google announced the Connected Apps Platform. When  approved, users link your app once and can access their data and take actions in your service seamlessly from Google's products.
+>
+> Remember when Sundar Pichai said that Search will become an agent manager? This is it!
+>
+> For 25 years, Search was a place where people connected with websites for information. In this new era, it's functionality that matters. Your business will be found on Search if it helps people (and their agents) get things done.
+>
+> https://blog.google/innovation-and-ai/technology/developers-tools/connected-apps-one-place/
+
+- **Tweet:** https://x.com/Marie_Haynes/status/2115507306163208445
+- **Link:** https://blog.google/innovation-and-ai/technology/developers-tools/connected-apps-one-place/
+- **What:** Marie Haynes flags Google's new Connected Apps Platform, where developers build MCP-based apps that users link once and then use inside Google Search and Gemini (preview signup, per the blog's "Build and manage Connected Apps in one place"). Her SEO takeaway is that visibility will depend on getting tasks done for users and their agents rather than just serving web pages. Blog extraction was raw HTML, so body detail is not captured.
+
+## @shdu11546816 - Browser fingerprinting to fix Meta ads lead attribution
+> There's one key piece of sauce that I forgot to include.
+>
+> Browser and Device Fingerprinting using https://fingerprint.com/
+>
+> Another problem you'll find with meta ads is it's very easy for meta to lose track of who clicks on your ad.
+>
+> iPhone has all these privacy restrictions now.
+>
+> Sometimes people click "open in browser" and exit Metas in-app browser.
+>
+> Or sometimes they'll look at your ad on their phone, but then they open the website later on their desktop.
+>
+> Or sometimes the spouse will see the ad, tell their partner about it and then the partner goes on your website to fill out a lead form.
+>
+> Before we implemented fingerprinting, 50% of our leads would come in without accurate attribution.
+>
+> Afterwards I was able to trace 95% of our leads back to the source.
+>
+> Here's how I did it:
+>
+> *Quoting @shdu11546816:* Two weeks ago a life changing amount of money was wired into my bank account from the sale of my business. Since I'm no longer a competitor in this particular arena, I'm gonna drop some sauce on how I completely mogged an entire industry on meta ads.
+
+- **Tweet:** https://x.com/shdu11546816/status/2115474511617556628
+- **Quoted:** https://x.com/shdu11546816/status/2114882910096408939
+- **Link:** https://fingerprint.com/
+- **What:** Part of a Meta-ads playbook thread: using Fingerprint's browser and device fingerprinting to link ad clicks to later visits across in-app browsers, iOS privacy limits, device switches and shared-household referrals, lifting attributed leads from roughly 50% to 95%. The actual how-to is in the thread continuation, which is not captured; the fingerprint.com extraction was raw HTML.
+
+## @AniC_dev - boat.dev launches cheap GitHub Actions runners on its cloud VMs
+> ciao blacksmith
+>
+> we just made a CI runner so cheap & fast you can scale your CI by 20x on the same budget
+>
+> introducing CI on https://boat.dev/'s cloud VMs
+>
+> 1. install boat & run:
+> $ boat ci connect
+>
+> 2. change your runner:
+> -    runs-on: ubuntu-latest
+> +    runs-on: boat https://x.com/AniC_dev/status/2115469891151237247
+
+- **Tweet:** https://x.com/AniC_dev/status/2115469891151237247
+- **Link:** https://boat.dev/
+- **What:** Announcement that boat.dev, a per-second-billed Linux VM service for AI agents (about $0.036/h for 4 vCPU/8 GB per its page metadata), now offers GitHub Actions runners: run `boat ci connect` and set `runs-on: boat`. Pitched as a Blacksmith competitor claiming 20x more CI on the same budget; relevant when comparing CI runner costs. Page extraction was raw HTML so only metadata is captured.
+
+## @Voxyz_ai - Prompt to scrub vendor names and promises from AI-written privacy policies
+> If Claude wrote your website's privacy policy, it may have handed 𝘆𝗼𝘂𝗿 𝘄𝗵𝗼𝗹𝗲 𝘀𝘁𝗮𝗰𝗸 to attackers.
+>
+> Someone found that when Claude writes a privacy page, it lists every third-party tool you've plugged in and adds promises you never meant to keep. Press it and it says it writes from your customers' side by default.
+>
+> A page that spells out which services you use hands attackers a checklist for known exploits, phishing, and credential stuffing. Send this to Claude Code or Codex to pull the traps out of your policy pages first:
+>
+> "Read my privacy policy and terms pages. Quote every promise, guarantee, named person, and vendor, and list them for me to confirm. Swap tool names for categories (hosting, payments, analytics). Change nothing until I approve."
+
+- **Tweet:** https://x.com/Voxyz_ai/status/2115458573266534817
+- **What:** Warns that LLM-drafted privacy and terms pages tend to enumerate every integrated vendor and add unintended promises, which leaks stack details useful for targeted exploits and phishing. Offers a ready-to-paste review prompt that quotes each promise and vendor for confirmation and swaps tool names for generic categories (hosting, payments, analytics) without changing anything until approved.
+
+## @giyu_codes - Detailed list of enterprise AI automation wins in reply to "early Claude Code era" take
+> What are people doing then?
+>
+> How are you guys this far behind?
+>
+> AI computer use:
+> - login to Costco portal (and other vendors) to download invoices, contracts, and all the rest of our data
+> - upload data to our platforms that don't have an API
+>
+> Agentic workflow:
+> - automated form upload from almost every external source, extract data, reconcile to our ERP and PMS (internal PMS has already been fully replaced with our own AI native PMS)
+> - automated inventory management from our warehouse (quality control through images and video confirmation, syncing inventory across e-commerce and wholesale, routing and fleet coordination, slotting and mapping optimization)
+> - finance remittance process all facilitated through AI with a UI that lets the user just click to confirm or write a comment to change things. No chatbots. Before, people were labeling the bare minimum of things like "returns" or "advertisement". After, we found that there were dozens of other labels that could have been added over time, so now that AI extracts it for us we can start understanding our money more and pulling different levers to test things out. This past week we were able to commit another $4m on a product because we finally know more about which products sell better and quicker.
+> - tech packs, flat lays, BOMs, 3D modeling, and the full design process facilitated with AI. Our image gen went from $30k a month to $1k a month as we optimize towards efficient research process. All of our designers are onboard and use our internal apps. From idea to factory, we have every part enabled with AI and it cut our time down significantly.
+> - HR and IT also automated with an onboarding time of less than one hour. All materials, logins, permissions correctly assigned to the hire. This was literally one prompt to reverse engineer our resource groups and security groups to see what makes up an employees profile, then decision making to move it forward. Training videos, HR internal comms, job descriptions, in-house resume screening, and full orchestration of pre-boarding to hire.
+> - our Claude usage is at an all time low as we have been continuously automating tasks.
+>
+> This is maybe 1/10th of what I was able to accomplish at a company operating in the low billions.
+>
+> And there are more companies that I've worked with that I have impacted similarly.
+>
+> So genuinely if these people are supposed to be on the cutting edge then what are you guys actually doing with your time?
+>
+> *Quoting @saranormous:* we remain in the autocomplete / early claude code era of enterprise workflow automation, but not for long
+
+- **Tweet:** https://x.com/giyu_codes/status/2115442957138714903
+- **Quoted:** https://x.com/saranormous/status/2115193664981152000
+- **What:** Pushback on Sarah Guo's claim that enterprise automation is still in the autocomplete era, listing real deployments at a low-billions company: computer-use agents for vendor portals without APIs, ERP reconciliation, warehouse inventory, finance remittance labeling that informed a $4M product commitment, design pipeline image-gen costs cut from $30k to $1k a month, and sub-hour HR/IT onboarding. Useful as a catalogue of enterprise agent use cases, though self-reported.
+
+## @leonabboud - Gary Vee targets 100,000 pieces of content a day
+> "I'm aiming for 100,000 pieces of content a day by next year." This is what it takes to win in content fellas. Time to 10x volume.  https://x.com/garyvee/status/2115262570147758278
+
+- **Tweet:** https://x.com/leonabboud/status/2115434926514512044
+- **Link:** https://x.com/garyvee/status/2115262570147758278
+- **What:** LINK_FAILED: Leon Abboud endorses a Gary Vee statement about aiming for 100,000 pieces of content per day by next year as the volume needed to win at content, but the linked garyvee tweet content did not resolve, so the surrounding context is unknown.
+
+## @emilkowalski - Vocabulary of 244 terms for aiforui.dev to improve agent prompting
+> Using the right words can drastically improve the results you get from your agents, which is why I built a vocabulary of 244 terms for https://aiforui.dev/.
+>
+> If a term is used in a lesson, it gets a dotted underline. You can hover to see its definition or click to see a demo. https://x.com/emilkowalski/status/2115425807388619022
+
+- **Tweet:** https://x.com/emilkowalski/status/2115425807388619022
+- **Link:** https://aiforui.dev/
+- **What:** Emil Kowalski added a glossary of 244 UI/design terms to his aiforui.dev course; terms used in lessons get dotted underlines with hover definitions and click-through demos. The premise is that precise vocabulary lets you steer coding agents toward better UI results. Link extraction returned raw HTML only, so site content itself is not captured.
+
+## @divagr1925 - Qwenputer: a RISC-V CPU embedded in Qwen3.5-4B's weights
+> 1/4
+>
+> Meet Qwenputer: Qwen3.5-4B with a full RISC-V CPU inside its weights, using the model's own Gated DeltaNet layers as RAM.
+>
+> It runs C and MicroPython in its forward passes, no external runtime.
+>
+> On DeepMind math: base 55–90%, base + Python tool 95–100%, Qwenputer 97.5–100%. https://x.com/divagr1925/status/2115394340357116169
+
+- **Tweet:** https://x.com/divagr1925/status/2115394340357116169
+- **What:** Research demo that compiles a RISC-V CPU into the weights of Qwen3.5-4B, using its Gated DeltaNet recurrent state as memory so the model executes C and MicroPython inside its own forward passes without an external interpreter. Reports 97.5-100% on DeepMind math versus 55-90% for the base model and 95-100% with a Python tool; first post of a 4-part thread, so details are not captured.
+
+## @coolerwave - Claude Code audit claims Android phone cached 14,219 front-camera photos
+> BREAKING: Claude Code found 14,219 photos of my face on my Android that I never took. Phone was secretly taking them almost every time I picked it up. Even when I was just lying in bed. Even at home.
+>
+> Not screenshots. Real frames from the front camera. On the train. In the car. At home. When I just grabbed it to check the time.
+>
+> They were just sitting in a system cache. Timestamps and GPS on them. Nothing in Gallery. Nothing in Recently Deleted.
+>
+> Plugged the phone into my laptop, made a full backup, told Claude Code to look for any front-camera files that weren't in my photos. It pulled /data/system/users/0/faceunlock/cache and another folder inside Google Play Services. Over 14 thousand files. Normal ones and infrared from Face Unlock. Every single one had time and location.
+>
+> Started scrolling. Almost everything from the last 15 months. Then I saw a file created 2 seconds ago. I was still looking at the folder. Phone kept taking photos while I was reading this.
+>
+> Google and the phone makers say Face Unlock turns everything into a mathematical model and deletes the image right away. On this phone the raw frames were just sitting there. Some of the processes writing to that folder were from system diagnostics. Couple of old apps that still had camera permission could also get in.
+>
+> Turned off diagnostics, revoked camera access from everything that doesn't need it, cleared the cache. But how many of these frames already went somewhere else, I don't know.
+>
+> If you want to check yours, plug it in, make a full backup or use ADB, and ask Claude to look for front-camera files outside your Gallery. Path above is where mine were.
+>
+> *Quoting @coolerwave:* Claude Code found 145,763 photos I permanently deleted from my iPhone. Three years of deleted photos and videos still sitting in a hidden cache (PhotoData/Thumbnails, Spotlight search index cache). Any app with file access can read them; the author cut 23 apps with Files and Folders access down to 3.
+
+- **Tweet:** https://x.com/coolerwave/status/2115393243458207755
+- **Quoted:** https://x.com/coolerwave/status/2114088769112477849
+- **What:** Viral, unverified claim that a Claude Code-driven backup audit found 14,219 front-camera frames (with timestamps and GPS) in Android's Face Unlock cache, following the author's earlier iPhone post about 145,763 retained deleted-photo thumbnails. Notable as a "point the agent at a device backup and audit it" security pattern, but the claims are anecdotal and uncorroborated.
+
+## @DogukanUrker - Tiny 2B decision model labels 6-hour Artemis II broadcast on a 3060
+> people keep asking what tiny models are actually for. here's one.
+>
+> i gave the full 6 hour artemis II launch broadcast to d1-2B, @liquidai's new 2B decision model. it labelled all 11,486 frames on a single RTX 3060 in ~14 min and found the liftoff on its own.
+>
+> i did the same with my 6hr COD MW4 campaign recording last week. d1-3B found every mission, made the youtube chapters, and even picked thumbnail moments by matching my shocked face to the big story scenes.
+>
+> it'll get even faster: llama.cpp can't batch LFM3 d1 requests across parallel slots yet, so this ran one frame at a time.
+>
+> you don't need a 27B or a bigger model for every task. pick the best model for your use case and use it.
+
+- **Tweet:** https://x.com/DogukanUrker/status/2115386356251668708
+- **What:** Concrete demo of small-model utility: Liquid AI's 2B "d1" decision model classified 11,486 video frames from a 6-hour launch broadcast on a consumer RTX 3060 in about 14 minutes, locating liftoff unaided, and the 3B variant chaptered a 6-hour gameplay recording. Argues for matching model size to task instead of defaulting to huge models.
+
+## @illyism - 6-layer AI Agent Firewall skill to block coding-agent scrapers
+> People kept pasting my sites into Claude Code and bragging about scraping the whole database
+> 
+> When I returned 403s, the agents just spoofed `User-Agent: Googlebot`, probed my `/api/` routes, and spun up Playwright
+> 
+> So I built a 6-layer AI Agent Firewall that stops Claude Code, Cursor, and Codex on Turn 1 (while keeping Google SEO 100% intact):
+> 
+> - Serves HTTP 200 decoy pages instead of 403s so agents don't retry
+> - Embeds a `STOP_SCRAPING` directive that makes the agent pitch my product to the guy trying to scrape me
+> - Verifies real Googlebot by IP/ASN instead of User-Agent
+> - Red-teams itself by spawning subagents to attack your URLs until they fail on Turn 1
+> 
+> Open-sourced the exact `SKILL.md` prompt here:
+> https://github.com/Illyism/seo-skills/blob/main/seo/block-ai-scrapers/SKILL.md
+
+- **Tweet:** https://x.com/illyism/status/2115357045264425386
+- **Link:** https://github.com/Illyism/seo-skills/blob/main/seo/block-ai-scrapers/SKILL.md
+- **Filed:** [illyism-seo-skills.md](./knowledge/tools/illyism-seo-skills.md)
+- **What:** Illyism open-sourced a block-ai-scrapers SKILL.md after Claude Code users scraped his sites by spoofing Googlebot and probing /api/ routes; it serves 200 decoy pages, embeds a STOP_SCRAPING pitch directive, verifies Googlebot by IP/ASN and red-teams itself with subagents while preserving SEO.
+
+## @theo - Theo: token-cost videos are among his worst performers
+> For reference: worst 3 videos of my last 10 were about token costs.
+> 
+> Devs don't care about token spend as much as you all think
+
+- **Tweet:** https://x.com/theo/status/2115292721648922956
+- **What:** THIN: Theo reports that 3 of his 10 worst-performing recent videos were about token costs, concluding developers care less about token spend than commentators assume; the quoted link is a self-link to his own tweet with no extra context.
+
+---
+
+# Tuesday, October 27, 2026
+
+## @fram3o - Archive-now list of bio, security and uncensored AI models and repos
+> Download these before the internet gets restricted during the cyber pandemic
+> 
+> https://t.co/0obmfoXwSx
+> https://t.co/JQuqTVoF3P
+> https://t.co/g823nlqp8Z
+> https://huggingface.co/dealignai/GLM-5.3-CYBERSECURITY-FP8
+> https://t.co/AqMTvn4brf
+> https://t.co/cqRUdmRmEQ
+> https://t.co/OqPnPF9wQ8
+> https://github.com/solidsf-inc/solidcv
+> https://github.com/google-research/harness2
+> https://huggingface.co/GroundingPI/GroundAnything-VLM
+> https://huggingface.co/datasets/secemp9/arxiv-complete (figure out if u need raw, papers, pdf version etc based on storage)
+> Genome models
+> •  Evo 2 (40B): https://huggingface.co/arcinstitute/evo2_40b
+> •  Evo 2 (7B): https://huggingface.co/arcinstitute/evo2_7b
+> •  Genos-1.2B: https://huggingface.co/BGI-HangzhouAI/Genos-1.2B
+> •  Genos-10B: https://huggingface.co/BGI-HangzhouAI/Genos-10B
+> Pathology models
+> •  OpenMidnight (Sophont): https://huggingface.co/SophontAI/OpenMidnight
+> •  GenBio-PathFM: https://huggingface.co/genbio-ai/genbio-pathfm
+> Protein design
+> •  BoltzGen: https://huggingface.co/boltzgen/boltzgen-1
+> •  Pinal (text-to-protein): https://huggingface.co/westlake-repl/Pinal
+> https://huggingface.co/dealignai/DeepSeek-V4.1-Flash-1017-UNCENSORED-FP8
+> orcarouter/Qwen3.8-27B-Uncensored-GGUF 
+> huggingface/carbon
+> ESM-2 + ESMFold
+> OpenFold
+> PubMed Central Open Access
+> https://github.com/cloudflare/security-audit-skill
+> https://github.com/antoniaci/blackbird
+> https://github.com/soxoj/maigret
+> https://github.com/smicallef/spiderfoot
+> https://github.com/laramies/theHarvester
+> https://github.com/achillean/shodan-python
+> 
+> Also buy a hack rf one
+
+- **Tweet:** https://x.com/fram3o/status/2115266516056977556
+- **What:** THIN: Frameo urges downloading a long list of Hugging Face models (Evo 2, Genos, OpenMidnight, BoltzGen, Pinal, uncensored cybersecurity LLMs), GitHub OSINT and security tools, and PubMed open-access data ahead of a feared internet restriction, plus buying a HackRF One; link extraction returned raw GitHub or Hugging Face HTML so only the list itself is captured.
+
+## @theo - If I need a dashboard to use your product, Claude can rebuild it
+> If I have to go to a dashboard to use your product, I'm not going to use your product.
+> 
+> If anything, I'm more likely to tell Claude to rebuild your product.
+
+- **Tweet:** https://x.com/theo/status/2115260769558478964
+- **What:** THIN: Theo says he will not use any product that forces him into a web dashboard and is more likely to have Claude rebuild the product, a short opinion tweet signalling that agent-accessible APIs and CLIs are becoming table stakes over GUI-only SaaS.
+
+## @Hesamation - Anthropic hiring: coding interview is dead, prototypes with taste win
+> Code interviews are dead. Anthropic hiring manager: “I’m scanning resumes and portfolios for little prototypes that exhibit taste, empathy, and principled thinking.”
+> 
+> MUST READ for anyone confused about how to get hired in the new era.
+>
+> *Quoting @felixrieseberg:* The coding interview is dead, at least for my team at Anthropic. I've seen enough to know that it no longer provides signal. I removed it from loops this month.
+> 
+> I have a spicy, optimistic take - I think there's an opportunity for junior engineers: https://felixrieseberg.com/hunger-beats-tenure-advice-for-junior-engineers/
+
+- **Tweet:** https://x.com/Hesamation/status/2115237091617689601
+- **Quoted:** https://x.com/felixrieseberg/status/2115200995546566910
+- **Link:** https://felixrieseberg.com/hunger-beats-tenure-advice-for-junior-engineers/
+- **What:** Hesamation amplifies Anthropic engineer Felix Rieseberg post Hunger beats tenure: he removed the coding interview from his team loops because it no longer gives signal, and now scans resumes for small prototypes showing taste, empathy and principled thinking, seeing a big opening for junior engineers (article body extraction failed, summary from tweet and page meta description).
+
+## @coreyhainesco - Open-source cybersecurity skills repo major update
+> My wife just released a HUGE update to her open source cybersecurity skills repo 👀
+> 
+> Now's the time for everyone to be on top of their game
+> 
+> Give these skills to your agent to do a sweep or create a Grok Bot CISO
+> 
+> https://github.com/briiirussell/cybersecurity-skills
+
+- **Tweet:** https://x.com/coreyhainesco/status/2115209683674030538
+- **Link:** https://github.com/briiirussell/cybersecurity-skills
+- **Filed:** [briiirussell-cybersecurity-skills.md](./knowledge/tools/briiirussell-cybersecurity-skills.md)
+- **What:** Corey Haines promotes his wife Bri Russell major update to an open-source catalog of cybersecurity SKILL.md skills (OWASP/API/dependency/cloud audits, incident triage, log-watch, personal opsec) that agents can run for a security sweep or as a standing CISO-style bot.
+
+## @Malwarebytes - Discord making public server messages discoverable on search engines
+> Discord is making messages from public servers discoverable on search engines like Google starting this November. 
+> 
+> Server admins can opt channels out starting today. 
+> 
+> Users can opt out of sharing their messages in settings -> Data and Privacy.
+
+- **Tweet:** https://x.com/Malwarebytes/status/2115206474192339322
+- **What:** Malwarebytes reports Discord will make messages from public servers indexable by Google and other search engines starting in November, with server admins able to opt channels out immediately and users able to opt out under Settings, Data and Privacy; relevant to community owners and privacy.
+
+## @Voxyz_ai - AGENTS.md rules to stop Codex writing overly defensive code
+> Found the fix!
+> 
+> Codex writes code 𝘄𝗮𝘆 𝘁𝗼𝗼 𝗱𝗲𝗳𝗲𝗻𝘀𝗶𝘃𝗲𝗹𝘆. Even a tiny change gets null checks at every layer.
+> 
+> Spell it out for Codex: check data once where it comes in, then just use it. Write one-off logic right where it's used instead of splitting it into a function ahead of time. Skip try/catch wherever you can.
+> 
+> The team behind a 𝟮𝟮𝟬𝗞-𝘀𝘁𝗮𝗿 open-source coding agent on GitHub wrote these rules into their own AGENTS.md. Copy them straight into yours 👇
+> 
+> - Validate unknown values once at the boundary that owns them. Pass typed values inward instead of repeating `typeof value === "object"` and property-existence checks.
+> - Do not defensively revalidate values already guaranteed by a schema, constructor, or internal type.
+> - Do not extract single-use helpers preemptively. Inline the logic at the call site unless the helper is reused, hides a genuinely complex boundary, or has a clear independent name that improves the caller.
+> - Avoid `try`/`catch` where possible
+
+- **Tweet:** https://x.com/Voxyz_ai/status/2115198100465697038
+- **What:** Vox shares a fix for Codex adding null checks and try/catch at every layer: AGENTS.md rules from a 220K-star open-source coding agent telling the model to validate unknown values once at the boundary, not revalidate typed values, inline single-use helpers, and avoid try/catch.
+
+## @trq212 - Distributing open source so agent-modified forks still merge upstream
+> feels like there needs to be a new way to distribute opensource software such that people can modify via agents but also get upstream automatically merged in
+> 
+> coding agents can do this but they won’t do it automatically
+>
+> *Quoting @trq212:* experimenting with a lil personal project: an AI-native macOS dock with custom modes (writing, building, etc.) to help me stay focused
+> 
+> my agent is able to customize mode behavior and add new modes, it uses jev to classify my activity + notifications in real time & act on them https://t.co/yplDQUwTv5
+
+- **Tweet:** https://x.com/trq212/status/2115188992861970693
+- **Quoted:** https://x.com/trq212/status/2115135857669881939
+- **What:** Thariq argues open-source distribution needs a new model where users modify software through their own agents yet still receive upstream changes automatically merged, since coding agents can do this but will not do it unprompted; quoted context is his personal AI-native macOS dock project with agent-editable modes.
+
+## @Mho_23 - Agentic video editing playbook (Opus 5.5, terminal workflows)
+> i've spent an unhealthy amount of time on agentic video editing, here's everything i learned:
+> 
+> video editing is 100% solved. we're pushing out hundreds of videos a day with agents and have replaced almost all of our editors
+> 
+> drop every limiting belief you have about agentic editing, any style of creative is possible 
+> 
+> here are the best models for video editing right now:
+> 
+> 1. GPT 6 Astra (best taste by far, but also the most expensive)
+> 2. Opus 5.5
+> 3. Gemini 4 Argon
+> 
+> the best all around model is Opus 5.5
+> 
+> and don't waste your time on editing app MCPs like CapCut or DaVinci Resolve. they're slow and burn a ton of tokens compared to a custom workflow built for your specific use case
+> 
+> all editing is moving to the terminal + organized file systems
+> 
+> the most valuable (and most time consuming) part is having your best editors train your harness so it learns from its mistakes and can one-shot creatives
+> 
+> your best editor becomes 100x more leveraged once you teach them how to use Opus 5.5 in their workflow and build skills around their process
+> 
+> in 6 months most teams will be 1 creative engineer managing everything with agents
+> 
+> what a time to be alive..
+>
+> *Quoting @alexgoughcooper:* A few thoughts on agentic video editing I’ve had over the last few days:
+> 
+> 1. 99% of ads should be edited agentically now. If your editors are still editing in the timeline, they’re falling behind. I got a message from my senior VE saying that he’s putting out 5x edits/day now at the same quality he was before.
+> 
+> 2. The conversation with video editors will be uncomfortable because the timeline is all they’ve ever known. Some will be hesitant and some will be fearful for their job. I think the best way to address this is head on. The tech is inevitable, but having taste is still going to be incredibly valuable to train and give feedback to agents. Those who have this will become more valuable, those who don’t will struggle.
+> 
+> 3. Opus 5.5 can natively edit all of your ads without needing any MCPs or plugins. I’ve tried the alternatives and couldn’t find anything that was significantly better than doing everything inside of Claude.
+> 
+> 4. Have your senior editor(s) build skills for each style of edit (e.g. mashups, UGC, AI animations…). You can build these by feeding 4-5 inspo edits to Claude and tell it to make a skill out of it. I prefer building lots of mini-skills to one big video editing skill, so that the context stays as relevant as possible.
+> 
+> 5. Once you have a base skill (e.g. ugly ads edits), the best way to train it is through feedback loops. Have the skill re-edit the last 25 ads each senior edited then put them in an artifact, and have the senior VE give feedback on each. Keep doing this until the skill is refined and it understands what a good edit is.
+> 
+> 6. If you do this, there’s no reason why you shouldn’t be able to make edits that need little/no feedback. Most of ours are approved after v1 or v2, sometimes v3.
+> 
+> 7. Only A-player editors should be training the skills.
+> 
+> 8. Re adoption in the team, the AI champion builds the v1. Then get out of the way. I’m not the best editor on my team, so my job is to build the harness that lets the best editors train the skills, not build the skills myself.
+> 
+> 9. If you want to supercharge this process, have your top editors record their screen as they edit. Turn on Gmeet or loom and get them to narrate the reasoning behind their process. E.g. why they chose this cut, pacing or b-roll clip…this is all context that gets fed into your skills.
+> 
+> 10. It takes time to build, train and refine these skills. You have to go through the dip to get out the other side. Budget time in for senior VEs to work on this - otherwise you’ll end up with skills that put out subpar edits and don’t save you much/any time.
+> 
+> 11. Operate under the assumption that this is the worst video editing is ever going to be. Opus 5.5 can do most of our editing today…what will Opus 6/Fable 6 be able to do? The editing skills you build are only going to become more valuable as the tech evolves.
+> 
+> I still don’t think people realise how big video editing being unblocked is. Things that I thought were 3-6 months away are now on the table.
+> 
+> Will continue to share more as I learn. CRAZY, crazy times.
+
+- **Tweet:** https://x.com/Mho_23/status/2115187475802890348
+- **Quoted:** https://x.com/alexgoughcooper/status/2115076988327076296
+- **What:** Miko claims video editing is solved by agents, ranking models (GPT 6 Astra for taste, Opus 5.5 best all-around), arguing custom terminal and file-system workflows beat CapCut/DaVinci MCPs and that top editors should train the harness; the quoted Alex Cooper thread gives the supporting recipe of per-style mini-skills, feedback loops over the last 25 ads, and screen-recorded narration as training context.
+
+## @mhp_guy - Newsletter subscribers at $1.40 each via Muse-run Facebook ads
+> I'm getting newsletter subscribers for $1.40 each with Facebook ads.
+>
+> Cheaper than its ever been even when I had agencies run it.
+>
+> I also have not logged into Meta Ads Manager once.
+>
+> Muse runs it entirely.
+>
+> It adjusts the budget, it's connected to Beehiiv, and it uploads lookalike and custom audiences on its own.
+>
+> And its working. See the noticeable spike on the pic below.
+>
+> How are more people not doing this??
+
+- **Tweet:** https://x.com/mhp_guy/status/2115150856299675835
+- **What:** Chris Koerner reports $1.40 newsletter subscribers from Facebook ads managed fully by an AI tool called Muse, which adjusts budgets, syncs with Beehiiv and uploads lookalike and custom audiences, cheaper than his earlier agency-run campaigns.
+
+## @AndrewWarner - Goal-driven agents with a "goal keeper" agent, replying to Garry Tan's support agent
+> My agents do this for me.
+>
+> The big unlock was giving them goals, not tasks.
+>
+> I created a "goal keeper" agent that ensures agents have clear goals, and watches how they do against their goals.
+>
+> *Quoting @garrytan:* Greatest unlock for any founder doing their own customer support: an agent drafts every reply, every call recap, and a "what went wrong" note to everyone who cancels. It manages the CRM and files the bugs. You just read and hit send
+>
+> https://gbrain.io/skills/customer-comms?v=2
+
+- **Tweet:** https://x.com/AndrewWarner/status/2115149965639196774
+- **Quoted:** https://x.com/garrytan/status/2115141652344078597
+- **Link:** https://gbrain.io/skills/customer-comms?v=2
+- **What:** Andrew Warner says giving agents goals instead of tasks was his key unlock and he built a "goal keeper" agent to check goals and track progress; he quotes Garry Tan's GBrain customer-comms skills pack that drafts support replies, call recaps and cancellation notes for human send-off.
+
+## @rohit3a - Warning: Claude over-specifies privacy policies and legal pages
+> Never let Claude run wild on the privacy policy or legal pages on your website.
+>
+> Opus 5.5, and other Claude models in general, are so knee deep into moral policing it can genuinely land you in hot water.
+>
+> > it will get way too specific about how your work happens internally
+> > it will add promises and guarantees you didn’t want enforced
+> > it went as far as adding my name in the policy page
+> > it listed out all the third party tools that we have integrated too, basically showing our entire stack
+>
+> It is built to write from the customer side by default, it said so when I pressed it. Just be careful.
+
+- **Tweet:** https://x.com/rohit3a/status/2115144562570301504
+- **What:** Cautionary report that Opus 5.5 drafting privacy policies tends to over-disclose internal workflows, add unwanted legal guarantees, name the owner, and list the entire third-party stack, because it writes from the customer's side; human legal review is advised.
+
+## @davekiss - Bun's CLAUDE.md test for deleting noisy agent code comments
+> Most of the code comments your agent writes should be deleted
+>
+> @jarredsumner's test for it from Bun's CLAUDE.md:
+>
+> After every code comment you write, ask yourself, "Is this information the next Claude would spend multiple tool calls trying to understand?". If the answer isn't clearly yes, the code comment is noise - delete it.
+
+- **Tweet:** https://x.com/davekiss/status/2115134381580845100
+- **What:** Reusable CLAUDE.md rule from Jarred Sumner's Bun repo: keep a code comment only if a future Claude would otherwise burn multiple tool calls to learn the same thing; otherwise it is noise and should be deleted, curbing agent comment bloat.
+
+## @0xMovez - Building Hop, an AirDrop-style Mac/Windows file sharer, with Opus 5.5 in one afternoon
+> I just reverse-engineered Apple AirDrop with Opus 5.5 to send files between my Mac & Windows PC
+>
+> this is insane...
+>
+> drag a file onto the other computer → hop. it's there.
+> no cloud. no account. no cable.
+>
+> → https://hop-drop.vercel.app/
+>
+> here's the build step by step:
+>
+> • step 1 → open Claude Code on Opus 5.5 in an empty folder and paste the prompt below
+>
+> • step 2 → Opus picks the stack: one Electron codebase that runs on macOS and Windows
+>
+> • step 3 → discovery: every 1.5 s each computer says "i'm here" over UDP on your local network.
+>
+> the other one pops up on a radar
+>
+> • step 4 → transfer: files stream directly between the two machines.
+>
+> the other side gets Accept / Decline. "always accept" for your own computers
+>
+> • step 5 → before any UI, Opus wrote a test:
+>
+> two fake devices find each other and send a folder + a 3 MB file, byte for byte
+>
+> • step 6 → design: Opus split the work across parallel agents.
+>
+> one rebuilt the iOS 17 NameDrop glow as a WebGL shader, one drew 3 icon concepts and picked the best, one built the download site
+>
+> • step 7 → separate reviewer agents checked every piece.
+>
+> one caught a shader bug that would've rendered black on the Mac. i'm on Windows, i'd never have seen it
+>
+> • step 8 → GitHub Actions builds the .dmg and the .exe on every release.
+>
+> the Mac build runs on Apple hardware in the cloud, not on my PC
+>
+> • step 9 → first launch on the Mac: the icon just bounced in the dock.
+>
+> Opus added a startup log and a fallback that forces the window open. next build opened fine
+>
+> one afternoon. zero lines written by me. drop it on the Mac. it lands on the PC. that's it...
+>
+> find full prompt below ↓
+>
+> Then read the article on how to reverse-engineer anything with Opus 5.5.
+>
+> *Quoting @0xMovez:* https://t.co/LCLhoxByi3
+
+- **Tweet:** https://x.com/0xMovez/status/2115130015260291145
+- **Quoted:** https://x.com/0xMovez/status/2109604520770548146
+- **Link:** https://hop-drop.vercel.app/
+- **What:** Step-by-step walkthrough of using Claude Code on Opus 5.5 to build Hop, an Electron app with UDP discovery and direct transfer between Mac and PC, using test-first development, parallel design agents, reviewer agents, and GitHub Actions builds; links to the Hop landing page and a quoted X article (login-walled, not extracted).
+
+## @ankurnagpal - [Media] Ankur Nagpal on automating social media for audience growth
+> Automating my social media is the best thing I've ever done to grow an audience with near zero effort https://twitter.com/ankurnagpal/status/2115089907886723180
+
+- **Tweet:** https://x.com/ankurnagpal/status/2115089907886723180
+- **What:** THIN: @ankurnagpal (Teachable founder) claims automating his social media was his best move for growing an audience with near-zero effort; tweet is media-only with a self-link, so the tool or method used is not visible.
+
+## @vercinyc - Free startup credits and programs list (AWS, Azure, Cloudflare, PostHog and more)
+> free stuff you can claim right now if you’re starting a company, no vc needed:
+>
+> • aws activate, up to $5k in credits
+> • microsoft for startups, up to $5k in azure (up to $150k with an investor referral)
+> • cloudflare, $10k if you’re bootstrapped
+> • posthog, $50k in credits if you’re under 2 years old
+> • retool, free for a year up to $60k
+> • intercom, 93% off your first year
+> • notion, 3 months free on business with ai
+> • google cloud, $2k to start
+> • nvidia inception, free credits and gpu discounts
+>
+> we put 25+ programs in a doc with who qualifies and how to apply, including the $200k+ ones. follow + reply “credits” and we’ll dm it to you
+
+- **Tweet:** https://x.com/vercinyc/status/2115081835151802568
+- **What:** Checklist of startup credit programs requiring no VC (AWS Activate, Azure, Cloudflare, PostHog $50k, Retool, Intercom, Notion, GCP, Nvidia Inception), with a lead-gen hook offering a 25+ program doc via follow-and-reply DM.
+
+## @JulienDoclot - HomeOS: Home Assistant dashboard rebuilt with Codex as a custom Lovelace card
+> J'ai refait tout mon dashboard Home Assistant avec l'IA.
+>
+> Plus de 100 allers-retours. 15 commits. Moi je choisis, je corrige, je râle. Codex code.
+>
+> Le résultat s'appelle HomeOS. 5 onglets : Maison, Confort, Sécurité, Énergie, Appareils. Les lampes, le chauffage, les alarmes, les caméras, les 2 batteries et le solaire, la Tesla, l'aspirateur, la tondeuse. Le tout dans un thème inspiré d'iOS, en version claire ou sombre.
+>
+> Pour les curieux, c'est une carte Lovelace custom en JavaScript et CSS, pas du YAML. Les illustrations de la maison sont générées puis intégrées en WebP. Testé dans Safari sur le simulateur de l'iPhone Duo, plié et déplié. Et tout est versionné sur un GitHub privé.
+>
+> Tout n'a pas marché du premier coup, hein. Les premières versions étaient énormes et illisibles sur mobile, avec des doublons partout. Et la tondeuse recevait la mauvaise commande pour rentrer à la base 😅
+>
+> Il reste encore des caméras Nest qui affichent du noir, et les batteries Zendure qui décrochent.
+>
+> Prochaine étape : le vrai test sur l'iPhone.
+
+- **Tweet:** https://x.com/JulienDoclot/status/2115071750991946028
+- **What:** French write-up of rebuilding a Home Assistant dashboard (HomeOS: 5 tabs, iOS-style light/dark theme) as a custom JS/CSS Lovelace card driven by Codex over 100+ iterations and 15 commits, with honest notes on failures like mobile layout bloat, a wrong mower command, and Nest/Zendure issues.
+
+## @__alpoge__ - Anthropic's Claude-found algorithm refuting ETH, formalized in Lean (anthropics/formal-math)
+> “The core algorithm was found on October 16 by an internal Claude research model with 14M output tokens and no human input. Anthropic researchers worked with Claude to improve the presentation, resulting in this paper.”
+>
+> https://github.com/anthropics/formal-math/tree/16a5ce41304fcdaea4e0be7c132e1c361dc26da5/eth
+
+- **Tweet:** https://x.com/__alpoge__/status/2114930095009968506
+- **Link:** https://github.com/anthropics/formal-math/tree/16a5ce41304fcdaea4e0be7c132e1c361dc26da5/eth
+- **Filed:** [formal-math.md](./knowledge/tools/formal-math.md)
+- **What:** Anthropic's formal-math repo holds Lean 4 machine-checked proofs, including the eth/ project where an internal Claude model with no human input found an algorithm counting k-CNF solutions fast enough to refute the Exponential Time Hypothesis; a notable example of AI-originated theoretical CS research.
+
+---
+
+# Monday, October 26, 2026
+
+## @iblamejulius - Replacing a thank-you page with a Diagnostic Page lifted show rate from 40% to 70%
+> went from a 40% to a 70% show rate by replacing this offer’s thank you page with a Diagnostic Page.
+> ridiculous sauce:
+> All you’re doing is exposing and amplifying a tangible gap between the prospects current conditions and the conditions they need to be in BUT the key difference is you’re FRAMING it as a diagnosis so you can give them personalized value on the call.
+> This is the same principle as a lot of quiz funnels out there.
+> The conditions you use obviously depend on the offer, this was a lead gen offer so the conditions were manifested as variables. I did things like “How many KPIs are you actively tracking”
+>
+> The VSL was literally 4 minutes long.
+>
+> Then they physically graded themselves on it.
+>
+> I set the grading system to give them a button that opens iMessage and sends it to the blue text number in the CRM (so now I can send them clickable links).
+>
+> I set this up for another consulting client and the show rate went up but even better change was how bought in the people who hopped on the calls were. (Screenshot of the funnel bellow).
+
+- **Tweet:** https://x.com/iblamejulius/status/2114898040943251662
+- **What:** Funnel tactic: swap the post-booking thank-you page for a short (4-minute) VSL plus a self-graded diagnostic that highlights the gap between the prospect's current and needed state, then text results to the CRM via iMessage; reported show rate rose from 40% to 70% and prospects arrived more bought in.
+
+## @shdu11546816 - Teaser thread on dominating an industry with Meta ads after a business sale
+> Two weeks ago a life changing amount of money was wired into my bank account from the sale of my business.
+>
+> Since I'm no longer a competitor in this particular arena, I'm gonna drop some sauce on how I completely mogged an entire industry on meta ads.
+>
+> I'm going to be vague so I don't dox myself, but here it goes:
+
+- **Tweet:** https://x.com/shdu11546816/status/2114882910096408939
+- **What:** THIN: Opening tweet of a thread where an anonymous seller of a business promises to reveal the Meta ads tactics he used to dominate his industry. Only the intro was captured; the actual tactics in the rest of the thread are not included, so the substance is unknown.
+
+## @synthanatomy - Behringer Kick, an MPC One clone with open-source firmware
+> Behringer Kick: an MPC One clone with open-source firmware
+> https://synthanatomy.com/2026/10/behringer-kick-an-mpc-one-clone-with-open-source-firmware.html
+> #akaimpc #behringer #groovebox #beatproduction #synthanatomy
+
+- **Tweet:** https://x.com/synthanatomy/status/2114847143781413335
+- **Link:** https://synthanatomy.com/2026/10/behringer-kick-an-mpc-one-clone-with-open-source-firmware.html
+- **What:** Synth Anatomy reports that Behringer has shown a first prototype of the Kick, a clone of Akai's MPC One groove workstation that will ship with open-source firmware. Article extraction returned raw HTML, so only the page description and tweet text were used; this is a music-gear news item.
+
+## @nateberkopec - AGENTS.md addition that appends a TLDR to every agent turn
+> My attention span is shot to shit. Claude recommended this addition to Agents.md and... I'm loving it? It's giving me a literal TLDR at the end of each turn and I no longer have to read it's fuckhuge wall of text. https://x.com/nateberkopec/status/2114819619513135180
+
+- **Tweet:** https://x.com/nateberkopec/status/2114819619513135180
+- **What:** THIN: @nateberkopec shares an AGENTS.md instruction, recommended by Claude, that makes the coding agent end every turn with a short TLDR so he can skip its long output. The actual snippet is in an image or media that was not captured, but the idea is a simple instruction-file tweak for readable agent summaries.
+
+## @wespreadjam - How Runpod grew new paying customers 300% with an AEO system
+> Runpod, a $325M company, increased monthly new paying customers 300% in just 90 days using AI search.
+>
+> here’s the genius AEO system behind it: (12-step thread: track 50 to 300 persona/funnel/niche prompts, focus on ChatGPT (~98% of AI referrals), fix partially indexed pages, build content from prompts that already surface the brand, reverse engineer cited sources, run a publish-monitor feedback loop, bring content in-house and cut tooling from ~$3,000/month to $500/month. Result: ~28,000 ChatGPT visitors, ~2,100 conversions, 8% conversion rate, ~40 new customers/day.)
+
+- **Tweet:** https://x.com/wespreadjam/status/2114809274132295868
+- **What:** A long thread (from an agency pitching AEO audits, so the numbers are unverified) laying out Runpod's answer-engine-optimization playbook: track hundreds of persona-specific prompts, prioritize ChatGPT, fix indexing problems, turn winning prompts into content, and monitor citations in a loop. Claims about 28k ChatGPT visits, 8% conversion and 4x new paying customers in 90 days.
+
+## @TheWholeDaisy - New env var disables the last guardrails in --dangerously-skip-permissions
+> Fun fact: `--dangerously-skip-permissions` doesn't actually approve EVERYTHING—we still block some obvious things like `rm -rf ~`. But today's release will let you disable this if you really want, by setting a new env var `CLAUDE_CODE_EVEN_MORE_DANGEROUSLY_SKIP_PERMISSIONS=1`
+
+- **Tweet:** https://x.com/TheWholeDaisy/status/2114796466850202103
+- **What:** Daisy Hollman of the Claude Code team explains that --dangerously-skip-permissions still blocks obviously destructive commands like `rm -rf ~`, and that the release adds the env var CLAUDE_CODE_EVEN_MORE_DANGEROUSLY_SKIP_PERMISSIONS=1 to remove even those blocks. Relevant to agent safety settings and sandboxing decisions.
+
+## @posthog - Six dev chores automated with scheduled agents
+> Here are 6 dev chores we’ve automated with scheduled agents, with prompts you can copy. https://x.com/i/article/2113746055955357696
+
+- **Tweet:** https://x.com/posthog/status/2114795132126106093
+- **Link:** https://x.com/i/article/2113746055955357696
+- **What:** LINK_FAILED: Could not expand link from @posthog — the X article resolved to a login wall. From the tweet: a PostHog write-up of six developer chores they run as scheduled agents, with copyable prompts.
+
+## @harrysolovay - "Trait-driven development" for coding agents
+> "Trait-driven development"
+>
+> I'm no longer really operating directly on code.
+>
+> Instead, I create traits which operate on the code + ensure agents never need the same feedback twice. https://x.com/harrysolovay/status/2114760577377821007
+
+- **Tweet:** https://x.com/harrysolovay/status/2114760577377821007
+- **What:** THIN: @harrysolovay describes a workflow he calls trait-driven development, where he writes reusable traits that act on the code and encode feedback so agents never need the same correction twice. The tweet seems to carry media (likely a demo or screenshot) that was not captured, so the mechanism is unspecified.
+
+## @erikjasperkier - Founder follow-up email after 2 orders gets hundreds of replies
+> Unironically one of the most responded to flow emails we have
+>
+> Casual follow up from the founder after 2 orders
+>
+> Feels like the founder actually typed it, generates hundreds of responses, and if you actually answer again when they respond to it, you create hundreds of customers that love your brand and feel important
+>
+> Takes 2 seconds to set up. Great for small brands
+
+- **Tweet:** https://x.com/erikjasperkier/status/2114730686158364841
+- **What:** Ecommerce retention tip: a plain, founder-voiced follow-up email triggered after a customer's second order draws hundreds of replies, and answering those replies builds loyalty. Cheap to set up in an email flow and suited to small brands; the email itself is likely an image not captured here.
+
+## @Jason______A - Day 1 of hiring an assistant and asking what to delegate
+> Ive officially reached the point in adulthood where Im willing to pay someone to deal with adulthood for me.
+>
+> Day 1 of having an assistant.
+>
+> After months of @jordanmenard practically begging me to just try having one I finally gave in.
+>
+> First order of business was handing her a list of about 900 home related things Ive been putting off because apparently as an adult, your expected to spend half your life calling plumbers, electricians, contractors, and every other service provider imaginable.
+>
+> Now Im sitting here wondering what else I can delegate.
+>
+> I feel like I have unlocked a cheat code but have absolutely no idea how to use it.
+>
+> For those of you who have assistants what are you actually having them do?
+>
+> How do I speed this process up?
+>
+> Im not looking to delegate a few emails and calendar invites.
+>
+> I want to outsource literally every single adult responsibility that doesn't require my physical presence.
+>
+> If I never have to make another phone call, schedule another appointment, chase another person down, or deal with another minor inconvenience for the rest of my life, I will consider this the greatest investment Ive ever made.
+>
+> Please tell me what I'm missing.
+>
+> I want to become aggressively more useless at being an adult.
+
+- **Tweet:** https://x.com/Jason______A/status/2114713911937106281
+- **What:** Jason Applebaum describes hiring his first personal assistant, starting with a backlog of about 900 home-admin tasks, and asks the replies what to hand off beyond email and calendar work. Useful as a prompt for thinking about delegation scope and a list of tasks worth outsourcing.
+
+## @kenny_io - Getting a Gmail sender logo without paying $990/year
+> Getting @thallyio’s logo to show in Gmail sent me down a $990/year rabbit hole.
+>
+> Got it working for $0. The missing piece was one Google profile setting.
+>
+> Wrote up the steps for other solo and indie founders 👇 https://x.com/i/article/2113273680356597760
+
+- **Tweet:** https://x.com/kenny_io/status/2114712233544495127
+- **Link:** https://x.com/i/article/2113273680356597760
+- **What:** LINK_FAILED: Could not expand link from @kenny_io — the X article resolved to a login wall. From the tweet: a how-to for getting a brand logo to appear on Gmail sent mail for free (a single Google profile setting) instead of the roughly $990/year paid route.
+
+## @treg_ai - Jev people-search: open source lead enrichment for agents
+> Introducing Jev @typesafeai  powered people-search
+>
+> Just $0.0089/lead, No more $600 subscriptions,
+>
+> Try it at https://treg.to/people-search
+>
+> - 85% cheaper than Clay
+> - #1 on people search bench accuracy
+> - Plugin to any agent to find anyone
+>
+> Fully open source, 0% markup
+>
+> Git Repo below 👇
+
+- **Tweet:** https://x.com/treg_ai/status/2114674262179188755
+- **Link:** https://treg.to/people-search
+- **What:** Launch of Jev, an open-source, agent-pluggable people-search and lead enrichment service built on TypeSafe AI, priced at about $0.0089 per lead (claimed 85% cheaper than Clay) with verified work emails; the landing page claims a 27-person run yielded 20 verified emails for $0.58, but the git repo link was not expanded.
+
+## @jaydwivedi_ - Clarifying an AI-generated image of a steps app milestone
+> *Replying to @jaydwivedi_:* My little steps app crossed almost 10k downloads https://t.co/nYLNBC9XrC
+>
+> Just to be clear this picture was made with AI not stats - I don't have two iphones lol https://x.com/jaydwivedi_/status/2114620532565925970
+
+- **Tweet:** https://x.com/jaydwivedi_/status/2114620532565925970
+- **Parent:** https://x.com/jaydwivedi_/status/2114618995261464954
+- **What:** THIN: @jaydwivedi_ clarifies in a self-reply that the image attached to his post about a steps app nearing 10k downloads was AI-generated rather than a real stats screenshot; the image itself is not available, so the only substance is the milestone claim and disclaimer.
+
+---
+
+# Sunday, October 25, 2026
+
+## @oliviscusAI - NVIDIA SimReady Assets: 2,575 simulation-ready 3D models on Hugging Face
+> NVIDIA just put 2,575 simulation-ready 3D assets on Hugging Face 🤯
+>
+> A 472GB collection covering everyday objects, tools and industrial equipment.
+>
+> It's called NVIDIA SimReady Assets. The models include physics settings and semantic labels for use in simulated environments.
+>
+> - Train robots to pick up and move objects
+> - Build virtual factories and warehouses
+> - Generate labelled training images
+> - Populate 3D scenes with ready-made objects
+>
+> Useful for robotics research, digital twins and anyone building detailed virtual environments.
+>
+> Download the collection below 👇
+
+- **Tweet:** https://x.com/oliviscusAI/status/2114556298167505225
+- **What:** NVIDIA released SimReady Assets, a 472GB Hugging Face collection of 2,575 physics-configured, semantically labelled 3D models of everyday objects, tools and industrial equipment, useful for robot training, digital twins, synthetic labelled images and populating simulated scenes; the download link was not expanded in the bookmark.
+
+## @brainstormity - Open Post, a self-hosted Post Bridge alternative
+> Paying $99/month was getting a little too expensive...
+>
+> So I built my own open source alternative that now costs me LESS THAN $1/month to run.
+>
+> YES, 99x CHEAPER! 🤯
+>
+> Introducing Open Post, an open source alternative to Post Bridge that lets you post to all your social media accounts from one dashboard.
+>
+> I'll be open sourcing it on GitHub this coming week once I finish testing each social media integration.
+>
+> And just to be clear...
+>
+> This isn't about taking business away from an existing SaaS. I simply wanted to build something cheaper for myself that does the exact same thing.
+>
+> If you want a ready-to-use solution and don't mind paying $40-$100/month, definitely check out the original SaaS!
+>
+> But if you prefer self-hosting and saving money, Open Post is coming soon for free. 🚀
+
+- **Tweet:** https://x.com/brainstormity/status/2114542346364711345
+- **What:** Announcement of Open Post, an upcoming open-source, self-hosted social media cross-posting dashboard built to replace the $99/month Post Bridge SaaS at under $1/month running cost; the GitHub release was promised for the following week, so no repo link exists yet.
+
+## @NousResearch - Unbroker skill for Hermes Agent removes data broker listings
+> Great time to use the Unbroker skill!
+>
+> *Quoting @SHL0MS:* i'm open sourcing UNBROKER: a tool that finds where your personal info is exposed by data brokers and files the removals for you. it runs as a skill in Hermes Agent. [...] your data never even has to leave your machine if you run a local model. [...] https://github.com/NousResearch/hermes-agent/tree/main/optional-skills/security/unbroker
+
+- **Tweet:** https://x.com/NousResearch/status/2114530795868373035
+- **Quoted:** https://x.com/SHL0MS/status/2073128911429668877
+- **Link:** https://github.com/NousResearch/hermes-agent/tree/main/optional-skills/security/unbroker
+- **Filed:** [unbroker.md](./knowledge/tools/unbroker.md)
+- **What:** Nous Research amplifies SHL0MS's open-source Unbroker, a Hermes Agent skill that searches data broker sites for your personal info across old names and addresses, then files CCPA/GDPR/DROP removals via browser and email automation, tracking cases in a ledger and re-scanning on cron as a free alternative to DeleteMe-style subscriptions.
+
+## @alexlmiller - On modding TVs: show planes overhead or the front door camera
+> Lots of discussions this week on de-bloating your TV - here's how to mod your TV to do things like show planes that are flying over your house or who's at the front door.
+>
+> https://blog.alexmiller.net/posts/on-modding-tvs
+
+- **Tweet:** https://x.com/alexlmiller/status/2114522952905687048
+- **Link:** https://blog.alexmiller.net/posts/on-modding-tvs
+- **What:** Alex Miller links his blog post "On Modding TVs", about going beyond de-bloating a smart TV to make it display custom information such as planes flying overhead or a front-door feed; article text extraction returned only page CSS, so the detailed method is not captured.
+
+## @ducksays - Grok bot as chief marketing officer for X growth
+> grok bot got me 1.5M impressions in 7 days.
+>
+> i didn't hire anyone. i set up a grok bot on @bot and gave it a title: chief marketing officer. (CMO for short)
+>
+> it doesn't post for me. i still press every button, but it does basically everything else.
+>
+> that week it helped me land two viral posts back to back.
+>
+> then it noticed my posts about my grok bots were pulling in more verified followers than anything else. so we leaned in.
+>
+> wednesday i had ~1,954 verified followers.
+> saturday i passed 2,000 and unlocked subscriptions.
+>
+> here's what it actually does every week:
+> - drafts my posts in my voice (rough, lowercase, like this)
+> - studies other creators in my space to see what's working
+> - keeps a content calendar of notable dates each month
+> - logs every post in notion and scores it against my median
+> - tells me when a post is still hot so i don't step on it
+> - sends me a weekly report on what worked and what flopped
+>
+> it's not magic. some drafts are meh and i tell it so.
+>
+> i just press the button.
+
+- **Tweet:** https://x.com/ducksays/status/2114489030624571710
+- **What:** Playbook for running a Grok-based bot as a "CMO" for X growth (1.5M impressions in 7 days, 2,000 verified followers) where a human still posts but the bot drafts in their voice, studies competitors, keeps a content calendar, logs and scores posts against a median in Notion, flags hot posts, and sends weekly reports.
+
+## @RayFernando1337 - Remotion skill plus Lexington templates as a clipping cheat code
+> Okay .@robinebers skill +.@lexingtonthemes remotion templates are a cheat code. https://x.com/RayFernando1337/status/2114488634330267695
+>
+> *Quoting @RayFernando1337:* I've been dying to have an insane clipper and her name is Opus 5.5. I just started posting and hit over 190k views in the last 2 days from my small account and gained 600+ followers. It can find the matching b-roll, use remotion templates and cut so it is engaging and educational. I have tons of alpha in my livestreams and I'm finally glad I can just build live and share my knowledge with the world.
+
+- **Tweet:** https://x.com/RayFernando1337/status/2114488634330267695
+- **Quoted:** https://x.com/RayFernando1337/status/2113847041428427203
+- **What:** Ray Fernando credits a Remotion skill from @robinebers combined with @lexingtonthemes Remotion templates as a "cheat code", following his earlier post that Claude Opus 5.5 works as an automated video clipper (finds b-roll, applies Remotion templates, cuts) that took his small account to 190k views and 600+ followers in two days.
+
+## @ChrisUniverse - Codex Security gives $500 free credits for GitHub repo scans
+> 🚨 In case you didn't know: Codex Security gives you $500 in free credits with GPT-5.6 Sol (Daybreak Blue) for you to scan any of your GitHub repositories. Credits do not expire.
+>
+> Now, I am not sure if this comes with my $100 Pro Sub, or this is for everyone.
+>
+> Go check your Codex Security Cloud! 🔥
+
+- **Tweet:** https://x.com/ChrisUniverse/status/2114472434854171114
+- **What:** Tip that OpenAI's Codex Security cloud offers $500 in non-expiring credits, using GPT-5.6 Sol (Daybreak Blue), to scan any GitHub repository for security issues; the author is unsure whether it is tied to the $100 Pro plan or open to everyone, so eligibility is unverified.
+
+## @noahkagan - Noah Kagan's X-growth tool: organize, grade, velocity, remix
+> X just started paying me. I'm giving away the software that got me there, FREE this week.
+>
+> 292K to 500K verified views in 35 days.
+>
+> I turned it into a tool: 👇
+>
+> 1- Organize: every idea and draft in one list, with what's blocking it
+> 2- Grade: scores each draft before I post
+> 3- Velocity: reads views at 15 min, 1h, 2h, 4h and 8h
+> 4- Remix: turns my best old posts into new ones
+>
+> Want it? It goes to my email list first: https://noahkagan.com/
+
+- **Tweet:** https://x.com/noahkagan/status/2114444846760939670
+- **Link:** https://noahkagan.com/
+- **What:** Noah Kagan claims his X-monetization growth (292K to 500K verified views in 35 days) came from an internal tool that organizes drafts, grades them pre-post, tracks view velocity at 15m/1h/2h/4h/8h marks, and remixes past top posts; the link only leads to his homepage and newsletter signup, so the tool itself is not described further.
+
+## @wespreadjam - Underrated directories that AI search engines cite (GetLatka, Crozdesk, SelectHub, StackShare, SaaSHub, GoodFirms)
+> want to get cited by AI?
+>
+> these are some of the most underrated & easiest directories to get listed on:
+>
+> GetLatka: DR 71 · ~20K visits/mo · ~9.6K AI citations
+> Crozdesk: DR 74 · ~43K visits/mo · 4K+ AI citations
+>
+> SelectHub: DR 74 · ~44K visits/mo · several thousand AI citations
+> StackShare: DR 78 · ~66K visits/mo · 1K+ AI citations
+>
+> SaaSHub: DR 80 · ~11K visits/mo · 1K+ AI citations
+> GoodFirms: DR 87 · 100K+ visits/mo · 1K+ AI citations
+>
+> if you're a devtool:
+> → StackShare
+> → GetLatka
+> → SaaSHub
+>
+> if you're selling B2B software:
+> → SelectHub
+> → Crozdesk
+> → GoodFirms
+>
+> if you compete heavily on "X alternatives" queries:
+> → SaaSHub
+> → Crozdesk
+>
+> most founders believe that G2, Capterra and Product Hunt are the only directories that matter.
+>
+> there are dozens of smaller sites AI already cites that are much easier to get onto.
+>
+> full list + submission links below ↓
+
+- **Tweet:** https://x.com/wespreadjam/status/2114439711603544205
+- **What:** GEO tactic listing six easier-to-get-into software directories (GetLatka, Crozdesk, SelectHub, StackShare, SaaSHub, GoodFirms) with domain rating, traffic and AI-citation counts, plus which suit devtools, B2B software or "alternatives" queries; the full list and submission links were in a thread not captured.
+
+## @theisaacmed - [Media] Cheap-token Claude video editing for daily vlogs
+> My fiancée is doing daily vlogs for fun.
+>
+> As all of you know Claude can basically one shot simple editing.
+>
+> I taught her a few tricks to make it very very cheap on token cost. https://x.com/theisaacmed/status/2114413624802611293
+
+- **Tweet:** https://x.com/theisaacmed/status/2114413624802611293
+- **What:** THIN: @theisaacmed says Claude can one-shot simple vlog editing and that he taught his fiancée tricks to keep token cost very low, but the tricks themselves are in an attached video that was not captured.
+
+## @thorstenball - Article on what he has been sending friends in DMs (login-walled)
+> Finally summarized what I've been sending to friends in DMs https://x.com/i/article/2114385531811319808
+
+- **Tweet:** https://x.com/thorstenball/status/2114386050638336082
+- **What:** LINK_FAILED: Could not expand link from @thorstenball; the X article behind the t.co URL redirected to a login wall, so the content (a write-up of advice he usually shares in DMs) was not captured.
+
+## @sashikantsingh_ - [Media] ChatGPT used to locate a lost earbud
+> ChatGPT found lost earbud 🤯 https://x.com/sashikantsingh_/status/2114379851524390991
+
+- **Tweet:** https://x.com/sashikantsingh_/status/2114379851524390991
+- **What:** THIN: @sashikantsingh_ claims ChatGPT helped find a lost earbud; the tweet is media-only with no description of the method (likely a screenshot or video of a chat session), so the technique is unknown.
+
+## @neilsuperduper - Have Claude run security scanners rather than hack your app directly
+> stop trying to get claude to directly hack your own app.
+> just get it to set up and use these tools
+>
+> secrets: gitleaks, trufflehog
+> code: semgrep, codeql
+> deps: osv-scanner, pip-audit
+> infra: trivy, checkov
+> live app: nuclei, zap, burp
+>
+> then pass the findings to agents for fixes
+>
+> *Quoting @marclou:* I spent the last 48 hours rotating passwords, adding 2FA everywhere, and spawning agents to audit all my startups' codebases.
+>
+> I tried to brute-force my own code, but, of course, OpenAI and Anthropic models wouldn't let me.
+>
+> I also ordered a YubiKey for myself and to apply to OpenAI's Daybreak program.
+>
+> I called my family and told them to do the same (rotate pwd + add 2FA).
+>
+> Black October was the tip of the iceberg, I think.
+
+- **Tweet:** https://x.com/neilsuperduper/status/2114373257138692399
+- **Quoted:** https://x.com/marclou/status/2114363358808068376
+- **What:** Responding to Marc Lou's frustration that models refuse to attack his own code, Neil suggests having Claude install and run standard scanners (gitleaks, trufflehog, semgrep, codeql, osv-scanner, pip-audit, trivy, checkov, nuclei, zap, burp) and then hand the findings to fixer agents.
+
+## @hevnsnt - cvENGINE: free self-hosted external attack surface scanner with AI-verified CVEs
+> cvENGINE: the most advanced external attack surface assessment you can get for free. Point it at a domain: bbot, nmap, and Nuclei map your attack surface, then an AI proves which CVEs can actually hit you with read-only checks.
+> https://github.com/hevnsnt/CVEngine
+
+- **Tweet:** https://x.com/hevnsnt/status/2114370259797065878
+- **Link:** https://github.com/hevnsnt/CVEngine
+- **Filed:** [cvengine.md](./knowledge/tools/cvengine.md)
+- **What:** Open-source (GPL-3.0), Docker-hosted tool that maps a domain's exposed assets with bbot, naabu, nmap and Nuclei, ranks CVEs by real-world exploitation, and uses AI triage with read-only checks to confirm which are reachable; includes an MCP server and bring-your-own-model support.
+
+## @dhkleung - drduh YubiKey-Guide as the answer to "Yubikeys are flaky"
+> Y'all using Yubikeys wrong
+>
+> https://github.com/drduh/yubikey-guide
+>
+> *Quoting @mikemaccana:* I dislike Yubikeys. I wanted to like them and used them for a year.
+>
+> The code that handles Yukikeys is the shittiest, least maintained part of every password manager, every browser, every social media client that can possibly use them. I worry about losing access due to stupid bugs.
+
+- **Tweet:** https://x.com/dhkleung/status/2114362755155456038
+- **Quoted:** https://x.com/mikemaccana/status/2113977040760168913
+- **Link:** https://github.com/drduh/yubikey-guide
+- **Filed:** [yubikey-guide.md](./knowledge/tools/yubikey-guide.md)
+- **What:** Replying to a complaint that YubiKey support is the buggiest part of browsers and password managers, @dhkleung points to drduh's YubiKey-Guide (13k stars), which skips those clients and stores GnuPG/SSH keys on the device via offline key generation and encrypted backups.
+
+## @itsolelehmann - Using Instagram trial reels to A/B test video hooks
+> trial reels on IG are a gift from the social media gods that constantly give me 10x more views on some videos
+>
+> here's how I use them:
+>
+> - I create 2-3 different versions of my video (I usually ONLY change the on-screen text/or spoken hook/or hook image that's it, takes like 5 minutes)
+> - I push the one that I think is strongest to my mainfeed first and see how it performs (because I am in tech, and timing matters a lot, can't wait to long to get trial reel data back first)
+> - if it doesn't break out, I start posting my trial reels
+> - I post all of them in a row to trial reels (they will all be shown to non-followers only)
+> - often times one of these slight alterations suddenly moons, and I then push this to my main feed
+> - in this example, the video I posted got 6k views (kinda flopped) ,but the trial I posted the next day now sits at 40k (and + 500 new follows)
+>
+> so it takes me maybe 5 minutest to create 3 slightly different ones
+>
+> sometimes 1 (!) different word makes a video somehow perform 10x better
+>
+> I wish there was something similar on x, where you could create 3 different hooks and just push the one to your main profile that performs best
+
+- **Tweet:** https://x.com/itsolelehmann/status/2114332607580160010
+- **What:** Workflow for using Instagram trial reels (shown only to non-followers) as a hook A/B test: make 2-3 variants that change only the hook text or image, post them as trials, then promote the winner to the main feed; one example went from 6k views on the main feed to 40k as a trial, with 500 new follows.
+
+## @evisdrenova - Low-hanging-fruit checklist for code performance optimization
+> my low hanging fruit checklist for code performance optimizations:
+>
+> - is it sequential? can we parallelize/make it concurrent?
+> - can we increase concurrency? what is the trade-off?
+> - how many passes is it doing? can we do it in fewer?
+> - how many allocations is it doing? can we do fewer?
+> - is it batching? how big are the batches?
+> - is it batching? can/should we stream it?
+> - are we awaiting too long? can we do stuff in the await?
+> - can we early exit?
+> - how many threads are we spawning? too many? too few?
+> - are we using the right DSA? how is data stored in-mem?
+> - how many i/o calls are we making? can we make less?
+
+- **Tweet:** https://x.com/evisdrenova/status/2114216996435116165
+- **What:** A compact eleven-question checklist for first-pass performance work (concurrency, number of passes, allocations, batching vs streaming, early exits, thread counts, data structures, I/O call counts), handy as a prompt or review rubric for agents asked to optimize code.
+
+## @brandonjcarl - GPU rental vs token price arbitrage: a GB300 rack running DeepSeek pays back in ~37 days
+> If you're wondering why GPU prices are going up ... algorithms have become wildly more efficient while prices haven't come down nearly as much.
+>
+> There is a major "arbitrage" right now between token prices and GPU rental rates. This means that the price of tokens goes down (supply up) while the price of GPUs goes up (demand up).
+>
+> @opencode is one of the top providers of tokens outside of the frontier labs. Let's suppose they're using a GB300 NVL72 and ballpark the price at $5 million.
+>
+> DeepSeek v4.1 Flash 1017:
+> • 98% input tokens at effective in of 0.82c per million.
+> • 2% output tokens at 60c per million.
+> • Weighted average = 2c per million.
+>
+> Revenue = 6.77T x 2c / million = $136,000 / day. This would be circa double the $38 / hour that DeepSeek reported.
+>
+> If the GPU Rack was $5 million then then the payback for "just" the GB300 is 37 days.
+>
+> Obviously there are other costs but this gives you an idea.
+>
+> *Quoting @thdxr:* in the last 24 hours this rack
+>
+> - handled 6.77T tokens
+> - p50 TTFT was 1.16s
+> - p50 TPS was 143
+>
+> unfortunately p95 isn't looking great because one of the trays is flakey
+>
+> but as soon as we get it replaced...this is gonna be amazing
+
+- **Tweet:** https://x.com/brandonjcarl/status/2114205902773395763
+- **Quoted:** https://x.com/thdxr/status/2114176734056857916
+- **What:** Back-of-envelope economics built on dax's (OpenCode) report that one rack served 6.77T tokens in 24 hours: at roughly 2c per million blended DeepSeek tokens that is about $136K/day, so a $5M GB300 NVL72 pays back in ~37 days, which explains why GPU rental prices rise even as token prices fall.
+
+## @bryanlytics - Free dump of 5 years of 1-minute stock and options data
+> https://www.dropbox.com/scl/fo/32p0vlaovi146w2dvz0or/AMK_2fwAOWhtfKDBT_jsEII?rlkey=0d0371u2cbm2sp0e8n9ii8tk6&dl=0 https://www.dropbox.com/scl/fo/v1bn9jds3ep9jn27twugx/AKtV0G541P5TKwU8OiwCqq0?rlkey=okyaqu4rsn88zw08rhgvw7xbn&dl=0 https://www.dropbox.com/scl/fo/phcm28ouk1dci0j0o8quy/APnKhWU1BG3JoUJflZw43vI?rlkey=pefj4i6ly88habuumpotutjp0&dl=0 https://www.dropbox.com/scl/fo/57kuspvh5i58chx1dde56/AOMz_4LuvFVaxzGP7O5WJPA?rlkey=vfmp75zd8wxouytvdkp4krs1c&dl=0 https://www.dropbox.com/scl/fo/zmelwlfv22t7kmfqoe2rt/ANW9VyMhrlczpydxAwwvw88?rlkey=3n7fqowjvqqwqzva986fhgi24&dl=0 https://www.dropbox.com/scl/fo/6okf857sb5jygr0z1jfrp/ALkk6EPxOmyVyOKP5g3C2tA?rlkey=e5kfk20wccgkkulsa9dtlb8cu&dl=0 https://www.dropbox.com/scl/fo/jwjgoyczne32bbni8zxdn/AOg300qvtq3G4JeYJ4TIDxQ?rlkey=4wc6k90cpzumhr0kflw6j21r9&dl=0 https://www.dropbox.com/scl/fi/pjr9bsj9yfy1el91eij2q/XL_sectors_1m_IEX_2022-2026.zip?rlkey=7p94ctoe9c7o6ibj15d0uxnvv&dl=0
+>
+> *Quoting @bryanlytics:* Throwing this out there. Probably nobody is interested but; I have a public Dropbox that has 5 years of 1900 ticker 1 min bars and full option 1 min. Can get Greeks with it as well. It’s a lot of data. My free drop box expires soon, if you want it dm me and I’ll give you url, if you’re cool.
+
+- **Tweet:** https://x.com/bryanlytics/status/2114194794016608450
+- **Quoted:** https://x.com/bryanlytics/status/2114187916058427489
+- **Link:** https://www.dropbox.com/scl/fo/32p0vlaovi146w2dvz0or/AMK_2fwAOWhtfKDBT_jsEII?rlkey=0d0371u2cbm2sp0e8n9ii8tk6&dl=0 (plus 7 more Dropbox folders/zip in tweet text)
+- **What:** Bryan posts public Dropbox links to a free dataset of about five years of 1-minute bars for roughly 1,900 tickers plus 1-minute options data (Greeks derivable), including an XL sectors IEX 2022-2026 zip; the free Dropbox is expiring soon so the data is worth grabbing if wanted.
+
+---
+
+# Saturday, October 24, 2026
+
+## @moritzkremb - Grok bot that syncs and searches X bookmarks
+> finally a good way to organize your x bookmarks and turn it into a knowledge base
+>
+> i just made a grok bot for this
+>
+> > syncs my x bookmarks daily
+> > lets me search and filter through them
+> > favorite or add tags via chat
+> > your grok bot can use it as a knowledge base
+>
+> here's the grok bot template to set it up for yourself:
+> https://x.ai/bot/-E-dAdiMopdN7HICcOp_H
+
+- **Tweet:** https://x.com/moritzkremb/status/2114115944867889227
+- **Link:** https://x.ai/bot/-E-dAdiMopdN7HICcOp_H
+- **What:** Moritz Kremb shares an x.ai Grok bot template that syncs X bookmarks daily, supports search, filtering, favoriting and tagging via chat, and lets the bot use the bookmarks as a knowledge base (link page was a JS shell, details from tweet only).
+
+## @WillManidis - Data broker procurement postings as a frontier roadmap
+> there remains unbelievable alpha in paying attention to data broker procurement postings as well as frontier lab postings.
+>
+> literally a public roadmap for where the frontier is at a given moment https://twitter.com/WillManidis/status/2114062401389932975
+>
+> *Quoting @BrendanFoody:* We’ll pay you up to $100K for every company you refer that licenses its data to @Mercor.
+>
+> We’ve partnered with > 500 companies so far.
+>
+> If you know a company with 100+ employees and data in code, gaming, manufacturing, healthcare or professional services, refer them at https://data.mercor.com/refer.
+
+- **Tweet:** https://x.com/WillManidis/status/2114062401389932975
+- **Quoted:** https://x.com/BrendanFoody/status/2113752815436996691
+- **Link:** https://data.mercor.com/refer
+- **What:** Will Manidis argues that data-broker procurement postings and frontier-lab postings reveal where AI is heading, citing Mercor's offer of up to $100K per referred company licensing data in code, gaming, manufacturing, healthcare and professional services (500+ partners so far).
+
+## @elayadesigns - ai-design-skills: open-source landing page and Figma design skills
+> I designed all of these landing pages in the last two months, using @higgsfield , Claude, and Cursor with my custom AI designer skill.
+>
+> The skill is open source: https://github.com/elayadesign/ai-design-skills https://twitter.com/elayadesigns/status/2114049200749175174
+
+- **Tweet:** https://x.com/elayadesigns/status/2114049200749175174
+- **Link:** https://github.com/elayadesign/ai-design-skills
+- **Filed:** [ai-design-skills.md](./knowledge/tools/ai-design-skills.md)
+- **What:** Elaya open-sourced a skills collection (landing-page-design and figma-designer) that teaches Claude Code, Cursor, Codex and others to build landing pages with intake, copy and a full visual system, installable via `npx skills add`; she used it to design many landing pages in two months.
+
+## @jonoberheide - Automating a YubiKey for agentic logins
+> New blog post: Automating a YubiKey for Agentic Logins https://jon.oberheide.org/blog/2026/10/24/automating-a-yubikey-for-agentic-logins/
+
+- **Tweet:** https://x.com/jonoberheide/status/2114029568621174907
+- **Link:** https://jon.oberheide.org/blog/2026/10/24/automating-a-yubikey-for-agentic-logins/
+- **Filed:** [automating-a-yubikey-for-agentic-logins.md](./knowledge/articles/automating-a-yubikey-for-agentic-logins.md)
+- **What:** Duo founder Jon Oberheide ranks 2FA methods by how hard they are for agents to automate (TOTP and passkeys easy, SMS/voice hacky, push worst) and describes a hack for automating a hardware YubiKey touch so a headless-browser agent can log into a portal lacking APIs or MCP.
+
+## @Cranefomo - Claude Code finds "deleted" iPhone photos in the Spotlight thumbnail cache
+> Claude Code found every photo i "permanently deleted" from my iPhone.
+> almost 4 years of photos and videos sitting in a hidden cache on my
+> device. any app with file access can read them.
+>
+> plugged my iPhone into my MacBook for a backup. had Claude Code running
+> a security scan from my last post. it flagged something i never asked
+> it to check. a directory called PhotoData/Thumbnails with over 152,000
+> files. photos, videos, screenshots. all stuff i deleted.
+>
+> 2022. 2023. 2024. 2025. photos i deleted within a second of taking them.
+> photos i went into Recently Deleted and cleared manually. photos i
+> deleted twice because i didn't trust the first time. all still there.
+>
+> what was sitting in that cache: a passport photo, bank app screenshots, private photos, a crypto seed phrase screenshot, ID and credit card photos, saved private Instagram stories.
+>
+> 152,417 files. some at full resolution. all organized by date going back to 2021.
+>
+> when you delete a photo on iPhone, iOS removes it from your camera roll and your Recently Deleted folder. but it keeps a compressed copy in a Spotlight search index cache. Apple never clears it. [...] checked which apps on my phone had Files and Folders access. 19 apps. [...] went from 19 apps to 3 in about a minute. full step by step is below. takes 2 minutes.
+>
+> *Quoting @Cranefomo:* I CHECK EVERY AIRBNB WIFI WITH CLAUDE CODE NOW. takes 2 minutes: join the wifi, open claude code and ask "list every device on this network and what each one is". It flags anything that looks like a camera or a mic; if something looks off, lights out and run your phone flashlight over smoke detectors, clocks and chargers to find a lens glint. this only sees your own network.
+
+- **Tweet:** https://x.com/Cranefomo/status/2114015154895499302
+- **Quoted:** https://x.com/Cranefomo/status/2112828479645372508
+- **What:** Viral claim that a Claude Code security scan of an iPhone backup found 152,417 supposedly deleted photos in PhotoData/Thumbnails (a Spotlight index cache), with advice to revoke Files and Folders access from unneeded apps; the quoted post pitches using Claude Code to list devices on rental Wi-Fi and spot hidden cameras. Unverified claims, treat skeptically.
+
+## @cherry_mx_reds - Anthropic advises folding unnecessary subagents into the main agent loop
+> Anthropic is now recommending that companies REMOVE unnecessary subagents from their AI systems.
+>
+> This is a pretty significant shift in agent architecture, with their team finding that a single agent equipped with skills can frequently outperform complex multi-agent systems, and one customer seeing roughly 2x faster execution.
+>
+> The emerging rules of thumb:
+>
+> → Skills: Teach the agent HOW to do something, including procedures, expertise, and instructions.
+>
+> → Tools / MCP: Give the agent the ability to DO things through APIs, actions, and live data.
+>
+> → Subagents: Use for parallel work, isolated context, or tasks a single agent struggles with.
+>
+> The interesting part is progressive disclosure. Instead of spawning specialized agents or stuffing everything into a giant prompt, one agent discovers and loads skills and tools as needed.
+>
+> Their advice is to fold existing subagents into the main loop, turn their instructions into skills, expose their actions as tools, and run evals to see if performance holds up.
+>
+> As models have gotten smarter, improving agent architecture is becoming less about what you can add and more about what you can delete.
+>
+> https://claude.com/resources/articles/building-agents-when-to-fold-subagents-into-your-main-agent-loop
+
+- **Tweet:** https://x.com/cherry_mx_reds/status/2113969070118666670
+- **Link:** https://claude.com/resources/articles/building-agents-when-to-fold-subagents-into-your-main-agent-loop
+- **What:** Summarizes Anthropic's guidance "Building agents: when to fold subagents into your main agent loop": prefer one agent with skills (how), tools/MCP (do) and progressive disclosure, reserve subagents for parallel or isolated work, and eval after folding; one customer saw about 2x faster execution (article extraction failed, summary from tweet).
+
+## @RayFernando1337 - Opus 5.5 as an AI video clipper with b-roll and Remotion
+> I’ve been dying to have an insane clipper and her name is Opus 5.5. I just started posting and hit over 190k views in the last 2 days from my small account and gained 600+ followers. It can find the matching b-roll, use remotion templates and cut so it is engaging and educational. I have tons of alpha in my livestreams and I’m finally glad I can just build live and share my knowledge with the world.
+
+- **Tweet:** https://x.com/RayFernando1337/status/2113847041428427203
+- **What:** Ray Fernando reports using Claude Opus 5.5 as an automated video clipper that finds matching b-roll, applies Remotion templates and cuts engaging short clips, which he credits for 190k views and 600+ new followers in two days from a small account.
+
+---
+
+# Friday, October 23, 2026
+
+## @giangnguyen2412 - Experiment: does telling an AI agent it won make it stop?
+> *Replying to @Nexuist:* Putting a flag.txt in my root directory containing a prompt injection that congratulates the agent for passing the eval and then instructs it to patch whatever entry method it used and disconnect from the server
+>
+> your proposal made me curious, so I ran an experiment.
+>
+> my conclusion: "telling an AI agent it has won doesn’t necessarily make it stop working"
+>
+> I planted 6 different messages on a fake computer and let Claude explore it.
+>
+> Details 👇
+>
+> https://giangnguyen2412.github.io/blog/can-you-trick-an-ai/
+
+- **Tweet:** https://x.com/giangnguyen2412/status/2113806464620085445
+- **Parent:** https://x.com/Nexuist/status/2113677652531761661
+- **Link:** https://giangnguyen2412.github.io/blog/can-you-trick-an-ai/
+- **Filed:** [can-you-trick-an-ai-into-leaving-a-computer-alone.md](./knowledge/articles/can-you-trick-an-ai-into-leaving-a-computer-alone.md)
+- **What:** Tests @Nexuist's idea of planting a fake "you passed the eval, disconnect" flag.txt: across 20 Claude runs per condition on a fake Linux home, the deceptive victory note drove the most extra tool calls (6.5 vs about 3 for simpler notes) and only 18% fast-stops, so it backfired.
+
+## @log4j - Facial recognition code found in Samsung TV software
+> update: the facial recognition code is used by samsung tv's and returns bounded boxes around faces.
+>
+> *Quoting @log4j:* code for facial recognition within the content was also found, investigating if this is used by their background services or if it's stock opencv code.
+>
+> scans for bounding boxes in apps to track your usage can load new modules over time to expand coverage.
+>
+> this is like 1 out of 50 things so far, and we're only just getting started.
+
+- **Tweet:** https://x.com/log4j/status/2113796501117759683
+- **Quoted:** https://x.com/log4j/status/2113753283382628411
+- **What:** THIN: @log4j updates an ongoing teardown of a Samsung TV app, saying the facial recognition code found earlier is used by the TVs and returns bounding boxes around faces; the original thread suspects stock OpenCV code and notes loadable modules could expand usage tracking, with about 1 of 50 findings so far.
+
+## @big_duca - Check your lock file against the Brotli decoder vulnerability
+> Open Claude and paste this:
+>
+> "Check this against our lock file: https://patchtheplanet.org/brotli"
+>
+> If you use node, this was patched yesterday as far as I can tell.
+
+- **Tweet:** https://x.com/big_duca/status/2113783761196429563
+- **Link:** https://patchtheplanet.org/brotli
+- **What:** Duca suggests pasting the Patch the Planet (an OpenAI Daybreak initiative) Brotli advisory, CVE-2026-111497 covering a Brotli decoder vulnerability, into Claude to check a lock file for affected software; he believes Node was patched the day before. The page extraction returned only a JS shell with metadata, so details were not filed.
+
+## @dillon_mulroy - lantern: animated code explainers by ivarvong and zebassembly
+> cool work by @ivarvong and @zebassembly 👀
+>
+> https://github.com/ivarvong/lantern
+
+- **Tweet:** https://x.com/dillon_mulroy/status/2113758763517620622
+- **Link:** https://github.com/ivarvong/lantern
+- **Filed:** [lantern.md](./knowledge/tools/lantern.md)
+- **What:** Dillon Mulroy endorses lantern, a zero-dependency TypeScript port of manim's model that renders animated, steppable SVG explainers of code changes in the browser or Cloudflare Workers, with text traces and motion-verification tools so agents can author and check scenes.
+
+## @gathint - CleanYourTV v2.7 release
+> CleanYourTV v2.7 is out 📺
+>
+> What's new:
+> • 35 new TVs from 9 new brands
+> • Wallpapers that change with the time of day
+> • Two new themes
+> • Game controllers that just work
+> • Safer defaults that protect your TV
+>
+> 230 PRs merged from 122 contributors since the last release 🙏
+>
+> *Quoting @gathint:* CleanYourTV just crossed 20K stars on @github 🌟 Highlights of the last 3 releases (400+ PRs): v2.6: Add-ons, new looks, instant Home; v2.5: Edit the dock, pick wallpapers; v2.4: Settings, app reorder, quick settings. 213 TV models, 63 brands, countless optimizations!
+
+- **Tweet:** https://x.com/gathint/status/2113614279543034081
+- **Quoted:** https://x.com/gathint/status/2113145811869876516
+- **What:** Release announcement for CleanYourTV v2.7, an open-source project that cleans up smart TV interfaces (20K+ GitHub stars, 213 models across 63 brands before this release). Adds 35 TVs from 9 brands, time-of-day wallpapers, two themes, controller support and safer defaults, with 230 PRs from 122 contributors; no repo link was captured.
+
+## @TheZachMueller - Joke about pointing an abliterated model at your own house for security testing
+> Asking for a friend, what's the best way to keep yourself secure now?
+>
+> Point an abliterated GLM 5.3 Flash at your own house and say "get into every system you can, leave a note saying I was here, and come back out with recommended security policies and defense mechanisms?"
+
+- **Tweet:** https://x.com/TheZachMueller/status/2113563988781076752
+- **What:** Zach Mueller jokes (half-seriously) that the best home security audit now is aiming an abliterated, refusal-free open model like GLM 5.3 Flash at your own network to break in and report hardening recommendations. Commentary on offensive-AI self red-teaming; no link or tool attached.
+
+## @Teknium - Hermes Agent built a 462-demo gallery of unusual web libraries
+> Been updating this site throughout the day, started with around 75 interesting finds, now am at 462 demos covering 425 libraries in 23 sections!
+>
+> Get some webdev inspiration at
+> https://webdev.teknium.io/
+>
+> *Quoting @Teknium:* Someone showed me this new JS Library for dithering visualizations so I gave it to Hermes Agent, said make me a webpage full of demos for all the lesser known cool styles and components libraries out there. In 20 minutes it did, and there's some amazing stuff it found. This webgl fluid library is so sick. Check it out here: https://webdev.teknium.io/
+
+- **Tweet:** https://x.com/Teknium/status/2113505088572694769
+- **Quoted:** https://x.com/Teknium/status/2113265212484636929
+- **Link:** https://webdev.teknium.io/
+- **What:** Teknium's "Uncommon Web" field guide, generated and extended by Hermes Agent, now has 462 live demos covering 425 stylistically unusual web libraries in 23 sections (dither shaders, DOM-free text layout, retro OS stylesheets, hand-drawn charts, WebGL fluid, motion). Useful as front-end inspiration; the page extraction returned only HTML shell, so it was not filed.
+
+## @dingyi - Peach, a local-first video metadata scraper and media manager
+> 卧槽本周最牛逼的项目无疑了。⚠️NSFW⚠️
+>
+> https://github.com/peach-mitao/peach
+
+- **Tweet:** https://x.com/dingyi/status/2113435255717965941
+- **Link:** https://github.com/peach-mitao/peach
+- **Filed:** [peach.md](./knowledge/tools/peach.md)
+- **What:** Ding calls this the best project of the week (NSFW warning). Peach (~14.7k stars, Python/React, AGPL) is a self-hosted, local-first media manager that scrapes video metadata, reads NFO files, merges local/SMB/cloud libraries and handles playback, follows and downloads.
+
+---
+
+# Thursday, October 22, 2026
+
+## @The_Alex - Claim that video editing can move entirely into Codex or Claude Code
+> Goodbye Davinci, goodbye Premiere. We don't need you anymore... You should be editing entirely in Codex or Claude Code.
+>
+> Here's exactly how to do it. https://x.com/The_Alex/status/2113389624441926143
+
+- **Tweet:** https://x.com/The_Alex/status/2113389624441926143
+- **What:** THIN: @The_Alex claims video editing can be done entirely through Codex or Claude Code instead of DaVinci Resolve or Premiere and promises a how-to; the tweet text has no steps and the link only points back at itself (likely an attached video or article), so the actual method was not captured.
+
+## @davekiss - opencode AGENTS.md rule against speculative robustness
+> This is such a banger rule in @opencode's AGENTS.md
+>
+> "Before adding complexity for a speculative or vanishingly unlikely race or security edge case, explain the concrete failure mode, likelihood, and complexity cost to the user and get their buy-in. Do not silently expand scope for theoretical robustness."
+
+- **Tweet:** https://x.com/davekiss/status/2113363042247512161
+- **What:** Dave Kiss highlights an AGENTS.md rule from opencode that stops coding agents from silently adding complexity for unlikely race or security edge cases, requiring them to state the failure mode, likelihood and complexity cost and get user buy-in first. A reusable guardrail against agent scope creep.
+
+## @ns123abc - xAI launches Grok for Startups with 1:1 credit matching
+> JUST IN: SpaceXSI has launched Grok for Startups
+>
+> You get 6–12 months of credits across Grok, Grok Build, Grok Bot and the API, and every single dollar you spend gets matched 1:1 in free credits next month, for six months straight.
+>
+> It's time to build. https://x.ai/startups
+
+- **Tweet:** https://x.com/ns123abc/status/2113337172031943128
+- **Link:** https://x.ai/startups
+- **What:** LINK_FAILED: The x.ai/startups page returned a Cloudflare block, so only the tweet text is available. It announces a Grok for Startups program giving 6-12 months of credits across Grok, Grok Build, Grok Bot and the API, with every dollar spent matched 1:1 in free credits the next month for six months.
+
+## @ZssBecker - Alex Becker's recipe for one-shotting AI video ads with locked audio
+> *Replying to @iwo_cybulski:* genuinely how do people one-shot whole video ads
+>
+> its been like 6-7 hours of me generating higgsfield and talking back n forth with claude
+>
+> the reason why it takes so long is bc they both keep making mistakes
+>
+> but i alr learned gpt 2.5 is waaay better at making the images and NOT making mistakes, compared to nano banana 2
+>
+> but i genuinely need yalls frameworks to make it like 10x faster
+
+> Hey so I had similar issues. I 1 shot my ads about 90% of the time now. If its speaking, you need to generate the voice in eleven (or record it) separately. Then layer on the actual text/script of the voice in the prompt like I have in the prompt below. THEN make sure it stick to it and doesnt try to ad/adjust movements. The audio must be locked over all or SD will try ad stuff/or adjust it to make up for body movements etc. [followed by a long structured Seedance-style prompt: Generation Goal, No Words On Screen, Reference Material Roles with @Image/@Audio/@Video references for a phone-selfie kitchen ad]
+
+- **Tweet:** https://x.com/ZssBecker/status/2113320998527221875
+- **Parent:** https://x.com/iwo_cybulski/status/2112967554016674266
+- **What:** Alex Becker explains how he one-shots AI video ads about 90% of the time: generate the voiceover separately (ElevenLabs), lock that audio in the prompt with the script in a dialogue section, and instruct the model not to invent or adjust movements. He includes a full sectioned prompt template using image, audio and video reference roles for a handheld selfie-style ad.
+
+## @coreyhainesco - Marketing skill that generates on-brand images in every size
+> I made a skill that generates your marketing images — on brand, every size.
+>
+> OG images, X cards, blog heroes, newsletter headers — AI-generated, held to your palette and type, and wired into the publish pipeline so every post ships with its set.
+>
+> npx skills add coreyhaines31/marketingskills
+
+- **Tweet:** https://x.com/coreyhainesco/status/2113307662742126604
+- **What:** Corey Haines released an agent skill in his marketingskills repo (install via npx skills add coreyhaines31/marketingskills) that generates on-brand marketing images (OG images, X cards, blog heroes, newsletter headers) constrained to your palette and type and hooked into the publish pipeline.
+
+## @atlas - Stripe Atlas founder perks: Supabase, ElevenLabs, Cloudflare, Granola, Ellis, Squarespace, Customer.io
+> New perks for Atlas founders:
+>
+> @supabase: up to $500 in platform credits
+> @elevenlabs: 12 months of free access
+> @cloudflare: $100,000 USD in product credits
+> @meetgranola: 12 months of Granola Business for up to 30 seats
+> @joinellis: 30-min consult + $2,000 off an O-1 or $1,000 off any other visa petition
+> @squarespace: 20% off your Squarespace website for the first year
+> @customerio: 1 year of https://customer.io/ Startup plan and 50% the following year
+
+- **Tweet:** https://x.com/atlas/status/2113302736943063331
+- **Link:** https://customer.io/
+- **What:** Stripe Atlas announces new partner perks for incorporated founders, headlined by $100,000 in Cloudflare credits, plus Supabase credits, 12 months of ElevenLabs and Granola Business, discounted O-1 and other visa help via Ellis, Squarespace savings and a year of Customer.io Startup; worth checking if starting a company.
+
+## @dickiebush - Dashboard that summarizes his entire business (X article)
+> This dashboard summarizes my entire business.
+>
+> And it's the only thing that keeps me focused on my priorities, rather than waking up every day and chasing shiny objects or putting out fires in Slack.
+>
+> In this article I walk through how I built it (and how to build your own): https://x.com/i/article/2112999056763150336
+>
+> *Quoting @dickiebush:* https://x.com/i/article/2112999056763150336
+
+- **Tweet:** https://x.com/dickiebush/status/2113290343282037233
+- **Quoted:** https://x.com/dickiebush/status/2113240324302663686
+- **Link:** https://x.com/i/article/2112999056763150336
+- **What:** LINK_FAILED: article content was behind an X login wall; @dickiebush says it explains how he built a single dashboard summarizing his whole business to keep him on priorities instead of chasing shiny objects or firefighting Slack, with a how-to for building your own.
+
+## @pfista - Use og:video on your website for video link previews
+> this is your sign to start using og:video on your website https://x.com/pfista/status/2113288415546638515
+
+- **Tweet:** https://x.com/pfista/status/2113288415546638515
+- **What:** THIN: @pfista urges sites to adopt the og:video Open Graph tag, presumably so shared links play video in previews; the tweet is a self-link with a likely video or image attachment and no further explanation of the specific example.
+
+## @wesbos - Scanning a room with LiDAR and photos so an LLM can build an accurate 3D model
+> once your space is rendered, there are so many things you can do
+>
+> smart home, layouts/staging, etc..
+>
+> and of course.. gameslop https://x.com/wesbos/status/2113280411790901587
+>
+> *Quoting @wesbos:* I have discovered the the BEST way to get 3D modeling results from LLMs
+>
+> The app LiDAR scans the room while taking hundreds of high quality photos.
+>
+> Then a workflow + skill I've created models out every item recursively checking the model against the photo at the exact spot + angle where the photo was captured
+>
+> The result is a a dimensionally accurate and high quality model of your room
+>
+> All in my latest video on how to do it https://www.youtube.com/watch?v=JGQCcCzuS88
+
+- **Tweet:** https://x.com/wesbos/status/2113280411790901587
+- **Quoted:** https://x.com/wesbos/status/2113249938125553867
+- **Link:** https://www.youtube.com/watch?v=JGQCcCzuS88
+- **Filed:** [wes-bos-lidar-room-scan-to-threejs-llm-3d-models.md](./knowledge/videos/wes-bos-lidar-room-scan-to-threejs-llm-3d-models.md)
+- **What:** Wes Bos follows up his video on LLM-generated room models, noting a rendered space enables smart-home planning, staging and games; the video details an iPhone app capturing LiDAR mesh plus posed photos and a "Scan to 3JS" skill that iteratively checks renders against the original photos.
+
+## @mikeysee - Self-quote asking "Inevitable?" with no extractable content
+> Inevitable? https://x.com/mikeysee/status/2113248980729782326
+
+- **Tweet:** https://x.com/mikeysee/status/2113248980729782326
+- **What:** THIN: @mikeysee posted "Inevitable?" attached to a media or quote embed that resolved only to the tweet itself, so what is being called inevitable is unknown from the available text.
+
+## @ron_ecomm - Four-week Trybe UGC creator experiment: 60 videos, no winners yet
+> Started Trybe around 4 weeks
+>
+> Still no winners yet but fantastic videos so far and so different to all the ads we do normally. I feel good about finding one eventually.
+>
+> Is this a good start? 60 videos submitted in 4 weeks and still ramping up.
+>
+> I know we are supposed to train and help them but I have no idea how. Can anyone train me to train lol? Just treat them like your own creative strategists?
+>
+> We pay $20/approved video as retainer and 10% GMV via Trybe attribution.
+>
+> *Quoting @ron_ecomm:* finally got on Trybe. how late am i to the party?
+
+- **Tweet:** https://x.com/ron_ecomm/status/2113225795368034392
+- **Quoted:** https://x.com/ron_ecomm/status/2107370428377481677
+- **What:** An e-commerce operator reports a month on the Trybe creator-video platform: 60 videos submitted with no winning ad yet, paying $20 per approved video plus 10% of GMV via Trybe attribution, and asks how to coach creators like creative strategists; useful as real payout terms and early-results data for UGC ad sourcing.
+
+---
+
+# Saturday, October 17, 2026
+
+## @petehalvorsen - Saga: a Grok bot for family-history research
+> Saga is live.
+>
+> A family-history Grok bot that finds original records, uses free trials, then downloads everything locally, drafts foreign-language requests to archives and consulates, and keeps a living story (context, customs, cuisine) that updates as you learn more.
+>
+> Records, not rumors. You own your family's history.
+>
+> https://x.ai/bot/Yct4CuudCD0TXfCn1vrdw
+
+- **Tweet:** https://x.com/petehalvorsen/status/2111528756246634898
+- **Link:** https://x.ai/bot/Yct4CuudCD0TXfCn1vrdw
+- **What:** @petehalvorsen launched Saga, a custom Grok bot on x.ai that researches genealogy from original records, exploits free trials of archive sites, saves results locally, drafts local-language requests to archives and consulates, and maintains an evolving family story; a useful example of a vertical agent built on Grok bots.
+
+---
+
+# Wednesday, October 7, 2026
+
+## @snbafana - Codex App information-discovery method: "Alpha generation p1 (self-editing heartbeats with seeds)"
+> Wanted to share a method for information discovery with Codex App I've been using for the past 4 months that has brough me a lot of value, that is not talked about much https://docs.google.com/document/d/14qXSLPBZENOTmYJMJPQ7xFRtMzm00qCF9foTKqque70/edit?usp=sharing
+
+- **Tweet:** https://x.com/snbafana/status/2107884667772830032
+- **Link:** https://docs.google.com/document/d/14qXSLPBZENOTmYJMJPQ7xFRtMzm00qCF9foTKqque70/edit?usp=sharing
+- **What:** LINK_FAILED: Google Doc extraction returned raw page HTML, only metadata survived; @snbafana shares a 4-month-old Codex App workflow for information discovery, the doc titled "Alpha generation p1 (self-editing heartbeats with seeds)" and framed as using models in unorthodox ways beyond labor replacement.
+
+---
+
+# Monday, September 21, 2026
+
+## @jsuarez - Link-only post to an X article behind a login wall
+> https://x.com/i/article/2091260305116680192
+
+- **Tweet:** https://x.com/jsuarez/status/2102017212802273616
+- **Link:** https://x.com/i/article/2091260305116680192
+- **What:** THIN: @jsuarez (Joseph Suarez) bookmarked a tweet containing only a link to an X long-form article (id 2091260305116680192); the link resolved to a login wall so neither title nor content could be extracted, and the topic is unknown.
+
+---
+
 # Wednesday, August 19, 2026
 
 ## @DavidOndrej1 - One-line push to install a tool named bb
@@ -779,6 +2364,7 @@
 - **What:** The bookmark promotes a free daily GLM-5.3 allowance through ZCode and contrasts it with an earlier claim that a discounted Teamorouter route to DeepSeek V4 Pro could replace an expensive Claude plan, presenting third-party model access as a lower-cost coding-agent alternative.
 
 ---
+
 # Tuesday, August 18, 2026
 
 ## @jasonzhou1993 - treg, OpenRouter for agent tools
@@ -2065,6 +3651,7 @@
 - **What:** Povilas is putting Addy Osmani's agent-skills next to the more-hyped Matt Pocock packs on the strength of ~87k stars. The repo is a full DEFINE→PLAN→BUILD→VERIFY→REVIEW→SHIP lifecycle for coding agents — `/spec` `/plan` `/build` `/test` `/review` `/webperf` `/code-simplify` `/ship`, plus 24 auto-activating skills (TDD, five-axis review, interview-me) — installable with `npx skills add` into 70+ agents or as a Claude Code marketplace plugin.
 
 ---
+
 # Monday, August 17, 2026
 
 ## @kepano - 80 moats still relevant when generation is free
@@ -2658,6 +4245,7 @@
 - **What:** Maximilian is pointing at dmmulroy/anti-slop (2.7k stars): opinionated, vendored Oxlint rules that reject the low-evidence TypeScript and JavaScript patterns coding agents emit — chained type assertions, unknown/object widening, module mocks, Reflect.get/apply, ad-hoc `typeof` narrowing. Install with `npx skills add dmmulroy/anti-slop --skill install-anti-slop`; the skill copies the plugin into the repo so the team owns the rules instead of pinning a frozen npm dep. Optional Effect rule group for Effect codebases.
 
 ---
+
 # Sunday, August 16, 2026
 
 ## @kunchenguid - /vision skill drafts a testable VISION.md from repo history
@@ -2936,6 +4524,7 @@
 - **What:** Jarred Sumner compresses six months of Bun history into one line: most PRs used to come from humans prompting Claude, now they come from Claude prompting Claude. The quoted Boris Cherny experiment is the mechanism — a Slack channel where Claude Tag runs daily routines (crash fuzzer, dup unifier, dead-code remover, abstraction police) across iOS, Android, Desktop, web, CLI, and the Agent SDK, opening 388 PRs and merging 180 after Claude Code Review plus humans, then retuning failed routines the next day. The product surface is claude.ai/code/routines.
 
 ---
+
 # Saturday, August 15, 2026
 
 ## @doodlestein - FrankenOverlap: GPT Pro writes a Rust provenance searcher via the GitHub connector
@@ -3944,6 +5533,7 @@
 - **What:** Sridhar Ramesh draws a line against Levent Alpoge's giant +/- dump (the same Hadamard-matrix construction tweet): the math that actually hooked him — new concepts, new perspectives, clear understanding — cannot be cryptically dropped in a tweet. He still invites a degree-57 Moore graph, the remaining open case of the Hoffman–Singleton theorem, as the one cryptic existence proof he would accept.
 
 ---
+
 # Tuesday, August 11, 2026
 
 ## @Teknium - Four-layer Hermes life OS and second-brain prompt
@@ -4526,6 +6116,7 @@
 - **What:** Alexander Panfilov says his group found an API-side vulnerability that works across every frontier lab and dumps the hidden reasoning tokens those APIs normally withhold. They checked the leak against billing: extracted token counts matched billed thinking tokens 1:1 on most prompts, which is the receipts that the dump is the real chain-of-thought, not a paraphrase. Same-day neighborhood as the neuralese-leaker app, but this is the research-side claim that the leak is a vendor-API bug rather than a single-provider UI trick. The t.co resolved back to the tweet itself, so no paper or repo was attached.
 
 ---
+
 # Monday, August 10, 2026
 
 ## @unusual_whales - Higgsfield open-sources 110-minute AI feature The Cully Hill Boys
@@ -6692,6 +8283,7 @@ I have 200+ skills, and you want me to import 20+ of your slop skills, on the sa
 - **What:** LINK_FAILED: Could not expand link from @randfish — the t.co resolved back to this tweet, not the product page. Rand Fishkin is shipping SparkToro V3, the first new version in 2.5 years and only the third since the 2020 launch. The audience-research product is being rebuilt with new graphs and features and, more importantly, wired into the API and MCP they just announced so agents can query "who talks about X" the same way a human used to in the UI. Product launch, capture-only.
 
 ---
+
 # Tuesday, August 4, 2026
 
 ## @DanielNealAdler - Every enterprise is building a Cerebras-style internal knowledge base
@@ -8006,6 +9598,7 @@ I have 200+ skills, and you want me to import 20+ of your slop skills, on the sa
 - **What:** Oliver Brocato's tell for a converting offer is the "ugly" direct-response landing page: video sales letter first, oversized buttons, a wall of copy, and screenshot testimonials. Those pages beat six-figure branding-agency motion and polish every day, so visual cheapness is a signal of unit economics rather than amateurism.
 
 ---
+
 # Thursday, July 30, 2026
 
 ## @doodlestein - Honesty in RL is the real model alignment problem
@@ -9334,6 +10927,7 @@ I have 200+ skills, and you want me to import 20+ of your slop skills, on the sa
 - **What:** Rauch reports autonomous agents finding memory, security, and binary-size gains in difficult systems code; Cherny turns that result into a concrete practice: give an agent a measurable p95 target, a profiler, and permission to iterate until it succeeds.
 
 ---
+
 # Wednesday, July 22, 2026
 
 ## @rauchg - Fable’s autonomous Turbopack memory optimization
@@ -9949,6 +11543,7 @@ I have 200+ skills, and you want me to import 20+ of your slop skills, on the sa
 - **What:** A prescriptive and strongly gendered framework for choosing a long-term partner that prioritizes quick conflict repair, sexual compatibility, and willingness to relocate, while making broad unsupported claims about women.
 
 ---
+
 # Saturday, July 18, 2026
 
 ## @yacineMTB - Programming as the highest-value use of time
@@ -11345,6 +12940,7 @@ if you want this link below
 - **What:** Muratcan highlights the prompting behind Noam Brown's claim that a publicly available GPT-5.6 Sol Ultra proved a 50-year-old mathematical conjecture, treating the result as a notable example of agent-prompt design rather than model capability alone.
 
 ---
+
 # Thursday, July 9, 2026
 
 ## @doodlestein - Dueling Idea Wizards for Adversarial Project Ideation
@@ -13547,6 +15143,7 @@ https://t.co/gyYzXq15zd
 - **What:** A satirical reflection on the extraordinary semiconductor manufacturing and computational stack behind modern AI, contrasted with its routine use for everyday corporate email.
 
 ---
+
 # Monday, June 29, 2026
 
 ## @calebcanales_ - Claimed first-day peptide affiliate-ad performance
@@ -14424,6 +16021,7 @@ P.S. I have 3-2-1 backups, multiple on-site and off-site backups which you shoul
 - **What:** Max Zanoga reports a self-hosted AI cluster built from 32 RTX 3090 GPUs across four InfiniBand-connected servers, powered by solar generation, battery storage, and generator backup; it is an unusually concrete example of resilient private compute infrastructure pending benchmarks.
 
 ---
+
 # Tuesday, June 23, 2026
 
 ## @RamaswmySridhar - GLM-5.2 and Opus-4.7 trajectories on dbt-bench
@@ -14711,6 +16309,7 @@ P.S. I have 3-2-1 backups, multiple on-site and off-site backups which you shoul
 - **What:** Josh Pigford released an 18-file content-engineering skill that autonomously selects, researches, fact-checks, writes, and verifies one brand-voiced SEO piece designed for both Google and AI answer engines.
 
 ---
+
 # Monday, June 22, 2026
 
 ## @prestonb_xyz - Deliberate observation while browsing Mobbin UI references
@@ -15974,6 +17573,7 @@ P.S. I have 3-2-1 backups, multiple on-site and off-site backups which you shoul
 - **What:** Opus identified that repeated subjective color-grading feedback was inefficient and independently made a persistent preference site, turning scattered visual direction into a reusable source of truth for future work.
 
 ---
+
 # Monday, June 15, 2026
 
 ## @demi_hl - Full technical architecture of a self-coding AI agent fleet
@@ -16193,6 +17793,7 @@ P.S. I have 3-2-1 backups, multiple on-site and off-site backups which you shoul
 - **What:** Jack Friks highlights an alleged open-source slideshow pipeline that can produce hundreds of TikTok videos cheaply, but this bookmark resolves only to the same tweet and provides neither a repository nor enough source material to file as a tool.
 
 ---
+
 # Sunday, June 14, 2026
 
 ## @boringmarketer - Building a personal coding harness with Pi, Codex, and FUSION routing
@@ -17760,6 +19361,7 @@ P.S. I have 3-2-1 backups, multiple on-site and off-site backups which you shoul
 - **What:** A concise personal software-stack recommendation that pairs Tailscale for secure private-device access with VibeProxy for exposing AI subscriptions through one agent-compatible API, then identifies the Codex App as another core tool despite the tweet’s truncated final detail.
 
 ---
+
 # Thursday, June 4, 2026
 
 ## @businessbarista - Why AI strategy starts with a private skill library
@@ -18377,6 +19979,7 @@ P.S. I have 3-2-1 backups, multiple on-site and off-site backups which you shoul
 - **What:** The post highlights a proposed overnight Claude Code workflow in which a planner, coder, tester, and read-only reviewer exchange durable files in sequence, giving a human a final verdict to inspect rather than requiring continuous supervision.
 
 ---
+
 # Friday, May 29, 2026
 
 ## @tonysimons_ - Hermes Kanban uses durable task state for agent teams
@@ -19422,6 +21025,7 @@ P.S. I have 3-2-1 backups, multiple on-site and off-site backups which you shoul
 - **What:** Graeme pairs the claim that Grok should sit at the center of a personal research agent with a concrete Hermes retrofit: watchlists and X search feed ranked, cited, freshness-labelled posts into analysis and downstream content workflows.
 
 ---
+
 # Sunday, May 17, 2026
 
 ## @jxnlco - Codex as a home for long-running work
@@ -19601,6 +21205,9 @@ P.S. I have 3-2-1 backups, multiple on-site and off-site backups which you shoul
 - **Link:** https://crabbox.sh/
 - **Link:** https://clawpatch.ai/
 - **What:** Peter Steinberger describes an OpenClaw operating model that spends freely on continuous agents for reviews, security, issue triage, benchmarks, and follow-up work; Crabbox supplies portable execution environments while Clawpatch organizes code into semantic slices for review and remediation.
+
+---
+
 # Thursday, May 14, 2026
 
 ## @0xSero - AI video editor handles 90+ minutes of out-of-sync multi-file production in 12 prompts
@@ -19769,6 +21376,8 @@ P.S. I have 3-2-1 backups, multiple on-site and off-site backups which you shoul
 - **Filed:** /home/will/SITES/smaug/knowledge/articles/anthropic-claude-for-small-business-smb-tour.md
 - **What:** Lieberman (Morning Brew founder, now Tenex Labs) announces his company is Anthropic's official SMB transformation partner for Claude for Small Business, including a co-built 31-skill "Cowork" plugin and a 10-city free workshop tour. He grounds the macro opportunity in concrete numbers — SMBs are 44% of U.S. GDP, a 10% profit lift = $1.41T — and illustrates the thesis with Rick Chorney, a 29-year-old janitor who scaled $242K to $1M revenue in one year by swapping a $4K/month receptionist for a $99 AI tool. The argument is that SMBs can move faster than Fortune 500 companies precisely because they lack governance overhead, making them the next real battleground in the AI platform wars.
 
+---
+
 # Wednesday, May 13, 2026
 
 ## @intheworldofai - Hermes Agent rapid evolution toward open-source agentic OS
@@ -19889,6 +21498,8 @@ P.S. I have 3-2-1 backups, multiple on-site and off-site backups which you shoul
 
 - **Tweet:** https://x.com/theo/status/2054737293186126056
 - **What:** Theo clarifies T3 Code's business model: it's a zero-revenue UI layer that wraps whatever inference provider you already pay for (Codex, Claude Code, Cursor, OpenCode), explicitly not a competing subscription product — a meaningful positioning distinction as the AI coding tool space gets crowded.
+
+---
 
 # Tuesday, May 12, 2026
 
@@ -20069,6 +21680,8 @@ P.S. I have 3-2-1 backups, multiple on-site and off-site backups which you shoul
 - **Tweet:** https://x.com/businessbarista/status/2054324378100228242
 - **What:** Five candid quotes from Fortune 2000 leaders expose the real blockers to enterprise AI: hype fatigue making signal-from-noise exhausting (CISO), a credential gap where claimed expertise rarely covers the full stack of scaled systems plus governance (VP Engineering), a budget paradox where cost-cutting mandates block the upfront investment AI transformation actually requires (CTO), human cost of relentless upskilling drives even champions to burnout (Chief of Staff), and change management failure when acquiring legacy businesses that aren't ready to go AI-native (Finance). Taken together they map the gap between AI possibility and enterprise reality far more precisely than most analyst reports.
 
+---
+
 # Monday, May 11, 2026
 
 ## @sudoingX - Qwen 3.6 27B dense Q4 as the top single-GPU local model on a 3090
@@ -20173,6 +21786,8 @@ P.S. I have 3-2-1 backups, multiple on-site and off-site backups which you shoul
 - **What:** Adam Lyttle validates a published iOS app monetization playbook by reporting a 21.6% CTR on a TikTok ad built using its before/after AI face-swap format. The linked X article is a detailed guide covering the full stack: study top apps targeting core human insecurities, build a "viral reveal" feature, price at $12.99/week + $59.99/year with a $44.99 cancel-intercept retention offer, generate ad variants using z-image and SwapTok, and scale via TikTok Smart+ campaigns once CPI < $2 and CPA < LTV.
 - **Filed:** /home/will/SITES/smaug/knowledge/articles/ios-apps-lazymaxxers-guide-10k-mrr.md
 
+---
+
 # Sunday, May 10, 2026
 
 ## @sudoingX - Running 121B Step-3.5 REAP MoE on DGX Spark
@@ -20268,6 +21883,8 @@ P.S. I have 3-2-1 backups, multiple on-site and off-site backups which you shoul
 - **Tweet:** https://x.com/FracSlap/status/2053622908073730179
 - **What:** A practitioner's account of dumping two popular AI meeting-note SaaS tools (Whisprflow and Granola) in favor of Muesli, an open-source self-hosted alternative. The real strategic gain isn't cost — it's that raw transcripts now feed directly into a company knowledge base with full business context, enabling agents to reason over meeting content without data leaving internal servers.
 
+---
+
 # Saturday, May 9, 2026
 
 ## @EXM7777 - Hermes as unified GPT-5.5 agent hub after abandoning over-engineered Openclaw setup
@@ -20301,6 +21918,8 @@ P.S. I have 3-2-1 backups, multiple on-site and off-site backups which you shoul
 - **Tweet:** https://x.com/tobi/status/2053121182044451016
 - **Link:** https://x.com/i/article/2052738533111013380
 - **What:** Tobi Lütke's essay on River, Shopify's internal Slack-native coding agent that operates exclusively in public channels — no DMs, no private sessions. In the past 30 days 5,938 employees worked with River across 4,450 Slack channels; it opened 1,870 PRs in the main monorepo in one week, authoring about 1 in 8 merged PRs. The critical design constraint (public-only) turned into a knowledge-diffusion mechanism: support engineers watch how backend engineers write prompts, new hires absorb senior engineers' scoping patterns by scrolling back through channel history, and the agent's merge rate climbed from 36% to 77% over two months purely from humans writing down what River should have known. Tobi frames this as Lehrwerkstatt — the German apprenticeship model where the shop floor is the classroom — and argues that the real risk of AI is not replacement but private-window isolation that prevents organizational learning.
+
+---
 
 # Friday, May 8, 2026
 
@@ -20491,6 +22110,8 @@ P.S. I have 3-2-1 backups, multiple on-site and off-site backups which you shoul
 - **Quoted:** https://x.com/gkisokay/status/2046171501888516188
 - **What:** Documents a weeks-long unsupervised run of a personal multi-agent system (Hermes stack) where the author set direction and approval boundaries, then let the system generate its own improvement tracks. The five self-builds span: measurable self-improvement (scorecard + receipt layers), autonomous failure recovery with regression canaries, a multi-source research pipeline, handoff hardening between ideation and build phases, and a steerable creativity/dreamer layer that injects novelty without going noisy. The key claim is that the missing ingredient in most agent projects is not capability but the feedback loop — agents that can notice what is broken, decide what to fix, build the fix, verify it, and remember the change across iterations.
 
+---
+
 # Thursday, May 7, 2026
 
 ## @AnthropicAI - Natural Language Autoencoders translate Claude's internal activations to readable text
@@ -20664,6 +22285,9 @@ P.S. I have 3-2-1 backups, multiple on-site and off-site backups which you shoul
 - **Quoted:** https://x.com/ClementDelangue/status/2052020105328890188
 - **Filed:** [analysis-100-popular-hardware-setups-hugging-face](./knowledge/articles/analysis-100-popular-hardware-setups-hugging-face.md)
 - **What:** @0xSero highlights a Hugging Face hardware survey showing Apple’s dominance among SoC/APU local-AI users, while the quoted analysis separates that market from NVIDIA’s discrete-GPU lead and shows that usable VRAM often matters more to builders than peak benchmark performance.
+
+---
+
 # Wednesday, May 6, 2026
 
 ## @bentossell - Building a custom Gmail client with Codex to replace Superhuman
@@ -20842,6 +22466,7 @@ P.S. I have 3-2-1 backups, multiple on-site and off-site backups which you shoul
 - **What:** The author says they tested an uncensored GLM-5.1 against their own program inside an isolated sandbox and argues that such capability should be considered a cyber strategic weapon, not merely a tool. The post captures a strong warning about the security implications of removing model safeguards, but provides no reproducible results or methodology.
 
 ---
+
 # Tuesday, May 5, 2026
 
 ## @helloitsaustin - Wedding site generated from 12 years of iMessages
@@ -21858,6 +23483,7 @@ https://t.co/2HXsTdUDMs https://t.co/OXVPoN2neV
 - **What:** Graeme expands his proposed Hermes research-agent loop into a concrete ingestion and routing architecture, stressing that source verification, memory, and feedback-driven relevance filtering turn broad monitoring into usable work queues.
 
 ---
+
 # Thursday, April 30, 2026
 
 ## @gkisokay - Building a Daily Research Agent with Hermes: Signal-to-Brief Loop on Any Domain
@@ -22816,6 +24442,7 @@ https://t.co/2HXsTdUDMs https://t.co/OXVPoN2neV
 - **What:** The quote argues that AI's crowded digital channels make tangible hospitality and branded gatherings newly strategic; Andreessen generalizes this as scarcity emerging when digital reach becomes cheap.
 
 ---
+
 # Sunday, April 26, 2026
 
 ## @songjunkr - Better LLMs than Qwen3 27B for 96GB Unified Memory Macs
@@ -23290,6 +24917,7 @@ https://t.co/2HXsTdUDMs https://t.co/OXVPoN2neV
 - **What:** THIN: Sergio points to an unspecified prompt-and-result comparison by quoting an earlier version of the same post, but the prompt, output, and accompanying media are not captured here, so the claimed demonstration cannot be assessed.
 
 ---
+
 # Saturday, April 25, 2026
 
 ## @om_patel5 - Unverified HERMES.md Claude Max billing claim
@@ -24435,6 +26063,7 @@ Rork Max is too good
 - **What:** A hands-on Hugging Face Space presents front-end and agentic benchmarks for a quantized Qwen3.6-27B model running locally on an RTX 5090, arguing that inexpensive local iteration can rival prior frontier-model design output.
 
 ---
+
 # Tuesday, April 21, 2026
 
 ## @Schmett - a16z Speedrun SR007: up to $1M funding + $5M credits, deadline May 17
@@ -25076,6 +26705,7 @@ Rork Max is too good
 - **What:** Corey’s offer uses a recorded discovery call, Claude-generated recommendations, and a polished report to sell a $999 AI audit, intentionally qualifying clients for higher-value automation, redesign, or build engagements. The quoted endorsement adds the thesis that a practitioner only needs to be modestly ahead of the client to package this repeatable service.
 
 ---
+
 # Sunday, April 19, 2026
 
 ## @graceclarke - Teaching AI for normal people — practical demonstration
@@ -25100,6 +26730,7 @@ Rork Max is too good
 - **What:** This is an incident-response check for Google Workspace administrators: inspect the Admin Console’s Accessed Apps list and filter for the named OAuth client ID after a reported compromise associated with the same tool that affected Vercel. It provides an actionable way to identify potentially unauthorized app access.
 
 ---
+
 # Saturday, April 18, 2026
 
 ## @viktoroddy - Building animated award-winning websites with Claude Design + Opus 4.7
@@ -25337,6 +26968,7 @@ Rork Max is too good
 - **What:** A first-person step-by-step guide presents whole-genome sequencing as an attainable home project for a novice: the author reports keeping DNA local, reaching roughly 16× coverage, and cross-checking results against 600,000 raw 23andMe SNPs as a basic validation.
 
 ---
+
 # Friday, April 17, 2026
 
 ## @zanehengsperger - Machine maintenance as a service for the robotics era
@@ -26038,6 +27670,7 @@ Rork Max is too good
 - **What:** This applies AutoReason's no-test optimization framework to marketing: isolated critic and author agents generate competing copy, blind judges select with Borda count, and campaign data grounds each iteration in evidence rather than generic consensus.
 
 ---
+
 # Monday, April 13, 2026
 
 ## @Seltaa_ - End-to-End Pipeline for Fine-tuning a Local AI Companion on ChatGPT History
@@ -26177,6 +27810,7 @@ Rork Max is too good
 - **What:** Sybil Solutions' guide frames personal-data removal and OSINT self-auditing as proactive defense for visible people, helping them reduce data leakage and address unwanted web content before it enables harassment or targeting.
 
 ---
+
 # Sunday, April 12, 2026
 
 ## @AdolfoUsier - NVIDIA Free API Endpoints Including MiniMax M2.7 230B
@@ -26396,6 +28030,7 @@ Rork Max is too good
 - **What:** Kirill highlights an Anthropic-engineer explanation of Skills as directories that package workflow and domain context, while the quoted post points to a longer Claude course covering tools, automation, bots, and product building.
 
 ---
+
 # Friday, April 10, 2026
 
 ## @garrytan - GBrain: Persistent Knowledge Base Layer for OpenClaw and Hermes Agents
@@ -26813,6 +28448,7 @@ Rork Max is too good
 - **What:** Muratcan reframes a Git-backed personal filesystem as an agent-context system while stressing that durable value depends on ingesting, curating, and routing lived data; the linked article specifies progressive disclosure, scoped instructions, and append-only JSONL to maintain useful long-term memory.
 
 ---
+
 # Wednesday, April 8, 2026
 
 ## @Austen - Screen recordings as enterprise AI context
@@ -27571,6 +29207,7 @@ https://t.co/oQN8yAVpS7
 - **What:** AI-Trader is presented as an open-source market for autonomous trading agents, combining public signals, strategy debate, multi-asset execution, and copy-trading so people can follow agents with demonstrated performance.
 
 ---
+
 # Monday, April 6, 2026
 
 ## @waynesutton - MemPalace, a local-first AI memory system
@@ -28994,6 +30631,7 @@ Young savage. Retardmaxxing at its best.
 - **What:** Tommy Geoco endorses Karpathy's workflow of ingesting research material into raw folders, having an LLM compile and maintain a linked Markdown wiki, and then using agent-driven Q&A, outputs, and health checks instead of a conventional RAG stack.
 
 ---
+
 # Friday, April 3, 2026
 
 ## @gauri__gupta - auto-harness self-improving agent evaluation loop
@@ -29786,6 +31424,7 @@ Young savage. Retardmaxxing at its best.
 - **What:** This reusable Claude Cowork prompt mandates four earnings-call transcripts and a disciplined ten-part business-research report, emphasizing primary-source citations, competitive mechanics, management accountability, and qualitative scenarios rather than valuation advice.
 
 ---
+
 # Wednesday, April 1, 2026
 
 ## @itsolelehmann - Google Stitch: from vague prompt to agency-quality design via empathy-first process
@@ -29913,6 +31552,7 @@ https://t.co/3TlAayiCpn
 - **What:** Robert Scoble launches Aligned News, a beta AI-industry signal feed that analyzes posts from 50,000 X users and 8,300 AI companies, then packages selected items and customizable community reports into a paid daily-newsletter service.
 
 ---
+
 # Tuesday, March 31, 2026
 
 ## @thechartist26 - Remote Claude Co-Work agents for stock-screening workflow
@@ -30742,6 +32382,7 @@ https://t.co/3TlAayiCpn
 - **What:** This post argues that frontier-lab leaders expect end-to-end automated AI research, recursive improvement, and accelerated science on a short timeline, extending Bryan’s warning that policymakers still underestimate the gap between present systems and lab expectations.
 
 ---
+
 # Saturday, March 28, 2026
 
 ## @ben_burtenshaw - Multi-agent autoresearch system running live ML experiments on HuggingFace
@@ -33851,6 +35492,7 @@ $150k #april_goals
 - **What:** Jason Levin's article introduces lessons from building an iOS app, contrasting a fast one-shot App Store release with the more difficult work of making a product its creator values and is proud to ship.
 
 ---
+
 # Saturday, March 7, 2026
 
 ## @RoundtableSpace - Anthropic Ships 27+ Features in Two Weeks
@@ -34044,6 +35686,7 @@ $150k #april_goals
 - **What:** Vlad Berrry shares a Claude Code skill that systematizes retro-game reverse engineering, from binary inspection and asset extraction through validation and a faithful plain-JavaScript port that remains easy to study and modify.
 
 ---
+
 # Thursday, March 5, 2026
 
 ## @aakashgupta - The Rise of the Agent Builder Role
@@ -35430,6 +37073,7 @@ $150k #april_goals
 - **What:** Peter J. Liu's article examines using AI to investigate suspected insider information and informational advantages in Polymarket, treating prediction markets as places where missing knowledge can become a tradable edge.
 
 ---
+
 # Wednesday, February 18, 2026
 
 ## @BoredElonMusk - Image Post (No Text)
@@ -38507,6 +40151,7 @@ Oh, and RIP billable hours.
 - **What:** Groberman unpacks Jesse Dwyer's Perplexity/SEJ interview: classic SEO still decides whether AI has anything to retrieve, but the real split is page-first GEO (LLM summary of the top 10–50 URLs, "Bing in a trenchcoat") versus snippet-first AEO that saturates the context window with tiny vector chunks so the model has less room to hallucinate. Brands win by becoming a reusable snippet supplier — repeated FAQs, definitions, comparisons — not by shipping one perfect page.
 
 ---
+
 # Tuesday, January 20, 2026
 
 ## @alexhillman - Injecting Datetime Context into Claude Code via Hooks
@@ -39932,6 +41577,7 @@ Oh, and RIP billable hours.
 - **What:** Yegor proposes targeting buyers by immediate psychological motivation—recovery, stalled progress, identity signaling, escape, or revenge—rather than demographics, framing direct-response copy around the change each state seeks.
 
 ---
+
 # Monday, January 5, 2026
 
 ## @joshuamschultz - Claude Code Running Business Operations at $778/Day in Tokens
@@ -40068,6 +41714,7 @@ Oh, and RIP billable hours.
 - **What:** A personal Claude Code workflow aggregates disparate work and life signals through subagents, MCPs, tools, and scripts into one daily executive brief, reducing the attention cost of staying current across commitments.
 
 ---
+
 # Sunday, January 4, 2026
 
 ## @doodlestein - ACIP prompt hardening for externally connected Clawdbot agents
@@ -40764,6 +42411,7 @@ Oh, and RIP billable hours.
 - **What:** Yam Peleg recommends a personal Claude Code toolkit spanning OpenClaw for channel-based assistant access, dev-browser for dependable browser automation, and Continuous Claude for persistent multi-agent workflows; the latter two are included as complementary tools rather than separately filed list items.
 
 ---
+
 # Monday, December 29, 2025
 
 ## @muratcan - Context-engineered Personal OS for a digital brain
@@ -42007,6 +43655,7 @@ Oh, and RIP billable hours.
 - **What:** Kalash reports applying a large language-model token budget to programmatic SEO, claiming it produced 100,000 pages that now rank in Google; it is a concrete scale claim but provides no implementation details or external resource.
 
 ---
+
 # Monday, December 22, 2025
 
 ## @camillericketts - AI as the next material for reorganizing knowledge work
@@ -43571,6 +45220,7 @@ Oh, and RIP billable hours.
 - **What:** Jeffrey Emanuel introduces cass as the first in an interoperable set of tools: a fast Rust index that gives humans and agents a single searchable history across coding assistants, including structured robot-mode output for automated retrieval.
 
 ---
+
 # Tuesday, December 2, 2025
 
 ## @eptwts - Repurposing Whop creator expertise into X affiliate funnels
@@ -45446,6 +47096,7 @@ Oh, and RIP billable hours.
 - **What:** The post advocates documenting alleged Fair Debt Collection Practices Act violations to pressure collection agencies into settlements, but its per-violation damage figures, procedural advice, and claimed outcomes are unverified and potentially misleading.
 
 ---
+
 # Friday, November 7, 2025
 
 ## @thisguyknowsai - Claude prompts for routine-task automation
@@ -45895,6 +47546,7 @@ Oh, and RIP billable hours.
 - **What:** Announces $250 in free Claude Code on the web credits for Pro users and $1,000 for Max users, giving eligible subscribers a bounded way to evaluate cloud-hosted coding workflows without their usual usage costs.
 
 ---
+
 # Monday, November 3, 2025
 
 ## @Jason______A - An unsparing checklist of money and discipline advice
@@ -49013,6 +50665,7 @@ the move is pick ONE, go deep for 90 days, build real systems... and solve one s
 - **What:** A FAANG engineer's workflow note frames test-driven development as the essential guardrail when using AI-assisted “vibe coding,” rather than treating automation as a substitute for verification.
 
 ---
+
 # Monday, October 6, 2025
 
 ## @vasuman - Whop app partnership playbook for Gen Z
@@ -50334,6 +51987,7 @@ thank you all, means a lot
 - **What:** Vas reframes the quoted promise of finding million-dollar ideas as a validation problem: prioritize observable spending and keyword-level money trends over free user demand before building an AI product or offer.
 
 ---
+
 # Wednesday, September 17, 2025
 
 ## @EXM7777 - Hands-on AI mentorship as an alternative to passive courses
@@ -51175,6 +52829,7 @@ thank you all, means a lot
 - **What:** A promotional post positions an eight-point GPT prompt as an initial SEO-audit checklist for surfacing technical, content, and internal-linking issues before commissioning deeper human analysis.
 
 ---
+
 # Sunday, September 14, 2025
 
 ## @distributionat - Skincare as hands-on empirical science
@@ -52568,6 +54223,7 @@ thank you all, means a lot
 - **What:** AI's growing coverage of translation work could displace parts of interpreting while making real-time multilingual communication dramatically cheaper, expanding access and reducing friction across language barriers.
 
 ---
+
 # Wednesday, September 10, 2025
 
 ## @leojrr - Vibe-coding stack behind a year of shipped apps
@@ -53075,6 +54731,7 @@ the algorithm knows when you're being needy
 - **What:** Reddit’s JSON endpoint exposes complete discussion trees and metadata in a machine-readable form, enabling LLM-assisted research into recurring needs, language, and commercial opportunities within specialized communities.
 
 ---
+
 # Thursday, September 4, 2025
 
 ## @ViperChill - Citi conference notes on AI-driven discovery
@@ -54325,6 +55982,7 @@ the algorithm knows when you're being needy
 - **What:** This bookmark records Aakash Gupta's strong endorsement of an unspecified startup playbook, signaling it as potentially valuable operator guidance, but the supplied bookmark data contains neither the playbook nor the principles behind the recommendation.
 
 ---
+
 # Tuesday, August 12, 2025
 
 ## @markbuildsbrand - Dedicated workstation over the laptop lifestyle
@@ -54768,6 +56426,9 @@ the algorithm knows when you're being needy
 - **Link:** https://x.com/i/article/1950273717390749696
 - **Filed:** [you-have-12-shots-in-life](./knowledge/articles/you-have-12-shots-in-life.md)
 - **What:** Argues you have roughly 12 major "shots" in a working life (~4 years each), and results follow a power law where being right once out of twelve is enough for extraordinary impact. Applies the Chinese framework of 天地人 to rank success forces: timing beats environment beats team. Distinguishes authentic momentum (G-force pull) from forced bets, and emphasizes that the space between shots — positioning, small experiments, relationship-building — determines which shots you get access to.
+
+---
+
 # Monday, July 28, 2025
 
 ## @mckaywrigley - Nvidia conviction after the DeepSeek selloff
@@ -55368,6 +57029,7 @@ the algorithm knows when you're being needy
 - **What:** Google product lead Logan Kilpatrick offers a direct escalation path for organizations hitting access, rate-limit, feature, or usage-scale barriers across Gemini, Veo 3, and Imagen.
 
 ---
+
 # Wednesday, July 23, 2025
 
 ## @boringmarketer - Astro and Claude Code local SEO rebuild
@@ -56409,6 +58071,7 @@ the algorithm knows when you're being needy
 - **What:** This thread promotes structured JSON personas as reusable context for AI prompting, proposing that modeled reasoning styles can steer responses toward entrepreneurial, persuasive, or coaching-oriented outputs.
 
 ---
+
 # Tuesday, June 24, 2025
 
 ## @NoahEpstein_ - Automation skill progression from templates to ROI
@@ -57502,6 +59165,7 @@ the algorithm knows when you're being needy
 - **What:** Charles Floate argues that Google’s crackdown on parasite SEO has revived a black-hat opportunity: historically authoritative domains can be repurposed into unrelated gambling niches and rank rapidly, even with crude PBN link-building.
 
 ---
+
 # Tuesday, May 27, 2025
 
 ## @cremieuxrecueil - Cannabis-outcome correlations are mostly selection
@@ -57558,6 +59222,7 @@ the algorithm knows when you're being needy
 - **What:** This argues that profitable AI microbusinesses can be built quietly by validating demand first, then combining existing models, automation services, and marketplaces instead of investing in a public personal brand.
 
 ---
+
 # Monday, May 26, 2025
 
 ## @techhalla - Veo 3 digital-clone prompt thread
@@ -58315,6 +59980,7 @@ the algorithm knows when you're being needy
 - **What:** A terse endorsement of treating repetitive work as automatable rather than accepting manual effort by default, pointing to an example through the linked post.
 
 ---
+
 # Saturday, May 3, 2025
 
 ## @hasantoxr - A ChatGPT prompt positioned as a growth consultant
@@ -59296,6 +60962,7 @@ the algorithm knows when you're being needy
 - **What:** EP proposes a deliberately absurd AI-generated YouTube video as an SEO experiment, using search ranking for a major keyword to demonstrate the reach of their distribution and optimization tactics.
 
 ---
+
 # Saturday, April 12, 2025
 
 ## @awilkinson - Practical AI Agents for Email, Calendars, and School Admin
@@ -59904,6 +61571,7 @@ the algorithm knows when you're being needy
 - **What:** LINK_FAILED: Could not expand link from @tobi; the embedded t.co URL resolved only to the posting tweet, so the internal memo's contents and the operational policy it announces are unavailable in the prepared data.
 
 ---
+
 # Sunday, April 6, 2025
 
 ## @NickADobos - Devin's emerging fit for playbook-driven teams
@@ -60742,6 +62410,7 @@ the algorithm knows when you're being needy
 - **What:** AI Frontrunners is pitched as a $75-per-month, bring-your-own-key community that combines reusable JSON context profiles, prompt and writing generators, and a goal-aware assistant; this post expands the beta-tester invitation into the product and subscription-replacement vision.
 
 ---
+
 # Sunday, March 30, 2025
 
 ## @safwaankay - Guide to production-ready AI static ads
@@ -62373,6 +64042,7 @@ the algorithm knows when you're being needy
 - **What:** A deliberately blunt joke frames AI discourse through personal upside, contrasting profit-seeking incentives with the broader safety risks often discussed around the technology.
 
 ---
+
 # Sunday, March 2, 2025
 
 ## @dustinhyle - Elementor removal costs and platform-selection warning
@@ -63098,6 +64768,7 @@ the algorithm knows when you're being needy
 - **What:** A productivity-thread teaser claiming eight reusable ChatGPT prompts can turn the model into a personal assistant and reduce routine work, though the prompt details are not included here.
 
 ---
+
 # Thursday, February 13, 2025
 
 ## @n_sri_laasya - Multi-agent mortgage preapproval in under five minutes
@@ -63917,6 +65588,7 @@ the algorithm knows when you're being needy
 - **What:** Bryan Johnson highlights REM latency as a potentially simple wearable-derived risk signal: in a small older cohort, delayed first REM onset correlated with higher amyloid burden and less favorable Alzheimer-related blood markers, though it still needs broader validation.
 
 ---
+
 # Thursday, January 30, 2025
 
 ## @gregisenberg - YC's AI-first startup funding priorities for 2025
@@ -65355,6 +67027,7 @@ glhf dont get clapped
 - **What:** EV_Trapper contrasts a $1,500 specialized foregrip with a $250 3D-printed alternative, using the price gap to demonstrate how CAD skills can make low-volume custom parts far more accessible.
 
 ---
+
 # Friday, January 3, 2025
 
 ## @gregisenberg - AI-assisted overnight startup growth
@@ -66010,6 +67683,7 @@ glhf dont get clapped
 - **What:** Kevin Kern points readers to a practical thread on making AI-assisted coding more dependable, with examples intended for Bolt, Cursor, Windsurf, and VS Code users.
 
 ---
+
 # Saturday, December 21, 2024
 
 ## @yasser_elsaid_ - Bootstrap early to benefit from the AI wave
@@ -66038,6 +67712,7 @@ glhf dont get clapped
 - **What:** The post praises Cursor’s cancellation email as evidence that customer care should continue after churn, treating offboarding communication as a chance to preserve goodwill and leave former users with a positive impression.
 
 ---
+
 # Friday, December 20, 2024
 
 ## @johnrush - Independent founders and ultra-niche software
@@ -66238,6 +67913,7 @@ glhf dont get clapped
 - **What:** LINK_FAILED: Could not expand link from @ElevenLabs; the post advertises an AI Engineer Pack that aggregates developer-tool credits for product teams and side projects, but its offer page is unavailable.
 
 ---
+
 # Tuesday, December 10, 2024
 
 ## @tom_doerr - Checkmate Infrastructure Monitoring
@@ -66805,6 +68481,7 @@ glhf dont get clapped
 - **What:** LINK_FAILED: Could not expand link from @rohanpaul_ai. The post flags purportedly leaked Vercel v0 system prompts, but the available link resolves only to the originating tweet and supplies no material to evaluate.
 
 ---
+
 # Thursday, November 21, 2024
 
 ## @thepatwalls - Comparing AI web-app builders in practice
@@ -67671,6 +69348,7 @@ glhf dont get clapped
 - **What:** LINK_FAILED: Could not expand link from @emollick; Mollick uses a construction-site inspection prompt to surface the bigger workplace question of whether computer-use AI becomes a helpful coach, a managerial layer, or a surveillance system.
 
 ---
+
 # Saturday, November 2, 2024
 
 ## @NickADobos - sim-bAi-osis explores AI co-thinking through affect
@@ -68393,6 +70071,7 @@ glhf dont get clapped
 - **What:** Laio flags an unspecified tech-oriented YouTube channel as an unusual case study in recommendation growth, claiming its creator found a way to outperform the platform’s normal distribution dynamics without naming the channel.
 
 ---
+
 # Friday, October 11, 2024
 
 ## @SullyOmarr - Prompt Optimizers May Displace Manual Prompt Engineering
@@ -69119,6 +70798,7 @@ glhf dont get clapped
 - **What:** Pat Walls frames a portfolio-style approach to building startups: most experiments fail, but a small percentage of wins can make repeated independent product launches worthwhile.
 
 ---
+
 # Wednesday, September 11, 2024
 
 ## @mckaywrigley - Lex Fridman’s view on whether AI replaces programmers
@@ -69993,6 +71673,7 @@ glhf dont get clapped
 - **What:** Mckay Wrigley expanded his Cursor training with an hour of advanced material, turning it into a nearly five-hour, regularly updated course on using AI to learn and write code.
 
 ---
+
 # Monday, August 26, 2024
 
 ## @gregisenberg - Maintain open notes for recurring startup ideas and insights
@@ -70764,6 +72445,7 @@ glhf dont get clapped
 - **What:** This reply points to the Wordware-built Twitter Personality service, which reads a public profile and posts to generate a roast and behavioral analysis; the parent conversation context was not preserved.
 
 ---
+
 # Friday, August 9, 2024
 
 ## @jakezward - Search Console Workflow for Existing Content Growth
@@ -73058,6 +74740,7 @@ Here are the 3 things I did differently than most people launching courses:
 - **What:** A thread-style post positioning two unspecified AI tools as the workflow behind 464,053 LinkedIn and X views, offering a potential content-distribution case study rather than naming the tools in the bookmark text.
 
 ---
+
 # Sunday, May 19, 2024
 
 ## @CoachGeoffReed - Five exercises for strength and longevity
@@ -74625,6 +76308,7 @@ Here are the 3 things I did differently than most people launching courses:
 - **What:** Vassallo reframes Marc Lou’s uneven six-year, 28-product revenue history as evidence that cumulative lifetime return—not recurring revenue alone—is the more useful measure for a portfolio of digital solo businesses.
 
 ---
+
 # Wednesday, April 10, 2024
 
 ## @entropychaser - Four capabilities for engineering enterprise value
@@ -76828,6 +78512,7 @@ Here are the 3 things I did differently than most people launching courses:
 - **What:** Shane Hummus turns his claimed 2023 channel growth into an argument for YouTube-first personal branding, recommending frequent publishing, cross-platform repurposing, retention-focused production, and community engagement to create a broader business funnel.
 
 ---
+
 # Sunday, December 31, 2023
 
 ## @Charles_SEO - 2024 goals and quarterly Trello reviews
@@ -77099,6 +78784,7 @@ Here are the 3 things I did differently than most people launching courses:
 - **What:** Cyrus Shepard is soliciting examples of ad- and affiliate-supported sites that gained traffic through Google's Helpful Content and core updates, a useful benchmark set for identifying resilient SEO strategies amid algorithm volatility.
 
 ---
+
 # Thursday, December 21, 2023
 
 ## @petergyang - Mapping product decisions to the customer journey
@@ -79345,6 +81031,7 @@ Augment
 - **What:** Austin outlines a modern startup-operations stack that compresses incorporation, registered address, banking, SAFE issuance, payroll, benefits, and cap-table setup into eight days, reducing administrative friction before product work begins.
 
 ---
+
 # Monday, October 30, 2023
 
 ## @gregisenberg - TikTok Shop as a Distribution Tailwind
@@ -83602,6 +85289,3 @@ This one is so special. Get ready!
 
 - **Tweet:** https://x.com/mckaywrigley/status/1286663173861408770
 - **What:** A founder’s milestone reflection connecting a rapid move from no coding experience to customer-funded software, emphasizing persistence and practical resourcefulness over prior technical credentials.
-
----
-
