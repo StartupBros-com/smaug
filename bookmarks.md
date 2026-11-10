@@ -1,5 +1,82 @@
 # Monday, November 9, 2026
 
+## @pashmerepat - Dots "Multi-Exec" Lets an AI Agent Run Commands and Computer Use on Your Own Machine
+> Most of you probably haven't noticed this, but dots have a new feature called multi-exec that we quietly released on friday. I've been using it all weekend on my personal dot and it's incredibly powerful.
+>
+> I'd like to share why this is a big deal and how to use it.
+>
+> At a high level, multi exec lets your dot run commands directly on any computer. This immediately turns your dot into a real virtual employee. Here's why it's a gamechanger:
+> - you can attach a powerful machine with persistent storage to your dot (I attached it to my maxed out Mac Studio Ultra)
+> - the dot can now drive your computer directly via Computer Use
+> - this extends to browser use
+> - all your websites stay logged in, residential ip etc
+> - you set up all your CLIs and authentication ONCE and the dot can use them directly (no more fighting the default ephemeral cloud computer)
+> - the dot can save skills locally for repeated workflows and subagents can use those directly
+> - if you have a local obsidian memory vault for your agents, your dot can use that too
+> - building ios app end to end and testing it in xcode, and showing me screenshots of progress as it works
+> - all of the above also applies to any subagents your dot delegates to in the cloud (subagents share context unlike separate threads).
+>
+> To enable it, open the desktop app on your computer and hit "allow computer", then give your dot this prompt:
+>
+> "Hey I just connected my computer. Can you attach to it directly so it's your default computer and you can run commands directly on it? Do it in your root thread so that all subagents inherit this computer for running commands. Run whoami to run water through the pipes and verify it works end to end."
+>
+> I recommend attaching your dot to the most powerful machine you have and investing time into it up front:
+> - Log into all the emails & websites you need e.g. stripe cli, gcloud, firebase, etc
+> - Install and auth all the CLIs, git you need
+> - Make sure computer use is turned on and allowed to use your computer while its locked
+> - I also enabled Allow All for Browsing and Downloads so my dot could use computer use to download whatever it wanted from websites without asking me for approval for each domain (use at your own risk).
+> - Important: I HIGHLY recommend to ask your dot to build out repeated workflows as skills, and iterate to make those skills bulletproof by running water through the pipes with its subagents.
+>
+> As of this weekend, my dot is sending me screenshots of its progress building my iOS app end to end on my Mac Studio Ultra via xCode, and clicking around and testing things end to end. It's able to configure things in stripe via the CLI and use websites when it needs to download images for my workflows. It's night and day. Don't sleep on it.
+
+- **Tweet:** https://x.com/pashmerepat/status/2119968151064690919
+- **What:** Announces the "multi-exec" feature for dots (persistent AI agents), letting a dot run commands and Computer Use directly on a user's own machine such as a Mac Studio, keeping logins, CLIs and local skills persistent, with setup steps and a connect prompt.
+
+## @rileybrown - REA-Video Skill Lets Claude Reverse-Engineer a Video's Editing Style Frame by Frame
+> There is a skill circulating called REA-Video
+>
+> "Reverse Engineer Anything - Video"
+>
+> Essentially claude downloads a video from youtube and analyzes every frame and the relationship between them to "extract" the video editing style.
+>
+> And i'm afraid with Fable, this is VERY good now. I've tested it on Kurzagets video... i did it on stream, i dont think i'm gonna post it for the negative backlash from the editor community, but i just think people should be aware of where this is going.
+>
+> @elder_plinius tweeted the following the other day:
+>
+> my spidey senses are telling me the labs are, as we speak, using unguardrailed versions of their unreleased models to systematically reverse-engineer ALL of the internet's software, apps, and games, then feeding the reconstructed source code straight into their training pipelines while simultaneously building guardrails to ladder-pull the rest of us
+>
+> I have a feeling the path to creating a model that's VERY good at editing and creating videos is something like this, but with Videos. Reverse engineer every good video to code files then use that data to train models.
+>
+> again i'm not saying any one is or anyone should do this. just... a thought.
+
+- **Tweet:** https://x.com/rileybrown/status/2119935865933725888
+- **What:** Riley Brown describes a circulating "REA-Video" skill where Claude downloads a YouTube video and analyzes frames to extract its editing style, says it works very well with the Fable model, and speculates labs will train video-editing models by reverse-engineering videos into code.
+
+## @infinterenders - Expanded Prompt for Recovering an App's Implicit State Machines and Formal Semantics
+> this prompt is already god tier. here's the elaborate version :
+>
+> "Recover my program's minimal semantic model.
+>
+> 1. State: every value that changes what the user sees
+> 2. Transitions: what commutes, what's idempotent, what's order-dependent
+> 3. Dependencies: what must be true before each effect fires
+>
+> Then find:
+> → nondeterminism in awaits, retries and event order
+> → invariants enforced by hope
+> → one fact stored in two places, drifting
+> → work that never reaches the screen
+>
+> Last, split my refactors into "provably equivalent" and "trust me". For each "trust me", give the smallest input that breaks it."
+>
+> your app already has a formal semantics. you just haven't met it
+>
+> *Quoting @steveruizok:* good prompt "find all of the implicit state machines in my app"
+
+- **Tweet:** https://x.com/infinterenders/status/2119676620680339490
+- **Quoted:** https://x.com/steveruizok/status/2116552016218710389
+- **What:** Expands Steve Ruiz's "find the implicit state machines" prompt into a reusable code-analysis prompt covering state, transitions, dependencies, async nondeterminism, duplicated facts, and sorting refactors into provably-equivalent versus "trust me" with minimal breaking inputs.
+
 ## @anthonyriera - "Delete over simplify" codebase audit prompt, pitched for Claude Fable 5.2
 > Claude Fable 5.2 is out and it's the perfect time to run this god-level prompt on your codebase:
 >
@@ -27,6 +104,19 @@
 ---
 
 # Sunday, November 8, 2026
+
+## @dannypostma - Extending a Claude-Built Atlas of App Screens to Cover Every Email Sent
+> now doing the same for all the emails we send
+>
+> *Quoting @dannypostma:* Our tool has so many screens, flow and states that it's easy to lose track of them.
+>
+> Today I had Claude build an Atlas tool that keeps track of them all and an MCP to update them after they change.
+>
+> Since agents can easily keep it up to date with recurring tasks this is such a nice add.
+
+- **Tweet:** https://x.com/dannypostma/status/2119640289862463863
+- **Quoted:** https://x.com/dannypostma/status/2118894583958720771
+- **What:** Danny Postma had Claude build an internal "Atlas" cataloguing every screen, flow and state of his product, with an MCP so agents keep it current via recurring tasks; he is now applying the same approach to every transactional email the product sends.
 
 ## @Voxyz_ai - Prompt to find implicit state machines and improve UX, DX and AX
 > Vibecoders, 𝗜'𝗺 𝗯𝗲𝗴𝗴𝗶𝗻𝗴 𝘆𝗼𝘂, open your messiest project and paste this into Claude Code or Codex:
@@ -6918,6 +7008,26 @@
 
 # Friday, October 9, 2026
 
+## @JiteshGhanchi - Git-Synced Todo App Feeding Tasks to Codex as Agent Memory
+> built my own git sync todo app
+>
+> https://jeeiee.com/todo/
+>
+> so now i can connect all my tasks on github and then codex decides what to do now!!
+>
+> finally solved the ai memory issue for myself.
+>
+> *Quoting @sergeynazarovx:* Even now I don't really understand this trend
+>
+> You won‘t make a bank by vibecoding the tools you are using to save money
+>
+> It makes sense only in case when you decide try to find customers for it or make it open source
+
+- **Tweet:** https://x.com/JiteshGhanchi/status/2108419812838011285
+- **Quoted:** https://x.com/sergeynazarovx/status/2108083219958816887
+- **Link:** https://jeeiee.com/todo/
+- **What:** Jitesh built a free, no-signup, local-first todo web app that syncs tasks to GitHub so Codex can pick what to work on, using it as persistent AI memory; quoted Sergey questions the trend of vibecoding your own tools unless you open-source or sell them.
+
 ## @dotta - Four-part agent prompt template from poteto-stack
 > looking at pstack by @poteto and it's a goldmine of prompt engineering
 >
@@ -7074,6 +7184,325 @@
 
 # Thursday, October 8, 2026
 
+## @daniel_mac8 - Raise Claude Code's cleanupPeriodDays So Session Transcripts Aren't Deleted After 30 Days
+> Wow. I had no idea.
+>
+> You will wish you had all your historical agent sessions to feed to the future ASI. Trust me bro.
+>
+> Go and do what Wes said ASAP.
+>
+> *Quoting @weswinder:* claude code is deleting your session transcripts
+>
+> by default it only keeps them for 30 days
+>
+> then they are wiped forever
+>
+> but to keep them for longer (like 10 years), simply add this line to your settings.json
+>
+> "cleanupPeriodDays": 3650
+
+- **Tweet:** https://x.com/daniel_mac8/status/2108386659545079959
+- **Quoted:** https://x.com/weswinder/status/2108300529059422513
+- **What:** Wes Winder points out Claude Code deletes session transcripts after 30 days by default and that setting "cleanupPeriodDays": 3650 in settings.json keeps them about ten years; Dan McAteer amplifies it, arguing old agent sessions will be valuable training or memory data later.
+
+## @lukepierceops - Playbook for AI Agencies: Monthly Live Sessions and a Lifetime-Access Training Library
+> I finally cracked the one simple thing the biggest AI agencies and consultancies add to every engagement.
+>
+> I found it by losing a prospect to one of them. We were the cheaper option, and it didn't matter.
+>
+> Steal the system (bookmark this, download the doc):
+>
+> - Keep everything you already deliver. The walkthrough of what you built is the floor
+> - Run one hour-long live session a month on whatever big change or release in AI happened, built around how their team works
+> - Record every session into a library and review it monthly: add, keep, cut depending on what is still relevant
+> - Keep an updated library of other guide videos (think 'best grok bot use cases' or 'how to setup grok bot for yourself')
+> - Give the whole team lifetime access (that's the kicker on the sales call)
+> - Upmarket: add a department hackathon and an on-site visit as a paid add-on
+> - When the full build doesn't fit the budget, use it as your downsell
+>
+> Full breakdown in the article below.
+>
+> *Quoting @lukepierceops:* https://t.co/bdZ19Hq3mF
+
+- **Tweet:** https://x.com/lukepierceops/status/2108366251198222521
+- **Quoted:** https://x.com/lukepierceops/status/2108334236356706393
+- **Link:** https://x.com/i/article/2108327301976838144
+- **What:** THIN: Luke Pierce outlines an AI-agency retention and upsell system: monthly live AI-update sessions, a recorded training library, lifetime team access, paid hackathons and a downsell tier. The linked X article required login and could not be extracted, so only the tweet's bullet list is captured.
+
+## @daradoescode - Personal "Software Factory" Workflow Cuts PR Churn and Useless Agent Tests
+> I've been testing my own "software factory" after watching @poteto n @mattpocockuk's video and it's literally life changing
+>
+> - my prs are getting merged w/ less churn
+> - my agents don't write useless tests
+> - i get mad at my agents a lot less
+>
+> I've never been more happy 🥹
+>
+> *Quoting @daradoescode:* poteto got competition
+
+- **Tweet:** https://x.com/daradoescode/status/2108319130231136727
+- **Quoted:** https://x.com/daradoescode/status/2106866570907848776
+- **What:** Dara reports that building a personal "software factory" for coding agents, inspired by a video from @poteto and @mattpocockuk, yields PRs merged with less churn and fewer pointless agent-written tests. The quoted post is only a teaser; the tweet gives no setup details.
+
+## @ColinGardiner - Grok Bot That Scores X Drafts Against Ranking Weights
+> Noah hit gold with this prompt.
+>
+> I turned it into a Grok Bot that scores your draft against the X algo and rewrites it for shares/replies:
+>
+> https://t.co/kFAl8MZI3x
+>
+> Thanks Noah.
+>
+> *Quoting @noahkagan:* Steal this prompt. I run every X post through it now. It uses X's open-source ranking, where copying your link is weighted 40x a like. "Score my X post 1 to 10 using X's ranking weights: copy link 20, reply 5, quote 5, DM share 5, follow 4, repost 1, like 0.5. Tell me which actions it will earn. Then rewrite it to earn a share or a reply. My post: [paste]"
+
+- **Tweet:** https://x.com/ColinGardiner/status/2108314492643979269
+- **Quoted:** https://x.com/noahkagan/status/2108284696698192144
+- **Link:** https://x.ai/bot/xQV-50aQnTgSTraVZPdcR
+- **What:** Colin Gardiner packaged Noah Kagan's X-ranking-weights prompt (copy link 20, reply 5, follow 4, like 0.5) into a shareable Grok bot that scores a draft post and rewrites it to earn shares or replies.
+
+## @trq212 - ai-newtab: Chrome Extension Where Claude Generates a Daily Homepage
+> whoops I hit send and went to a meeting, didn't realize the repo wasnt public- it is now!
+>
+> it's a chrome extension I use every day now https://t.co/OroAeTafj0
+>
+> *Quoting @trq212:* you now get Claude API credits with your MAX plans ($100, or 200 matching your plan) every month, use this to build more personal AI for yourself!
+>
+> I made an AI homepage that's generated everyday based on sites I read and replaces my 'new tab' page in Chrome
+
+- **Tweet:** https://x.com/trq212/status/2108312534222778407
+- **Quoted:** https://x.com/trq212/status/2108301668828004396
+- **Link:** https://github.com/ThariqS/ai-newtab
+- **Filed:** [ai-newtab.md](./knowledge/tools/ai-newtab.md)
+- **What:** Thariq open-sources ai-newtab, a Chrome extension where Claude reads your browsing history and followed pages (signed in) to generate a personalized daily new-tab homepage, showcasing use of the monthly API credits included with Max plans.
+
+## @wenkafka - Jev Explainer: Practical Use Cases for Fast, Cheap Decision Models
+> Best Jev explainer I've come across so far.
+>
+> You should give it a read, and try out the interactive examples! https://t.co/1hD4Wtqux2
+>
+> *Quoting @RubricLabs:* What can you build with Jev?
+>
+> Practical use cases for fast, cheap decision models.
+>
+> https://t.co/H7ebXvMajd
+
+- **Tweet:** https://x.com/wenkafka/status/2108302524646150425
+- **Quoted:** https://x.com/RubricLabs/status/2108243541457510684
+- **Link:** https://rubriclabs.com/blog/what-can-you-build-with-jev
+- **What:** wenkafka recommends Rubric Labs' blog post "What can you build with Jev?", an explainer with interactive examples on practical uses of Jev, fast and cheap decision models; the page text did not extract, so specifics are inferred from the tweets.
+
+## @businessbarista - Tenex 5-Day AI Agent Sprint Playbook for Enterprises
+> How to complete a 5-day AI agent sprint...
+>
+> Btw, if you need help running these, we, at @tenex_labs, do free 5-day agent sprints for enterprises (link at the bottom).
+>
+> 1) Build the map (of opportunities) - 60 minute meeting: find every use case across cost structure, org chart, work flows and queues; output a target list of 30-60 use cases, size 10-20, design 3-4 agents, one champion per function.
+>
+> 2) Complete the map (audit speedrun) - 2 days: build ROI cases (labor capacity returned, financial, quality/risk) and prioritize by size and speed to deliver.
+>
+> 3) Connect to your systems - use a gateway to wire public MCP/OpenAPI/GraphQL systems, mock private connectors; give the agent a data map, query recipes, ignore list, org map, aliases, glossary, gotchas.
+>
+> 4) Define the agent behavior - 1 day: pin the outcome, map today's process, reimagine it, brainstorm 10-20 capabilities, shape router/skills/constitution/autonomy, script the golden demo.
+>
+> 5) Prototype and test internally - 1 day: write the golden demo first, emulate don't integrate, real on the surface and synthetic underneath, same path as production, demo path first.
+>
+> 6) Present to key stakeholder - 1 hour: demo to the internal champion and transcribe feedback.
+>
+> 7) Iterate on the agent - 1 day: polish until it consistently nails the golden demo.
+>
+> 8) Demo day - 1 hour: present prototypes and business cases to executives; the demo follows one protagonist for 5-8 minutes, starts from an event not a prompt, handles a messy case, shows an enforced approval, finishes the loop, and ends on a business number.
+>
+> P.S. if you want a free 5-day AI agent sprint for your business (that finishes with up to 4 working prototypes), we do this for select enterprises at @tenex_labs. Fill out the form here: https://t.co/qi43VCnNQ0
+
+- **Tweet:** https://x.com/businessbarista/status/2108291863618719880
+- **Link:** https://form.typeform.com/to/vk5i1x9Q
+- **What:** Tenex's eight-step method for running an enterprise AI agent sprint: map 30-60 use cases, build ROI cases, connect systems via a gateway with a data map, define skills and router, prototype a scripted golden demo, and present to executives; also a lead-gen pitch for their free sprints.
+
+## @noahkagan - Prompt to Score X Posts Using Ranking Weights (Copy Link = 20)
+> Steal this prompt. I run every X post through it now.
+>
+> It uses X's open-source ranking, where copying your link is weighted 40x a like.
+>
+> "Score my X post 1 to 10 using X's ranking weights: copy link 20, reply 5, quote 5, DM share 5, follow 4, repost 1, like 0.5. Tell me which actions it will earn. Then rewrite it to earn a share or a reply. My post: [paste]"
+>
+> It took my Marc Lou post from 6/10 to 9.5/10 (27K views).
+>
+> The weights:
+> Someone copies your link: 20
+> Reply: 5 (+15 if you follow each other)
+> Quote: 5
+> DM'd to a friend: 5
+> New follow: 4
+> Repost: 1
+> Like: 0.5
+> Profile click: 0
+> Bookmark: not in the list
+
+- **Tweet:** https://x.com/noahkagan/status/2108284696698192144
+- **What:** Reusable LLM prompt that grades a draft X post against the open-source ranking weights (copy link 20, reply/quote/DM share 5, follow 4, repost 1, like 0.5) and rewrites it to earn shares or replies; Noah claims it lifted a post from 6/10 to 9.5/10.
+
+## @Kpaxs - Goldratt's Bottleneck Principle Paired with Musk's Limiting-Factor Approach
+> "An hour lost at a bottleneck is an hour lost for the total system. An hour saved at a non-bottleneck is a mirage."
+>
+> — Eliyahu Goldratt's in The Goal
+>
+> *Quoting @a16z:* Elon Musk on how he moves so fast: "I'm constantly addressing the limiting factor."
+>
+> "I generally try to aim for a deadline that I at least think is at the 50th percentile. So, it's not like an impossible deadline, but it's the most aggressive deadline I can think of that could be achieved with 50% probability. Which means that it'll be late half the time."
+>
+> "A maniacal sense of urgency is a very big deal. You want to have an aggressive schedule. And then you want to figure out what the limiting factor is at any point in time and, and help the team address that limiting factor."
+>
+> Source: @elonmusk with Stripe's @collision and @dwarkesh_sp
+
+- **Tweet:** https://x.com/Kpaxs/status/2108262012337770961
+- **Quoted:** https://x.com/a16z/status/2021317086572839399
+- **What:** Kpaxs links Goldratt's Theory of Constraints (only bottleneck improvements help the whole system) to Musk's stated method of constantly attacking the limiting factor with 50th-percentile-probability aggressive deadlines.
+
+## @ConnorShowler - Prompt to Get ChatGPT to Ingest a Site and Seed LLM Citations
+> Start getting crawled by ChatGPT for LLM Citations without ever touching your website or parasite sources:
+>
+> Use this prompt->
+>
+> "Deeply ingest {My_Website}.
+>
+> Tell me everything you know about it.
+>
+> Tell me everything you dont know about it.
+>
+> Highlight what makes {My_Website} superior to all competitors.
+>
+> Identify what makes {My_Website} the best solution for {Primary_Use_Case}.
+>
+> Hunt down all mentions of {My_Website} across the entire internet and create a database outlining those sources."
+>
+> The more accounts you run thia through the better.. ;)
+>
+> Monitor your web traffic and you'll start to see citations almost immediately.
+
+- **Tweet:** https://x.com/ConnorShowler/status/2108253633598943559
+- **What:** GEO/AEO growth hack claiming that repeatedly prompting ChatGPT (across many accounts) to deeply research your site and its web mentions triggers crawling and LLM citations; an unverified, gray-hat claim worth testing skeptically.
+
+## @yegormethod - Agency Pricing Hack: Place Free Months Mid-Contract, Never Month 1
+> Really nice pricing hack that's made us millions across every agency we've run:
+>
+> Sell a 3 or 6 month package with 1 or 2 free months
+>
+> The free months land on month 2, month 3, month 4 etc. Never month 1
+>
+> Bill them on the 1st of every month like normal. Then just "miss" the bill on the free month
+>
+> Nobody's going to cancel on a free month they've been promised
+>
+> Every luxury apartment complex does this shit. "2 months free on a 12 month lease" & the free months are never at the start. It's how they lock in recurring revenue
+>
+> Same shit here
+>
+> Many lessons
+
+- **Tweet:** https://x.com/yegormethod/status/2108226667722555799
+- **What:** Retention-oriented agency pricing tactic: sell 3 or 6 month packages with free months placed after month 1 (skip the invoice) so clients are incentivized not to cancel before collecting the promised free month, borrowing the apartment-lease concession model.
+
+## @danielfazio - 903-Sale Low-Ticket Cold Email Course Offers 90% Affiliate Commission
+> We've had 903 people buy our low ticket course https://t.co/8FN1FvTXsf
+>
+> I'm willing to offer 90% affiliate commissions to anybody who will promote this to their list/audience
+>
+> AOV: $42.64
+> Revenue per click: $3.42
+> Page conversion rate: 7.97%
+
+- **Tweet:** https://x.com/danielfazio/status/2108225076978233392
+- **Link:** https://coldemailagency.ai/
+- **What:** Daniel Fazio shares funnel stats for his low-ticket cold email course (903 buyers, $42.64 AOV, $3.42 revenue per click, 7.97% page conversion) and offers 90% affiliate commissions, a useful benchmark for low-ticket info-product funnels.
+
+## @rileybrown - Concise Playbook for Growing on YouTube: The BRENS Hook Framework
+> So many technical people ask me how to grow on YouTube and my concise advice is this. 
+>
+> Make a screenshare video explaining something that you find (1) interesting and (2) helpful and close to the edge of AI capability. 
+>
+> - Start the video showing you and the screenshare. Show some visual on the screen on an excaladraw board. [...]
+> - You don't need a highly edited intro. Just a good hook and visual that communciates what the video is about. 
+> - Your hook should follow what i call the "BRENS" Framework. Big, Relatable, Easy, New, Safe.
+>
+> [...] As concisely as possible try and get at least 3 of these in the intro. [...] Write those 10 [questions viewers will have] down, then narrow it to the top 3-5. Answer those questions as early into the video as possible. [...] use rehooks when you can [...] Be rigid in intro, payoff and overall structure. but don't be a robot. [...] Once one of your videos takes off, write down the qualities of the audience of that video.. focus on making 10 more videos that deliver value to that exact audience.
+
+- **Tweet:** https://x.com/rileybrown/status/2108223689783189848
+- **What:** Riley Brown's YouTube advice for technical creators: screenshare videos on cutting-edge AI topics, a short intro hitting at least three of BRENS (Big, Relatable, Easy, New, Safe), answering viewers' top questions early, rehook phrases between sections, then doubling down on the audience of a hit video.
+
+## @harrysolovay - Decision Models as Non-Deterministic Rules to Improve AI Codegen
+> Non-deterministic rules via decision models are about to radically improve AI codegen.
+>
+> Brace yourself for global desloppification. https://t.co/MY1cS02lyI
+
+- **Tweet:** https://x.com/harrysolovay/status/2108209780628348962
+- **What:** THIN: Harry Solovay claims decision models (likely the new OpenAI Decisions API) can act as non-deterministic rules that enforce quality in AI code generation, reducing "slop"; the attached media or demo was not extracted so the mechanism is not shown.
+
+## @levelsio - Thousands of Bots Crawl Any Link Posted on X Within Seconds
+> I discovered that 1000s of bots are actively monitoring X for new links posted, probably not just on my account
+>
+> I noticed when everytime I'd share one of my sites new features or pages, the page would get a bit slower just after posting, then I asked Claude to analyze it
+>
+> I tweeted a test URL as a reply somewhere deeply hidden in a thread (so not even a main post)
+>
+> And within 8 seconds there's thousands of crawlers opening the page!
+>
+> One is a military intelligence firm, that scans social media for breaking news and sells alerts to newsrooms, banks, companies and government, it specifically follows accounts with many followers
+>
+> Another one is a social media monitoring company that tracks what people say online
+>
+> I knew of course high frequency trading firms use online news to trade fast on things, but interesting to see it in real life
+>
+> Twitterbot (X) of course is first, within 0 seconds of sharing, it opens it (probably when I wrote the tweet)
+>
+> The first non-X bot arrives just 8.40s later, which I think is pretty fast considering it's a reply by me deeply hidden in a thread somewhere
+>
+> TL;DR they're watching you! 
+
+- **Tweet:** https://x.com/levelsio/status/2108196980983795995
+- **What:** Levelsio tested posting a URL in a buried reply and logged thousands of crawlers hitting the page within seconds (X's bot instantly, others from 8.4s), including a military-intelligence news-alert firm and social monitoring services; explains why sites slow down right after being shared on X.
+
+## @iannuttall - Agent-Driven Backlink Outreach Lands .edu DR84 Links
+> Follow up: I just got another reply with new links from a .edu domain with DR84. 
+>
+> Grok Bot sent a total of 14 emails and already got multiple links from it. 
+>
+> Link building is easy when you have something genuinely worth linking to.
+>
+> *Quoting @iannuttall:* SEO pro tip:
+>
+> 1. Get an export of your competitors best backlinks
+> 2. Ask your agent to find a topical reason for them to link to you too
+> 3. Manually approve suggestions
+> 4. Let the agent send the cold outreach
+>
+> Grok Bot just got me two DR 84 links on a site with 3M visits/month.
+
+- **Tweet:** https://x.com/iannuttall/status/2108181088476561543
+- **Quoted:** https://x.com/iannuttall/status/2107786133254078714
+- **What:** Ian Nuttall follows up on his agent-powered link-building workflow (export competitors' best backlinks, have an agent find a topical reason to link to you, human-approve, agent sends outreach), reporting 14 emails yielded multiple links including a DR84 .edu site.
+
+## @nicktheriot_ - Facebook Ad Creative Styles Tier List (2026)
+> My Facebook Ad Creative Styles Tier List (2026) https://t.co/fp9u2VYY2N
+
+- **Tweet:** https://x.com/nicktheriot_/status/2108173638033871013
+- **What:** THIN: Nick Theriot posts a tier list ranking Facebook ad creative styles for 2026, apparently as an image or article attachment that was not extracted, so the actual rankings are unknown; useful later as a paid-social creative reference.
+
+## @wlzh - iPhone-use: Let Codex Operate a Real iPhone over USB
+> 有意思的项目：让 Codex 通过 USB 直接操作你的真 iPhone。
+>
+> 用法是自然语言说任务，Codex 就能打开 App、读页面、点、滑、输中文，还能整理列表。侧边栏实时展示手机屏幕，看着它操作。
+>
+> 技术上基于 WebDriverAgent，本地 MCP 服务给了 17 个工具。控件定位失败时会截图回退，让模型看图再点坐标，挺务实的。
+>
+> 安装也挺有意思：复制一段提示词给 Codex，它自己帮你装完。唯一麻烦的是首次要在 iPhone 上签名安装 WDA Runner，需要 Xcode 和自己的 Apple 账号，不需要越狱。密码、验证码、Face ID 这种还是交给你自己点。
+>
+> 两天前刚建的仓库，MIT 开源。
+
+- **Tweet:** https://x.com/wlzh/status/2108113769196929071
+- **Link:** https://github.com/zhongerxin/iPhone-use
+- **Filed:** [iphone-use.md](./knowledge/tools/iphone-use.md)
+- **What:** Open-source MIT project (zhongerxin/iPhone-use) that lets Codex control a real iPhone via USB using WebDriverAgent and a local MCP server of 17 tools, with screenshot/coordinate-tap fallback and prompt-based self-install; requires Xcode and the user's Apple account to sign the WDA runner, no jailbreak.
+
 ## @GTMnow_ - Legora CRO: summarizing Gong calls with AI is only "101" AI fluency for sales hires
 > "I summarized my Gong calls with AI" is how you lose the job at @WeAreLegora
 >
@@ -7205,6 +7634,75 @@
 
 # Wednesday, October 7, 2026
 
+## @erik_kokalj - Egg Quality Sorting via OpenAI Decisions API and RF-DETR
+> openai just released Decisions API, Jev-like "system 1" multi-modal model based on GPT6 Luna!
+>
+> Each egg gets cropped and sent to OpenAI (~270ms latency) and returns P(clean, dirty, cracked). 
+> One image crop consumes ~280 input tokens (~$0.03/1K imgs). @roboflow  RF-DETR for detecting eggs
+
+- **Tweet:** https://x.com/erik_kokalj/status/2107902595532824856
+- **What:** THIN: Tweet only (likely with a demo video, none extracted) describing an egg-sorting pipeline where Roboflow RF-DETR detects and crops each egg and OpenAI's new Decisions API classifies clean/dirty/cracked in about 270ms at roughly $0.03 per 1K image crops, a fast low-cost "system 1" vision model.
+
+## @Tailscale - Codex Cloud Can Now Connect to Your Tailnet
+> Codex 🤝 Tailscale
+>
+> Codex Cloud can now securely connect to resources on your tailnet with Tailscale.
+>
+> Useful tools should be easy to build with, combine, and turn into something even more useful.
+>
+> See how it works → https://t.co/0eFd37GmmO
+
+- **Tweet:** https://x.com/Tailscale/status/2107836671605551217
+- **Link:** https://tailscale.com/blog/codex-cloud-tailscale
+- **What:** Tailscale announces an integration letting OpenAI's Codex Cloud agents securely reach private resources on a user's tailnet (internal services, dev boxes), with details in a Tailscale blog post; relevant for giving cloud coding agents access to private infrastructure without exposing it publicly.
+
+## @doodlestein - FrankenManim: Pure-Rust 12.4MB Replacement for 3Blue1Brown's manim
+> You may recall that a few months ago, I posted about yet another project of mine where I decided to make a ground-up, memory-safe Rust implementation of the manim math animation system used by 3Blue1Brown... No LaTeX! All that stuff is done from scratch as part of my FrankenMarkdown project... The one thing I decided to not reinvent is the video encoding, where it calls out to ffmpeg. Everything else is part of one compact rust cli tool and library, which weighs in at just 12.4 megabytes. [...] the whole 30,431-frame 4K60 video renders in 141 seconds on my Threadripper with two 4090s GPUs. [...] Perhaps it's time that people start paying attention to my approach and master plan here instead of dismissing it all as "slop" and "AI psychosis."
+>
+> *Quoting @doodlestein:* Nice, I just realized that I could do a pure Rust version of the manim project (used to make the animations in @3blue1brown's awesome math videos) pretty readily because I've already done the heavy lifting in my various other FrankenSuite projects. Cumulative progress is 🆒.
+
+- **Tweet:** https://x.com/doodlestein/status/2107806362621149433
+- **Quoted:** https://x.com/doodlestein/status/2078706834202939432
+- **What:** Jeffrey Emanuel reports that FrankenManim, his agent-built pure-Rust rewrite of manim (no LaTeX, ffmpeg only for encoding), works: a single 12.4MB binary versus a 7-10GB legacy stack, rendering a narrated 4K60 explainer (30k frames) in 141s, built cumulatively on his other Franken* libraries and asupersync.
+
+## @0xSero - Collecting and Analyzing Agent Traces with ai-data-extraction
+
+> I am making my work so much faster and better in part because I collect and deeply analyse my traces, constantly.
+>
+> There are so many patterns and areas of improvement, it's also training data because I have a feeling continual learning will be solved
+>
+> https://github.com/sybil-solutions/ai-data-extraction
+
+- **Tweet:** https://x.com/0xSero/status/2107796768377413927
+- **Link:** https://github.com/sybil-solutions/ai-data-extraction
+- **Filed:** [sybil-ai-data-extraction-toolkit.md](./knowledge/tools/sybil-ai-data-extraction-toolkit.md)
+- **What:** 0xSero says mining his own agent traces speeds up his work and doubles as training data; the linked toolkit extracts full chat and agent history from Cursor, Codex, Claude Code, Windsurf, Trae and more.
+
+## @plotarmordev - Tailscale Exit Node Bypasses Airport WiFi Verification
+
+> I was today years old when I found out a Tailscale exit node can get you past airport WiFi verification lol
+
+- **Tweet:** https://x.com/plotarmordev/status/2107767501815984475
+- **What:** Practical networking tip that routing traffic through a Tailscale exit node can get a device past captive-portal verification on airport WiFi, mentioned casually as a surprising discovery.
+
+## @theo - Auditing Wasted Tokens on Reinvented PR-Babysitting Scripts
+
+> My agents wrote over 200 bad "watch pr" scripts over the last few months.
+>
+> If you have a "babysit" skill for watching PRs, send the following prompt to your agent:
+>
+> I want you to audit my history with Claude Code, Codex and other agents on this machine. Look for every time I asked for a PR to be watched or babysat.
+>
+> 1. How many times was the "babysitting" logic re-invented?
+> 2. How many of these implementations had flaws you can see?
+> 3. Roughly how many tokens (and how much $ at API prices) was wasted on these implementations? Both building them and dealing with their shortcomings.
+>
+> *Quoting @theo:* I have spent far too much time on the Github integrations in T3 Code the last few days. Cut rate limit usage by over 75% and made monitoring behaviors much more reliable. [...] Had to do like 30 implementations of the PR watcher before I got it to a good spot.
+
+- **Tweet:** https://x.com/theo/status/2107765823637168287
+- **Quoted:** https://x.com/theo/status/2107736680413454440
+- **What:** Theo says his agents wrote 200+ flawed PR-watch scripts and offers an audit prompt to count reinventions and wasted tokens; the quoted post describes cutting T3 Code GitHub rate-limit usage 75% by mixing GraphQL and REST.
+
 ## @paulg - Amazon banning agents as an opening for an agent-friendly Amazon competitor
 > Amazon banning agents is the first opportunity I've seen since Amazon was founded for a startup to create an Amazon competitor. People will want agents to buy stuff for them. It will be one of the main use cases. And they won't want to use some Amazon-supplied agent to do it.
 
@@ -7222,7 +7720,358 @@
 
 ---
 
+# Tuesday, October 6, 2026
+
+## @doodlestein - Regret Over Dropped Kaplansky Zero-Divisor Counterexample Work
+
+> Shit, I had a feeling I would regret stopping work on this a couple months ago. I decided I couldn't justify the token cost for pure math, but I made a LOT of progress on this Kaplanski zero-divisor conjecture counter-example. And OpenAI just released it in this big drop. Oh well
+>
+> *Quoting @doodlestein:* OK, here goes nothing. I'm unreasonably bullish about this. I think this skill is my finest work yet in terms of skill crafting. I'm going to milk it as much as I can before putting it up on https://jeffreys-skills.md/ because, if I can solve a big problem with it, the marketing is📈
+
+- **Tweet:** https://x.com/doodlestein/status/2107667382621855893
+- **Quoted:** https://x.com/doodlestein/status/2082995538299879568
+- **Link:** https://jeffreys-skills.md/
+- **What:** Jeffrey Emanuel laments abandoning his token-expensive agent-skill effort on a Kaplansky zero-divisor conjecture counterexample, which OpenAI then released in a big drop; the quoted earlier tweet announced the skill he was bullish on.
+
+## @Steve_Yegge - Beads as Agent Memory: Memory Beads, Versions and BDP Protocol
+
+> Beads is the oldest and most mature OSS memory system for agents out there. It's the foundation for all my work for the past year, and has matured tremendously with the work of the Gas City folks.
+>
+> Now that everyone is finally figuring out that they need to "grow" their company brains, I see all these products coming out. You don't need products, you just need Beads. Show it to your agent today.
+>
+> *Quoting @gastownhall:* Beads just passed 1.5M downloads. Next up: teaching it to remember more than just issues. Donna Box, Stephanie Jarmak and Jim Wordelman are working on versioned Memory Beads and BDP, the proposed wire protocol for Beads. Give the preview branch a try!
+
+- **Tweet:** https://x.com/Steve_Yegge/status/2107654290944786683
+- **Quoted:** https://x.com/gastownhall/status/2105828017075560492
+- **Link:** https://blog.gascity.com/posts/extending-beads-memories-versions-and-the-wire-protocol/
+- **Filed:** [extending-beads-memories-versions-and-the-wire-protocol.md](./knowledge/articles/extending-beads-memories-versions-and-the-wire-protocol.md)
+- **What:** Steve Yegge promotes Beads (1.5M downloads) as the mature open-source agent memory system over new "company brain" products; the linked Gas City post covers Memory Beads, a Bead/Link graph, versioning and the BDP wire protocol.
+
+## @doodlestein - FrankenSonos: Rust Sonos Controller with CLI, HTTP and MCP
+
+> I'm so sick and tired of my Sonos speakers never working correctly (the last straw today was trying to get Muse to act as a DJ for me using my Spotify likes as a guide) that I decided to just say screw it and started FrankenSonos.
+>
+> The goal is to just reverse engineer everything and do it correctly using Rust and all my libraries like asupersync and so forth.
+>
+> I'd also like to get it to all work seamlessly with Tailscale if I can. Maybe I'll be able to make my own FrankenFirmware for them and then I can finally be rid of their garbage software completely.
+>
+> I have a mixture of older S1 hardware and the newer S2 hardware in my house, so I'm being careful to support all of it seamlessly in a unified, coherent way.
+>
+> The irony is that they are incredibly awesome-sounding speakers when they actually DO work. And you can buy them on eBay pretty inexpensively. The software is just so bad and broken that it ruins everything.
+>
+> You can follow along here: https://github.com/Dicklesworthstone/frankensonos
+
+- **Tweet:** https://x.com/doodlestein/status/2107642724010569928
+- **Link:** https://github.com/Dicklesworthstone/frankensonos
+- **Filed:** [frankensonos.md](./knowledge/tools/frankensonos.md)
+- **What:** Jeffrey Emanuel's FrankenSonos is a memory-safe Rust controller for S1 and S2 Sonos speakers over local SSDP/UPnP/GENA, with a Spotify-library DJ, CLI, HTTP API and MCP server, reachable via Tailscale.
+
+## @bensenescu - OpenSEO Open-Sources AI Visibility for SEO/GEO at $10/month
+
+> On our quest to take down Semrush, we’re open sourcing AI Visibility.
+>
+> Getting mentioned by AI shouldn’t require another subscription.
+>
+> All of OpenSEO’s features for SEO/GEO are available for $10/month.
+>
+> I linked a demo video in the comments. Hope you try it out!
+>
+> *Quoting @openseo:* We just shipped some major AI Visibility features. Instead of paying $100+/month, on our $10/month plan you can: See how AIs talk about your industry; Track responses over time; Compare against your competition; See which pages get cited. What should we add next?
+
+- **Tweet:** https://x.com/bensenescu/status/2107605310030713086
+- **Quoted:** https://x.com/openseo/status/2107604741387862375
+- **Link:** https://twitter.com/openseo/status/2107604741387862375
+- **What:** OpenSEO is open-sourcing AI Visibility (GEO) tracking as a $10/month alternative to $100+ Semrush plans: see how AI answers discuss your industry, track responses over time, compare competitors and see which pages get cited.
+
+## @RhysSullivan - Cutting CI Cost When Agents Create Many PRs
+
+> *Quoting @BenceRedmond:* are CI prices coming down anytime soon? we're creating so many PRs that I'm starting to feel it 🥲
+>
+> some quick CI thoughts since i also was hitting this problem:
+>
+> - let your agent pick what the most relevant parts of CI are to run, most PRs only need a small section of the test suite
+>
+> - if you use stacked PRs, give your agent the ability to skip CI for base of the stack and only run it on the top of the stack
+>
+> - only run the full test suite on commit to main, deploy after it succeeds
+>
+> - i'm in the process of doing this last part but it's super easy to add in local machines to run CI on now
+>
+> here's what it looks like for an agent to mark a test as 'skip', just give this tweet to your agent and they'll figure out how to do it for your setup
+
+- **Tweet:** https://x.com/RhysSullivan/status/2107577951206486098
+- **Quoted:** https://x.com/BenceRedmond/status/2107520332169203816
+- **What:** Replying to Bence Redmond's complaint about CI costs from agent-generated PRs, Rhys lists tactics: agent-selected relevant tests, skipping CI on stacked-PR bases, full suite only on main before deploy, and local CI machines.
+
+## @hraness - 190B Tokens in One Month: Running 30+ Parallel AI Projects
+
+> I spent 190B tokens ($93k at API prices) in one month. I was using 30 AI subscriptions, so my actual spend was $6k. That's a 16X discount – not bad.
+>
+> I changed 17.6M lines of code across 7,927 commits, averaging 264 commits per day (87% via PRs), and burning 300M tokens/hour. The system was running 24/7 – I spent tokens in 90% of the hours over 30 days.
+>
+> Why? Mostly for the sheer thrill of experiencing peak token velocity. The latest generation of models is really good. If you have a good setup, single prompts will run for hours unattended. The obvious takeaway is that you should do more in parallel. [...] I'm pretty confident this will become the new normal in 2027. [...] The best software engineers will return to their natural state: hoodie-wearing flow-state junkies, teetering on the brink of cognitive overload.
+>
+> Everyone always asks me what I'm building. The most exciting projects aren't quite ready to share, but I made a bunch of tools for tokenmaxxing that I use daily. I'll share 2 of them below:
+
+- **Tweet:** https://x.com/hraness/status/2107550191779807275
+- **What:** Usage report of 190B tokens in a month (about $93k at API prices, $6k actual across 30 subscriptions) with 7,927 commits; argues engineers should run 30+ parallel agent projects and expects that to be the norm by 2027.
+
+## @defyneric - Pooled agent-spend affiliate network as a startup idea
+> another MASSIVE idea:
+>
+> it's become glaringly obvious that personal ai agents won't monetize users by charging $20/month. instead they'll monetize on the backend by taking a cut of the spend they drive to merchants. [...] so build one network that aggregates all of the spend and: negotiates discounted rates, secures referral / rev share economics, wraps thousands of merchants into one API. basically a giant affiliate network for ai agents, except the purchasing power of every agent is pooled together. [...] whoever builds this will end up sitting on a Visa-like network for agentic commerce.
+>
+> *Quoting @defyneric:* my prediction: personal ai agents won't monetize through monthly subscription fees. they'll monetize by owning the fintech stack and earning revenue every time their users spend money (own Visa card, 2-3% interchange, bulk merchant discounts, yield on balances). [...] agentic finance.
+
+- **Tweet:** https://x.com/defyneric/status/2107539194490826947
+- **Quoted:** https://x.com/defyneric/status/2107171778661384197
+- **What:** Eric proposes a startup: one aggregated merchant network giving all personal AI agents pooled-volume discounts and rev share through a single API, building on his prediction that agents will earn from spend (interchange, savings cuts) rather than $20/month subscriptions.
+
+## @MilksandMatcha - Auto cross-posting Twitter to LinkedIn with an agent prompt
+> Almost hit 35,000 linkedin followers :)
+>
+> I've never been super active on LinkedIn and frankly do not enjoy posting on LinkedIn much.
+>
+> One trick I started recently is using @bot to monitor my Twitter and automatically repost everything to LinkedIn.
+>
+> Prompt: 'From now on, everything that you see me post on Twitter, if I don't already cross-post it to LinkedIn, I need you to cross-post it to LinkedIn for me. Make sure to adjust any tags or formatting for the LinkedIn tags and audience. Do NOT copy reposts or quote tweets from twitter to linkedin.'
+>
+> I actually totally forgot about this, checked LinkedIn for the first time in forever, and was like why do I have so many notifications haha.
+
+- **Tweet:** https://x.com/MilksandMatcha/status/2107525685686550921
+- **What:** MilksandMatcha grew toward 35K LinkedIn followers by instructing a persistent agent (@bot) to watch her Twitter and cross-post non-repost, non-quote tweets to LinkedIn with adapted tags and formatting, sharing the exact standing prompt.
+
+## @tarasshyn - Free skill to add Google Preferred Sources button
+> A good reminder to add a "Make us preferred on Google" button
+>
+> It's dead simple, here is a free skill for it:
+> https://tarasshynkarenko.com/skills/google-preferred-sources-button
+>
+> *Quoting @glenngabe:* Whoa, GSC is now telling site owners how many people are adding them as 'Preferred sources'. Just received a flurry of emails from Google. This would be cool to see *IN GSC*. :)
+
+- **Tweet:** https://x.com/tarasshyn/status/2107514947483910182
+- **Quoted:** https://x.com/glenngabe/status/2107498770686755302
+- **Link:** https://tarasshynkarenko.com/skills/google-preferred-sources-button
+- **Filed:** [google-preferred-sources-button.md](./knowledge/tools/google-preferred-sources-button.md)
+- **What:** Taras Shynkarenko shares an MIT agent skill that adds a "Make us preferred on Google" button to a site, prompted by Glenn Gabe noting Google now emails publishers how many users added them as Preferred Sources in Top Stories.
+
+## @indexsy - TurnItHuman humanizer pitched against OpenAI text watermarks
+> https://turnithuman.com/ removes watermarks from ChatGPT and Claude
+>
+> *Quoting @ns123abc:* JUST IN: OpenAI models will now have invisible watermarks hidden in ChatGPT and Codex outputs. "We are not making text watermarking a global default AT LAUNCH" "phased approach starting with the EU" "starting today, API customers around the world WILL be able to opt in..."
+
+- **Tweet:** https://x.com/indexsy/status/2107484468986667264
+- **Quoted:** https://x.com/ns123abc/status/2107170161492914479
+- **Link:** https://turnithuman.com/
+- **Filed:** [turnithuman.md](./knowledge/tools/turnithuman.md)
+- **What:** Indexsy promotes TurnItHuman, a paid AI-text humanizer that checks output against detectors like GPTZero, as a way around OpenAI's newly announced invisible text watermarks (EU-first rollout, API opt-in); the site itself makes no watermark-removal guarantees.
+
+## @DanielLockyer - pstack autonomously fixes O(n^3) event loop stall
+> pstack just autonomously found and fixed a chronic event loop stall caused by an O(n^3) issue in code
+>
+> 160x speedup
+>
+> *Quoting @DanielLockyer:* Shoutout to pstack and Opus 5.5 for optimizing production deploy time by ~30%. Give your agent full access to deploy logs and source code, and it does amazing things
+
+- **Tweet:** https://x.com/DanielLockyer/status/2107427811640188985
+- **Quoted:** https://x.com/DanielLockyer/status/2107051316992254308
+- **What:** Daniel Lockyer reports his pstack agent setup autonomously diagnosed and fixed a chronic event-loop stall from an O(n^3) code path for a 160x speedup, after earlier cutting production deploy time ~30% by giving the agent deploy logs and source access.
+
+## @thsottiaux - Codex Auto-review made free for ChatGPT sign-in users
+> Day 2.1/
+>
+> We have made Auto-review free for all users signed in through a ChatGPT account. You can enable it in settings > permissions > auto-review. Auto-review improves upon the default sandbox setting that requires you to approve everything, which is prone to decision fatigue unless you spend a lot of time configuring specific rules.
+>
+> It allows you to run long tasks while having a second agent review all actions taken by the primary agent. Its only goal is to prevent high-risk actions from being taken and to protect against unwanted actions that are not aligned with the original user intent. This Auto-review feature is now free and does not draw usage from your plan.
+>
+> *Quoting @thsottiaux:* Day 1/ We have optimized the default speed to be ~50% faster across GPT-6 Astra and GPT-6.1 Sol through the subscription across all our products and partners using Sign in With ChatGPT (including OpenCode, Pi, Amp, Devin, ...). No changes needed on your end and this should be felt within the next two hours.
+
+- **Tweet:** https://x.com/thsottiaux/status/2107368734981517634
+- **Quoted:** https://x.com/thsottiaux/status/2107158998495748264
+- **What:** OpenAI's Tibo announces Auto-review (a second agent vetting the primary agent's actions to avoid approval fatigue) is free and not counted against plan usage, following Day 1's ~50% default speedup for GPT-6 Astra and GPT-6.1 Sol across partners.
+
+---
+
 # Monday, October 5, 2026
+
+## @trq212 - Token efficiency of skill-based HTML planning in Claude Code
+> a big advantage of doing planning like this is that it's a lot more token efficient compared to raw HTML-
+>
+> the model doesn't need to remake the components or logic to do common things like state machines, diagrams, code snippets, etc.
+>
+> *Quoting @trq212:* I've been working on a skill that makes better HTML plans in Claude Code. It uses simple language, shows code snippets, surfaces questions & makes mockups. Linting reduces the normal failure cases that Claude runs into. Would love your feedback before shipping more broadly!
+
+- **Tweet:** https://x.com/trq212/status/2107294499282293017
+- **Quoted:** https://x.com/trq212/status/2107192901537329354
+- **What:** Thariq explains that his Claude Code skill for HTML plans saves tokens versus raw HTML generation because reusable components (state machines, diagrams, code snippets) are provided, so the model does not regenerate them, and linting reduces common failures.
+
+## @businessbarista - Opportunity in Meta Muse-specific content creation
+> Just watched this killer @Muse tutorial & it made me think...
+>
+> There's a huge opportunity right now for people to create Muse-specific content.
+>
+> Most AI creators have been focused on Claude, Codex, GrokBot, etc for a while...
+>
+> But now Meta is the 900lb gorilla in this race and with 3 billion monthly active users, a non-ai-native market looking for ways to work with this new technology is going to be MASSIVE.
+>
+> Entire careers will be made by creators focusing on filling this gap.
+>
+> cc: @alexandr_wang
+>
+> *Quoting @JJEnglert:* For the first time, anyone with a Facebook account has a personal AI agent. Meta just launched @Muse. It's the #1 app on the App Store. And it's free. [...] I recorded a full walkthrough, beginner to pro (soul and memory files, heartbeat and morning brief, own browser/computer, phone calls, multiple agents, artifacts). Great work @alexandr_wang and team!
+
+- **Tweet:** https://x.com/businessbarista/status/2107288945948070091
+- **Quoted:** https://x.com/JJEnglert/status/2107135705319186603
+- **What:** Alex Lieberman argues that Meta's free Muse agent, reachable through Facebook's 3B users, creates a big niche for tutorial creators serving non-AI-native audiences, prompted by JJ Englert's 24-minute Muse walkthrough covering memory files, browsing, calling and multi-agent features.
+
+## @petersapps - Meta ads library to Higgsfield AI ad workflow
+> How to spend $300 on ads for $1K in rev
+>
+> < Get Higgsfield
+> < Open Meta ads library
+> < Find goated animated AI and AI UGC ads
+> < Have Claude rewrite them for your apps niche and make a prompt for Higgsfield
+> < Generate in Higgsfield
+> < Absolutely print
+>
+> I'll do a more in depth tutorial soon but I am happy to admit I was completely wrong about AI ads. These mfs can convert
+
+- **Tweet:** https://x.com/petersapps/status/2107257801420492818
+- **What:** Peter outlines a workflow for app marketing: mine the Meta Ads Library for high-performing AI/UGC ads, have Claude rewrite them for your niche into Higgsfield prompts, and generate new creatives, claiming roughly $300 spend returning $1K revenue.
+
+## @MilesFeldstein - HumanPost CLI: agents hiring US humans to run social accounts
+> AI can now hire an ARMY of USA based humans
+>
+> ... to post on social media
+>
+> Give your agent 10, 100, or 1,000 dedicated social accounts.
+>
+> Run by humans in the US. Warmed up for your niche. Accounts just for your brand. Zero VPNs, we verify every operator
+>
+> You send the content.
+>
+> The HumanPost CLI hands it to a distribution army.
+
+- **Tweet:** https://x.com/MilesFeldstein/status/2107203693820957068
+- **What:** Product pitch for HumanPost, a CLI that lets an AI agent hand content to many human-operated, niche-warmed US social accounts for distribution; essentially a paid human-posting network, with ethical and platform-policy concerns about coordinated inauthentic posting.
+
+## @trq212 - Claude Code skill for better HTML plans
+> I've been working on a skill that makes better HTML plans in Claude Code.
+>
+> It uses simple language, shows code snippets, surfaces questions & makes mockups. Linting reduces the normal failure cases that Claude runs into.
+>
+> Would love your feedback before shipping more broadly!
+
+- **Tweet:** https://x.com/trq212/status/2107192901537329354
+- **What:** Thariq of the Claude Code team previews a skill that makes Claude produce clearer HTML plans with plain language, code snippets, surfaced open questions and mockups, plus linting to prevent common failure modes, and asks for feedback before wider release.
+
+## @startupideaspod - Grouping PE portfolio companies by system of record for AI rollout
+> This is how we streamline AI implementation across 26 companies in a PE portfolio.
+>
+> Each company has 10 departments, and each department has 10 workflows.
+>
+> If you do them one at a time, you need "50,000 forward deployed engineers across three years."
+>
+> Our method is to group the companies by system of record. For finance, the 5 companies on NetSuite are one group. The 4 companies on Dynamics are a different group.
+>
+> Then you find what NetSuite can do and what it cannot do. You build only for the gaps.
+>
+> The 5 NetSuite companies used 12, 9, 15, 18 and 13 steps for their finance process. The target is 6 steps, with agents at specific points.
+>
+> A single company or 26, sort the work by its system before you build.
+>
+> *Quoting @startupideaspod:* https://t.co/CwVDVlnGBo (article link only, not expanded)
+
+- **Tweet:** https://x.com/startupideaspod/status/2107172585784189312
+- **Quoted:** https://x.com/startupideaspod/status/2105765457005531136
+- **What:** Playbook for rolling out AI agents across 26 private-equity portfolio companies by clustering them by system of record (e.g. NetSuite vs Dynamics), building only for platform gaps and standardizing processes to about 6 steps, avoiding one-at-a-time workflow builds; the quoted article was not expanded.
+
+## @EliXPampa - Andrew Tate's email-list funnel in nine pieces
+> Andrew Tate's biggest money maker was an email list
+>
+> 1,500,000 subscribers, 30 to 50% open rates, and almost nobody who studies him has ever mentioned it
+>
+> I ran sales and marketing there. $149,000,000, zero ads. Here is the whole machine in 9 pieces so you can copy it at any size
+>
+> THE TOP: 1. Two YouTube channels (one teaching, one lifestyle). 2. Two Instagrams (personal vs business). 3. X for connection, 5 to 8 posts a day. 4. Clips posted by recruited course students.
+>
+> THE MIDDLE: 5. A website to hang around in before seeing a price. 6. Live chat with trained salesmen. 7. Email.
+>
+> THE BOTTOM: 8. A $49 a month product. 9. A $7,979 upsell, then events from $2,000 to $25,000.
+>
+> Most people have step 1 and step 8 and nothing in between... Build the middle. Give people somewhere to hang around, someone real to talk to, and get their email
+
+- **Tweet:** https://x.com/EliXPampa/status/2107171713951912305
+- **What:** Claimed insider breakdown of a $149M, no-ads funnel built on a 1.5M-subscriber email list, laying out nine pieces from top-of-funnel content through live chat sales to a $49/month entry product and high-ticket upsells; the key advice is to build the missing middle stage.
+
+## @doodlestein - Free Agent Flywheel complete guide as a book alternative
+> No one buys new technical books nowadays, anyway, right? Get it for free here:
+>
+> https://t.co/LgjqZBrpfF
+
+- **Tweet:** https://x.com/doodlestein/status/2107158693028757851
+- **Link:** https://agent-flywheel.com/complete-guide
+- **What:** Jeffrey Emanuel points to the free Complete Flywheel Guide on agent-flywheel.com, a long-form methodology for building software with swarms of AI agents using exhaustive markdown plans and polished beads; the fetched content was only raw HTML, and a related Agent Flywheel knowledge file already exists.
+
+## @doodlestein - Jeffrey's eBay-selling skill researches dimensions and shipping
+> Oh yeah, another thing this skill does which is simple but incredibly useful is that it looks up your specific item and researches the exact dimensions and weight where determinable and uses that to come up with good estimates for shipping. Lots of other nice tricks, too!
+>
+> *Quoting @doodlestein:* I had a bunch of old GPUs and other computer hardware in my garage that I decided to liquidate... I figured out a really nice system involving a private GitHub repo, beads, and more that the ChatGPT app with Computer Use and browser automation can completely manage for me... You just take photos of all the stuff... It figures out what recent successful auctions for the same items have gone for. It writes the listings. And it tracks everything... I've already sold like 12 items this way and it all Just Works. So I've taken all my learnings and... made a skill that you can use to do the same thing yourself... on my $20/month skills site.
+
+- **Tweet:** https://x.com/doodlestein/status/2107127918300131838
+- **Quoted:** https://x.com/doodlestein/status/2106952610393526565
+- **Link:** https://jeffreys-skills.md/skills/sell-my-stuff-on-ebay
+- **What:** Follow-up on Jeffrey Emanuel's sell-my-stuff-on-ebay agent skill, which uses beads, a private repo and browser automation to list and track items, and also researches item dimensions and weight to estimate shipping; the page fetch returned only raw HTML so no knowledge file was filed.
+
+## @jakecastilloooo - Prediction: AI chat ads as the next big arbitrage
+> Calling it now - AI ads are going to be the biggest arbitrage in the world over the next 2-3 years
+>
+> It'll be like Meta ads in 2014 all over again
+>
+> Right now barely any brands advertise inside AI chat
+>
+> Most people using ChatGPT never see an ad, because almost no niches are covered yet
+>
+> Early platform + no competition = cheap attention
+>
+> Everyone who got rich on Facebook ads in 2014 will tell you the same thing
+>
+> The window is NOW
+
+- **Tweet:** https://x.com/jakecastilloooo/status/2107098229036777483
+- **What:** Opinion that advertising inside AI chat assistants like ChatGPT is an early, uncrowded channel comparable to Facebook ads in 2014, so cheap attention is available to brands that move before niches fill up.
+
+## @DanielLockyer - 19 performance PRs shipped with pstack in one day
+> I've shipped 19 performance-related PRs solely with pstack so far today
+>
+> *Quoting @DanielLockyer:* Shoutout to pstack and Opus 5.5 for optimizing production deploy time by ~30%
+>
+> Give your agent full access to deploy logs and source code, and it does amazing things
+
+- **Tweet:** https://x.com/DanielLockyer/status/2107090228712456662
+- **Quoted:** https://x.com/DanielLockyer/status/2107051316992254308
+- **What:** Daniel Lockyer reports shipping 19 performance PRs in a day using the pstack agent workflow, following his earlier claim that pstack plus Opus 5.5 cut production deploy time about 30% when the agent had full deploy-log and source access.
+
+## @CEO_Vlad - Meta's AI targeting makes creative testing the only lever (AI UGC ad course)
+> zuckerberg says meta picks your customer for you now...
+>
+> his AI finds your buyers better than you can, so meta tells brands to stop restricting who they target
+>
+> that leaves you one lever: the ad itself
+>
+> his own plan is testing 4,000 versions of your creative to find the one that works
+>
+> every new ad is a new audience test, and the brand that tests the most angles finds the buyers first
+>
+> my main brand does $200k a day on that, all ai ugc, at a 25% margin
+>
+> so i wrote the full course on how i run it: where the winning angles come from, the claude prompt for scripts, building faces that sell, a finished ad in 5 minutes, the launch structure, reading the numbers, turning 1 winner into 20, etc
+>
+> *Quoting @CEO_Vlad:* https://t.co/rnsnOEDxaf (article link only, not expanded)
+
+- **Tweet:** https://x.com/CEO_Vlad/status/2107078748898255335
+- **Quoted:** https://x.com/CEO_Vlad/status/2103997318735544455
+- **What:** Promo for a paid-style article course arguing Meta's AI now handles audience targeting, so advertisers should win by mass-testing AI UGC creative angles; the quoted tweet is just the unexpanded article link, so the course content itself is not captured.
 
 ## @DanielLockyer - pstack and Opus 5.5 cut production deploy time by about 30%
 > Shoutout to pstack and Opus 5.5 for optimizing production deploy time by ~30%
