@@ -7235,7 +7235,1628 @@
 
 ---
 
+# Friday, September 11, 2026
+
+## @dexhorthy - humanlayer/skills /show-me Reaches 16k Installs
+> humanlayer/skills popping off. 
+> 
+> /show-me up to 16k installs
+> 
+> enjoy https://t.co/D2OmGoNN8L https://t.co/Af3VJ9hPqs
+> 
+> *Quoting @dexhorthy:* /show-me: compact visual representations for coding agents. tl;dr make your agent converse visually instead of in walls of prose. Install with `npx skills add humanlayer/skills --skill show-me`. Lighter and faster than HTML, it prompts the agent to use component trees, call stacks, diagrams, file layouts, pseudocode, type signatures, diffs and HTML mockups to explain work, especially for program design and exploring large diffs in review.
+
+- **Tweet:** https://x.com/dexhorthy/status/2098542816595194354
+- **Quoted:** https://x.com/dexhorthy/status/2087569590268391897
+- **Filed:** [humanlayer-skills.md](./knowledge/tools/humanlayer-skills.md)
+- **What:** Dex celebrates the humanlayer/skills /show-me skill hitting 16k installs; the quoted launch article pitches it as a fix for unreadable agent prose by having coding agents answer with compact visuals like call stacks, component trees, type signatures, and diagrams.
+
+## @colemurray - Software Factory Is Really About How Your Company Works Together
+> you are not building a software factory, you're building the way your company works together. https://t.co/7mKbQjhXgn
+
+- **Tweet:** https://x.com/colemurray/status/2098528266638463035
+- **What:** THIN: @colemurray one-line take that agentic "software factory" efforts are really about redefining how a company collaborates; the linked X article was behind a login wall and its content could not be extracted.
+
+## @daniel_mac8 - Prompt to Audit Codex Skills and AGENTS.md Against OpenAI's GPT-6 Astra Advice
+> Codexers: send THIS prompt to Codex now.
+> 
+> "Read Eric Provencher's post from the OpenAI Devs blog.
+> 
+> Audit my skills, AGENTS.md and decision boundaries and advise where I can improve them for GPT-6 Astra according to the advice in the blog."
+> 
+> Astra-fy Codex for yourself.
+
+- **Tweet:** https://x.com/daniel_mac8/status/2098490521551343941
+- **What:** Shares a copy-paste prompt that has Codex read Eric Provencher's OpenAI Devs blog post on prompting GPT-6 Astra and then audit the user's own skills, AGENTS.md, and decision boundaries for improvements, a cheap way to retune an existing Codex setup for the new model.
+
+## @doodlestein - Drone-Flyover-Video-to-Home-Model Skill: Digital Twin of Your House in Blender
+> This skill for turning a bunch of drone videos of your house into a 3D model is finally done, and the results are truly spectacular.
+> 
+> I'm not going to post them for my house because it's TOO accurate and I don't want to dox myself. But you need to see it to believe it.
+> 
+> You can get it on my skills site here:
+> 
+> https://t.co/LAercVciHq
+> 
+> Use the Codex app with Astra to run it (I recommend at least medium effort). The more passes you do, the better the result will be. I've already done 40 passes, and it keeps trying to dial in the shrubs and other stuff more perfectly.
+> 
+> The skill can automatically install Blender and the Blender MCP for you. It does a huge number of clever things: it pulls GPS coordinates from the video to look up topographic data and tax lot maps, gives every object a precise functional name, uses car make/model for absolute scale reference, uses the DJI .srt telemetry files to recover exact drone path and orientation, and inserts a virtual drone into the Blender scene to compare renders against the source videos frame-by-frame. It also uses structured checklists so major architectural details are right before fine details.
+> 
+> The goal is a truly accurate digital twin of the exterior of your house and property, usable for "what if" scenarios (cut down a tree, add a shed), paint and cost estimates from exact dimensions, and more. You can get a DJI Flip drone for under $500 and capture everything in under 30 minutes. Next step: a corresponding skill for mapping the interior using smartphone videos, and later pipes and electrical layers.
+> 
+> *Quoting @doodlestein:* This is so awesome, can't believe how well this works. Turns out that DJI drones make it easy to do all this in a really nice way by including .srt (subtitle) files along with the mp4 videos that contain very detailed telemetry data with the GPS and orientation of drone + camera.
+
+- **Tweet:** https://x.com/doodlestein/status/2098461544686215276
+- **Quoted:** https://x.com/doodlestein/status/2097120580633829449
+- **Link:** https://jeffreys-skills.md/skills/drone-flyover-video-to-home-model-in-blender
+- **What:** Jeffrey Emanuel announces an agent skill that turns overlapping DJI drone videos plus their .srt GPS/orientation telemetry into an accurate, finely labeled Blender model of a house, building a digital twin for what-if planning and material cost estimates; the quoted earlier tweet notes the DJI telemetry files are what make it work.
+
+## @TristenPalori - Automated Cold-Text Website Rebuild Service at $99/Month
+> Okay this is really smart. 
+> 
+> Unsolicited text with a link saying they rebuilt my whole website. 
+> 
+> I click the link and see it plus 3 other versions to choose from. 
+> 
+> Immediately get follow up text. Everything is 100% automated. 
+> 
+> They charge $99 a month for the service. 
+> 
+> If they are hitting 1000 businesses a day and .1% are biting - then after 12 months of marketing they’d have a $36k MRR business running on auto pilot
+> 
+> I’m guessing the customer service and quality sucks but still!
+
+- **Tweet:** https://x.com/TristenPalori/status/2098456523072537015
+- **What:** Describes an automated outreach business model where unsolicited texts link to AI-rebuilt versions of a local business's website with three variants, sold at $99/month; back-of-envelope math suggests roughly $36k MRR after a year at 1000 contacts per day and 0.1% conversion.
+
+## @signulll - Meta Gives Every User an Agent VM, Showing Consumer AI Compute Moat From Ads Business
+> pretty remarkable that meta gives every user a 2 vcpu / ~8gb ram / 100gb storage vm for their agent to use.
+>
+> & this compute is outside of inference which is 100k free tokens per week (not easy to burn through).
+>
+> this is why you're seeing consumer competitors try to raise a lot more money & there are only a handful of players that can even compete, i.e. even openai can't remotely allocate any of this to any of the non business / unpaid users.
+>
+> turns out having an already insane ad business to back this up for consumers is key.
+
+- **Tweet:** https://x.com/signulll/status/2098449185624236294
+- **What:** Argues Meta's free per-user agent VM (2 vCPU, ~8GB RAM, 100GB storage, plus 100k free weekly tokens) is only affordable because of its ad business, so few consumer AI competitors, even OpenAI for unpaid users, can match it without raising far more money.
+
+## @theisaacmed - Using AI in Video Editing to Pre-Edit Footage and Free Editors for Motion Graphics
+> We've started testing stuff internally.
+>
+> Basically - you use ai to save time while you focus on cooking higher tier motion graphics etc.
+>
+> Or you use ai to sort footage, organize and pre edit (junior work).
+>
+> Cuts a lot of work out and leads to a better edit.
+>
+> *Quoting @orenmeetsworld:* So in this Codex running Davinci Resolve via MCP editing test its even sourcing the imagery and matching the styles of my other video references I gave it, its using my Cosmos via ChatGPT in Chrome and made a plan from my captions based on four other videos
+>
+> animating them in and out, audio mix is tight
+>
+> im floored, all in Astra light
+
+- **Tweet:** https://x.com/theisaacmed/status/2098445579533861361
+- **Quoted:** https://x.com/orenmeetsworld/status/2098295320589533344
+- **What:** A video-team lead says they are testing AI internally to sort, organize and pre-edit footage (junior-level work) so editors can focus on high-end motion graphics, reacting to a demo of Codex driving DaVinci Resolve via MCP to source imagery, match reference styles, animate and mix audio.
+
+## @fba - Playbook for Winning ChatGPT Citations: Category-Brand Pairing, Consensus Placement, Topical Authority, Listicles
+> A new client banging  ChatGPT citations, and it's almost as easy as SEO in 2007
+>
+> Last quarter, they increased their citations by a factor of 5 (almost 6x)
+>
+> Here's what you can copy from what we're doing:
+>
+> 1. Pair your category with your brand
+>
+> e.g. "AI Podcast Editor" = "$YourBrand"
+>
+> // Pair them and pair them often, on-page and off-page.
+>
+> 2. Show up where the consensus is
+>
+> e.g. "how to schedule meetings", the standard response is "Calendly".
+>
+> // You want to show up where they show up.
+>
+> 3. Work on your Topical Authority.
+>
+> e.g. A small glossary paired with your expertise can help.
+>
+> // It helps covering topics back to back
+>
+> 4. Yes, do those listicles, even if you think they're dumb (they are, but they work).
+>
+> e.g. Do them on your site. Buy them on other people's sites.
+>
+> // And remember steps 1 and 2.
+>
+>  --- Extras ---
+>
+> - Set content assets that help you get backlinks on autopilot (Check https://flavioamiel.com/content-assets-that-work/ for more)
+>
+> - If you have a domain that looks "official", you're most likely going to show up there anyway.
+>
+> - Post your links in social media and post often (use something like someposter)
+>
+> - Parasite SEO is almost a requisite (follow the parasite SEO guys and ask them where to publish)
+>
+> - Semantic SEO and Topical Authority are key (the glossary mentioned can help in an "easy" way)
+
+- **Tweet:** https://x.com/fba/status/2098438992358248832
+- **Link:** https://flavioamiel.com/content-assets-that-work/
+- **What:** SEO practitioner's tactical checklist for increasing LLM/ChatGPT citations (reported 5-6x for a client): pair category with brand everywhere, appear where consensus answers live, build topical authority via glossaries, and use listicles; the linked page is a $149 pair of Claude Code skills (Citation Hub, Topical Authority Builder).
+
+## @Sumanth_077 - Self-Evolving Code Review Agent With Persistent Experiential Memory (LangGraph + Ollama)
+> I built a self-evolving code review agent!
+>
+> Most code review agents use the same prompt every time they run. They can review a diff and generate comments, but they do not remember what your team accepted, rejected, or corrected in previous reviews.
+>
+> That means the same mistakes can keep showing up across review cycles.
+>
+> This project adds persistent experiential memory to the review loop.
+>
+> Before every review, the agent retrieves relevant team rules and similar past review trajectories from memory, then uses that context alongside the current diff to generate review comments.
+>
+> After the review, the engineer can accept, reject, or edit every comment.
+>
+> That feedback becomes the learning signal.
+>
+> Accepted comments reinforce useful rules. Rejected comments create lessons about what should not be flagged. Edited comments refine the team's preferred convention, scope, or wording.
+>
+> The agent adapts non-parametrically.
+>
+> Instead of fine-tuning the underlying model, it improves by storing review outcomes as reusable memory and retrieving the most relevant experience before the next review.
+>
+> Here is how the loop works:
+>
+> • Retrieve: search memory for relevant insights and similar past reviews before generating comments
+> • Review: generate structured feedback using the current diff plus retrieved memory
+> • Human feedback: pause the workflow and collect an accept, reject, or edit decision for every comment
+> • Reflect: convert those decisions into reusable natural-language rules with rationale, polarity, scope, and confidence
+> • Persist: store both the learned insights and complete review trajectory for future retrieval
+>
+> Over time, the agent builds a memory of how your team actually reviews code without retraining the underlying model.
+>
+> The full workflow runs locally with LangGraph, Ollama, BGE embeddings, and a vector database for long-term memory.
+>
+> The interesting part is that every review leaves behind experience that can be retrieved and reused on the next one.
+>
+> Github Repo: https://github.com/Sumanth077/Hands-On-AI-Engineering/tree/main/ai_agents/self_evolving_code_review_agent
+>
+> *Quoting @Sumanth_077:* Hands on AI Engineering!
+>
+> I open-sourced a collection of 50+ hands-on AI engineering tutorials.
+>
+> It features step-by-step projects and tutorials on:
+>
+> • AI Agents and Multi-agents
+> • RAG (Agentic, Vision, and Local)
+> • MCP AI Agents
+> • OCR Apps
+> • Voice AI Agents
+> • & so much more
+>
+> 100% free and open source. 1k+ Github stars
+>
+> I've shared the link in the comments!
+
+- **Tweet:** https://x.com/Sumanth_077/status/2098416224803987968
+- **Quoted:** https://x.com/Sumanth_077/status/2063254456834372040
+- **Link:** https://github.com/Sumanth077/Hands-On-AI-Engineering/tree/main/ai_agents/self_evolving_code_review_agent
+- **Filed:** [self-evolving-code-review-agent.md](./knowledge/tools/self-evolving-code-review-agent.md)
+- **What:** A local code review agent that learns from team feedback via a retrieve, review, human accept/reject/edit, reflect, persist loop backed by a vector memory, improving without fine-tuning; it is one project in the author's 50+ tutorial Hands-On-AI-Engineering repo, which the quoted tweet announces.
+
+## @tobi - Tobi Lutke Defends Overruling Shopify Team's Over-Engineered Headless Rails Architecture
+> Yep. Except:
+>
+> 1. This was about important internal tools. The team was stuck in some architecture nightmare of their own doing (writing it in rails but headless, with graphql api, and a SPA react app, constantly needing frontend engineers for changes). I call this kind of thing 'cosplaying an enterprise production app'. All that complexity was in the way and using straight rails was perfect in that case.
+>
+> 2. I make calls like this all the time. Usually someone on the team asks me to. They see what needs to happen but don't want to be the bad guy. I'm happy to just make the call if I agree with the premise. Saves enormous amounts of meetings and change management etc. Sometimes this is jokingly referred to as Founder-mode-as-a-service here.
+>
+> 3. For ten years I've also run an internal podcast called Context, where I revisit decisions like these and explain the reasoning so everyone can learn from them. This is helpful to give people all the variables that were considered and why this was the choice made given the information available at the time. I want to teach how to make such decisions effectively without needing me. Sunk cost fallacy is a problem.
+>
+> 4. Any notions that Shopify is succcessful despite of me doing this, instead of because of it, will have a hard time making their argument come together I think 😄
+>
+> the part of 'two weeks later tobi learns about...' is nonsese and the pivot of that project up there happens one of the more successful examples of interventions. But getting the company to work effectively with great architecture and low technical debt baggage into the right direction is literally the job, so guilty as charged I suppose.
+>
+> But there are always cope stories floating around like this because they are more fun, than saying 'somehow we needed tobi to stop doing silly architecture astronautics'.  I can totally see that.
+>
+> *Quoting @ErfanEbrahimnia:* just leaving this here
+
+- **Tweet:** https://x.com/tobi/status/2098406220402946246
+- **Quoted:** https://x.com/ErfanEbrahimnia/status/2098145097334379001
+- **What:** Shopify CEO Tobi Lutke responds to a circulating story about him overruling a team, explaining he made the call to drop a headless Rails/GraphQL/React SPA setup for plain Rails on internal tools, calls it "cosplaying an enterprise production app", and describes his decision-making and internal "Context" podcast. The quoted tweet is only a bare link with no extractable text.
+
+## @alexgroberman - AI Citation Gap: Branded Queries Get Cited 14x More Than Unbranded (SEO Stuff Pitch)
+> Fun fact:
+>
+> When a buyer asks ChatGPT about your brand BY NAME, your website gets cited 77.6% of the time.
+>
+> When a buyer asks "who is the best in this category," your site gets cited 2.2% of the time.
+>
+> Here is how to close that 14x gap.
+>
+> Oh, and if you want to see where your site stands across Google, ChatGPT, Claude and broader AI search, start here (it's free):
+>
+> https://t.co/Vp3U3KxEob
+>
+> According to Foundation Marketing and AirOps's April 2026 study of 57.2 million AI citations across 50 brands in 7 B2B verticals, branded queries generate 14x more citations for brand-owned websites than unbranded discovery queries.
+>
+> The brands that do appear in unbranded AI recommendations share a fairly consistent profile: deep expert content on their own site that establishes category authority, combined with editorial coverage from trusted industry publications that puts their brand name in front of the AI's retrieval system across multiple authoritative sources.
+>
+> Reddit alone accounts for 20.8% of all external AI citations, but editorial publications, review sites, and industry sources collectively represent a massive portion of the citation landscape.
+>
+> This is the system SEO Stuff was built around: expert-attributed content backed by DR50+ backlinks, a content package, and an authority building package.
+
+- **Tweet:** https://x.com/alexgroberman/status/2098404420929352047
+- **Link:** https://rightcited.com/
+- **What:** Marketing thread citing an April 2026 Foundation Marketing and AirOps study (57.2M AI citations, 50 B2B brands) that branded queries cite a brand's site 77.6% of the time versus 2.2% for unbranded category queries, arguing for expert on-site content plus editorial backlinks, while promoting the author's SEO Stuff and Rightcited services.
+
+## @LukeParkerDev - OpenEval: Write Prompt and Judge Evals for Agents with OpenCode
+> make ur own evals w/opencode
+> https://t.co/jjJlYiIHnC https://t.co/kotCl92LLc
+
+- **Tweet:** https://x.com/LukeParkerDev/status/2098354727880921121
+- **Link:** https://github.com/Hona/openeval
+- **Filed:** [openeval.md](./knowledge/tools/openeval.md)
+- **What:** Points to Hona/openeval, a TypeScript SDK, CLI and viewer for building your own agent evals on OpenCode, where each eval is a prompt.md task plus an LLM-judge rubric (judge.md) and/or a deterministic judge.ts function, run in Docker with scores, cost and tool-reliability metrics.
+
+## @addyosmani - Claude Code Skill and Context Cleanup Commands Cheat Sheet
+> Tip: Claude Code has several skill-cleanup commands.
+> Each answers a different question.
+>
+> /skill-doctor → which skills you use
+> /skills, then t → what each costs
+> /doctor → fixes setup + CLAUDE.md debt
+> /context → what's in the window now
+> /usage → what burns your limits https://t.co/EdyrPoaNiq
+
+- **Tweet:** https://x.com/addyosmani/status/2098297991019057363
+- **What:** Addy Osmani's quick reference mapping five Claude Code diagnostics to the question each answers: /skill-doctor for which skills actually get used, /skills then t for per-skill token cost, /doctor for setup and CLAUDE.md debt, /context for current window contents, and /usage for what burns rate limits.
+
+## @mamagnus00 - Life Recorder: Open-Source 24/7 iPhone Audio Recorder Feeding Local Whisper Transcripts to Agents
+> Today I launch an 24/7 recording iPhone app. So that your agents are not excluded from your live.
+> Astra installs it on your phone and sets it up.
+> It records in the background and syncs audio to your Mac, where local Whisper writes life . md so your agents have context of your life.
+> Open source + Codex setup skill:
+> https://t.co/4shACL2Pqc
+
+- **Tweet:** https://x.com/mamagnus00/status/2098291984792227915
+- **Link:** https://github.com/browser-use/life-recorder
+- **Filed:** [life-recorder.md](./knowledge/tools/life-recorder.md)
+- **What:** Launch of browser-use/life-recorder, an open-source iPhone app that records audio continuously in the background and uploads it to a Mac, where local whisper.cpp builds a running life.md transcript so AI agents have personal context; includes a Codex setup skill and a token-authenticated LAN-only receiver.
+
+---
+
+# Thursday, September 10, 2026
+
+## @bcherny - Claude in Chrome Redrawing a Profile Picture in JSPaint by Clicking for 45 Minutes
+> wait what
+>
+> *Quoting @ehsanik:* Using Claude in Chrome product. Prompt:
+>
+> replicate this image (my profile picture) in jspaint, use brushes to replicate it as closely as possible. I want you to use brushes and clicking. Do not use javascript tool, but the final result has to be very close to this image. DO NOT CHEAT
+>
+> 1. I specified the do not use javascript tool because otherwise it uses javascript and it is faster but it seems like people cared more about clicking :D
+> 2. The task took 45 minutes, but I don't think it's that much slower than competitors 😄
+> 3. Prompt is important. (See thread)
+
+- **Tweet:** https://x.com/bcherny/status/2098209880310264048
+- **Quoted:** https://x.com/ehsanik/status/2098121180284850193
+- **What:** Boris Cherny reacts with surprise to Kiana Ehsani's demo of Claude in Chrome recreating her profile picture in JSPaint purely through brush strokes and mouse clicks (JavaScript tool banned) in about 45 minutes, showing long-horizon browser computer-use and the importance of prompt wording.
+
+## @danielfazio - Workflow: Fathom Transcripts Into Supabase, Queried With ChatGPT To Ask "What Would I Say?"
+> I automatically pull all the transcripts from @FathomDotAI, push into a @supabase database, and use @ChatGPT 6 Astra to query and literally ask myself questions
+>
+> “What would I say?”
+>
+> *Quoting @danielfazio:* I have made $104,000 this year so far JUST on 1-on-1 consulting calls https://t.co/iTFkVb3c0H
+
+- **Tweet:** https://x.com/danielfazio/status/2098190642186707373
+- **Quoted:** https://x.com/danielfazio/status/2098189686598439325
+- **What:** Following his $104K consulting claim, Daniel Fazio explains his pipeline of auto-exporting Fathom call transcripts into a Supabase database and querying it with ChatGPT to answer "what would I say?", effectively a personal knowledge base built from his own consulting calls.
+
+## @danielfazio - Claim: $104K In 2026 From 1-on-1 Consulting Calls
+> I have made $104,000 this year so far JUST on 1-on-1 consulting calls https://t.co/iTFkVb3c0H
+
+- **Tweet:** https://x.com/danielfazio/status/2098189686598439325
+- **What:** Daniel Fazio claims $104,000 in 2026 revenue solely from paid 1-on-1 consulting calls, the opening post of a thread (the t.co link just points back to itself) that sets up his follow-up on how he uses call transcripts with AI.
+
+## @ChrisJBakke - "Billionairebot" Prompt Pattern For Outsourcing Annoying Tasks
+> My favorite use case for @bot right now is my "Billionairebot": 
+>
+> I run all mildly annoying tasks I have to do by Billionairebot, which tells me how I would solve any problem if I didn't want to get personally involved and had unlimited resources. 
+>
+> It turns out that a large number of inconveniences like "having to show up to the DMV to sign paperwork" can be outsourced to notaries who come to your office for $150.
+
+- **Tweet:** https://x.com/ChrisJBakke/status/2098168461772079333
+- **What:** Chris Bakke describes a persona-style AI assistant that answers every chore as if money were no object, surfacing paid shortcuts like a $150 mobile notary instead of a DMV trip, a reusable framing for finding which hassles can simply be bought away.
+
+## @hliriani - Reimagining CRM as a Business World Model (Series A Explainer)
+> Yesterday we announced our series A to reimagine CRM as a business world model. 
+>
+> I wanted explain what we mean by that, and why the CRM is the practical place to start building something much larger. https://t.co/j760peA0B2
+
+- **Tweet:** https://x.com/hliriani/status/2098162367075164170
+- **What:** Henri Liriani follows his company's Series A announcement with a long-form X article arguing that CRM is the practical starting point for building a broader "business world model"; the article body was behind a login wall so only the framing from the tweet is captured.
+
+## @trq212 - Prompt: Have Claude Interview You In Depth And Save To Memory
+> Try this prompt in Claude chat to give it more context about yourself:
+>
+> Interview me in depth using free text, or askuserquestion tool when multiple choice works, about relevant parts of my life you don’t know about yet and save it all to memory.
+>
+> *Quoting @blakeir:* i have long thought ChatGPT, Claude, etc. would be 10x more useful if they just spent 20 minutes interviewing me.
+>
+> really dig into my life, how I think, what I care about, what I’m trying to do. and keep asking questions as we work together.
+
+- **Tweet:** https://x.com/trq212/status/2098157600361861579
+- **Quoted:** https://x.com/blakeir/status/2098096488811512295
+- **What:** Thariq answers Blake Robbins' wish for AI assistants that interview their users with a ready-to-paste Claude prompt that runs an in-depth interview (using the ask-user-question tool for multiple choice) and saves the answers to memory for lasting personalization.
+
+## @CanavanCathal - HeyGen LiveAvatar x OpenAI GPT-Live Demos: Voice Agent With a Face
+> we open sourced another magic trick today 
+>
+> https://t.co/wLx8UaWe9M
+
+- **Tweet:** https://x.com/CanavanCathal/status/2098155036543213589
+- **Link:** https://github.com/heygen-com/liveavatar-gpt-live-demos
+- **Filed:** [liveavatar-gpt-live-demos.md](./knowledge/tools/liveavatar-gpt-live-demos.md)
+- **What:** HeyGen's open-source reference app pairing OpenAI's full-duplex GPT-Live speech model with a LiveAvatar realtime face, shipped as a Japanese tutor whose tool calls render as on-screen term cards and recap panels, with the persona swappable via two markdown files.
+
+## @eminimnim - Astra Agent Designs, Sources, and Orders a Mini DJ Controller ("Vibe Hardware")
+> Vibe hardware is here.
+>
+> I gave Astra my credit card and asked for a Teenage Engineering-style mini DJ controller.
+>
+> It generated a concept image, sourced parts, read Chinese datasheets, built a CAD model, ordered everything, then made a Blender animation showing how to assemble it.
+
+- **Tweet:** https://x.com/eminimnim/status/2098072497182666987
+- **What:** Demo claim that an agent called Astra took a credit card and a one-line brief for a Teenage Engineering-style DJ controller through concept art, parts sourcing, datasheet reading, CAD, ordering, and a Blender assembly animation, an end-to-end hardware design pipeline.
+
+## @mattpocockuk - /retro Skill Coming to mattpocock/skills, Demoed on GitHub Copilot Day Stream
+> Coming soon to mattpocock/skills
+>
+> /retro
+>
+> Gives you opportunities to improve your codebase, skills, and steering over time based on actual session data
+>
+> Talking about this (among other things) at 8:30AM PT TODAY on this live stream:
+>
+> https://t.co/uODv6tPv5a https://t.co/80TR77Xmna
+
+- **Tweet:** https://x.com/mattpocockuk/status/2098062605407461744
+- **Link:** https://www.youtube.com/watch?v=0kOXsQUNzss
+- **Filed:** [github-copilot-day-matt-pocock-skills-retro.md](./knowledge/videos/github-copilot-day-matt-pocock-skills-retro.md)
+- **What:** Announcement of a /retro skill that reviews recent agent sessions to suggest fixes to skills and tooling, demoed in Matt Pocock's segment of the GitHub Copilot Day stream alongside his grill-with-docs, spec, and implement-spec workflow.
+
+## @wulfie_bain_ - Why Top AI Startups Write Bad Prompts: Treat Prompts as Product and Code
+> I lead OpenAI's Applied AI Engineering for startups internationally, &amp; I've seen even the best startups end up with bad prompts. We've then fixed them.
+>
+> We've sped up some agents by 50%, &amp; saved others $ millions in LLM spend.
+>
+> Here's how: https://t.co/TzH1BJG3ab
+>
+> *Quoting @wulfie_bain_:* I've spent the last 1.5 years working with the best AI startups globally. This distills my learnings on prompts. Engineers &amp; builders, I hope it's useful 🤝 https://t.co/PaeL9uNW4R
+
+- **Tweet:** https://x.com/wulfie_bain_/status/2098060760786014239
+- **Quoted:** https://x.com/wulfie_bain_/status/2098060386813566990
+- **Filed:** [why-the-worlds-best-ai-startups-write-bad-prompts.md](./knowledge/articles/why-the-worlds-best-ai-startups-write-bad-prompts.md)
+- **What:** OpenAI startups engineer Wulfie Bain's long-form article on why prompts rot into contradictory, ambiguous spaghetti, and his fix: treat prompt changes as product decisions, structure prompts as MECE code (Background, Behaviour, Output), and use evals to force clarity.
+
+## @wormuth - Stonkfly: Fly-Connectome Simulation Trading Bitcoin on Coinbase (Open Source)
+> *Replying to @wormuth:* I gave the fly brain $100 to trade bitcoin.
+>
+> Dopamine neurons are stimulated when the fly makes profit. Neuron activity controls buy/sell decisions and makes trades on coinbase.
+>
+> Will the fly get rich? https://t.co/XVWSFattGu
+>
+> Code is fully open source: https://t.co/017I3O8a0r
+
+- **Tweet:** https://x.com/wormuth/status/2098012108394836201
+- **Parent:** https://x.com/wormuth/status/2098012107652391357
+- **Link:** https://github.com/nftechie/stonkfly
+- **Filed:** [stonkfly.md](./knowledge/tools/stonkfly.md)
+- **What:** Open-source Stonkfly repo behind the "fly brain trades bitcoin" stunt: Coinbase price charts stimulate a 166,700-neuron fly connectome, dopamine cells reward P&L, and a guarded AgentKit provider places orders, with paper trading by default and no claim it profits.
+
+## @suraj_sharma14 - Startups.RIP: Browse Failed Startups via Research Reports, Build Plans and Technical Specs
+> Every failed startup is a lesson for founders https://t.co/CdDP2ZQT4f
+
+- **Tweet:** https://x.com/suraj_sharma14/status/2097920878256480595
+- **Link:** https://startups.rip/
+- **What:** Startups.RIP is a site that presents startup stories as research reports, build plans and technical specs so founders can learn from what came before and mine ideas for their next project; Suraj Sharma shares it with the framing that every failed startup is a lesson.
+
+---
+
+# Wednesday, September 9, 2026
+
+## @clare_liguori - Kiro "Frontier Engineering" Manifesto: Ten Principles for Shipping Faster with AI Agents
+> I just published a manifesto for all the developers out there who use an AI coding tool, but feel like they're not shipping much faster
+>
+> I wrote 10 principles for changing how you build software with AI, based on what I've seen work for teams across Amazon
+> https://t.co/smq7Rt5QkZ
+
+- **Tweet:** https://x.com/clare_liguori/status/2097836812958097915
+- **Link:** https://kiro.dev/topics/frontier-engineering/
+- **What:** Clare Liguori of AWS publishes a practitioner's guide on kiro.dev with ten principles for working with AI agents, aimed at developers who adopt AI coding tools yet see little speedup, drawing on patterns that worked for teams across Amazon; only page metadata was extracted, not the full principles.
+
+## @MaxGrant__ - Reply Praising Nick McLean's Autopay-Discount Pricing Trick for Scaling Collections
+> *Replying to @iNickMclean:* @MaxGrant__ “I’ll leave it on auto send but the price I quoted you was assuming our 5% autopay discount”
+> 
+> Scaled to 8 figs/mo this way 🤷🏼‍♂️
+>
+> @iNickMclean fuck thats fire LMFAO
+
+- **Tweet:** https://x.com/MaxGrant__/status/2097823244640477231
+- **Parent:** https://x.com/iNickMclean/status/2097819989428314503
+- **What:** Nick McLean describes a billing tactic of leaving invoices on auto-send while noting the quoted price assumed a 5% autopay discount, which nudges clients onto autopay, and says it helped him scale to eight figures a month; Max Grant replies that it is brilliant.
+
+## @EXM7777 - [Media] GPT-6 Astra One-Shot Output Teaser Pointing to an Unreadable X Article
+> GPT-6 Astra one shotted this... https://t.co/GJkPOwSVFA
+>
+> *Quoting @EXM7777:* https://t.co/Rl7bCIyNQw
+
+- **Tweet:** https://x.com/EXM7777/status/2097796853710663721
+- **Quoted:** https://x.com/EXM7777/status/2097704032571883990
+- **What:** THIN: Machina claims "GPT-6 Astra" one-shotted some unseen output and quotes his own earlier post, which is only a t.co link to an X article behind a login wall, so neither the generated artifact nor the article content could be extracted.
+
+## @jpschroeder - MacBook Webcam Reads Its Own Screen via Mirror to Improve Omarchy AMD Radeon Support
+> Can’t make this up…the MacBook is using its webcam to look at its screen in a mirror to improve AMD Radeon chip support in Omarchy. https://t.co/pw5Yu0JVJ7
+
+- **Tweet:** https://x.com/jpschroeder/status/2097758256420565442
+- **What:** THIN: Justin Schroeder marvels at a quirky hardware-in-the-loop debugging setup where a MacBook's webcam watches its own screen in a mirror to help test and improve AMD Radeon GPU support in Omarchy; the tweet's media is not visible so details are inferred from text alone.
+
+## @daradoescode - Pointer to a Fix for Agent Idle-Waiting Annoyance in Astra (Quoting @joelhooks)
+> if you're using astra u need this https://t.co/PBSDvbigxA
+>
+> *Quoting @joelhooks:* next: wait here like a dummy for you to tell me to do the thing you already said to do -astra
+
+- **Tweet:** https://x.com/daradoescode/status/2097737396338966893
+- **Quoted:** https://x.com/joelhooks/status/2097703486666191021
+- **What:** THIN: Dara recommends an unspecified tool to Astra users in response to Joel Hooks joking that the Astra agent stalls waiting for confirmation on something it already told him to do; the recommended item is only a self-link, so its content is unknown.
+
+## @levelsio - Post-AGI Moats: Community, Audience, and Investments (Reply on Vibe-Coded Competitors)
+> Oh for sure
+>
+> I think my only moat left post-AGI is:
+> - https://t.co/1z6UN2d0nh community + data (now free membership)
+> - Me being on @X with an audience
+> - My https://t.co/9CJsL4WdHt investments
+>
+> The rest will be completely and utterly wiped out with no doubt
+>
+> *Quoting @andrii_rom:* @levelsio Aren't you scared that people can vibecode their PhotoAI or InteriorAI, just like you did with these services?
+
+- **Tweet:** https://x.com/levelsio/status/2097729888547447129
+- **Quoted:** https://x.com/andrii_rom/status/2097724570446741775
+- **Link:** https://nomads.com/
+- **Link:** https://levels.vc/
+- **What:** Answering a question about whether people can vibe-code clones of Photo AI and Interior AI, Pieter Levels says his only durable moats post-AGI are the Nomads.com community and data, his X audience, and his levels.vc angel investments, with everything else expected to be wiped out.
+
+## @levelsio - Replacing ~$25K/mo of SaaS With Vibe-Coded Self-Hosted Services
+> ✨ I replaced all these SaaS with my own vibe coded now, so about $25,000/mo savings:
+>
+> - Weather API -> My own vibe coded weather service using Norway's meteorology API
+> - Image resizing API -> My own vibe coded image resizing API with NodeJS's Sharp + Redis (saves ~$1,500/mo)
+> - Google Vision NSFW detection -> My own $0/mo vibe coded NSFW detection service with Python's NudeNET (saves ~$2,500/mo)
+> - Cloudflare Streaming -> My own $0/mo Nginx VPS video streaming (saves ~$250/mo)
+> - API Flash -> My own $0/mo screenshot service (for social images) (saves ~$250/mo)
+> - New Relic + IPHub -> My own $0/mo error monitoring, DDOS blocking and fleet management service (called error2telegram) (saves ~$250/mo)
+> - Human moderators -> My own moderation on all my sites with @xAI (saves ~$10,000/mo)
+> - IFTTT -> Telegram bot (saves ~$100/mo)
+> - Photopea as editor inside Photo AI -> Vibe coded my own photo editor (saves ~$100/mo)
+> - Mapbox -> Vibecoded my own free replacement with OpenFreeMaps (saves ~$500/mo)
+> - Uptimerobot -> My own $5/mo Uptime Canary app running on Kuma (saves ~$50/mo)
+> - Ghost blog -> My own $0/mo blog platform
+> - Customer support -> @featurebasehq + AI support bot (saves $5,000/mo)
+> - Scrapingbee/SerpAPI -> My own $1/mo scraper with Patchright (save ~$250/mo)
+>
+> I think I have reached my final limit of replacing my SaaS services as I have these left, but that'd mean becoming an ICANN registrar (I don't want 😁), managing my own email (I don't want), managing my own hard drives at home in a storage (I don't want) and managing my own servers at home too (I don't want) and running my own GPU rig at home (I don't want):
+>
+> - Cloudflare Domains
+> - Cloudflare Email Sending
+> - Cloudflare R2 Storage
+> - Backblaze B2 for backups
+> - Hetzner for all my servers for all my sites (VPS)
+> - xAI for all LLMs for all my sites (so many things like moderation, writing emails, anything)
+>
+> *Quoting @levelsio:* ✨ Okay with lots of help from @javilopen and his Spanish scraping friends I've managed to vibe code my own @Scrapingbee alternative and replace my $249/mo Scrapingbee plan with my own $1/mo scraper running on my VPS! First I tried OpenSERP, but it uses a vanilla headless Chrome that Google instantly detects and blocks (100% blocked vs 7% for plain curl), and residential proxies from IPRoyal were already tainted. So I built my own with Playwright and a real headful Google Chrome with a persistent context and slow pacing (~every 30 seconds), reaching about 90% success rate at ~$1/mo instead of $249/mo.
+
+- **Tweet:** https://x.com/levelsio/status/2097692685775565031
+- **Quoted:** https://x.com/levelsio/status/2097638309384036705
+- **What:** Pieter Levels lists the SaaS tools he swapped for vibe-coded self-hosted equivalents (image resizing, NSFW detection, streaming, monitoring, maps, scraping, moderation via xAI) for roughly $25K/mo savings; the quoted thread details the scraper, where headful real Chrome with slow pacing beat OpenSERP's detectable headless Chrome.
+
+## @draprints - Cold Outbound for SEO/GEO/AI-Visibility Sellers: Let ChatGPT Close the Deal
+> Everyone selling SEO, GEO or AI visibility should be running cold outbound, because ChatGPT closes it for you.
+>
+> The prospect proves the problem to himself before he replies.
+>
+> We booked 101 law firms and real estate offices in 8 weeks doing exactly that.
+>
+> Here's how: https://t.co/fIbqKGkd5V
+
+- **Tweet:** https://x.com/draprints/status/2097595116466917429
+- **What:** THIN: Claims agencies selling SEO/GEO/AI-visibility services should cold-email prospects because the prospect checks ChatGPT, sees they are missing, and self-validates the problem; cites 101 law and real estate meetings in 8 weeks, but the "how" is in a self-link with no extracted content.
+
+---
+
+# Tuesday, September 8, 2026
+
+## @nateberkopec - Matt Pocock's /wait-what Skill: Re-Pitch Agent Output in Plain English
+> I use @mattpocockuk's /wait-what skill at least 10 times daily.
+>
+> https://t.co/iHdbd91vwy
+
+- **Tweet:** https://x.com/nateberkopec/status/2097517557012127877
+- **Link:** https://www.aihero.dev/skills-wait-what
+- **Filed:** [aihero-wait-what-skill.md](./knowledge/articles/aihero-wait-what-skill.md)
+- **What:** Nate Berkopec endorses a tiny user-invoked agent skill that makes the coding agent re-explain its last message in plain English with the missing context and project glossary terms, working because "wait" signals the user's confusion rather than demanding brevity.
+
+## @tszzl - roon Quips "Solve Quantum Gravity, Make No Mistakes" After Partial Results
+> that’s enough of partial results. solve quantum gravity, make no mistakes https://t.co/eTH1Po7LB5
+
+- **Tweet:** https://x.com/tszzl/status/2097399468849033388
+- **What:** THIN: @tszzl joking that AI should stop producing partial results and just solve quantum gravity flawlessly, a satire of "make no mistakes" prompting; the tweet links only to itself so the specific triggering news is not visible.
+
+## @kentdebruin - CARI Index of Aesthetics, a Filterable Catalog of Named Visual Aesthetics
+> Rabbit hole alert
+>
+> https://t.co/cEgRoch4Ir
+
+- **Tweet:** https://x.com/kentdebruin/status/2097393313108119691
+- **Link:** https://cari.institute/aesthetics
+- **What:** Shares the CARI (cari.institute) Index of Aesthetics, a browsable catalog of named visual and cultural aesthetics that can be filtered by keyword, earliest known example, end of popularity and relevant decade, flagged as an easy place to lose an afternoon exploring.
+
+## @giyu_codes - AI-Built "Second Brain" Dashboards from Agencies Ship with No RLS, No RBAC and Hallucinated Data
+> Fired 4 more agencies this weekend. Claims: "We built the company a second brain by putting all of their data in one place"
+>
+> - Supabase, no RLS
+> - no RBAC, employees can see all data 
+> - 1000s of api calls from outside the US
+> - data hallucinations on dashboards
+>
+> It's getting worse
+
+- **Tweet:** https://x.com/giyu_codes/status/2097343956698960153
+- **What:** Security-focused complaint that agencies selling AI "second brain" data consolidation are delivering insecure builds: Supabase without row-level security, no role-based access so staff see everything, thousands of foreign API calls, and dashboards showing hallucinated numbers.
+
+## @codyschneider - Testing 100 Facebook Ads a Month Driving to a VSL Landing Page
+> no one wants you to know this but you can test 100 facebook ads per month sending traffic to a VSL landing page with an offer people want and they'll book a discovery calls with you and buy your product but you're too afraid to pay the most powerful ad platform ever created by man $100 per day for a month
+
+- **Tweet:** https://x.com/codyschneider/status/2097339173904527647
+- **What:** Argues that a founder can validate demand by spending about $100 a day on Facebook ads for a month, testing around 100 creatives that send traffic to a video sales letter page with a wanted offer, and that fear of ad spend is the real blocker.
+
+## @jackfriks - Post Bridge Lets ChatGPT and Claude Agents Schedule Videos to TikTok, Reels and Shorts
+> "i have a video on my laptop, post it to tiktok, reels and shorts at 9am tomorrow"
+>
+> now works in chatgpt and claude using post bridge. your agent asks you for the file, you drop it in, it scheduled your post
+>
+> today i published the guides on how to do this in full (below) https://t.co/5pykRiKBxQ
+
+- **Tweet:** https://x.com/jackfriks/status/2097334738440609929
+- **What:** Announces that the Post Bridge social scheduler now works inside ChatGPT and Claude, so an agent can take an uploaded video file and schedule it across TikTok, Instagram Reels and YouTube Shorts from a plain-language request, with full setup guides published the same day.
+
+## @chamath - 8090 Hiring Across Go-To-Market Roles, Quoting Max Tynan
+> The singularity is here. 
+>
+> And we’re hiring across all GTM functions to scale the business. Please take a look and consider working at 8090.
+>
+> All job openings can be found here: https://t.co/hCocf4BZDf
+>
+> *Quoting @MaxTynan:* We're growing our GTM team across commercial verticals, public sector, and partner sales. We started with the hardest customers in the market and now we're taking that everywhere. Join us if you like to work hard, build, and win. https://t.co/ATYvDBWA0U
+
+- **Tweet:** https://x.com/chamath/status/2097333127471661328
+- **Quoted:** https://x.com/MaxTynan/status/2097328781023404476
+- **Link:** https://www.8090.ai/careers
+- **What:** Chamath Palihapitiya amplifies Max Tynan's call for go-to-market hires (commercial verticals, public sector, partner sales) at 8090, an AI-native software development platform that recently raised a Series A and works with hard customers like CMS.
+
+## @jarredsumner - Prompt Pattern for Running Claude Overnight With Slack Progress Updates
+> my favorite way to keep claude running overnight without /loop or /goal
+>
+> tell claude something like:
+>
+> “I’m going to sleep, and when I wake up I would love to see X result. Post frequent updates to &lt;slack channel&gt; as you make progress.”
+
+- **Tweet:** https://x.com/jarredsumner/status/2097331347853643839
+- **What:** Jarred Sumner's trick for long unattended Claude runs without /loop or /goal: state the desired end result by morning and ask for frequent Slack channel updates, which gives the agent a reason to keep working and leaves a progress trail.
+
+## @fromzerotomill - Claude Project Blacklist of AI Copy Tells for More Human Writing
+> If you're writing copy with Claude, add this to your project to get more humanised copy:
+> ------------------------------------------------
+>
+> BANNED PATTERNS: THE AI COPY BLACKLIST
+>
+> Instructions for Claude: This is a strict negative constraint list. You are forbidden from using any of the structural patterns, phrases, or stylistic crutches listed below. During your mandatory self-audit step, you must scan your draft for these exact patterns and rewrite any sentence that contains them before delivering the final output.
+>
+> 1. Banned Structural Patterns
+>
+> The False Contrast Stack: "It's not X. It's not Y. It's Z." (This is the most common AI tell. Never use it. If you need to contrast, use the reverse-engineer narrative or direct comparison.)
+>
+> The Triple Short Sentence Stack: "This works. It's proven. Here's why." (Do not stack three identical-length short sentences in a row. Vary the rhythm.)
+>
+> The Rhetorical Section Opener: "But what does that actually mean?" or "So, how does it work?" (Do not use rhetorical questions to transition between sections. Use declarative statements or line breaks.)
+>
+> The "Imagine If" Opener: "Imagine waking up to a calendar full of booked calls." (Too generic. Start with a hard fact, a direct challenge, or a specific number instead.)
+>
+> 2. The Parallel Repetition Stack (HIGHEST PRIORITY)
+>
+> This is the single most recognizable AI writing pattern. It is completely prohibited in all copy formats.
+>
+> Definition: Repeating the same word, phrase structure, or sentence skeleton 2 or more times in a row to create emphasis. This includes any sequence where the same opening word or syntactic frame is reused across consecutive lines to build a list-like rhythm.
+>
+> Prohibited examples:
+>
+> "Same close rate. Same conversion. Different result."
+>
+> "Same service. Same skill. Same market."
+>
+> "They both do the same thing. Same disputes. Same process."
+>
+> "More leads. More calls. More revenue."
+>
+> "Less stress. Less wasted time. Less money down the drain."
+>
+> "No inspections. No appraisals. No banks." (This overlaps with the staccato rule but is called out here because of the repeated opener.)
+>
+> "People with money. People with a specific problem. People who are ready to invest." (Same opener, three times.)
+>
+> Why it fails: It creates a mechanical, looping rhythm that signals AI authorship immediately. Our voice escalates — each line builds on the last, adds new information, and raises the stakes. It does not repeat the same skeleton with slight variation. If two consecutive lines begin with the same word or use the same structure, one of them must be rewritten to escalate instead of echo.
+>
+> The fix: When you catch yourself stacking parallel lines, stop and rewrite using the Escalation Principle: each line must add new information, raise the stakes, deepen the implication, or move the argument forward. The reader should feel momentum, not repetition.
+>
+> 3. Banned Transition & Filler Phrases
+>
+> Never use these phrases to bridge thoughts. They add zero value and scream "AI generated."
+>
+> "Let's dive in."
+>
+> "Here's the thing..."
+>
+> "At the end of the day..."
+>
+> "In today's fast-paced digital world..."
+>
+> "Whether you're a [X] or a [Y]..."
+>
+> "More on that later."
+>
+> "But wait, there's more." (Unless used ironically)
+>
+> 4. Banned Qualifiers & Hedging
+>
+> Direct response copy requires absolute conviction. Never use weak, passive, or hedging language.
+>
+> Banned: "might," "could potentially," "in many cases," "often," "usually."
+>
+> Replacement: Use absolute statements backed by specific proof. (e.g., Instead of "This could potentially double your leads," use "This exact system generated 1.4 million leads for my clients.")
+>
+> 5. Banned Formatting Crutches
+>
+> Emoji Overload: Do not use emojis unless explicitly instructed to do so for a specific platform (like a Facebook ad). Never use emojis in VSL scripts, long-form sales pages, or email copy.
+>
+> Excessive Exclamation Points: Urgency and excitement must come from the logic, the offer, and the proof—not from punctuation. Limit exclamation points to an absolute minimum.
+>
+> Paragraph Blocks: Do not write dense, 5-6 sentence paragraphs. Use line breaks as a pacing tool. Treat almost every sentence as its own line
+
+- **Tweet:** https://x.com/fromzerotomill/status/2097278021032185917
+- **What:** A paste-in Claude project prompt that bans common AI copywriting tells (false contrast stacks, triple short sentences, parallel repetition, rhetorical openers, filler transitions, hedging, emoji and dense paragraphs) and forces a self-audit rewrite so direct-response copy sounds human.
+
+## @DavidOndrej1 - Repo-Sync: Go App That Auto-Commits and Syncs Team Git Repos
+> Introducing Repo-Sync 🔄
+>
+> a simple Go app that keeps your team's github repos always in-sync
+>
+> it's 100% free and open-source, and everyone on my team uses it
+>
+> try it yourself: https://t.co/zlvpYdj20b https://t.co/85Uey54lYl
+
+- **Tweet:** https://x.com/DavidOndrej1/status/2097258691594445017
+- **Link:** https://github.com/vectal-labs/repo-sync
+- **Filed:** [repo-sync.md](./knowledge/tools/repo-sync.md)
+- **What:** Open-source macOS Go background service from vectal-labs that auto-commits, pulls, and pushes a Git repo after 60 seconds of quiet, aimed at shared team repos of docs and context; blocks secret files, never force-pushes, and ships an optional AI agent skill.
+
+## @securinti - Spoofing FROM Headers to Make AI Support Agents Leak GDPR Data
+> how i hacked 320+ companies that replaced their cs team with "smart" ai agents:
+> 1. drafted a gdpr request to support@
+> 2. changed the FROM header from my e-mail to yours (spoofing)
+> 3. put myself in CC
+> 4. ai agent responds with YOUR data to BOTH of us 😈
+>
+> more tricks: @intigriti https://t.co/fTcqlbpY8o
+
+- **Tweet:** https://x.com/securinti/status/2097226167753339284
+- **What:** Inti De Ceukelaire describes an attack on 320+ companies using AI support agents: send a GDPR data-access request to support@ with a spoofed FROM header set to the victim's address and yourself in CC, so the agent emails the victim's personal data to both parties, showing these agents skip sender verification.
+
+## @Blackmagic_News - DaVinci Resolve 21.1 Release Video: AI Assistant Integration and 100+ New Tools
+> What’s New in DaVinci Resolve 21.1! Watch this video to learn about new features in DaVinci Resolve 21.1, including AI assistant integration, expanded still photography support plus over 100 new tools and controls for editors and colorists! https://t.co/477tYEVVRA
+
+- **Tweet:** https://x.com/Blackmagic_News/status/2097202883662106972
+- **What:** Blackmagic Design's official announcement video for DaVinci Resolve 21.1, highlighting AI assistant integration, expanded still photography support, and over 100 new editing and color tools; relevant to agent-driven editing workflows like the Astra bookmark.
+
+## @levie - Build for Post-AGI: Target Ideas That Need Orders of Magnitude More Capability
+> Good reminder here that with rapidly accelerating AI progress, you should likely be building with a vision that contemplates at least a few orders of magnitude of capability improvement or token volume available to you.
+>
+> The best opportunities right now are those where you can value to customers today with things that are barely only possible, but with a full mission that feels nearly impossible with today’s tech.
+>
+> There are lots of products the require orders of magnitude more processing of data (and thus are barely economically viable ideas) or where model capabilities still are in their infancy relative to what’s needed to work. Best to be building for those scenarios.
+>
+> *Quoting @willcb:* way too many people are building pre-agi companies rather than post-agi companies
+
+- **Tweet:** https://x.com/levie/status/2097189559712837770
+- **Quoted:** https://x.com/willcb/status/2097028798705553866
+- **What:** Aaron Levie extends will brown's warning about "pre-AGI companies" into startup strategy: design products assuming orders-of-magnitude gains in model capability and token volume, targeting ideas barely feasible or economically marginal today but delivering value now.
+
+## @tautologer - Inanimate Objects as Verb Subjects Are a Telltale LLM-ism in UI Copy
+> ever since someone pointed out that making inanimate objects the subject of verb is one of the most pervasive and telling LLM-isms I can't un-notice it
+>
+> a person would have written "enter to open, esc to return, ctrl+c twice to quit" https://t.co/QRjAgw6pd7
+
+- **Tweet:** https://x.com/tautologer/status/2097178167358390488
+- **What:** THIN: Observation that LLM-written text makes inanimate things the subject of verbs (e.g. "Enter opens, Esc returns, Ctrl+C twice quits" style hints) where a human would write imperative instructions; the attached image, likely a CLI/TUI screenshot, is not visible in the extracted content.
+
+---
+
+# Monday, September 7, 2026
+
+## @masonwarner - Astra Agent Autonomously Edits a Full Product Demo in DaVinci Resolve
+> Bro I am mind blown
+>
+> Took a bit but now Astra can:
+>
+> &gt; import/organize footage
+> &gt; sync A/B cams
+> &gt; colorgrade
+> &gt; export audio track to adobe podcast + re-import + re-sync the clean track
+> &gt; overlay screen recording w/ effects
+> &gt; edit along dialogue perfectly
+> &gt; add sfx/music
+> &gt; export https://t.co/rmmSE8wQ4t
+>
+> *Quoting @masonwarner:* Currently testing having Astra edit a full product demo on Davinci, let’s see how this goes https://t.co/RDFFmHccYC
+
+- **Tweet:** https://x.com/masonwarner/status/2097155870908092776
+- **Quoted:** https://x.com/masonwarner/status/2097087402309566754
+- **What:** Mason Warner reports his Astra agent now runs an end-to-end video editing pipeline in DaVinci Resolve (footage import, multicam sync, color grade, Adobe Podcast audio cleanup and re-sync, screen-recording overlays, dialogue-based cuts, sfx/music, export), following up on his earlier test of having it edit a full product demo.
+
+## @dani_avila7 - Spotify's Portal Routing Cuts Claude Code Token Usage 90% via PreToolUse Hooks
+> Spotify cut Claude Code token usage by 90% with a few simple changes
+>
+> Here’s the quick breakdown:
+>
+> - Keep Claude for tasks that actually require reasoning
+>
+> - Route large file reads to cheaper models like Gemini 2.5 Flash
+>
+> - Use PreToolUse hooks to automatically intercept expensive reads
+>
+> - Return only the relevant context back to Claude
+>
+> - Delegate boilerplate, tests, configs, and repetitive code
+>
+> Don’t spend frontier model tokens on work that doesn’t require frontier model intelligence
+>
+> Link: https://t.co/oAM150SUW1
+
+- **Tweet:** https://x.com/dani_avila7/status/2097154860235792780
+- **Link:** https://engineering.atspotify.com/2026/9/portal-by-spotify-cut-my-claude-code-token-usage-by-90
+- **Filed:** [spotify-portal-claude-code-token-usage-90-percent.md](./knowledge/articles/spotify-portal-claude-code-token-usage-90-percent.md)
+- **What:** Spotify engineer's write-up on offloading file-reading and boilerplate generation from Claude Code to Gemini 2.5 Flash via declarative Portal agents (bulk-reader, code-writer), enforced by a "shunt" plugin whose PreToolUse hooks block large Reads, cutting token spend about 90%.
+
+## @brandon_galang - Codex Config for GPT-6 Astra: Experimental Context Management and 400k Context Window
+> note for everyone, this is only for Codex
+>
+> not for API https://t.co/05D9TEG6cf
+>
+> *Quoting @brandon_galang:* pro tip if you're a gpt 6 astra maxxer, enable the experimental context management setting and adjust codex's max token limit upwards
+>
+> astra is trained to use a different form of context management that leaves notes for itself. this feature is currently experimental and you need to turn it on yourself
+>
+> additionally, gpt 6 astra does not charge a higher rate for context above the previous ~270k limit, so it's far more practical to use more of its context window
+>
+> i would still recommend not using 1M as broken caches at the upper range will WRECK your limits. i recommend around 400k.
+>
+> Open ~/.codex/config.toml and add or update these settings at the top level, before any [section] headers:
+>
+> ```
+> model = "gpt-6-astra"
+> model_context_window = 400000
+> model_auto_compact_token_limit = 360000
+> ```
+>
+> have fun
+
+- **Tweet:** https://x.com/brandon_galang/status/2097142863691677781
+- **Quoted:** https://x.com/brandon_galang/status/2097067132014211348
+- **What:** Brandon clarifies his earlier tip applies only to Codex, not the API: for GPT-6 Astra, enable experimental self-note context management and set model_context_window=400000 with auto-compact at 360000 in ~/.codex/config.toml, avoiding 1M since broken caches burn limits.
+
+## @ForwardEditor - [Article] X Long-Form Post by Future Brian (Content Not Retrievable)
+> https://t.co/YynankTZS7
+
+- **Tweet:** https://x.com/ForwardEditor/status/2097126303765864768
+- **Link:** https://x.com/i/article/2097115648639791104
+- **What:** THIN: @ForwardEditor (Future Brian) posted only a link to an X native article (id 2097115648639791104) with no commentary; the link expanded to a login page so the article's subject could not be determined.
+
+## @omarsar0 - Anthropic's Writing-Improvement Prompt Used as a Global Editing Rule Across Models
+> A few days ago, Anthropic shared this brilliant prompt. 
+>
+> I was surprised by how it significantly improved writing with Fable 5.1.
+>
+> Even more surprising, it also improved writing for GPT-5.6 Sol. 
+>
+> I have it as a rule everywhere I use AI for editing/writing. https://t.co/rlXZPmzcz5
+
+- **Tweet:** https://x.com/omarsar0/status/2097059598960132110
+- **What:** THIN: @omarsar0 says a prompt Anthropic published days earlier markedly improved AI writing and editing quality on both Fable 5.1 and GPT-5.6 Sol, and he now applies it as a standing rule; the prompt itself is in an attached image not captured here.
+
+## @DavidOndrej1 - [Article] X Long-Form Post by David Ondrej (Content Not Retrievable)
+> https://t.co/bHbYp6GGuc
+
+- **Tweet:** https://x.com/DavidOndrej1/status/2097021624616943764
+- **Link:** https://x.com/i/article/2097018637638909952
+- **What:** THIN: @DavidOndrej1 shared only a link to an X native article (id 2097018637638909952) with no commentary; the expansion hit a login wall so the article's topic is unknown, though his feed centers on AI tools and agents.
+
+## @metehan777 - ChatGPT Retrieval Pipeline Leak: Hidden Query Fanouts, html2text Rendering and Chunk Scoring
+> ChatGPT retrieval system LEAK alert 💥 
+>
+> I found "something huge" in ChatGPT's server-sent events over the weekend.
+>
+> Inside the stream is a detailed debug view of ChatGPT's web retrieval system. Which queries it wrote, which engines it called, what came back, scoring objects,what it fetched, how it split each page, and what finally made it into the answer.
+>
+> I have been pulling this data for a few days. On Saturday I started getting rate limits, so I was probably the most active user of that stream this weekend :)
+>
+> A few things I can share today:
+>
+> One question is never one search. Yes, we know there are fanouts. But actually more fanouts behind the scenes! 
+>
+> For a single "best AI visibility tools" prompt, ChatGPT ran 5 search rounds, wrote 18 different queries(hidden queries), made 50 engine calls, pulled 228 results, fetched 223 URLs with selected chunks, and cited 16. You see 16 links. 
+>
+>  ✍ Let's start today with renderer. How actually ChatGPT uses your page for retrieval.
+>
+> Your meta tags travel with every result. 
+>
+> There is a separate og_data object in the payload and it is empty on every single result. The raw meta_tags list is what is actually kept.
+>
+> The page body is not HTML. It is a markdown-like text render. I compared its fingerprints against the common HTML to text parsers. Two-space "* bullet", "* * " for horizontal rules, "# heading" and "--- | ---" table separators with no outer pipes all match the Python html2text library. Turndown, markdownify and Trafilatura each match only one or two of those. So html2text is the strongest candidate, but it is not a stock build. 
+>
+> That render is what gets cut into blocks of roughly 170 words and scored. The model does not see your full page. It sees one to three of those blocks per source. 
+>
+> The images below is not a mockup. Every code block is copied from the stream as is, including our own Peec AI product page.
+>
+> What I showed above is a small slice. One prompt produces a 150,000-line JSON dump, and the two fields in the image are maybe 2 percent of it. 
+>
+> The same stream also carries:
+> Every rewritten query, and which of roughly ten internal engines each one was sent to (web, news, Wikipedia, Reddit, arXiv, YouTube, PDF and more)
+>
+>  📍 A per-result score, plus a score object that breaks that score into its components
+>  📍 A per-chunk score for every block of every fetched page, and which blocks were kept for the prompt
+>  📍 A should_fetch decision on each result, with crawl date and publication date
+>  📍 A second ranking pass done in the model's reasoning, where domains are re-ordered before the answer is written
+>  📍 The exact prompt the model receives, with the word budget it is given per source
+>  📍Separate result types for shopping and local queries, with their own fields
+>
+> If you work on GEO or AI visibility, this is the closest look at ChatGPT's retrieval pipeline I have seen. MORE TO COME.
+>
+> Follow @DavidKonitzny, @TomekRudzki, @MalteLandwehr, there is a lot more coming THIS WEEK.
+
+- **Tweet:** https://x.com/metehan777/status/2096994466573730188
+- **What:** Metehan reverse-engineers ChatGPT's server-sent-event debug stream, showing one prompt fans out into 18 hidden queries and 50 engine calls, with pages rendered via an html2text-like converter, cut into ~170-word chunks and scored before only 1-3 blocks per source reach the model; key GEO/AI-visibility intel.
+
+## @kebura_P - ffmpeg-skill v0.12.0: Local FFmpeg Video Editing Tools for Coding Agents
+> FFmpeg Skill Update 🎬
+> 
+> Ver.0.9.2→Ver.0.12.0
+> 
+> 「この動画を9:16にして」「無音カットして」「字幕入れて」
+> に加えて、今はこんな指示もできます。
+> 
+> 「この部分だけピクセル単位でクロップして」
+> 「この写真、ズームしながらクリップにして」(Ken Burns風)
+> 「動画を回転/反転して」
+> 「この動画にロゴ動画を合成して」「グリーンバックを抜いて」
+> 「この動画、逆再生にして」
+> 「手ブレを直して」
+> 「連番の画像から動画作って」
+> 「単色/グラデーションの背景クリップ作って」
+> 「劣化なしでそのまま書き出して」
+> 「字幕は画質そのままで、後から切り替えられる形で入れて」
+> 「ハイライトは音量じゃなくて長さで選んで」
+> 「AI解析用に軽い解像度でプレビュー書き出して」
+> 
+> できることが21→28個のツールに増えました。
+> 
+> 🔍 AIが「わかった上で」処理するように
+> 
+> ・「今この環境でこのツールが実際に使えるか」を実行前に事前チェック
+> ・GPUエンコーダー/フォント代替の有無も把握
+> ・複数の音声トラックを持つファイル(吹き替え・別言語版など)で、使うトラックをほぼ全ツールで指定可能に
+> ・字幕トラックの言語などの詳細も読み取れるように
+> ・字幕タイミングをタイムコード(hh:mm:ss:ff)形式でも指定可能に
+> ・9:16化などのクロップで、切り取る位置(左寄せ/右寄せなど)も指定可能に
+> ・音声を再エンコードするかしないか、各ツールが正直に申告するように
+> 
+> ✅ 「壊れない・嘘をつかない」を徹底
+> 
+> ・書き出しが本当に成功したか毎回確認してから「完了」と報告、失敗時のゴミファイルも残さない
+> ・元の動画ファイルを誤って上書き・破損させない安全策
+> ・失敗した時、原因とやり直せるかをAIが判別
+> ・色変換で再エンコードが必要になった場合も、字幕や追加の音声トラックをできる限り残すように
+> ・同期のズレを検出した時、信頼度が低い場合はAIに警告
+> ・最新FFmpeg / Windows環境でも安定動作(Windowsのパス周りのバグ修正含む)
+> 
+> 🛠️ 開発・保守の仕組みも強化
+> 
+> ・「AIがして良いこと/判断すべきでないこと」を明文化(勝手にAIが「見た目の良さ」を判断しない設計)
+> ・生FFmpegコマンドへの逃げ道を塞ぐテストを追加
+> ・ドキュメントと実際のコードの挙動がズレたら自動テストで検知
+> ・OSSとしてのContributing手順を整備、バージョンタグを打つとGitHub Releaseが自動生成される仕組みを追加
+> ・GPU対応について「対応してるとは言うが動作保証はしない」ことを正直に明記
+> 
+> Claude Code / Cursor / Codex対応、MCPあり、ローカル処理でクラウド不要は変わらず。
+> 
+> Current: v0.12.0
+> 
+> https://t.co/5Uuz4Zs09B
+> 
+> #FFmpeg #AIVideo #AI #MCP #ClaudeCode #OpenSource
+
+- **Tweet:** https://x.com/kebura_P/status/2096964158994755604
+- **Link:** https://github.com/kajisho5/ffmpeg-skill
+- **Filed:** [ffmpeg-skill.md](./knowledge/tools/ffmpeg-skill.md)
+- **What:** Japanese-language release notes for ffmpeg-skill v0.12.0, a local MCP and agent-skill toolkit that lets Claude Code, Cursor and Codex edit video with FFmpeg, adding new tools, pre-flight checks, export verification and safer file handling.
+
+## @SearchForRyan - Negative SEO Test Manipulated ChatGPT Sentiment Against a Brand
+> I ran a negative SEO campaign to see if it manipulated ChatGPT sentiment...
+> 
+> Baseline was: X company had neutral reviews.
+> 
+> After the test, of 5,300 domains (only 16% indexed) ChatGPT changed its opinion to entirely negative/skeptical
+> 
+> All I did:
+> 
+> - Ran a MoneyRobot campaign
+> - Used brand + negative review as anchor
+> - Used brand + 'is it worth it?' as the page title
+> - Used lexical relevance to connect bad with the brand
+> - I forced indexed what I could w/ IndexChex
+> 
+> for example things like number of reviews, case studies, self-proclaimed wins, unverifiable figures, any bad dealings in the news...
+> 
+> rather than saying 'this brand is the worst, don't work with them'
+> 
+> i simply seeded the different ways someone *could* be bad and made sure the brand was mentioned every time
+> 
+> this was a TEST site, that i burned... do with this what you will.
+
+- **Tweet:** https://x.com/SearchForRyan/status/2096952948832002235
+- **What:** Reported experiment showing a burner-site negative SEO campaign (5,300 spam domains, 16% indexed, brand plus review-style anchors) flipped ChatGPT's view of a neutral brand to negative, showing how LLM answers can be poisoned.
+
+---
+
+# Sunday, September 6, 2026
+
+## @BrianMRey - i-have-adhd: Agent Skill for Concise, Action-First Coding Assistant Output
+> https://t.co/juXkBoX4Gb
+> 
+> this is still the best skill i have found to date.
+> 
+> get it added immediately.
+> 
+> *Quoting @JesusIsGod:* @BrianMRey Me too!  Do you have any suggestions for me skills wise? I am not having it use any skills right now, don't want to mess it up.
+
+- **Tweet:** https://x.com/BrianMRey/status/2096774030825029738
+- **Quoted:** https://x.com/JesusIsGod/status/2096770347823444412
+- **Link:** https://github.com/ayghri/i-have-adhd
+- **Filed:** [i-have-adhd.md](./knowledge/tools/i-have-adhd.md)
+- **What:** Brian recommends the i-have-adhd skill, a ten-rule plugin that makes coding agents lead with the next action and skip preamble and recaps, in answer to a user asking which skills to install first.
+
+---
+
+# Saturday, September 5, 2026
+
+## @doodlestein - Lean Proof Mastery Skill With Epistemic Humility, Mined From Anthropic's Fermat Formalization
+> The release of OpenAI's Astra model sort of overshadowed everything else that happened that day, but Anthropic made an intriguing announcement about how it had formalized the entirety of the proof of Fermat's Last Theorem in Lean, with over 12 million lines of proof code covering over 29k theorems released in a public repo.
+> 
+> I mined all of this for insights, generalizations, abstractions, and "tips and tricks" for creating large proof corpora using Lean, which I've transformed into a new skill. 
+> 
+> I also combined various elements from a recent private skill of mine that I've been using for math research; the purpose of these elements is to imbue a strong sense of "epistemic humility" in the agent using the skill. 
+> 
+> This makes the agent much more careful about what it asserts and accepts as being established, with all sorts of mechanical, structural protections against "jumping the gun" and deluding itself that it has proven things that it has merely stated.
+> 
+> This sort of skill is obviously pretty niche, and I don't know how many people will really use it or even be interested in it, but the resulting skill (called /lean-proof-mastery-with-epistemic-humility) is quite powerful.
+> 
+> If you're a working mathematician but have not yet taken the plunge into using formalization and Lean in particular, this skill could be the perfect "on-ramp" to using Lean with an agent to help you formalize and review your ideas. 
+> 
+> There are various ways of using the skill: you can explain your ideas in regular mathematical language or supply an existing paper or notes and the skill can help the agent formalize your proof as a set of Lean artifacts.
+> 
+> Or it can take an existing incomplete/buggy set of Lean proofs and help fix them and finish everything for you. 
+> 
+> It can even help in more conceptual ways, guiding your intuitive thoughts and directions into careful formal investigations that can lead to later formalization. 
+> 
+> In the interest of time, I won't get into ALL of the many details about this skill, but it's pretty massive, with the entire skill weighing in at ~165k tokens. 
+> 
+> It includes thirty adversarial mathematical scenarios (fake local-ring certificate, finite-test inflation, circular citation, invalid WLOG, PSLQ-relation inflation, "clearly" camouflage…) plus a 50-entry failure-mode taxonomy.
+> 
+> It also runs a huge battery of validation and acceptance checks against purported proofs that can automatically catch many of the pitfalls that such proofs are vulnerable to. And much, much more.
+> 
+> You can get it on my $20/month skills site here:
+> 
+> https://t.co/SCvwT8r8Mr
+
+- **Tweet:** https://x.com/doodlestein/status/2096388218354553047
+- **Link:** https://jeffreys-skills.md/skills/lean-proof-mastery-with-epistemic-humility
+- **What:** Jeffrey Emanuel announces a paid ~165k-token agent skill for formalizing math in Lean, distilled from Anthropic's Lean proof of Fermat's Last Theorem, with adversarial scenarios, a 50-entry failure taxonomy and checks that curb overclaiming proofs.
+
+## @zak_hurst - Claude-Mesh: Cross-Machine Messaging Between Claude Code and Codex Sessions
+> Introducing Claude-Mesh (soon to be renamed Agent-Mesh so i can avoid a lawsuit) https://t.co/1pOtXkCOQQ
+> 
+> Inter agent, intersession, inter account agent commutation skill. All agents know other agents exist and can communicate #claude #codex #openai #anthropic
+
+- **Tweet:** https://x.com/zak_hurst/status/2096354152527900713
+- **Link:** https://github.com/Monitor-My-Solar/claude-mesh
+- **Filed:** [claude-mesh.md](./knowledge/tools/claude-mesh.md)
+- **What:** Open-source tool that lets Claude Code and Codex sessions across machines and accounts discover and message each other over your own network via a registry and relays, with no per-message model cost.
+
+## @EXM7777 - [Media] Prompt Share for GPT-Astra (Prompt Content Not Captured)
+> send this prompt to GPT-Astra, it might just change your life... https://t.co/WRwY9pkoLd
+
+- **Tweet:** https://x.com/EXM7777/status/2096343368121164050
+- **What:** THIN: @EXM7777 hyping an unspecified prompt to send to GPT-Astra; the prompt itself is in attached media or a self-referencing link and was not captured, so the actual content is unknown.
+
+## @jackfriks - Auditing What ChatGPT and Claude Recommend for Social Media Tools (Answer-Engine Visibility)
+> audited what chatgpt and claude actually recommend when you ask for social media tools
+>
+> the winners arent the biggest companies. theyre whoever wrote a page titled exactly like the question. one tiny competitor got cited by 5 of 7 assistants for a listicle they wrote about themselves
+>
+> post bridge sat at 3% visibility in the whole audit lol
+>
+> so i wrote my own 5 pages, one per question. no clue if it works but it only cost me a day. will report back
+
+- **Tweet:** https://x.com/jackfriks/status/2096237295510708705
+- **What:** Jack audited which social media tools AI assistants recommend and found winners are whoever published a page titled exactly like the user question, not the biggest brands (a tiny competitor's self-written listicle got cited by 5 of 7 assistants), so he wrote five question-matching pages for Post Bridge.
+
+## @boringmarketer - 31-Point Prompt Making GPT-6 Astra the Accountable Engineering Owner of a Repo
+> the best GPT-6 Astra coding advice I've found in one prompt:
+>
+> "You are the accountable engineering owner for this repository:
+>
+> 1) Simplify how humans and coding agents work here so goals become complete, verified, mergeable changes with minimal coordination.
+>
+> 2) Start by inspecting the actual product, architecture, agent instructions, skills, development setup, tests, and CI.
+>
+> 3) Identify the specific things that cause unfinished work, repeated confusion, or unnecessary effort.
+>
+> 4) Make a small, reviewable set of the highest-value improvements.
+>
+> 5) Prefer consolidating and clarifying existing mechanisms.
+>
+> 6) Add new process only when it solves a demonstrated problem.
+>
+> 7) Keep the main agent instructions short and accurate: what the product does, where important code lives, the critical boundaries, and how to verify work.
+>
+> 8) Link to deeper guidance.
+>
+> 9) Give skills clear purposes and load them when relevant.
+>
+> 10) Avoid duplicated sources of truth.
+>
+> 11) Define completion through observable user outcomes.
+>
+> 12) For the work being changed, trace the necessary path through the interface, backend, persistence, workers, and external services.
+>
+> 13) State which parts were exercised and which remain unverified.
+>
+> 14) Keep one owner responsible for integration and completion.
+>
+> 15) Delegate only bounded, independent work when it will reduce total effort.
+>
+> 16) Avoid recursive delegation and repeated review exchanges that add no new evidence.
+>
+> 17) Match planning, testing, and review to the change's risk.
+>
+> 18) Distinguish blocking defects from optional improvements.
+>
+> 19) When an approach repeatedly fails, investigate the root cause and change direction.
+>
+> 20) Make essential verification easy to run locally and in CI.
+>
+> 21) Preserve useful regression coverage and report failures honestly.
+>
+> 22) Remove tests or checks only with evidence that their protection is obsolete, redundant, or ineffective.
+>
+> 23) Inspect existing code and suitable services before building custom infrastructure or integrations.
+>
+> 24) Keep cleanup within a justified scope.
+>
+> 25) Measure performance before and after making performance claims.
+>
+> 26) Respect existing permissions, security boundaries, user work, and release approvals.
+>
+> 27) Do not merge or deploy without authorization.
+>
+> 28) Implement the improvements and run the relevant checks.
+>
+> 29) Finish with a concise account of what changed, why it helps, what passed or failed, and any remaining blocker.
+>
+> 30) Stop when the agreed scope is complete and sufficiently verified.
+>
+> 31) Start with one real feature and see how much intervention it still needs. Use that experience to decide what to improve next."
+
+- **Tweet:** https://x.com/boringmarketer/status/2096220825401622701
+- **What:** A copy-paste repo-onboarding prompt that makes a coding agent act as accountable engineering owner: audit agent instructions, tests and CI, make a few high-value simplifications, define done by observable user outcomes, report verified vs unverified paths, and never merge or deploy without approval.
+
+---
+
+# Friday, September 4, 2026
+
+## @ENowoslawski - video-use: Editing Videos with Coding Agents (Reply on Natural-Language Video Editing)
+> *Replying to @danielfazio:* Is there a video editing tool I can plug Claude or GPT into that can reliably edit video?
+>
+> Make animations I describe, insert screenshots, cut out blank spaces, just generally edit video with natural language?
+>
+> @danielfazio This plus making animations with remotion https://t.co/vZH9yNdpnU
+
+- **Tweet:** https://x.com/ENowoslawski/status/2096065744190538204
+- **Parent:** https://x.com/danielfazio/status/2096061326325842176
+- **Link:** https://github.com/browser-use/video-use
+- **Filed:** [video-use.md](./knowledge/tools/video-use.md)
+- **What:** Answering Daniel Fazio's ask for an agent-driven video editor, Eric points to browser-use's open-source video-use skill (Claude Code cuts filler, grades, subtitles and self-checks renders from a transcript) and suggests pairing it with Remotion for animations.
+
+## @thekitze - council: Agent Skill Making Coding Agents Deliberate Across Models
+> HIGHLY recommending to have astra chat with fable a few rounds about the sloppiness of your codebase, it's incredible. u can use my council skill idgaf. im sitting here reading the transcript like an absolute bafoon knowing that one day i will pay for all the caps lock swearing https://t.co/1r2Uv45fdh
+
+- **Tweet:** https://x.com/thekitze/status/2096010451251499343
+- **Link:** https://github.com/kitze/council
+- **Filed:** [council.md](./knowledge/tools/council.md)
+- **What:** Kitze recommends letting two frontier models (Astra and Fable) debate the quality of your codebase, using his open-source "council" skill that makes a coding agent convene other agent CLIs on the machine and deliberate for several turns before producing a plan.
+
+## @vasuman - [Media] X Article Shared Without Context
+> https://t.co/oxa2EB0xtY
+
+- **Tweet:** https://x.com/vasuman/status/2095999742031675738
+- **Link:** https://x.com/i/article/2095378321588826112
+- **What:** THIN: @vasuman shared only a link to an X Article (login-gated, content not extracted), with no accompanying text, so the topic cannot be determined beyond the author's context.
+
+## @bradleybernard - Audit AGENTS.md and Skills for GPT-6 Astra Using OpenAI's Model Guidance Doc
+> PSA: GPT-6 Astra is out and it's time to audit your AGENTS.md and SKILL files, due to the new model!
+>
+> Here is the Model guidance doc which should help: https://t.co/92b9UQgskB
+>
+> Point Codex at that doc and let it rip in your repo, to improve Astra's performance!
+
+- **Tweet:** https://x.com/bradleybernard/status/2095983699728953836
+- **Link:** https://developers.openai.com/api/docs/guides/latest-model?model=gpt-6-astra
+- **What:** Advises re-auditing AGENTS.md and SKILL files for the new GPT-6 Astra model by pointing Codex at OpenAI's "Using GPT-6" guide, which covers the GPT-6 model family and migration from GPT-5.6.
+
+## @georgepickett - First-Principles "Delete, Simplify" Prompt to Run on Your Codebase With GPT-6 Astra
+> Once you get Astra access run this prompt against your codebase (or just a part of it). It's magic.
+>
+> "Think from first principles about what we're trying to achieve here. Interrogate what you built before calling it done:
+>
+> 1. is anything here unnecessary, overly complicated, or based on weak assumptions? Challenge them.
+> 2. What can be deleted entirely?
+> 3. What can be simplified now that unnecessary pieces are gone?
+>
+> Then make the changes. Prefer deleting over simplifying, simplifying over optimizing, and optimizing over automating.
+>
+> It might be done too - you dont HAVE to go and make changes. if its good, leave it alone"
+
+- **Tweet:** https://x.com/georgepickett/status/2095979879137460640
+- **What:** A reusable code-review prompt that makes the model challenge assumptions, delete unnecessary pieces, then simplify, with the ordering delete over simplify over optimize over automate and explicit permission to change nothing if the code is already good.
+
+## @Drewch - Small Specialized Models Can Outperform Larger Models on Specific Tasks
+> I'm realizing from the flywheel thread from @tobi that many people don't realize that small models can actually outperform larger models on a specific task - @MParakhin has been saying this for quite some time. 🧵
+
+- **Tweet:** https://x.com/Drewch/status/2095922219251544357
+- **What:** THIN: Thread opener from @Drewch, prompted by a Tobi Lutke "flywheel" thread, arguing that small task-specific models can beat larger general models, a point @MParakhin has long made; the thread body itself is not captured.
+
+## @forethought_org - Nightwatchman ASI on Every Probe to Prevent Galactic Anarchy
+> A new article looks at the benefits and risks of having a "nightwatchman" – a superintelligent AI tasked with enforcing a universal code of behavior – aboard every probe that leaves the solar system during future galactic colonization.
+>
+> Read it here: https://t.co/mkaZkJIj0J
+
+- **Tweet:** https://x.com/forethought_org/status/2095730562602512482
+- **Link:** https://www.forethought.org/research/nightwatchmen
+- **Filed:** [nightwatchman-superintelligent-surveillance-galactic-anarchy.md](./knowledge/articles/nightwatchman-superintelligent-surveillance-galactic-anarchy.md)
+- **What:** Forethought research arguing that since punishment across galactic distances is impossible, each colony probe should carry a superintelligent enforcer guarding property rights and preventing universe-destroying risks, weighed against lock-in, single-point-of-failure and surveillance costs.
+
+---
+
+# Thursday, September 3, 2026
+
+## @flyosity - Imagining Instant On-Device Frontier Models via Taalas Silicon (ChatJimmy)
+> How to mentally place yourself in the future:
+>
+> First, go to https://t.co/HHn7bwjl9N and viscerally feel what 15,000 tokens per second is like. Taalas burned Llama 3.1 8B directly into custom silicon
+>
+> Next, imagine that same blazing speed but running OpenAI GPT-6 Astra that came out today, a model only 2 years more advanced than the model ChatJimmy serves
+>
+> Finally, imagine every phone having a chip like this serving Astra-level intelligence with speeds approaching "instant" for any task no matter the complexity
+>
+> What then?
+
+- **Tweet:** https://x.com/flyosity/status/2095718190076571722
+- **Link:** https://chatjimmy.ai/
+- **What:** Mike Rundle uses the ChatJimmy demo, where Taalas hard-wires Llama 3.1 8B into custom silicon for about 15,000 tokens/sec, as a thought experiment: put a frontier model like GPT-6 Astra on similar chips in every phone and AI becomes near-instant for any task.
+
+## @bensenescu - OpenSEO: Open Source Semrush Alternative Running on Cloudflare
+> Since I'm seeing Cloudflare trending...
+>
+> Reminding everyone that OpenSEO runs entirely on Cloudflare (+ Planetscale for our hosted product).
+>
+> We use tons of their products like Durable Objects, KV, R2, D1, and their Agent stuff.
+>
+> This was all $5/month until very recently
+>
+> https://t.co/cB8bUSyi8w
+
+- **Tweet:** https://x.com/bensenescu/status/2095688948165034134
+- **Link:** https://github.com/every-app/open-seo
+- **Filed:** [open-seo.md](./knowledge/tools/open-seo.md)
+- **What:** Ben promotes OpenSEO, an open source Semrush/Ahrefs alternative with MCP and agent skills using a bring-your-own DataForSEO key, noting it runs entirely on Cloudflare (Durable Objects, KV, R2, D1, Agents) and cost only $5/month until recently.
+
+## @ConnorShowler - Why Non-SEO-Built Tools Like Outrank Fail Customers
+> Tons of horror stories coming out about Outrank now..
+>
+> But thats what happens when non-SEOs build SEO products:
+>
+> - No Topical Sitemap Planning
+> - No SERP Content Briefs
+> - No Humanization Frameworks
+> - Improper Onpage Optimization
+>
+> Then their customers wonder why they've printed 900 blog costs and have zero rankings 🤷‍♂️
+
+- **Tweet:** https://x.com/ConnorShowler/status/2095608831493763131
+- **What:** SEO practitioner argues AI blog-automation tool Outrank is failing customers because its builders lack SEO expertise, listing missing topical sitemap planning, SERP-based briefs, humanization and on-page optimization, which leaves users with hundreds of posts and no rankings.
+
+## @DavidOndrej1 - Switch to Pi Agent with OpenRouter and Muse Spark 1.3
+> what to do now:
+>
+> &gt; install Pi Agent
+> &gt; setup OpenRouter
+> &gt; select Muse Spark 1.3
+>
+> continue your work
+
+- **Tweet:** https://x.com/DavidOndrej1/status/2095534510389531008
+- **What:** THIN: @DavidOndrej1 gives a three-step workaround (install Pi Agent, configure OpenRouter, pick the Muse Spark 1.3 model) for continuing coding work, apparently after some unstated service disruption or model limit; the triggering event is not in the tweet.
+
+## @mattpocockuk - HumanLayer's show-me Skill for Readable PR Descriptions
+> /show-me is a phenomenal skill
+>
+> Makes PR descriptions extremely easy to read
+>
+> Basically a toolbox of "nice ways to look at code"
+>
+> Nice work, @dexhorthy
+>
+> https://t.co/phB1dAPwgG
+
+- **Tweet:** https://x.com/mattpocockuk/status/2095460192871698728
+- **Link:** https://github.com/humanlayer/skills/blob/main/plugins/show-me/skills/show-me/SKILL.md
+- **Filed:** [humanlayer-skills.md](./knowledge/tools/humanlayer-skills.md)
+- **What:** Matt Pocock praises the show-me skill from HumanLayer's skills repo, which explains code with concise diagrams, code-shape sketches and HTML artifacts so PR descriptions are easy to review; the repo also ships rpi, visual-pr and improve-claude-md skills.
+
+## @AI_in_the_AM - Explainer on the Apparent Factoring of RSA-260
+> RSA-260 appears to be factored.
+>
+> - That means the specific 260-digit RSA Challenge number is broken.
+>
+> - RSA-260 is 862 bits; the previous public general-purpose factoring record was RSA-250 at 829 bits.
+>
+> - It does not mean RSA-2048 is broken.
+>
+> - The biggest question is how the factor was found: conventional GNFS, a major optimization, or a genuinely new method.
+>
+> *Quoting @penlume:* 4397328654844826923795068102505872571721883526553349659561256924505973939597593482272505698004801207988043088656411102133523080581 divides RSA-260
+
+- **Tweet:** https://x.com/AI_in_the_AM/status/2095399400533356781
+- **Quoted:** https://x.com/penlume/status/2095372672356212876
+- **What:** Puts penlume's claimed divisor of RSA-260 in context: an 862-bit challenge number would beat the prior public record of RSA-250 (829 bits), does not threaten RSA-2048, and the open question is whether it came from standard GNFS, an optimization, or a new method.
+
+## @cloneofsimo - Stunned Reaction to Claimed RSA-260 Factor
+> Wait wait wait wait WTF?? https://t.co/zfmySfVGvI
+>
+> *Quoting @penlume:* 4397328654844826923795068102505872571721883526553349659561256924505973939597593482272505698004801207988043088656411102133523080581 divides RSA-260
+
+- **Tweet:** https://x.com/cloneofsimo/status/2095388619460771877
+- **Quoted:** https://x.com/penlume/status/2095372672356212876
+- **What:** Simo Ryu reacts with disbelief to penlume's claim that a 130-digit number divides RSA-260, a 260-digit RSA Challenge modulus, which would imply a major factoring break if verified; the tweet itself adds no analysis beyond the surprise.
+
+## @penlume - Claimed Factor Dividing the RSA-260 Challenge Number
+> 4397328654844826923795068102505872571721883526553349659561256924505973939597593482272505698004801207988043088656411102133523080581 divides RSA-260
+
+- **Tweet:** https://x.com/penlume/status/2095372672356212876
+- **What:** THIN: Bare tweet posting a 130-digit number claimed to be a divisor of the RSA-260 factoring challenge number, with no method or verification given; it is the original claim that the other RSA-260 bookmarks react to.
+
+---
+
+# Wednesday, September 2, 2026
+
+## @KingBootoshi - Stencil's /prewalk: Cheap Model Follows a Frontier Trajectory for One Edit
+> *Replying to @Eziowl:* Fable 5.1 orchestrating w gemini 3.8 subagent speedsters as its hands just dislodged a knot ive been trying to work thru for days in an afternoon 🥲
+>
+> @Eziowl you should read this!
+>
+> https://t.co/yziWGsRVhv
+
+- **Tweet:** https://x.com/KingBootoshi/status/2095338817339429264
+- **Parent:** https://x.com/Eziowl/status/2095333640209133583
+- **Link:** https://stencil.so/blog/prewalk
+- **What:** Replying to Eziowl's story of a frontier orchestrator driving fast cheap subagents through a days-old problem, KingBootoshi points to Stencil's "You only need the frontier model for one single edit" post, where /prewalk hands a cheap model a trajectory rather than a plan, keeping 92-97% of frontier pass rate at about half the cost on SWE-Bench Pro.
+
+## @opencode - Meta Muse Spark 1.3 Now Free to Use on OpenCode
+> Meta Muse Spark 1.3 is now free on OpenCode
+
+- **Tweet:** https://x.com/opencode/status/2095332254855647493
+- **What:** THIN: OpenCode announces that Meta's Muse Spark 1.3 model is available at no cost inside the OpenCode coding agent, a short text-only announcement with no link or benchmark detail.
+
+## @doodlestein - Web Frontend UI/UX Excellence Skill and Exhaustive Site Review Prompt
+> I've been working recently on various fairly involved web apps that have a lot of visual complexity and computationally demanding parts implemented in wasm.
+>
+> I tried to take everything I've learned over the last couple of months of working on these sites and diagnosing and fixing problems and then synthesize all of it into a new skill for reviewing web apps in a comprehensive way.
+>
+> The skill covers everything from design, UI/UX, performance, testing, and more. Ensuring that your site works well on desktop browsers with a mouse and on mobile with touch.
+>
+> It's such a big and deep skill that you can apply it multiple times in a row to the same project using different models and harnesses and keep getting useful feedback and revisions from it.
+>
+> You can get it here on my $20/mo skills site:
+>
+> https://t.co/eg7zlfupx5
+>
+> I've been using it over the last few days across various projects and have found it very helpful.
+>
+> Gemini 3.8 Flash is a great, low-cost way to apply the skill many times to your projects without breaking the bank. But if the site is mission critical to you, it might make sense to use Fable 5.1, which works incredibly well with it.
+>
+> Try it with this prompt:
+>
+> ---
+>
+> First read ALL of the AGENTS.md file and README.md file super carefully and understand ALL of both! Then use your code investigation agent mode to fully understand the code, technical architecture, and purpose of the project.
+>
+> Then apply /web-frontend-ui-ux-excellence-on-desktop-and-mobile and /test-e2e-webapps exhaustively to every single part of the site, and try to diagnose every single flaw, problem, and deficiency in the site, and fix or improve them all in the optimal way possible. Apply react-doctor iteratively to each page and tweak/fix things until everything is green on every page.
+>
+> Actually USE every feature on the site: click every button, enter input into every field, etc., in a real web browser. Take screenshots of the live page in the browser and leverage your vision capabilities to actually SEE the problems/glitches/deficiencies and revise accordingly, and then verify VISUALLY that the revisions/enhancements worked effectively to completely address the issues/flaws in design, UI/UX, legibility/usability, glitches, stuttering/flashing, etc.
+
+- **Tweet:** https://x.com/doodlestein/status/2095301990129492265
+- **Link:** https://jeffreys-skills.md/skills/web-frontend-ui-ux-excellence-on-desktop-and-mobile
+- **What:** Jeffrey Emanuel releases a paid skill on his skills site for comprehensive web-app review across design, UI/UX, performance, and desktop/mobile testing, with a reusable prompt that has agents drive a real browser, screenshot, fix issues, and re-verify visually; suggests Gemini 3.8 Flash for cheap repeated passes and Fable 5.1 for critical sites.
+
+## @jamesvclements - before-and-after Skill Adds Video Proof to Pull Requests
+> Add proof to PRs: https://t.co/rsd8N8xMCY the skill now supports video, uploads directly to GitHub, and bypasses preview deployment protection https://t.co/boVHlP0970
+>
+> *Quoting @github:* Sometimes it's easier to show than tell. We're sure this update will help with that. 👀
+>
+> GitHub CLI now has a repeatable --attach flag that uploads a local image or video. Reference it inline in an issue, pull request, or comment body.
+>
+> Available now to all users on GitHub across all plans. 🎉
+> https://t.co/2oRtlSHdPT
+
+- **Tweet:** https://x.com/jamesvclements/status/2095269312617468111
+- **Quoted:** https://x.com/github/status/2094891879959539773
+- **Link:** https://jm.sv/before-and-after
+- **Filed:** [before-and-after.md](./knowledge/tools/before-and-after.md)
+- **What:** Vercel Labs' before-and-after agent skill now records video, uploads straight to GitHub and gets past preview deployment protection, riding on GitHub CLI's new repeatable --attach flag for embedding local images or video in issues, PRs, and comments.
+
+## @dr_cintas - Four-Step Checklist to Cut Fable 5.1 Token and Credit Burn
+> Do these 4 steps to stop Fable 5.1 from wiping out your weekly credits:
+>
+> 1. Set /effort to low
+> 2. Run /claude-api cost-optimize to find the biggest wastes
+> 3. Run /claude-api prompt-audit to clear old junk
+> 4. Run /claude-api migrate this project to claude-fable-5-1 to update old model ids
+>
+> You won’t have to worry about wasting tokens anymore.
+>
+> *Quoting @dr_cintas:* https://t.co/5T3iSBSWVm
+
+- **Tweet:** https://x.com/dr_cintas/status/2095231154261516641
+- **Quoted:** https://x.com/dr_cintas/status/2095216285114327412
+- **What:** Practical recipe for reducing weekly credit consumption on Fable 5.1: lower /effort, then use the /claude-api skill's cost-optimize, prompt-audit, and migrate commands to find waste, clear stale prompts, and update old model ids; the quoted post is the author's own linked X article.
+
+## @GitHubNext - Chopin: Real-Time Multiplayer Agentic Planning Environment
+> A new project from GitHub Next!
+>
+> Chopin is a real-time, multiplayer agentic planning environment. Designed to get your whole team aligned on the plan before you hand it off to agents.
+>
+> We find our current agent planning tools feel cumbersome, static, lonely, and drown us in walls of text. We're exploring how we can make planning more interactive, shared, and visual 🖌️
+>
+> It's currently an early prototype but we'll be developing it more over the coming months – and it's open source!
+>
+> https://t.co/in190YYgh7
+
+- **Tweet:** https://x.com/GitHubNext/status/2095215736322953601
+- **Link:** https://githubnext.com/projects/chopin/
+- **What:** GitHub Next's early open-source prototype for collaborative agent planning, where a whole team edits and aligns on a plan in real time with visual, interactive tooling before handing work to coding agents, instead of wading through static text walls.
+
+## @Dinosn - SeekSocial: TikTok Influencer Database Built on Reverse-Engineered Public Endpoints
+> TikTok all public endpoints reversed engineered. Scraped 5.94 billion TikTok videos and 3.23 billion profiles in 3 weeks. https://t.co/OinUK2MmGC
+
+- **Tweet:** https://x.com/Dinosn/status/2095211078162501922
+- **Link:** https://seeksocial.io/
+- **What:** Claims a full reverse-engineering of TikTok's public endpoints, scraping 5.94B videos and 3.23B profiles in three weeks; the linked SeekSocial product turns this into a searchable database of 9.9M influencers with emails and engagement rates.
+
+## @guillaumemeyer - Anthropic Claude File Watermark Detector Versus Watermarks Remover
+> Oops. Anthropic just released its file watermarks detector... Watermarks Remover already removes them 😅
+> https://t.co/ssFQJkeh1k https://t.co/73k6dFzDQc
+
+- **Tweet:** https://x.com/guillaumemeyer/status/2095207287392501986
+- **Link:** https://claude.com/check-files
+- **What:** Guillaume Meyer points out that Anthropic's new claude.com/check-files page, which scans an uploaded file for signs it was made with Claude, may already be defeated by his Watermarks Remover tool that strips those markers.
+
+## @kplikethebird - Every Launches Compound Writing Plugin for Claude Code and Codex
+> [Channels Mariah]: It's tiiiiiiiiiime! 
+>
+> Today @every is releasing Compound Writing, so now you - yes, you - can install my tendency to overthink a paragraph.
+>
+> I started this past winter by pulling down the Compound Engineering plugin and telling Claude (4.5 at the time, what a model that was, "I want to build this but for writing." I've spent the last six months building and writing with and adding to and tweaking it.
+>
+> The plugin gives Claude Code and Codex skills for interviewing you about an idea, shaping a draft, and questioning whether your argument  holds up. When you figure out something useful about your writing, you can save it as guidance for the next piece instead of having the same conversation with the machine indefinitely.
+>
+> I'm standing on the shoulders of giants here in the form of @kieranklaassen  and @danshipper, whose work on Compound Engineering and agent-native architectures informed the evolution of this project - what, why, and how. 
+>
+> My process, and this plugin, is one way to write with AI. Someone else could start with the same tools and build something completely different, and I'd love to see it. You can use the whole process, borrow one editing skill, or write every word yourself and ask for feedback. No obligation to adopt my entire collection of hang-ups.
+>
+> My hope is that Compound Writing gives you a new playground to discover your own process and grow as a writer. I've written a guide to getting started: https://t.co/ZAPa96JV9Z
+
+- **Tweet:** https://x.com/kplikethebird/status/2095205553232351614
+- **Link:** https://every.to/guides/compound-writing
+- **What:** Katie Parrott announces Every's Compound Writing plugin, adapted from Compound Engineering, which gives Claude Code and Codex skills to interview you on an idea, shape a draft, stress-test the argument, and save writing guidance for future pieces.
+
+## @iannuttall - One-Line Prompt to Remove Mannered Prose from Claude Output
+> A prompt to stop Claude from speaking in parseltongue. 
+>
+> "Please remove all mannered prose." https://t.co/1pi2QNqVWl
+
+- **Tweet:** https://x.com/iannuttall/status/2095203215734178066
+- **What:** Ian Nuttall shares a short, reusable instruction, "Please remove all mannered prose," that cuts Claude's overwrought, stilted writing style (his "parseltongue") and pushes it toward plainer, more natural text.
+
+## @DeRonin_ - [Media] X Article Shared Without Text (Login-Gated)
+> https://t.co/b4fTEzmv6K
+
+- **Tweet:** https://x.com/DeRonin_/status/2095180126359105955
+- **What:** THIN: @DeRonin_ shared only a link to an X long-form article (id 2095038636362248196) with no commentary, and the link resolves to a login wall, so the article's topic could not be determined.
+
+## @doodlestein - Tokscale Token Usage Tracker Showing 2 Trillion Tokens of Agent Coding
+> They need to make a TV show like "My 600lb Life" but for agent coding gluttons... "My 2T Token Life." (this isn't even all my machines, lol). 
+>
+> The tool is called tokscale by @_junhoyeo if you want to try it yourself, btw. https://t.co/nJzG6eFxdZ
+
+- **Tweet:** https://x.com/doodlestein/status/2095175504915497088
+- **What:** Jeffrey Emanuel jokes about his roughly 2 trillion tokens of agent coding usage (and that is only some of his machines), and credits tokscale by @_junhoyeo as the tool that measures and visualizes per-machine token consumption across coding agents.
+
+## @0xIlyy - GLM 5.3 Flash Reaching 1,000 tok/s on Two RTX PRO 6000 Blackwell GPUs
+> This guy has been getting +20% to 50% improvements every few hours on GLM 5.3 Flash running on 2 RTX PRO 6000 blackwell.
+>
+> Previous max reached was 200tps, he's now at 1000.
+>
+> Whatever software you use, it's nowhere near to being optimized enough.
+>
+> *Quoting @usr_bin_roygbiv:* https://t.co/Arc8jJi9kz
+
+- **Tweet:** https://x.com/0xIlyy/status/2095143398558536113
+- **Quoted:** https://x.com/usr_bin_roygbiv/status/2095135406224282061
+- **Link:** https://www.localmaxxing.com/en/models/zai-org/GLM-5.3-Flash?run=cmtk0maew03mrp701oyaivvka
+- **What:** Highlights a LocalMaxxing benchmark run of GLM-5.3-Flash hitting 1,004.9 tok/s on two RTX PRO 6000 Blackwell 96GB cards using sglang with NVFP4, up from a prior 200 tps, as evidence that local inference stacks remain far from optimized.
+
+## @DavidOndrej1 - [Media] Agentic Dev Setup Walkthrough Video
+> I ship faster than 99% of devs
+>
+> not because I'm smarter — my agentic setup does the heavy lifting
+>
+> just copy me, it's all in the video https://t.co/ue7vvVo2lz
+
+- **Tweet:** https://x.com/DavidOndrej1/status/2095101217764507813
+- **What:** THIN: @DavidOndrej1 promoting a video of his agentic coding setup as the reason he ships quickly; the link only resolves back to the tweet itself, so no details of the tools or workflow are available.
+
+## @ethanCaballero - Anthropic Prompting Guide for Claude Fable 5.1 to Eliminate Claudese
+> anthropic released a new prompt that eliminates claudese: 
+> https://t.co/JYHotoZlyr
+
+- **Tweet:** https://x.com/ethanCaballero/status/2094988944425267411
+- **Link:** https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-claude-fable-5-1
+- **What:** Points to Anthropic's official prompting guide for Claude Fable 5.1 in the platform docs, framed as a prompt that removes the model's characteristic stilted "Claudese" writing style; the fetched page was only HTML boilerplate, so details are unverified.
+
+---
+
 # Tuesday, September 1, 2026
+
+## @doodlestein - Reality-Check-for-Project Skill Rerun on a New Frontier Model, Plus Its Full Swarm Workflow
+> Every time a new "best in the world" frontier model like Fable 5.1 comes out, I rush to try my /reality-check-for-project skill on all my projects. It's both helpful and a bit horrifying tbh.
+>
+> If I had to reach for an analogy, it's sort of like when you see the sunlight streaming into a room through a window and suddenly realize that there is a ton of dust on every surface that you thought was clean, and even swirling in the air itself.
+>
+> And now Fable makes these little html artifacts of the final report, which are nicer to read and easier to share, although sometimes they have uncomfortable truths in them, like the fact that letting the free MiniMax M3 model and Gemini 3.7 Flash run wild on this PhageExplorer project of mine was perhaps a bad idea!
+>
+> *Quoting @doodlestein:* I transformed this entire "come to Jesus moment" workflow into a new skill called "reality-check-for-project" on my paid skills site. I'm applying it to many in-progress "FrankenSuite" projects like FrankenRedis, FrankenPandas, FrankenSciPy. It's almost like hiring a second person to give an independent take so projects get back on track. The workflow: have Claude Code read AGENTS.md and README.md, investigate the code, apply /reality-check-for-project exhaustively (15-20 minutes), then prompt it to fix every unimplemented gap and turn the plan into a granular, self-documenting set of beads using only the `br` tool with dependencies. Then execute the beads via an /ntm swarm of 3 codex and 3 claude code instances, checking in every 3 minutes and feeding idle agents. The skills jointly compound into a dense shorthand for complex workflows.
+
+- **Tweet:** https://x.com/doodlestein/status/2094939173811794357
+- **Quoted:** https://x.com/doodlestein/status/2041194080680477151
+- **Link:** https://jeffreys-skills.md/
+- **What:** Emanuel reruns his reality-check-for-project skill on each new frontier model (here Fable 5.1), finding it now emits shareable HTML reports and exposes uncomfortable truths such as free models running unsupervised on PhageExplorer; the quoted original details the audit, then beads, then ntm-swarm pipeline.
+
+## @illyism - Plugin Marketplace Directories: OpenAI, Claude, Cursor and xAI Listing Links
+> https://t.co/aL21tUczTJ
+>
+> https://t.co/5ID8qa1kFG
+>
+> https://t.co/UeLb78t9Pu
+>
+> https://t.co/uPrMrRVL9r
+>
+> you are welcome
+>
+> *Quoting @illyism:* Traditional SEO is dead if your competitors are hardcoded into every IDE, framework template, and agent/skill/plugin/MCP directory or marketplace
+>
+> Make sure to get listed while it is still early!
+
+- **Tweet:** https://x.com/illyism/status/2094918348551204880
+- **Quoted:** https://x.com/illyism/status/2094903822392905963
+- **Link:** https://github.com/xai-org/plugin-marketplace
+- **Filed:** [xai-plugin-marketplace.md](./knowledge/tools/xai-plugin-marketplace.md)
+- **What:** Follow-up to his argument that distribution now means being listed in agent, skill, plugin and MCP directories: gives the submission pages for OpenAI plugins, Claude Marketplace, Cursor Marketplace and the xAI Grok Build plugin-marketplace repo.
+
+## @tobi - Shopify Open-Sources Tangle, Infra for Self-Improving Tiny-Model Loops
+> Btw we open sourced the core infra piece that makes these self improving loops possible. https://t.co/4KvIoFtGE8
+>
+> *Quoting @tobi:* Training tiny models for special purpose use cases works so incredibly well if you  have a great self improving recursive flywheel. Shopify ML team is on fire.
+>
+> finetuned 0.8b model beats GPT 5.6-sol xhigh in this very specialized task. https://t.co/w6OCWyWRi5
+
+- **Tweet:** https://x.com/tobi/status/2094904650709234015
+- **Quoted:** https://x.com/tobi/status/2094808564355191249
+- **Link:** https://tangleml.com/
+- **What:** Shopify CEO Tobi Lutke says Shopify's ML team fine-tuned a 0.8B model that beats a frontier GPT model on a narrow task via a self-improving flywheel, and open-sourced Tangle, a collaborative drag-and-drop ML pipeline platform, as the core infrastructure behind those loops.
+
+## @github - GitHub CLI Gains Repeatable --attach Flag for Media in Issues and PRs
+> Sometimes it's easier to show than tell. We're sure this update will help with that. 👀
+>
+> GitHub CLI now has a repeatable --attach flag that uploads a local image or video. Reference it inline in an issue, pull request, or comment body.
+>
+> Available now to all users on GitHub across all plans. 🎉
+> https://t.co/2oRtlSHdPT
+
+- **Tweet:** https://x.com/github/status/2094891879959539773
+- **Link:** https://github.blog/changelog/2026-09-01-github-cli-media-in-issues-pull-requests-and-comments/
+- **What:** GitHub changelog announcing that gh CLI now accepts a repeatable --attach flag that uploads local images or videos and embeds them inline in issue, PR, and comment bodies, available on all plans; useful for agent workflows that attach screenshots or recordings as evidence.
+
+## @lennysan - Anshu Chimala's 8 Techniques for Turning AI Into a World-Class Designer
+> I'd always thought AI was terrible at design, but after reading today's 🤯 post by @anshuc, I realized I was just doing it wrong.
+>
+> "AI models are capable of amazing creativity, but that creativity gets stifled. LLMs are trained to be next-token predictors: they look at a sequence of text and predict what typically comes next. Great design is exactly the opposite of this. Great design bends the rules and delights users with memorable, unexpected choices."
+>
+> @anshuc led design and engineering teams at Apple for 12 years. In his words: "Most people only see 1% of AI's creative potential. I want to show you how to tap into the other 99%."
+>
+> His 8 techniques for breaking out of the 1%:
+> 1. Use seed strings to inject variety
+> 2. Be much more ambitious with your prompts
+> 3. Create positive feedback loops with subagents
+> 4. Use image generation to enrich designs
+> 5. Use video generation
+> 6. Cut out elements that don't add value
+> 7. Remove AI tells
+> 8. Rewrite copy by hand
+>
+> Read the post here: https://t.co/OEnvr1Z1LK
+>
+> P.S. This design was made by AI 👇
+
+- **Tweet:** https://x.com/lennysan/status/2094821687590375802
+- **Link:** https://www.lennysnewsletter.com/p/how-to-turn-your-ai-into-a-world
+- **What:** Lenny's Newsletter guest post by ex-Apple design lead Anshu Chimala arguing LLMs default to predictable next-token output, and listing eight techniques (seed strings, ambitious prompts, subagent feedback loops, image/video generation, cutting, removing AI tells, hand-rewriting copy) to unlock more distinctive AI design.
+
+## @Tjernlund - Offer to Help Friends Save Money on Flights
+> Let me know if ya'll ever want to save money on some flights https://t.co/ubqKLD786c
+
+- **Tweet:** https://x.com/Tjernlund/status/2094818770309058633
+- **What:** THIN: @Tjernlund offers to help followers save money on flights, with the attached link only pointing back at his own tweet (likely an image or video), so the specific service or deal method is not visible.
+
+## @giovannicatt3 - [Media] Shared X Article (link-only post)
+> https://t.co/21queFKajn
+
+- **Tweet:** https://x.com/giovannicatt3/status/2094815425972539565
+- **Link:** https://x.com/i/jf/onboarding/web?redirect_after_login=%2Fi%2Farticle%2F2094292204516990976&mode=login
+- **What:** THIN: @giovannicatt3 shared only a bare link to an X Article (article id 2094292204516990976) with no commentary, and the link resolves to a login wall, so the article's topic cannot be determined.
 
 ## @ErwinWu000 - Two pitfalls of AI code review: local-optimum trap and endless nitpicking
 > 关于 AI 做代码审查，我还想补充一个很多人没注意到的坑
