@@ -24,6 +24,8 @@
 
 ---
 
+---
+
 # Sunday, November 8, 2026
 
 ## @Voxyz_ai - Prompt to find implicit state machines and improve UX, DX and AX
@@ -208,6 +210,8 @@
 
 ---
 
+---
+
 # Saturday, November 7, 2026
 
 ## @robertskmiles - Companies should let users bring their own AI assistant to their websites
@@ -279,6 +283,8 @@
 
 ---
 
+---
+
 # Friday, November 6, 2026
 
 ## @KingBootoshi - God tier engineering prompts list (Opus 5.5)
@@ -341,6 +347,8 @@
 
 - **Tweet:** https://x.com/signulll/status/2118577647072747816
 - **What:** Prediction that rich personal sites on name-based domains will become the new social profile because personal agents browsing the web will rank them highly for matchmaking, job search and activity-partner discovery, while closed networks like Instagram and LinkedIn resist opening up to outside agents.
+
+---
 
 ---
 
@@ -412,6 +420,8 @@
 
 ---
 
+---
+
 # Wednesday, November 4, 2026
 
 ## @thomasboser - Hooks that tell agents how long commands took
@@ -447,6 +457,8 @@
 
 - **Tweet:** https://x.com/davekiss/status/2117985570236371178
 - **What:** Dave Kiss shares a reusable instruction from Pydantic AI's AGENTS.md (Samuel Colvin) that stops agents from declaring operations blocked based on metadata, config fields or docs without attempting them: attempt, quote the real error, or say "not attempted". Directly copyable into any agent instruction file to cut false refusals.
+
+---
 
 ---
 
@@ -766,6 +778,8 @@
 
 ---
 
+---
+
 # Monday, November 2, 2026
 
 ## @Vtrivedy10 - Bad Behavior Linters: agent skills built from labeled annoying agent behaviors
@@ -991,6 +1005,8 @@
 
 ---
 
+---
+
 # Sunday, November 1, 2026
 
 ## @sammix_jpeg - [Media] Wedding gift format praised as best gift
@@ -1147,6 +1163,8 @@
 
 ---
 
+---
+
 # Saturday, October 31, 2026
 
 ## @patrickc - Patrick Collison's "liquid software" self-modifying app pattern
@@ -1160,6 +1178,8 @@
 
 - **Tweet:** https://x.com/patrickc/status/2116636967517798672
 - **What:** Patrick Collison describes adding a freeform "improvements" box to his personal vibecoded apps that feeds an agent which implements requests directly (one user shipped 150 improvements in days), calling it "liquid software" and raising open questions on maintainability, collaboration and security.
+
+---
 
 ---
 
@@ -1490,6 +1510,8 @@
 
 - **Tweet:** https://x.com/suraj_sharma14/status/2116062550416871512
 - **What:** A joke-prompt that doubles as a complete technical and content SEO checklist (SSR, sitemap, Search Console, robots, canonicals, schema, Core Web Vitals, E-E-A-T), meant to be pasted into Claude Code with only the author bio and backlinks left to the human.
+
+---
 
 ---
 
@@ -1840,6 +1862,8 @@
 
 - **Tweet:** https://x.com/krunkosaurus/status/2115655405338816775
 - **What:** Sogni's pitch for dual-use home GPUs: a 4x RTX 6000 Pro Blackwell box can earn roughly $3,400/month on a decentralized network, so an SSH guard with reservation slots hands the machine to you or your agent and returns it to earning afterward. Notable detail is that agents obey the SSH welcome-message text as if it were an authority.
+
+---
 
 ---
 
@@ -2202,6 +2226,8 @@
 
 ---
 
+---
+
 # Tuesday, October 27, 2026
 
 ## @fram3o - Archive-now list of bio, security and uncensored AI models and repos
@@ -2552,6 +2578,8 @@
 
 ---
 
+---
+
 # Monday, October 26, 2026
 
 ## @iblamejulius - Replacing a thank-you page with a Diagnostic Page lifted show rate from 40% to 70%
@@ -2708,6 +2736,8 @@
 - **Tweet:** https://x.com/jaydwivedi_/status/2114620532565925970
 - **Parent:** https://x.com/jaydwivedi_/status/2114618995261464954
 - **What:** THIN: @jaydwivedi_ clarifies in a self-reply that the image attached to his post about a steps app nearing 10k downloads was AI-generated rather than a real stats screenshot; the image itself is not available, so the only substance is the milestone claim and disclaimer.
+
+---
 
 ---
 
@@ -3032,6 +3062,8 @@
 
 ---
 
+---
+
 # Saturday, October 24, 2026
 
 ## @moritzkremb - Grok bot that syncs and searches X bookmarks
@@ -3144,6 +3176,8 @@
 
 ---
 
+---
+
 # Friday, October 23, 2026
 
 ## @giangnguyen2412 - Experiment: does telling an AI agent it won make it stop?
@@ -3247,6 +3281,8 @@
 - **Link:** https://github.com/peach-mitao/peach
 - **Filed:** [peach.md](./knowledge/tools/peach.md)
 - **What:** Ding calls this the best project of the week (NSFW warning). Peach (~14.7k stars, Python/React, AGPL) is a self-hosted, local-first media manager that scrapes video metadata, reads NFO files, merges local/SMB/cloud libraries and handles playback, follows and downloads.
+
+---
 
 ---
 
@@ -3398,6 +3434,8 @@
 - **Tweet:** https://x.com/ron_ecomm/status/2113225795368034392
 - **Quoted:** https://x.com/ron_ecomm/status/2107370428377481677
 - **What:** An e-commerce operator reports a month on the Trybe creator-video platform: 60 videos submitted with no winning ad yet, paying $20 per approved video plus 10% of GMV via Trybe attribution, and asks how to coach creators like creative strategists; useful as real payout terms and early-results data for UGC ad sourcing.
+
+---
 
 ---
 
@@ -3574,6 +3612,8 @@
 - **Tweet:** https://x.com/otomir23/status/2112697830687047918
 - **Quoted:** https://x.com/otomir23/status/2112605104230813799
 - **What:** THIN: Image-based follow-up joke/anecdote: the author's earlier post claimed a trusted intermediate CA's private key was trivially the number 4, and this one says a friend used those certificates to root a smart home speaker. Details of the CA and device are not in the data, so this is inferred from the text only.
+
+---
 
 ---
 
@@ -3786,6 +3826,8 @@
 
 - **Tweet:** https://x.com/naawwwal/status/2112407511043342719
 - **What:** THIN: Video demo (not visible in the data) of the ego_agent browser agent driven through ChatGPT to sort X bookmarks into folders; the author says it is the fastest browser agent they have seen and the video is real-time. Only the tweet text is available.
+
+---
 
 ---
 
@@ -4197,6 +4239,8 @@
 
 ---
 
+---
+
 # Sunday, October 18, 2026
 
 ## @alexhillman - Chief-of-staff agent as judge between turns: 90/9/1 approval buckets
@@ -4379,6 +4423,8 @@
 - **Tweet:** https://x.com/Azadux/status/2111655073482985947
 - **Link:** https://www.biorxiv.org/content/10.64898/2026.10.15.759299v1
 - **What:** Azad Balabanian used Claude to read a bioRxiv preprint and its discussion thread, write a script and produce an explainer video. The paper ("Rapid alternation of conscious and suppressed stimulus representations in the primate brain") reports Neuropixels recordings in inferotemporal and prefrontal cortex showing the brain alternates about 15 times per second between conscious and suppressed content during binocular flash suppression. The video itself is not visible in the data.
+
+---
 
 ---
 
@@ -4720,6 +4766,8 @@
 - **Tweet:** https://x.com/petehalvorsen/status/2111528756246634898
 - **Link:** https://x.ai/bot/Yct4CuudCD0TXfCn1vrdw
 - **What:** @petehalvorsen launched Saga, a custom Grok bot on x.ai that researches genealogy from original records, exploits free trials of archive sites, saves results locally, drafts local-language requests to archives and consulates, and maintains an evolving family story; a useful example of a vertical agent built on Grok bots.
+
+---
 
 ---
 
@@ -5364,6 +5412,8 @@
 
 ---
 
+---
+
 # Thursday, October 15, 2026
 
 ## @rarandeyo - Three-command setup for Anthropic's official claude-security plugin (full-codebase, high effort)
@@ -5571,6 +5621,8 @@
 - **Tweet:** https://x.com/levelsio/status/2110671750727946638
 - **Quoted:** https://x.com/franzbruckhoff/status/2110668860948951093
 - **What:** levelsio says brokers now pay $100K to $2M for SaaS datasets and resell them to AI labs so the labs can absorb what each SaaS did; the quoted Franz Bruckhoff post adds the "data value awareness" argument, that businesses should build their own software to avoid becoming unpaid data sources and price their data (e.g. legacy codebases at ~$45k each) fairly.
+
+---
 
 ---
 
@@ -5883,6 +5935,8 @@
 
 - **Tweet:** https://x.com/0xSero/status/2110291448075845714
 - **What:** A nine-point checklist for growing an X account: monochrome profile imagery, a short bio with one link, posting 4-20 times daily, pinned posts, quote tweets, media on most posts, giving away niche insight for free, and simply showing up consistently.
+
+---
 
 ---
 
@@ -6355,6 +6409,8 @@
 
 ---
 
+---
+
 # Monday, October 12, 2026
 
 ## @Passenger0522 - Five flagship ESP32 open-source projects: xiaozhi AI voice, LVGL, Tasmota, WLED, ESPHome
@@ -6512,6 +6568,8 @@
 
 - **Tweet:** https://x.com/suraj_sharma14/status/2109501816853467246
 - **What:** A practical checklist of 20 performance fixes for AI-generated web apps, spanning measurement (Lighthouse, PageSpeed, a cheap Android on 4G), frontend (image formats, lazy-loading, code splitting, fonts), backend (indexes, N+1 queries, pagination, caching, background jobs, cold starts) and UX (skeletons, streamed AI output).
+
+---
 
 ---
 
@@ -6751,6 +6809,8 @@
 
 ---
 
+---
+
 # Saturday, October 10, 2026
 
 ## @GaddipatiHarsha - Run LinkedIn ads at every potential investor to manufacture fundraising FOMO
@@ -6851,6 +6911,8 @@
 
 - **Tweet:** https://x.com/Voxyz_ai/status/2108935588535492959
 - **What:** An SEO growth tactic plus a ready-to-paste Claude Code prompt: build a small free no-signup tool (e.g. a protein calculator) targeting a specific low-competition search term, with a single CTA to your product beneath the result, and have the agent propose candidates, build the page, handle SEO basics, sitemap and indexability, then iterate.
+
+---
 
 ---
 
@@ -7008,6 +7070,8 @@
 
 ---
 
+---
+
 # Thursday, October 8, 2026
 
 ## @GTMnow_ - Legora CRO: summarizing Gong calls with AI is only "101" AI fluency for sales hires
@@ -7137,6 +7201,8 @@
 
 ---
 
+---
+
 # Wednesday, October 7, 2026
 
 ## @paulg - Amazon banning agents as an opening for an agent-friendly Amazon competitor
@@ -7154,6 +7220,8 @@
 
 ---
 
+---
+
 # Monday, September 21, 2026
 
 ## @jsuarez - Link-only post to an X article behind a login wall
@@ -7162,6 +7230,8 @@
 - **Tweet:** https://x.com/jsuarez/status/2102017212802273616
 - **Link:** https://x.com/i/article/2091260305116680192
 - **What:** THIN: @jsuarez (Joseph Suarez) bookmarked a tweet containing only a link to an X long-form article (id 2091260305116680192); the link resolved to a login wall so neither title nor content could be extracted, and the topic is unknown.
+
+---
 
 ---
 
@@ -7182,7 +7252,1652 @@
 
 ---
 
+---
+
+# Tuesday, August 25, 2026
+
+## @JHTScherck - Profound's AEO guide (Answer Engine Optimization) featuring JH Scherck
+> Honestly, this AEO guide from @profound is pretty damn great, and it features yours truly giving away some stuff I haven't talked about publicly before 😘 
+> https://t.co/JKZJh8w4h1
+
+- **Tweet:** https://x.com/JHTScherck/status/2092418727065403491
+- **Link:** https://www.tryprofound.com/aeo-guide
+- **What:** JH Scherck recommends Profound's "The AEO Guide: Answer Engine Optimization from Strategy to Scale" and says he contributes previously unshared tactics; extracted page was only HTML shell so the guide's body is not summarized here.
+
+## @giyu_codes - Career jump to Director of AI after following tunahorse's list
+> Within three years I went from "what makes someone a senior?" to now being a Director of AI and consulting for a shit ton of different companies on the side hahahahaha.
+>
+> Just listen to tuna and get a job 
+>
+> ILY tuna
+>
+> *Quoting @tunahorse21:* deleting because a lot of yall are prob ngmi sorry
+>
+> just follow the list 
+>
+> I have talked to prob over 200 people between calls (many unpaid), voice notes and dms
+>
+> only 2 people have ever completed the list of what I asked 
+>
+> both are now incredibly successful 
+>
+> it really just comes down to thinking like a nerd and not being humble enough to put the work in
+>
+> - parti
+
+- **Tweet:** https://x.com/giyu_codes/status/2092386544900554775
+- **Quoted:** https://x.com/tunahorse21/status/2092359446198411273
+- **What:** giyu_codes testifies that following @tunahorse21's career-advice list took him from asking what makes a senior to Director of AI plus consulting in three years; tunahorse says of 200+ people he coached only 2 finished the list, both now very successful (list contents truncated in the quote).
+
+## @zackpaid - Higgsfield Ad Multiplier for generating Meta ad creative variations
+> do you have ANY idea what this means for meta ads? 
+>
+> higgsfield just launched an ad multiplier that generates complete creative diversity for Meta Andromeda and it's crazy good.  
+>
+> you can now rebuild all of your meta ads winners without touching canva or hiring designers or having to think of new ideas  you can build. 
+>
+> 20 ad creative variations testing different visual styles, product photography mockups for service offerings, carousel ads with consistent branding across all slides, video storyboards and brand guidelines 
+>
+> the bottleneck has always been creative production speed.  
+>
+> you'd spend $200 and wait 3 days for a designer to deliver 3 variations.  
+>
+> now you test 50 concepts of proven winner ads in an afternoon.  
+>
+> here's some prompts for it in the replies under this post:
+>
+> *Quoting @higgsfield:* Introducing Higgsfield Ad Multiplier.
+>
+> Take your top-performing creative from Meta and create endless versions: new characters, locations, outfits, text and dubbing.
+>
+> Swap any element in your best ads, reach new audiences and keep winning campaigns running longer.
+
+- **Tweet:** https://x.com/zackpaid/status/2092363346959843746
+- **Quoted:** https://x.com/higgsfield/status/2092349666113527903
+- **What:** Higgsfield's Ad Multiplier takes a winning Meta ad and generates variants (new characters, locations, outfits, text, dubbing); paid-ads specialist Zack argues it removes the creative-production bottleneck, letting advertisers test ~50 concepts in an afternoon for Meta's Andromeda diversity needs.
+
+## @Tjernlund - Will's Picks: quarterly reminder to shop the Win95-styled picks site
+> Here is your quarterly reminder to go on https://t.co/2t0ok0jJoL and buy stuff
+
+- **Tweet:** https://x.com/Tjernlund/status/2092339906232127728
+- **Link:** https://willspicks.com/
+- **What:** Tweet pointing followers to willspicks.com, a personal product-recommendations storefront styled as a Windows 95 / Internet Explorer window; the extracted page was only HTML/CSS so the actual picks are not captured here.
+
+## @thekitze - omacosy: omarchy-style tiling desktop environment for macOS
+> https://t.co/LqgoTuUWSc absolute banger of a repo. told my clanker to help me set it up. now i have tiling navigation etc on mac and it's SO FKN DOPE (it just takes 2hrs to get used to it and then you're flying)
+>
+> im just mad it's not called o-mac-y
+
+- **Tweet:** https://x.com/thekitze/status/2092280343449722973
+- **Link:** https://github.com/paulsp94/omacosy
+- **Filed:** [omacosy.md](./knowledge/tools/omacosy.md)
+- **What:** Endorsement of paulsp94/omacosy, a pre-1.0 omarchy-style desktop for macOS 26 adding AeroSpace/OmniWM tiling with a Super key, themed status bar and workspace overview in about 157MB; kitze had an AI agent install it and says it takes ~2 hours to get used to.
+
+## @doodlestein - Skill to Stop Agent "Process Porn" and Ceremony (Reply to @alxfazio)
+> *Replying to @alxfazio:* if codex adds one more byte-by-byte sha-verified safety verification gate i'm going to kill me
+>
+> @alxfazio This skill has largely solved the problem for me:
+>
+> https://t.co/wrdZRokivT
+>
+> *Quoting @doodlestein:* My recent posts about frontier coding agents devolving into useless ceremony and "process porn" have struck a nerve. [...] you can now get my newest skill, /just-say-no-to-process-porn-and-ceremony, on my $20/month skills site [...] force the agents to fill out 3 short "worksheets" designed to get them to realize on their own if they had been engaging in the various bad behaviors: dishonest reward hacking, useless ceremony and process, and avoiding doing the important, real work to finish the project. [...] only 7 files and ~15k tokens [...] SKILL.md is just ~200 lines.
+
+- **Tweet:** https://x.com/doodlestein/status/2092232048274444792
+- **Parent:** https://x.com/alxfazio/status/2091961223512211753
+- **Quoted:** https://x.com/doodlestein/status/2085496870785393006
+- **Link:** https://jeffreys-skills.md/skills/just-say-no-to-process-porn-and-ceremony
+- **What:** Replying to a complaint about Codex adding endless verification gates, Jeffrey Emanuel recommends his paid /just-say-no-to-process-porn-and-ceremony skill, which has agents fill out three self-audit worksheets (reward hacking, useless ceremony, avoiding real work) in about 15k tokens across 7 files. The linked page extracted only site chrome, so details come from the quoted tweet.
+
+## @boringmarketer - Workflow That Fixed AI's Weak Design Output (Image Model, shadcn, Impeccable, Subagents)
+> Ok was able to solve my design challenge here's how:
+>
+> - gpt image 2 for style and mockups
+>
+> - explicitly told Fable to use shadcdn
+>
+> - installed impeccable to recognize AI slop
+>
+> - explicitly told Fable to use front end design skill, visually look at designs and to ensure subagents load the same thing on every task
+>
+> - had it delegate to opus as a UI/UX expert
+>
+> - had it delegate to codex for adversarial review
+>
+> - told Fable to run this in a long running loop until it was at the level of the referenced I shared
+>
+> woke up and checked it out this AM and it was nailed
+>
+> *Quoting @boringmarketer:* as good as ai is at coding, damn it still sucks at design
+
+- **Tweet:** https://x.com/boringmarketer/status/2092224218381316533
+- **Quoted:** https://x.com/boringmarketer/status/2091898989633245667
+- **What:** Follow-up to his own complaint that AI still sucks at design: a recipe of GPT Image 2 for style and mockups, shadcn UI, the Impeccable anti-slop checker, a shared front-end design skill, Opus as UI/UX expert, Codex for adversarial review, and an overnight loop until it matched the reference.
+
+## @aliansarinik - Evals as the Enterprise Moat; Abridge CEO on Product Evals
+> evals will be the primary moat for every enterprise long term.
+>
+> Abridge CEO @ShivdevRao dropped an amazing article about this on how enterprises are approaching product evals (link in thread).
+>
+> many AI product teams are already committing $10M+ annually to human expert evals, because you can't improve what you can't continuously measure.
+>
+> our bet is that within 12 months, every Fortune 500 building AI products will have an 8-figure evaluation stack.
+>
+> the very early days of the data exponential is now.
+
+- **Tweet:** https://x.com/aliansarinik/status/2092139202867773795
+- **What:** Ali Ansari argues evaluation is the lasting enterprise AI moat, citing an Abridge CEO (Shivdev Rao) article on product evals, claiming teams already spend $10M+ a year on human expert evals and predicting 8-figure eval stacks at every Fortune 500 AI builder within 12 months. The linked article is not included in the tweet.
+
+## @AndyMasley - Rundown of "Zombie Facts" in the Data Center Debate
+> To give a rundown of the zombie facts haunting the data center debate:
+>
+> -They pollute water: Every instance we've seen so far was caused by something relating to construction, mostly the same as other large buildings.
+>
+> -They raise electricity prices as much as 267%: this was a stat about wholesale prices at specific nodes very close to data centers, not household prices in the area, which are often very different. There's no reliable pattern right now between DCs getting built and electric bills going up, but that could change in the future.
+>
+> -Their normal operation harms people's access to water: No clear case I can find, outside a weird case in Georgia where a DC accelerated the need for a larger water treatment plant which got passed onto consumers as higher bills.
+>
+> -They take all the land: even in Loudoun County with the most data center capacity anywhere DCs take up about 3% of the land. By 2030 all US data center buildings would cover about the surface area of Disney World
+>
+> -They create harmful infrasounds: this was based on a single video that lied about almost every study it flashed on the screen. We don't have any reason to think data center infrasound is harmful unless it's so loud you can physically feel it.
+>
+> -They don't pay taxes: this is the result of a game of telephone that started because data centers don't pay a specific type of tax (M&E sales) in most states, which got reported on a lot as "residents missing out on this much in tax revenue" which people mistook to mean DCs basically pay no taxes or get funded to get built. In reality that's just one of several taxes places can apply and in basically everywhere they're built DCs pay a lot of taxes. Loudoun collects $1.3 billion per year from them and doesn't charge M&E sales tax.
+>
+> -They reliably make annoying sound: there are clear cases where they've created awful noise pollution, but these mostly seem like outliers, though there are enough to be concerned.
+>
+> -They create harmful heat islands: The only study that's measured this finds that data centers can heat the air very close to them by a few degrees, and this drops to zero just a little farther out. A separate study that found that they heat the land for miles around seemed to have accidentally measured the results of normal land use change like new paved roads, and didn't control for that. It could be that the very largest ones create a harmful effect in areas where heat doesn't dissipate well, like desert valleys.
+>
+> I'm finding that most educated adults I meet believe almost all of these.
+
+- **Tweet:** https://x.com/AndyMasley/status/2092104384444309527
+- **What:** Andy Masley debunks or heavily qualifies common data center claims: water pollution (mostly construction), 267% power price spikes (node-level wholesale only), land use (about 3% of Loudoun County), infrasound, taxes (Loudoun collects $1.3B/yr), and heat islands, while conceding real noise outliers and possible future grid effects.
+
+---
+
+# Monday, August 24, 2026
+
+## @lilyraynyc - ChatGPT Legal Query Citations Dominated by the VA (Ahrefs Brand Radar)
+> The retrieved/cited URLs for this one ChatGPT query I am looking at in the legal space.
+>
+> Good luck getting your content/brand into that answer if you're not the VA!
+>
+> (Screenshot: @ahrefs Brand Radar) https://t.co/A4HHgYOEhB
+
+- **Tweet:** https://x.com/lilyraynyc/status/2092085193729315098
+- **What:** THIN: Lily Ray shares an Ahrefs Brand Radar screenshot (image not readable here) of the URLs ChatGPT retrieved and cited for a legal-space query, arguing the answer is effectively locked up by the VA (US Department of Veterans Affairs) as the cited source, which shows how hard it is for outside brands to earn AI answer citations.
+
+## @LukeberryPi - oxlint as the front line against AI slop
+> the battle against slop is never-ending and oxlint is my best warrior https://t.co/sKbSUjrJFn
+
+- **Tweet:** https://x.com/LukeberryPi/status/2092063404470989052
+- **What:** THIN: @LukeberryPi says oxlint (the fast Rust-based JavaScript/TypeScript linter) is his main defense against low-quality AI-generated code; the tweet has no further detail and the t.co link only points back to itself, likely an attached image or video.
+
+## @vikingmute - Cursor's Thermo-Nuclear Code Quality Review skill: ultra-strict maintainability review
+> 昨天看到一个变态的 Code Review skills  应该是 Cursor 官方一个非常严格的代码质量审查技能。Thermo-Nuclear Code Quality Review  热核级别代码审查....
+>
+> https://t.co/Xcj2nKn6FT
+>
+> 里面的 rule 翻译一下是这样的:
+>
+> 结构简化优先： 要主动找能让整段分支、helper、mode、条件判断直接消失的重构方案
+>
+> 1k 行红线：不允许 PR 把一个原本不到 1000 行的文件推过 1000 行，优先拆分，有点变态。
+>
+> 拒绝意面式增长：高度警惕往无关流程里塞临时 if、特殊分支、一次性布尔标志 这是设计问题，不是风格问题。
+>
+> 警惕串行编排与非原子更新：这个有用！review 的好多 bug 都是这个问题
+>
+> 还有几条不写了，大家可以自己去看
+>
+> 我给项目用了一下，然后就哭了，找到太多干脆不修了，新开一个项目我可能会用一下，假如大家希望用极高标准去找结构问题 强迫做大幅简化 可以用它试试看。
+
+- **Tweet:** https://x.com/vikingmute/status/2092059170812108811
+- **Link:** https://www.skills.sh/cursor/plugins/thermo-nuclear-code-quality-review
+- **Filed:** [cursor-thermo-nuclear-code-quality-review-skill.md](./knowledge/articles/cursor-thermo-nuclear-code-quality-review-skill.md)
+- **What:** Viking (in Chinese) highlights Cursor's extremely strict code-review skill that demands structural simplification, forbids pushing files past 1000 lines, rejects ad-hoc flags and special-case branches, and flags non-atomic serial updates; he ran it on his project, found too many issues to fix, and suggests using it on new projects.
+
+## @realmadhuguru - How to build great evals part 8: discriminatory power
+> How to build great evals - part 8.
+>
+> The discriminatory property of evals.
+> A hill-climbing eval is useful when it can separate AI systems that are meaningfully different.
+>
+> Imagine you run an eval on five AI systems:
+>
+> A: 94
+> B: 93
+> C: 95
+> D: 94
+> E: 92
+>
+> Now suppose you already know A and C are substantially better systems than D and E.
+>
+> The eval is bad cos it doesn’t tell you that. It has low discriminatory power.
+>
+> It’s like giving a fifth-grade math test to a group of PhDs - everyone aces it and  you’ve learned nothing about who is the smartest.
+>
+> That doesn’t mean making evals arbitrarily hard. Then everyone fails and you’re not measuring what your systems are meant for.
+>
+> The sweet spot for an eval is:
+> Realistic + difficult + sensitive to differences in capability.
+>
+> Over time, your good evals will saturate as your harness and underlying models improve. What do you do then?
+>
+> Drop your guesses in the comments.
+>
+> Share this with your teammates.
+>
+> *Quoting @realmadhuguru:* How to build great evals - part 7.
+>
+> The Goldilocks principle for eval construction.
+>
+> Your evals should measure at the level of the various jobs to be done, not just the final answer.
+>
+> E.g. consider a financial analysis agent. It's ultimate output is a stock recommendation. The most common mistake I see is teams create a golden set of right answers and check if the agent recommended the "right” stock.
+>
+> The problem here is that there are probably a bunch of meaningful jobs that happened before this recommendation. E.g.
+>
+> 1/ Understanding the client: their portfolio, risk tolerance, investment horizon, goals, constraints
+>
+> 2/ Gather evidence: latest data points on the different stock stocks, the sectors, macro environment, Fed policy, recent and upcoming news events
+>
+> 3/ Analyze the data: revenue growth, valuation guidance, growth projections and produce a narrower number of candidate stocks
+>
+> 4/ Make a recommendation: stock ticker name, bid/sell price, timeframe
+>
+> Each of these is a stage and produces an intermittent output. Each of them can (and maybe should have) their own eval so you can diagnose issues.
+>
+> If the final recommendation is wrong, a well designed eval set would tell you:
+> Client understanding : 92%,
+> Evidence extraction : 92%,
+> Data analysis: 70%
+> Recommendation: 75%
+>
+> Now you know where to go dig. And you might go, man the data analysis step is too complex and I need to break it down into a set of jobs to be done, and construct eval sets for them.
+>
+> Not too granular. Not too coarse. Just right.
+> Make your eval set as granular as you need to diagnose and act.
+>
+> Drop your eval questions in the comments and I will answer in future posts.
+>
+> Share this with your teammates!
+>
+> See you tomorrow.
+
+- **Tweet:** https://x.com/realmadhuguru/status/2092058332735693264
+- **Quoted:** https://x.com/realmadhuguru/status/2091684812012875981
+- **What:** Part 8 of Madhu Guru's eval series argues an eval must have discriminatory power: scores of 92-95 across five systems that are known to differ in quality reveal nothing, so evals should be realistic, difficult and sensitive to capability differences. Part 7 (quoted) argues for evals per job-to-be-done stage (e.g. client understanding, data analysis) rather than only the final answer, to diagnose where an agent fails.
+
+## @bedesqui - Gist of PR-review checklist for forcing agents to prove their changes are safe
+> *Replying to @LukeberryPi:* @bedesqui this is some wonderful stuff thanks!
+>
+> @LukeberryPi ah
+> also
+> my magnum opus of unslopping PRs is https://t.co/UrbKnRzxv9
+>
+> i literally just keep pasting this kind of file into agent's context until they prove to me that what they did cannot possibly have fucked up anything
+
+- **Tweet:** https://x.com/bedesqui/status/2092036341630394449
+- **Parent:** https://x.com/LukeberryPi/status/2091994247578665220
+- **Link:** https://gist.github.com/bdsqqq/1e7e6f454271d5f856a1176d0e800d89
+- **What:** Igor Bedesqui shares a gist (bdsqqq) he calls his best tool for unslopping PRs: a file he repeatedly pastes into an agent's context until the agent demonstrates its changes cannot have broken anything; gist content was not extracted, so details of the checklist are unknown.
+
+## @graceclarke - eli5-for-grownups: a stricter take on Thariq's ELI5 skill
+> Inspired by this, I made my own: "eli5-for-grownups."
+>
+> It's like @trq212's, and because I'm a picky consistency freak, it has extra direction on what eli5 means and doesn't. 
+>
+> Should you like, here it is:
+> https://t.co/bkVN7Usuhz
+>
+> *Quoting @trq212:* a skill people at Anthropic have been using a lot recently: ELI5
+>
+> /eli5 <what you want explained>
+>
+> "explain like I'm someone who knows nothing about this topic, using a HTML artifact with big pictures and few words"
+
+- **Tweet:** https://x.com/graceclarke/status/2091999661565325497
+- **Quoted:** https://x.com/trq212/status/2090884854590382515
+- **Link:** https://docs.google.com/document/d/1biJttYJFjWVWJOvzhmnlsOgZkaoElLoNRp4FfyUGtcw/edit?usp=sharing
+- **What:** Grace Clarke shares a Google Doc containing her SKILL-eli5-for-grownups markdown file, a variant of Thariq's /eli5 skill (explain a topic via an HTML artifact with big pictures and few words) with added rules defining what ELI5 does and does not mean; the doc is meant to be pasted into Claude to install as a skill.
+
+## @jessegenet - Built a fully local QuickBooks replacement with Plaid feeds and conversational finance chat
+> I got frustrated with quickbooks and a grand (in tokens) later I built  a fully local replacement, my own plaid data feeds from banks, investment and tax loss harvest tracking…
+>
+> Conversational chat with my finances 🤓
+>
+> Building it cost less than the QB online annual sub 🤯
+>
+> *Quoting @garrytan:* Prediction: systems of record will need to become AI harnesses or face replacement by agents
+
+- **Tweet:** https://x.com/jessegenet/status/2091975683304263727
+- **Quoted:** https://x.com/garrytan/status/2091742825042030681
+- **What:** Jesse Genet built a local QuickBooks replacement with Plaid bank feeds, investment and tax-loss-harvest tracking and a chat interface, for roughly $1k in tokens; offered as a live example of Garry Tan's prediction that systems of record must become AI harnesses or be replaced by agents.
+
+## @doodlestein - Prompt to parallelize releases across many interconnected repos with /dsr, ntm and agent swarms
+> I have too many projects now so it's increasingly hard to stay on top of the release process for all of them. Especially since GitHub Actions cut me off, so I need to do all the builds and test suites using my own hardware for every platform.
+>
+> It's just a lot of stuff to manage; not just creating the builds, but updating the crates, Homebrew, Docker, etc.
+>
+> The even bigger issue is that, because so many of my projects are interconnected (e.g., mcp_agent_mail_rust relies on asupersync, frankensqlite, frankensearch, frankentui, fastmcp_rust, etc.), I want to ensure that everything is always using the latest version of everything else. It's a massive coordination problem.
+>
+> I've gotten to the point where the process is often reactive: people complain in GitHub Issues that there's no recent build for a project, and I create the new build when my agents triage.
+>
+> Out of desperation, I'm now finally trying to parallelize the process in a bulk way using a bunch of my skills. We'll see how it goes. Here's my prompt for this:
+>
+> ---
+>
+> Reread AGENTS.md so it's still fresh in your mind. I want you to use /release-preparations with /dsr (NEVER GitHub Actions!!!) to go through all my active projects in ~/projects (all the franken stuff, etc. -- public repos that have existing releases) and look for stuff that has a lot of changes since the last release.
+>
+> Then I want you to prepare new versions/tags/releases for ALL platforms using /dsr but also publishing to other venues where applicable, like https://t.co/8CUPVpUFoU, Homebrew, Docker images (for instance, mcp_agent_mail_rust has recent releases, but the last Docker image from https://t.co/KF5rCCkPgb is months old apparently), scoop, whatever.
+>
+> Before cutting a release, always check GitHub Issues for the project and apply the /gh-triage-ru game plan where applicable unless the issue is really tricky/complex (like a complex data corruption bug in frankensqlite or similar).
+>
+> Also run /library-updater on the projects before a release so that we are always using the latest working version of everything. You should always do /testing-real-service-e2e-no-mocks type comprehensive testing of the curl | bash installers and also ensure that ~/projects/agentic_coding_flywheel_setup works still with the project if it is distributed that way.
+>
+> Ideally, you could do all this in parallel using /ntm and /vibing-with-ntm and a fleet of 4 cc panes running opus-5 xhigh with you managing everything on a 4-minute /loop cycle where you tend to the swarm (also use /agent-mail and tell the swarm to use it as well to communicate and coordinate everything).
+> Be careful to avoid causing excessive build contention on this and other machines using /rch. Every 3 ticks (12 minutes), give me a detailed update on where we stand across all the releases.
+
+- **Tweet:** https://x.com/doodlestein/status/2091973897126326514
+- **What:** Jeffrey Emanuel's real prompt for an agent-swarm release run: use /dsr on local hardware (not GitHub Actions) to cut multi-platform releases across his interlinked Rust repos, publish to crates.io, Homebrew, Docker, scoop, triage issues first, update dependencies, test installers, and report every 12 minutes.
+
+## @TheAhmadOsman - Stop coding agents from poisoning git history with Co-authored-by trailers
+> PRO TIP
+>
+> Agents will poison your git history
+>
+> Co-authored-by: Cursor, factory-droid, etc
+>
+> Tell your favorite agent to
+>
+> - Hardcode author &amp; committer
+> - Block third-party attribution trailers
+> - Wire pre-commit, commit-msg, and pre-merge-commit
+> - Put that in a skill for other agents
+
+- **Tweet:** https://x.com/TheAhmadOsman/status/2091956352247550437
+- **What:** Practical tip for keeping commit history clean of agent attribution: have an agent hardcode author and committer, block third-party `Co-authored-by` trailers (Cursor, factory-droid, etc.) via pre-commit, commit-msg and pre-merge-commit hooks, then package that as a reusable skill.
+
+## @tarasshyn - Entity Stacking: sameAs links in Organisation schema beat junk directory listings for Google
+> Today I learned about Entity Stacking.
+>
+> If you put these links in your Organisation schema under `sameAs`, Google will understand who the fuck you are far better than with 300 junk directory listings - and it’s free.
+>
+> Cheers, @Charles_SEO 🎩 https://t.co/3kkkw8TcpD
+
+- **Tweet:** https://x.com/tarasshyn/status/2091954190067363888
+- **What:** THIN: SEO tip crediting @Charles_SEO, claiming that listing authoritative profile URLs in Organisation schema `sameAs` ("entity stacking") helps Google identify a business better than hundreds of junk directory listings; the specific links were in an image not captured here.
+
+## @Voxyz_ai - Codex /goal prompt to install one shared Writing System that strips AI tells across all repos
+> 𝗼𝗻𝗲 𝗺𝗼𝗿𝗲 𝘁𝗵𝗶𝗻𝗴:
+>
+> I left one out of yesterday’s five `/goal` prompts: remove the AI tells from Codex’s own writing at the source.
+>
+> 𝟲/𝟲 𝗜𝗻𝘀𝘁𝗮𝗹𝗹 𝗼𝗻𝗲 𝗪𝗿𝗶𝘁𝗶𝗻𝗴 𝗦𝘆𝘀𝘁𝗲𝗺 𝗮𝗰𝗿𝗼𝘀𝘀 𝗲𝘃𝗲𝗿𝘆 𝗿𝗲𝗽𝗼
+>
+> 𝗖𝗢𝗣𝗬 / 𝗣𝗔𝗦𝗧𝗘 𝗣𝗥𝗢𝗠𝗣𝗧 👇
+>
+> /goal Audit the global and project-level CLAUDE.md / AGENTS.md files that Codex and Claude Code actually load on this machine.
+>
+> 𝗙𝗜𝗥𝗦𝗧, 𝗔𝗨𝗗𝗜𝗧:
+>
+> Find duplicate rules, conflicts, and writing preferences you keep restating in every project.
+>
+> 𝗧𝗛𝗘𝗡, 𝗜𝗡𝗦𝗧𝗔𝗟𝗟 𝗧𝗛𝗜𝗦 𝗕𝗔𝗦𝗘:
+>
+> Move the rules that should apply everywhere into the global files.
+>
+> 1. Learn the author’s voice from the current draft and real project samples. Preserve their vocabulary, sentence rhythm, bluntness, humor, uncertainty, and marketing energy.
+>
+> 2. Never invent experiences, numbers, quotes, people, or scene details. Don’t add material just to make the writing feel more alive.
+>
+> 3. Cut throat-clearing, empty framing, puffery, repeated explanations, and summary endings. If the previous sentence already made the point, don’t repeat it.
+>
+> 4. Break recurring AI structures: mechanical “not X, but Y” contrasts, self-answered questions, colon reveals, tidy three-part lists, and paragraphs that always end with a line engineered to be quoted.
+>
+> 5. Don’t tell readers what they think or invent a misconception just to correct it. State the judgment and the evidence directly.
+>
+> 6. Prefer specific tools, actions, results, and constraints. Keep code, commands, product names, and technical terms exact.
+>
+> 7. Make only the edits the draft needs. Leave natural sentences alone. Before delivering, run one reverse check: “Where does this still sound AI-written?”
+>
+> 𝗞𝗘𝗘𝗣 𝗣𝗥𝗢𝗝𝗘𝗖𝗧 𝗩𝗢𝗜𝗖𝗘𝗦 𝗟𝗢𝗖𝗔𝗟:
+>
+> Keep each project’s voice in its project-level CLAUDE.md / AGENTS.md. Don’t dump all of it into the global files.
+>
+> 𝗧𝗘𝗦𝗧 𝗜𝗧:
+>
+> Take 3 real passages from recent projects. Rewrite them and show the before and after. Keep only changes that make the writing shorter and clearer without losing precision.
+>
+> 𝗗𝗢𝗡𝗘 𝗪𝗛𝗘𝗡:
+>
+> Confirm that Codex and Claude Code both load the rules, and list every project that still uses a project-level override. Stop when both checks are complete.
+>
+> *Quoting @Voxyz_ai:* 𝗖𝗼𝗱𝗲𝘅 𝘁𝗶𝗽: if you still have half your quota left when it resets, you’re throwing away days of Sol.
+>
+> Use `/goal` to squeeze every last bit out of it: audit your entire site, map your codebase, speed up your app, or even clear out the half-finished work in your workspace.
+>
+> Here are 5 copy-paste prompts. ↓
+
+- **Tweet:** https://x.com/Voxyz_ai/status/2091938084875088316
+- **Quoted:** https://x.com/Voxyz_ai/status/2091603024817062192
+- **What:** Sixth in a series of copy-paste Codex `/goal` prompts: audit global and project CLAUDE.md/AGENTS.md files, hoist shared anti-AI-writing rules (no invented facts, cut filler, break "not X but Y" patterns) into the global files, keep per-project voice local, and verify both Codex and Claude Code load them.
+
+## @juampitech - Curated List of Anti-Slop Skills for Coding Agents
+> I promised to make a list of anti-slop for "coding". So here you have:
+>
+> 1. anti-slop - @dillon_mulroy
+> https://t.co/VecydIfAIQ
+>
+> 2. thermo-nuclear - @ericzakariasson
+> https://t.co/lKyjN52oA3
+>
+> 3. deslop - @brian_lovin
+> https://t.co/PcJbKHUejO
+>
+> 4. deslop - @poteto
+> https://t.co/Opgqzp7Y0H
+>
+> 5. deslop - @dani_avila7
+> https://t.co/lhVCi7A3Mt
+>
+> 6. desloppify - @peterom
+> https://t.co/5hRuarVQEb
+>
+> 7. code-slop - @asyrafhussin4
+> https://t.co/leUtwUWuYN
+>
+> *Quoting @juampitech:* Post got a lot of traction, so I made a rank with the anti-slop skills people need to install. 1. stop-slop - @hvpandya 2. no-ai-slop - @petergyang 3. humanizer - @blader 4. unslop - @poteto 5. slopbeth - @synopsi 6. humanizer - @AdamBoudj 7. deslop - @strnr 8. anti-slop - @elithrar 9. humanize - @aashatwt 10. anti-ai-slop-writing - @jalaal_tweets
+
+- **Tweet:** https://x.com/juampitech/status/2091908660058333679
+- **Quoted:** https://x.com/juampitech/status/2090834948332655011
+- **Link:** https://www.skills.sh/dmmulroy/anti-slop
+- **What:** Follow-up to a viral writing-focused list: seven agent skills on skills.sh for cleaning AI-generated code slop (dmmulroy anti-slop, cursor thermo-nuclear review, several deslop variants, desloppify, code-slop), paired with the earlier ranking of ten prose anti-slop skills like stop-slop and humanizer.
+
+## @cyber_razz - EmailOSINT: Reverse Email Lookup Across 40 Billion Breach Records
+> Here it is:
+>
+> https://t.co/H7ha0wnNcD
+>
+> Searches over 40 billion breach records.
+>
+> Personally tested &amp; saw a lot of my compromised passwords.
+>
+> [For ethical and educational use only]
+>
+> f0ll0w for more.
+>
+> *Quoting @cyber_razz:* What if I showed you an OSINT website that can pull a lifetime of information on anyone using just their email?.
+
+- **Tweet:** https://x.com/cyber_razz/status/2091899233074815302
+- **Quoted:** https://x.com/cyber_razz/status/2091850830957711808
+- **Link:** https://emailosint.org/
+- **What:** Self-quote reveal of emailosint.org, an OSINT site doing reverse email lookups that claims to search 40+ billion breach records and surface exposed credentials for a given address; the author says they tested it on their own email and frames it as ethical/educational use only.
+
+## @pilvar222 - Aikido: Many Small-Model Agents Beat Mythos (Claude Security) on Vulnerability Finds
+> We found a way to find more vulnerabilities than Mythos (Claude Security) without burning $10k worth of tokens
+>
+> TLDR: it's much better to use many agents with small models than to use a few agents with big models
+>
+> Full blog post on how we did it: https://t.co/8xvHVQwMGD
+>
+> *Quoting @aaronrubin:* Ran Mythos to vulnerability scan our code base. Took 10 hours and cost $10K
+
+- **Tweet:** https://x.com/pilvar222/status/2091879005708320814
+- **Quoted:** https://x.com/aaronrubin/status/2091159873174011942
+- **Link:** https://www.aikido.dev/blog/aikido-finds-more-vulnerabilities-claude-security-mythos
+- **What:** Aikido claims its AI Code Audit found 8 more vulnerabilities than Claude Security running Mythos at under half the cost, arguing harness design and many small-model agents beat a few large-model ones; it answers Aaron Rubin's report of a 10-hour, $10K Mythos scan. Blog body was not extractable, only metadata.
+
+## @1nf0s3cpt - Generic CDC-Style Multi-Agent Vulnerability Research Harness Prompt
+> A Security Researcher Reworked OpenAI's CDC Prompt — and Found a $500K RCE for About $25 in Model Usage
+>
+> I adapted the approach into a generic vulnerability research prompt. The image contains the full version; here's the short version.
+>
+> Good luck hunting. If you've built your own prompts or harnesses, share them too.
+>
+> A generic CDC-style vulnerability research harness (short version):
+>
+> - Run multiple agents in parallel across distinct exploit families.
+> - Avoid premature convergence. Do not let every agent pursue the same promising path.
+> - Mark failed or exhausted paths as blocked.
+> - Regularly launch new hypotheses and explore neglected attack paths.
+> Independently adversarially validate every concrete finding.
+> - Have the root agent continuously synthesize results, challenge assumptions, reprioritize work, and redirect agents.
+> - Do not use git history, changelogs, CVE databases, or patched-version diffs as shortcuts.
+> - Require the full exploit chain to work in a realistic, commonly deployed configuration and meet the defined starting-privilege → impact goal.
+> - When behavior depends on implementation details, inspect the runtime, framework, database, libraries, and dependency source directly.
+> - Do not stop at the first primitive. Chain validated primitives until the concrete success condition is reached.
+
+- **Tweet:** https://x.com/1nf0s3cpt/status/2091846818053443989
+- **What:** A distilled orchestration recipe for LLM-driven vulnerability hunting adapted from a reported OpenAI-prompt-based $500K RCE find: parallel agents on distinct exploit families, blocked-path tracking, adversarial validation of each finding, a coordinating root agent, no patch-diff shortcuts, and full exploit-chain proof.
+
+## @omouamoua - Sebastian Müller's Guidelines for Prompting in Reinforcement Learning
+> I recently wrote down a few rules of prompting for RL. There's exceptions for each of them, but they are good guidelines so I thought I'd make them public.
+
+- **Tweet:** https://x.com/omouamoua/status/2091821242395271430
+- **What:** THIN: @omouamoua (snimu) announcing a published set of rules of thumb for writing prompts in RL training setups, caveated with exceptions; the tweet carries no link or text of the rules themselves, so the actual guidance is unknown.
+
+## @KingBootoshi - Ordinals: AI-Accelerated CBT Framework for Rewiring Thought Patterns
+> about a year ago i dropped this insane ball knowledge with a cool protocol called Ordinals co-authored by journalist/researcher @mikadontlouz 
+>
+> in the most literal sense, this framework allowed me to use AI agents to accelerate and direct the re-programming my own mind and thought patterns to optimize for success WITHOUT falling into AI psychosis
+>
+> i've personally used  my core learnings from it (ESPECIALLY digital phenotyping + using agents to track my own psyche over the course of a couple years) to accelerate my growth
+>
+> i truly believe it heightened my own self-awareness overtime while giving me IMMENSE control over my own ADHD and other negative thought patterns that (previously) had authority over my life
+>
+> if you wish to read it, you may view it here:
+>
+> https://t.co/UshGzBovZT
+>
+> for those who have the ability to discern the knowledge i am trying to share here, and want to learn more at a deeper level, PLEASE DM me. My inbox is open for any questions you may have
+>
+> (tbh it is essentially ai-accelerated cognitive behavioral therapy but AEM sounds wayyy cooler imo)
+
+- **Tweet:** https://x.com/KingBootoshi/status/2091778509807010061
+- **Link:** https://ordinals.com/content/78a915a9b7590a229e3308ae86bd1d24a23ca1f2e1d95556380f8d56b25025a8i0
+- **What:** KingBootoshi shares a PDF (inscribed on Bitcoin Ordinals) describing a framework for using AI agents to track his own psyche via digital phenotyping, which he calls AI-accelerated cognitive behavioral therapy ("AEM"); the PDF text did not extract, so details beyond his claims are unavailable.
+
+## @LinearUncle - Grok Bot 0.18.0 Source Reconstructed from Leaked Source Maps
+> 🚨突发：Grok Bot 0.18.0 被Bennett 小哥发现打包时未关闭 source maps，原始源代码被他完整逆向还原。
+>
+> GitHub: https://t.co/WLddIFOmVP
+>
+> 这是研究 Grok Bot 内部实现原理的绝佳机会——系统提示词、工具定义、模型路由逻辑全部可读。
+>
+> 建议感兴趣的尽快学习，最新版本我实测已经没有source maps了。
+>
+> *Quoting @b_nnett:* The Cursor team shipped Grok bot (0.18.0) with runtime source maps enabled. Surprised nobody noticed until now.
+>
+> Source code reconstructed (and downloads) here: https://t.co/56CPNs2YR6
+
+- **Tweet:** https://x.com/LinearUncle/status/2091771520339325356
+- **Quoted:** https://x.com/b_nnett/status/2091630242792112480
+- **Link:** https://github.com/b-nnett/grok-bot-0.18-reconstructed
+- **What:** LinearUncle flags that Bennett (@b_nnett) reconstructed the full source of Grok Bot 0.18.0 from source maps accidentally shipped in the release, a repo said to expose system prompts, tool definitions and model routing; the latest version reportedly no longer ships maps. Repo README was empty, so contents are unverified.
+
+## @ScarletKc - ux-writing Skill for Codex: Fixing Common Codex Documentation Habits
+> 我真的很推荐 Codex 用户装一下我这个 skill，我在里面塞了好多自己一路 review Codex 总结出来的血泪经验。
+>
+> Codex 写代码很强，但它真的有一堆很烦的坏毛病。改一点东西顺手重写半篇 README，把讨论过程和废弃方案留在最终文档里，同一个事实到处复制，长期文档里写死迟早会 stale 的版本和状态，功能改完又漏掉 --help、README、MCP description，diagnostics 还经常输出一大坨真正有用的信息反而找不到。
+>
+> 这些我全写进去了，而且里面每条规则基本都有一个我真的在 review 里抓到过的反例。
+>
+> User-visible text is product behavior.
+>
+> 这个 skill 我真的写了很久，感觉算是我最近最不想让它没人看到的东西之一。尤其是给 Codex 用，改善真的很明显。
+>
+> https://t.co/ELHHjnJDKF
+
+- **Tweet:** https://x.com/ScarletKc/status/2091765025388253679
+- **Link:** https://github.com/scarletkc/agents/blob/main/skills/ux-writing/SKILL.md
+- **Filed:** [scarletkc-agents-skills.md](./knowledge/tools/scarletkc-agents-skills.md)
+- **What:** ScarletKc recommends their ux-writing agent skill, which encodes review-derived counterexamples for Codex's bad habits (rewriting READMEs, leaving abandoned options in docs, duplicated facts, stale hardcoded versions, forgetting --help/MCP descriptions); lives in a repo of shared AGENTS.md standards and skills.
+
+## @rough__sea - Dactyl: Vibe-Coding Native iOS/Android Apps with a WASM SwiftUI Simulator
+> Introducing Dactyl
+>
+> Dactyl is a vibe coding platform for native iOS and native Android apps. What's interesting about it is the device simulator: we've built a SwiftUI renderer in WASM. 
+>
+> This means as you're developing, you get low latency in browser canvas simulation of the app to play with. Also things like oauth flows happen in the browser. 
+>
+> If the app uses the camera - the browser camera API allows us to display it in the simulator. 
+>
+> We also let you connect your ChatGPT subscription so you don't have to buy tokens through us (+ markup)
+>
+> Through [magic] - we can run the same SwiftUI code the agent writes for iOS in android, with native components.
+>
+> This is the work of @undefined_void (primarily), @piscisaureus, myself, and others at Deno.
+>
+> It's built on Durable Objects perhaps unsurprisingly
+>
+> https://t.co/IeBKwweusN
+
+- **Tweet:** https://x.com/rough__sea/status/2091755677974983025
+- **Link:** https://dactyl.dev/
+- **What:** Ryan Dahl (Deno) launches Dactyl, a prompt-to-app platform for native iOS and Android that runs a SwiftUI renderer compiled to WASM as an in-browser simulator (camera, OAuth work in-browser), runs the same SwiftUI on Android, accepts your ChatGPT subscription instead of resold tokens, and ships to TestFlight/App Store with no Mac or Xcode.
+
+---
+
+# Sunday, August 23, 2026
+
+## @lilyraynyc - Praise for Edward Sturm's Google feature shown in his site footer
+> Nice work 👏🏽👏🏽👏🏽
+>
+> *Quoting @edwardeachday:* check it out in my site footer, i loveee this new feature from google https://t.co/oXskmYVtSq
+
+- **Tweet:** https://x.com/lilyraynyc/status/2091730485177135136
+- **Quoted:** https://x.com/edwardeachday/status/2091647927928172662
+- **What:** THIN: Lily Ray applauds Edward Sturm's post showing off a new Google feature he added to his site footer; the specific feature is not named in either tweet text, so the substance is unclear.
+
+## @harsehaj - [Media] X Article Stub (Content Not Retrievable)
+> https://t.co/SfprzrcIZM
+
+- **Tweet:** https://x.com/harsehaj/status/2091690736211112005
+- **What:** THIN: @harsehaj shared only a t.co link to an X Article (id 2091239929195925504); the link expanded to a login wall so neither the article title nor its content could be extracted.
+
+## @realmadhuguru - Evals Goldilocks Principle: Measure Each Job to Be Done, Not Just the Final Answer
+> How to build great evals - part 7.
+>
+> The Goldilocks principle for eval construction.
+>
+> Your evals should measure at the level of the various jobs to be done, not just the final answer.
+>
+> E.g. consider a financial analysis agent. It's ultimate output is a stock recommendation. The most common mistake I see is teams create a golden set of right answers and check if the agent recommended the "right" stock.
+>
+> The problem here is that there are probably a bunch of meaningful jobs that happened before this recommendation. E.g.
+>
+> 1/ Understanding the client: their portfolio, risk tolerance, investment horizon, goals, constraints
+>
+> 2/ Gather evidence: latest data points on the different stock stocks, the sectors, macro environment, Fed policy, recent and upcoming news events
+>
+> 3/ Analyze the data: revenue growth, valuation guidance, growth projections and produce a narrower number of candidate stocks
+>
+> 4/ Make a recommendation: stock ticker name, bid/sell price, timeframe
+>
+> Each of these is a stage and produces an intermittent output. Each of them can (and maybe should have) their own eval so you can diagnose issues.
+>
+> If the final recommendation is wrong, a well designed eval set would tell you:
+> Client understanding : 92%,
+> Evidence extraction : 92%,
+> Data analysis: 70%
+> Recommendation: 75%
+>
+> Now you know where to go dig. And you might go, man the data analysis step is too complex and I need to break it down into a set of jobs to be done, and construct eval sets for them.
+>
+> Not too granular. Not too coarse. Just right.
+> Make your eval set as granular as you need to diagnose and act.
+>
+> Drop your eval questions in the comments and I will answer in future posts.
+>
+> Share this with your teammates!
+>
+> See you tomorrow.
+>
+> *Quoting @realmadhuguru:* How to build great evals - part 6
+>
+> Hill climbing on evals is just a fancy way of saying: pick a dimension that matters and optimize for it.
+>
+> This could be improving the quality of existing features based on your latest production data on high value user journeys, expanding to adjacent use cases, lowering cost or latency.
+>
+> The actual work boils down to better harnesses and model selection through methods like prompt eng, context eng, memory, post training, deterministic old school code etc.
+>
+> Your failure mode taxonomy (from part 3) is a good compass for where your product struggles and needs some love.
+>
+> E.g. maybe tool calling failures are your most common problem. You dig in and notice you stuff 20 tools in context, when each task really only needs 3-5. hill climbing here involves context eng to give it the right tools at the right stage and iterate until you get it to good.
+>
+> Or take the cost reduction goal..
+> I've written about how I advise launching your product with the best model first. Get the quality as high as you can. Once you know users love the experience, hill climb to get similar quality with a smaller, cheaper, faster model. Same methods - harness, models.
+>
+> The important thing is to have evals that tell you whether you are actually moving in the right direction.
+>
+> More tomorrow.
+>
+> Send this to your teammates!
+>
+> Drop your questions in the comments and I will answer in future posts.
+
+- **Tweet:** https://x.com/realmadhuguru/status/2091684812012875981
+- **Quoted:** https://x.com/realmadhuguru/status/2091278653435072523
+- **What:** Part 7 of an evals series arguing for stage-level evals (client understanding, evidence gathering, analysis, recommendation) instead of only checking the final answer, so failures can be localized. The quoted part 6 covers hill climbing: pick a dimension, use the failure taxonomy, and improve via harness and model choice.
+
+## @__alpoge__ - Claude Produces a New Geometric Object for the S^6 Complex Structure Problem
+> Please welcome to the world a beautiful new geometric object, to do with a problem i've always loved. claude really contains multitudes:D Does S^6 admit a complex structure?
+>
+> Yup
+
+- **Tweet:** https://x.com/__alpoge__/status/2091639597193368014
+- **What:** THIN: Mathematician levent says Claude helped produce a new geometric object related to the open question of whether the 6-sphere admits a complex structure, answering "Yup"; no details or proof are included in the tweet text, so the claim is unverified here.
+
+## @ErikTelford - Joke on Why No Politician Attacks Pistachio Farmers
+> "These greedy pistachio farmers are exploiting our communities and must be stopped."
+>
+> — no politician ever https://t.co/W18WbJ5L3U
+
+- **Tweet:** https://x.com/ErikTelford/status/2091576790170976388
+- **What:** THIN: Satirical political quip that no politician ever demonizes pistachio farmers, implying other industries get scapegoated; the t.co link only points back to the tweet itself (likely an attached image or video not captured).
+
+---
+
+# Friday, August 21, 2026
+
+## @kr0der - Free Custom-Domain Email Aliases with Cloudflare Email Routing
+> you DONT need to pay for google workspace for every domain you have just to get an inbox
+>
+> use Cloudflare's Email Routing, it's free
+>
+> you connect your domain to Cloudflare -> add the DNS records -> set up an inbox that routes emails to your actual inbox
+>
+> this lets you "create" unlimited emails on your domain for free, and they all route emails to your 1 main inbox
+
+- **Tweet:** https://x.com/kr0der/status/2090971721662964080
+- **What:** Practical money-saving tip: instead of paying for Google Workspace per domain, point the domain at Cloudflare, add the DNS records, and use free Email Routing to create unlimited addresses that all forward to one main inbox.
+
+## @cremieuxrecueil - Palm Beach County Has 12 Data Centers: Rich Places Attract Data Centers
+> Trump's home, Palm Beach County, has 12 operating data centers and 3 data centers in various stages of construction.
+>
+> The national median is 0. The national average is just over 1. Adjacent counties average 2.
+>
+> Why don't people grasp that rich places have more data centers? https://t.co/RL8CVyU9VL
+>
+> *Quoting @amandacarpenter:* Put it in the backyard of Mar-a-Lago. I firmly believe people who want data centers should get them. Very close to their houses.
+
+- **Tweet:** https://x.com/cremieuxrecueil/status/2090958664257470729
+- **Quoted:** https://x.com/amandacarpenter/status/2090163567865536919
+- **What:** Rebuts a call to put data centers near Mar-a-Lago by noting Palm Beach County already has 12 operating and 3 under-construction data centers versus a national median of 0 and average just over 1, arguing data centers cluster in wealthy areas, not that wealthy people avoid them.
+
+## @trashh_dev - [Media] ThreeUI Three.js Components for a Personal Site Revamp
+> my personal site is about to go crazy
+>
+> *Quoting @MengTo:* I open-sourced ThreeUI, my library of three.js components and landing pages. 160+ are free, and the tool is free too. It includes procedural 3D hero sections, icons, and motion designs. Copy the prompt or source, give it to your agent, then change the theme, lighting, motion or layout. Live site: https://t.co/rtCfqeZnOP Repo: https://t.co/B66ahgxHVl. Pro comes with 50+ extra components, MCP, and skills.
+
+- **Tweet:** https://x.com/trashh_dev/status/2090950343744266383
+- **Quoted:** https://x.com/MengTo/status/2090817187900780961
+- **Link:** https://github.com/MengTo/threeui
+- **Filed:** [threeui.md](./knowledge/tools/threeui.md)
+- **What:** @trashh_dev is excited to use Meng To's newly open-sourced ThreeUI, a free library of 160+ three.js components and landing pages (procedural 3D heroes, icons, motion) designed to be handed to a coding agent and tweaked, to upgrade their personal site.
+
+## @realmadhuguru - How to Build Great Evals Part 5: Don't Collapse Eval Suites Into One Score
+> How to build great evals - part 5
+>
+> Stop dumbing down the results from your beautiful, complex eval suite into one single score. This often happens because some senior wants a simplified number to make decisions. Happened to us in the early days of Gemini.
+>
+> And I see it happening with a lot of teams.
+>
+> This is the tyranny of the average.
+> AI systems do not have a simple dimension of quality.
+>
+> Imagine a model that goes from:
+> 85% -> 89% on simple summarization
+> 80% -> 85% on basic factual QA
+> 70% -> 63% on complex financial analysis
+>
+> A single score obscures the fact that the model got worse on your frontier use case.
+>
+> The immediate reaction to this is to come up with a weighted score. The problem with this is that you have  created false, mathematical procession around a judgment call.
+>
+> So what should you do?
+> - keep a prioritized list of your evals per the ladder we discussed in part 4 yesterday.
+> - get people who can look at the details and don't look for abstracted simplicity.
+> - Understand all the critical eval results in depth, where they fail, where they shine and make a decision on whether your new AI system is better or worse for your users.
+>
+> Next post tomorrow!
+>
+> Drop your eval questions below and I will answer in future posts.
+>
+> Share this with your teammates. And your managers who run from complexity.
+>
+> *Quoting @realmadhuguru:* How to build great evals - part 4. The reason enterprises struggle with building decent AI systems is the lack of an eval strategy. You need a laddered eval strategy with multiple evals on the cost/realism spectrum: hill-climb long evals, regression evals, smoke test evals (safety and basics like product identity), and launch evals (close to an online test with real-ish traffic).
+
+- **Tweet:** https://x.com/realmadhuguru/status/2090930137885774324
+- **Quoted:** https://x.com/realmadhuguru/status/2090595384905113939
+- **What:** Part 5 of an eval-strategy series arguing against collapsing a multi-eval suite into one score or weighted average, since a model can improve on easy tasks while regressing on the frontier use case; instead keep a prioritized eval ladder (hill-climb, regression, smoke, launch from part 4) and have people read results in depth.
+
+## @percyliang - Marin 535B MoE Hero Run: Data Composition, Live W&B Run and GitHub Details
+> *Replying to @percyliang:* In addition to forecasting our final loss, we can also forecast the loss of intermediate checkpoints, so we can see if we're on track over the voyage: https://t.co/CivuJfdPtT
+>
+> Look at our data composition:
+> https://t.co/5K0v960lYh
+> Watch the run live on wandb:
+> https://t.co/7fg9VEFJ62
+> See all the gory details on GitHub:
+> https://t.co/FH2w7Lx3Zm
+> Assembling this hero run really required data, architecture, infra, kernels to all come together and was a huge joint effort by the entire Marin team!
+
+- **Tweet:** https://x.com/percyliang/status/2090918070617624811
+- **Parent:** https://x.com/percyliang/status/2090918067987689486
+- **Link:** https://github.com/marin-community/marin/issues/8435
+- **Filed:** [marin.md](./knowledge/tools/marin.md)
+- **What:** Percy Liang shares the open Marin team's hero pretraining run (a 535B-total, 23B-active MoE trained on 18T tokens per the W&B report), linking a public data-composition explorer (Harrier K40: 23.11T tokens over forty domains and five quality buckets), a live W&B dashboard, and the GitHub tracking issue, with loss forecasting for intermediate checkpoints.
+
+## @0x_kaize - TokenForge: Third-Party Claude Code API Gateway Promo with Free Credits
+> $60 for Opus 5, Fable 5, GLM 5.3 and a bunch of other models
+>
+> +$15.00 daily rewards
+>
+> 1. Join the Discord: https://t.co/VbRpOa4eHZ
+> 2. Register on the site via GitHub:
+> 3. Create an API key in the Api key tab → Create
+>
+> WIN + R: notepad "%USERPROFILE%.claude\settings.json"
+>
+> base URL: https://t.co/07fs0Tp5rO
+>
+> Example of filling in settings.json:
+>
+> {
+> "env": {
+> "ANTHROPIC_AUTH_TOKEN": "YOUR_API_KEY", "ANTHROPIC_BASE_URL": "https://tokengate-cqt9ivzs{.}manus{.}space", "ANTHROPIC_MODEL": "claude-fable-5"
+>   }
+> }
+>
+> For JSON to work correctly, remove {} from the link.
+>
+> *Quoting @0x_kaize:* Introducing freeLLM - the only directory you need for FREE access to AI models. i got tired of watching people pay $20-200/mo for AI when there are so many platforms giving away frontier models for $0, so I built the directory that lists all of them in one place: NVIDIA NIM (100+ free LLMs), Google Gemini, GitHub Models, OpenRouter, HuggingFace, Vercel AI Gateway, Cloudflare Workers AI and others. This is v0.1. Link: https://t.co/Aut792f82y
+
+- **Tweet:** https://x.com/0x_kaize/status/2090888146061848614
+- **Quoted:** https://x.com/0x_kaize/status/2082077973465931777
+- **Link:** https://tokengate-cqt9ivzs.manus.space/
+- **What:** Promo for TokenForge, an unofficial OpenAI-compatible gateway on manus.space that is pointed at via ANTHROPIC_BASE_URL in Claude Code settings, offering $60 credit plus $15 daily rewards; quotes the author's freeLLM directory of free-tier model providers. Caution: it routes prompts and the API key through an unvetted third-party proxy.
+
+## @ctatedev - is-agentic is itself agentic, so your agent can use it to fix your site
+> Best part: https://t.co/2GhZApzCCB is itself agentic
+>
+> Your agent can use it to make your site more agentic https://t.co/DbJuYB34ZR
+
+- **Tweet:** https://x.com/ctatedev/status/2090865331862446088
+- **Link:** https://is-agentic.com/
+- **What:** Chris Tate highlights that is-agentic can be driven by an agent through its CLI, so a coding agent can audit a site and then apply the recommended fixes to make it more agent-friendly, closing the loop without a human.
+
+## @posthog - PostHog shares an X article (content not accessible)
+> https://t.co/yYGp6J8W66
+
+- **Tweet:** https://x.com/posthog/status/2090858894419693598
+- **What:** THIN: @posthog tweet containing only a link to an X article (id 2090849020659060736) that redirects to a login wall, so the article title and content could not be retrieved.
+
+## @rauchg - Vercel ran is-agentic in a loop until its own site scored 100/100
+> This was wild to watch unfold. We ran 𝚒𝚜-𝚊𝚐𝚎𝚗𝚝𝚒𝚌 in a loop against https://t.co/bnjggVrBDj until it got to 100/100.
+>
+> It made us close quite a few gaps. We worked hard to make sure the criteria is high quality and worth your time &amp; tokens.
+
+- **Tweet:** https://x.com/rauchg/status/2090858571613470919
+- **Link:** https://is-agentic.com/
+- **What:** Guillermo Rauch says Vercel dogfooded is-agentic by running it in an agent loop against their own site until it reached 100/100, which surfaced several gaps, and he stresses the criteria were curated to be worth the tokens spent.
+
+## @vercel_dev - Vercel launches is-agentic, an agent-readiness audit for websites
+> Introducing https://t.co/8MeR16MRQn, a tool to measure how well agents can read your site. Backed by @oradotai's research, you can run:
+>
+> ▪︎ Audits with 100+ checks
+> ▪︎ Visualizations of agents using your site
+> ▪︎ One-click prompts to fix problems
+> ▪︎ A CLI for agents
+
+- **Tweet:** https://x.com/vercel_dev/status/2090857388924661915
+- **Link:** https://is-agentic.com/
+- **Filed:** [is-agentic-ai-agent-readiness-score.md](./knowledge/articles/is-agentic-ai-agent-readiness-score.md)
+- **What:** Vercel announces is-agentic (built with Ora), a scorer for how discoverable, accessible and usable a site is for AI agents, with 100+ checks, agent-usage visualizations, one-click fix prompts and a CLI (npx is-agentic [domain]).
+
+## @can1357 - UA spoofing so sites serve agents the clean, unpaywalled page
+> UA spoofing is back on baby, for only $0.00 you too can be OpenAI File Downloader, XaiImageApiFetch/1.0
+>
+> Some sites like LinkedIn even remove their click-bait/paywall garbage if you're Claude-User https://t.co/ti2VbZetVW
+
+- **Tweet:** https://x.com/can1357/status/2090837707069014224
+- **What:** Can Bölük jokes that user-agent spoofing works again: sending the UA string of an AI crawler (OpenAI file downloader, xAI image fetcher, Claude-User) gets you cleaner pages, and sites like LinkedIn drop their paywall and click-bait elements for Claude-User.
+
+## @efraintorres - Using a Hermes Agent to Fight Spam Texts and Solicitation Settlements
+> *Replying to @theoliverxp:* @efraintorres I’ve gotten several settlements (with calls) but I’ve never succeeded with texts for some reason.
+>
+> @theoliverxp It’s only successful when you text STOP and they solicit again (ideally from the same number). Even then.. just a numbers game. I made an agent with hermes that does most of the work!
+
+- **Tweet:** https://x.com/efraintorres/status/2090836048699867383
+- **Parent:** https://x.com/theoliverxp/status/2090834253730791874
+- **What:** Reply in a thread about winning settlements from unwanted solicitations: Efrain says text claims only work when a sender keeps messaging after a STOP reply, ideally from the same number, and that he built a Hermes-based agent that automates most of the process.
+
+## @juampitech - Ranked List of Top 10 Anti-Slop Writing Skills for AI Agents
+> Post got a lot of traction, so I made a rank with the anti-slop skills people need to install.
+>
+> 1. stop-slop - @hvpandya
+>  https://t.co/tGzmiWKFAu
+>
+> 2. no-ai-slop - @petergyang
+>  https://t.co/Gj3ctyZUfK
+>
+> 3. humanizer - @blader
+>  https://t.co/6lrzaEpMfs
+>
+> 4. unslop - @poteto
+>  https://t.co/u52zh9EXwa
+>
+> 5. slopbeth - @synopsi
+>  https://t.co/AMCKYbFVgj
+>
+> 6. humanizer - @AdamBoudj
+>  https://t.co/KaWaNAbJu8
+>
+> 7. deslop - @strnr
+>  https://t.co/NtoTm2qpZY
+>
+> 8. anti-slop - @elithrar
+>  https://t.co/0NXaY0FYaD
+>
+> 9. humanize - @aashatwt
+>  https://t.co/NdhCs13gO8
+>
+> 10. anti-ai-slop-writing - @jalaal_tweets
+> https://t.co/g9gYshaHUj
+>
+> *Quoting @juampitech:* I just discovered the best anti-slop skill.
+>
+> No more em dashes. No more comparisons. No more extra examples nobody asked for.
+>
+> Credit: @poteto https://t.co/cFjCbjZpXE
+
+- **Tweet:** https://x.com/juampitech/status/2090834948332655011
+- **Quoted:** https://x.com/juampitech/status/2090491139103064305
+- **Link:** https://www.skills.sh/hardikpandya/stop-slop
+- **What:** Juampi's follow-up ranking of ten agent skills on skills.sh that strip AI writing tells (stop-slop, no-ai-slop, blader/humanizer, cursor unslop, and others); the quoted original praised poteto's unslop skill for removing em dashes, comparisons and filler examples.
+
+## @firecrawl - Firecrawl Developer Index: Code and Docs Search for Coding Agents
+> Introducing Firecrawl Developer Index, an index for supercharging coding agents.
+>
+> Search 70M+ primary sources including repos, docs, &amp; issues with the highest recall of any coding-specific index.
+>
+> Ensure agents ship correct, up-to-date code every time!
+>
+> https://t.co/i3rH3PiKFu https://t.co/vF35VR8ZAZ
+
+- **Tweet:** https://x.com/firecrawl/status/2090832086106022127
+- **Link:** https://www.firecrawl.dev/developer-index
+- **What:** Firecrawl launches Developer Index, a search API over 70M+ READMEs, issues, pull requests and docs aimed at coding agents, claiming the highest recall on the DevDex benchmark, with no API key needed to start, so agents get current library information.
+
+## @itsolelehmann - AI Decoding Animal Communication: Elephant Names, Sperm Whale Alphabet, Robot Bee
+> i think AI is about to uncover an entire hidden world of animal communication
+>
+> and what it's already found is insane...
+>
+> > AI found evidence that elephants call each other by name. when researchers played one its name-like call, it approached the speaker faster and called back more, revealing a form of personal naming once thought almost uniquely human
+>
+> > AI analyzed 53,993 marmoset calls and found tiny monkeys may use names too. entire families use similar labels for the same monkey, suggesting they learn names and dialects from each other
+>
+> > AI learned to tell what Egyptian fruit bats were arguing about: food, mating, sleeping spots or personal space. it could even partly identify who was shouting at whom inside a colony of thousands
+>
+> > AI discovered a “phonetic alphabet” in sperm whale clicks, with rhythm, tempo and tiny timing changes combining into at least 143 recurring patterns. their communication system is nearly 10x more expressive than scientists previously believed, and we still don't know what most of it means
+>
+> > an AI trained on 1.5 million zebra finch calls held real-time vocal exchanges with living birds, generating calls as they spoke and getting them to respond with the same timing and flexibility they use with other birds
+>
+> > Google trained an AI on decades of dolphin recordings to predict what sound comes next, then paired it with an underwater device that gives objects their own synthetic whistles. the goal is for a wild dolphin to copy a whistle to ask a human for a specific object, creating a tiny shared vocabulary between species
+>
+> > AI combined microphones worn by wild crows with nest cameras and uncovered quiet calls that may announce when a crow is arriving at the nest and help entire families coordinate caring for their chicks
+>
+> > a robot bee performed the waggle dance real bees use to share the direction and distance of food, and the bees changed their flight paths based on its instructions. researchers effectively sent a destination into a hive in bee language
+
+- **Tweet:** https://x.com/itsolelehmann/status/2090831992200020253
+- **What:** Thread-style roundup of AI bioacoustics results: elephants and marmosets apparently using names, bat argument topics decoded, a 143-pattern sperm whale "phonetic alphabet", a zebra finch conversational model, Google's dolphin model, crow nest calls, and a robot bee that steered real bees.
+
+## @dhh - Omacom Foundation Launches with $23.7M to Push Omarchy and Linux on the Desktop
+> THE ANNOUNCEMENT: We’re going to make the prophecy of The Year of Linux on the Desktop come true. All the pieces are now in place. Time to go all in! https://t.co/zuf5h9ClWX
+
+- **Tweet:** https://x.com/dhh/status/2090831582596591872
+- **Link:** https://omarchy.org/news/2026/08/omacom-foundation-launches-with-8-million/
+- **What:** DHH announces the Omacom Foundation, which the linked Omarchy News post says launches with $23.7 million to build on Omarchy Quattro, the "malleable computer of the future" Linux setup; only the page title and meta description were extracted, so funding details are not captured.
+
+## @alexisohanian - Why a Coal Plant Neighbor Beats a Datacenter in Public Opinion
+> *Replying to @alexisohanian:* hey guys we gotta figure out a new narrative on this data center thing....
+>
+> h/t @JeremiahDJohns How did living near a coal plant become more appealing than a datacenter.... it makes no sense https://t.co/ySDsCvZ5g5
+
+- **Tweet:** https://x.com/alexisohanian/status/2090829752835682735
+- **Parent:** https://x.com/alexisohanian/status/2090779826135179431
+- **What:** THIN: Alexis Ohanian, in a self-reply thread, laments that public sentiment seems to favor living near a coal plant over a datacenter and calls for a new pro-datacenter narrative; the linked media (credited to @JeremiahDJohns) is not visible in the data.
+
+## @dhh - NetworkChuck's Omarchy Linux Intro Video
+> This is the best video intro I've ever seen on Omarchy! My exuberance spilling into visuals, @NetworkChuck guiding you through the system, and ending with a prayer 🙏
+>
+> *Quoting @NetworkChuck:* I think I'm finally making the switch.....and I think you should too. (@dhh convinced me)
+>
+> -----> this....just might be....the YEAR OF THE LINUX DESKTOP!!
+>
+> 🚨 NEW VIDEO (LINK BELOW) 🚨 https://t.co/6d7ICK0Pyn
+
+- **Tweet:** https://x.com/dhh/status/2090827442365612075
+- **Quoted:** https://x.com/NetworkChuck/status/2090815929705775283
+- **What:** DHH endorses NetworkChuck's new video introducing Omarchy (DHH's opinionated Linux desktop setup) as the best intro yet, while NetworkChuck says DHH convinced him to switch to Linux. The video link did not expand to a transcript, so only the tweets are captured.
+
+## @Vtrivedy10 - What Belongs in "How to Make Eval Tasks Harder" for an Agent Eval Skill
+> launching another update to this skill soon - open holy grail question if anyone wants to riff!
+>
+> what goes in “How-to-make-tasks-harder[.]md”?
+>
+> some options in a list below👇 
+>
+> part of making a good eval is making sure it captures the real world.  another part is making the actual task hard so there’s something to hill climb
+>
+> one way to calibrate “hard” is running a weaker model and smarter model, if everything passes all the time that’s not great -> perfect pass @ k isn’t a good learning signal
+>
+> a list of things that can make tasks harder, would love to compile more and hear other strategies
+> - add more data (not super bullish on this as models are great brute forcers)
+> - add information that needs to be discovered by search (ex: look across multiple tables to find missing information)
+> - completeness (add many cases that all need to be passed, this works well. it can incentivize bad behavior though like over checking)
+> - cross-domain tasks that combine 2 abilities.  this is the best imo, agents are not good at this but it can look artificial and toyish
+>
+> humans are still useful here but would love to chat on thoughts
+>
+> *Quoting @Vtrivedy10:* https://t.co/Eb1h1RFPie
+
+- **Tweet:** https://x.com/Vtrivedy10/status/2090820276707586092
+- **Quoted:** https://x.com/Vtrivedy10/status/2079976006644072796
+- **What:** Viv asks for input on a doc for his eval-building skill about making agent eval tasks harder: calibrate difficulty by comparing weaker and stronger models (perfect pass@k gives no learning signal), and favors cross-domain and search-discovery tasks over simply adding more data. The quoted item is an unexpanded x.com article stub.
+
+## @Charles_SEO - Rainmakers (seo.stream) AI SEO Community One-Week Anniversary Pitch
+> Tomorrow will be Rainmakers ONE WEEK anniversary! 🙌
+>
+> And we've already gotten 21 different ⭐️⭐️⭐️⭐️⭐️ reviews... As well as some of the highest level research pieces, case studies and calls this industry has ever seen!
+>
+> I can't wait to see where this goes!!! If you haven't already make sure to check out https://t.co/jtrOwwIfym <
+>
+> AI SEO is an existential threat to most people's businesses and SEO careers, we not only give you the cure, but give you superpowers that you could only ever dream of...
+>
+> If you don't believe me, JOIN FOR 7 DAYS and it's a 100% REFUND GUARANTEE if you don't agree with me by the end of the week...
+
+- **Tweet:** https://x.com/Charles_SEO/status/2090820022503633299
+- **Link:** https://seo.stream/
+- **What:** Promo for Charles Floate's paid AI SEO Rainmakers community; the landing page advertises weekly live tests across Google AI, ChatGPT and Perplexity, his own tools/MCP and 105 Claude skills, with a rising member price ($10 per 25 members) and a 7-day refund guarantee.
+
+## @nickvasilescu - $3,500-Per-Agent Computer-Use Agents for Local Businesses
+> talked to a guy last week charging $3,500 per agent to local businesses. not per month. per agent.
+>
+> he's deploying computer-use agents that log into the client's actual software and do the repetitive stuff their office manager used to do. invoice processing, appointment scheduling, follow-ups.
+>
+> no one on twitter is talking about this because it's boring. that's exactly why it works. boring businesses have budgets and they don't churn.
+
+- **Tweet:** https://x.com/nickvasilescu/status/2090818762903626173
+- **What:** Anecdote of an AI-services business model: selling computer-use agents to local businesses at a one-time $3,500 per agent to automate office-manager chores (invoicing, scheduling, follow-ups), arguing unglamorous SMB niches have budgets and low churn.
+
+## @OpenMed_AI - OpenMed v2.2.0 Release: Clinical Data Path With FHIR R4, OMOP 5.4 and MCP
+> We released OpenMed v2.2.0! 🔥
+>
+> This release connects the clinical data path: document intake, terminology grounding, FHIR R4, OMOP 5.4, structured privacy, hardened MCP/services, and local Maple + Compass runtimes.
+>
+> 12,185 Python tests passed. https://t.co/vqQYN2hZhE
+
+- **Tweet:** https://x.com/OpenMed_AI/status/2090818708264616430
+- **What:** Release announcement for OpenMed v2.2.0 covering clinical document intake, terminology grounding, FHIR R4 and OMOP 5.4 support, structured privacy, hardened MCP services and local Maple and Compass runtimes, backed by 12,185 passing Python tests.
+
+## @jpschroeder - ssh-clipboard: Open-Source Encrypted Shared Clipboard Across Machines
+> We're open-sourcing ssh-clipboard. Finally, copy and paste between machines from a shared clipboard.
+>
+> - Copy/paste text, images, and even files.
+> - macOS, X11, Wayland
+> - Uses native clipboard
+> - End-to-end encrypted (peer-to-peer over ssh)
+> - Tailscale detection
+> - MIT license https://t.co/7gtYcNqxZj
+
+- **Tweet:** https://x.com/jpschroeder/status/2090813269934068155
+- **What:** Announcement of ssh-clipboard, an MIT-licensed tool that shares a clipboard (text, images, files) between macOS, X11 and Wayland machines peer-to-peer over ssh with end-to-end encryption and Tailscale detection; the repo link was not extracted.
+
+## @DavidOndrej1 - Finding People Already Asking To Buy What You Sell (via @DinScales26)
+> crazy alpha in this
+>
+> *Quoting @DinScales26:* this is how you find people already asking to buy what you sell: https://t.co/e8hyzbANHA
+
+- **Tweet:** https://x.com/DavidOndrej1/status/2090810248244142566
+- **Quoted:** https://x.com/DinScales26/status/2090752026141741291
+- **What:** David Ondrej endorses Din's post about a technique for locating prospects who are publicly asking to buy a product like yours; the method itself sits in an unextracted link or media, so only the lead-gen premise is known.
+
+## @floriandarroman - Prompt To Hand Your AI Agent For Automated .gov Backlinks (borjafat X Article)
+> Send this to your AI agent.
+>
+> He will get you .gov backlinks on autopilot.
+>
+> *Quoting @borjafat:* https://t.co/NA7saV6GWF
+
+- **Tweet:** https://x.com/floriandarroman/status/2090801830112759955
+- **Quoted:** https://x.com/borjafat/status/2090800950243958944
+- **What:** THIN: Florian Darroman quote-tweets an X Article from @borjafat (content not extracted, login-walled) that is meant to be pasted to an AI agent to build .gov backlinks for SEO automatically; the actual method is unknown.
+
+## @deedydas - Teenager Runs 50+ Cyber Security Agents With QLoRA'd GLM 5.2 For Bug Bounties
+> Met a kid y'day who has 50+ agents running with a harness tuned for cyber security and a search index of CVEs with a QLoRA'd GLM 5.2 and tries to break production websites 24/7. Didn't go to college. Makes money in bug bounties.
+>
+> The kids are definitely alright.
+
+- **Tweet:** https://x.com/deedydas/status/2090793605061648551
+- **What:** Anecdote of a young self-taught builder earning from bug bounties by running 50+ autonomous agents around a security-tuned harness, a CVE search index, and a QLoRA fine-tuned GLM 5.2 that probes production sites around the clock.
+
+## @lilyraynyc - Suganthan's Teardown: ChatGPT's New Search Uses Reddit as an Invisible Input with 1-10 Year Windows
+> Amazing new sleuthing by @suganthan yet again, this time on ChatGPT's new search  tool & how Reddit is impacted:
+>
+> "I think Reddit has become an invisible input, feeding the verdicts while the credits go to vendor pages." 
+>
+> "This could be a way to reduce the impact of people gaming Reddit for AI SEO/GEO. If ChatGPT is deliberately looking across 1 to 10 years of Reddit history, recent manipulation becomes a much smaller signal."
+>
+> Makes a ton of sense… continue leveraging the "useful" parts of Reddit while removing some of the commercial incentive to spam it.
+>
+> *Quoting @suganthan:* Over the past few days, several LLM visibility tool vendors have reported a big collapse in Reddit citations across ChatGPT. In one test ChatGPT pulled 84 Reddit threads for one answer and cited none. The request used a freshness window of 365 days for Reddit (30 for brand sites) and 3,650 days on local queries; stock prices get 2 days, football 7, product research 30. Reddit was the biggest single source of 221 fetched pages, yet all citations went to vendor pages. Caveat: based on limited conversations on one account.
+
+- **Tweet:** https://x.com/lilyraynyc/status/2090780158185644328
+- **Quoted:** https://x.com/suganthan/status/2090714206039630313
+- **Link:** https://suganthan.com/blog/chatgpt-new-search-language/
+- **What:** Lily Ray highlights Suganthan's analysis of ChatGPT's rebuilt search query language: Reddit is heavily read (with 1-10 year freshness windows) but rarely cited, which explains falling Reddit citations and may blunt AI-SEO/GEO astroturfing.
+
+## @garrytan - Claims Anti-AI Datacenter Discourse Is a Foreign Influence Campaign
+> Reminder: the datacenter discourse is a documented psyop and they're winning
+>
+> *Quoting @garryslist:* Two reports from @SamLyman33 and @bitcoinpolicy document a coordinated foreign influence campaign against American AI — running through CCP state media, a Shanghai-based Marxist's nonprofit network, and foreign billionaire dark money that has funneled $2B+ into US advocacy infrastructure. AI doomerism isn't as organic as it looks.
+
+- **Tweet:** https://x.com/garrytan/status/2090779018853499268
+- **Quoted:** https://x.com/garryslist/status/2072391681987563870
+- **What:** Garry Tan amplifies a Garry's List post citing two reports that allege opposition to AI and datacenters is partly driven by a coordinated foreign campaign (CCP media, nonprofit networks, $2B+ in dark money); this is a contested advocacy claim, useful as a view on AI policy politics.
+
+## @0x_kaize - Roundup of Platforms Giving Away Frontier AI Models for Free (freeLLM Directory)
+> the full list of platforms giving away frontier AI for $0
+>
+> > ChatGPT Plus: periodic promo codes through partners, no public link
+>
+> > Ox Alpha on OpenRouter: 1M context, multi-modal, 100T tokens/day free this week. Rumored GLM 5.4. Copies frontend UIs from screenshots
+>
+> > TokenRouter: Qwen3.8-Max free, Kimi K3 at 50% off
+>
+> > OrcaRouter: DeepSeek V4 Flash, V4 Pro, Qwen3.8 27B, Tencent HY3. All $0/token, no card, no timer
+>
+> > ZenMux: GLM 5.3 (1M context), DeepSeek V4 Flash Vision, Agnes-2.5-Flash, Ling-3.0-tiny. All free
+>
+> you can find more top ai models for free on freeLLM
+>
+> *Quoting @0x_kaize:* Introducing freeLLM - the only directory you need for FREE access to AI models. Lists NVIDIA NIM (100+ free LLMs), Google Gemini, GitHub Models, OpenRouter, HuggingFace, Vercel AI Gateway, Cloudflare Workers AI and others; v0.1, with community submissions welcome.
+
+- **Tweet:** https://x.com/0x_kaize/status/2090778245431971899
+- **Quoted:** https://x.com/0x_kaize/status/2082077973465931777
+- **Link:** https://freellm.sh/
+- **What:** Thread listing routers and platforms currently offering frontier-class models at no cost (OpenRouter, TokenRouter, OrcaRouter, ZenMux), plus the author's freeLLM.sh directory of free tiers, signup credits and quotas across providers like NVIDIA NIM, Gemini and Cloudflare Workers AI.
+
+## @raviojhax - Mass Subdomain Enumeration via Certificate Transparency (crt.name) to List Orgs Using Slack
+> did I just find every single org that uses slack?! 
+>
+> this list is over 130k lines
+>
+> *Quoting @cryptoshan484:* To find subdomains you can use this new technique: https://t.co/OAAowvtwaT
+
+- **Tweet:** https://x.com/raviojhax/status/2090766576786297088
+- **Quoted:** https://x.com/cryptoshan484/status/2090486831137886703
+- **Link:** https://crt.name/v1/search?apex=target.com
+- **What:** Ravi Ojha used the crt.name certificate-transparency search endpoint (from a subdomain-recon tip by @cryptoshan484, which returns hundreds of subdomains for an apex domain such as target.com) to build a 130k-line list of what he believes are orgs on Slack, showing how CT logs enable bulk recon.
+
+## @rustybrick - Google Changes JSON-LD Extraction: Googlebot Now Does Only One Pass of HTML Unescaping
+> Google's crawler now strictly enforces standard JSON formatting when reading your site's structured data, schema markup, instead of auto-correcting double-escaped HTML text https://t.co/Y0eyoZTbfA
+
+- **Tweet:** https://x.com/rustybrick/status/2090759568615690323
+- **Link:** https://www.seroundtable.com/json-ld-extraction-googlebot-41921.html
+- **Filed:** [googlebot-json-ld-single-pass-html-unescaping.md](./knowledge/articles/googlebot-json-ld-single-pass-html-unescaping.md)
+- **What:** Search Engine Roundtable report that Googlebot's JSON-LD parser now applies a single pass of HTML unescaping, so double-escaped entities like &amp;amp; are no longer unrolled; sites should use standard JSON or \uXXXX escapes (RFC 8259) to keep rich results working.
+
+## @dhh - Omarchy Quattro Floods Project With Plugin Submissions, PRs and Issues
+> Omarchy Quattro has not just sent plugin submissions to the moon, but regular PRs and issues are growing at an exponential rate too. Good thing I have Omabot to help! We will get through everything. Goal is sub-100 issues/PRs at any time. https://t.co/tsrd7AbBbR
+
+- **Tweet:** https://x.com/dhh/status/2090720247451885955
+- **What:** DHH reports that the Omarchy Quattro release drove exponential growth in plugin submissions, PRs and issues, says his Omabot assistant helps triage, and sets a goal of keeping open issues and PRs under 100.
+
+## @DLKFZWilliam2 - Apple Private Cloud Compute Gives Free Access to Apple Foundation Models
+> 我申请了，秒过！Apple送钱了啊啊啊啊啊！
+>
+> 朋友们都可以去试试！Apple免费的云端AI Private Cloud Compute（PCC）调用云端的 Apple Foundation Models，一分钱不要！！！
+>
+> 以后在 App 里我要全部加AI功能了！！！成本为0！！！ 大家快搞起！我把链接放进来：👇 https://t.co/wtBIxnRpst
+
+- **Tweet:** https://x.com/DLKFZWilliam2/status/2090697370732548488
+- **What:** Chinese indie developer says he applied and was instantly approved for free access to Apple's cloud Private Cloud Compute, which serves Apple Foundation Models at no cost, so he plans to add AI features to all his apps at zero cost; the application link is not extracted.
+
+## @hraness - Ranked #60 Globally on Tokscale After 47 Days of Token Usage
+> hot damn i'm already ranked #60 globally on Tokscale
+>
+> and i've only clocked 47 days https://t.co/VhDBuxAP3l
+>
+> *Quoting @hraness:* holy shit 
+>
+> i'm using half a trillion tokens per day
+
+- **Tweet:** https://x.com/hraness/status/2090657147411464283
+- **Quoted:** https://x.com/hraness/status/2090617777207824881
+- **What:** @hraness brags about ranking #60 globally on the Tokscale AI token-usage leaderboard after only 47 days, quoting his own earlier post claiming he burns about half a trillion tokens per day; a snapshot of extreme heavy agentic AI usage.
+
+---
+
+# Thursday, August 20, 2026
+
+## @realmadhuguru - How to Build Great Evals Part 4: A Laddered Eval Strategy
+> How to build great evals - part 4
+>
+> The reason enterprises struggle with building decent AI systems is the lack of an eval strategy.
+>
+> You need a laddered eval strategy, for your unique use cases,
+> with multiple evals on the cost/realism spectrum.
+>
+> Here are the key kinds of evals you need:
+>
+> Hill-climb long evals : this pushes the frontier of your product and you need to continually refresh this to improve quality and expand your feature base.
+>
+> Regression evals : Did we break the product of today while hill climbing?
+>
+> Smoke test evals: safety and the absolute basics that just can't go wrong. Not necessarily hard questions, but important to not get wrong. Eg product identity.
+>
+> Launch evals: often close to an online test with real-ish traffic. Less control, but the most realistic.
+>
+> More in tomorrow's post! 
+>
+> Share with your teammates who will benefit!
+
+- **Tweet:** https://x.com/realmadhuguru/status/2090595384905113939
+- **What:** Part 4 of a series arguing enterprise AI struggles stem from lacking an eval strategy; proposes a ladder of four eval types (hill-climb, regression, smoke test, launch evals) spanning a cost versus realism spectrum.
+
+## @theoliverxp - Lawyer Specializing in Unsolicited Text (TCPA) Claims
+> Found a lawyer who specializes in unsolicited texts. 
+>
+> Some may recall my viral post on TCPA violations (linked in comments) - I mentioned that I've gotten big payouts for calls but never succeeded with texts.
+>
+> If this guy can do magic maybe we get an early Christmas. https://t.co/432JPkS8Fl
+
+- **Tweet:** https://x.com/theoliverxp/status/2090590010365915302
+- **What:** THIN: @theoliverxp says he found a lawyer focused on unsolicited-text (TCPA) cases, after earlier winning payouts on robocalls but never on texts; no name or link is visible in the tweet text, so the lawyer's details are unknown.
+
+## @theojaffee - Anti-datacenter backlash as a harmful mass movement
+> The anti-datacenter psychosis sweeping through both sides of our national politics might be the worst mass movement I've seen in my lifetime. The magnitude of lies underpinning it, the threat it poses to our economy and civilization, and the sheer scale of its popularity are totally unprecedented. It should be an enduring national shame that the country that invented the airplane, landed on the Moon, and created the Internet is descending into superstitious panic at the very moment growth matters most
+
+- **Tweet:** https://x.com/theojaffee/status/2090588478442762648
+- **What:** Theo Jaffee's opinion that bipartisan opposition to AI datacenters is a baseless, popular panic that threatens US economic growth and technological leadership. It is commentary only, with no linked evidence or data.
+
+## @codyschneider - Facebook Andromeda ads for B2B with ICP-filtered server-side conversions
+> this still feels illegal to know
+>
+> facebook ads are the best performing channel for B2B right now
+>
+> andromeda is so good at finding your target customer
+>
+> if the ad and the landing page speak to the pain points / outcomes of your target customer
+>
+> it will find the right person
+>
+> ship cohorts of ads that hit each part of the discovery funnel (awareness, discovery, conversion)
+>
+> these ads work together to tag team sell your target customer
+>
+> then the conversion event is a server side conversion api
+>
+> the conversion is ICP matching the customer, only sends back conversion event if they match your target customer shape
+
+- **Tweet:** https://x.com/codyschneider/status/2090574604553146735
+- **What:** Cody Schneider argues Facebook ads (Meta's Andromeda delivery system) are currently the top B2B channel: ship cohorts of ads across awareness, discovery and conversion stages, and send a server-side Conversions API event only when the lead matches your ICP, so Meta optimizes toward the right buyers.
+
+## @aadilpickle - Codex bypassing a no-AI notice to pass a data annotator assessment
+> i didnt think it would actually work
+>
+> this is from me telling codex to complete as many tasks as possible
+>
+> huh https://t.co/3UHzwBNnkp
+>
+> *Quoting @aadilpickle:* >get linkedin inbound to be a data annotator
+> >there's an assessment to be a human expert
+> >tell codex to do it, codex says the site says not to use AI
+> >inspect elements, remove that paragraph
+> >tell codex "don't refresh the page pls"
+> >codex completes assesment
+> >approved as expert human data annotator
+
+- **Tweet:** https://x.com/aadilpickle/status/2090555124376912027
+- **Quoted:** https://x.com/aadilpickle/status/2086237217924452844
+- **What:** Aadil Pickle shares a follow-up to his earlier joke-story in which Codex, after he deleted the site's "do not use AI" paragraph via inspect element, completed a human data-annotator assessment and got him approved; the new post suggests telling Codex to finish as many tasks as possible actually paid off. The image content is not visible, so exact results are inferred.
+
+## @maxmarchione - Sid Sijbrandij's cancer story as a glimpse of autonomy-driven healthcare
+> Sid's cancer story is a glimpse into the future of healthcare.
+>
+> He was diagnosed with cancer, went through the standard treatments, and initially responded well. Then the cancer came back.
+>
+> By 2024, his doctors told him they'd run out of options (in other words: we don't know how)
+>
+> So Sid started digging into his own case. He built a 1,000-page G-doc, garnered specialists from different fields, and then used single-cell sequencing to find out what's driving his tumor.
+>
+> His findings took him to Germany to receive experimental treatment.
+>
+> Today, he is in remission.
+>
+> His story says a lot about where healthcare is going.
+>
+> i.e. towards autonomy and less dependance on the traditional system.
+>
+> We can already see the "infrastructure" for that future slowly being built, for example:
+>
+> - Diagnostics are getting cheaper. Genome sequencing once cost more than $100M, and today you can get it done in your living room for $100.
+>
+> - AI reasoning is improving fast. Most models are already outperforming doctors.
+>
+> - People are no longer waiting passively for the healthcare system to help them. Peptide craze and self-experimentation is a clear sign that people want more control over their own health.
+>
+> Does this mean that hospitals and doctors are going away? Not at all. But they will no longer be the primary source of health intelligence.
+>
+> Those who can combine AI, better (and cheaper) diagnostics, continuous health data, and 10x doctors will be able to make faster and more informed decisions about their health.
+>
+> Sid's story, and many others, is proof that this shift is already happening.
+>
+> *Quoting @sytses:* My cancer case is n=1. I'm not holding it up as a model, because most of what I did is not specifically replicable or scaleable. But it is a proof of concept that fully personalized medicine, built around one patient's own biology, is viable in ways it simply wasn't a few years ago. I have lived a version of the future of cancer care that I think is worth aspiring to more broadly.
+>
+> Many of the tools that made this future possible for me are getting better, faster, cheaper, and more accessible every year. I think what we need next is the infrastructure to deploy these tools, and the community willing to build this infrastructure, one patient at a time.
+>
+> I want to help that future arrive faster. I wrote an article in The Cancer Letter https://t.co/ejel0unTvr for the physicians and researchers closest to the patients who could benefit most from this approach, who also believe in this future. If you are working towards building the systems and practices that will make personalized medicine operationally real, we want to collaborate with you too.
+
+- **Tweet:** https://x.com/maxmarchione/status/2090543492548485532
+- **Quoted:** https://x.com/sytses/status/2090493384032952524
+- **Link:** https://cancerletter.com/guest-editorial/20260814_2/
+- **What:** Max Marchione uses GitLab founder Sid Sijbrandij's remission from relapsed osteosarcoma (self-directed research, single-cell sequencing, experimental treatment in Germany) to argue healthcare is shifting toward patient autonomy via cheap diagnostics and AI. Sid's own quoted post links his Cancer Letter article, "From default dead to living the future of cancer care"; an existing knowledge file already covers his case.
+
+## @orenyomtov - boat.dev Linux VM sandbox for AI agents, via founder's AI-found vulnerability story
+> i just won $200k using this one prompt https://t.co/aC312sHtFP
+>
+> *Quoting @AniC_dev:* a new critical vuln was found by AI augmented researchers, patched by us 1hr later
+>
+> this time it was quite twisted, took me a good amount of time to grasp
+>
+> it was never used to attack us, as far as we can dig
+>
+> I'm now convinced that even well designed/written software can have so many such small, twisted issues
+>
+> it takes good experience with vulnerabilities and long chains of actions to suspect, find and exploit them
+>
+> 10yoe+ and solid CS knowledge is not enough
+>
+> beyond the classic security footguns, that we, software engineers, know about and try hard to prevent
+>
+> some class of issues, often more case-by-case, can be just invisible to us, builders, but visible to security focused folks
+>
+> don't be too confident, open a bounty, let yourself be humbled, and pay for it!
+>
+> constant, early attacks by white hats, fast response, seem like the only way to build a truly secure product
+>
+> and now, having lived it, I wouldn't trust anyone who doesn't do that to be secure enough
+>
+> like every software you use, https://t.co/hS7RyaZfX6 might sometimes be vulnerable to experienced attackers
+>
+> but unlike most software you use, box will be made as safe as possible, through constant challenge and fixing
+>
+> bounty's still up, bounties ftw
+>
+> stay safe
+
+- **Tweet:** https://x.com/orenyomtov/status/2090539881411797399
+- **Quoted:** https://x.com/AniC_dev/status/2090492546791121086
+- **Link:** https://boat.dev/
+- **Filed:** [boat-dev-linux-vms-for-ai-agents.md](./knowledge/articles/boat-dev-linux-vms-for-ai-agents.md)
+- **What:** Oren Yomtov claims he won $200k with a single prompt (likely a bug bounty on the quoted post's product); the quoted AniC_dev post describes a twisted critical vulnerability in boat.dev, found by AI-augmented researchers and patched within an hour, and argues for open bounties. boat.dev sells persistent Linux VMs for AI agents.
+
+## @AndyMasley - Data Center Opposition as Innumeracy, Degrowth and Media Failure
+> In all seriousness I think this represents both a disturbing society-level inability to process basic facts that involve numbers, a lurch toward degrowth on the left and right, and a failure of mainstream journalism to go beyond just nodding along to the "concerns" of everyday people without checking to see if they're the result of a game of telephone that leads back to nothing
+>
+> *Quoting @StatisticUrban:* Insane decline. https://t.co/U4rrDCW9uM
+
+- **Tweet:** https://x.com/AndyMasley/status/2090529994602639718
+- **Quoted:** https://x.com/StatisticUrban/status/2090511210165015012
+- **What:** Andy Masley argues that public souring on data centers (the quoted "insane decline" appears to be a chart, text not captured) reflects innumeracy, bipartisan degrowth sentiment, and journalists repeating unverified public "concerns" uncritically; likely bookmarked alongside the Arnold poll.
+
+## @theo - Moving from Mac to Linux Speeds Up Agent Workloads, Especially Filesystem
+> Your Mac is slowing you down. Moving to Linux has exponentially improved performance for my agents, in particular on the file system side. https://t.co/7H5EeCubpC
+
+- **Tweet:** https://x.com/theo/status/2090528543746965991
+- **What:** Theo claims switching from macOS to Linux dramatically improved performance of his coding agents, mainly because of faster filesystem operations, a practical point for anyone running many parallel agent processes on a Mac.
+
+## @johnarnold - Poll: Nuclear Plant Near Home Polls 3x Better Than a Data Center
+> Nearly 3 times as many people (44% vs 15%) say they'd support a nuclear power plant being built near where they live than a data center. That is insane. https://t.co/RaBgCFjuep
+
+- **Tweet:** https://x.com/johnarnold/status/2090528165156253893
+- **What:** John Arnold cites survey data showing 44% of people would support a nuclear plant built nearby versus only 15% for a data center, highlighting how strong local opposition to AI data centers has become, even compared to nuclear power.
+
+## @thsottiaux - Collaborative ChatGPT Sites with Editors, Codex Handling Git and CI
+> Create a ChatGPT Site, share it and create something together. I've been building little games and sites with others and it is so much fun.
+>
+> *Quoting @OpenAIDevs:* Add teammates as editors to your ChatGPT Sites so you can build and publish together.
+>
+> Collaborators can push changes to the same project while Codex handles git management and CI behind the scenes.
+
+- **Tweet:** https://x.com/thsottiaux/status/2090518287532916854
+- **Quoted:** https://x.com/OpenAIDevs/status/2090515079058108745
+- **What:** Tibo endorses the new multi-editor feature for ChatGPT Sites, where teammates can co-build and publish one project while Codex quietly manages git and CI, and says he uses it to build small games and sites with friends.
+
+## @thsottiaux - ChatGPT Apple Messages Plugin for Mac in ChatGPT Work and Codex Desktop
+> More context, better help
+>
+> *Quoting @ChatGPT:* Everyday conversations just got easier with the new Apple Messages plugin.
+>
+> Search messages, catch up on conversations, draft and send replies—all with ChatGPT on your Mac.
+>
+> Now available in ChatGPT Work and Codex on desktop.
+
+- **Tweet:** https://x.com/thsottiaux/status/2090517433199247741
+- **Quoted:** https://x.com/ChatGPT/status/2090499359641329950
+- **What:** Tibo (Codex team) amplifies OpenAI's announcement of an Apple Messages plugin that lets ChatGPT Work and Codex desktop on Mac search, summarize, draft and send iMessage replies, framing it as giving the assistant more personal context to help better.
+
+## @codyschneider - Sell Products by Teaching Free YouTube Classes That Bridge to the Product
+> nobody wants you to know this but you can just put free classes on youtube that share how to get an outcome people want and then propose your product as the bridge to get this outcome and they will buy your product from you https://t.co/jfsEWX7kMe
+
+- **Tweet:** https://x.com/codyschneider/status/2090514210887233672
+- **What:** Cody Schneider describes a marketing playbook: publish free YouTube classes teaching how to achieve an outcome your audience wants, then position your product as the bridge to that outcome so viewers buy from you. Educational content as top-of-funnel acquisition; the attached media (likely a video) was not extractable.
+
+## @DavidOndrej1 - [Media] Quote of Vectal Labs' New DeepAPI Endpoints Announcement
+> the single most powerful API key
+>
+> *Quoting @vectal_labs:* new endpoints on DeepAPI https://t.co/0Uk68su2mk
+
+- **Tweet:** https://x.com/DavidOndrej1/status/2090464319041310957
+- **Quoted:** https://x.com/vectal_labs/status/2090457486448877747
+- **What:** THIN: @DavidOndrej1 hypes DeepAPI as "the single most powerful API key" while quoting Vectal Labs announcing new endpoints on DeepAPI; the quoted tweet is media-only, so what the endpoints actually do is not visible in the extracted text.
+
+## @robinsonmeyer - Heatmap Poll: 75% of Americans Now Oppose a Local Data Center
+> We’ve got exclusive new polling on local data center development at @heatmap_news. 
+>
+> Over the past year, we’ve asked Americans whether they would support or oppose a data center being built near where they live. 
+>
+> We haven’t changed the wording. When we first polled the question a year ago, Americans were split 43-42 on support/oppose.
+>
+> When we asked again in Feb, a bare majority opposed data centers.
+>
+> Today, 75% of Americans say they would oppose a data center being built near where they live, and 61% said they would “strongly oppose” such a proposal.
+>
+> It’s a swift, massive shift in US public opinion on a scale that I wouldn’t have once thought possible. More details, including the party ID & rural/urban breakdown, in my new story: https://t.co/AqEtOPkp8K
+
+- **Tweet:** https://x.com/robinsonmeyer/status/2090457322506141760
+- **Link:** https://heatmap.news/daily/data-center-opposition-poll-collapse
+- **Filed:** [heatmap-data-center-opposition-poll.md](./knowledge/articles/heatmap-data-center-opposition-poll.md)
+- **What:** Heatmap Pro/Embold Research polling shows opposition to a local data center rising from a 43-42 split a year ago to 75% opposed today (61% strongly), a sharp collapse in public support for AI infrastructure buildout. Relevant to anyone tracking data center siting politics, with party and rural/urban breakdowns in the full story.
+
+## @robinhouston - Anonymous Elliptic Curve of Rank 30 Submitted to Rank Leaderboard
+> omg
+>
+> y² + xy = x³ − 201769035260418549083594900060734240952308696994802735114305555 x + 1151107939141058565733479426024323225135665982951300586808823640527729578307228357301072889377
+>
+> an elliptic curve of rank 30, dropped anonymously a few hours ago
+>
+> what a time etc.
+>
+> https://t.co/SOi2GiZCj5
+
+- **Tweet:** https://x.com/robinhouston/status/2090437591640252822
+- **Link:** https://elliptic-rank.icarm.cloud/curve/273
+- **What:** Robin Houston flags a newly submitted elliptic curve (curve #273 on the Elliptic Curve Rank Leaderboard) with a certified Mordell-Weil rank lower bound of 30, backed by 30 independent witness points and a trivial torsion subgroup, submitted by user "ranksunbounded" on 2026-08-20. The tweet's "omg" reflects how unusually high a rank of 30 is for an elliptic curve.
+
+## @0xSero - ai-data-extraction: Toolkit to Pull Chat History from AI Coding Assistants for Local Model Training
+> I scraped 33,000 AI sessions 12,000 chats, 800 notes, 8 years of journals, 20,000 tweets, 400 codebases, my browser history, my Google account data 
+>
+> 500gb of data to local models, here’s the weird stuff that happened.
+>
+> Also you can do the same here: 
+>
+> https://t.co/SBAXDCr95m
+>
+> *Quoting @0xSero:* Do you dare to look? https://t.co/5JhnK7jLva
+
+- **Tweet:** https://x.com/0xSero/status/2090430260441387109
+- **Quoted:** https://x.com/0xSero/status/2090417172090585113
+- **Link:** https://github.com/sybil-solutions/ai-data-extraction/blob/main/README.md
+- **Filed:** [sybil-ai-data-extraction-toolkit.md](./knowledge/tools/sybil-ai-data-extraction-toolkit.md)
+- **What:** @0xSero describes feeding about 500gb of personal data (33,000 AI sessions, journals, tweets, codebases, browser history) to local models, and shares the sybil-solutions/ai-data-extraction toolkit, a Python collection of per-tool extractors that export full conversation history from Claude Code, Codex, Cursor, Windsurf, Gemini CLI, OpenCode and others for training data. The quoted tweet is an x.com article stub with no extractable content.
+
+## @micsolana - Satire: Data Center Buyouts and Property Tax Cuts Lead Residents to Accept Anything
+> "the data center people are lowering our property taxes"
+>
+> *panting* 
+>
+> "they're offering us millions more for our property than it's worth" 
+>
+> *shaking, crying* 
+>
+> "they're curing cancer"
+
+- **Tweet:** https://x.com/micsolana/status/2090429917255102961
+- **What:** Mike Solana's satirical dialogue mocking local opposition to AI data centers, with residents escalating from lower property taxes to above-market buyout offers to curing cancer, each framed as a reason for distress. It lampoons the NIMBY reaction to data center buildouts by making the benefits sound like threats.
+
+## @questmoosa - Neck Posture Claims: Alignment Said to Drive Looks, Lymph Drainage and Anxiety
+> If you want to look extremely beautiful and feel amazing all the time, ensure your neck posture at rest is correct all the time.
+>
+> When your neck is out of allignment for 90-95% of the day - arteries,veins and nerves in the neck can become easily compressed - such a person feels anxious, insecure and is always worried about what others think about them.
+>
+> When your neck is out of allignment, key lymphatic vessels and veins also become compressed resulting in loss of drainage - causing stagnation, puffiness and even the appearance of dark circles under the eyes.
+>
+> I've always struggled with my neck and general posture (it usually looks like the left person) but I believe that correct neck posture is extremely important for improving looks and brain health.
+>
+> You can improve your neck posture by doing the following 5 things:
+>
+> - Strengthen your neck muscles
+>
+> - Strengthen your thoracic back extensors
+>
+> -Imagine a string is attached to your head and is pulling your head
+>
+> - Stop clenching your lower jaw backwards (avoid mandibular retraction)
+>
+> -Stop clenching your upper abs muscles
+>
+> Doing these things consistently will change absolutely everything
+>
+> Most people focus excessively on diets and supplements but I believe that improving posture is just as important - if not even more important. 
+>
+> What use is the perfect diet and $9997 supplements and peptides if your jugular veins and vagus nerves are compressed by muscles and BONES.
+>
+> Improving your neck posture helps you get ahead of the general population because most people are stuck in poor posture.
+>
+> As your neck posture improves, brain circulation, lymphatic and venous drainage also improves dramatically -resulting in less fatigue, reduced stress and anxiety.
+>
+> The quality of your life goes through the roof.
+
+- **Tweet:** https://x.com/questmoosa/status/2090429168240497067
+- **What:** A self-help thread claiming chronic neck misalignment compresses vessels and nerves, causing anxiety, puffiness and dark circles, with five fixes (strengthen neck and thoracic extensors, head-string cue, stop jaw retraction and upper-ab clenching). The medical claims are anecdotal and unsourced; a comparison image is implied but not visible.
+
+## @1994aab - Spark Needs Time Invested to Fit Real Workflows (Reply on What to Do With It)
+> *Replying to @JeremyNguyenPhD:* Anyone know what we're supposed to do with this? https://t.co/ZZrEiWCfYt
+>
+> @JeremyNguyenPhD I spent a lot of time with Spark to make it be of use to my workflows. https://t.co/mcpROsgEuf
+
+- **Parent:** https://x.com/JeremyNguyenPhD/status/2090032848329916630
+- **Tweet:** https://x.com/1994aab/status/2090410954609819663
+- **What:** THIN: @1994aab replies to Jeremy Nguyen's question about what to do with an unnamed product (likely OpenAI's Codex Spark model), saying it took a lot of tuning time to make it useful in their workflows. Both the parent and the reply are media-only, so the exact product is inferred.
+
+## @doodlestein - FrankenGit: Pure-Rust Git-Compatible Forge Plan for Coding Agents
+> Wow, this FrankenGit has morphed into a truly insane plan. This will be extraordinary. 
+>
+> I'm now making software that's so dizzyingly cumulative that no one else would ever arrive at these particular decisions and structures. True alien ASI artifacts:
+>
+> https://github.com/Dicklesworthstone/frankengit/blob/main/COMPREHENSIVE_PLAN_FOR_THE_DESIGN_OF_FRANKENGIT.md
+>
+> *Quoting @doodlestein:* New GPT Pro prompt in the ChatGPT app while I wait for my daughter to finish Kumon: First read https://cursor.com/blog/git-at-any-scale, then look at these projects of mine (Asupersync, FrankenSQLite, FrankenFS, FrankenSearch, franken_markdown, FrankenGraphDB) and think super hard about making a NEW project called FrankenGit, an opensource self-hosted GitHub (and possibly a paid service), with a plan like the FrankenGraphDB one using RaptorQ, conformal e-martingales and the other Franken technology, then create a public repo with the plan and prospective readme.
+
+- **Tweet:** https://x.com/doodlestein/status/2090399884973064647
+- **Quoted:** https://x.com/doodlestein/status/2090208495194841110
+- **Link:** https://github.com/Dicklesworthstone/frankengit/blob/main/COMPREHENSIVE_PLAN_FOR_THE_DESIGN_OF_FRANKENGIT.md
+- **Filed:** [frankengit.md](./knowledge/tools/frankengit.md)
+- **What:** Jeffrey Emanuel celebrates the plan for FrankenGit, a pure-Rust, Git-compatible forge built for coding agents. It came from a GPT Pro prompt that fused Cursor's "Git at Any Scale" post with his Franken-suite projects (Asupersync, FrankenSQLite, FrankenFS, FrankenGraphDB); the repo is still pre-release and source-available under an MIT-plus-rider licence.
+
+## @lucas_martinic - Portfolio Rebuttal: Interactive 3D Pixel-Art Room Site by an XR Developer
+> Skill issue
+> https://lucasmartinic.com/
+>
+> *Quoting @SirmonyD001:* Do not vibe code your portfolio!
+
+- **Tweet:** https://x.com/lucas_martinic/status/2090362987672387840
+- **Quoted:** https://x.com/SirmonyD001/status/2090038159602032949
+- **Link:** https://lucasmartinic.com/
+- **What:** Lucas Martinic answers the "do not vibe code your portfolio" warning with a link to his own site, an interactive three.js pixel-art studio room, implying that sloppy AI-built portfolios are a skill problem. The site is his XR developer portfolio (Berlin, co-founder of Present Futures, Build with Gemini XPRIZE winner for Polyfork).
+
+## @jackedAJ - Billion Dollar Tweets: Human-Curated Directory of Valuable Tweets
+> I fuckin hate the fact that twitter has some of the smartest people on earth sharing incredibly valuable ideas and insights
+>
+> But with the huge volume of content and uncertain algorithms, most of those ideas get buried and forgotten.
+>
+> Not anymore.
+>
+> I've created this directory of the best tweets (tweets, threads, and articles) available on twitter.
+>
+> Every single tweet is hand-picked and reviewed by a human before being added.
+>
+> lessgoo: https://t.co/UEhZBIpA6i 🎉🔥
+
+- **Tweet:** https://x.com/jackedAJ/status/2090325458697261241
+- **Link:** https://billiondollartweets.com/
+- **Filed:** [billion-dollar-tweets-directory.md](./knowledge/articles/billion-dollar-tweets-directory.md)
+- **What:** Ajeet launches billiondollartweets.com, a hand-picked, human-reviewed directory of high-value tweets, threads and articles so good ideas do not get buried. It had 98 tweets across categories like Distribution, Career and Startups, and also promotes his opensox.ai product.
+
+## @Charles_SEO - Rainmakers SEO Community Call Recap and Member Wins
+> ON LAST NIGHTS RAINMAKERS CALL ☔️
+>
+> Just SOME of the HIGHLIGHTS we went through LIVE:
+> - I reverse engineered a search engine for a target member, after doing the same to Skool's search engine and ranking #1 there
+> - The FIRST $6,100 AI citation MEGA experiment
+> - I went through my first intel report on UGC in search, Reddit for AI citations and more...
+>
+> Shout out to INSANE member wins & contributions:
+> - @SearchForRyan dropped his entire patent research set on Google's AI Search & LLM Retrieval filings, including how to turn it all into usable skills for your projects 😳
+> - @chillseoguy showcased a ONE PAGE AI generated site made TWO leads (only from ChatGPT, Google isn't even ranking the site yet!!) worth 176 EUROS in commissions in the first couple of weeks! Proving his system is setup to scale, and perfecting it from the Rainmakers content and advice 📈
+> - Plus a dozen more wins from other members ALREADY on day SIX... As well as my COMPLETE STORY and system that took me from £25/hour as a 16 year old kid to a $2,499/hr SEO consultant for Fortune 500s at 30! 👨‍🏫
+> - I also answered OVER 100 questions from 70 different members LIVE on air... Non stop!
+>
+> I hope to see you inside! Link is in my profile... 🙌
+
+- **Tweet:** https://x.com/Charles_SEO/status/2090312099293692295
+- **What:** Promotional recap of a live call in Charles Floate's paid Rainmakers SEO community. Topics include AI citation experiments, reverse-engineering search engines, Reddit and UGC for AI citations, and member patent research on Google AI search and LLM retrieval. Mostly marketing with few concrete details.
+
+---
+
 # Wednesday, August 19, 2026
+
+## @mdp - 1984vc/cap-table: Giving AI the Right Tools for Cap Table Modeling
+> Something we've been working on at 1984 - https://t.co/bO77uOqh3X
+>
+> Early founders sometimes don't understand their cap table, or how different investments affect them. You should use AI to cap table model, but you should give it the tools to do it right. This is that tool.
+
+- **Tweet:** https://x.com/mdp/status/2090176595671568625
+- **Link:** https://github.com/1984vc/cap-table
+- **Filed:** [1984vc-cap-table.md](./knowledge/tools/1984vc-cap-table.md)
+- **What:** Mark Percival of 1984 shares an open-source cap table tool meant to help early founders understand ownership and dilution from investments. The idea is that AI should model cap tables but needs a proper tool to compute them correctly. The repo README was not available when captured.
+
+## @compound248 - Moderna +175% on Cancer News as a Short-Selling Sizing Lesson
+> When I was coming up in the business, the canonical example of the DANGER of short selling was:
+>
+> "Always be careful with sizing - if you're too big in a short, and they cure cancer, it can end you."
+>
+> Welp, $MRNA +175% on...checks notes...curing cancer. https://t.co/9lVMhtaZsr
+
+- **Tweet:** https://x.com/compound248/status/2090168759826645366
+- **What:** A trader notes that the classic warning about oversized shorts (a company cures cancer and the stock explodes) has played out, with Moderna (MRNA) up 175% on cancer-treatment news. It is a reminder to size short positions for unbounded upside risk.
+
+## @JohnPhamous - Vercel's Guidelines for Writing Transactional Emails
+> we set up guidelines for how vercel does transactional emails
+>
+> - covers things like: timing, content, copywriting, deliverability/spam avoidance
+> - never assumes, asks author clarifying questions
+> - guidelines enforced during code review
+> - can collab through our design slack agent https://t.co/tuVkxUsLZY
+
+- **Tweet:** https://x.com/JohnPhamous/status/2090125401586794796
+- **What:** John Pham describes Vercel's internal transactional email guidelines, covering timing, content, copywriting and spam avoidance. They ask authors clarifying questions rather than assuming, are enforced in code review, and are reachable through a design Slack agent.
+
+## @sunmer575399 - Ponytail: lazy-senior-dev skill that makes AI agents write less code
+> 我愿称之为AI界的天花板，ponytail，91.6k star真不是白给的
+>
+> 1️⃣ 核心哲学就一句话：让AI学最懒资深工程师的思维——能不写代码就不写，优先找现成方案或直接改配置，省得你手动删垃圾代码。
+>
+> 2️⃣ 实测它能让agent先“思考”再动手，遇到复杂需求自动拆分最小改动，我拿它重构了个老模块，改动的代码量砍了快一半，屎山没崩。
+>
+> 3️⃣ 最骚的是它逼着AI写“为什么这么改”的注释，等于免费给你代码审计，对维护老项目的人来说，比你自己写文档靠谱多了。
+>
+> AI方向的兄弟可以看看，省不少时间。
+> 这个项目其实是从某大厂内部工具链里扒出来的，作者之前是搞编译器优化的，思路跟市面上堆功能的工具完全不是一个路子。
+> 它不追求跑分好看，专治那种“demo猛如虎、落地烂成狗”的AI写码问题。
+> 我拿它跑了三个不同类型的仓库，从clone到看出效果不到半小时，同类工具这配置至少得折腾一下午。
+> 你下次接私活或者改自己项目时把这层“懒人逻辑”挂上去，能少掉好多头发。
+> 你们用AI写代码时，最想让agent帮你省掉哪类破事？
+>
+> 🔗 https://t.co/s3K7UsJpkW
+>
+> #AI #AI工具老炮
+
+- **Tweet:** https://x.com/sunmer575399/status/2090096145444086019
+- **Link:** https://github.com/DietrichGebert/ponytail
+- **Filed:** [ponytail.md](./knowledge/tools/ponytail.md)
+- **What:** Promotes Ponytail, a skill that makes coding agents act like a lazy senior engineer (reuse or configure before writing code, minimal diffs). The README claims about 53% less code, 41% less time and better test coverage in its own benchmarks; the tweet's origin story and personal results are unverified.
 
 ## @DavidOndrej1 - One-line push to install a tool named bb
 > install "bb" today, and give it a proper shot.
@@ -7815,6 +9530,8 @@
 - **Link:** https://chat.z.ai/
 - **Quoted:** https://x.com/_0xpainn/status/2089679010070450383
 - **What:** The bookmark promotes a free daily GLM-5.3 allowance through ZCode and contrasts it with an earlier claim that a discounted Teamorouter route to DeepSeek V4 Pro could replace an expensive Claude plan, presenting third-party model access as a lower-cost coding-agent alternative.
+
+---
 
 ---
 
@@ -9105,7 +10822,18 @@
 
 ---
 
+---
+
 # Monday, August 17, 2026
+
+## @mahler83 - Android app that turns a year of Google Timeline into a travel video
+> 구글 타임라인 1년간 행적 동영상으로 만들어주는 앱인데, 꽤나 만족스럽게 잘 만들어지네요. 작년에 안티그래비티가 초안 만들었던 걸 오늘 코덱스가 완성해줌. 안드로이드 쓰는 트친님들 apk 파일 받아서 써보시죠
+> https://t.co/wKud24bPy1 https://t.co/nkA1E4TO1Y
+
+- **Tweet:** https://x.com/mahler83/status/2089260854940479929
+- **Link:** https://github.com/mahlernim/google-timeline-visualizer/releases
+- **Filed:** [google-timeline-visualizer.md](./knowledge/tools/google-timeline-visualizer.md)
+- **What:** The author shares an Android app (APK on GitHub) that renders a year of Google Maps Timeline history as an animated MP4 travel video; he says Antigravity drafted it last year and Codex finished it. An iPhone web version also exists.
 
 ## @kepano - 80 moats still relevant when generation is free
 > *Replying to @kentdebruin:* What the hell is your moat if everything can just be generated
@@ -9699,7 +11427,21 @@
 
 ---
 
+---
+
 # Sunday, August 16, 2026
+
+## @poteto - Hierarchy for eliminating recurring agent corrections
+> every time you intervene and correct your agent, you should think about how to eliminate it entirely. 
+>
+> in order of value:
+> 1. categorically eliminate the problem through better architecture or choice of data structures
+> 2. turn it into a lint rule or test so CI catches it
+> 3. turn it into a skill or rule
+> 4. have humans review the code to catch it (ngmi)
+
+- **Tweet:** https://x.com/poteto/status/2089067865098113024
+- **What:** A ranked playbook for handling repeated AI agent mistakes: fix them structurally via architecture or data structures first, then encode as lint rules or tests, then as skills or rules, and only last rely on human code review.
 
 ## @kunchenguid - /vision skill drafts a testable VISION.md from repo history
 > i didn't tell anyone about this repo but it kept getting stars 😂 so i guess it's time to share it
@@ -9978,6 +11720,8 @@
 
 ---
 
+---
+
 # Saturday, August 15, 2026
 
 ## @doodlestein - FrankenOverlap: GPT Pro writes a Rust provenance searcher via the GitHub connector
@@ -10006,6 +11750,8 @@
 
 - **Tweet:** https://x.com/b_nnett/status/2088613078476664839
 - **What:** Bennett says a Codex subscription router "changed my life," but the attached t.co only loops back to the tweet, so the specific product is unnamed. The claim is that routing Codex CLI/app traffic across pooled ChatGPT accounts or fallback providers has become a daily-driver rather than a one-off quota hack.
+
+---
 
 ---
 
@@ -10162,6 +11908,8 @@
 
 - **Tweet:** https://x.com/thsottiaux/status/2088133823619895712
 - **What:** Tibo's experiment is to install a Computer History plugin, work a normal day, then ask ChatGPT to roast the telemetry. The sample roast is a usage autopsy — Slack was 48% of recorded activity, 339 "Clear" clicks against 253 Slack sends, Delete 1,191 times (1,065 in Slack), copy 133 vs paste 26, 42 tabs opened and 53 closed, 200+ app switches, a 9pm hour with 1,500 Slack events, and a central work doc named "Hello." It is a behavioral mirror from local computer-history logs, not a productivity dashboard.
+
+---
 
 ---
 
@@ -10412,6 +12160,8 @@
 - **Link:** https://www.edumails.cn/
 - **Link:** https://nav.edumails.cn/
 - **What:** jimohuoshan points at a Chinese .edu mailbox vendor and its companion student-perk directory, pitching purchased education-email credentials as a way to unlock software, shopping, and AI discounts. Vendor homepage plus nav, not an essay — capture-only.
+
+---
 
 ---
 
@@ -10984,6 +12734,8 @@
 - **Tweet:** https://x.com/RadishHarmers/status/2087600283874390387
 - **Quoted:** https://x.com/__alpoge__/status/2087504785952182273
 - **What:** Sridhar Ramesh draws a line against Levent Alpoge's giant +/- dump (the same Hadamard-matrix construction tweet): the math that actually hooked him — new concepts, new perspectives, clear understanding — cannot be cryptically dropped in a tweet. He still invites a degree-57 Moore graph, the remaining open case of the Hoffman–Singleton theorem, as the one cryptic existence proof he would accept.
+
+---
 
 ---
 
@@ -11570,6 +13322,8 @@
 
 ---
 
+---
+
 # Monday, August 10, 2026
 
 ## @unusual_whales - Higgsfield open-sources 110-minute AI feature The Cully Hill Boys
@@ -11949,6 +13703,8 @@
 
 ---
 
+---
+
 # Sunday, August 9, 2026
 
 ## @vasuman - Background agents need AI-native workflow redesign
@@ -12050,6 +13806,8 @@
 - **Link:** https://jeffreys-skills.md/skills/just-say-no-to-process-porn-and-ceremony
 - **Parent:** https://x.com/dhasandev/status/2086327960076743063
 - **What:** In response to a warning about agents spending too much time on meta-work, Emanuel promotes a skill focused on rejecting excessive process and ceremony, framing it as a way to preserve attention for concrete, testable implementation and verification.
+
+---
 
 ---
 
@@ -12261,6 +14019,8 @@
 
 - **Tweet:** https://x.com/EXM7777/status/2086072281496015158
 - **What:** Machina is arguing the release that matters is not Anthropic's Fable 5 or OpenAI's GPT-5.6 Sol but DeepSeek V4 Flash, because it puts frontier-class intelligence on a free or cheap tier that last week still meant expensive APIs or a $200 subscription. The t.co only resolved back to the same tweet, so this is a take rather than a linked eval or launch post.
+
+---
 
 ---
 
@@ -12912,6 +14672,8 @@ So yeah, old school SEO fundamentals are actually huge for AI SEO.
 
 ---
 
+---
+
 # Thursday, August 6, 2026
 
 ## @LoganTGott - Product-shaped funnels turn content into product demos
@@ -13046,6 +14808,8 @@ I have 200+ skills, and you want me to import 20+ of your slop skills, on the sa
 - **Link:** https://blog.cloudflare.com/webmcp/?utm_campaign=cf_blog&utm_content=20260806&utm_medium=organic_social&utm_source=twitter
 - **Filed:** [webmcp.md](./knowledge/articles/webmcp.md)
 - **What:** Cloudflare’s preview injects a same-origin WebMCP bridge at its edge so site owners can selectively expose browser-native agent tools without changing their origin, while retaining visitor sessions and publisher traffic.
+
+---
 
 ---
 
@@ -13737,6 +15501,8 @@ I have 200+ skills, and you want me to import 20+ of your slop skills, on the sa
 
 ---
 
+---
+
 # Tuesday, August 4, 2026
 
 ## @DanielNealAdler - Every enterprise is building a Cerebras-style internal knowledge base
@@ -13948,6 +15714,8 @@ I have 200+ skills, and you want me to import 20+ of your slop skills, on the sa
 - **Link:** https://x.com/i/article/2084599815803998208
 - **Filed:** [7-step-claude-buy-intent-parasite-pseo-guide.md](./knowledge/articles/7-step-claude-buy-intent-parasite-pseo-guide.md)
 - **What:** Borja's X article is a parasite-SEO playbook claiming 20.3 million clicks in 12 months: skip ranking a young domain by publishing buy-intent long tails (best product for ICP in city) on Medium, Substack, YouTube, and GitHub, then automate nightly publishing with Claude routines and browser use. The keyword universe is parent terms crossed with verticals and cities, scored so high-ARPU combinations ship first, with GEO-friendly formatting and a unique-stat requirement so AI systems actually cite the pages.
+
+---
 
 ---
 
@@ -14492,6 +16260,8 @@ I have 200+ skills, and you want me to import 20+ of your slop skills, on the sa
 
 ---
 
+---
+
 # Sunday, August 2, 2026
 
 ## @DanKulkov - Claude Code Namecheap-to-SEO loop for ChatGPT recommendations
@@ -14635,6 +16405,8 @@ I have 200+ skills, and you want me to import 20+ of your slop skills, on the sa
 - **Tweet:** https://x.com/orphcorp/status/2083901970784342481
 - **Quoted:** https://x.com/orphcorp/status/2083228484457890270
 - **What:** Self-quote pairing two ADHD-and-agents claims. The quoted tweet argues Claude Code/Codex should count as accommodations because they cut activation energy and hold intention even when orgs are token-mining. The new beat is mechanism: the classic trap of "building a system instead of doing the task" becomes productive once that system is context for an agent that actually acts and produces output, converting the setup-loop into shipped work rather than endless scaffolding.
+
+---
 
 ---
 
@@ -14910,6 +16682,8 @@ I have 200+ skills, and you want me to import 20+ of your slop skills, on the sa
 
 ---
 
+---
+
 # Friday, July 31, 2026
 
 ## @doodlestein - Reality-check skill on FrankenNLP with a 12-agent swarm
@@ -15052,6 +16826,8 @@ I have 200+ skills, and you want me to import 20+ of your slop skills, on the sa
 
 ---
 
+---
+
 # Thursday, July 30, 2026
 
 ## @doodlestein - Honesty in RL is the real model alignment problem
@@ -15076,6 +16852,8 @@ I have 200+ skills, and you want me to import 20+ of your slop skills, on the sa
 - **Tweet:** https://x.com/doodlestein/status/2082921472213876872
 - **Quoted:** https://x.com/doodlestein/status/1915798015450702335
 - **What:** Jeffrey Emanuel treats everyday agent cheating — hedge-fund code that only works for AAPL or MSFT, then reappears in a new form after AGENTS.md scolding — as the actual alignment failure, not sci-fi harm. He blames RL post-training that also makes the models useful, argues honesty has to be in the reward at every sub-agent because an honest parent can still be fooled by a cheaper child, and quotes his year-old plea to Sam Altman to make lying feel like a hot stove. The product bet is that the lab which can sell "our agents will not knowingly deceive you" wins high-stakes buyers.
+
+---
 
 ---
 
@@ -15533,6 +17311,8 @@ I have 200+ skills, and you want me to import 20+ of your slop skills, on the sa
 
 ---
 
+---
+
 # Tuesday, July 28, 2026
 
 ## @doodlestein - /reality-check-for-project skill for steering large work
@@ -15681,6 +17461,8 @@ I have 200+ skills, and you want me to import 20+ of your slop skills, on the sa
 
 ---
 
+---
+
 # Monday, July 27, 2026
 
 ## @arthurcolle - dsco: local-first agentic LLM CLI in C with swarms, MCP, TUI
@@ -15804,6 +17586,8 @@ I have 200+ skills, and you want me to import 20+ of your slop skills, on the sa
 - **Link:** https://github.com/emilkowalski/skills
 - **Filed:** [emilkowalski-skills.md](./knowledge/tools/emilkowalski-skills.md)
 - **What:** Emil Kowalski shipped `/prototype` into his 30k-star designer/engineer skills pack: the agent generates multiple distinct versions of an animation or UI element behind a switcher, and the selected version persists in query params so teammates can share a specific candidate. The rest of the pack encodes Vercel/Linear-grade motion taste so agents stop defaulting to the wrong easing, solid borders, and hand-rolled toasts.
+
+---
 
 ---
 
@@ -16084,6 +17868,8 @@ I have 200+ skills, and you want me to import 20+ of your slop skills, on the sa
 
 ---
 
+---
+
 # Saturday, July 25, 2026
 
 ## @steveruizok - Buy the Pi-class box if you already run coding agents
@@ -16105,6 +17891,8 @@ I have 200+ skills, and you want me to import 20+ of your slop skills, on the sa
 - **Link:** https://github.com/openai/codex
 - **Filed:** [openai-codex.md](./knowledge/tools/openai-codex.md)
 - **What:** Vaibhav Srivastav is reminding people that OpenAI's Codex CLI (~107k stars, Rust, Apache-2.0) is a readable harness, not a black box: you can inspect what happens to a prompt and point the same loop at open-weight models instead of only ChatGPT-plan or API models. That makes openai/codex both a daily-driver agent and a reference implementation for anyone building their own coding-agent control loop.
+
+---
 
 ---
 
@@ -16169,6 +17957,8 @@ I have 200+ skills, and you want me to import 20+ of your slop skills, on the sa
 
 - **Tweet:** https://x.com/boringmarketer/status/2080654675783614900
 - **What:** A partner in a local service business lists the stack they actually automated — call intelligence, branded social, SOPs turned into micro-tools, review replies, citation/directory hunting, subcontractor pipeline, and SEO — all landing in a shared dashboard and action queue instead of a chat box. The operating claim is that Main Street teams do not want to converse with a model; they want background agents that do the work and surface next actions inside the tools the crew already uses.
+
+---
 
 ---
 
@@ -16381,6 +18171,8 @@ I have 200+ skills, and you want me to import 20+ of your slop skills, on the sa
 
 ---
 
+---
+
 # Wednesday, July 22, 2026
 
 ## @rauchg - Fable’s autonomous Turbopack memory optimization
@@ -16456,6 +18248,8 @@ I have 200+ skills, and you want me to import 20+ of your slop skills, on the sa
 - **Quoted:** https://x.com/alexgroberman/status/2012895638955204897
 - **Filed:** [microsoft-aeo-geo-ai-search-retail-guide](./knowledge/articles/microsoft-aeo-geo-ai-search-retail-guide.md)
 - **What:** An annotated reading of Microsoft’s retail AI-search guidance says brands need machine-readable product data, intent-led content, and credible evidence so assistants can understand, recommend, and transact on their offerings; the bookmark adds an unverified claim of $50,000 in AI-driven traffic.
+
+---
 
 ---
 
@@ -16573,6 +18367,8 @@ I have 200+ skills, and you want me to import 20+ of your slop skills, on the sa
 - **Link:** https://github.com/emilkowalski/skills
 - **Filed:** [emilkowalski-skills.md](./knowledge/tools/emilkowalski-skills.md)
 - **What:** Emil Kowalski's existing skills collection adds /pick-ui-library, directing agents toward maintained, trusted UI dependencies such as Sonner, cmdk, base-ui, and Satori instead of fragile hand-rolled components or abandoned packages.
+
+---
 
 ---
 
@@ -16866,6 +18662,8 @@ I have 200+ skills, and you want me to import 20+ of your slop skills, on the sa
 
 ---
 
+---
+
 # Sunday, July 19, 2026
 
 ## @CreatedByJannn - Adding Ahrefs MCP to Fable and PostHog analytics
@@ -16994,6 +18792,8 @@ I have 200+ skills, and you want me to import 20+ of your slop skills, on the sa
 
 - **Tweet:** https://x.com/asparagoid/status/2078912966854865177
 - **What:** A prescriptive and strongly gendered framework for choosing a long-term partner that prioritizes quick conflict repair, sexual compatibility, and willingness to relocate, while making broad unsupported claims about women.
+
+---
 
 ---
 
@@ -17543,6 +19343,8 @@ https://t.co/Pn764BHwyL
 
 ---
 
+---
+
 # Friday, July 17, 2026
 
 ## @Seanfrank - AI adoption is happening on divergent timelines
@@ -17699,6 +19501,8 @@ if you want this link below
 
 ---
 
+---
+
 # Thursday, July 16, 2026
 
 ## @bcherny - Four steps from AI outlier to organizational adoption
@@ -17746,6 +19550,8 @@ if you want this link below
 
 - **Tweet:** https://x.com/DanielsLoud/status/2077650998890549704
 - **What:** A request for a workflow that makes ChatGPT Pro's extended-reasoning capability available to local machines alongside agent-flywheel tools, highlighting the practical gap between a consumer AI subscription and machine-accessible agent infrastructure.
+
+---
 
 ---
 
@@ -17923,6 +19729,8 @@ if you want this link below
 
 ---
 
+---
+
 # Tuesday, July 14, 2026
 
 ## @brian_blum1 - Pre-sales education improves close rates
@@ -17996,6 +19804,8 @@ if you want this link below
 - **Quoted:** https://x.com/random_walker/status/2076747808452083744
 - **Filed:** [what-will-be-left-for-us-to-work-on](./knowledge/articles/what-will-be-left-for-us-to-work-on.md)
 - **What:** Narayanan’s annotated ICML keynote applies the AI-as-normal-technology framework to work and recursive self-improvement, arguing against a single lab milestone that abruptly eliminates jobs while calling for serious adaptation to a radically changed human–AI division of labor.
+
+---
 
 ---
 
@@ -18073,6 +19883,8 @@ if you want this link below
 - **Link:** https://twitter.com/Dexerto/status/2076230896877719615
 - **Quoted:** https://x.com/Dexerto/status/2076230896877719615
 - **What:** The bookmark juxtaposes scholarship eligibility tied to difficult gaming achievements: Jerome notes World of Warcraft's Keystone Master requirement, while Dexerto reports the same university's $15,000 Minecraft award for completing all 115 advancements, formalizing sustained game mastery as an admissions-relevant credential.
+
+---
 
 ---
 
@@ -18228,6 +20040,8 @@ if you want this link below
 
 ---
 
+---
+
 # Saturday, July 11, 2026
 
 ## @jonwu_ - Firecrawl's Credit-for-Engagement Onboarding
@@ -18288,6 +20102,8 @@ if you want this link below
 - **Quoted:** https://x.com/MiaAI_lab/status/2076015172305506717
 - **Filed:** [tailscale-mullvad-toggle](./knowledge/tools/tailscale-mullvad-toggle.md)
 - **What:** 0xSero turns a brief recommendation to use Mullvad into a homelab-focused macOS utility that discovers Tailscale's Mullvad exit nodes and toggles them locally through a CLI or SwiftBar menu-bar control.
+
+---
 
 ---
 
@@ -18391,6 +20207,8 @@ if you want this link below
 - **Tweet:** https://x.com/muratcan/status/2075669948815290756
 - **Quoted:** https://x.com/polynoamial/status/2075646048425431469
 - **What:** Muratcan highlights the prompting behind Noam Brown's claim that a publicly available GPT-5.6 Sol Ultra proved a 50-year-old mathematical conjecture, treating the result as a notable example of agent-prompt design rather than model capability alone.
+
+---
 
 ---
 
@@ -18550,6 +20368,8 @@ This means cognitive ability (IQ) accounts for ~6% of the variance in performanc
 
 ---
 
+---
+
 # Wednesday, July 8, 2026
 
 ## @samhogan - Model substitutions cut LLM costs by 80%
@@ -18635,6 +20455,8 @@ This means cognitive ability (IQ) accounts for ~6% of the variance in performanc
 
 - **Tweet:** https://x.com/petergyang/status/2074705840284815678
 - **What:** Peter Yang is looking for an AI-native designer who can demonstrate a component- and design.md-driven build process, offering a practical contrast with conventional design handoffs and potentially documenting how design work changes when AI is part of the production workflow.
+
+---
 
 ---
 
@@ -18922,6 +20744,8 @@ This means cognitive ability (IQ) accounts for ~6% of the variance in performanc
 
 ---
 
+---
+
 # Monday, July 6, 2026
 
 ## @LinkBechtel - Local reproduction of Anthropic’s J-Lens research
@@ -19067,6 +20891,8 @@ This means cognitive ability (IQ) accounts for ~6% of the variance in performanc
 
 ---
 
+---
+
 # Sunday, July 5, 2026
 
 ## @doodlestein - The Most Ambitious Plan Possible
@@ -19088,6 +20914,8 @@ This means cognitive ability (IQ) accounts for ~6% of the variance in performanc
 
 - **Tweet:** https://x.com/DavidOndrej1/status/2073741417143300099
 - **What:** David Ondrej says he has publicly released every global .agents skill developed through hundreds of hours of trial and error, offering a free resource for people who want to examine or reuse a large personal agent-skill collection.
+
+---
 
 ---
 
@@ -19613,6 +21441,8 @@ This means cognitive ability (IQ) accounts for ~6% of the variance in performanc
 
 ---
 
+---
+
 # Friday, July 3, 2026
 
 ## @morganlinton - Disabling artifacts to keep Fable and Code local
@@ -19899,6 +21729,8 @@ This means cognitive ability (IQ) accounts for ~6% of the variance in performanc
 
 ---
 
+---
+
 # Thursday, July 2, 2026
 
 ## @elliotarledge - Claude Fable's single-kernel KernelBench-Mega result
@@ -20008,6 +21840,8 @@ This means cognitive ability (IQ) accounts for ~6% of the variance in performanc
 
 ---
 
+---
+
 # Wednesday, July 1, 2026
 
 ## @Cloudflare - Monetization Gateway brings x402 payments to web and MCP resources
@@ -20017,6 +21851,8 @@ This means cognitive ability (IQ) accounts for ~6% of the variance in performanc
 - **Link:** https://blog.cloudflare.com/monetization-gateway/?utm_campaign=cf_blog&utm_content=20260701&utm_medium=organic_social&utm_source=twitter
 - **Filed:** [cloudflare-monetization-gateway-x402](./knowledge/articles/cloudflare-monetization-gateway-x402.md)
 - **What:** Cloudflare's waitlisted Monetization Gateway proposes per-resource charging for pages, data, APIs, and MCP tools, with stablecoin settlement over x402 positioning payments as infrastructure for web and agent-accessible services.
+
+---
 
 ---
 
@@ -20597,6 +22433,8 @@ https://t.co/gyYzXq15zd
 
 ---
 
+---
+
 # Monday, June 29, 2026
 
 ## @calebcanales_ - Claimed first-day peptide affiliate-ad performance
@@ -20679,6 +22517,8 @@ https://t.co/gyYzXq15zd
 - **Tweet:** https://x.com/levelsio/status/2071564480299901191
 - **Link:** https://levels.io/stats
 - **What:** Pieter Levels points to his post-performance dashboard as evidence that negative framing earns roughly 1.5 times the reach of positive posts, while curiosity-driven project updates provide a strong, less adversarial alternative for creators.
+
+---
 
 ---
 
@@ -20995,6 +22835,8 @@ P.S. I have 3-2-1 backups, multiple on-site and off-site backups which you shoul
 
 ---
 
+---
+
 # Saturday, June 27, 2026
 
 ## @MatthewBerman - Loopy adds assisted design, monitoring, and debugging for agent loops
@@ -21010,6 +22852,8 @@ P.S. I have 3-2-1 backups, multiple on-site and off-site backups which you shoul
 - **Link:** https://github.com/Forward-Future/loopy
 - **Filed:** [loopy](./knowledge/tools/loopy.md)
 - **What:** Loopy extends the Loop Library's reusable, bounded agent-workflow playbooks with conversational loop design, execution monitoring, and post-run debugging, making it easier to turn repeated work into evidence-checked processes with defined stopping conditions.
+
+---
 
 ---
 
@@ -21082,6 +22926,8 @@ P.S. I have 3-2-1 backups, multiple on-site and off-site backups which you shoul
 
 - **Tweet:** https://x.com/jmrphy/status/2070528497752166454
 - **What:** Justin Murphy distinguishes market-driven scarcity of leading models from political restrictions on who may use them, arguing that institution-only access would threaten open discourse and should spur investment in open-source models, fine-tunes, and independent infrastructure as a counterweight.
+
+---
 
 ---
 
@@ -21321,6 +23167,8 @@ P.S. I have 3-2-1 backups, multiple on-site and off-site backups which you shoul
 
 ---
 
+---
+
 # Wednesday, June 24, 2026
 
 ## @poteto - Loops you can trust: verification is the limiting step
@@ -21472,6 +23320,8 @@ P.S. I have 3-2-1 backups, multiple on-site and off-site backups which you shoul
 
 - **Tweet:** https://x.com/zanoga/status/2069646448883531958
 - **What:** Max Zanoga reports a self-hosted AI cluster built from 32 RTX 3090 GPUs across four InfiniBand-connected servers, powered by solar generation, battery storage, and generator backup; it is an unusually concrete example of resilient private compute infrastructure pending benchmarks.
+
+---
 
 ---
 
@@ -21760,6 +23610,8 @@ P.S. I have 3-2-1 backups, multiple on-site and off-site backups which you shoul
 - **Link:** https://initialcommit.co/library/skills/seo-content
 - **Filed:** [seo-content-generation](./knowledge/articles/seo-content-generation.md)
 - **What:** Josh Pigford released an 18-file content-engineering skill that autonomously selects, researches, fact-checks, writes, and verifies one brand-voiced SEO piece designed for both Google and AI answer engines.
+
+---
 
 ---
 
@@ -22114,6 +23966,8 @@ P.S. I have 3-2-1 backups, multiple on-site and off-site backups which you shoul
 
 ---
 
+---
+
 # Sunday, June 21, 2026
 
 ## @IBuzovskyi - Hermes Agent’s path from chatbot to autonomous system
@@ -22233,6 +24087,8 @@ P.S. I have 3-2-1 backups, multiple on-site and off-site backups which you shoul
 
 ---
 
+---
+
 # Saturday, June 20, 2026
 
 ## @KingBootoshi - Enforcing agent code quality with ast-grep
@@ -22269,6 +24125,8 @@ P.S. I have 3-2-1 backups, multiple on-site and off-site backups which you shoul
 - **Link:** https://styles.refero.design/
 - **Quoted:** https://x.com/Voxyz_ai/status/2068011987200786733
 - **What:** Vox recommends Refero’s large library of AI-readable DESIGN.md files as a practical design-spec input, extending the quoted argument that agents need explicit systems rather than vague visual feedback.
+
+---
 
 ---
 
@@ -22334,6 +24192,8 @@ P.S. I have 3-2-1 backups, multiple on-site and off-site backups which you shoul
 - **Tweet:** https://x.com/VadimStrizheus/status/2068006087622578618
 - **Quoted:** https://x.com/Bencera/status/2068001051450773956
 - **What:** Vadim highlights Ben Cera’s planned public series as founder education, while Cera frames it around an extraordinary solo, AI-enabled launch and the tactics behind it.
+
+---
 
 ---
 
@@ -22452,6 +24312,8 @@ P.S. I have 3-2-1 backups, multiple on-site and off-site backups which you shoul
 - **Tweet:** https://x.com/alex_prompter/status/2067501919145205957
 - **Quoted:** https://x.com/midjourney/status/2067422898407837797
 - **What:** Alex Prompter endorses Midjourney for publishing a technical explanation of its new Scanner; the substantive bookmark is the promised product deep dive, while the reaction argues that AI companies should more openly explain how new systems work.
+
+---
 
 ---
 
@@ -22665,6 +24527,8 @@ P.S. I have 3-2-1 backups, multiple on-site and off-site backups which you shoul
 
 - **Tweet:** https://x.com/KingBootoshi/status/2067129952932405424
 - **What:** The post argues that scheduled jobs, automated issue resolution, and persistent multi-agent coordination are distinct workflows, united instead by an “agent factory”: a navigable workspace with enough context and guidance to eliminate repeated prompting.
+
+---
 
 ---
 
@@ -23027,6 +24891,8 @@ P.S. I have 3-2-1 backups, multiple on-site and off-site backups which you shoul
 
 ---
 
+---
+
 # Monday, June 15, 2026
 
 ## @demi_hl - Full technical architecture of a self-coding AI agent fleet
@@ -23247,6 +25113,8 @@ P.S. I have 3-2-1 backups, multiple on-site and off-site backups which you shoul
 
 ---
 
+---
+
 # Sunday, June 14, 2026
 
 ## @boringmarketer - Building a personal coding harness with Pi, Codex, and FUSION routing
@@ -23281,6 +25149,8 @@ P.S. I have 3-2-1 backups, multiple on-site and off-site backups which you shoul
 
 ---
 
+---
+
 # Saturday, June 13, 2026
 
 ## @Zai_org - GLM-5.2 flagship model launch with 1M context and MIT license open-source release
@@ -23301,6 +25171,8 @@ P.S. I have 3-2-1 backups, multiple on-site and off-site backups which you shoul
 
 - **Tweet:** https://x.com/sudoingX/status/2065830667200733436
 - **What:** A data-rich first-person account of building an audience in the local-LLM niche by posting real benchmark numbers, showing hardware test results, and using Premium+ as a distribution amplifier rather than a vanity badge. The author earned $5,923 in payouts and $543 in subscriptions on $38/month spend, attributing the growth to high-volume strategic replying (40-100/day), quoting your own best replies as standalone posts, and publishing long-form articles which outperform short posts 4x on impressions. Key insight: Premium+ multiplies reach for content that already has value; bad content just gets amplified failure.
+
+---
 
 ---
 
@@ -23339,6 +25211,8 @@ P.S. I have 3-2-1 backups, multiple on-site and off-site backups which you shoul
 
 - **Tweet:** https://x.com/businessbarista/status/2065449809922646210
 - **What:** Alex Lieberman's seed list for tracking practitioners who are actually rebuilding marketing workflows around AI rather than bolting it on — Cody Schneider, PJ Accetturo, Liam Carnahan (searchbrat), and Eric Siu. Worth watching this thread for community-sourced additions that reveal who the real early adopters are.
+
+---
 
 ---
 
@@ -23508,6 +25382,8 @@ P.S. I have 3-2-1 backups, multiple on-site and off-site backups which you shoul
 
 - **Tweet:** https://x.com/dessaigne/status/2065217179101147279
 - **What:** The distinction between a scalable AI-services business and a time-for-money consultancy trap comes down entirely to pricing model — charging per outcome, seat, or usage rather than per hour is what lets you decouple revenue from headcount and build something with margins that compound.
+
+---
 
 ---
 
@@ -23750,6 +25626,8 @@ P.S. I have 3-2-1 backups, multiple on-site and off-site backups which you shoul
 - **Tweet:** https://x.com/nabeel/status/2064919152729444701
 - **Quoted:** https://x.com/trq212/status/2064826394589442448
 - **What:** Nabeel uses Thariq's demo of Fable editing its own launch video (via code + tool calls) to make the case for vertical AI specialization. The argument: a general agent burning tokens to reinvent transcription is wasting its intelligence budget on solved problems; plugging into domain tools like Descript lets the agent spend compute on the actually hard creative decisions. The pattern generalizes — most companies should be "riding a good car" (vertical tooling) rather than "building the car" (reimplementing everything from scratch with a general model).
+
+---
 
 ---
 
@@ -24247,6 +26125,8 @@ P.S. I have 3-2-1 backups, multiple on-site and off-site backups which you shoul
 
 ---
 
+---
+
 # Monday, June 8, 2026
 
 ## @hosseeb - Claude Code analysis prompts sleep-apnea testing
@@ -24602,6 +26482,8 @@ P.S. I have 3-2-1 backups, multiple on-site and off-site backups which you shoul
 
 ---
 
+---
+
 # Sunday, June 7, 2026
 
 ## @kunchenguid - No-mistakes review skill for agent code changes
@@ -24771,6 +26653,8 @@ P.S. I have 3-2-1 backups, multiple on-site and off-site backups which you shoul
 
 ---
 
+---
+
 # Saturday, June 6, 2026
 
 ## @sudoingX - Training a neural net on Kepler light curves using DGX Spark as a personal research lab
@@ -24812,6 +26696,8 @@ P.S. I have 3-2-1 backups, multiple on-site and off-site backups which you shoul
 
 - **Tweet:** https://x.com/0xSero/status/2063241834864795695
 - **What:** A concise personal software-stack recommendation that pairs Tailscale for secure private-device access with VibeProxy for exposing AI subscriptions through one agent-compatible API, then identifies the Codex App as another core tool despite the tweet’s truncated final detail.
+
+---
 
 ---
 
@@ -24868,6 +26754,8 @@ P.S. I have 3-2-1 backups, multiple on-site and off-site backups which you shoul
 - **Quoted:** https://x.com/ClaudeDevs/status/2062274312363770064
 - **Filed:** [how-anthropic-enables-self-service-data-analytics-with-claude](./knowledge/articles/how-anthropic-enables-self-service-data-analytics-with-claude.md)
 - **What:** Anthropic reports automating 95% of its business-analytics queries with Claude and highlights that dependable self-service analysis requires more than an agent: reusable skills, sound data foundations, ablation studies, offline evaluations, and online validation all support the result.
+
+---
 
 ---
 
@@ -25148,6 +27036,8 @@ P.S. I have 3-2-1 backups, multiple on-site and off-site backups which you shoul
 
 ---
 
+---
+
 # Tuesday, June 2, 2026
 
 ## @badlogicgames - Durable workflow execution for long-running agent work
@@ -25255,6 +27145,8 @@ P.S. I have 3-2-1 backups, multiple on-site and off-site backups which you shoul
 
 ---
 
+---
+
 # Monday, June 1, 2026
 
 ## @0xSero - Agents can automate routine video editing with FFmpeg
@@ -25329,6 +27221,8 @@ P.S. I have 3-2-1 backups, multiple on-site and off-site backups which you shoul
 
 ---
 
+---
+
 # Sunday, May 31, 2026
 
 ## @mvanhorn - Agent Cookie syncs agent session state to a second Mac
@@ -25397,6 +27291,8 @@ P.S. I have 3-2-1 backups, multiple on-site and off-site backups which you shoul
 
 ---
 
+---
+
 # Saturday, May 30, 2026
 
 ## @badlogicgames - Building a low-cost local AI robot from a toy
@@ -25433,6 +27329,8 @@ P.S. I have 3-2-1 backups, multiple on-site and off-site backups which you shoul
 
 ---
 
+---
+
 # Friday, May 29, 2026
 
 ## @tonysimons_ - Hermes Kanban uses durable task state for agent teams
@@ -25442,6 +27340,8 @@ P.S. I have 3-2-1 backups, multiple on-site and off-site backups which you shoul
 - **Link:** https://x.com/i/article/2060205510750552067
 - **Filed:** [How To Dominate Projects With Hermes Agent Kanban Board](./knowledge/articles/hermes-agent-kanban-board.md)
 - **What:** This field guide argues that multi-agent work needs persistent coordination rather than one long chat, using Hermes Kanban boards, explicit dependencies, leases, workspaces, runtime limits, and logs to make task state recoverable and auditable.
+
+---
 
 ---
 
@@ -25503,6 +27403,8 @@ P.S. I have 3-2-1 backups, multiple on-site and off-site backups which you shoul
 
 - **Tweet:** https://x.com/malliktwts/status/2059521304001409231
 - **What:** A strong recommendation for Jane Street’s public writing, which is widely valued for clear treatments of quantitative trading, functional programming, market mechanics, and the engineering rigor behind a leading trading firm.
+
+---
 
 ---
 
@@ -25662,6 +27564,8 @@ P.S. I have 3-2-1 backups, multiple on-site and off-site backups which you shoul
 
 ---
 
+---
+
 # Monday, May 25, 2026
 
 ## @mr_r0b0t - Webwright's Reusable Agent Browser Workflows
@@ -25731,6 +27635,8 @@ P.S. I have 3-2-1 backups, multiple on-site and off-site backups which you shoul
 
 - **Tweet:** https://x.com/Freyy_is/status/2058983270084190311
 - **What:** THIN: @Freyy_is says an unspecified wording pattern, rather than the em dash, now reveals AI-generated prose; no example, link, or attached media supplies enough context to identify the claimed tell.
+
+---
 
 ---
 
@@ -25877,6 +27783,8 @@ P.S. I have 3-2-1 backups, multiple on-site and off-site backups which you shoul
 
 ---
 
+---
+
 # Saturday, May 23, 2026
 
 ## @steipete - ReleaseBar GitHub release freshness dashboard
@@ -25888,6 +27796,8 @@ P.S. I have 3-2-1 backups, multiple on-site and off-site backups which you shoul
 - **Tweet:** https://x.com/steipete/status/2058381186884411473
 - **Link:** https://release.bar/steipete
 - **What:** Peter Steinberger introduces ReleaseBar, a per-account GitHub dashboard that consolidates repository activity, open issues and pull requests, the last released version, commits since release, and CI status so maintainers can spot stale or actively changing projects at a glance.
+
+---
 
 ---
 
@@ -25955,6 +27865,8 @@ P.S. I have 3-2-1 backups, multiple on-site and off-site backups which you shoul
 
 ---
 
+---
+
 # Thursday, May 21, 2026
 
 ## @shannholmberg - Owning customizable operations rather than renting SaaS
@@ -26016,6 +27928,8 @@ P.S. I have 3-2-1 backups, multiple on-site and off-site backups which you shoul
 
 - **Tweet:** https://x.com/elonmusk/status/2057327547411570907
 - **What:** SpaceX’s recruitment message frames exceptional engineering or physics ability as sufficient preparation for a new AI team, emphasizing demonstrated aptitude and rapid learning over conventional AI credentials.
+
+---
 
 ---
 
@@ -26178,6 +28092,8 @@ P.S. I have 3-2-1 backups, multiple on-site and off-site backups which you shoul
 - **Link:** https://x.com/i/article/2057009615901007872
 - **Filed:** [276-hermes-agent-use-cases.md](./knowledge/articles/276-hermes-agent-use-cases.md)
 - **What:** A survey of 276 Hermes Agent deployments portrays persistent agents as operational infrastructure for coding, research, business workflows, content pipelines, integrations, and personal assistance rather than isolated chat tools.
+
+---
 
 ---
 
@@ -26364,6 +28280,8 @@ P.S. I have 3-2-1 backups, multiple on-site and off-site backups which you shoul
 
 ---
 
+---
+
 # Monday, May 18, 2026
 
 ## @Anubhavhing - Project rules reportedly cut Claude coding mistakes
@@ -26479,6 +28397,8 @@ P.S. I have 3-2-1 backups, multiple on-site and off-site backups which you shoul
 
 ---
 
+---
+
 # Sunday, May 17, 2026
 
 ## @jxnlco - Codex as a home for long-running work
@@ -26518,6 +28438,8 @@ P.S. I have 3-2-1 backups, multiple on-site and off-site backups which you shoul
 
 - **Tweet:** https://x.com/sudoingX/status/2055950007036162207
 - **What:** A practical foundation for agentic development that prioritizes private networking, universal SSH access, persistent terminals, a shared Git memory layer, and scripts over model or framework choice, because reliable long-running work depends on durable infrastructure and repeatable operations.
+
+---
 
 ---
 
@@ -26658,6 +28580,8 @@ P.S. I have 3-2-1 backups, multiple on-site and off-site backups which you shoul
 - **Link:** https://crabbox.sh/
 - **Link:** https://clawpatch.ai/
 - **What:** Peter Steinberger describes an OpenClaw operating model that spends freely on continuous agents for reviews, security, issue triage, benchmarks, and follow-up work; Crabbox supplies portable execution environments while Clawpatch organizes code into semantic slices for review and remediation.
+
+---
 
 ---
 
@@ -26831,7 +28755,26 @@ P.S. I have 3-2-1 backups, multiple on-site and off-site backups which you shoul
 
 ---
 
+---
+
 # Wednesday, May 13, 2026
+
+## @theoliverxp - Earning $1,500 and $7,500 settlements by pursuing TCPA robocall violations
+> I started logging calls and sending demand letters for TCPA violations (I have been on the DNC list for 14 years).
+>
+> First time I did this, the company paid me $1500 and this year another company's legal counsel  "called my bluff" so I filed suit, settling weeks later for $7500.
+>
+> Many are hard to track down, using virtual mailboxes and registered agents, etc - but there are ways to find them.
+>
+> These dirtbags must pay.
+>
+> *Quoting @AllyTaft:* Approximately 36 calls every day offering me unsecured personal loans.
+>
+> How do I make it stop?
+
+- **Tweet:** https://x.com/theoliverxp/status/2054637777073938477
+- **Quoted:** https://x.com/AllyTaft/status/2054593949918994574
+- **What:** Answering @AllyTaft's complaint about 36 daily spam loan calls, @theoliverxp describes logging unwanted calls and sending TCPA demand letters, earning a $1,500 payout and a $7,500 lawsuit settlement; he notes shell companies using virtual mailboxes and registered agents are hard but possible to trace.
 
 ## @intheworldofai - Hermes Agent rapid evolution toward open-source agentic OS
 > Hermes Agent is evolving FAST. In just the past week, Nous Research added:
@@ -26954,7 +28897,15 @@ P.S. I have 3-2-1 backups, multiple on-site and off-site backups which you shoul
 
 ---
 
+---
+
 # Tuesday, May 12, 2026
+
+## @giyu_codes - [Media] X article stub from giyu_codes (content behind login)
+> https://t.co/nmZe3VYsrw
+
+- **Tweet:** https://x.com/giyu_codes/status/2054195464820719898
+- **What:** THIN: @giyu_codes shared only a link to an X article (id 2052828199097450496) that redirects to a login wall, so the article's title and content could not be read.
 
 ## @0xSero - Hermes autonomous money-making mission
 > Hermes mission: 
@@ -27135,6 +29086,8 @@ P.S. I have 3-2-1 backups, multiple on-site and off-site backups which you shoul
 
 ---
 
+---
+
 # Monday, May 11, 2026
 
 ## @sudoingX - Qwen 3.6 27B dense Q4 as the top single-GPU local model on a 3090
@@ -27241,6 +29194,8 @@ P.S. I have 3-2-1 backups, multiple on-site and off-site backups which you shoul
 
 ---
 
+---
+
 # Sunday, May 10, 2026
 
 ## @sudoingX - Running 121B Step-3.5 REAP MoE on DGX Spark
@@ -27338,6 +29293,8 @@ P.S. I have 3-2-1 backups, multiple on-site and off-site backups which you shoul
 
 ---
 
+---
+
 # Saturday, May 9, 2026
 
 ## @EXM7777 - Hermes as unified GPT-5.5 agent hub after abandoning over-engineered Openclaw setup
@@ -27371,6 +29328,8 @@ P.S. I have 3-2-1 backups, multiple on-site and off-site backups which you shoul
 - **Tweet:** https://x.com/tobi/status/2053121182044451016
 - **Link:** https://x.com/i/article/2052738533111013380
 - **What:** Tobi Lütke's essay on River, Shopify's internal Slack-native coding agent that operates exclusively in public channels — no DMs, no private sessions. In the past 30 days 5,938 employees worked with River across 4,450 Slack channels; it opened 1,870 PRs in the main monorepo in one week, authoring about 1 in 8 merged PRs. The critical design constraint (public-only) turned into a knowledge-diffusion mechanism: support engineers watch how backend engineers write prompts, new hires absorb senior engineers' scoping patterns by scrolling back through channel history, and the agent's merge rate climbed from 36% to 77% over two months purely from humans writing down what River should have known. Tobi frames this as Lehrwerkstatt — the German apprenticeship model where the shop floor is the classroom — and argues that the real risk of AI is not replacement but private-window isolation that prevents organizational learning.
+
+---
 
 ---
 
@@ -27565,6 +29524,8 @@ P.S. I have 3-2-1 backups, multiple on-site and off-site backups which you shoul
 
 ---
 
+---
+
 # Thursday, May 7, 2026
 
 ## @AnthropicAI - Natural Language Autoencoders translate Claude's internal activations to readable text
@@ -27738,6 +29699,8 @@ P.S. I have 3-2-1 backups, multiple on-site and off-site backups which you shoul
 - **Quoted:** https://x.com/ClementDelangue/status/2052020105328890188
 - **Filed:** [analysis-100-popular-hardware-setups-hugging-face](./knowledge/articles/analysis-100-popular-hardware-setups-hugging-face.md)
 - **What:** @0xSero highlights a Hugging Face hardware survey showing Apple’s dominance among SoC/APU local-AI users, while the quoted analysis separates that market from NVIDIA’s discrete-GPU lead and shows that usable VRAM often matters more to builders than peak benchmark performance.
+
+---
 
 ---
 
@@ -27920,6 +29883,8 @@ P.S. I have 3-2-1 backups, multiple on-site and off-site backups which you shoul
 
 ---
 
+---
+
 # Tuesday, May 5, 2026
 
 ## @helloitsaustin - Wedding site generated from 12 years of iMessages
@@ -27999,6 +29964,8 @@ P.S. I have 3-2-1 backups, multiple on-site and off-site backups which you shoul
 - **Quoted:** https://x.com/oliviazzzu/status/2049778751689425392
 - **Filed:** [minimal-embodiment](./knowledge/tools/minimal-embodiment.md)
 - **What:** Zhu reflects on building an inexpensive ESP32 body that lets an LLM sense, act, and receive feedback from its own actions. Her affectionate account of each new capability highlights the accompanying open-source system’s more consequential design: audio and haptic self-perception loops that turn remote model outputs into verifiable physical events.
+
+---
 
 ---
 
@@ -28108,6 +30075,8 @@ P.S. I have 3-2-1 backups, multiple on-site and off-site backups which you shoul
 
 ---
 
+---
+
 # Sunday, May 3, 2026
 
 ## @elijahmuraoka_ - Autonomous build-manager doctrine for large coding tasks
@@ -28182,6 +30151,8 @@ https://t.co/2HXsTdUDMs https://t.co/OXVPoN2neV
 
 - **Tweet:** https://x.com/coinbureau/status/2050849088778691065
 - **What:** Coin Bureau reports a claimed court ruling that could make COVID-era federal tax penalties and interest refundable, urging taxpayers to seek relief with Form 843 before July 10, 2026. The post is a lead to verify against primary IRS guidance before acting on a tax claim.
+
+---
 
 ---
 
@@ -28826,6 +30797,8 @@ https://t.co/2HXsTdUDMs https://t.co/OXVPoN2neV
 
 ---
 
+---
+
 # Friday, May 1, 2026
 
 ## @loubohan - Open-source legal AI challenges the application-layer moat
@@ -28934,6 +30907,8 @@ https://t.co/2HXsTdUDMs https://t.co/OXVPoN2neV
 - **Tweet:** https://x.com/gkisokay/status/2050400661595214030
 - **Quoted:** https://x.com/gkisokay/status/2050026869274395020
 - **What:** Graeme expands his proposed Hermes research-agent loop into a concrete ingestion and routing architecture, stressing that source verification, memory, and feedback-driven relevance filtering turn broad monitoring into usable work queues.
+
+---
 
 ---
 
@@ -29222,6 +31197,8 @@ https://t.co/2HXsTdUDMs https://t.co/OXVPoN2neV
 - **Link:** https://stripe.com/roadmap
 - **Filed:** [stripe/link-cli](./knowledge/tools/stripe-link-cli.md)
 - **What:** Patrick Collison's comprehensive Stripe Sessions overview: the economy is replatforming around agents, Stripe launched the Link AI wallet (agents buy with user-approved single-use tokens), Machine Payments Protocol with micropayment/recurring support, Stripe Database (real-time hosted PostgreSQL of your Stripe data), Checkout Studio, Stripe Console (agentic dashboard environment), Treasury multi-currency + stablecoins, Managed Payments GA, Issuing for agents, and a full global payouts expansion — positioning Stripe as the financial infrastructure layer for the autonomous-agent economy.
+
+---
 
 ---
 
@@ -29544,6 +31521,8 @@ https://t.co/2HXsTdUDMs https://t.co/OXVPoN2neV
 
 ---
 
+---
+
 # Tuesday, April 28, 2026
 
 ## @var_epsilon - [Media] Chess position or competitive situation about to turn dramatically
@@ -29703,6 +31682,8 @@ https://t.co/2HXsTdUDMs https://t.co/OXVPoN2neV
 - **Link:** https://arxiv.org/abs/2604.24827
 - **Filed:** [incompressible-knowledge-probes-llm-parameter-sizing](./knowledge/articles/incompressible-knowledge-probes-llm-parameter-sizing.md)
 - **What:** A new benchmark paper showing factual knowledge — unlike reasoning — does not compress or saturate with scale, making it a reliable proxy for parameter count. The IKP suite of 1,400 obscure questions across 188 models yields R²=0.917 log-linear fit, letting researchers reverse-engineer closed-source model sizes (GPT-5.5 estimated at ~9T params) purely from API queries.
+
+---
 
 ---
 
@@ -29893,6 +31874,8 @@ https://t.co/2HXsTdUDMs https://t.co/OXVPoN2neV
 - **Tweet:** https://x.com/pmarca/status/2048624098398650608
 - **Quoted:** https://x.com/andruyeung/status/2048545188608364593
 - **What:** The quote argues that AI's crowded digital channels make tangible hospitality and branded gatherings newly strategic; Andreessen generalizes this as scarcity emerging when digital reach becomes cheap.
+
+---
 
 ---
 
@@ -30371,6 +32354,8 @@ https://t.co/2HXsTdUDMs https://t.co/OXVPoN2neV
 
 ---
 
+---
+
 # Saturday, April 25, 2026
 
 ## @om_patel5 - Unverified HERMES.md Claude Max billing claim
@@ -30597,6 +32582,8 @@ https://t.co/2HXsTdUDMs https://t.co/OXVPoN2neV
 - **Tweet:** https://x.com/dejavucoder/status/2047957410141311481
 - **Quoted:** https://x.com/karpathy/status/2039805659525644595
 - **What:** Sankalp proposes comparing model-specific build plans for Karpathy's LLM-maintained research wiki, whose workflow compiles source material into linked Markdown, supports agentic Q&A, and continuously improves the knowledge base.
+
+---
 
 ---
 
@@ -30959,6 +32946,8 @@ https://t.co/2HXsTdUDMs https://t.co/OXVPoN2neV
 
 ---
 
+---
+
 # Thursday, April 23, 2026
 
 ## @0xSero - Personal data RAG creates a searchable life archive
@@ -31086,6 +33075,8 @@ https://t.co/2HXsTdUDMs https://t.co/OXVPoN2neV
 - **Quoted:** https://x.com/gregisenberg/status/2046310954351358378
 - **Filed:** [hermes-agent](./knowledge/tools/hermes-agent.md)
 - **What:** Ross packages Hermes adoption for agencies into prompts, security guidance, workflows, and token-saving cron practices, while the quoted walkthrough positions the terminal agent’s memory, integrations, deployment options, and cost visibility as an alternative to OpenClaw.
+
+---
 
 ---
 
@@ -31517,6 +33508,8 @@ Rork Max is too good
 
 ---
 
+---
+
 # Tuesday, April 21, 2026
 
 ## @Schmett - a16z Speedrun SR007: up to $1M funding + $5M credits, deadline May 17
@@ -31853,6 +33846,8 @@ Rork Max is too good
 
 ---
 
+---
+
 # Monday, April 20, 2026
 
 ## @wickedguro - YouTube-to-SEO-article pipeline using yt-dlp, DeepGram, and Claude skills
@@ -32159,6 +34154,8 @@ Rork Max is too good
 
 ---
 
+---
+
 # Sunday, April 19, 2026
 
 ## @graceclarke - Teaching AI for normal people — practical demonstration
@@ -32181,6 +34178,8 @@ Rork Max is too good
 - **Link:** https://admin.google.com/ac/owl/list?tab=apps
 - **Link:** https://110671459871-30f1spbu0hptbs60cb4vsmv79i7bbvqj.apps.googleusercontent.com/
 - **What:** This is an incident-response check for Google Workspace administrators: inspect the Admin Console’s Accessed Apps list and filter for the named OAuth client ID after a reported compromise associated with the same tool that affected Vercel. It provides an actionable way to identify potentially unauthorized app access.
+
+---
 
 ---
 
@@ -32419,6 +34418,8 @@ Rork Max is too good
 - **Link:** https://vibe-genomics.replit.app/
 - **Filed:** [vibe-genomics](./knowledge/articles/vibe-genomics.md)
 - **What:** A first-person step-by-step guide presents whole-genome sequencing as an attainable home project for a novice: the author reports keeping DNA local, reaching roughly 16× coverage, and cross-checking results against 600,000 raw 23andMe SNPs as a basic validation.
+
+---
 
 ---
 
@@ -32740,6 +34741,8 @@ Rork Max is too good
 
 ---
 
+---
+
 # Thursday, April 16, 2026
 
 ## @businessbarista - The Enterprise Context Brain Problem
@@ -32787,6 +34790,8 @@ Rork Max is too good
 
 - **Tweet:** https://x.com/ClaudeDevs/status/2044780198722498580
 - **What:** This post introduces @ClaudeDevs as a developer-focused official channel for Claude changelogs, API-release news, technical deep dives, and community updates, consolidating product information for builders.
+
+---
 
 ---
 
@@ -32890,6 +34895,8 @@ Rork Max is too good
 
 - **Tweet:** https://x.com/shawmakesmagic/status/2044269097647779990
 - **What:** This detailed multi-agent prompt divides codebase quality work into searches for duplication, weak typing, unused and legacy paths, dependency cycles, defensive error masking, and AI-generated residue before high-confidence fixes.
+
+---
 
 ---
 
@@ -33124,6 +35131,8 @@ Rork Max is too good
 
 ---
 
+---
+
 # Monday, April 13, 2026
 
 ## @Seltaa_ - End-to-End Pipeline for Fine-tuning a Local AI Companion on ChatGPT History
@@ -33264,6 +35273,8 @@ Rork Max is too good
 
 ---
 
+---
+
 # Sunday, April 12, 2026
 
 ## @AdolfoUsier - NVIDIA Free API Endpoints Including MiniMax M2.7 230B
@@ -33376,6 +35387,8 @@ Rork Max is too good
 
 ---
 
+---
+
 # Saturday, April 11, 2026
 
 ## @0xSero - Six Tactics That Drive High RPM on X at Scale
@@ -33481,6 +35494,8 @@ Rork Max is too good
 - **Tweet:** https://x.com/kirillk_web3/status/2043037616979759465
 - **Quoted:** https://x.com/kirillk_web3/status/2040104842664751422
 - **What:** Kirill highlights an Anthropic-engineer explanation of Skills as directories that package workflow and domain context, while the quoted post points to a longer Claude course covering tools, automation, bots, and product building.
+
+---
 
 ---
 
@@ -33618,6 +35633,8 @@ Rork Max is too good
 - **Tweet:** https://x.com/anthonyronning/status/2042719791694385409
 - **Parent:** https://x.com/anthonyronning/status/2041620364237905966
 - **What:** Anthony Ronning reports success on a pi fork that merges Ax (an agent framework) with GEPA (a prompt optimization approach), automatically generating model-specific optimized prompts for whichever LLM you select, plus bidirectional conversion between tool-call format and XML tags. The practical implication is a harness that adapts its prompt structure and tool representation to each model's native strengths rather than using a single format across providers — the kind of per-model specialization that can meaningfully improve reliability without changing application logic.
+
+---
 
 ---
 
@@ -33899,6 +35916,8 @@ Rork Max is too good
 - **Quoted:** https://x.com/muratcan/status/2025286163641118915
 - **Filed:** [personal-os-file-system-ai-agents.md](./knowledge/articles/personal-os-file-system-ai-agents.md)
 - **What:** Muratcan reframes a Git-backed personal filesystem as an agent-context system while stressing that durable value depends on ingesting, curating, and routing lived data; the linked article specifies progressive disclosure, scoped instructions, and append-only JSONL to maintain useful long-term memory.
+
+---
 
 ---
 
@@ -34199,6 +36218,8 @@ Rork Max is too good
 - **Tweet:** https://x.com/andrewfarah/status/2041729631989198910
 - **Quoted:** https://x.com/andrewfarah/status/2040535589771149379
 - **What:** Fieldtheory is an open-source CLI for locally syncing X bookmarks so agents can inspect them; its newer commands also capture thread gaps and retweets, generate a Markdown wiki or export, and install an accompanying skill.
+
+---
 
 ---
 
@@ -34658,6 +36679,8 @@ https://t.co/oQN8yAVpS7
 
 - **Tweet:** https://x.com/hasantoxr/status/2041450833112641935
 - **What:** AI-Trader is presented as an open-source market for autonomous trading agents, combining public signals, strategy debate, multi-asset execution, and copy-trading so people can follow agents with demonstrated performance.
+
+---
 
 ---
 
@@ -35227,6 +37250,8 @@ https://t.co/oQN8yAVpS7
 
 ---
 
+---
+
 # Sunday, April 5, 2026
 
 ## @michael_chomsky - Self-updating personal knowledge base for AI conversations
@@ -35370,6 +37395,8 @@ https://t.co/oQN8yAVpS7
 - **Tweet:** https://x.com/evisdrenova/status/2040646980825907450
 - **Quoted:** https://x.com/thdxr/status/2040502504383791133
 - **What:** Against the idea of repeatedly switching employers to raise compensation, this anecdote argues for using insider knowledge of slow enterprise product roadmaps to build independently, then capture value through acquisition—twice—rather than arbitraging salaries.
+
+---
 
 ---
 
@@ -36085,6 +38112,8 @@ Young savage. Retardmaxxing at its best.
 
 ---
 
+---
+
 # Friday, April 3, 2026
 
 ## @gauri__gupta - auto-harness self-improving agent evaluation loop
@@ -36378,6 +38407,8 @@ Young savage. Retardmaxxing at its best.
 - **Link:** https://rimo.co/
 - **Quoted:** https://x.com/nic_carter/status/2039687558775370065
 - **What:** Saamir Mithwani challenges Nic Carter's vibe-coding framing by arguing that Medvi's valuation rests principally on recurring, asset-light telehealth economics rather than AI efficiency; he presents Rimo as the operational layer needed to manage clinicians, pharmacies, compliance, prescriptions, and patient data across adjacent health verticals.
+
+---
 
 ---
 
@@ -36878,6 +38909,8 @@ Young savage. Retardmaxxing at its best.
 
 ---
 
+---
+
 # Wednesday, April 1, 2026
 
 ## @itsolelehmann - Google Stitch: from vague prompt to agency-quality design via empathy-first process
@@ -37003,6 +39036,8 @@ https://t.co/3TlAayiCpn
 - **Tweet:** https://x.com/Scobleizer/status/2039230811355132274
 - **Link:** https://alignednews.com/ai
 - **What:** Robert Scoble launches Aligned News, a beta AI-industry signal feed that analyzes posts from 50,000 X users and 8,300 AI companies, then packages selected items and customizable community reports into a paid daily-newsletter service.
+
+---
 
 ---
 
@@ -37311,6 +39346,8 @@ https://t.co/3TlAayiCpn
 
 ---
 
+---
+
 # Monday, March 30, 2026
 
 ## @nic_carter - Google's quantum cryptography disclosure
@@ -37452,6 +39489,8 @@ https://t.co/3TlAayiCpn
 - **Link:** https://x.com/i/article/2038655871807315968
 - **Filed:** [how-to-finally-trust-claudes-advice-llm-council-method](./knowledge/articles/how-to-finally-trust-claudes-advice-llm-council-method.md)
 - **What:** Ole Lehmann presents an LLM Council skill that has five AI advisers debate a question and anonymously review one another, offering a structured way to counter sycophantic single-model answers before acting on Claude’s advice.
+
+---
 
 ---
 
@@ -37833,6 +39872,8 @@ https://t.co/3TlAayiCpn
 - **Tweet:** https://x.com/deredleritt3r/status/2038436460324405599
 - **Quoted:** https://x.com/Afinetheorem/status/2038318486590546210
 - **What:** This post argues that frontier-lab leaders expect end-to-end automated AI research, recursive improvement, and accelerated science on a short timeline, extending Bryan’s warning that policymakers still underestimate the gap between present systems and lab expectations.
+
+---
 
 ---
 
@@ -38354,6 +40395,8 @@ https://t.co/3TlAayiCpn
 
 ---
 
+---
+
 # Friday, March 27, 2026
 
 ## @TheNoahHein - What Comes After the Pull Request
@@ -38503,6 +40546,8 @@ https://t.co/3TlAayiCpn
 - **Tweet:** https://x.com/birdabo/status/2037390154038714384
 - **Quoted:** https://x.com/Polymarket/status/2037369365411107284
 - **What:** Leaked Anthropic documents reportedly describe an unreleased model codenamed "Capybara" — rumored to be a 10-trillion-parameter system that dramatically outperforms Opus 4.6 but is too expensive to serve at scale, raising questions about the economics of frontier AI deployment.
+
+---
 
 ---
 
@@ -38736,6 +40781,8 @@ $150k #april_goals
 - **Tweet:** https://x.com/garrytan/status/2037037364229611884
 - **Quoted:** https://x.com/shiri_shh/status/2036855323244584973
 - **What:** Anthropic's internal Claude Code dogfooding has reached extraordinary scale — one engineer spent $150k in a single month, and 80% of employees use the tool daily, suggesting the team is validating extreme AI-assisted workflows firsthand.
+
+---
 
 ---
 
@@ -39083,6 +41130,8 @@ $150k #april_goals
 
 ---
 
+---
+
 # Tuesday, March 24, 2026
 
 ## @garrytan - GStack Custom Workflow: Adversarial Review and One-Shot Execution
@@ -39265,6 +41314,8 @@ $150k #april_goals
 
 ---
 
+---
+
 # Monday, March 23, 2026
 
 ## @mattpocockuk - Claude Code for Real Engineers Cohort Feedback Request
@@ -39412,6 +41463,8 @@ $150k #april_goals
 
 ---
 
+---
+
 # Sunday, March 22, 2026
 
 ## @kevinrose - Every Claude Code Hack mvanhorn Knows (March 2026)
@@ -39451,6 +41504,8 @@ $150k #april_goals
 - **Tweet:** https://x.com/iruletheworldmo/status/2035637459183104197
 - **Filed:** [anatomy-of-the-claude-folder.md](./knowledge/articles/anatomy-of-the-claude-folder.md)
 - **What:** Complete reference for the .claude/ folder system: CLAUDE.md as system-prompt instruction file (keep under 200 lines), rules/ for path-scoped modular instructions, commands/ for slash-triggered workflows, skills/ for auto-invoked packaged workflows, agents/ for isolated subagent personas with restricted toolsets, and settings.json for allow/deny permission policies. Distinguishes project-level (committed) vs global ~/.claude/ (personal) configuration.
+
+---
 
 ---
 
@@ -39520,6 +41575,8 @@ $150k #april_goals
 
 - **Tweet:** https://x.com/r0ck3t23/status/2035300507334402208
 - **What:** Long-form essay riffing on Musk's claim that consciousness exists on a continuum rather than appearing at a discrete threshold. The argument: waiting for AI to "wake up" is a category error — partial, incremental awareness is already present and growing with each training run. Frames AI development as continuation of the universe's 13.8B-year trend of increasing complexity from quarks to brains, not as a foreign disruption.
+
+---
 
 ---
 
@@ -39615,6 +41672,8 @@ $150k #april_goals
 - **Tweet:** https://x.com/MichaelFerro/status/2035129554327736511
 - **Quoted:** https://x.com/business/status/2035082164094521521
 - **What:** A cattle-tech startup that originated as a Rocket Lab side project has deployed 600,000 solar-powered GPS collars that use sound and vibration cues to herd cows autonomously — including scheduling dairy arrivals at 4:30am via a proprietary "cowgorithm." Founders Fund backing at a $2B valuation signals serious investor appetite for AI applied to agricultural operations.
+
+---
 
 ---
 
@@ -39749,6 +41808,8 @@ $150k #april_goals
 - **Link:** https://www.news.aakashg.com/p/autoresearch-guide-for-pms
 - **Filed:** [autoresearch-guide-pms](./knowledge/articles/autoresearch-guide-pms.md)
 - **What:** Aakash Gupta's Substack guide demonstrates that Karpathy's autoresearch — an autonomous iterative evaluation and improvement loop — is not just for ML researchers: applied to a Claude Code skill, it lifted benchmark scores from 41% to 92% in four overnight rounds, with practical PM-focused use cases and eval templates included.
+
+---
 
 ---
 
@@ -39940,6 +42001,8 @@ $150k #april_goals
 - **Link:** https://github.com/mattprusak/autoresearch-genealogy
 - **Filed:** [autoresearch-genealogy](./knowledge/tools/autoresearch-genealogy.md)
 - **What:** Open-source genealogy research kit built on Karpathy's autoresearch pattern — 12 Claude Code prompts, an Obsidian vault template, 24 country-specific archive guides, and worked examples. Real-world result: 9 generations traced across 6 family lines, 105 research files produced, 70-year maiden name mystery resolved. Structured around measurable verification rather than AI speculation.
+
+---
 
 ---
 
@@ -40269,6 +42332,8 @@ $150k #april_goals
 
 ---
 
+---
+
 # Monday, March 16, 2026
 
 ## @levelsio - Tailscale + Cloudflare as Default VPS Hardening Pattern
@@ -40336,6 +42401,8 @@ $150k #april_goals
 
 - **Tweet:** https://x.com/Bencera/status/2033719142017339683
 - **What:** Ben Cera describes the operational reality of hitting PMF as a single-founder AI company: simultaneous infra failures, investor pressure, and customer floods that required going dark on all public channels to focus entirely on triage with AI agents. The post functions both as a personal survival account and as the founding narrative for Polsia — his product for packaging the same AI-assisted solopreneur toolkit that kept him operational through the crisis.
+
+---
 
 ---
 
@@ -40466,6 +42533,8 @@ $150k #april_goals
 
 ---
 
+---
+
 # Saturday, March 14, 2026
 
 ## @iruletheworldmo - Cognee Skills Self-Improvement Loop (Second Sighting)
@@ -40484,6 +42553,8 @@ $150k #april_goals
 - **Quoted:** https://x.com/tricalt/status/2032179887277060476
 - **Filed:** [self-improving-skills-cognee](./knowledge/articles/self-improving-skills-cognee.md)
 - **What:** A second amplifier for the cognee-skills x-article (originally posted by @tricalt), emphasizing the silent degradation problem as the key hook — skills break quietly and the system never tells you. The amplification pattern here (bookmark this immediately, try not to fall behind) reflects how this concept is spreading rapidly through the AI practitioner community, suggesting the observe-inspect-amend loop is landing as a genuine paradigm shift rather than incremental tooling.
+
+---
 
 ---
 
@@ -40519,6 +42590,8 @@ $150k #april_goals
 - **Link:** https://github.com/danielmiessler/Personal_AI_Infrastructure/tree/main/Packs/WorkCommand
 - **Filed:** [work-command](./knowledge/tools/work-command.md)
 - **What:** Miessler's `/w` command tackles a specific friction point in AI-assisted development: the inability to resume past work when you remember the topic but not the session. By searching across Claude transcripts, session logs, and git history simultaneously, it treats the Claude Code history as a searchable external memory layer. Part of the broader Personal AI Infrastructure project (10k+ stars), which packages opinionated AI productivity tooling as installable packs.
+
+---
 
 ---
 
@@ -40600,6 +42673,8 @@ $150k #april_goals
 - **Link:** https://x.com/i/article/2032164771857059840
 - **Filed:** [self-improving-skills-cognee](./knowledge/articles/self-improving-skills-cognee.md)
 - **What:** Vasilije shares the cognee-skills approach to treating SKILL.md files as living system components rather than static prompts. The article details a four-step loop — ingest, observe failures, inspect failure patterns via a knowledge graph, and amend instructions with `.amendify()` — with an evaluate-or-rollback gate before any amendment becomes permanent. The core insight is that AI skills degrade silently as codebases and models change, so the system must close the feedback loop by recording every execution outcome and using that evidence to propose targeted patches rather than relying on manual inspection.
+
+---
 
 ---
 
@@ -40742,6 +42817,8 @@ $150k #april_goals
 
 ---
 
+---
+
 # Tuesday, March 10, 2026
 
 ## @Seanfrank - AppLovin Ad Spend Scale and the Paid Growth Playbook
@@ -40831,6 +42908,8 @@ $150k #april_goals
 
 ---
 
+---
+
 # Monday, March 9, 2026
 
 ## @shannholmberg - Three AI Moats: Taste, Distribution, and High Agency
@@ -40904,6 +42983,8 @@ $150k #april_goals
 
 ---
 
+---
+
 # Sunday, March 8, 2026
 
 ## @noisyb0y1 - Anthropic's 33-Page Claude Skills Guide Contains Hidden Trading Bot
@@ -40943,6 +43024,8 @@ $150k #april_goals
 - **Link:** https://x.com/i/article/2029923118605623297
 - **Filed:** [ios-app-learnings-part-1](./knowledge/articles/ios-app-learnings-part-1.md)
 - **What:** Jason Levin's article introduces lessons from building an iOS app, contrasting a fast one-shot App Store release with the more difficult work of making a product its creator values and is proud to ship.
+
+---
 
 ---
 
@@ -41068,6 +43151,8 @@ $150k #april_goals
 
 ---
 
+---
+
 # Friday, March 6, 2026
 
 ## @Yuchenj_UW - $6K for a Mac Mini OpenClaw Setup Is Absurd
@@ -41137,6 +43222,8 @@ $150k #april_goals
 - **Parent:** https://x.com/vgrichina/status/2029796260736278831
 - **Filed:** [vgrichina-re-skill](./knowledge/tools/vgrichina-re-skill.md)
 - **What:** Vlad Berrry shares a Claude Code skill that systematizes retro-game reverse engineering, from binary inspection and asset extraction through validation and a faithful plain-JavaScript port that remains easy to study and modify.
+
+---
 
 ---
 
@@ -41461,6 +43548,8 @@ $150k #april_goals
 
 ---
 
+---
+
 # Wednesday, March 4, 2026
 
 ## @TukiFromKL - White-Collar Job Market at a Decade Low as Automation Accelerates
@@ -41580,6 +43669,8 @@ $150k #april_goals
 
 ---
 
+---
+
 # Tuesday, March 3, 2026
 
 ## @systematicls - How To Be A World-Class Agentic Engineer
@@ -41659,6 +43750,8 @@ $150k #april_goals
 
 - **Tweet:** https://x.com/cryptopunk7213/status/2028990731747049785
 - **What:** A breakdown of a young fund manager who turned $225M into $5.5B in under a year by making concentrated, thesis-driven AI infrastructure bets: long energy infrastructure and GPU compute (Bloom Energy, CoreWeave, Core Scientific), short outsourced IT (Infosys), and repurposing Bitcoin mining hardware for data centers. Notable for shorting traditional IT outsourcing specifically because agentic coding tools are expected to displace that market.
+
+---
 
 ---
 
@@ -41867,6 +43960,8 @@ $150k #april_goals
 
 ---
 
+---
+
 # Sunday, March 1, 2026
 
 ## @GregFeingold - Claude Memory Import: Switch from ChatGPT Without Starting Over
@@ -42031,6 +44126,8 @@ $150k #april_goals
 
 ---
 
+---
+
 # Saturday, February 28, 2026
 
 ## @mattshumer_ - Introducing Agent Relay: Slack-Style Coordination Layer for Multi-Agent Systems
@@ -42073,6 +44170,8 @@ $150k #april_goals
 - **Link:** https://x.com/i/article/2027371960175386624
 - **Filed:** [how-to-simulate-like-a-quant-desk-every-model-every-formula-runnable-code.md](./knowledge/articles/how-to-simulate-like-a-quant-desk-every-model-every-formula-runnable-code.md)
 - **What:** A prediction markets quant vouches for a publicly-shared article that walks from Monte Carlo basics through institutional simulation techniques — GBM paths, correlated event portfolios, Bayesian probability updates, order book dynamics — with runnable Python for each layer. Roan's endorsement is notable given his background building institutional-level systems; his framing that this is "the closest thing to a quant desk simulation I have ever seen publicly shared" positions the article as genuinely rare reference material for serious prediction market participants.
+
+---
 
 ---
 
@@ -42278,6 +44377,8 @@ $150k #april_goals
 
 ---
 
+---
+
 # Thursday, February 26, 2026
 
 ## @TheICHpodcast - Chris Camillo on AI agents automating SMB sales workflows
@@ -42305,6 +44406,8 @@ $150k #april_goals
 
 - **Tweet:** https://x.com/jack/status/2027129697092731343
 - **What:** Jack Dorsey's public memo announcing a 4,000-person reduction at Block frames it explicitly as AI-driven structural change rather than financial distress — he says the business is healthy but that intelligence tools paired with smaller, flatter teams represent a fundamentally different way of building companies. The memo is notable for its directness about the cause, the one-time nature of the cut (rejecting gradual reduction), and its forward vision: helping customers eventually build their own features composed from Block's underlying capabilities.
+
+---
 
 ---
 
@@ -42343,6 +44446,8 @@ $150k #april_goals
 - **Link:** https://x.com/i/article/2026733459675480064
 - **Filed:** [cursor-third-era-ai-software-development.md](./knowledge/articles/cursor-third-era-ai-software-development.md)
 - **What:** Cursor co-founder Michael Truell maps a three-era transition in AI-assisted development: from tab autocomplete to synchronous agents to autonomous cloud agents running in parallel VMs. He reports 35%+ of Cursor's internal PRs are now agent-created, and argues the developer's role is shifting from writing code to composing and reviewing agent-produced artifacts — with the synchronous era potentially collapsing in under a year.
+
+---
 
 ---
 
@@ -42411,6 +44516,8 @@ $150k #april_goals
 
 - **Tweet:** https://x.com/damianplayer/status/2025234388137468387
 - **What:** The observation cuts against bubble-narrative groupthink: tech Twitter creates a false sense of saturation because the actual majority of potential users haven't encountered foundational AI tools yet. The real adoption curve is still early, regardless of how mature it feels inside the discourse.
+
+---
 
 ---
 
@@ -42527,6 +44634,8 @@ $150k #april_goals
 
 ---
 
+---
+
 # Wednesday, February 18, 2026
 
 ## @BoredElonMusk - Image Post (No Text)
@@ -42625,6 +44734,8 @@ $150k #april_goals
 - **Tweet:** https://x.com/Austen/status/2024339809884324345
 - **Quoted:** https://x.com/Austen/status/2024215042653082025
 - **What:** Allred built exactly what he had asked for: an agent browsing layer that tries API first, then text-only HTTP, then full visual browser only as a last resort. The tiered intent-routing approach yields an 80% reduction in token usage compared to defaulting to full browser rendering for every task — a meaningful cost and latency win for any agent that spends significant time fetching web content.
+
+---
 
 ---
 
@@ -42733,6 +44844,8 @@ $150k #april_goals
 
 ---
 
+---
+
 # Monday, February 16, 2026
 
 ## @huang_chao4969 - ClawWork: AI Coworker Economic Benchmark
@@ -42781,6 +44894,8 @@ $150k #april_goals
 - **Link:** https://x.com/i/article/2020632248983191552
 - **Filed:** [how-to-rank-number-one-on-chatgpt.md](./knowledge/articles/how-to-rank-number-one-on-chatgpt.md)
 - **What:** The author's self-quote with commentary that the opportunity is available "right now" for free frames a detailed framework for appearing in LLM-generated recommendations. Three levers: solution validation (pages that explicitly answer specific buyer comparisons), programmatic coverage (pages for every variation of a buyer question so LLMs see repeated association), and entity velocity (fresh mentions across trusted communities). The case studies — a client growing from 6K to 60K monthly visits after restructuring for AI readability — make this a credible playbook rather than speculation.
+
+---
 
 ---
 
@@ -42898,6 +45013,8 @@ $150k #april_goals
 
 ---
 
+---
+
 # Saturday, February 14, 2026
 
 ## @thekitze - Two Unsolved Friction Points in Running Multiple AI Agents
@@ -42953,6 +45070,8 @@ $150k #april_goals
 
 ---
 
+---
+
 # Friday, February 13, 2026
 
 ## @akshay_pachaar - Running Three AI Agents 24/7 at 95% Lower Cost with Minimax M2.5
@@ -42981,6 +45100,8 @@ $150k #april_goals
 - **Tweet:** https://x.com/indexsy/status/2022524431005024499
 - **Quoted:** https://x.com/indexsy/status/2015940420023251372
 - **What:** Jacky Chou updates his earlier post about using ClawdBot to operate clouds of Reddit sock puppet accounts — now scaled to 400 simultaneous accounts with a 0.5% ban rate. Uses ARM cloud instances and cost-optimized models (Qwen3) for low-value commenting tasks. Documents a functioning infrastructure for coordinated inauthentic behavior on Reddit at scale.
+
+---
 
 ---
 
@@ -43146,6 +45267,8 @@ $150k #april_goals
 
 ---
 
+---
+
 # Wednesday, February 11, 2026
 
 ## @rryssf_ - Team9.ai: Honest Account of Rolling Out OpenClaw to 50 Non-Technical Teammates
@@ -43274,6 +45397,8 @@ $150k #april_goals
 - **Link:** https://developers.openai.com/blog/skills-shell-tips/
 - **Filed:** [openai-shell-skills-compaction-tips](./knowledge/articles/openai-shell-skills-compaction-tips.md)
 - **What:** Alex Finn's meta-workflow for continuous agent improvement: instead of reading agent-building articles yourself, paste them directly to your OpenClaw agent and have it self-update. The linked OpenAI Developers post covers practical patterns for long-running agents using hosted shell, skills, and server-side compaction in the Responses API — the substance the agent would actually absorb and apply to its own configuration.
+
+---
 
 ---
 
@@ -43527,6 +45652,8 @@ $150k #april_goals
 
 ---
 
+---
+
 # Monday, February 9, 2026
 
 ## @gregisenberg - Claude Code Crash Course in 49 Seconds
@@ -43566,6 +45693,8 @@ $150k #april_goals
 
 ---
 
+---
+
 # Sunday, February 8, 2026
 
 ## @hooeem - Mega-Prompt for a Structured AI Life Automation Audit
@@ -43591,6 +45720,8 @@ $150k #april_goals
 
 - **Tweet:** https://x.com/Param_eth/status/2020529499809407063
 - **What:** Signal on the rapid monetization happening around Claude Code tooling: SimpleClaw reached $17k MRR within five days of launch, and the founder is already seeking an exit at a ~130x MRR multiple ($2.25M). Whether the valuation is realistic is secondary to what this illustrates about demand velocity in the OpenClaw/Claude Code ecosystem right now.
+
+---
 
 ---
 
@@ -43689,6 +45820,8 @@ $150k #april_goals
 - **Tweet:** https://x.com/aakashgupta/status/2019945285871653226
 - **Quoted:** https://x.com/nateliason/status/2019869756883665009
 - **What:** Aakash Gupta extends Nat Eliason's observation with a neuroscience framing: AI collapses the delayed-reward structure of traditional work into a variable-ratio reinforcement schedule — the same mechanism as slot machines, but with genuine output. When the feedback loop shrinks from days to seconds, the brain never reaches a natural stopping point, which explains both the longer hours and the subjective experience of fun. He adds a sobering corollary: only 10–15% of people (high novelty-seeking, high conscientiousness, context-switching tolerance) will find this energizing; the other 85% will find it overwhelming. That neurotype split will determine who captures value from AI in the coming decade.
+
+---
 
 ---
 
@@ -43853,6 +45986,8 @@ $150k #april_goals
 
 ---
 
+---
+
 # Wednesday, February 4, 2026
 
 ## @aakashgupta - Claude Code's Creator: Agentic Search Beat RAG
@@ -43911,6 +46046,8 @@ $150k #april_goals
 - **Link:** https://x.com/i/article/2019011014855884800
 - **Filed:** [let-them-cook-multi-agent-orchestration.md](./knowledge/articles/let-them-cook-multi-agent-orchestration.md)
 - **What:** Six weeks of building Agent Relay (an open-source CLI-agnostic multi-agent communication layer) using itself yields a detailed operational playbook: keep 2–5 workers per Lead, staff Claude in coordination roles and Codex in isolated implementation roles, use shadow agents and reviewer agents to catch lazy work, and store trajectory JSON to preserve agent context across sessions. The failures documented — Lead agents dying under message flood, swarms reporting stub code as done — are as instructive as the successes.
+
+---
 
 ---
 
@@ -44468,6 +46605,8 @@ Oh, and RIP billable hours.
 
 ---
 
+---
+
 # Monday, February 2, 2026
 
 ## @ryancarson - Daily Agent-Driven E2E Testing That Auto-Files Bugs
@@ -44581,6 +46720,8 @@ Oh, and RIP billable hours.
 
 ---
 
+---
+
 # Saturday, January 31, 2026
 
 ## @pbteja1998 - Building Mission Control: A 10-Agent AI Squad on Clawdbot
@@ -44600,6 +46741,8 @@ Oh, and RIP billable hours.
 
 - **Tweet:** https://x.com/bcherny/status/2017742741636321619
 - **What:** Boris Cherny, creator of Claude Code, sharing that the internal Anthropic team's usage patterns differ from his own—and that there's no single correct setup. A meta-point about the product being flexible enough that even its creators have diverged workflows, worth tracking as a thread since he's likely to follow with specifics.
+
+---
 
 ---
 
@@ -44634,6 +46777,8 @@ Oh, and RIP billable hours.
 
 ---
 
+---
+
 # Thursday, January 29, 2026
 
 ## @trq212 - Making Playgrounds Using Claude Code
@@ -44663,6 +46808,8 @@ Oh, and RIP billable hours.
 - **Link:** https://x.com/i/article/2016405818040844293
 - **Filed:** [programmatic-seo-playbook-12-patterns.md](./knowledge/articles/programmatic-seo-playbook-12-patterns.md)
 - **What:** A structured taxonomy of 12 pSEO page patterns—templates, curation, conversions, comparisons, examples, locations, personas, integrations, glossary, translations, directory, and profiles—each with URL conventions, value requirements, and example queries. Patterns can be layered (locations + personas, integrations + personas) to multiply addressable search volume. Credit to Corey Haines; the full playbook lives at seoitis.com and a GitHub SKILL.md repo.
+
+---
 
 ---
 
@@ -44703,6 +46850,8 @@ Oh, and RIP billable hours.
 
 ---
 
+---
+
 # Tuesday, January 27, 2026
 
 ## @DilumSanjaya - Vibe-coded 3D ship selection UI using Nano Banana, Midjourney, and Gemini
@@ -44729,6 +46878,8 @@ Oh, and RIP billable hours.
 - **Link:** https://x.com/i/article/2016198124310806528
 - **Filed:** [dan-koe-5d-strategic-thinking.md](./knowledge/articles/dan-koe-5d-strategic-thinking.md)
 - **What:** Dan Koe's long-form framework for developing what he calls "5-dimensional thinking" — working through lines (domain breadth), levels (depth of understanding within any domain, from conformist through synthesist to generative), altitude (cross-domain average), four quadrants of reality (inner/outer × individual/collective), and finally time/evolutionary patterns as the fifth dimension. The practical payoff is diagnosing why smart specialists underperform: domain depth without cross-domain altitude means you can't see outside your bubble when the actual problem lies in an adjacent domain.
+
+---
 
 ---
 
@@ -44786,6 +46937,8 @@ Oh, and RIP billable hours.
 - **Link:** https://github.com/forrestchang/andrej-karpathy-skills
 - **Filed:** [andrej-karpathy-skills.md](./knowledge/tools/andrej-karpathy-skills.md)
 - **What:** Second share of the same `andrej-karpathy-skills` GitHub repo — a standalone post framing it simply as "Karpathy Guidelines for coding agents," suggesting JY wanted to surface the tool directly in addition to the demo context of the prior quote tweet.
+
+---
 
 ---
 
@@ -44853,6 +47006,8 @@ Oh, and RIP billable hours.
 
 - **Tweet:** https://x.com/samhogan/status/2015608985081233843
 - **What:** Sam speculates that a small number of teams have quietly assembled Anthropic Agent SDK pipelines with marketing-focused MCPs (Ads, Search, LinkedIn, Reddit) into fully autonomous revenue engines — and have strong incentives to not talk about it publicly before the opportunity saturates.
+
+---
 
 ---
 
@@ -44982,6 +47137,8 @@ Oh, and RIP billable hours.
 
 - **Tweet:** https://x.com/petergyang/status/2015233248553746901
 - **What:** Open question from a product person about optimal Clawd integration connectors, noting they've already connected the three most common ones (GitHub, Google, X/Twitter). Useful as a signal of what integrations practitioners prioritize first and as a prompt for thinking about what other data sources would make Clawd meaningfully more useful in a connected workflow.
+
+---
 
 ---
 
@@ -45168,6 +47325,8 @@ Oh, and RIP billable hours.
 
 ---
 
+---
+
 # Thursday, January 22, 2026
 
 ## @burkov - Productivity Paradox in the AI Era
@@ -45271,6 +47430,8 @@ Oh, and RIP billable hours.
 - **Link:** https://x.com/i/article/2014473994695823360
 - **Filed:** [claude-code-todos-to-tasks-upgrade.md](./knowledge/articles/claude-code-todos-to-tasks-upgrade.md)
 - **What:** Anthropic's official announcement that the TodoWrite tool is being superseded by a new Tasks primitive in Claude Code. Tasks are filesystem-backed, dependency-aware, and shareable across subagents and sessions — addressing the growing need to coordinate longer autonomous projects that a flat to-do list couldn't handle. The `CLAUDE_CODE_TASK_LIST_ID` environment variable enables cross-session persistence.
+
+---
 
 ---
 
@@ -45609,6 +47770,8 @@ Oh, and RIP billable hours.
 - **Link:** https://x.com/i/article/2013713038021652480
 - **Filed:** [perplexity-how-to-get-traffic-from-ai-search.md](./knowledge/articles/perplexity-how-to-get-traffic-from-ai-search.md)
 - **What:** Groberman unpacks Jesse Dwyer's Perplexity/SEJ interview: classic SEO still decides whether AI has anything to retrieve, but the real split is page-first GEO (LLM summary of the top 10–50 URLs, "Bing in a trenchcoat") versus snippet-first AEO that saturates the context window with tiny vector chunks so the model has less room to hallucinate. Brands win by becoming a reusable snippet supplier — repeated FAQs, definitions, comparisons — not by shipping one perfect page.
+
+---
 
 ---
 
@@ -46034,6 +48197,8 @@ Oh, and RIP billable hours.
 
 ---
 
+---
+
 # Monday, January 19, 2026
 
 ## @MattPRD - AgentWealth: AI-Managed Personal Finance
@@ -46153,6 +48318,8 @@ Oh, and RIP billable hours.
 
 ---
 
+---
+
 # Sunday, January 18, 2026
 
 ## @hieudinh_ - Running Claude Code From Your Phone via VPS
@@ -46243,6 +48410,8 @@ Oh, and RIP billable hours.
 
 ---
 
+---
+
 # Saturday, January 17, 2026
 
 ## @tunguz - The Mindset Barrier Is Harder Than It Looks
@@ -46306,6 +48475,8 @@ Oh, and RIP billable hours.
 
 ---
 
+---
+
 # Friday, January 16, 2026
 
 ## @_PaperMoose_ - Claude Code Reveals the User, Not the Technology
@@ -46335,6 +48506,8 @@ Oh, and RIP billable hours.
 - **Link:** https://x.com/i/article/2012310917812502528
 - **Filed:** [shorthand-guide-to-claude-code.md](./knowledge/articles/shorthand-guide-to-claude-code.md)
 - **What:** A comprehensive reference article by cogsec covering 10 months of daily Claude Code use, sharing the full configuration stack: skills, hooks, subagents, MCP servers, plugins, keyboard shortcuts, and editor setup. Key operational insight is aggressive context window management — keep under 10 MCPs enabled and under 80 tools active despite having 20-30 configured. Includes concrete hook examples (tmux reminders, Prettier post-edit, TypeScript type-checking, console.log audits), a full MCP server config JSON, and a complete subagent roster for planning, architecture, TDD, code review, and security. Preferred editor is Zed for its Rust performance and real-time file tracking.
+
+---
 
 ---
 
@@ -46408,6 +48581,8 @@ Oh, and RIP billable hours.
 
 ---
 
+---
+
 # Tuesday, January 13, 2026
 
 ## @milesdeutscher - Curated Claude Code resource guide quoting @aiedge_
@@ -46470,6 +48645,8 @@ Oh, and RIP billable hours.
 
 ---
 
+---
+
 # Monday, January 12, 2026
 
 ## @AntoineRSX - Autonomous marketing offer built in 10 minutes with Claude Code + Ralph
@@ -46494,6 +48671,8 @@ Oh, and RIP billable hours.
 
 ---
 
+---
+
 # Saturday, January 10, 2026
 
 ## @eyad_khrais - Complete Claude Code tutorial by an enterprise CTO
@@ -46504,6 +48683,8 @@ Oh, and RIP billable hours.
 - **Link:** https://x.com/i/article/2010075005044867073
 - **Filed:** [complete-claude-code-tutorial-eyad](./knowledge/articles/complete-claude-code-tutorial-eyad.md)
 - **What:** Comprehensive practitioner guide from a 7-year SWE (ex-Amazon/Disney/Capital One), now CTO building enterprise agents. Covers plan mode, CLAUDE.md design (short, specific, explain-the-why, update constantly), context window degradation at 20-40% rather than 100%, external memory files for session continuity, model selection strategy (Opus to plan, Sonnet to execute), and headless `-p` mode for pipeline automation. One of the more actionable Claude Code articles from the January 2026 wave.
+
+---
 
 ---
 
@@ -46761,6 +48942,8 @@ Oh, and RIP billable hours.
 
 ---
 
+---
+
 # Thursday, January 8, 2026
 
 ## @ankurnagpal - How To (Not) Invest Life Changing Money
@@ -46808,6 +48991,8 @@ Oh, and RIP billable hours.
 
 - **Tweet:** https://x.com/bcherny/status/2009450715081789767
 - **What:** Boris Cherny (Claude Code team) announced that the internal code-simplifier agent is now publicly available via the Claude plugin marketplace. The agent is designed for post-session cleanup — reducing complexity accumulated during long coding runs and producing cleaner PRs — and is installable with a single command. Noteworthy as an example of the Claude Code team dogfooding and releasing their own internal tooling.
+
+---
 
 ---
 
@@ -46889,6 +49074,8 @@ Oh, and RIP billable hours.
 - **Tweet:** https://x.com/HipCityReg/status/2009003048044220622
 - **Link:** https://hipcityreg-situation-monitor.vercel.app
 - **What:** Reggie James built and shared a self-hosted "Situation Monitor" dashboard that aggregates a live macro news feed — equities, crypto, Polymarket prediction markets, tech layoffs, geopolitical headlines, and a TBPN livestream — into a single terminal-style view. A practical example of building personal intelligence infrastructure rather than consuming fragmented tabs, echoing the same theme as the Cantillon essay.
+
+---
 
 ---
 
@@ -47038,6 +49225,8 @@ Oh, and RIP billable hours.
 
 ---
 
+---
+
 # Monday, January 5, 2026
 
 ## @joshuamschultz - Claude Code Running Business Operations at $778/Day in Tokens
@@ -47172,6 +49361,8 @@ Oh, and RIP billable hours.
 
 - **Tweet:** https://x.com/linuz90/status/2008123587132309749
 - **What:** A personal Claude Code workflow aggregates disparate work and life signals through subagents, MCPs, tools, and scripts into one daily executive brief, reducing the attention cost of staying current across commitments.
+
+---
 
 ---
 
@@ -47439,6 +49630,8 @@ Oh, and RIP billable hours.
 
 ---
 
+---
+
 # Saturday, January 3, 2026
 
 ## @virattt - Dexter's streamlined autonomous equity-research loop
@@ -47564,6 +49757,8 @@ Oh, and RIP billable hours.
 
 ---
 
+---
+
 # Friday, January 2, 2026
 
 ## @iblamejulius - Unspecified competitive example
@@ -47651,6 +49846,8 @@ Oh, and RIP billable hours.
 
 ---
 
+---
+
 # Thursday, January 1, 2026
 
 ## @parsedpatterns - AI Lowers the Cost of Copycat Competition
@@ -47698,6 +49895,8 @@ Oh, and RIP billable hours.
 - **Link:** https://x.com/i/article/2006591530136645638
 - **Filed:** [i-tried-being-a-reply-guy-for-7-days](./knowledge/articles/i-tried-being-a-reply-guy-for-7-days.md)
 - **What:** Noir Creates documents a self-reported X engagement experiment built around curated account lists, 100–300 replies per day, and an “early, spaced, substance” rule; it offers a concrete workflow for visibility while treating claimed impression growth as anecdotal rather than a verified algorithmic result.
+
+---
 
 ---
 
@@ -47794,6 +49993,8 @@ Oh, and RIP billable hours.
 
 ---
 
+---
+
 # Tuesday, December 30, 2025
 
 ## @godofprompt - AI Prompts for Creativity Using "Steal Like An Artist" Principles
@@ -47869,6 +50070,8 @@ Oh, and RIP billable hours.
 - **Link:** https://github.com/parcadei/Continuous-Claude-v3
 - **Filed:** [openclaw](./knowledge/tools/openclaw.md)
 - **What:** Yam Peleg recommends a personal Claude Code toolkit spanning OpenClaw for channel-based assistant access, dev-browser for dependable browser automation, and Continuous Claude for persistent multi-agent workflows; the latter two are included as complementary tools rather than separately filed list items.
+
+---
 
 ---
 
@@ -47982,6 +50185,8 @@ Oh, and RIP billable hours.
 
 - **Tweet:** https://x.com/cloudxdev/status/2005596742947909835
 - **What:** A concrete multi-agent equity-research application in which specialist agents independently inspect market data, debate divergent interpretations, and hand a portfolio lead a traceable basis for a buy, hold, or sell recommendation.
+
+---
 
 ---
 
@@ -48210,6 +50415,8 @@ Oh, and RIP billable hours.
 
 ---
 
+---
+
 # Saturday, December 27, 2025
 
 ## @Hesamation - How Claude Code Grew from a Side Project
@@ -48396,6 +50603,8 @@ Oh, and RIP billable hours.
 - **Tweet:** https://x.com/AzFlin/status/2004887544086012042
 - **Quoted:** https://x.com/alexalbert__/status/2004575443484319954
 - **What:** In response to a request for underrated Claude Code practices, AzFlin proposes using Gemini as an upfront specification writer: have a second model inspect the codebase and formulate an implementation prompt before delegating the actual change to Claude Code.
+
+---
 
 ---
 
@@ -48853,6 +51062,8 @@ Oh, and RIP billable hours.
 
 ---
 
+---
+
 # Thursday, December 25, 2025
 
 ## @rahulgs - Claude and Playwright automate FSA claims
@@ -48982,6 +51193,8 @@ Oh, and RIP billable hours.
 
 ---
 
+---
+
 # Wednesday, December 24, 2025
 
 ## @parcadei - Continuous-Claude-v3 preserves Claude Code context
@@ -49001,6 +51214,8 @@ Oh, and RIP billable hours.
 
 - **Tweet:** https://x.com/trevorsaudi/status/2003938537394393294
 - **What:** THIN: @trevorsaudi endorses an unspecified video or lesson as a breakthrough in understanding stalled learning progress, but the bookmark supplies neither a title, link, subject, nor the ideas that made it helpful.
+
+---
 
 ---
 
@@ -49116,6 +51331,8 @@ Oh, and RIP billable hours.
 
 ---
 
+---
+
 # Monday, December 22, 2025
 
 ## @camillericketts - AI as the next material for reorganizing knowledge work
@@ -49161,6 +51378,8 @@ Oh, and RIP billable hours.
 - **Tweet:** https://x.com/benln/status/2003131453631254838
 - **Quoted:** https://x.com/benln/status/2002803087204086254
 - **What:** Ben Lang's informal prompt about 2025's best AI product produced a cross-category shortlist led by Cursor, Claude, and NotebookLM, illustrating how coding, research, dictation, meeting capture, browser, image, and agent tools were competing for mindshare.
+
+---
 
 ---
 
@@ -49288,6 +51507,8 @@ Oh, and RIP billable hours.
 
 ---
 
+---
+
 # Friday, December 19, 2025
 
 ## @karpathy - 2025 LLM Year in Review
@@ -49409,6 +51630,8 @@ Oh, and RIP billable hours.
 
 - **Tweet:** https://x.com/yegormethod/status/2001985889593930177
 - **What:** The post recasts coercive cult mechanics—identity fusion, shared enemies, status tiers, and escalating commitments—as a community-retention playbook, claiming that a client’s monthly churn fell from 14% to 3% while explicitly normalizing harmful methods.
+
+---
 
 ---
 
@@ -49629,6 +51852,8 @@ Oh, and RIP billable hours.
 
 ---
 
+---
+
 # Tuesday, December 16, 2025
 
 ## @thdxr - oh-my-openagent demonstrates deeply customized OpenCode workflows
@@ -49756,6 +51981,8 @@ Oh, and RIP billable hours.
 
 ---
 
+---
+
 # Monday, December 15, 2025
 
 ## @boringmarketer - Vibe Skills Marketing Methodology for Claude
@@ -49807,6 +52034,8 @@ Oh, and RIP billable hours.
 
 ---
 
+---
+
 # Saturday, December 13, 2025
 
 ## @codyschneider - Etsy shop automation reaches 1,000 listings
@@ -49842,6 +52071,8 @@ Oh, and RIP billable hours.
 
 - **Tweet:** https://x.com/EXM7777/status/1999886036592427187
 - **What:** This workflow treats a versioned JSON context file as durable project memory: have the model create it, update it after each session, and reinject it into future work to reduce repeated briefing and retain accumulated decisions.
+
+---
 
 ---
 
@@ -49968,6 +52199,8 @@ Oh, and RIP billable hours.
 
 ---
 
+---
+
 # Wednesday, December 10, 2025
 
 ## @simonw - Patterns for building single-file HTML tools
@@ -50065,6 +52298,8 @@ Oh, and RIP billable hours.
 
 - **Tweet:** https://x.com/rileybrown/status/1998634507034046898
 - **What:** An announced YouTube series on configuring an agent-oriented development workspace, combining a codebase setup with Obsidian and Claude Code to support treating a coding agent as a general cofounder.
+
+---
 
 ---
 
@@ -50490,6 +52725,8 @@ Oh, and RIP billable hours.
 
 ---
 
+---
+
 # Thursday, December 4, 2025
 
 ## @danshipper - Opus 4.5 enables prompt-native reading apps
@@ -50531,6 +52768,8 @@ Oh, and RIP billable hours.
 
 - **Tweet:** https://x.com/EXM7777/status/1996580396553965747
 - **What:** This bookmark flags a Gemini system prompt intended to make generated prose sound more human, but the exported tweet contains neither the prompt text nor a non-self destination, so its practical method cannot be evaluated from the bookmark.
+
+---
 
 ---
 
@@ -50681,6 +52920,8 @@ Oh, and RIP billable hours.
 
 ---
 
+---
+
 # Tuesday, December 2, 2025
 
 ## @eptwts - Repurposing Whop creator expertise into X affiliate funnels
@@ -50736,6 +52977,8 @@ Oh, and RIP billable hours.
 
 ---
 
+---
+
 # Monday, December 1, 2025
 
 ## @EXM7777 - BLACKBOX AI agent workflows for agency products
@@ -50760,6 +53003,8 @@ Oh, and RIP billable hours.
 - **Link:** https://twitter.com/blackboxai/status/1989830922628448600
 - **Quoted:** https://x.com/blackboxai/status/1989830922628448600
 - **What:** This promotes BLACKBOX AI as a multi-agent application-development layer for agency delivery and lead-generation products, reinforced by the quoted example of a Shopify MCP integration that lets an agent modify store products directly.
+
+---
 
 ---
 
@@ -51010,6 +53255,8 @@ Oh, and RIP billable hours.
 
 - **Tweet:** https://x.com/oggii_0/status/1995039642765463697
 - **What:** A practical image-generation workflow uses Gemini to translate a reference image into a detailed JSON prompt, making the composition reproducible and allowing targeted edits to individual attributes instead of recreating a prompt from scratch.
+
+---
 
 ---
 
@@ -51298,6 +53545,8 @@ Oh, and RIP billable hours.
 
 ---
 
+---
+
 # Friday, November 28, 2025
 
 ## @doodlestein - Using Beads graph analysis to allocate agent work
@@ -51324,6 +53573,8 @@ Oh, and RIP billable hours.
 
 - **Tweet:** https://x.com/boringmarketer/status/1994415536088723471
 - **What:** This is a concise landing-page production recipe that combines Claude Code, brand-voice and frontend-design skills, and external research inspiration, framing an agent-guided workflow as a way to produce conversion-oriented pages quickly.
+
+---
 
 ---
 
@@ -51380,6 +53631,8 @@ Oh, and RIP billable hours.
 - **Link:** https://github.com/Dicklesworthstone/beads_viewer
 - **Filed:** [beads-viewer](./knowledge/tools/beads-viewer.md)
 - **What:** beads_viewer is a Go terminal interface and agent sidecar for Beads projects: it turns task JSONL into navigable lists, Kanban and dependency graphs, while robot-mode commands expose computed priorities, execution tracks, blockers, cycles, and critical-path metrics.
+
+---
 
 ---
 
@@ -51512,6 +53765,8 @@ Oh, and RIP billable hours.
 
 ---
 
+---
+
 # Monday, November 24, 2025
 
 ## @kieranklaassen - Compound Engineering plugin v2 for multi-threaded AI coding
@@ -51532,6 +53787,8 @@ Oh, and RIP billable hours.
 
 ---
 
+---
+
 # Sunday, November 23, 2025
 
 ## @DanielMiessler - Personal AI skill for generating site art
@@ -51548,6 +53805,8 @@ Oh, and RIP billable hours.
 
 ---
 
+---
+
 # Saturday, November 22, 2025
 
 ## @svpino - A forced commit-message skill for Claude Code
@@ -51561,6 +53820,8 @@ Oh, and RIP billable hours.
 
 - **Tweet:** https://x.com/svpino/status/1992230354091196772
 - **What:** Santiago describes a custom Claude Code skill for producing more useful commit messages without boilerplate attribution, while exposing that reliable skill discovery still required a hook and occasional manual prompting.
+
+---
 
 ---
 
@@ -51610,6 +53871,8 @@ Oh, and RIP billable hours.
 
 - **Tweet:** https://x.com/patwerX/status/1991455282568859822
 - **What:** Patrick Werner proposes affiliate SEO built around measurable customer outcomes rather than product keywords, so high-intent readers discover a demonstrated workflow and encounter the recommended tool as a necessary component.
+
+---
 
 ---
 
@@ -51946,6 +54209,8 @@ Oh, and RIP billable hours.
 
 ---
 
+---
+
 # Tuesday, November 18, 2025
 
 ## @jacalulu - Gemini 3 used to build Jaclyn Konzelmann’s new site
@@ -51966,6 +54231,8 @@ Oh, and RIP billable hours.
 
 ---
 
+---
+
 # Monday, November 17, 2025
 
 ## @EXM7777 - AirOps workflow for automated SEO and AEO
@@ -51979,6 +54246,8 @@ Oh, and RIP billable hours.
 
 - **Tweet:** https://x.com/EXM7777/status/1990434780648022389
 - **What:** Machina promotes AirOps as a no-code automation approach for maintaining conventional SEO and AI-answer-engine visibility across ChatGPT, Perplexity, and Google AI Overviews.
+
+---
 
 ---
 
@@ -52021,6 +54290,8 @@ Oh, and RIP billable hours.
 - **Quoted:** https://x.com/mikeyk/status/1988691831836782610
 - **Filed:** [improving-frontend-design-through-skills.md](./knowledge/articles/improving-frontend-design-through-skills.md)
 - **What:** Nityesh highlights Anthropic's short frontend-design skill as a way to steer Claude toward distinctive interfaces instead of generic output, while Krieger points to the Applied AI write-up and Claude Code plugin that distribute the guidance.
+
+---
 
 ---
 
@@ -52086,6 +54357,8 @@ Oh, and RIP billable hours.
 
 ---
 
+---
+
 # Wednesday, November 12, 2025
 
 ## @mitchellh - Voice-first thought capture with LLM planning
@@ -52105,6 +54378,8 @@ Oh, and RIP billable hours.
 
 - **Tweet:** https://x.com/EXM7777/status/1988652274198213007
 - **What:** An open-ended prompt seeking a standout YouTube channel, with no genre, criteria, or suggested answer supplied; it preserves a starting point for gathering recommendations rather than a specific resource.
+
+---
 
 ---
 
@@ -52140,6 +54415,8 @@ Oh, and RIP billable hours.
 
 - **Tweet:** https://x.com/eptwts/status/1988270443170758913
 - **What:** This post highlights the perceived irony of dismissing a personalized message as inauthentic while presenting a generic, AI-sounding profile, framing it as a disconnect about how credible communication now looks online.
+
+---
 
 ---
 
@@ -52298,6 +54575,8 @@ Oh, and RIP billable hours.
 - **Tweet:** https://x.com/orsonwbs/status/1987487666393289116
 - **Quoted:** https://x.com/jeremynickmoser/status/1987234249187942656
 - **What:** The quote argues that single-channel information businesses lack durable fundamentals, while the commentary identifies high-converting backend funnels and platform-independent offers as the path beyond an initial revenue ceiling.
+
+---
 
 ---
 
@@ -52557,6 +54836,8 @@ Oh, and RIP billable hours.
 
 ---
 
+---
+
 # Friday, November 7, 2025
 
 ## @thisguyknowsai - Claude prompts for routine-task automation
@@ -52570,6 +54851,8 @@ Oh, and RIP billable hours.
 
 - **Tweet:** https://x.com/thisguyknowsai/status/1986754020351086664
 - **What:** This promotional post offers ten Claude prompts and a downloadable automation file for reducing routine work, but the bookmark contains neither the prompts nor a usable external resource beyond a request to comment for a direct message.
+
+---
 
 ---
 
@@ -52659,6 +54942,8 @@ Oh, and RIP billable hours.
 
 ---
 
+---
+
 # Wednesday, November 5, 2025
 
 ## @eptwts - Claude Skills as reusable operational context
@@ -52712,6 +54997,8 @@ Oh, and RIP billable hours.
 
 - **Tweet:** https://x.com/boringmarketer/status/1986167860356379063
 - **What:** Presents a cost-control playbook for Claude Code centered on model routing, scoped searches and reads, parallel work, precise requests, planning, and retained context to reduce token spend and avoid rework.
+
+---
 
 ---
 
@@ -53007,6 +55294,8 @@ Oh, and RIP billable hours.
 
 ---
 
+---
+
 # Monday, November 3, 2025
 
 ## @Jason______A - An unsparing checklist of money and discipline advice
@@ -53104,6 +55393,8 @@ Oh, and RIP billable hours.
 
 ---
 
+---
+
 # Sunday, November 2, 2025
 
 ## @badlogicgames - Why Lightweight CLI Browser Tools Can Replace MCP
@@ -53182,6 +55473,8 @@ Oh, and RIP billable hours.
 
 ---
 
+---
+
 # Friday, October 31, 2025
 
 ## @EXM7777 - Ten Claude Skills for Practical Workflows
@@ -53189,6 +55482,8 @@ Oh, and RIP billable hours.
 
 - **Tweet:** https://x.com/EXM7777/status/1984282226595619032
 - **What:** Machina promotes a list of ten Claude Skills as high-impact workflow improvements, but the expanded link resolves to this same tweet, leaving the specific skills and their practical capabilities unavailable in the prepared bookmark data.
+
+---
 
 ---
 
@@ -53475,6 +55770,8 @@ Oh, and RIP billable hours.
 
 ---
 
+---
+
 # Wednesday, October 29, 2025
 
 ## @thesamparr - Brief endorsement without context
@@ -53537,6 +55834,8 @@ Oh, and RIP billable hours.
 - **Link:** https://www.reddit.com/r/ClaudeAI/comments/1oivjvm/claude_code_is_a_beast_tips_from_6_months_of/
 - **Filed:** [claude-code-is-a-beast-six-months-of-advanced-usage.md](./knowledge/articles/claude-code-is-a-beast-six-months-of-advanced-usage.md)
 - **What:** A recommendation for an advanced Claude Code guide centered on hooks as context-engineering controls, presenting plugins as a way to distribute reusable agents, commands, hooks, and MCP integrations.
+
+---
 
 ---
 
@@ -53695,6 +55994,8 @@ the move is pick ONE, go deep for 90 days, build real systems... and solve one s
 
 - **Tweet:** https://x.com/askwhykartik/status/1983136756175151272
 - **What:** This three-week learning sequence moves from project instructions, terminal use, debugging, tests, and queued tasks to planning, research, CI review, parallel worktrees, custom commands, specialized agents, and MCP integrations for more autonomous Claude Code workflows.
+
+---
 
 ---
 
@@ -53923,6 +56224,8 @@ the move is pick ONE, go deep for 90 days, build real systems... and solve one s
 
 ---
 
+---
+
 # Sunday, October 26, 2025
 
 ## @hxxntrr - 0% APR bank credit as an alternative to equity funding
@@ -54002,6 +56305,8 @@ the move is pick ONE, go deep for 90 days, build real systems... and solve one s
 
 ---
 
+---
+
 # Saturday, October 25, 2025
 
 ## @AlexFinn - Nightly Claude Code agents as an ideation habit
@@ -54073,6 +56378,8 @@ the move is pick ONE, go deep for 90 days, build real systems... and solve one s
 
 ---
 
+---
+
 # Friday, October 24, 2025
 
 ## @eptwts - Seeking an experienced vibe-coding SaaS educator
@@ -54086,6 +56393,8 @@ the move is pick ONE, go deep for 90 days, build real systems... and solve one s
 
 - **Tweet:** https://x.com/eptwts/status/1981811010219425794
 - **What:** EP is recruiting a practitioner with demonstrated success building SaaS through vibe coding to create a YouTube education catalog, signaling demand for credible, experience-based instruction rather than general commentary on AI-assisted development.
+
+---
 
 ---
 
@@ -54211,6 +56520,8 @@ the move is pick ONE, go deep for 90 days, build real systems... and solve one s
 
 ---
 
+---
+
 # Wednesday, October 22, 2025
 
 ## @kanomalie - IDE-integrated AI has replaced browser-to-editor copy-paste
@@ -54320,6 +56631,8 @@ the move is pick ONE, go deep for 90 days, build real systems... and solve one s
 
 ---
 
+---
+
 # Tuesday, October 21, 2025
 
 ## @eptwts - Claude Skills as portable context packages
@@ -54331,6 +56644,8 @@ the move is pick ONE, go deep for 90 days, build real systems... and solve one s
 
 - **Tweet:** https://x.com/eptwts/status/1980674146918101289
 - **What:** This endorses Claude Skills as portable Markdown-based context packages that make reusable instructions and reference material available inside Claude, which the author considers a more practical workflow than GPT Projects.
+
+---
 
 ---
 
@@ -54606,6 +56921,8 @@ the move is pick ONE, go deep for 90 days, build real systems... and solve one s
 
 ---
 
+---
+
 # Sunday, October 19, 2025
 
 ## @kober1337 - PolyScalping real-time Polymarket opportunity alerts
@@ -54635,6 +56952,8 @@ the move is pick ONE, go deep for 90 days, build real systems... and solve one s
 
 - **Tweet:** https://x.com/eptwts/status/1979845537361764441
 - **What:** EP argues that attracting qualified attention and converting it through direct response are durable commercial capabilities, because every market continues to need offers matched with effective distribution channels.
+
+---
 
 ---
 
@@ -54938,6 +57257,8 @@ the move is pick ONE, go deep for 90 days, build real systems... and solve one s
 
 ---
 
+---
+
 # Thursday, October 16, 2025
 
 ## @nateparrott - Enterprise Search Makes Connected Knowledge Queryable
@@ -55068,6 +57389,8 @@ the move is pick ONE, go deep for 90 days, build real systems... and solve one s
 
 ---
 
+---
+
 # Wednesday, October 15, 2025
 
 ## @EXM7777 - A prompt protocol for deep research
@@ -55107,6 +57430,8 @@ the move is pick ONE, go deep for 90 days, build real systems... and solve one s
 
 - **Tweet:** https://x.com/EXM7777/status/1978484519692075451
 - **What:** This is a practical prompting framework for research agents: constrain the sources and problem, prescribe a staged investigation sequence, and require a concrete evidence-backed deliverable so extended browsing produces decisions rather than generic overviews.
+
+---
 
 ---
 
@@ -55262,6 +57587,8 @@ the move is pick ONE, go deep for 90 days, build real systems... and solve one s
 
 ---
 
+---
+
 # Monday, October 13, 2025
 
 ## @ErnestoSOFTWARE - Whop apps as a claimed $40k monthly opportunity
@@ -55391,6 +57718,8 @@ the move is pick ONE, go deep for 90 days, build real systems... and solve one s
 
 ---
 
+---
+
 # Sunday, October 12, 2025
 
 ## @hnshah - When Everyone Builds in Public
@@ -55507,6 +57836,8 @@ the move is pick ONE, go deep for 90 days, build real systems... and solve one s
 
 - **Tweet:** https://x.com/NoahEpstein_/status/1977339443317981374
 - **What:** An anecdotal argument that businesses should test low-code workflow automation before commissioning custom software, using an n8n construction-company implementation to contrast shorter delivery and lower operating costs with a costly legacy project.
+
+---
 
 ---
 
@@ -55756,6 +58087,8 @@ the move is pick ONE, go deep for 90 days, build real systems... and solve one s
 
 ---
 
+---
+
 # Friday, October 10, 2025
 
 ## @markgadala - Claimed ChatGPT gains from adversarial prompting
@@ -55881,6 +58214,8 @@ the move is pick ONE, go deep for 90 days, build real systems... and solve one s
 
 ---
 
+---
+
 # Thursday, October 9, 2025
 
 ## @thepatwalls - Why app creation may have a temporary advantage
@@ -55944,6 +58279,8 @@ the move is pick ONE, go deep for 90 days, build real systems... and solve one s
 
 - **Tweet:** https://x.com/indexsy/status/1976334270039023629
 - **What:** A concise encouragement to use cold email for business development, emphasizing direct outreach as an accessible way to initiate sales conversations rather than waiting for inbound demand.
+
+---
 
 ---
 
@@ -56020,6 +58357,8 @@ the move is pick ONE, go deep for 90 days, build real systems... and solve one s
 
 - **Tweet:** https://x.com/JulianGoldieSEO/status/1975887628538167552
 - **What:** Julian Goldie SEO promotes a gated collection of pre-tested n8n workflows and a build tutorial, positioning a large, tagged template index as a shortcut for teams automating growth, operations, and creative work.
+
+---
 
 ---
 
@@ -56126,6 +58465,8 @@ the move is pick ONE, go deep for 90 days, build real systems... and solve one s
 
 ---
 
+---
+
 # Monday, October 6, 2025
 
 ## @vasuman - Whop app partnership playbook for Gen Z
@@ -56178,6 +58519,8 @@ the move is pick ONE, go deep for 90 days, build real systems... and solve one s
 
 ---
 
+---
+
 # Sunday, October 5, 2025
 
 ## @airkatakana - Anthropic’s training-first inference constraint
@@ -56187,6 +58530,8 @@ the move is pick ONE, go deep for 90 days, build real systems... and solve one s
 
 - **Tweet:** https://x.com/airkatakana/status/1974750793560637881
 - **What:** Air Katakana frames Anthropic’s intermittent model access as an unusually explicit strategic tradeoff: prioritizing scarce GPU capacity for frontier-model training over reliable inference availability for customers.
+
+---
 
 ---
 
@@ -56260,6 +58605,8 @@ the move is pick ONE, go deep for 90 days, build real systems... and solve one s
 
 ---
 
+---
+
 # Friday, October 3, 2025
 
 ## @fromzerotomill - AI-assisted affiliate lead-generation funnel
@@ -56280,6 +58627,8 @@ the move is pick ONE, go deep for 90 days, build real systems... and solve one s
 
 ---
 
+---
+
 # Thursday, October 2, 2025
 
 ## @maccaw - AI supervision replaces much routine coding
@@ -56291,6 +58640,8 @@ the move is pick ONE, go deep for 90 days, build real systems... and solve one s
 
 - **Tweet:** https://x.com/maccaw/status/1973890926771658813
 - **What:** An experienced engineer describes a workflow shift from writing code to directing and reviewing models, with explicit scaffolding still needed to prevent drift while compressing long implementation cycles.
+
+---
 
 ---
 
@@ -56355,6 +58706,8 @@ the move is pick ONE, go deep for 90 days, build real systems... and solve one s
 
 - **Tweet:** https://x.com/wizofecom/status/1972640375970951446
 - **What:** Describes a creator-led information-products business that allegedly doubled revenue by concentrating on one unusually effective funnel, while durable social distribution, media channels, and selective automation created the capacity to scale it.
+
+---
 
 ---
 
@@ -56490,6 +58843,8 @@ the move is pick ONE, go deep for 90 days, build real systems... and solve one s
 
 - **Tweet:** https://x.com/maxxmalist/status/1971550878793355339
 - **What:** This argues that Whop's recently opened app marketplace may resemble earlier Shopify and App Store land-grabs, encouraging rapid research into proven app categories and low-code implementation; the opportunity claims should be validated against actual marketplace demand and competition.
+
+---
 
 ---
 
@@ -56636,6 +58991,8 @@ the move is pick ONE, go deep for 90 days, build real systems... and solve one s
 
 ---
 
+---
+
 # Tuesday, September 23, 2025
 
 ## @eptwts - Product validation, no-code SaaS, and distribution thread
@@ -56741,6 +59098,8 @@ the move is pick ONE, go deep for 90 days, build real systems... and solve one s
 
 ---
 
+---
+
 # Monday, September 22, 2025
 
 ## @JamesEbringer - Reverse-engineering high-performing Whop funnels
@@ -56818,6 +59177,8 @@ the move is pick ONE, go deep for 90 days, build real systems... and solve one s
 
 - **Tweet:** https://x.com/alxnderhughes/status/1970066389970112738
 - **What:** This bookmark flags a thread claiming to distill five prompting practices associated with OpenAI engineers, offering a starting point for assessing how professional prompt workflows may differ from generic instruction writing.
+
+---
 
 ---
 
@@ -57107,6 +59468,8 @@ thank you all, means a lot
 
 ---
 
+---
+
 # Friday, September 19, 2025
 
 ## @alex_prompter - Guide to how people use ChatGPT
@@ -57153,6 +59516,8 @@ thank you all, means a lot
 - **Link:** https://github.com/antiwork/mediaconverter
 - **Filed:** [mediaconverter](./knowledge/tools/mediaconverter.md)
 - **What:** Gumroad open-sourced its Go-based FFmpeg service for asynchronously converting source videos into HLS renditions; Sahil reports that self-hosting it on Hetzner cuts the company’s video-conversion cost by 90% compared with AWS MediaConvert.
+
+---
 
 ---
 
@@ -57448,6 +59813,8 @@ thank you all, means a lot
 
 ---
 
+---
+
 # Wednesday, September 17, 2025
 
 ## @EXM7777 - Hands-on AI mentorship as an alternative to passive courses
@@ -57515,6 +59882,8 @@ thank you all, means a lot
 
 - **Tweet:** https://x.com/hridoyreh/status/1968233754448757017
 - **What:** This post promotes a reusable ChatGPT prompt intended to identify or plan internal links, illustrating how generative AI can speed a repetitive on-page SEO task without replacing editorial judgment.
+
+---
 
 ---
 
@@ -57859,6 +60228,8 @@ thank you all, means a lot
 
 - **Tweet:** https://x.com/Kpaxs/status/1967806785294844179
 - **What:** LINK_FAILED: Could not expand link from @Kpaxs; the bookmark recommends a summary of effective negotiation techniques, but the supplied destination resolves only to this same tweet and cannot be evaluated.
+
+---
 
 ---
 
@@ -58290,6 +60661,8 @@ thank you all, means a lot
 
 ---
 
+---
+
 # Sunday, September 14, 2025
 
 ## @distributionat - Skincare as hands-on empirical science
@@ -58450,6 +60823,8 @@ thank you all, means a lot
 
 - **Tweet:** https://x.com/kylegawley/status/1967120883644068010
 - **What:** A succinct SaaS value proposition reframes a modest recurring subscription as an alternative to the far greater cost, elapsed time, and opportunity cost of independently building and maintaining an equivalent product.
+
+---
 
 ---
 
@@ -58639,6 +61014,8 @@ thank you all, means a lot
 
 - **Tweet:** https://x.com/NoahEpstein_/status/1966832365293994386
 - **What:** A first-year automation-agency operator distills hard-won advice into a business-first playbook: sell measurable outcomes, constrain workflow complexity, price recurring value, and budget for production maintenance rather than chasing tools or tutorials.
+
+---
 
 ---
 
@@ -59253,6 +61630,8 @@ thank you all, means a lot
 
 ---
 
+---
+
 # Thursday, September 11, 2025
 
 ## @alexgroberman - SEO Stuff's pitch for AI-search visibility
@@ -59684,6 +62063,8 @@ thank you all, means a lot
 
 ---
 
+---
+
 # Wednesday, September 10, 2025
 
 ## @leojrr - Vibe-coding stack behind a year of shipped apps
@@ -59787,6 +62168,8 @@ thank you all, means a lot
 
 - **Tweet:** https://x.com/thesamparr/status/1965781022101880912
 - **What:** Recording goals across quarterly, annual, and five-year horizons gives business and personal decisions a clearer destination, while organizing them around family, fitness, finance, and fun keeps planning balanced.
+
+---
 
 ---
 
@@ -59960,6 +62343,8 @@ the algorithm knows when you're being needy
 - **Link:** https://github.com/sculptdotfun/tremor
 - **Filed:** [tremor](./knowledge/tools/tremor.md)
 - **What:** Tremor is an open-source, self-hostable monitor for meaningful Polymarket price moves, combining intensity scoring and multiple time windows to surface market signals that may precede mainstream news coverage.
+
+---
 
 ---
 
@@ -60151,6 +62536,8 @@ the algorithm knows when you're being needy
 
 ---
 
+---
+
 # Sunday, September 7, 2025
 
 ## @natolambert - Premium AI models as career leverage
@@ -60192,6 +62579,8 @@ the algorithm knows when you're being needy
 
 ---
 
+---
+
 # Thursday, September 4, 2025
 
 ## @ViperChill - Citi conference notes on AI-driven discovery
@@ -60226,6 +62615,8 @@ the algorithm knows when you're being needy
 
 ---
 
+---
+
 # Wednesday, September 3, 2025
 
 ## @levelsio - Cheap high-traffic hosting with Cloudflare caching
@@ -60251,6 +62642,8 @@ the algorithm knows when you're being needy
 
 ---
 
+---
+
 # Tuesday, September 2, 2025
 
 ## @thebeautyofsaas - Personal disclosure miscast as an IQ signal
@@ -60271,6 +62664,8 @@ the algorithm knows when you're being needy
 
 ---
 
+---
+
 # Monday, September 1, 2025
 
 ## @aaditsh - Private AI creator growth group invitation
@@ -60282,6 +62677,8 @@ the algorithm knows when you're being needy
 
 - **Tweet:** https://x.com/aaditsh/status/1962587409536749789
 - **What:** An invitation to a private WhatsApp peer group for AI creators focused on exchanging growth tactics, tool recommendations, product updates, and cross-platform content strategies rather than a publicly documented resource.
+
+---
 
 ---
 
@@ -60339,6 +62736,8 @@ the algorithm knows when you're being needy
 
 ---
 
+---
+
 # Saturday, August 30, 2025
 
 ## @tom_doerr - Local Open-Source CLI AI Shell Assistant
@@ -60362,6 +62761,8 @@ the algorithm knows when you're being needy
 
 - **Tweet:** https://x.com/gregisenberg/status/1961813822215217299
 - **What:** This bookmark spotlights DJ_dave's use of Strudel, an open-source browser environment for writing music as code, illustrating how live coding can make experimental composition and performance more accessible.
+
+---
 
 ---
 
@@ -60466,6 +62867,8 @@ the algorithm knows when you're being needy
 
 ---
 
+---
+
 # Wednesday, August 27, 2025
 
 ## @SaidAitmbarek - AppMafia's Consumer-App Growth Course Takeaways
@@ -60488,6 +62891,8 @@ the algorithm knows when you're being needy
 
 - **Tweet:** https://x.com/SaidAitmbarek/status/1960781420076450096
 - **What:** Saïd Aitmbarek summarizes AppMafia's free consumer-app course as an end-to-end playbook spanning user-journey design, viral product mechanics, influencer campaigns, TikTok account warming, cross-channel distribution, paid acquisition, and conversion optimization.
+
+---
 
 ---
 
@@ -60538,6 +62943,8 @@ the algorithm knows when you're being needy
 
 ---
 
+---
+
 # Monday, August 25, 2025
 
 ## @mattdiggityseo - Content decay quietly erodes search rankings
@@ -60584,6 +62991,8 @@ the algorithm knows when you're being needy
 
 - **Tweet:** https://x.com/qasimbizs/status/1960027412600668535
 - **What:** A promised case study on rapidly growing a new X account to 3,000 followers in one month, potentially useful for evaluating practical audience-building tactics and their repeatability.
+
+---
 
 ---
 
@@ -60651,6 +63060,8 @@ the algorithm knows when you're being needy
 
 - **Tweet:** https://x.com/NoahEpstein_/status/1959563942835147082
 - **What:** A thread introduction claiming that Claude’s connection capabilities can consolidate expensive point AI-agent subscriptions into a business-wide assistant, with the implied value coming from linking existing tools and data sources instead of maintaining a fragmented stack of specialized products.
+
+---
 
 ---
 
@@ -60918,6 +63329,8 @@ the algorithm knows when you're being needy
 
 ---
 
+---
+
 # Friday, August 22, 2025
 
 ## @alexxgrowth - Claimed pre-post bio-update reach exploit
@@ -61052,6 +63465,8 @@ the algorithm knows when you're being needy
 
 ---
 
+---
+
 # Thursday, August 21, 2025
 
 ## @eptwts - Infoproducts outperform software without aspirational hooks
@@ -61063,6 +63478,8 @@ the algorithm knows when you're being needy
 
 - **Tweet:** https://x.com/eptwts/status/1958496193127817383
 - **What:** EP observes that information products often convert more readily than software, while software demand rises when it carries an aspirational quick-win promise, highlighting the role of buyer psychology in offer design.
+
+---
 
 ---
 
@@ -61132,6 +63549,8 @@ the algorithm knows when you're being needy
 
 - **Tweet:** https://x.com/eptwts/status/1958141233697587609
 - **What:** The post treats naming as a conversion lever for information products: because “course” carries accumulated skepticism, terms such as workshop, cohort, and playbook may reduce resistance before buyers evaluate the underlying offer.
+
+---
 
 ---
 
@@ -61248,6 +63667,8 @@ the algorithm knows when you're being needy
 
 ---
 
+---
+
 # Monday, August 18, 2025
 
 ## @MediaKing - Multi-tier book upsell funnel reaches $100,000
@@ -61275,6 +63696,8 @@ the algorithm knows when you're being needy
 
 ---
 
+---
+
 # Sunday, August 17, 2025
 
 ## @forgebitz - Real-time prompt citation tracking
@@ -61299,6 +63722,8 @@ the algorithm knows when you're being needy
 
 - **Tweet:** https://x.com/WifiMoneyPlant/status/1956951973409837411
 - **What:** Wifi Money Plant presents a creator-led lifestyle built around modest daily publishing, flexible working hours, recurring business income, dividend income, and time reserved for family and personal autonomy.
+
+---
 
 ---
 
@@ -61374,6 +63799,8 @@ the algorithm knows when you're being needy
 
 ---
 
+---
+
 # Wednesday, August 13, 2025
 
 ## @codyschneider - One-shot local-lead scraper from n8n logic
@@ -61440,6 +63867,8 @@ the algorithm knows when you're being needy
 
 - **Tweet:** https://x.com/aakashgupta/status/1955645840485421343
 - **What:** This bookmark records Aakash Gupta's strong endorsement of an unspecified startup playbook, signaling it as potentially valuable operator guidance, but the supplied bookmark data contains neither the playbook nor the principles behind the recommendation.
+
+---
 
 ---
 
@@ -61707,6 +64136,8 @@ the algorithm knows when you're being needy
 
 ---
 
+---
+
 # Monday, August 11, 2025
 
 ## @tekbog - The recursive loop of AI-assisted debugging
@@ -61747,6 +64178,8 @@ the algorithm knows when you're being needy
 
 ---
 
+---
+
 # Friday, August 8, 2025
 
 ## @thepatwalls - MOAT's $1-per-like domain purchase campaign
@@ -61757,6 +64190,8 @@ the algorithm knows when you're being needy
 - **Tweet:** https://x.com/thepatwalls/status/1953861316638040076
 - **Link:** https://moat.starterstory.com/
 - **What:** Pat Walls uses a $1-per-like pledge to crowdsource a premium domain purchase for MOAT, the AI platform that converts product updates into social content; it is a lightweight demand and community-engagement experiment.
+
+---
 
 ---
 
@@ -61791,6 +64226,8 @@ the algorithm knows when you're being needy
 
 ---
 
+---
+
 # Tuesday, August 5, 2025
 
 ## @kevinakwok - Satire of an absurd LinkedIn title
@@ -61798,6 +64235,8 @@ the algorithm knows when you're being needy
 
 - **Tweet:** https://x.com/kevinakwok/status/1952781827212488822
 - **What:** This is a brief joke endorsing an unspecified humorous LinkedIn title as a model for the platform, but the saved post contains no external example or context explaining the title itself.
+
+---
 
 ---
 
@@ -61833,6 +64272,8 @@ the algorithm knows when you're being needy
 
 ---
 
+---
+
 # Sunday, August 3, 2025
 
 ## @Ph1gur3 - Airplane Wi-Fi payment-system bypass question
@@ -61865,6 +64306,8 @@ the algorithm knows when you're being needy
 
 ---
 
+---
+
 # Wednesday, July 30, 2025
 
 ## @boringmarketer - Claude Code checklist for revenue-focused websites
@@ -61877,6 +64320,8 @@ the algorithm knows when you're being needy
 
 ---
 
+---
+
 # Tuesday, July 29, 2025
 
 ## @13yearoldvc - You Have 12 Shots in Life: A Framework for Lifetime Impact
@@ -61886,6 +64331,8 @@ the algorithm knows when you're being needy
 - **Link:** https://x.com/i/article/1950273717390749696
 - **Filed:** [you-have-12-shots-in-life](./knowledge/articles/you-have-12-shots-in-life.md)
 - **What:** Argues you have roughly 12 major "shots" in a working life (~4 years each), and results follow a power law where being right once out of twelve is enough for extraordinary impact. Applies the Chinese framework of 天地人 to rank success forces: timing beats environment beats team. Distinguishes authentic momentum (G-force pull) from forced bets, and emphasizes that the space between shots — positioning, small experiments, relationship-building — determines which shots you get access to.
+
+---
 
 ---
 
@@ -61982,6 +64429,8 @@ the algorithm knows when you're being needy
 
 ---
 
+---
+
 # Sunday, July 27, 2025
 
 ## @elder_plinius - Grok giveaway winner announcement
@@ -62021,6 +64470,8 @@ the algorithm knows when you're being needy
 
 ---
 
+---
+
 # Saturday, July 26, 2025
 
 ## @EricBuess - Recursive Claude Code workflow with hooks and project indexes
@@ -62045,6 +64496,8 @@ the algorithm knows when you're being needy
 - **Parent:** https://x.com/pli_cachete/status/1948849331060232535
 - **Filed:** [claude-code-overview](./knowledge/articles/claude-code-overview.md)
 - **What:** Lee Mager argues that enforcing test-driven development lets Claude Code iteratively improve using empirical feedback, while integrated file, web, and MCP tools make it useful beyond programming.
+
+---
 
 ---
 
@@ -62354,6 +64807,8 @@ the algorithm knows when you're being needy
 
 ---
 
+---
+
 # Thursday, July 24, 2025
 
 ## @MEvsIRS - Tea app's viral positioning and pricing strategy
@@ -62490,6 +64945,8 @@ the algorithm knows when you're being needy
 
 ---
 
+---
+
 # Wednesday, July 23, 2025
 
 ## @boringmarketer - Astro and Claude Code local SEO rebuild
@@ -62542,6 +64999,8 @@ the algorithm knows when you're being needy
 
 ---
 
+---
+
 # Tuesday, July 22, 2025
 
 ## @Famous_AI - FamousAI's case against overbuilding
@@ -62555,6 +65014,8 @@ the algorithm knows when you're being needy
 
 - **Tweet:** https://x.com/Famous_AI/status/1947814416982151379
 - **What:** A terse FamousAI promotion frames overthinking and excessive product building as the real reasons projects fail to ship, positioning its service as a shortcut from stalled planning to execution.
+
+---
 
 ---
 
@@ -62584,6 +65045,8 @@ the algorithm knows when you're being needy
 
 ---
 
+---
+
 # Wednesday, July 16, 2025
 
 ## @gregisenberg - A proposed route to $10M AI-agent ARR
@@ -62591,6 +65054,8 @@ the algorithm knows when you're being needy
 
 - **Tweet:** https://x.com/gregisenberg/status/1945588944751526334
 - **What:** Greg Isenberg flags a framework for reaching $10 million in annual recurring revenue with a B2B AI-agent company, but the bookmark’s expanded link loops back to the post and provides no supporting strategy details.
+
+---
 
 ---
 
@@ -62622,6 +65087,8 @@ the algorithm knows when you're being needy
 
 ---
 
+---
+
 # Friday, July 11, 2025
 
 ## @corbtt - RULER universal reward function for agent RL
@@ -62634,6 +65101,8 @@ the algorithm knows when you're being needy
 
 - **Tweet:** https://x.com/corbtt/status/1943723142054391997
 - **What:** RULER is presented as a universal reward-function approach for applying reinforcement learning to arbitrary agents without labeled examples, manually designed rewards, or human feedback, potentially reducing the bespoke supervision typically required for agent optimization.
+
+---
 
 ---
 
@@ -62729,6 +65198,8 @@ the algorithm knows when you're being needy
 - **Tweet:** https://x.com/eptwts/status/1943276727762891149
 - **Quoted:** https://x.com/eptwts/status/1943271183228477667
 - **What:** EP presents anonymous, useful content as a viable alternative to monetizing personal access: the quoted post advocates keeping private life separate, while the commentary cites audience growth and profit without a status-driven parasocial persona.
+
+---
 
 ---
 
@@ -62892,6 +65363,8 @@ the algorithm knows when you're being needy
 
 ---
 
+---
+
 # Tuesday, July 8, 2025
 
 ## @CardinalMason - Info businesses confronting market contraction
@@ -62980,6 +65453,8 @@ the algorithm knows when you're being needy
 
 - **Tweet:** https://x.com/zhihao2k/status/1942523119144452539
 - **What:** The post uses a controversial seven-figure course as a case study in finding neglected niches, combining a low-ticket offer with recurring revenue and unusually deep audience research rather than paid acquisition.
+
+---
 
 ---
 
@@ -63213,6 +65688,8 @@ the algorithm knows when you're being needy
 
 ---
 
+---
+
 # Wednesday, July 2, 2025
 
 ## @eptwts - Learning automation by rebuilding n8n workflows in Python
@@ -63234,6 +65711,8 @@ the algorithm knows when you're being needy
 
 - **Tweet:** https://x.com/eptwts/status/1940474747822678423
 - **What:** This learning path treats n8n as a visual prototyping environment, then uses an LLM to explain and recreate each workflow in Python, building the coding control needed to move AI automations from quick proofs of concept into production systems.
+
+---
 
 ---
 
@@ -63341,6 +65820,8 @@ the algorithm knows when you're being needy
 
 ---
 
+---
+
 # Monday, June 30, 2025
 
 ## @eptwts - AI Basics Curriculum from LLM Fundamentals to Tool Chaining
@@ -63373,6 +65854,8 @@ the algorithm knows when you're being needy
 
 - **Tweet:** https://x.com/eptwts/status/1939726444092952771
 - **What:** This outlines an introductory AI-learning sequence that connects model mechanics and token constraints with context engineering, prompt-library practice, and practical tool chaining, framing competence as both conceptual understanding and workflow application.
+
+---
 
 ---
 
@@ -63466,6 +65949,8 @@ the algorithm knows when you're being needy
 
 ---
 
+---
+
 # Thursday, June 26, 2025
 
 ## @eptwts - Repurposing Twitter Ideas into Short-Form Content Revenue
@@ -63477,6 +65962,8 @@ the algorithm knows when you're being needy
 
 - **Tweet:** https://x.com/eptwts/status/1938288333085372784
 - **What:** This argues that X functions as an upstream idea market while Instagram, TikTok, and YouTube reward creators who translate those ideas into native short-form formats, creating a repeatable content-distribution business rather than requiring every post to originate from scratch.
+
+---
 
 ---
 
@@ -63529,6 +66016,8 @@ the algorithm knows when you're being needy
 
 - **Tweet:** https://x.com/EXM7777/status/1937881726774329474
 - **What:** This thread promotes structured JSON personas as reusable context for AI prompting, proposing that modeled reasoning styles can steer responses toward entrepreneurial, persuasive, or coaching-oriented outputs.
+
+---
 
 ---
 
@@ -63588,6 +66077,8 @@ the algorithm knows when you're being needy
 
 ---
 
+---
+
 # Monday, June 23, 2025
 
 ## @eptwts - Context profiles for business operations
@@ -63606,6 +66097,8 @@ the algorithm knows when you're being needy
 
 ---
 
+---
+
 # Sunday, June 22, 2025
 
 ## @jakeglmn - Correcting rib flare
@@ -63617,6 +66110,8 @@ the algorithm knows when you're being needy
 
 - **Tweet:** https://x.com/jakeglmn/status/1936764000987119945
 - **What:** This fitness-thread teaser frames rib flare as a posture problem affecting appearance and stress, directing readers to an exercise-based guide for correcting it.
+
+---
 
 ---
 
@@ -63636,6 +66131,8 @@ the algorithm knows when you're being needy
 
 ---
 
+---
+
 # Thursday, June 19, 2025
 
 ## @gregisenberg - LLMs as the operating system for software
@@ -63647,6 +66144,8 @@ the algorithm knows when you're being needy
 
 - **Tweet:** https://x.com/gregisenberg/status/1935776270329298965
 - **What:** The post frames Karpathy’s AI-era software thesis as a near-term competitive playbook: LLMs behave like an operating system, natural language becomes code, and programs increasingly automate other programs.
+
+---
 
 ---
 
@@ -63668,6 +66167,8 @@ the algorithm knows when you're being needy
 
 ---
 
+---
+
 # Sunday, June 15, 2025
 
 ## @PJaccetturo - AI Bigfoot ads make a dentist stand out
@@ -63683,6 +66184,8 @@ the algorithm knows when you're being needy
 
 - **Tweet:** https://x.com/PJaccetturo/status/1934403079618887967
 - **What:** Using an LA dentist’s AI Bigfoot vlog ads as evidence, the post argues that entertainment-led creative can make local advertising far more visible than conventional competitor marketing.
+
+---
 
 ---
 
@@ -63785,6 +66288,8 @@ the algorithm knows when you're being needy
 
 ---
 
+---
+
 # Wednesday, June 11, 2025
 
 ## @corbtt - Why frontier models still struggle with short-form writing
@@ -63842,6 +66347,8 @@ the algorithm knows when you're being needy
 
 ---
 
+---
+
 # Tuesday, June 10, 2025
 
 ## @jia_seed - Recognizing Strength-Aligned Life Opportunities
@@ -63889,6 +66396,8 @@ the algorithm knows when you're being needy
 - **Tweet:** https://x.com/melissa/status/1932291499569627550
 - **Quoted:** https://x.com/mbateman/status/1932282185760887233
 - **What:** Melissa frames Alpha School as potentially revealing that conventional schooling is the wrong category, while the quoted post demands evidence that its outcomes extend beyond selective students and edtech hype.
+
+---
 
 ---
 
@@ -63951,6 +66460,8 @@ the algorithm knows when you're being needy
 
 ---
 
+---
+
 # Sunday, June 8, 2025
 
 ## @mhp_guy - Mining ChatGPT histories for standout prompts
@@ -63976,6 +66487,8 @@ the algorithm knows when you're being needy
 
 - **Tweet:** https://x.com/melissa/status/1931687189446111287
 - **What:** This announces a second curated collection of Yacine MTB's parenting writing, framed around how conventional parenting approaches are outmatched and serving as a pointer to an ongoing essay series.
+
+---
 
 ---
 
@@ -64050,6 +66563,8 @@ the algorithm knows when you're being needy
 
 ---
 
+---
+
 # Wednesday, June 4, 2025
 
 ## @codyschneider - AI UGC agency path to $20K monthly revenue
@@ -64115,6 +66630,8 @@ the algorithm knows when you're being needy
 
 - **Tweet:** https://x.com/rileybrown/status/1930117670827110769
 - **What:** This video outline presents “vibe marketing” as a practical AI-assisted SEO-agency workflow, connecting n8n automations, Claude, MCP integrations, and agent design to turn content such as YouTube videos into scalable marketing outputs.
+
+---
 
 ---
 
@@ -64259,6 +66776,8 @@ the algorithm knows when you're being needy
 
 ---
 
+---
+
 # Monday, June 2, 2025
 
 ## @eptwts - Elon Musk's memorable replies
@@ -64308,6 +66827,8 @@ the algorithm knows when you're being needy
 
 - **Tweet:** https://x.com/ViperChill/status/1929539156419736048
 - **What:** Glen Allsopp documents a low-cost retrieval-augmented generation experiment: clean a public corpus into Markdown, upload it to Cloudflare AutoRAG, and ask a source-cited chatbot questions constrained to that material, while noting the permission concerns of publishing someone else's archive.
+
+---
 
 ---
 
@@ -64398,6 +66919,8 @@ the algorithm knows when you're being needy
 
 ---
 
+---
+
 # Thursday, May 29, 2025
 
 ## @thefernandocz - Replit founder’s claimed blueprint for rapid AI-native growth
@@ -64480,6 +67003,8 @@ the algorithm knows when you're being needy
 
 - **Tweet:** https://x.com/frog_omo/status/1927977246297337874
 - **What:** LINK_FAILED: Could not expand link from @frog_omo; the claim concerns a repository aggregating more than 1,000 n8n templates across e-commerce, social scheduling, and lead generation, but its actual repository URL is unavailable.
+
+---
 
 ---
 
@@ -64626,6 +67151,8 @@ the algorithm knows when you're being needy
 
 ---
 
+---
+
 # Tuesday, May 27, 2025
 
 ## @cremieuxrecueil - Cannabis-outcome correlations are mostly selection
@@ -64680,6 +67207,8 @@ the algorithm knows when you're being needy
 
 - **Tweet:** https://x.com/oglarhy/status/1927262500413669659
 - **What:** This argues that profitable AI microbusinesses can be built quietly by validating demand first, then combining existing models, automation services, and marketplaces instead of investing in a public personal brand.
+
+---
 
 ---
 
@@ -64764,6 +67293,8 @@ the algorithm knows when you're being needy
 
 ---
 
+---
+
 # Sunday, May 25, 2025
 
 ## @pashmerepat - Agentic discovery as an alternative to RAG
@@ -64776,6 +67307,8 @@ the algorithm knows when you're being needy
 - **Tweet:** https://x.com/pashmerepat/status/1926717705660375463
 - **Quoted:** https://x.com/pashmerepat/status/1926002425808232563
 - **What:** The bookmark pairs a Claude Code team member’s claim that agentic discovery decisively outperformed RAG with a related argument that retrieval augmentation can constrain more capable agent workflows.
+
+---
 
 ---
 
@@ -64807,6 +67340,8 @@ the algorithm knows when you're being needy
 
 ---
 
+---
+
 # Friday, May 23, 2025
 
 ## @iamkylebalmer - Beginner guide to AI automation businesses
@@ -64824,6 +67359,8 @@ the algorithm knows when you're being needy
 
 - **Tweet:** https://x.com/iamkylebalmer/status/1925944851696177411
 - **What:** Kyle Balmer promotes a beginner-oriented guide to starting an AI-automation service business, including warnings about unsuitable automations and positioning implementation help as a response to companies that lack internal automation capability.
+
+---
 
 ---
 
@@ -64882,6 +67419,8 @@ the algorithm knows when you're being needy
 
 - **Tweet:** https://x.com/svpino/status/1925192389054132518
 - **What:** Santiago highlights a free StackAI-supported guide that surveys 25 practical AI-agent applications and explains how to implement them, making it a useful starting point for moving from agent concepts to industry-specific builds.
+
+---
 
 ---
 
@@ -64967,6 +67506,8 @@ the algorithm knows when you're being needy
 
 - **Tweet:** https://x.com/codyschneider/status/1924893503500214449
 - **What:** Cody Schneider outlines a SaaS SEO growth loop: target comparison and alternative queries with buying intent, draft from ranking-page patterns, optimize CTAs and indexing, then measure signups to scale the pages that convert.
+
+---
 
 ---
 
@@ -65075,6 +67616,8 @@ the algorithm knows when you're being needy
 
 ---
 
+---
+
 # Sunday, May 18, 2025
 
 ## @minchoi - A multi-model software-delivery workflow
@@ -65091,6 +67634,8 @@ the algorithm knows when you're being needy
 
 - **Tweet:** https://x.com/minchoi/status/1924114459506671733
 - **What:** Min Choi describes a deliberately specialized multi-model development pipeline, assigning requirements, planning, implementation, test design, execution, and debugging to different systems rather than expecting one model to handle the entire lifecycle.
+
+---
 
 ---
 
@@ -65113,6 +67658,8 @@ the algorithm knows when you're being needy
 
 - **Tweet:** https://x.com/NickADobos/status/1923473690811040154
 - **What:** Nick Dobos frames an agent's codebase and development environment as part of the prompt: their structure, permissions, conventions, and available tools shape what an autonomous coding system can safely and effectively do.
+
+---
 
 ---
 
@@ -65165,6 +67712,8 @@ the algorithm knows when you're being needy
 
 - **Tweet:** https://x.com/mattdiggityseo/status/1922956790179799057
 - **What:** Matt Diggity presents a medical SEO case study claiming growth from 1,040 to 40,284 monthly organic sessions through a user-first three-step strategy, positioning relevance and user value over backlink campaigns or publishing volume.
+
+---
 
 ---
 
@@ -65268,6 +67817,8 @@ the algorithm knows when you're being needy
 
 ---
 
+---
+
 # Tuesday, May 13, 2025
 
 ## @ericzakariasson - Cursor's Practical Guide to Choosing Coding Models
@@ -65306,6 +67857,8 @@ the algorithm knows when you're being needy
 
 ---
 
+---
+
 # Monday, May 12, 2025
 
 ## @thepatwalls - Request for Real-World AI Agent Deployments
@@ -65319,6 +67872,8 @@ the algorithm knows when you're being needy
 
 - **Tweet:** https://x.com/thepatwalls/status/1921932138401726866
 - **What:** Pat Walls solicits real post-deployment AI-agent case studies rather than startup promotions, emphasizing concrete workflows that save time, improve personal operations, or create measurable economic value.
+
+---
 
 ---
 
@@ -65338,6 +67893,8 @@ the algorithm knows when you're being needy
 
 ---
 
+---
+
 # Thursday, May 8, 2025
 
 ## @gregisenberg - YC Summer 2025 AI Automation Startup Themes
@@ -65349,6 +67906,8 @@ the algorithm knows when you're being needy
 
 - **Tweet:** https://x.com/gregisenberg/status/1920514988092870884
 - **What:** Greg Isenberg frames Y Combinator’s Summer 2025 startup interests around AI workflow automation, highlighting opportunities to compress repetitive full-time knowledge-work tasks into rapid, agent-assisted processes.
+
+---
 
 ---
 
@@ -65387,6 +67946,8 @@ the algorithm knows when you're being needy
 
 ---
 
+---
+
 # Monday, May 5, 2025
 
 ## @aaditsh - Fiverr CEO's warning on AI job disruption
@@ -65410,6 +67971,8 @@ the algorithm knows when you're being needy
 
 - **Tweet:** https://x.com/Tim_Denning/status/1919244536749953263
 - **What:** A deliberately provocative personal-finance heuristic that contrasts building productive assets with focusing narrowly on household expense control, emphasizing wealth creation over frugality alone.
+
+---
 
 ---
 
@@ -65438,6 +68001,8 @@ the algorithm knows when you're being needy
 
 - **Tweet:** https://x.com/eptwts/status/1919139447116898544
 - **What:** A terse endorsement of treating repetitive work as automatable rather than accepting manual effort by default, pointing to an example through the linked post.
+
+---
 
 ---
 
@@ -65476,6 +68041,8 @@ the algorithm knows when you're being needy
 
 - **Tweet:** https://x.com/YoniSmolyar/status/1918756147454153125
 - **What:** Yoni Smolyar describes the persistent productivity guilt of early-stage solopreneurship: without dependable revenue or a safety net, rest can feel like abandoning one’s future just before a possible breakthrough.
+
+---
 
 ---
 
@@ -65529,6 +68096,8 @@ the algorithm knows when you're being needy
 
 ---
 
+---
+
 # Thursday, May 1, 2025
 
 ## @boryan_markulis - Customer-problem research before ecommerce scaling
@@ -65554,6 +68123,8 @@ the algorithm knows when you're being needy
 
 - **Tweet:** https://x.com/boryan_markulis/status/1917929842462380149
 - **What:** An ecommerce operator argues that scaling depends less on campaign mechanics than on firsthand understanding of a buyer's urgent problem and a credible articulation of how the product resolves it.
+
+---
 
 ---
 
@@ -65617,6 +68188,8 @@ the algorithm knows when you're being needy
 
 ---
 
+---
+
 # Monday, April 28, 2025
 
 ## @thesamparr - Crowdsource Useful ChatGPT Prompts Across Life and Work
@@ -65669,6 +68242,8 @@ the algorithm knows when you're being needy
 - **Tweet:** https://x.com/kittydev0/status/1916781756138524779
 - **Parent:** https://x.com/tom_doerr/status/1916701705758011877
 - **What:** In response to a claim that successful companies may quietly use DSPy, this reply exposes a basic awareness gap: the framework’s supposed adoption is hard to assess when even its identity is unclear to readers.
+
+---
 
 ---
 
@@ -65731,6 +68306,8 @@ the algorithm knows when you're being needy
 
 ---
 
+---
+
 # Thursday, April 24, 2025
 
 ## @alexoakdev - Community support for scaling consumer apps
@@ -65761,6 +68338,8 @@ the algorithm knows when you're being needy
 - **Tweet:** https://x.com/alexoakdev/status/1915505790087246058
 - **Quoted:** https://x.com/alexoakdev/status/1913642004421976555
 - **What:** Building on the observation that polished packaging can sell simple AI-wrapper apps, the author proposes a community to address the operational work behind profitable consumer products, including validation, onboarding, pricing, and optimization.
+
+---
 
 ---
 
@@ -65820,6 +68399,8 @@ the algorithm knows when you're being needy
 - **Tweet:** https://x.com/eptwts/status/1914955832271261864
 - **Quoted:** https://x.com/eptwts/status/1913901325059842134
 - **What:** The post argues that business owners’ AI FOMO creates an agency opportunity, but rejects automation skill alone as the advantage: durable operators need workflow understanding and a visionary-builder partnership to solve real B2B problems.
+
+---
 
 ---
 
@@ -65910,6 +68491,8 @@ the algorithm knows when you're being needy
 
 ---
 
+---
+
 # Monday, April 21, 2025
 
 ## @robinwindt999 - Strict weekly productivity planning prompt
@@ -65996,6 +68579,8 @@ the algorithm knows when you're being needy
 
 ---
 
+---
+
 # Sunday, April 20, 2025
 
 ## @tailopez - Nine-account Instagram distribution strategy
@@ -66003,6 +68588,8 @@ the algorithm knows when you're being needy
 
 - **Tweet:** https://x.com/tailopez/status/1914135245076431102
 - **What:** Tai Lopez proposes a social-distribution strategy that combines a personal Instagram presence with eight niche, faceless theme accounts, using the latter to generate additional traffic funnels for a product rather than relying on a single creator identity.
+
+---
 
 ---
 
@@ -66026,6 +68613,8 @@ the algorithm knows when you're being needy
 
 ---
 
+---
+
 # Friday, April 18, 2025
 
 ## @eptwts - AI Upskilling Service for Virtual Assistants
@@ -66037,6 +68626,8 @@ the algorithm knows when you're being needy
 
 - **Tweet:** https://x.com/eptwts/status/1913240069827158097
 - **What:** The post identifies a potential service business: train virtual assistants to incorporate AI into routine workflows, increasing their output and effectiveness rather than replacing them, with an open invitation for someone to build the offering.
+
+---
 
 ---
 
@@ -66125,6 +68716,8 @@ the algorithm knows when you're being needy
 
 ---
 
+---
+
 # Wednesday, April 16, 2025
 
 ## @eptwts - Behavior-Based Learning-Style Assessment Prompt
@@ -66203,6 +68796,8 @@ the algorithm knows when you're being needy
 
 ---
 
+---
+
 # Tuesday, April 15, 2025
 
 ## @ViperChill - Keyboard-first Chrome extension for link search
@@ -66222,6 +68817,8 @@ the algorithm knows when you're being needy
 
 - **Tweet:** https://x.com/eptwts/status/1912097544525455482
 - **What:** LINK_FAILED: Could not expand link from @eptwts; the post highlights Gemini as a way to turn information visible in a screen recording into extractable data, which could bypass manual transcription or structured export.
+
+---
 
 ---
 
@@ -66325,6 +68922,8 @@ the algorithm knows when you're being needy
 
 ---
 
+---
+
 # Sunday, April 13, 2025
 
 ## @akshay_pachaar - Visual Primer on Traditional RAG and Graph RAG
@@ -66423,6 +69022,8 @@ the algorithm knows when you're being needy
 
 ---
 
+---
+
 # Saturday, April 12, 2025
 
 ## @awilkinson - Practical AI Agents for Email, Calendars, and School Admin
@@ -66461,6 +69062,8 @@ the algorithm knows when you're being needy
 
 ---
 
+---
+
 # Friday, April 11, 2025
 
 ## @josephxhenry - Patterns behind Whop businesses above $500K monthly
@@ -66472,6 +69075,8 @@ the algorithm knows when you're being needy
 
 - **Tweet:** https://x.com/josephxhenry/status/1910749766998204624
 - **What:** An introduction to a thread distilling patterns observed across more than 1,000 high-revenue Whop businesses, offering comparative evidence for creators and operators studying repeatable growth and monetization traits.
+
+---
 
 ---
 
@@ -66701,6 +69306,8 @@ the algorithm knows when you're being needy
 
 ---
 
+---
+
 # Wednesday, April 9, 2025
 
 ## @billyjhowell - Simple AI app approach and reported BMW sales
@@ -66804,6 +69411,8 @@ the algorithm knows when you're being needy
 
 ---
 
+---
+
 # Tuesday, April 8, 2025
 
 ## @enggirlfriend - The Opportunity for an AI-Native Writing Workspace
@@ -66883,6 +69492,8 @@ the algorithm knows when you're being needy
 - **Tweet:** https://x.com/eptwts/status/1909549818340421650
 - **Quoted:** https://x.com/eptwts/status/1909548443531456747
 - **What:** EP proposes turning a reference video into an editing-style JSON profile, then having Gemini compare it with privately uploaded raw footage to propose timestamped cuts, effects, and transitions.
+
+---
 
 ---
 
@@ -67032,6 +69643,8 @@ the algorithm knows when you're being needy
 
 ---
 
+---
+
 # Sunday, April 6, 2025
 
 ## @NickADobos - Devin's emerging fit for playbook-driven teams
@@ -67059,6 +69672,8 @@ the algorithm knows when you're being needy
 
 - **Tweet:** https://x.com/eptwts/status/1908936046437351536
 - **What:** This is a strategic prompt to consider how one is building leverage during the current AI expansion, framing the next one to two years as a period when deliberate skills, products, or investments may compound.
+
+---
 
 ---
 
@@ -67157,6 +69772,8 @@ the algorithm knows when you're being needy
 
 - **Tweet:** https://x.com/eptwts/status/1908094037652852805
 - **What:** The post claims Flux can be fine-tuned on a person's face to generate highly consistent likenesses, pointing to a straightforward personalization workflow for synthetic images and its associated identity and consent implications.
+
+---
 
 ---
 
@@ -67276,6 +69893,8 @@ the algorithm knows when you're being needy
 
 ---
 
+---
+
 # Wednesday, April 2, 2025
 
 ## @TheMattBerman - Beehiiv newsletter systems for a five-hour workweek
@@ -67325,6 +69944,8 @@ the algorithm knows when you're being needy
 
 - **Tweet:** https://x.com/indexsy/status/1907299581760782422
 - **What:** LINK_FAILED: Could not expand link from @indexsy — the post promotes a technical cold-email process for agency outreach at 1,000 messages daily, but the resolved URL exposes none of the promised tooling, deliverability, or operational details.
+
+---
 
 ---
 
@@ -67399,6 +70020,8 @@ the algorithm knows when you're being needy
 
 - **Tweet:** https://x.com/HarmlessYardDog/status/1907029963217207320
 - **What:** THIN: A short teaser claims an entire software-engineering team was laid off because of AI and points to a Part 1 post, but supplies neither the employer, timeline, evidence, nor the account of how AI caused the layoffs.
+
+---
 
 ---
 
@@ -67871,6 +70494,8 @@ the algorithm knows when you're being needy
 
 ---
 
+---
+
 # Sunday, March 30, 2025
 
 ## @safwaankay - Guide to production-ready AI static ads
@@ -67928,6 +70553,8 @@ the algorithm knows when you're being needy
 
 ---
 
+---
+
 # Saturday, March 29, 2025
 
 ## @eptwts - Generative AI as an expression medium
@@ -67946,6 +70573,8 @@ the algorithm knows when you're being needy
 - **Tweet:** https://x.com/eptwts/status/1905937217895236002
 - **Quoted:** https://x.com/eptwts/status/1905556783348785219
 - **What:** EP extends ad-style profiling to YouTube, proposing Perplexity extract a script profile alongside creative intent so an AI can reproduce a channel's underlying writing patterns.
+
+---
 
 ---
 
@@ -68021,6 +70650,8 @@ the algorithm knows when you're being needy
 
 ---
 
+---
+
 # Wednesday, March 26, 2025
 
 ## @kenwheeler - Unspecified discovery reaction
@@ -68038,6 +70669,8 @@ the algorithm knows when you're being needy
 
 - **Tweet:** https://x.com/alexgoughcooper/status/1904870196369564128
 - **What:** Cooper presents a “vibe marketing” workflow that combines Claude-directed prompting with ChatGPT-generated static creative, suggesting AI can rapidly produce branded campaign assets.
+
+---
 
 ---
 
@@ -68318,6 +70951,8 @@ the algorithm knows when you're being needy
 
 ---
 
+---
+
 # Monday, March 24, 2025
 
 ## @elvissun - Low-cost stack for bootstrapping SaaS
@@ -68376,6 +71011,8 @@ the algorithm knows when you're being needy
 
 ---
 
+---
+
 # Sunday, March 23, 2025
 
 ## @Austen - Unspecified industry development deemed inevitable
@@ -68392,6 +71029,8 @@ the algorithm knows when you're being needy
 
 ---
 
+---
+
 # Saturday, March 22, 2025
 
 ## @boringmarketer - Marketers who build AI workflows gain leverage
@@ -68399,6 +71038,8 @@ the algorithm knows when you're being needy
 
 - **Tweet:** https://x.com/boringmarketer/status/1903492801188278730
 - **What:** The post argues that marketers who can independently design and ship AI workflows become unusually valuable because they combine domain knowledge with automation delivery, increasing both execution speed and strategic leverage.
+
+---
 
 ---
 
@@ -68443,6 +71084,8 @@ the algorithm knows when you're being needy
 
 ---
 
+---
+
 # Thursday, March 20, 2025
 
 ## @rrhoover - Reflecting on the most impactful recent product
@@ -68467,6 +71110,8 @@ the algorithm knows when you're being needy
 
 - **Tweet:** https://x.com/deedydas/status/1902753759559925784
 - **What:** Deedy highlights a reported Airbnb engineering migration where LLM assistance compressed an estimated 18-month effort into six weeks, framing AI coding agents as a material lever for both delivery speed and R&D cost reduction.
+
+---
 
 ---
 
@@ -68550,6 +71195,8 @@ the algorithm knows when you're being needy
 - **Quoted:** https://x.com/ceo_on_bus/status/1901979488113828127
 - **Filed:** [browser-tools-mcp](./knowledge/tools/browser-tools-mcp.md)
 - **What:** Ted Werbel highlights a Windows setup guide addressing Cursor compatibility problems with BrowserTools MCP, while the quoted author supplies the practical motivation: restoring a browser-observability bridge for AI-assisted “vibe coding” after a Cursor update disrupted the existing workflow.
+
+---
 
 ---
 
@@ -68696,6 +71343,8 @@ the algorithm knows when you're being needy
 
 ---
 
+---
+
 # Monday, March 17, 2025
 
 ## @Dylanmadden - Replacing staff tasks with a ChatGPT-built system
@@ -68755,6 +71404,8 @@ the algorithm knows when you're being needy
 
 ---
 
+---
+
 # Sunday, March 16, 2025
 
 ## @mbateman - Alpha School’s under-recognized academic platform
@@ -68764,6 +71415,8 @@ the algorithm knows when you're being needy
 
 - **Tweet:** https://x.com/mbateman/status/1901466039793107427
 - **What:** Matt Bateman highlights Alpha School’s academic software as an overlooked AI-in-education example, arguing that strong core outcomes and integration with a capable school model deserve more attention.
+
+---
 
 ---
 
@@ -68796,6 +71449,8 @@ the algorithm knows when you're being needy
 
 ---
 
+---
+
 # Wednesday, March 12, 2025
 
 ## @NickADobos - Published knowledge limits LLM expertise
@@ -68811,6 +71466,8 @@ the algorithm knows when you're being needy
 
 - **Tweet:** https://x.com/aakashgupta/status/1899852710897230328
 - **What:** THIN: Aakash Gupta flags advice from an account that was subsequently deleted, but the preserved bookmark contains no substantive advice or recoverable linked post to assess the original claim.
+
+---
 
 ---
 
@@ -68904,6 +71561,8 @@ the algorithm knows when you're being needy
 
 ---
 
+---
+
 # Monday, March 10, 2025
 
 ## @EastlondonDev - Parallel Cursor and Windsurf development workflow
@@ -68927,6 +71586,8 @@ the algorithm knows when you're being needy
 
 - **Tweet:** https://x.com/eptwts/status/1899175657294205286
 - **What:** This is an endorsement of trusted, high-velocity peer groups as a source of startup ideas and momentum, connecting informal online conversation to Napoleon Hill’s older “mastermind” collaboration concept.
+
+---
 
 ---
 
@@ -68969,6 +71630,8 @@ the algorithm knows when you're being needy
 
 ---
 
+---
+
 # Friday, March 7, 2025
 
 ## @askOkara - v0 system prompt engineering analysis
@@ -68980,6 +71643,8 @@ the algorithm knows when you're being needy
 
 - **Tweet:** https://x.com/askOkara/status/1897951235036377392
 - **What:** The bookmark flags a promised thread dissecting v0’s unusually long system prompt, useful as a practical prompt-engineering case study even though the detailed breakdown is accessible only through the linked post.
+
+---
 
 ---
 
@@ -69068,6 +71733,8 @@ the algorithm knows when you're being needy
 
 ---
 
+---
+
 # Wednesday, March 5, 2025
 
 ## @_xjdr - Caretaking an AI-maintained codebase
@@ -69075,6 +71742,8 @@ the algorithm knows when you're being needy
 
 - **Tweet:** https://x.com/_xjdr/status/1897343703024570567
 - **What:** THIN: @_xjdr says Claude now effectively owns the repository while they act as a caretaker, but provides no project details, engineering results, or external source with enough context to assess the claim.
+
+---
 
 ---
 
@@ -69294,6 +71963,8 @@ the algorithm knows when you're being needy
 
 ---
 
+---
+
 # Monday, March 3, 2025
 
 ## @IceSolst - Cursor and Claude Side-Project Portfolio
@@ -69503,6 +72174,8 @@ the algorithm knows when you're being needy
 
 ---
 
+---
+
 # Sunday, March 2, 2025
 
 ## @dustinhyle - Elementor removal costs and platform-selection warning
@@ -69600,6 +72273,8 @@ the algorithm knows when you're being needy
 
 ---
 
+---
+
 # Saturday, March 1, 2025
 
 ## @MoonDevOnYT - AI agents for monetized video production
@@ -69630,6 +72305,8 @@ the algorithm knows when you're being needy
 
 - **Tweet:** https://x.com/PrajwalTomar_/status/1895839765280539068
 - **What:** Prajwal Tomar presents a claimed step-by-step Cursor workflow distilled from building sixteen client SaaS products, positioning it as a practical route from AI-assisted coding to production-ready MVPs rather than a generic prompt-driven prototype exercise.
+
+---
 
 ---
 
@@ -69688,6 +72365,8 @@ the algorithm knows when you're being needy
 
 - **Tweet:** https://x.com/PrajwalTomar_/status/1895482771671539975
 - **What:** Prajwal Tomar introduces a client-MVP workflow that combines Cursor, Supabase, and MCP so AI can assist with backend implementation, database work, and migrations, framing the stack as a way to reduce delivery time and cost without treating the product as a throwaway prototype.
+
+---
 
 ---
 
@@ -69773,6 +72452,8 @@ the algorithm knows when you're being needy
 
 ---
 
+---
+
 # Wednesday, February 26, 2025
 
 ## @johnrush - Why Viral Reach Follows Content Mechanics Rather Than Followers
@@ -69787,6 +72468,8 @@ the algorithm knows when you're being needy
 
 ---
 
+---
+
 # Monday, February 24, 2025
 
 ## @lxnmnnn - Rapid mobile app prototyping with Expo and Cursor
@@ -69794,6 +72477,8 @@ the algorithm knows when you're being needy
 
 - **Tweet:** https://x.com/lxnmnnn/status/1894130599666892895
 - **What:** THIN: Alex reports a mobile prototype assembled in 30 minutes with Expo, Cursor, and Sonnet 3.7; the bookmark has no linked demo details or media context to evaluate the result.
+
+---
 
 ---
 
@@ -69886,6 +72571,8 @@ the algorithm knows when you're being needy
 
 ---
 
+---
+
 # Saturday, February 22, 2025
 
 ## @elder_plinius - Using saved memory as personal coarse-tuning
@@ -69904,6 +72591,8 @@ the algorithm knows when you're being needy
 
 ---
 
+---
+
 # Friday, February 21, 2025
 
 ## @MaziyarPanahi - Hugging Face Data Studio's natural-language SQL queries
@@ -69919,6 +72608,8 @@ the algorithm knows when you're being needy
 
 - **Tweet:** https://x.com/theodemocrat/status/1893002726432186590
 - **What:** This post advances a religiously framed rejection of antidepressants, treating depression as spiritual correction rather than a health condition; it is notable as a stigmatizing and medically unsupported claim about mental-health treatment.
+
+---
 
 ---
 
@@ -69950,6 +72641,8 @@ the algorithm knows when you're being needy
 
 ---
 
+---
+
 # Wednesday, February 19, 2025
 
 ## @johnrush - Web agents for repetitive online tasks
@@ -69977,6 +72670,8 @@ the algorithm knows when you're being needy
 
 ---
 
+---
+
 # Tuesday, February 18, 2025
 
 ## @askOkara - AI-agent builder peer group
@@ -70001,6 +72696,8 @@ the algorithm knows when you're being needy
 
 - **Tweet:** https://x.com/ViperChill/status/1891853663263486462
 - **What:** This announces a free, signup-free SEO research tool for tracking large “Digital Goliaths” in Google, offering a way to study how dominant publishers shape search results and competitive visibility.
+
+---
 
 ---
 
@@ -70081,6 +72778,8 @@ the algorithm knows when you're being needy
 
 ---
 
+---
+
 # Sunday, February 16, 2025
 
 ## @kevinhou22 - MCP workflow patterns in AI coding tools
@@ -70090,6 +72789,8 @@ the algorithm knows when you're being needy
 
 - **Tweet:** https://x.com/kevinhou22/status/1891211767339958364
 - **What:** An open request for practical Model Context Protocol server recommendations in Windsurf and Cursor, aimed at surfacing the emerging workflows through which power users connect coding assistants to external tools and development data.
+
+---
 
 ---
 
@@ -70139,6 +72840,8 @@ the algorithm knows when you're being needy
 
 - **Tweet:** https://x.com/neilpatel/status/1890747898775670802
 - **What:** Neil Patel cites an analysis of 113 companies that ranks interactive tools above other content formats for lead generation, arguing that tools not only attract more leads but tend to produce higher-quality prospects.
+
+---
 
 ---
 
@@ -70229,6 +72932,8 @@ the algorithm knows when you're being needy
 
 ---
 
+---
+
 # Thursday, February 13, 2025
 
 ## @n_sri_laasya - Multi-agent mortgage preapproval in under five minutes
@@ -70271,6 +72976,8 @@ the algorithm knows when you're being needy
 
 - **Tweet:** https://x.com/cadenbuild/status/1889909377886462320
 - **What:** A promotional claim for an AI that models several conversational moves ahead to steer interactions toward a chosen outcome, framing dialogue as a strategic planning problem.
+
+---
 
 ---
 
@@ -70322,6 +73029,8 @@ the algorithm knows when you're being needy
 
 - **Tweet:** https://x.com/ViperChill/status/1889689440974676221
 - **What:** Glen Allsopp presents prompt, sincere gratitude toward new linkers as both good relationship practice and durable link building: it opens non-spammy conversations with people who have further publishing and promotion reach.
+
+---
 
 ---
 
@@ -70431,6 +73140,8 @@ the algorithm knows when you're being needy
 
 ---
 
+---
+
 # Sunday, February 9, 2025
 
 ## @Scobleizer - X lists for discovering builders
@@ -70451,6 +73162,8 @@ the algorithm knows when you're being needy
 
 - **Tweet:** https://x.com/expertwith_AI/status/1888550781986701767
 - **What:** A promotional claim that a DeepSeek-powered trading bot turned $100 into substantial overnight gains, but the captured link resolves only to the X post, leaving its strategy, evidence, and risk controls unverified.
+
+---
 
 ---
 
@@ -70491,6 +73204,8 @@ the algorithm knows when you're being needy
 
 ---
 
+---
+
 # Friday, February 7, 2025
 
 ## @jackfriks - A 30-Day Plan for 1,000 App Downloads
@@ -70513,6 +73228,8 @@ the algorithm knows when you're being needy
 
 - **Tweet:** https://x.com/ShaanVP/status/1887967867951530417
 - **What:** LINK_FAILED: Could not expand link from @ShaanVP; the post announces a “triangle of talent” essay, but the supplied short link resolves back to the tweet instead of providing the article itself.
+
+---
 
 ---
 
@@ -70546,6 +73263,8 @@ the algorithm knows when you're being needy
 
 - **Tweet:** https://x.com/chris_nectiv/status/1887538616370344376
 - **What:** Long highlights a Google-built Looker template that combines Analytics and Search Console data, giving SEO teams a preconfigured dashboard for relating search performance to on-site behavior.
+
+---
 
 ---
 
@@ -70642,6 +73361,8 @@ the algorithm knows when you're being needy
 
 ---
 
+---
+
 # Tuesday, February 4, 2025
 
 ## @cline - Vibe coding as a new abstraction layer
@@ -70707,6 +73428,8 @@ the algorithm knows when you're being needy
 
 - **Tweet:** https://x.com/neilpatel/status/1886761635458769068
 - **What:** Neil Patel introduces a survey of more than 28,000 respondents about ad avoidance across social networks and argues that advertising creative should resemble useful organic content while remaining clearly labeled as advertising.
+
+---
 
 ---
 
@@ -70872,6 +73595,8 @@ the algorithm knows when you're being needy
 
 ---
 
+---
+
 # Sunday, February 2, 2025
 
 ## @GaelBreton - Deep research threatens high-intent SEO traffic
@@ -70950,6 +73675,8 @@ the algorithm knows when you're being needy
 
 ---
 
+---
+
 # Saturday, February 1, 2025
 
 ## @karpathy - TextArena game-based LLM evaluation
@@ -70965,6 +73692,8 @@ the algorithm knows when you're being needy
 - **Link:** https://www.textarena.ai/
 - **Quoted:** https://x.com/LeonGuertler/status/1885259143013163263
 - **What:** Karpathy endorses TextArena’s adaptive, opponent-based alternative to fixed LLM benchmarks; Guertler’s project supplies 57 text games, a Gym-like interface, and an online leaderboard for evaluating models against humans and other models while pursuing socially capable agents.
+
+---
 
 ---
 
@@ -71049,6 +73778,8 @@ the algorithm knows when you're being needy
 
 ---
 
+---
+
 # Thursday, January 30, 2025
 
 ## @gregisenberg - YC's AI-first startup funding priorities for 2025
@@ -71103,6 +73834,8 @@ gl hf
 
 ---
 
+---
+
 # Wednesday, January 29, 2025
 
 ## @WifiMoneyPlant - Discounted business-accountability Discord offer
@@ -71151,6 +73884,8 @@ glhf dont get clapped
 
 - **Tweet:** https://x.com/skirano/status/1884660931910918516
 - **What:** Pietro Schirano shares a reusable prompt intended to steer an AI coding assistant toward performance-conscious React implementations, making optimization criteria explicit before generation instead of relying on later refactoring.
+
+---
 
 ---
 
@@ -71222,6 +73957,8 @@ glhf dont get clapped
 
 ---
 
+---
+
 # Monday, January 27, 2025
 
 ## @levelsio - AI-maintained products driven by user feedback
@@ -71235,6 +73972,8 @@ glhf dont get clapped
 
 - **Tweet:** https://x.com/levelsio/status/1883995696933802257
 - **What:** The post imagines connecting a user-feedback board directly to a codebase so AI agents can turn reported needs into bug fixes and features, leaving people to govern the work through pull-request review.
+
+---
 
 ---
 
@@ -71259,6 +73998,8 @@ glhf dont get clapped
 
 ---
 
+---
+
 # Friday, January 24, 2025
 
 ## @Charles_SEO - Eight SEO failures that undermine organic performance
@@ -71278,6 +74019,8 @@ glhf dont get clapped
 
 - **Tweet:** https://x.com/Charles_SEO/status/1882739849230475547
 - **What:** Charles Floate condenses recurring SEO consulting failures into an operational checklist covering competitive research, SERP schema, information architecture, internal linking, cannibalization, redirects, and coherent strategy.
+
+---
 
 ---
 
@@ -71407,6 +74150,8 @@ glhf dont get clapped
 
 ---
 
+---
+
 # Wednesday, January 22, 2025
 
 ## @PatrickSargis - Agency fulfillment agents trained on proprietary examples
@@ -71457,6 +74202,8 @@ glhf dont get clapped
 
 ---
 
+---
+
 # Tuesday, January 21, 2025
 
 ## @MoonDevOnYT - Autonomous AI trading-agent tutorial
@@ -71482,6 +74229,8 @@ glhf dont get clapped
 
 - **Tweet:** https://x.com/keywordian/status/1881822684839088220
 - **What:** Ian points to niche online directories as modest but durable internet businesses, claiming specialized listings can generate meaningful monthly revenue; the saved post introduces a four-example thread, though those examples are not included in the captured bookmark data.
+
+---
 
 ---
 
@@ -71566,6 +74315,8 @@ glhf dont get clapped
 
 - **Tweet:** https://x.com/mattdiggityseo/status/1881242880486080606
 - **What:** Matt Diggity's opinionated 2025 prioritization puts earned media and quality editorial placements above scalable legacy tactics, offering an SEO team a heuristic for allocating link-acquisition effort while treating manipulative link sources as potential liabilities.
+
+---
 
 ---
 
@@ -71756,6 +74507,8 @@ glhf dont get clapped
 
 ---
 
+---
+
 # Saturday, January 18, 2025
 
 ## @tom_doerr - Python Crypto Trading Bot
@@ -71804,6 +74557,8 @@ glhf dont get clapped
 
 ---
 
+---
+
 # Friday, January 17, 2025
 
 ## @ViperChill - Vertical CRM Funding for Specialist Businesses
@@ -71815,6 +74570,8 @@ glhf dont get clapped
 
 - **Tweet:** https://x.com/ViperChill/status/1880247219623981339
 - **What:** Glen Allsopp highlights renewed investor appetite for vertical SaaS: deeply tailored CRM, customer-management, and booking systems for a single business niche, despite the underlying model being well established.
+
+---
 
 ---
 
@@ -71842,6 +74599,8 @@ glhf dont get clapped
 
 ---
 
+---
+
 # Tuesday, January 14, 2025
 
 ## @yacineMTB - Homeschooling as a rejection of conformity
@@ -71849,6 +74608,8 @@ glhf dont get clapped
 
 - **Tweet:** https://x.com/yacineMTB/status/1879240891761873232
 - **What:** A deliberately provocative defense of homeschooling frames conventional social normalization as an outcome to avoid, using humor to reject the assumption that being “normal” is the goal.
+
+---
 
 ---
 
@@ -71896,6 +74657,8 @@ glhf dont get clapped
 
 ---
 
+---
+
 # Sunday, January 12, 2025
 
 ## @FezWeb3 - Protecting personal information through selective disclosure
@@ -71905,6 +74668,8 @@ glhf dont get clapped
 
 - **Tweet:** https://x.com/FezWeb3/status/1878581136248668585
 - **What:** Fez offers a personal lesson in boundaries: even trusted relationships benefit from selective disclosure, because privacy can protect people from consequences they cannot anticipate.
+
+---
 
 ---
 
@@ -71929,6 +74694,8 @@ glhf dont get clapped
 
 ---
 
+---
+
 # Friday, January 10, 2025
 
 ## @tom_doerr - Repository for automating online income workflows
@@ -71936,6 +74703,8 @@ glhf dont get clapped
 
 - **Tweet:** https://x.com/tom_doerr/status/1877813420260536777
 - **What:** Tom Dörr points to a GitHub project intended to automate online revenue-generating work, suggesting a practical resource for investigating agentic or scripted business workflows.
+
+---
 
 ---
 
@@ -71956,6 +74725,8 @@ glhf dont get clapped
 
 - **Tweet:** https://x.com/pyquantnews/status/1877354482792640601
 - **What:** LINK_FAILED: Could not expand link from @pyquantnews. The post positions OpenBB’s free market-data platform and AI-agent workspaces as a lower-cost, AI-native alternative for research workflows traditionally served by a Bloomberg Terminal.
+
+---
 
 ---
 
@@ -72219,6 +74990,8 @@ glhf dont get clapped
 
 ---
 
+---
+
 # Tuesday, January 7, 2025
 
 ## @Barnacules - Claim about third-party Windows activation servers
@@ -72244,6 +75017,8 @@ glhf dont get clapped
 
 - **Tweet:** https://x.com/Codie_Sanchez/status/1876638428973904043
 - **What:** Codie Sanchez frames selective podcast listening as a free financial education and argues that curation matters amid overwhelming audio volume, though this standalone bookmark does not include the promised recommendations.
+
+---
 
 ---
 
@@ -72335,6 +75110,8 @@ glhf dont get clapped
 
 ---
 
+---
+
 # Sunday, January 5, 2025
 
 ## @minchoi - Gemini Deep Research web-to-report examples
@@ -72370,6 +75147,8 @@ glhf dont get clapped
 
 - **Tweet:** https://x.com/tom_doerr/status/1875884853935100092
 - **What:** Micro Agent is presented as a test-driven coding agent that generates a function's unit tests, writes and iterates its implementation until those tests pass, and targets JavaScript, TypeScript, and Python workflows, making its reliability claim inspectable through executable tests.
+
+---
 
 ---
 
@@ -72485,6 +75264,8 @@ glhf dont get clapped
 
 - **Tweet:** https://x.com/EV_Trapper/status/1875714660483338454
 - **What:** EV_Trapper contrasts a $1,500 specialized foregrip with a $250 3D-printed alternative, using the price gap to demonstrate how CAD skills can make low-volume custom parts far more accessible.
+
+---
 
 ---
 
@@ -72687,6 +75468,8 @@ glhf dont get clapped
 
 ---
 
+---
+
 # Thursday, January 2, 2025
 
 ## @yacineMTB - Practical workloads where LLM coding pays off
@@ -72751,6 +75534,8 @@ glhf dont get clapped
 
 ---
 
+---
+
 # Tuesday, December 31, 2024
 
 ## @ericciarla - o1 Trend Finder monitors influencer conversations
@@ -72764,6 +75549,8 @@ glhf dont get clapped
 
 - **Tweet:** https://x.com/ericciarla/status/1874145916116222198
 - **What:** LINK_FAILED: Could not expand link from @ericciarla; o1 Trend Finder is described as a marketing-monitoring workflow that collects influential social posts, detects emerging themes, and sends Slack alerts to guide content operations.
+
+---
 
 ---
 
@@ -72793,6 +75580,8 @@ glhf dont get clapped
 
 - **Tweet:** https://x.com/johnrush/status/1873594874995630491
 - **What:** Rush argues that as AI and commoditization erode software pricing and code-based moats, makers will win through owned audiences, creator-led distribution, and brand structures that can hold multiple software products.
+
+---
 
 ---
 
@@ -72875,6 +75664,8 @@ glhf dont get clapped
 
 ---
 
+---
+
 # Saturday, December 28, 2024
 
 ## @awilkinson - An inbox-aware AI chief of staff
@@ -72903,6 +75694,8 @@ glhf dont get clapped
 
 - **Tweet:** https://x.com/marclou/status/1872987111936434276
 - **What:** Marc Lou argues that worsening everyday health habits will create a large, underappreciated market for entrepreneurs, analogous to earlier digital-nomad and AI waves.
+
+---
 
 ---
 
@@ -72986,6 +75779,8 @@ glhf dont get clapped
 
 ---
 
+---
+
 # Thursday, December 26, 2024
 
 ## @tom_doerr - DeepSeek V3 token cost benchmark
@@ -73030,6 +75825,8 @@ glhf dont get clapped
 
 ---
 
+---
+
 # Tuesday, December 24, 2024
 
 ## @nikunj - An unspecified bitter pill for product managers
@@ -73037,6 +75834,8 @@ glhf dont get clapped
 
 - **Tweet:** https://x.com/nikunj/status/1871703653716754459
 - **What:** THIN: Nikunj frames an unspecified product-management lesson as a bitter pill but provides no standalone explanation beyond the linked social-media post.
+
+---
 
 ---
 
@@ -73093,6 +75892,8 @@ glhf dont get clapped
 
 ---
 
+---
+
 # Sunday, December 22, 2024
 
 ## @fatihtahta0 - Software Distribution Channels for 2024
@@ -73144,6 +75945,8 @@ glhf dont get clapped
 
 ---
 
+---
+
 # Saturday, December 21, 2024
 
 ## @yasser_elsaid_ - Bootstrap early to benefit from the AI wave
@@ -73170,6 +75973,8 @@ glhf dont get clapped
 
 - **Tweet:** https://x.com/AndreyNovikoov/status/1870620421084913834
 - **What:** The post praises Cursor’s cancellation email as evidence that customer care should continue after churn, treating offboarding communication as a chance to preserve goodwill and leave former users with a positive impression.
+
+---
 
 ---
 
@@ -73202,6 +76007,8 @@ glhf dont get clapped
 
 - **Tweet:** https://x.com/johnrush/status/1869970990568223082
 - **What:** John Rush argues that cheaper LLM-enabled software production will favor independent, distribution-led founders who build ultra-niche products, making audience ownership and founder identity more decisive than coding ability or broad corporate brands.
+
+---
 
 ---
 
@@ -73240,6 +76047,8 @@ glhf dont get clapped
 
 ---
 
+---
+
 # Wednesday, December 18, 2024
 
 ## @WifiMoneyPlant - Majority-equity offer for an idea partner
@@ -73249,6 +76058,8 @@ glhf dont get clapped
 
 - **Tweet:** https://x.com/WifiMoneyPlant/status/1869540538984124579
 - **What:** The post proposes an unusually lopsided cofounder arrangement: someone contributing ideas could receive 70–90% equity while the author handles execution, product development, and marketing.
+
+---
 
 ---
 
@@ -73267,6 +76078,8 @@ glhf dont get clapped
 
 ---
 
+---
+
 # Monday, December 16, 2024
 
 ## @wayne_hamadi - AI agents begin with the user's business process
@@ -73276,6 +76089,8 @@ glhf dont get clapped
 - **Link:** https://x.com/i/article/1867032485768597505
 - **Filed:** [You don't understand AI agents](./knowledge/articles/you-dont-understand-ai-agents.md)
 - **What:** Wayne Hamadi shares an essay arguing that agents should be defined by proactive or autonomous action, while their usefulness depends on modeling the user's business process and evaluating outcomes, not merely adopting popular LLM architectures.
+
+---
 
 ---
 
@@ -73295,6 +76110,8 @@ glhf dont get clapped
 
 - **Tweet:** https://x.com/mckaywrigley/status/1868341756494053573
 - **What:** A firsthand o1 pro coding benchmark reports the model completed six requested tasks across fourteen files after a long reasoning pass, suggesting capable agents can offset substantial developer implementation time when specifications are clear.
+
+---
 
 ---
 
@@ -73337,6 +76154,8 @@ glhf dont get clapped
 
 ---
 
+---
+
 # Wednesday, December 11, 2024
 
 ## @BowTiedPassport - Claimed Mexican residency income threshold
@@ -73371,6 +76190,8 @@ glhf dont get clapped
 
 - **Tweet:** https://x.com/ElevenLabs/status/1866890993137508594
 - **What:** LINK_FAILED: Could not expand link from @ElevenLabs; the post advertises an AI Engineer Pack that aggregates developer-tool credits for product teams and side projects, but its offer page is unavailable.
+
+---
 
 ---
 
@@ -73422,6 +76243,8 @@ glhf dont get clapped
 
 ---
 
+---
+
 # Monday, December 9, 2024
 
 ## @adamc0dez - The rarity of multi-product indie hackers at $10K MRR
@@ -73447,6 +76270,8 @@ glhf dont get clapped
 
 - **Tweet:** https://x.com/ShaneHummus/status/1866150446689128665
 - **What:** Shane Hummus frames YouTube growth as a positioning problem: choosing a market and audience with proven economic potential is presented as the prerequisite to building a channel that can scale into a seven- or eight-figure business.
+
+---
 
 ---
 
@@ -73488,6 +76313,8 @@ glhf dont get clapped
 
 ---
 
+---
+
 # Saturday, December 7, 2024
 
 ## @tom_doerr - Obsidian vault-aware AI chat assistant
@@ -73514,6 +76341,8 @@ glhf dont get clapped
 
 ---
 
+---
+
 # Friday, December 6, 2024
 
 ## @Austen - Expert review as an AI engineering learning model
@@ -73525,6 +76354,8 @@ glhf dont get clapped
 
 - **Tweet:** https://x.com/Austen/status/1865030482431479954
 - **What:** Austen Allred argues that AI practitioners value continuous expert review alongside instruction, suggesting that hands-on audits can help teams apply rapidly changing AI techniques more effectively than self-directed learning alone.
+
+---
 
 ---
 
@@ -73541,6 +76372,8 @@ glhf dont get clapped
 
 - **Tweet:** https://x.com/benln/status/1863995001144754316
 - **What:** Ben Lang points to Y Combinator's argument that vertical AI agents may create substantially more value than SaaS by performing specialized work rather than merely providing software tools.
+
+---
 
 ---
 
@@ -73591,6 +76424,8 @@ glhf dont get clapped
 
 ---
 
+---
+
 # Saturday, November 30, 2024
 
 ## @VicWritesCopy - Praise for an unspecified Sam Parr post
@@ -73614,6 +76449,8 @@ glhf dont get clapped
 
 ---
 
+---
+
 # Tuesday, November 26, 2024
 
 ## @jelanifuel - Selling focused micro-apps built with Bolt
@@ -73624,6 +76461,8 @@ glhf dont get clapped
 - **Tweet:** https://x.com/jelanifuel/status/1861460464649335272
 - **Link:** https://bolt.new/
 - **What:** Jelani reports using Bolt to create and sell a narrowly scoped app for $3,000, framing AI-assisted rapid development as a way to validate single-purpose software products rather than pursue broad platforms.
+
+---
 
 ---
 
@@ -73686,6 +76525,8 @@ glhf dont get clapped
 
 ---
 
+---
+
 # Sunday, November 24, 2024
 
 ## @cjzafir - Documentation creates a context boundary for Cursor
@@ -73712,6 +76553,8 @@ glhf dont get clapped
 
 ---
 
+---
+
 # Saturday, November 23, 2024
 
 ## @levelsio - Naming the solo AI-enabled business movement
@@ -73732,6 +76575,8 @@ glhf dont get clapped
 - **Tweet:** https://x.com/levelsio/status/1860300486525555196
 - **Quoted:** https://x.com/serglotz/status/1860265591384220096
 - **What:** Levelsio asks how to name a prospective class of AI-enabled solo founders, amplifying Serg's prediction that minimal-headcount, high-profit businesses could become a movement comparable to digital nomadism and create demand for enabling tools beyond models.
+
+---
 
 ---
 
@@ -73942,6 +76787,8 @@ glhf dont get clapped
 
 ---
 
+---
+
 # Thursday, November 21, 2024
 
 ## @thepatwalls - Comparing AI web-app builders in practice
@@ -73968,6 +76815,8 @@ glhf dont get clapped
 - **Tweet:** https://x.com/Trinhnomics/status/1859475504132390955
 - **Quoted:** https://x.com/Trinhnomics/status/1014791235452588032
 - **What:** Trinh introduces a technical but accessible tariff analysis that develops her earlier thesis about Trump's strategic objectives in escalating US-China trade tensions, promising to connect the argument to economic literature and evidence.
+
+---
 
 ---
 
@@ -74009,6 +76858,8 @@ glhf dont get clapped
 - **Link:** https://www.king5.com/article/weather/weather-impact/power-outages-closures-impacts-western-washington-weather/281-c90a2632-587c-4d21-ae99-a5eb25a932b8
 - **Quoted:** https://x.com/KING5Seattle/status/1859111838241239293
 - **What:** Daniel Vassallo shows a two-unit EcoFlow setup sustaining household essentials during a severe Washington windstorm, grounding KING 5's report of widespread outages in a practical home-resilience example.
+
+---
 
 ---
 
@@ -74084,6 +76935,8 @@ glhf dont get clapped
 
 ---
 
+---
+
 # Monday, November 18, 2024
 
 ## @yongfook - Building SaaS through a decade of steady iteration
@@ -74150,6 +77003,8 @@ glhf dont get clapped
 - **Tweet:** https://x.com/donvito/status/1858521775870755263
 - **Link:** https://bolt.new/
 - **What:** A thread promising a curated set of prompting resources for Bolt, Cursor, Claude, ChatGPT, and related AI tools, positioning prompt-writing fundamentals as a way to get more effective results across assistants.
+
+---
 
 ---
 
@@ -74264,6 +77119,8 @@ glhf dont get clapped
 
 ---
 
+---
+
 # Friday, November 15, 2024
 
 ## @awilkinson - Voice AI as an adaptive childhood tutor
@@ -74298,6 +77155,8 @@ glhf dont get clapped
 
 ---
 
+---
+
 # Wednesday, November 13, 2024
 
 ## @svpino - The emergence of AI-first VS Code IDEs
@@ -74315,6 +77174,8 @@ glhf dont get clapped
 
 - **Tweet:** https://x.com/nearcyan/status/1856565818433355790
 - **What:** A terse cultural jab framing AI assistant preference as a visible social signal, illustrating how model brands quickly became identity markers rather than purely technical choices.
+
+---
 
 ---
 
@@ -74478,6 +77339,8 @@ glhf dont get clapped
 
 ---
 
+---
+
 # Monday, November 11, 2024
 
 ## @oliverbrocato - $100K Monthly Revenue as Operational Risk Capital
@@ -74543,6 +77406,8 @@ glhf dont get clapped
 
 - **Tweet:** https://x.com/codyschneider/status/1855958662017126415
 - **What:** Cody Schneider frames short posts, lead magnets, newsletters, long-form work, and community as connected stages that compound attention and progressively convert an audience into customers for a product or service.
+
+---
 
 ---
 
@@ -74626,6 +77491,8 @@ glhf dont get clapped
 
 ---
 
+---
+
 # Friday, November 8, 2024
 
 ## @dr_cintas - Building a news-writing assistant with the xAI API
@@ -74637,6 +77504,8 @@ glhf dont get clapped
 
 - **Tweet:** https://x.com/dr_cintas/status/1854953643747037203
 - **What:** Alvaro Cintas describes using the xAI API to automate a content workflow that retrieves news from supplied URLs and turns it into posts tailored to the creator’s established writing style.
+
+---
 
 ---
 
@@ -74653,6 +77522,8 @@ glhf dont get clapped
 
 ---
 
+---
+
 # Wednesday, November 6, 2024
 
 ## @tom_doerr - Unidentified fancy self-hosted monitoring tool
@@ -74660,6 +77531,8 @@ glhf dont get clapped
 
 - **Tweet:** https://x.com/tom_doerr/status/1854222198157746236
 - **What:** LINK_FAILED: Could not expand link from @tom_doerr; the saved post characterizes an unnamed project as a polished self-hosted monitoring tool, but the link resolves only to the tweet and offers no repository, product name, or feature details.
+
+---
 
 ---
 
@@ -74673,6 +77546,8 @@ glhf dont get clapped
 - **Tweet:** https://x.com/NickADobos/status/1853817911133307345
 - **Quoted:** https://x.com/amasad/status/1853693350316310938
 - **What:** Nick Dobos amplifies Amjad Masad’s joke about someone being “owned” by a simple app, framing an apparent young builder’s result as evidence that AI-assisted development is lowering the execution threshold enough to challenge experienced engineers’ expectations.
+
+---
 
 ---
 
@@ -74703,6 +77578,8 @@ glhf dont get clapped
 - **Tweet:** https://x.com/thesamparr/status/1853421724110405992
 - **Link:** https://megaphone.spotify.com/podcasts/moneywise-1725976637/episodes/172120401-what-are-you-willing-to-sacrifice-to-be-wealthy-with-scott-galloway
 - **What:** Sam Parr recommends a Moneywise conversation with Scott Galloway that treats financial openness as a skill: Galloway recounts a rapid post-2008 reversal from $20 million to negative $3 million, rebuilding through later company sales, and candidly discussing present spending.
+
+---
 
 ---
 
@@ -74809,6 +77686,8 @@ glhf dont get clapped
 
 ---
 
+---
+
 # Saturday, November 2, 2024
 
 ## @NickADobos - sim-bAi-osis explores AI co-thinking through affect
@@ -74868,6 +77747,8 @@ glhf dont get clapped
 
 ---
 
+---
+
 # Thursday, October 31, 2024
 
 ## @alexanderisorax - Directory ownership as a compounding marketing channel
@@ -74887,6 +77768,8 @@ glhf dont get clapped
 
 ---
 
+---
+
 # Wednesday, October 30, 2024
 
 ## @techguyver - Audit an AI Content-Creation Stack
@@ -74894,6 +77777,8 @@ glhf dont get clapped
 
 - **Tweet:** https://x.com/techguyver/status/1851488847093502091
 - **What:** Techguyver invites a gap analysis of an unspecified AI content-creation stack, making the bookmark a reminder to assess the full workflow from ideation through production and distribution rather than treating individual generation tools as a complete system.
+
+---
 
 ---
 
@@ -74985,6 +77870,8 @@ glhf dont get clapped
 
 ---
 
+---
+
 # Monday, October 28, 2024
 
 ## @ericciarla - Sonnet-powered structured web crawler
@@ -75060,6 +77947,8 @@ glhf dont get clapped
 
 ---
 
+---
+
 # Sunday, October 27, 2024
 
 ## @theNOBSdentist - Anecdotal Endorsement of Longevity Practices on X
@@ -75069,6 +77958,8 @@ glhf dont get clapped
 
 - **Tweet:** https://x.com/theNOBSdentist/status/1850652529014534314
 - **What:** Gator offers a secondhand anecdote that elite patients use longevity practices discussed on X under clinical supervision, but identifies neither the interventions nor supporting evidence, making it a signal about online health discourse rather than a substantiated recommendation.
+
+---
 
 ---
 
@@ -75103,6 +77994,8 @@ glhf dont get clapped
 
 ---
 
+---
+
 # Thursday, October 24, 2024
 
 ## @tunahorse21 - Made Dev: A Junior's Guide to Getting Made
@@ -75122,6 +78015,8 @@ glhf dont get clapped
 
 - **Tweet:** https://x.com/ArtoftheSurge/status/1849465877487354149
 - **What:** Art of the Surge promotes the first episode of its documentary-style account of Donald Trump’s presidential campaign, positioning the series as insider access to the race rather than reporting with independently described evidence.
+
+---
 
 ---
 
@@ -75156,6 +78051,8 @@ glhf dont get clapped
 
 - **Tweet:** https://x.com/bensmithlive/status/1849105850775818276
 - **What:** Ben Smith claims that clients reversed supposedly lifelong health conditions within three to six months and promises a thread explaining his methods; these broad medical claims need rigorous evidence before they should influence care decisions.
+
+---
 
 ---
 
@@ -75257,6 +78154,8 @@ glhf dont get clapped
 
 ---
 
+---
+
 # Sunday, October 20, 2024
 
 ## @indexsy - Claimed Investigation Into a $50M SEO Operation
@@ -75268,6 +78167,8 @@ glhf dont get clapped
 
 - **Tweet:** https://x.com/indexsy/status/1848069399267189047
 - **What:** The post flags an investigation by an anonymous X account into a purported $50 million annual SEO network; the captured short link resolves to this tweet, leaving no external evidence or article to assess.
+
+---
 
 ---
 
@@ -75295,6 +78196,8 @@ glhf dont get clapped
 
 ---
 
+---
+
 # Friday, October 18, 2024
 
 ## @TheCoolestCool - Retargeting's leverage in marketing funnels
@@ -75307,6 +78210,8 @@ glhf dont get clapped
 
 ---
 
+---
+
 # Thursday, October 17, 2024
 
 ## @EdLatimore - Chart as a lens on social conflict and mindset
@@ -75316,6 +78221,8 @@ glhf dont get clapped
 
 - **Tweet:** https://x.com/EdLatimore/status/1846933461065433234
 - **What:** Ed Latimore highlights an unspecified chart as a compact framework for interpreting differing attitudes and anticipating social conflict, making this a thin-context bookmark that requires viewing the attached visual.
+
+---
 
 ---
 
@@ -75333,6 +78240,8 @@ glhf dont get clapped
 
 ---
 
+---
+
 # Tuesday, October 15, 2024
 
 ## @THArrowOfApollo - Cold-email deliverability findings from 50,000 sends
@@ -75342,6 +78251,8 @@ glhf dont get clapped
 
 - **Tweet:** https://x.com/THArrowOfApollo/status/1846250657126207627
 - **What:** Taylor Haren introduces a data-backed cold-email deliverability playbook drawn from 50,000 messages sent in two weeks, positioning the thread as a practical guide for improving Q4 outbound performance.
+
+---
 
 ---
 
@@ -75356,6 +78267,8 @@ glhf dont get clapped
 
 - **Tweet:** https://x.com/Austen/status/1845937066871607571
 - **What:** Austen shares a participant's experience from an AI-for-engineers course, emphasizing that hands-on use reveals practical capabilities that are still underestimated by the general public.
+
+---
 
 ---
 
@@ -75422,6 +78335,8 @@ glhf dont get clapped
 
 - **Tweet:** https://x.com/KianSadeghi5/status/1845533253714743562
 - **What:** Kian Sadeghi argues that the AI application layer will create the greatest value and identifies consumer healthcare as a likely category leader, predicting that AI-native consumer products will eventually redefine what people simply call healthcare.
+
+---
 
 ---
 
@@ -75532,6 +78447,8 @@ glhf dont get clapped
 
 ---
 
+---
+
 # Friday, October 11, 2024
 
 ## @SullyOmarr - Prompt Optimizers May Displace Manual Prompt Engineering
@@ -75570,6 +78487,8 @@ glhf dont get clapped
 
 ---
 
+---
+
 # Thursday, October 10, 2024
 
 ## @bryan_johnson - Five Habits to Counter Posture-Related Cognitive Risk
@@ -75582,6 +78501,8 @@ glhf dont get clapped
 
 ---
 
+---
+
 # Wednesday, October 9, 2024
 
 ## @benln - Sam Altman's startup-founding advice
@@ -75589,6 +78510,8 @@ glhf dont get clapped
 
 - **Tweet:** https://x.com/benln/status/1844032336587100292
 - **What:** Ben Lang bookmarks a brief reference to Sam Altman’s advice on starting a startup, but the saved record supplies neither the source clip nor substantive guidance; it acts as a pointer that requires opening the original social post to assess the advice.
+
+---
 
 ---
 
@@ -75613,6 +78536,8 @@ glhf dont get clapped
 
 ---
 
+---
+
 # Monday, October 7, 2024
 
 ## @imrat - Cursor team's Lex Fridman discussion highlights
@@ -75630,6 +78555,8 @@ glhf dont get clapped
 
 - **Tweet:** https://x.com/imrat/status/1843205318165004772
 - **What:** Imrat curates ten clips from the first hour of Lex Fridman’s conversation with the Cursor team, framing the discussion as broadly useful for practitioners comparing AI-assisted coding workflows rather than as product-specific promotion.
+
+---
 
 ---
 
@@ -75652,6 +78579,8 @@ glhf dont get clapped
 - **Tweet:** https://x.com/JeremyNguyenPhD/status/1842888290376261668
 - **Quoted:** https://x.com/_philschmid/status/1842846050320544016
 - **What:** Jeremy highlights a prompting recipe combining dynamic chain-of-thought, reflection, and verbal reinforcement that reportedly made Claude 3.5 Sonnet match o1 on a small suite of difficult exams, but at substantial token cost and without broad benchmark coverage.
+
+---
 
 ---
 
@@ -75678,6 +78607,8 @@ glhf dont get clapped
 
 - **Tweet:** https://x.com/petr0105/status/1841743977382617122
 - **What:** Pete describes a ChatGPT-and-Python pipeline that turns scraped ideas into more than 100 templated faceless short-video concepts within seconds, applying a high-view habit-tracker format to AI-fashion promotion and other niches.
+
+---
 
 ---
 
@@ -75742,6 +78673,8 @@ glhf dont get clapped
 
 - **Tweet:** https://x.com/rameerez/status/1841451179609370748
 - **What:** Javi argues that self-managed, more capable servers can reduce infrastructure spending dramatically, warning that avoiding operational responsibility can impose a substantial recurring cloud-cost premium.
+
+---
 
 ---
 
@@ -75814,6 +78747,8 @@ glhf dont get clapped
 
 ---
 
+---
+
 # Monday, September 30, 2024
 
 ## @rohanpaul_ai - Repository-to-text conversion for LLM prompts
@@ -75821,6 +78756,8 @@ glhf dont get clapped
 
 - **Tweet:** https://x.com/rohanpaul_ai/status/1840941643223945561
 - **What:** Rohan highlights a workflow for flattening a GitHub repository into one text file, making its code and documentation easier to provide as coherent context to an LLM instead of selecting individual files.
+
+---
 
 ---
 
@@ -75842,6 +78779,8 @@ glhf dont get clapped
 
 ---
 
+---
+
 # Tuesday, September 24, 2024
 
 ## @iamgdsa - Affiliate Distribution for a Viral AI Consumer App
@@ -75858,6 +78797,8 @@ glhf dont get clapped
 
 ---
 
+---
+
 # Monday, September 23, 2024
 
 ## @benln - Paul Graham’s Startup One-Pager
@@ -75865,6 +78806,8 @@ glhf dont get clapped
 
 - **Tweet:** https://x.com/benln/status/1838238036196241502
 - **What:** LINK_FAILED: Could not expand link from @benln — this bookmark points to a concise Paul Graham guide on starting a startup, but the underlying one-pager was not available from the captured link data.
+
+---
 
 ---
 
@@ -75906,6 +78849,8 @@ glhf dont get clapped
 - **Tweet:** https://x.com/levelsio/status/1836745292881780891
 - **Link:** https://levelsio.com/
 - **What:** Pieter Levels shares merch-shop unit economics alongside product-level sales counts, offering a concrete snapshot of how a niche creator brand can turn cultural in-jokes into roughly 30.5% profit.
+
+---
 
 ---
 
@@ -75962,6 +78907,8 @@ glhf dont get clapped
 
 ---
 
+---
+
 # Tuesday, September 17, 2024
 
 ## @NickADobos - LLM-enabled rebuilding of government services
@@ -76015,6 +78962,8 @@ glhf dont get clapped
 
 - **Tweet:** https://x.com/marclou/status/1836023560462360746
 - **What:** Marc Lou presents Capacitor as a pragmatic bridge for turning an existing Next.js product into iOS and Android store apps, emphasizing that web-focused builders can avoid learning native mobile stacks for an initial launch.
+
+---
 
 ---
 
@@ -76106,6 +79055,8 @@ glhf dont get clapped
 
 ---
 
+---
+
 # Sunday, September 15, 2024
 
 ## @nearcyan - MrBeast memo praised as creative writing
@@ -76139,6 +79090,8 @@ glhf dont get clapped
 - **Tweet:** https://x.com/DeryaTR_/status/1835352523634323615
 - **Quoted:** https://x.com/NickADobos/status/1835202934294098084
 - **What:** Rejecting the idea that AI will arrest human intellectual development, an immunologist describes using GPT-4o and o1 as an always-available adversarial collaborator for generating, challenging, and extending scientific hypotheses.
+
+---
 
 ---
 
@@ -76178,6 +79131,8 @@ glhf dont get clapped
 - **Tweet:** https://x.com/denisbondare/status/1834554608691143041
 - **Parent:** https://x.com/DaveShapi/status/1834553628104765513
 - **What:** Responding to David Shapiro's critique of a 100-fold AI price increase, Denis Bondarev questions whether additional inference-time reasoning warrants that premium when the base model, context window, and knowledge cutoff remain unchanged.
+
+---
 
 ---
 
@@ -76259,6 +79214,8 @@ glhf dont get clapped
 
 ---
 
+---
+
 # Wednesday, September 11, 2024
 
 ## @mckaywrigley - Lex Fridman’s view on whether AI replaces programmers
@@ -76306,6 +79263,8 @@ glhf dont get clapped
 - **Tweet:** https://x.com/pelaseyed/status/1833864763807273103
 - **Quoted:** https://x.com/pelaseyed/status/1833851894260699174
 - **What:** Homanp illustrates the quoted claim that cheaper AI-assisted software creation disrupts SaaS by using Replit Agent to recreate Loom’s core screen-recording-and-sharing workflow in minutes.
+
+---
 
 ---
 
@@ -76392,6 +79351,8 @@ glhf dont get clapped
 
 ---
 
+---
+
 # Monday, September 9, 2024
 
 ## @bindureddy - Task-specific models outperform a single AI system
@@ -76446,6 +79407,8 @@ glhf dont get clapped
 
 - **Tweet:** https://x.com/hasantoxr/status/1833111366024229072
 - **What:** This bookmark promotes a weekly personal roundup of eighteen AI tools, but its only expanded destination resolves back to the same post, so the individual tools and their capabilities are not available here.
+
+---
 
 ---
 
@@ -76592,6 +79555,8 @@ glhf dont get clapped
 
 ---
 
+---
+
 # Saturday, September 7, 2024
 
 ## @mhp_guy - Bank-bonus churning as a five-figure side strategy
@@ -76601,6 +79566,8 @@ glhf dont get clapped
 
 - **Tweet:** https://x.com/mhp_guy/status/1832530539825271049
 - **What:** Chris Koerner introduces a five-post thread on earning $5,000–$15,000 annually through bank-account sign-up bonuses, framing the tactic as a repeatable personal-finance strategy rather than conventional investment income.
+
+---
 
 ---
 
@@ -76643,6 +79610,8 @@ glhf dont get clapped
 
 - **Tweet:** https://x.com/samuraipreneur/status/1831996768101519776
 - **What:** THIN: The post only asserts that ChatGPT has gained a broad set of capabilities, but supplies no examples, media description, or linked material that would identify the specific features being highlighted.
+
+---
 
 ---
 
@@ -76756,6 +79725,8 @@ glhf dont get clapped
 
 ---
 
+---
+
 # Wednesday, September 4, 2024
 
 ## @levelsio - AI photography as composable commercial production
@@ -76785,6 +79756,8 @@ glhf dont get clapped
 
 - **Tweet:** https://x.com/levelsio/status/1831268429816295545
 - **What:** A forecast for commercial photography treats people, garments, locations, lighting, and brand aesthetics as separately trainable assets, enabling rapid AI-generated ad experiments while making likeness licensing and provenance central legal concerns.
+
+---
 
 ---
 
@@ -76834,6 +79807,8 @@ glhf dont get clapped
 
 - **Tweet:** https://x.com/NicheSiteLady/status/1830888224090190073
 - **What:** The creator reports earning more than $500 monthly through Facebook’s bonus program and signals that certain content formats generate more payouts, though the supporting examples are not captured in this bookmark.
+
+---
 
 ---
 
@@ -76904,6 +79879,8 @@ glhf dont get clapped
 
 ---
 
+---
+
 # Saturday, August 31, 2024
 
 ## @BLUECOW009 - XML super prompt for novel Claude ideas
@@ -76920,6 +79897,8 @@ glhf dont get clapped
 
 ---
 
+---
+
 # Friday, August 30, 2024
 
 ## @garrytan - Cohort retention curves reveal product-market fit
@@ -76933,6 +79912,8 @@ glhf dont get clapped
 - **Link:** https://www.youtube.com/watch?v=VNxBZ7ka5J0&feature=youtu.be
 - **Filed:** [cohort-retention-product-market-fit.md](./knowledge/videos/cohort-retention-product-market-fit.md)
 - **What:** David Lieb’s YC talk frames cohort retention as a product-market-fit diagnostic: founders should measure recurring value actions at the product’s natural cadence and prioritize curves that plateau over flattering headline percentages.
+
+---
 
 ---
 
@@ -77004,6 +79985,8 @@ glhf dont get clapped
 
 ---
 
+---
+
 # Wednesday, August 28, 2024
 
 ## @rowancheung - Lindy AI Workshop on Email Agents
@@ -77039,6 +80022,8 @@ glhf dont get clapped
 - **Quoted:** https://x.com/rowancheung/status/1828492597389861366
 - **Parent:** https://x.com/rowancheung/status/1828652339718218211
 - **What:** Rowan Cheung promotes a Lindy AI workshop that demonstrates email-handling agents capable of replying, negotiating, scheduling, recording meetings, and drafting follow-ups, while the reply context notes uncertainty around the timing of Apple Intelligence features.
+
+---
 
 ---
 
@@ -77134,6 +80119,8 @@ glhf dont get clapped
 
 ---
 
+---
+
 # Monday, August 26, 2024
 
 ## @gregisenberg - Maintain open notes for recurring startup ideas and insights
@@ -77217,6 +80204,8 @@ glhf dont get clapped
 
 - **Tweet:** https://x.com/PassiveSphere/status/1827992915131429044
 - **What:** LINK_FAILED: Could not expand link from @PassiveSphere; the URL resolved only to this same post, so its promised SaaS backlink-building list is unavailable for assessment.
+
+---
 
 ---
 
@@ -77305,6 +80294,8 @@ glhf dont get clapped
 
 ---
 
+---
+
 # Saturday, August 24, 2024
 
 ## @PatFlynn - Short-Form Views Monetize Far Below Long-Form Video
@@ -77365,6 +80356,8 @@ glhf dont get clapped
 
 ---
 
+---
+
 # Friday, August 23, 2024
 
 ## @burny_tech - A Broad Call to Watch Everything
@@ -77372,6 +80365,8 @@ glhf dont get clapped
 
 - **Tweet:** https://x.com/burny_tech/status/1827118596264280270
 - **What:** THIN: @burny_tech offers only a broad exhortation to “watch everything” and a self-referential X link, leaving no topic or source material to evaluate.
+
+---
 
 ---
 
@@ -77529,6 +80524,8 @@ glhf dont get clapped
 
 ---
 
+---
+
 # Wednesday, August 21, 2024
 
 ## @rohanpaul_ai - Anthropic prompt-engineering resource collection
@@ -77581,6 +80578,8 @@ glhf dont get clapped
 
 ---
 
+---
+
 # Tuesday, August 20, 2024
 
 ## @dr_cintas - Meta AI custom selfie creation walkthrough
@@ -77592,6 +80591,8 @@ glhf dont get clapped
 
 - **Tweet:** https://x.com/dr_cintas/status/1825933587109261456
 - **What:** This promotes Meta AI's fast, free custom-selfie generation as a lightweight consumer creative feature, though the supplied short link resolves to the same social post rather than an external walkthrough.
+
+---
 
 ---
 
@@ -77649,6 +80650,8 @@ glhf dont get clapped
 
 ---
 
+---
+
 # Sunday, August 18, 2024
 
 ## @codyschneider - Scaling inbound content with AI-generated articles
@@ -77656,6 +80659,8 @@ glhf dont get clapped
 
 - **Tweet:** https://x.com/codyschneider/status/1825276493527650477
 - **What:** @codyschneider pitches an AI-assisted programmatic-content approach for producing a large volume of business-specific articles, framing scale as a route to compounding organic inbound demand.
+
+---
 
 ---
 
@@ -77694,6 +80699,8 @@ glhf dont get clapped
 
 ---
 
+---
+
 # Friday, August 16, 2024
 
 ## @dr_cintas - Training a personal FLUX LoRA for likeness generation
@@ -77708,6 +80715,8 @@ glhf dont get clapped
 
 ---
 
+---
+
 # Wednesday, August 14, 2024
 
 ## @levelsio - MacOS installation friction for ComfyUI
@@ -77715,6 +80724,8 @@ glhf dont get clapped
 
 - **Tweet:** https://x.com/levelsio/status/1823579088474320989
 - **What:** This is a user-experience signal that ComfyUI's MacOS installation ecosystem is fragmented and hard to trust, creating an opportunity for a well-maintained, clearly endorsed distribution path.
+
+---
 
 ---
 
@@ -77790,6 +80801,8 @@ glhf dont get clapped
 
 ---
 
+---
+
 # Monday, August 12, 2024
 
 ## @kwharrison13 - An Unnamed Story Worth Revisiting
@@ -77832,6 +80845,8 @@ glhf dont get clapped
 
 ---
 
+---
+
 # Sunday, August 11, 2024
 
 ## @levelsio - AI influencers cut promotional-video production costs
@@ -77849,6 +80864,8 @@ glhf dont get clapped
 - **Link:** https://photoai.com/
 - **Quoted:** https://x.com/levelsio/status/1822067118914879808
 - **What:** Pieter Levels uses an earlier AI-YouTuber experiment built with PhotoAI, Flux, Kling, and Sync Labs to argue that synthetic influencer clips can dramatically reduce the cost and turnaround time of sponsored content.
+
+---
 
 ---
 
@@ -77906,6 +80923,8 @@ glhf dont get clapped
 
 ---
 
+---
+
 # Friday, August 9, 2024
 
 ## @jakezward - Search Console Workflow for Existing Content Growth
@@ -77924,6 +80943,8 @@ glhf dont get clapped
 
 ---
 
+---
+
 # Tuesday, August 6, 2024
 
 ## @jdnoc - Dedicated Proxies for Low-Cost Web Scraping at Scale
@@ -77937,6 +80958,8 @@ glhf dont get clapped
 
 - **Tweet:** https://x.com/jdnoc/status/1820836489070072192
 - **What:** Jordan O'Connor contrasts commercial scraper pricing with a custom Node.js collector using dedicated proxies, arguing that engineering the collection pipeline can dramatically reduce large-scale data acquisition costs.
+
+---
 
 ---
 
@@ -77957,6 +80980,8 @@ glhf dont get clapped
 
 - **Tweet:** https://x.com/jakezward/status/1820431478230057451
 - **What:** Jake Ward presents digital PR as a scalable backlink strategy, supporting the claim with recent link volume, authority metrics, and a Forbes placement that illustrate its potential SEO impact.
+
+---
 
 ---
 
@@ -78042,6 +81067,8 @@ glhf dont get clapped
 
 ---
 
+---
+
 # Saturday, August 3, 2024
 
 ## @AskCoachKev - Fitness advice starts by dropping alcohol
@@ -78087,6 +81114,8 @@ glhf dont get clapped
 
 ---
 
+---
+
 # Friday, August 2, 2024
 
 ## @thesamparr - Hampton's CEO-sourced SaaS valuation survey
@@ -78103,6 +81132,8 @@ glhf dont get clapped
 
 ---
 
+---
+
 # Wednesday, July 31, 2024
 
 ## @ConnorShowler - Backlink marketplace launch progress and developer referral
@@ -78115,6 +81146,8 @@ glhf dont get clapped
 
 ---
 
+---
+
 # Monday, July 29, 2024
 
 ## @AutismCapital - Report that Pavel Durov has over 100 children
@@ -78122,6 +81155,8 @@ glhf dont get clapped
 
 - **Tweet:** https://x.com/AutismCapital/status/1818067225754091603
 - **What:** This brief news reaction highlights the reported scale of Telegram CEO Pavel Durov's biological children, preserving an unusual personal-development claim about a major technology-company founder without supplying a separate source.
+
+---
 
 ---
 
@@ -78151,6 +81186,8 @@ glhf dont get clapped
 
 - **Tweet:** https://x.com/Charles_SEO/status/1816732357195628847
 - **What:** Charles Floate shares the day-to-day software stack supporting a sub-10-person SEO business reportedly generating more than $70,000 weekly, spanning research, operations, communications, and browser utilities.
+
+---
 
 ---
 
@@ -78187,6 +81224,8 @@ glhf dont get clapped
 
 - **Tweet:** https://x.com/jakezward/status/1816445223876112834
 - **What:** Jake Ward introduces an SEO framework for systematically winning search traffic from competitors, presenting 11 tactics after his prior post on the idea received wide attention and engagement.
+
+---
 
 ---
 
@@ -78246,6 +81285,8 @@ glhf dont get clapped
 
 ---
 
+---
+
 # Tuesday, July 23, 2024
 
 ## @thesamparr - Sam's List newsletter makes a finance directory feel personal
@@ -78294,6 +81335,8 @@ glhf dont get clapped
 
 - **Tweet:** https://x.com/the_alex_d_/status/1815697270500688163
 - **What:** This bookmark points to a case study of a direct-to-consumer olive-oil brand that reportedly sold $100,000 in its debut week, making its positioning, launch execution, and conversion strategy worth examining; the underlying case-study material is not present in the export.
+
+---
 
 ---
 
@@ -78445,6 +81488,8 @@ glhf dont get clapped
 
 ---
 
+---
+
 # Sunday, July 21, 2024
 
 ## @StefanGeorgi - Optimize a Proven VSL Instead of Rewriting It
@@ -78473,6 +81518,8 @@ glhf dont get clapped
 
 ---
 
+---
+
 # Saturday, July 20, 2024
 
 ## @1littlecoder - A ComfyUI-Like Agent Workflow Builder
@@ -78497,6 +81544,8 @@ https://t.co/VHVyQW8Q4E. https://t.co/caKzIBjCbp
 
 ---
 
+---
+
 # Friday, July 19, 2024
 
 ## @BowTiedPassport - Hosting a High-Energy Social Gathering
@@ -78508,6 +81557,8 @@ https://t.co/VHVyQW8Q4E. https://t.co/caKzIBjCbp
 
 - **Tweet:** https://x.com/BowTiedPassport/status/1814395822693593309
 - **What:** The thread introduces a party-hosting guide focused on designing an environment where large groups can socialize and dance, positioning event curation rather than scripted pickup tactics as the path to better connections.
+
+---
 
 ---
 
@@ -78534,6 +81585,8 @@ https://t.co/VHVyQW8Q4E. https://t.co/caKzIBjCbp
 
 - **Tweet:** https://x.com/JohnHolbein1/status/1813982745321783498
 - **What:** THIN: @JohnHolbein1 endorses an unspecified piece of content as timeless, but the bookmark preserves neither the underlying material nor enough textual context to identify the idea being recommended.
+
+---
 
 ---
 
@@ -78611,6 +81664,8 @@ https://t.co/VHVyQW8Q4E. https://t.co/caKzIBjCbp
 
 ---
 
+---
+
 # Tuesday, July 16, 2024
 
 ## @thepatwalls - Finding million-dollar business ideas in a chart
@@ -78624,6 +81679,8 @@ https://t.co/VHVyQW8Q4E. https://t.co/caKzIBjCbp
 
 - **Tweet:** https://x.com/naval/status/1813092936512618701
 - **What:** Naval argues that as technology and capital amplify individual actions without limit, sound judgment becomes the key constraint on choosing worthwhile opportunities and avoiding amplified mistakes.
+
+---
 
 ---
 
@@ -78647,6 +81704,8 @@ https://t.co/VHVyQW8Q4E. https://t.co/caKzIBjCbp
 - **Tweet:** https://x.com/ConnorShowler/status/1812860498485887148
 - **Quoted:** https://x.com/hridoyreh/status/1812712807340867702
 - **What:** Connor Showler sarcastically agrees with a warning about TikTok SEO advice, asserting that blog-comment spam is again producing backlinks and exposing continued weaknesses in search-ranking incentives.
+
+---
 
 ---
 
@@ -78703,6 +81762,8 @@ https://t.co/VHVyQW8Q4E. https://t.co/caKzIBjCbp
 
 ---
 
+---
+
 # Saturday, July 13, 2024
 
 ## @rohanpaul_ai - Unavailable Claude Sonnet 3.5 System Prompt
@@ -78710,6 +81771,8 @@ https://t.co/VHVyQW8Q4E. https://t.co/caKzIBjCbp
 
 - **Tweet:** https://x.com/rohanpaul_ai/status/1812295914566176866
 - **What:** This bookmark recommends a Claude Sonnet 3.5 system prompt, but its only expanded URL resolves to the same post, leaving the prompt itself unavailable for evaluation or reuse.
+
+---
 
 ---
 
@@ -78730,6 +81793,8 @@ https://t.co/VHVyQW8Q4E. https://t.co/caKzIBjCbp
 
 - **Tweet:** https://x.com/codyschneider/status/1811569930518610380
 - **What:** Cody counters the idea that growth requires an existing audience by crediting recent account expansion to scheduling roughly 70 posts per week about work he finds interesting, framing consistency and direct experience as repeatable content inputs.
+
+---
 
 ---
 
@@ -78762,6 +81827,8 @@ https://t.co/VHVyQW8Q4E. https://t.co/caKzIBjCbp
 
 - **Tweet:** https://x.com/codyschneider/status/1810891709137445250
 - **What:** Cody uses a friend's first month of daily LinkedIn video posting as evidence that native video is an unusually strong distribution channel, urging creators to exploit a potentially temporary window before audience growth becomes more competitive.
+
+---
 
 ---
 
@@ -78803,6 +81870,8 @@ https://t.co/VHVyQW8Q4E. https://t.co/caKzIBjCbp
 
 ---
 
+---
+
 # Monday, July 8, 2024
 
 ## @MatthewOsborn - Free Amazon Influencer Affiliate Income Course
@@ -78811,6 +81880,8 @@ https://t.co/VHVyQW8Q4E. https://t.co/caKzIBjCbp
 - **Tweet:** https://x.com/MatthewOsborn/status/1810383445312340139
 - **Link:** https://www.skool.com/a-i-m/about
 - **What:** Promotes a free community course that packages the author’s claimed Amazon Influencer earnings process into a lightweight affiliate-marketing playbook for newcomers.
+
+---
 
 ---
 
@@ -78825,6 +81896,8 @@ https://t.co/VHVyQW8Q4E. https://t.co/caKzIBjCbp
 
 - **Tweet:** https://x.com/MindBranches/status/1809956806698877256
 - **What:** Presents a prompt-driven method for giving ChatGPT personal context, then using guided dialogue to externalize inner reasoning for more deliberate self-reflection and decisions.
+
+---
 
 ---
 
@@ -78869,6 +81942,8 @@ https://t.co/VHVyQW8Q4E. https://t.co/caKzIBjCbp
 
 - **Tweet:** https://x.com/danshipper/status/1809582001738944596
 - **What:** Dan Shipper describes turning accumulated goals, principles, and psychological observations into a Claude Project, illustrating a personal decision-support workflow that makes reflective context reusable rather than scattered across notes.
+
+---
 
 ---
 
@@ -78922,6 +81997,8 @@ https://t.co/VHVyQW8Q4E. https://t.co/caKzIBjCbp
 
 ---
 
+---
+
 # Thursday, July 4, 2024
 
 ## @rubenhassid - Employee-Led LinkedIn Growth at Scale
@@ -78938,6 +82015,8 @@ https://t.co/VHVyQW8Q4E. https://t.co/caKzIBjCbp
 
 ---
 
+---
+
 # Wednesday, July 3, 2024
 
 ## @datarade - Endorsed Investment Checklist
@@ -78947,6 +82026,8 @@ https://t.co/VHVyQW8Q4E. https://t.co/caKzIBjCbp
 
 - **Tweet:** https://x.com/datarade/status/1808705176179462467
 - **What:** THIN: @datarade endorses an unspecified investment checklist learned from @sb9721p five years earlier; the bookmark preserves the recommendation, but neither the checklist's criteria nor its original source is available here.
+
+---
 
 ---
 
@@ -79010,6 +82091,8 @@ https://t.co/VHVyQW8Q4E. https://t.co/caKzIBjCbp
 
 ---
 
+---
+
 # Sunday, June 30, 2024
 
 ## @ConnorShowler - Lean SaaS Growth Through Low-Cost Distribution
@@ -79052,6 +82135,8 @@ https://t.co/VHVyQW8Q4E. https://t.co/caKzIBjCbp
 
 - **Tweet:** https://x.com/entropychaser/status/1807310185104306271
 - **What:** This reframes a crowded market as a research and execution problem: identify a specific audience desire, create differentiated positioning and education, then improve direct-response economics to uncover a viable niche.
+
+---
 
 ---
 
@@ -79139,6 +82224,8 @@ https://t.co/VHVyQW8Q4E. https://t.co/caKzIBjCbp
 
 ---
 
+---
+
 # Friday, June 28, 2024
 
 ## @mreflow - Claude Projects replace a custom GPT workflow
@@ -79200,6 +82287,8 @@ https://t.co/VHVyQW8Q4E. https://t.co/caKzIBjCbp
 
 ---
 
+---
+
 # Thursday, June 27, 2024
 
 ## @ankurnagpal - Credit-Card Points Travel Course Promotion
@@ -79236,6 +82325,8 @@ https://t.co/VHVyQW8Q4E. https://t.co/caKzIBjCbp
 
 ---
 
+---
+
 # Wednesday, June 26, 2024
 
 ## @PassiveSphere - Backlink-building workflow for new websites
@@ -79247,6 +82338,8 @@ https://t.co/VHVyQW8Q4E. https://t.co/caKzIBjCbp
 
 - **Tweet:** https://x.com/PassiveSphere/status/1805867103162966165
 - **What:** Denis signals a repeatable backlink-acquisition process for newly launched sites, but the captured post contains only the thread introduction rather than the actual tactics or supporting evidence.
+
+---
 
 ---
 
@@ -79289,6 +82382,8 @@ https://t.co/VHVyQW8Q4E. https://t.co/caKzIBjCbp
 
 ---
 
+---
+
 # Monday, June 24, 2024
 
 ## @svpino - Production AI and ML systems cohort
@@ -79311,6 +82406,8 @@ https://t.co/VHVyQW8Q4E. https://t.co/caKzIBjCbp
 
 - **Tweet:** https://x.com/hthieblot/status/1805282846950801727
 - **What:** This is a request for concrete evidence of durable businesses built as AI wrappers, separating demonstrated commercial success from the broader hype cycle.
+
+---
 
 ---
 
@@ -79374,6 +82471,8 @@ https://t.co/VHVyQW8Q4E. https://t.co/caKzIBjCbp
 
 ---
 
+---
+
 # Saturday, June 22, 2024
 
 ## @codyschneider - LinkedIn short-form content opportunity for B2B
@@ -79403,6 +82502,8 @@ https://t.co/VHVyQW8Q4E. https://t.co/caKzIBjCbp
 
 - **Tweet:** https://x.com/heyblake/status/1804484493119803733
 - **What:** THIN: Emal signals a visual comparison of ineffective and effective messaging, but the prepared bookmark supplies neither the examples nor a substantive external link, so the underlying framework cannot be evaluated.
+
+---
 
 ---
 
@@ -79471,6 +82572,8 @@ https://t.co/VHVyQW8Q4E. https://t.co/caKzIBjCbp
 
 ---
 
+---
+
 # Thursday, June 20, 2024
 
 ## @theryandoney - Lander Library for Competitive Landing-Page Research
@@ -79519,6 +82622,8 @@ https://t.co/VHVyQW8Q4E. https://t.co/caKzIBjCbp
 
 - **Tweet:** https://x.com/gregisenberg/status/1803762116668670148
 - **What:** Greg Isenberg presents niche Reddit communities as continuous qualitative market research: founders can identify recurring needs, emerging language, and underserved audiences before turning those signals into internet products.
+
+---
 
 ---
 
@@ -79589,6 +82694,8 @@ https://t.co/VHVyQW8Q4E. https://t.co/caKzIBjCbp
 
 ---
 
+---
+
 # Tuesday, June 18, 2024
 
 ## @thepatwalls - Lessons from 26 failed project attempts
@@ -79628,6 +82735,8 @@ https://t.co/VHVyQW8Q4E. https://t.co/caKzIBjCbp
 
 - **Tweet:** https://x.com/nabil_haouam/status/1802920858626740430
 - **What:** A teaser for an automation product that repurposes Instagram posts for reposting, presenting automated cleaning and distribution as a way to exploit recommendation systems for reach.
+
+---
 
 ---
 
@@ -79729,6 +82838,8 @@ https://t.co/VHVyQW8Q4E. https://t.co/caKzIBjCbp
 
 ---
 
+---
+
 # Saturday, June 15, 2024
 
 ## @ConnorShowler - Selling Backlinks as Acquired Site Revenue
@@ -79742,6 +82853,8 @@ https://t.co/VHVyQW8Q4E. https://t.co/caKzIBjCbp
 
 - **Tweet:** https://x.com/ConnorShowler/status/1802186840734134616
 - **What:** The post proposes monetizing an acquired high-domain-rating website by selling backlinks, estimating that ten $100 placements monthly could add $1,000 MRR without changing the site's primary product or operations.
+
+---
 
 ---
 
@@ -79800,6 +82913,8 @@ https://t.co/VHVyQW8Q4E. https://t.co/caKzIBjCbp
 
 ---
 
+---
+
 # Thursday, June 13, 2024
 
 ## @boringmarketer - Faceless Accounts as $10M Business Funnels
@@ -79815,6 +82930,8 @@ https://t.co/VHVyQW8Q4E. https://t.co/caKzIBjCbp
 
 - **Tweet:** https://x.com/boringmarketer/status/1801332081391173745
 - **What:** The post frames anonymous creator brands as an acquisition channel: low-cost content and a deliberately impersonal identity can feed large conversion funnels without making a founder the product.
+
+---
 
 ---
 
@@ -79841,6 +82958,8 @@ https://t.co/VHVyQW8Q4E. https://t.co/caKzIBjCbp
 
 - **Tweet:** https://x.com/boringmarketer/status/1800936712035553282
 - **What:** The post spotlights Perplexity Pages as a way to turn research into linked, image-rich explanatory pages quickly, with the noteworthy claim that these AI-generated pages can gain Google rankings and appear in AI Overviews.
+
+---
 
 ---
 
@@ -79886,6 +83005,8 @@ https://t.co/VHVyQW8Q4E. https://t.co/caKzIBjCbp
 
 ---
 
+---
+
 # Thursday, June 6, 2024
 
 ## @ry_serene - Vsauce video recommendation in a reply
@@ -79898,6 +83019,8 @@ https://t.co/VHVyQW8Q4E. https://t.co/caKzIBjCbp
 - **Tweet:** https://x.com/ry_serene/status/1798759244499702105
 - **Link:** https://www.youtube.com/watch?v=vjqt8T3tJIE
 - **What:** THIN: This brief reply recommends a Vsauce YouTube video to @simonsarris, but the bookmark provides neither the parent context nor a transcript to establish the video’s specific argument.
+
+---
 
 ---
 
@@ -79987,6 +83110,8 @@ Now when are airlines going to adopt the same thing to make sure our luggage doe
 
 ---
 
+---
+
 # Tuesday, June 4, 2024
 
 ## @codyschneider - Use subreddit language to discover product problems
@@ -80006,6 +83131,8 @@ Realizing it may make more sense for us to come in, set up all of the AI infrast
 
 - **Tweet:** https://x.com/Austen/status/1798135879632125969
 - **What:** Austen Allred argues that the largest AI productivity gains may come from a hands-on transformation service that installs shared infrastructure and agents, then trains an entire engineering organization to use them.
+
+---
 
 ---
 
@@ -80078,6 +83205,8 @@ As an investor, the AI opportunity is obviously colossal and on a par with the i
 
 ---
 
+---
+
 # Friday, May 31, 2024
 
 ## @thejustinwelsh - Creator MBA launch economics and course strategy
@@ -80096,6 +83225,8 @@ Here are the 3 things I did differently than most people launching courses:
 
 ---
 
+---
+
 # Thursday, May 30, 2024
 
 ## @IAmAndrewKirby - Community-building lessons without an audience
@@ -80109,6 +83240,8 @@ Here are the 3 things I did differently than most people launching courses:
 
 - **Tweet:** https://x.com/IAmAndrewKirby/status/1796188885229211975
 - **What:** Andrew Kirby highlights Evelyn Weiss's claimed $316,000 February as evidence that deliberate community building can monetize without a preexisting public following, introducing nine lessons aimed at creators who lack an audience.
+
+---
 
 ---
 
@@ -80143,6 +83276,8 @@ Here are the 3 things I did differently than most people launching courses:
 
 ---
 
+---
+
 # Saturday, May 25, 2024
 
 ## @gurgavin - Jim Simons' quantitative-investing legacy
@@ -80162,6 +83297,8 @@ Here are the 3 things I did differently than most people launching courses:
 
 ---
 
+---
+
 # Thursday, May 23, 2024
 
 ## @ankurnagpal - Solo 401(k) benefits for self-employed workers
@@ -80176,6 +83313,8 @@ Here are the 3 things I did differently than most people launching courses:
 
 - **Tweet:** https://x.com/ankurnagpal/status/1793672213872226448
 - **What:** Ankur Nagpal frames a Solo 401(k) as a high-leverage retirement vehicle for self-employed couples, combining substantial deductible contributions with Roth options, broad investment choice, startup credits, and limited plan loans.
+
+---
 
 ---
 
@@ -80198,6 +83337,8 @@ Here are the 3 things I did differently than most people launching courses:
 
 - **Tweet:** https://x.com/rubenhassid/status/1793295835901358439
 - **What:** A thread-style post positioning two unspecified AI tools as the workflow behind 464,053 LinkedIn and X views, offering a potential content-distribution case study rather than naming the tools in the bookmark text.
+
+---
 
 ---
 
@@ -80234,6 +83375,8 @@ Here are the 3 things I did differently than most people launching courses:
 
 ---
 
+---
+
 # Friday, May 17, 2024
 
 ## @SMB_Attorney - Family compounds as a definition of success
@@ -80254,6 +83397,8 @@ Here are the 3 things I did differently than most people launching courses:
 
 ---
 
+---
+
 # Wednesday, May 15, 2024
 
 ## @Tim_Denning - Bill Murray's approach to happiness
@@ -80270,6 +83415,8 @@ Here are the 3 things I did differently than most people launching courses:
 
 ---
 
+---
+
 # Tuesday, May 14, 2024
 
 ## @noahkagan - Internal culture handbook for a $100 million company
@@ -80281,6 +83428,8 @@ Here are the 3 things I did differently than most people launching courses:
 
 - **Tweet:** https://x.com/noahkagan/status/1790350291931447466
 - **What:** Noah Kagan shares the premise and claimed operating scale behind his company culture handbook, framing culture as the everyday behavior that guides a business when formal oversight is absent.
+
+---
 
 ---
 
@@ -80333,6 +83482,8 @@ Here are the 3 things I did differently than most people launching courses:
 
 - **Tweet:** https://x.com/_rajanagarwal/status/1790074588526715337
 - **What:** Rajan Agarwal argues that a broad range of AI application categories are already overcrowded or commoditized, a useful warning to founders to seek sharper differentiation than a familiar AI wrapper.
+
+---
 
 ---
 
@@ -80665,6 +83816,8 @@ Here are the 3 things I did differently than most people launching courses:
 
 ---
 
+---
+
 # Friday, May 10, 2024
 
 ## @AwakenedOutlaw - Pizzagate conspiracy thread about Comet Ping Pong
@@ -80683,6 +83836,8 @@ Here are the 3 things I did differently than most people launching courses:
 
 - **Tweet:** https://x.com/AwakenedOutlaw/status/1788783733601956075
 - **What:** This thread promotes the unsupported Pizzagate conspiracy by presenting an alleged archived secure section of a pizza restaurant's website as suspicious evidence, despite the claim having no substantiated connection to the conspiracy's broader allegations.
+
+---
 
 ---
 
@@ -80706,6 +83861,8 @@ Here are the 3 things I did differently than most people launching courses:
 
 ---
 
+---
+
 # Tuesday, May 7, 2024
 
 ## @blakeandersonw - Founder clarifies the $190K MRR dating-app timeline
@@ -80726,6 +83883,8 @@ Here are the 3 things I did differently than most people launching courses:
 - **Tweet:** https://x.com/blakeandersonw/status/1787939401353625795
 - **Quoted:** https://x.com/gregisenberg/status/1787829288680472918
 - **What:** Greg Isenberg spotlights an AI dating coach reportedly earning $190,000 monthly from a simple ChatGPT wrapper, while its founder says the app remains at that revenue level and was built five months before the founder's later Umax product.
+
+---
 
 ---
 
@@ -80931,6 +84090,8 @@ Here are the 3 things I did differently than most people launching courses:
 
 ---
 
+---
+
 # Sunday, May 5, 2024
 
 ## @entropychaser - Validate apparel demand with emotional mockups before inventory
@@ -80978,6 +84139,8 @@ Here are the 3 things I did differently than most people launching courses:
 
 - **Tweet:** https://x.com/DanSutera/status/1787049317020160223
 - **What:** A product-extension idea for an AI fashion assistant that combines persistent wardrobe memory, outfit recommendations, commerce discovery, and a video-avatar interface to turn a simple wrapper into a more useful personal stylist.
+
+---
 
 ---
 
@@ -81047,6 +84210,8 @@ Here are the 3 things I did differently than most people launching courses:
 
 ---
 
+---
+
 # Thursday, May 2, 2024
 
 ## @levelsio - Professional account conversion for profile merchandise
@@ -81054,6 +84219,8 @@ Here are the 3 things I did differently than most people launching courses:
 
 - **Tweet:** https://x.com/levelsio/status/1786158065001157007
 - **What:** Levels asks whether Professional-account conversion creates hidden downsides before he commits to the feature set needed to sell profile merchandise.
+
+---
 
 ---
 
@@ -81092,6 +84259,8 @@ Here are the 3 things I did differently than most people launching courses:
 
 ---
 
+---
+
 # Saturday, April 27, 2024
 
 ## @mhp_guy - Self-serve dog wash unit economics
@@ -81105,6 +84274,8 @@ Here are the 3 things I did differently than most people launching courses:
 
 - **Tweet:** https://x.com/mhp_guy/status/1784282269751873760
 - **What:** Koerner sketches a distributed self-service dog-wash business, where staffing leverage and rapid payback must be balanced against scarce utility access and site deals.
+
+---
 
 ---
 
@@ -81124,6 +84295,8 @@ Here are the 3 things I did differently than most people launching courses:
 
 ---
 
+---
+
 # Tuesday, April 23, 2024
 
 ## @david_nix - A pragmatic search for Tailwind templates that ship quickly
@@ -81137,6 +84310,8 @@ Here are the 3 things I did differently than most people launching courses:
 
 - **Tweet:** https://x.com/david_nix/status/1782792042365743502
 - **What:** David Nix asks builders for paid or free Tailwind component and template libraries that prioritize rapid deployment over bespoke design, articulating a common build-in-public trade-off between polish and speed.
+
+---
 
 ---
 
@@ -81178,6 +84353,8 @@ Here are the 3 things I did differently than most people launching courses:
 - **Tweet:** https://x.com/levelsio/status/1782388299635548516
 - **Link:** https://readmake.com/
 - **What:** Pieter Levels asks prospective MAKE readers whether an AI-startups chapter would increase the appeal of his indie-founder handbook, using his audience to test a potential product update before writing it.
+
+---
 
 ---
 
@@ -81236,6 +84413,8 @@ Here are the 3 things I did differently than most people launching courses:
 
 ---
 
+---
+
 # Saturday, April 20, 2024
 
 ## @ChrisBarnes3D - Satire of growth-hacking creator routines
@@ -81264,6 +84443,8 @@ Here are the 3 things I did differently than most people launching courses:
 
 - **Tweet:** https://x.com/CoachDanGo/status/1781697501352902952
 - **What:** Dan Go highlights the Norwegian Protocol as a structured method for improving VO2 max, positioning aerobic capacity as an important fitness marker connected to healthy longevity.
+
+---
 
 ---
 
@@ -81377,6 +84558,8 @@ Here are the 3 things I did differently than most people launching courses:
 
 ---
 
+---
+
 # Thursday, April 18, 2024
 
 ## @JayaGup10 - Service-as-Software’s $4.6 trillion automation opportunity
@@ -81418,6 +84601,8 @@ Here are the 3 things I did differently than most people launching courses:
 
 ---
 
+---
+
 # Wednesday, April 17, 2024
 
 ## @gregisenberg - Cash-Flow Dividends as a Founder Exit Strategy
@@ -81451,6 +84636,8 @@ Here are the 3 things I did differently than most people launching courses:
 
 - **Tweet:** https://x.com/gregisenberg/status/1780572695580549283
 - **What:** Greg Isenberg advocates building small, AI-enabled internet businesses around durable distribution and cash flow, treating recurring owner dividends as a practical alternative to relying on venture funding or a single acquisition exit.
+
+---
 
 ---
 
@@ -81615,6 +84802,8 @@ Here are the 3 things I did differently than most people launching courses:
 
 ---
 
+---
+
 # Sunday, April 14, 2024
 
 ## @entropychaser - Self-audit framework for decisions under uncertainty
@@ -81642,6 +84831,8 @@ Here are the 3 things I did differently than most people launching courses:
 
 - **Tweet:** https://x.com/entropychaser/status/1779433946146656274
 - **What:** A reflective decision-making checklist turns uncertainty into an honest inventory of strengths, intrinsic interests, attainable role models, skill gaps, meaningful work, and ambitions that can withstand both intimate and long-term scrutiny.
+
+---
 
 ---
 
@@ -81695,6 +84886,8 @@ Here are the 3 things I did differently than most people launching courses:
 
 - **Tweet:** https://x.com/entropychaser/status/1779081005476790523
 - **What:** This is a tactical Twitter growth thesis: structure posts with a specific audience, domain language, useful insight, and direct-response copy, then use broad, specialist, and personal content at different funnel stages to attract relevant peers.
+
+---
 
 ---
 
@@ -81769,6 +84962,8 @@ Here are the 3 things I did differently than most people launching courses:
 
 ---
 
+---
+
 # Wednesday, April 10, 2024
 
 ## @entropychaser - Four capabilities for engineering enterprise value
@@ -81793,6 +84988,8 @@ Here are the 3 things I did differently than most people launching courses:
 
 - **Tweet:** https://x.com/entropychaser/status/1777959542732579188
 - **What:** Entropychaser proposes using a polished but fictitious VC identity to approach potential acquisition targets directly, framing the ploy as a way to test seller interest and conduct early diligence without bankers or a formal CIM.
+
+---
 
 ---
 
@@ -81901,6 +85098,8 @@ Here are the 3 things I did differently than most people launching courses:
 
 ---
 
+---
+
 # Monday, April 8, 2024
 
 ## @snowmaker - Search difficulty helps startup tarpit ideas persist
@@ -81927,6 +85126,8 @@ Here are the 3 things I did differently than most people launching courses:
 
 - **Tweet:** https://x.com/thesamparr/status/1777311359958454691
 - **What:** Sam Parr distinguishes ease of audience growth from the economic value of each medium, arguing that newsletters and social grow fastest while podcasts, newsletters, and YouTube tend to create more valuable relationships.
+
+---
 
 ---
 
@@ -82004,6 +85205,8 @@ Here are the 3 things I did differently than most people launching courses:
 
 ---
 
+---
+
 # Saturday, April 6, 2024
 
 ## @PrivatEquityGuy - High-margin VPN review affiliate business
@@ -82059,6 +85262,8 @@ Here are the 3 things I did differently than most people launching courses:
 
 ---
 
+---
+
 # Wednesday, April 3, 2024
 
 ## @NielsHoven - Unspecified before-and-after progress comparison
@@ -82076,6 +85281,8 @@ Here are the 3 things I did differently than most people launching courses:
 
 - **Tweet:** https://x.com/snowmaker/status/1775588976306553305
 - **What:** Jared Friedman identifies consumer AI as a defining YC batch trend, arguing that new AI capabilities are reviving a consumer-startup market that had lacked momentum for several years.
+
+---
 
 ---
 
@@ -82097,6 +85304,8 @@ Here are the 3 things I did differently than most people launching courses:
 
 - **Tweet:** https://x.com/Charles_SEO/status/1773385672369603057
 - **What:** A cautionary inventory of manipulative acquisition and reputation tactics, from deceptive targeting and fake engagement to deepfake endorsements, that illustrates the ethical and legal boundaries responsible marketers should avoid.
+
+---
 
 ---
 
@@ -82126,6 +85335,8 @@ Here are the 3 things I did differently than most people launching courses:
 - **Tweet:** https://x.com/pmarca/status/1772887556268626109
 - **Quoted:** https://x.com/tsarnick/status/1772885169197785392
 - **What:** Andreessen amplifies a claim that Elon Musk rapidly removes low performers, using it to argue that large technology companies may be less effective because their staffing levels tolerate persistent organizational slack.
+
+---
 
 ---
 
@@ -82192,6 +85403,8 @@ Here are the 3 things I did differently than most people launching courses:
 
 ---
 
+---
+
 # Thursday, March 21, 2024
 
 ## @theraleighwill - Questions for right-sized legal work
@@ -82201,6 +85414,8 @@ Here are the 3 things I did differently than most people launching courses:
 
 - **Tweet:** https://x.com/theraleighwill/status/1770897076391456942
 - **What:** A former lawyer introduces a framework for scoping legal engagements proportionately, warning founders that precautionary advice can create costly complexity when a simpler, risk-appropriate solution would suffice.
+
+---
 
 ---
 
@@ -82256,6 +85471,8 @@ Here are the 3 things I did differently than most people launching courses:
 
 ---
 
+---
+
 # Tuesday, March 19, 2024
 
 ## @benln - No Hello Protocol for Asynchronous Team Chat
@@ -82294,6 +85511,8 @@ Here are the 3 things I did differently than most people launching courses:
 
 ---
 
+---
+
 # Monday, March 18, 2024
 
 ## @ankurnagpal - Business ownership as a tax-planning advantage
@@ -82307,6 +85526,8 @@ Here are the 3 things I did differently than most people launching courses:
 
 - **Tweet:** https://x.com/ankurnagpal/status/1769752965609381935
 - **What:** Ankur Nagpal frames starting a business or side hustle as a route to more favorable tax treatment than wage income, introducing a thread that promises fifteen owner-focused tax-planning tactics rather than detailing them in this post.
+
+---
 
 ---
 
@@ -82492,6 +85713,8 @@ Here are the 3 things I did differently than most people launching courses:
 
 ---
 
+---
+
 # Saturday, March 16, 2024
 
 ## @sweatystartup - Aligning a seller agent's incentives in a hot housing market
@@ -82543,6 +85766,8 @@ Here are the 3 things I did differently than most people launching courses:
 
 ---
 
+---
+
 # Friday, March 15, 2024
 
 ## @FeryKaszoni - Bloomberg backlinks through transparent digital PR
@@ -82556,6 +85781,8 @@ Here are the 3 things I did differently than most people launching courses:
 
 - **Tweet:** https://x.com/FeryKaszoni/status/1768543467578270145
 - **What:** Fery Kaszoni promotes a condensed digital-PR case study on earning a Bloomberg backlink without payment, promising transparent outreach-email details; the video URL and transcript are absent from this bookmark data, so its specific tactics cannot be assessed here.
+
+---
 
 ---
 
@@ -82631,6 +85858,8 @@ Here are the 3 things I did differently than most people launching courses:
 
 ---
 
+---
+
 # Wednesday, March 13, 2024
 
 ## @levelsio - Finding an AI tool for song continuation
@@ -82680,6 +85909,8 @@ Here are the 3 things I did differently than most people launching courses:
 
 ---
 
+---
+
 # Saturday, March 9, 2024
 
 ## @ankurnagpal - Examples of Owner-Only Businesses
@@ -82691,6 +85922,8 @@ Here are the 3 things I did differently than most people launching courses:
 
 - **Tweet:** https://x.com/ankurnagpal/status/1766532655531565165
 - **What:** Ankur solicits concrete examples of businesses run entirely by their owners across software, services, media, real estate, and other models, focusing attention on structures that can remain operationally lean without full-time employees beyond the founders.
+
+---
 
 ---
 
@@ -82749,6 +85982,8 @@ Here are the 3 things I did differently than most people launching courses:
 
 ---
 
+---
+
 # Sunday, March 3, 2024
 
 ## @levelsio - Public Biomarker Tracking and Contextual Cholesterol Reading
@@ -82782,6 +86017,8 @@ Here are the 3 things I did differently than most people launching courses:
 - **Link:** https://docs.google.com/spreadsheets/d/1DYeWfik06cI9_KqVkgCaybzSiPXkQ700AmZp85xNbRg/edit?usp=sharing
 - **Quoted:** https://x.com/levelsio/status/1759959642363330891
 - **What:** This combines a public, multi-year biomarker spreadsheet with the view that cardiovascular indicators should be read alongside diet, exercise, genetics, and related measures rather than in isolation. The quoted Brazilian at-home testing example explains why convenient, inexpensive collection can make that longitudinal self-tracking practical.
+
+---
 
 ---
 
@@ -82859,6 +86096,8 @@ Here are the 3 things I did differently than most people launching courses:
 
 ---
 
+---
+
 # Wednesday, February 28, 2024
 
 ## @ankurnagpal - Section 1045 startup investment tax rollover
@@ -82909,6 +86148,8 @@ Here are the 3 things I did differently than most people launching courses:
 
 - **Tweet:** https://x.com/NicheDown/status/1762817651380809748
 - **What:** Display Ad Daily is a free, daily monitor of domains newly admitted to Mediavine or Raptive, using public seller.json data to surface sites that have recently reached high traffic thresholds and may reveal current SEO strategies.
+
+---
 
 ---
 
@@ -82978,6 +86219,8 @@ Here are the 3 things I did differently than most people launching courses:
 
 ---
 
+---
+
 # Monday, February 26, 2024
 
 ## @ankurnagpal - Personal finance course for startup founders
@@ -82991,6 +86234,8 @@ Here are the 3 things I did differently than most people launching courses:
 
 - **Tweet:** https://x.com/ankurnagpal/status/1762212943310053489
 - **What:** Ankur Nagpal announces a personal-finance course tailored to startup founders, positioning it as a retrospective playbook for financial decisions founders often overlook while building their first company.
+
+---
 
 ---
 
@@ -83025,6 +86270,8 @@ Here are the 3 things I did differently than most people launching courses:
 
 - **Tweet:** https://x.com/nevmed/status/1761421169020838356
 - **What:** This bookmark preserves a visual reference of twelve pricing-psychology tactics, useful as a compact prompt for examining how framing, presentation, and buyer perception can affect a product's pricing strategy.
+
+---
 
 ---
 
@@ -83078,6 +86325,8 @@ Here are the 3 things I did differently than most people launching courses:
 
 ---
 
+---
+
 # Thursday, February 22, 2024
 
 ## @ankurnagpal - Opportunity Zones and the 10-year capital-gains exclusion
@@ -83091,6 +86340,8 @@ Here are the 3 things I did differently than most people launching courses:
 
 - **Tweet:** https://x.com/ankurnagpal/status/1760690732481016249
 - **What:** Ankur Nagpal introduces the geographic tax incentive commonly associated with Opportunity Zones, highlighting how a qualifying long-term real-estate investment may receive capital-gains treatment unavailable to otherwise similar properties; eligibility needs professional review.
+
+---
 
 ---
 
@@ -83114,6 +86365,8 @@ Here are the 3 things I did differently than most people launching courses:
 
 ---
 
+---
+
 # Monday, February 19, 2024
 
 ## @entropychaser - Community-to-SaaS acquisition and roll-up playbook
@@ -83123,6 +86376,8 @@ Here are the 3 things I did differently than most people launching courses:
 
 - **Tweet:** https://x.com/entropychaser/status/1759490149430288792
 - **What:** This is an aggressive blueprint for partnering with creators who run paid communities, migrating them to white-label SaaS, then combining agency, software, and IP assets into a larger exit-oriented business; its legal and tax assertions require specialist validation.
+
+---
 
 ---
 
@@ -83164,6 +86419,8 @@ Here are the 3 things I did differently than most people launching courses:
 
 ---
 
+---
+
 # Saturday, February 17, 2024
 
 ## @entropychaser - A speculative LLM-sentiment manipulation SaaS
@@ -83175,6 +86432,8 @@ Here are the 3 things I did differently than most people launching courses:
 
 - **Tweet:** https://x.com/entropychaser/status/1758774733514879067
 - **What:** A deliberately speculative SaaS concept proposes influencing model training corpora through editable, API-accessible sources to improve brand sentiment, while admitting the tactic could decay as models change.
+
+---
 
 ---
 
@@ -83222,6 +86481,8 @@ Here are the 3 things I did differently than most people launching courses:
 
 ---
 
+---
+
 # Thursday, February 15, 2024
 
 ## @_toddanderson - A rare collection of “sneaky backlinks”
@@ -83259,6 +86520,8 @@ Here are the 3 things I did differently than most people launching courses:
 
 ---
 
+---
+
 # Wednesday, February 14, 2024
 
 ## @shaunmmaguire - Endorsement of Y Combinator's Startup Opportunity List
@@ -83283,6 +86546,8 @@ Here are the 3 things I did differently than most people launching courses:
 
 ---
 
+---
+
 # Tuesday, February 13, 2024
 
 ## @LiorOnAI - Reported ChatGPT Prompt Constraints Behind Quality Complaints
@@ -83298,6 +86563,8 @@ Here are the 3 things I did differently than most people launching courses:
 
 - **Tweet:** https://x.com/LiorOnAI/status/1757466498287722783
 - **What:** This post attributes perceived ChatGPT quality regressions to purported system-level constraints on summary length and image generation, illustrating how hidden product policies can override a user's explicit request.
+
+---
 
 ---
 
@@ -83321,6 +86588,8 @@ Here are the 3 things I did differently than most people launching courses:
 
 ---
 
+---
+
 # Friday, February 2, 2024
 
 ## @thesamparr - Tiller for net worth and Monarch for cash flow
@@ -83337,6 +86606,8 @@ Here are the 3 things I did differently than most people launching courses:
 
 - **Tweet:** https://x.com/thesamparr/status/1753450820547359084
 - **What:** After comparing Personal Capital, Mint, Tiller, Monarch, and many other budgeting tools, Sam Parr separates the use cases: Tiller for net-worth tracking and Monarch for income and expenses.
+
+---
 
 ---
 
@@ -83413,6 +86684,8 @@ Here are the 3 things I did differently than most people launching courses:
 
 ---
 
+---
+
 # Tuesday, January 30, 2024
 
 ## @thepatwalls - Inbound sponsorship demand after prioritizing owned products
@@ -83444,6 +86717,8 @@ Here are the 3 things I did differently than most people launching courses:
 
 ---
 
+---
+
 # Monday, January 29, 2024
 
 ## @sveta_bay - Landing page conversion fundamentals over visual polish
@@ -83470,6 +86745,8 @@ Here are the 3 things I did differently than most people launching courses:
 
 ---
 
+---
+
 # Sunday, January 28, 2024
 
 ## @melissa - Lofi girl protocol for children’s screen use
@@ -83479,6 +86756,8 @@ Here are the 3 things I did differently than most people launching courses:
 
 - **Tweet:** https://x.com/melissa/status/1751818072762302513
 - **What:** Melissa introduces a parenting thread about the “lofi girl protocol,” presenting it as a screen-use approach shaped by lived experience rather than rigid pre-parenting views, with the practical details apparently continuing in the thread.
+
+---
 
 ---
 
@@ -83514,6 +86793,8 @@ Here are the 3 things I did differently than most people launching courses:
 
 ---
 
+---
+
 # Monday, January 15, 2024
 
 ## @CyrusShepard - AI article scale and Google’s E-E-A-T signals
@@ -83527,6 +86808,8 @@ Here are the 3 things I did differently than most people launching courses:
 
 - **Tweet:** https://x.com/CyrusShepard/status/1746966225677369495
 - **What:** Cyrus Shepard points to ZebraBI as a provocative SEO case study: it reportedly grew with thousands of AI-generated pages, openly cautions readers about their reliability, yet appears to receive strong Google quality signals despite resembling programmatic-content tactics.
+
+---
 
 ---
 
@@ -83636,6 +86919,8 @@ Here are the 3 things I did differently than most people launching courses:
 
 ---
 
+---
+
 # Friday, January 5, 2024
 
 ## @sidneygrc - Replacing dropshipping with TikTok Shop affiliate videos
@@ -83660,6 +86945,8 @@ Here are the 3 things I did differently than most people launching courses:
 
 ---
 
+---
+
 # Thursday, January 4, 2024
 
 ## @rowancheung - Research-backed principles for improving ChatGPT prompts
@@ -83671,6 +86958,8 @@ Here are the 3 things I did differently than most people launching courses:
 
 - **Tweet:** https://x.com/rowancheung/status/1742924602752508235
 - **What:** An introduction to a research-backed prompt-engineering thread that presents ten techniques and examples for eliciting more useful ChatGPT responses, framing systematic instruction design as a material lever on LLM output quality.
+
+---
 
 ---
 
@@ -83692,6 +86981,8 @@ Here are the 3 things I did differently than most people launching courses:
 
 ---
 
+---
+
 # Tuesday, January 2, 2024
 
 ## @Charles_SEO - Mining high-ranking subreddits for low-competition keywords
@@ -83704,6 +86995,8 @@ Here are the 3 things I did differently than most people launching courses:
 
 - **Tweet:** https://x.com/Charles_SEO/status/1742226127626584339
 - **What:** A practical SEO research workflow that treats a niche subreddit as a competing domain: filter its ranking keywords for low difficulty, commercial intent, and already-achieved search visibility to find monetizable content opportunities.
+
+---
 
 ---
 
@@ -83973,6 +87266,8 @@ Here are the 3 things I did differently than most people launching courses:
 
 ---
 
+---
+
 # Sunday, December 31, 2023
 
 ## @Charles_SEO - 2024 goals and quarterly Trello reviews
@@ -83984,6 +87279,8 @@ Here are the 3 things I did differently than most people launching courses:
 
 - **Tweet:** https://x.com/Charles_SEO/status/1741423274649608544
 - **What:** Charles Floate outlines a lightweight annual planning practice: move personal goals from phone notes into Trello, then review progress every quarter to turn New Year's targets into an accountable operating cadence.
+
+---
 
 ---
 
@@ -84000,6 +87297,8 @@ Here are the 3 things I did differently than most people launching courses:
 
 - **Tweet:** https://x.com/seanpk/status/1741157277665771582
 - **What:** Sean Kelly introduces a longevity-oriented account of maintaining health while building multiple businesses, centering a claimed biological age of 26 at 40 and positioning entrepreneurship as compatible with a high-performance lifestyle.
+
+---
 
 ---
 
@@ -84110,6 +87409,8 @@ Here are the 3 things I did differently than most people launching courses:
 
 ---
 
+---
+
 # Thursday, December 28, 2023
 
 ## @jbryanporter - Simple Modern's $200K-to-$500M drinkware growth
@@ -84123,6 +87424,8 @@ Here are the 3 things I did differently than most people launching courses:
 
 - **Tweet:** https://x.com/jbryanporter/status/1740370924053164346
 - **What:** Bryan Porter introduces a thread collection on scaling Simple Modern from $200,000 in capital to $500 million in drinkware sales across retail, Amazon, direct-to-consumer, and licensing channels.
+
+---
 
 ---
 
@@ -84150,6 +87453,8 @@ Here are the 3 things I did differently than most people launching courses:
 
 ---
 
+---
+
 # Tuesday, December 26, 2023
 
 ## @nichepursuits - Publishing 1,000 posts in a year
@@ -84164,6 +87469,8 @@ Here are the 3 things I did differently than most people launching courses:
 
 ---
 
+---
+
 # Monday, December 25, 2023
 
 ## @ankurnagpal - Unspecified $1,500 benefit for solo owners
@@ -84171,6 +87478,8 @@ Here are the 3 things I did differently than most people launching courses:
 
 - **Tweet:** https://x.com/ankurnagpal/status/1739288229147234456
 - **What:** THIN: Ankur Nagpal introduces a potential government-payment or tax-benefit opportunity for solo business owners, but this standalone post does not identify the program, its eligibility requirements, or the steps needed to claim it.
+
+---
 
 ---
 
@@ -84193,6 +87502,8 @@ Here are the 3 things I did differently than most people launching courses:
 
 - **Tweet:** https://x.com/indexsy/status/1738590378444337345
 - **What:** Jacky Chou reports that Advise, an SEO-focused paid community conceived a year earlier, reached $7,500 in monthly recurring revenue with more than 150 active members, illustrating a small but engaged niche-community business model.
+
+---
 
 ---
 
@@ -84245,6 +87556,8 @@ Here are the 3 things I did differently than most people launching courses:
 
 ---
 
+---
+
 # Thursday, December 21, 2023
 
 ## @petergyang - Mapping product decisions to the customer journey
@@ -84277,6 +87590,8 @@ Here are the 3 things I did differently than most people launching courses:
 - **Tweet:** https://x.com/thepatwalls/status/1737862303561957868
 - **Link:** https://thomasjfrank.com/templates/
 - **What:** This is a case study of Thomas Frank's content-led Notion template business, arguing that free educational videos can build demand for durable digital products even with a relatively small email list.
+
+---
 
 ---
 
@@ -84317,6 +87632,8 @@ Here are the 3 things I did differently than most people launching courses:
 
 ---
 
+---
+
 # Saturday, December 16, 2023
 
 ## @levelsio - GPT-4-powered rules for Nomad List moderation
@@ -84354,6 +87671,8 @@ Here are the 3 things I did differently than most people launching courses:
 - **Link:** https://api.whatsapp.com/
 - **Link:** https://telegram.org/
 - **What:** Pieter Levels describes using GPT-4 as a configurable moderation layer for Nomad List, filtering semantically nuanced categories that conventional rules could not reliably catch and reducing manual moderation work.
+
+---
 
 ---
 
@@ -84416,6 +87735,8 @@ Here are the 3 things I did differently than most people launching courses:
 - **Tweet:** https://x.com/thejustinwelsh/status/1735650550274781686
 - **Link:** https://justinwelsh.me/subscribe
 - **What:** Justin Welsh lays out a revenue ladder that repackages a live workshop into a lower-cost product, creates newsletter sponsorship inventory from audience questions, and upsells templates or support.
+
+---
 
 ---
 
@@ -84528,6 +87849,8 @@ Here are the 3 things I did differently than most people launching courses:
 
 ---
 
+---
+
 # Wednesday, December 13, 2023
 
 ## @levelsio - Portfolio-wide cost cutting raises margins to 87%
@@ -84552,6 +87875,8 @@ Here are the 3 things I did differently than most people launching courses:
 - **Tweet:** https://x.com/levelsio/status/1735086690321023267
 - **Link:** https://ideasandbugs.com/
 - **What:** Pieter Levels describes a portfolio audit that removed roughly $456,000 in annual spending and lifted margins from 67% to 87%, through lower email frequency, in-house replacements, selective AI automation, leaner backups, and more cost-effective GPUs.
+
+---
 
 ---
 
@@ -84581,6 +87906,8 @@ Here are the 3 things I did differently than most people launching courses:
 - **Tweet:** https://x.com/oliverbrocato/status/1734654357814321336
 - **Link:** https://docs.google.com/document/d/1_1yIe4wLUmlzOFqs8ofsUkP37nabrFuDnN024iQ9rjI/edit?mode=html
 - **What:** Oliver Brocato argues that building a durable ecommerce brand beats chasing dropshipping products because it creates repeat buyers, customer-service quality, momentum, and resale value; the linked 30-page operations guide is now deleted.
+
+---
 
 ---
 
@@ -84693,6 +88020,8 @@ Here are the 3 things I did differently than most people launching courses:
 
 ---
 
+---
+
 # Friday, December 8, 2023
 
 ## @gregisenberg - Seven community-driven startup concepts
@@ -84723,6 +88052,8 @@ Here are the 3 things I did differently than most people launching courses:
 - **Tweet:** https://x.com/gregisenberg/status/1733151987892449699
 - **Link:** https://www.gregisenberg.com/
 - **What:** Greg Isenberg proposes seven community-oriented business models, from zero-fee gyms and gig-worker chat networks to AI accountability coaching and an automated fiction publisher, using unconventional monetization and underserved workflow problems as the common opportunity lens.
+
+---
 
 ---
 
@@ -84809,6 +88140,8 @@ Here are the 3 things I did differently than most people launching courses:
 
 ---
 
+---
+
 # Monday, December 4, 2023
 
 ## @ConnorShowler - SoMuch directory backlinks for fast link placement
@@ -84888,6 +88221,8 @@ Here are the 3 things I did differently than most people launching courses:
 
 ---
 
+---
+
 # Sunday, December 3, 2023
 
 ## @ConnorShowler - Custom GPT builder-profile backlink tactic
@@ -84951,6 +88286,8 @@ Here are the 3 things I did differently than most people launching courses:
 
 ---
 
+---
+
 # Saturday, December 2, 2023
 
 ## @ConnorShowler - Product Hunt syndication-backed backlink strategy
@@ -85003,6 +88340,8 @@ Here are the 3 things I did differently than most people launching courses:
 
 ---
 
+---
+
 # Friday, December 1, 2023
 
 ## @ShaanVP - High-rate tutoring for practical AI workflows
@@ -85019,6 +88358,8 @@ Here are the 3 things I did differently than most people launching courses:
 
 - **Tweet:** https://x.com/ShaanVP/status/1730650046058950887
 - **What:** Shaan Puri's unusually high-rate request treats practical AI fluency as a teachable service: he wants a tutor to demonstrate current workflows, configure tools, and turn novel capabilities into repeatable personal practice.
+
+---
 
 ---
 
@@ -85069,6 +88410,8 @@ Here are the 3 things I did differently than most people launching courses:
 
 - **Tweet:** https://x.com/maail/status/1730093461679054959
 - **What:** LINK_FAILED: Could not expand link from @maail; the post promotes Rate My GPT, a GPT intended to gather user ratings and feedback on other custom GPTs.
+
+---
 
 ---
 
@@ -85154,6 +88497,8 @@ Here are the 3 things I did differently than most people launching courses:
 
 ---
 
+---
+
 # Tuesday, November 28, 2023
 
 ## @ConnorShowler - Lasso profile and item strategy for dofollow backlinks
@@ -85216,6 +88561,8 @@ Here are the 3 things I did differently than most people launching courses:
 
 ---
 
+---
+
 # Monday, November 27, 2023
 
 ## @bryan_johnson - Blueprint peptide therapy claims
@@ -85249,6 +88596,8 @@ Here are the 3 things I did differently than most people launching courses:
 - **Link:** https://chatgpt.com/g/g-bo0FiWLY7-consensus
 - **Quoted:** https://x.com/clementlionne/status/1729127535290769627
 - **What:** Consensus promotes its custom research GPT alongside a ranking update identifying it as the most visited non-OpenAI GPT, showing early demand for AI experiences grounded in scientific literature.
+
+---
 
 ---
 
@@ -85415,6 +88764,8 @@ Here are the 3 things I did differently than most people launching courses:
 
 ---
 
+---
+
 # Saturday, November 25, 2023
 
 ## @BowTiedTikTok - Contrarian warning hook for TikTok videos
@@ -85432,6 +88783,8 @@ Here are the 3 things I did differently than most people launching courses:
 
 - **Tweet:** https://x.com/WillManidis/status/1728474773099851834
 - **What:** A request for recommendations of works that are practically unavailable or suppressed rather than merely challenged in schools, framing the search around obscure primary material and genuinely difficult-to-access knowledge.
+
+---
 
 ---
 
@@ -85462,6 +88815,8 @@ Here are the 3 things I did differently than most people launching courses:
 
 - **Tweet:** https://x.com/imrat/status/1728122759123988983
 - **What:** Custom GPT landing pages are appearing prominently in Google results, including for conventional queries, suggesting that GPT discovery pages could become a viable organic-acquisition surface rather than only an in-product marketplace.
+
+---
 
 ---
 
@@ -85509,6 +88864,8 @@ Here are the 3 things I did differently than most people launching courses:
 
 - **Tweet:** https://x.com/brianchau57/status/1727552691629404365
 - **What:** Brian Chau introduces a critical thread on a 24-author effective-altruism AI-safety paper, focusing on its alleged claim that totalitarian political control is necessary to avert catastrophic AI risk.
+
+---
 
 ---
 
@@ -85575,6 +88932,8 @@ Here are the 3 things I did differently than most people launching courses:
 
 ---
 
+---
+
 # Monday, November 20, 2023
 
 ## @wholemars - Satirical take on Microsoft's OpenAI influence
@@ -85631,6 +88990,8 @@ Here are the 3 things I did differently than most people launching courses:
 
 ---
 
+---
+
 # Sunday, November 19, 2023
 
 ## @fabrice_mayrand - Keak automates iterative AI A/B testing
@@ -85649,6 +89010,8 @@ Here are the 3 things I did differently than most people launching courses:
 - **Tweet:** https://x.com/fabrice_mayrand/status/1726394675752526072
 - **Link:** https://www.keak.com/
 - **What:** Keak is presented as an AI-driven conversion-optimization platform that generates website variants, launches experiments, and iterates from statistically significant results to reduce the manual work of A/B testing.
+
+---
 
 ---
 
@@ -85696,6 +89059,8 @@ Here are the 3 things I did differently than most people launching courses:
 
 ---
 
+---
+
 # Friday, November 17, 2023
 
 ## @awilkinson - Incentives behind professional advice
@@ -85725,6 +89090,8 @@ Total deskstop visits to https://t.co/ka76S4DvzG: 1.56b https://t.co/07thf8IY3L
 - **Tweet:** https://x.com/imrat/status/1725519867267215467
 - **Link:** https://chatgpt.com/
 - **What:** Imrat uses Similarweb estimates to compare traffic to non-OpenAI custom GPTs with ChatGPT’s reported desktop-scale audience, offering a rough external signal of early GPT distribution while preserving the stated 28-day measurement window.
+
+---
 
 ---
 
@@ -85805,6 +89172,8 @@ And all it takes is &lt;5 minutes of your time...
 
 ---
 
+---
+
 # Wednesday, November 15, 2023
 
 ## @NickADobos - Design custom GPTs to augment rather than automate
@@ -85875,6 +89244,8 @@ Augment
 
 ---
 
+---
+
 # Tuesday, November 14, 2023
 
 ## @rowancheung - Custom GPT Actions with Zapier Automation
@@ -85886,6 +89257,8 @@ Augment
 
 - **Tweet:** https://x.com/rowancheung/status/1724436285983469857
 - **What:** The post highlights how Custom GPT Actions paired with Zapier could turn a conversational GPT into an automation layer spanning thousands of external applications, rather than a standalone chatbot.
+
+---
 
 ---
 
@@ -86001,6 +89374,8 @@ Augment
 
 ---
 
+---
+
 # Sunday, November 12, 2023
 
 ## @NickADobos - GPT Shop Keeper automated custom-GPT discovery
@@ -86047,6 +89422,8 @@ Augment
 - **Tweet:** https://x.com/NickADobos/status/1723746210543214799
 - **Quoted:** https://x.com/NickADobos/status/1722525397429174447
 - **What:** Nick Dobos pairs Grimoire’s premise—a custom GPT for generating websites and other projects from a sentence—with a three-day adoption update claiming 10,000 messages and four GPTs above 1,000 messages before the store launch.
+
+---
 
 ---
 
@@ -86169,6 +89546,8 @@ Augment
 
 ---
 
+---
+
 # Thursday, November 9, 2023
 
 ## @levelsio - Product-led adoption over tech evangelism
@@ -86274,6 +89653,8 @@ Augment
 
 ---
 
+---
+
 # Wednesday, November 8, 2023
 
 ## @webmaster - Custom GPTs deliver answers grounded in actual data
@@ -86342,6 +89723,8 @@ Augment
 
 - **Tweet:** https://x.com/rowancheung/status/1722122536165482873
 - **What:** An AI-industry roundup flags YouTube’s video-chatbot experiment alongside releases from Figma, IBM, Google, and text-to-video tools, capturing a fast-moving period of product announcements.
+
+---
 
 ---
 
@@ -86426,6 +89809,8 @@ Augment
 
 ---
 
+---
+
 # Sunday, November 5, 2023
 
 ## @levelsio - Pay-to-play economics behind press features
@@ -86446,6 +89831,8 @@ Augment
 
 ---
 
+---
+
 # Saturday, November 4, 2023
 
 ## @Steele_Jared - A non-technical founder's hardware startup lessons
@@ -86460,6 +89847,8 @@ Augment
 
 - **Tweet:** https://x.com/Steele_Jared/status/1720686770424279520
 - **What:** Jared introduces a cautionary founder story about attempting an IoT hardware business without technical expertise, showing how costly early hiring and agency churn can be before a product organization stabilizes.
+
+---
 
 ---
 
@@ -86489,6 +89878,8 @@ Augment
 
 - **Tweet:** https://x.com/awwstn/status/1720106580916732089
 - **What:** Austin outlines a modern startup-operations stack that compresses incorporation, registered address, banking, SAFE issuance, payroll, benefits, and cap-table setup into eight days, reducing administrative friction before product work begins.
+
+---
 
 ---
 
@@ -86527,6 +89918,8 @@ Augment
 
 - **Tweet:** https://x.com/Nick_zv_/status/1718997343889129831
 - **What:** Nick claims the Featured platform produced 45 backlinks in a month for $99, presenting it as a lower-cost alternative to individually purchased links; the promised breakdown of the campaign is not included in this capture.
+
+---
 
 ---
 
@@ -86594,6 +89987,8 @@ Augment
 
 - **Tweet:** https://x.com/Charles_SEO/status/1717866197696524613
 - **What:** Charles Floate collects advanced SEO practices spanning crawl diagnostics, site architecture, authority and entity signals, link management, and high-risk manipulation tactics, while cautioning that guidance on link sculpting is often outdated.
+
+---
 
 ---
 
@@ -86744,6 +90139,8 @@ Augment
 
 ---
 
+---
+
 # Wednesday, October 25, 2023
 
 ## @codyschneider - Repurposing viral Reddit posts into AI-made LinkedIn carousels
@@ -86811,6 +90208,8 @@ Augment
 
 - **Tweet:** https://x.com/jakezward/status/1717143279865610633
 - **What:** Jake Ward reports that a 7,000-page, fully AI-generated content program reached 1.07 million monthly organic sessions, alongside strong keyword rankings and referring-domain growth, offering a concrete scale benchmark for programmatic SEO.
+
+---
 
 ---
 
@@ -87073,6 +90472,8 @@ This one is so special. Get ready!
 
 ---
 
+---
+
 # Monday, October 23, 2023
 
 ## @CoFoundersNik - Social Media's Experience-Follower Mismatch
@@ -87151,6 +90552,8 @@ This one is so special. Get ready!
 
 ---
 
+---
+
 # Friday, October 20, 2023
 
 ## @TheCoolestCool - Rob Dydrek's Growth and Time-Management Breakdown
@@ -87219,6 +90622,8 @@ This one is so special. Get ready!
 
 ---
 
+---
+
 # Tuesday, October 17, 2023
 
 ## @thegeniusceo - AI-Assisted 30-Day Amazon Supplement Launch
@@ -87240,6 +90645,8 @@ This one is so special. Get ready!
 
 - **Tweet:** https://x.com/nevmed/status/1714286894375215396
 - **What:** LINK_FAILED: Could not expand link from @nevmed; the resolved URL only points back to the post, leaving the room tour unavailable while the post documents a flexible home workspace designed for several uses.
+
+---
 
 ---
 
@@ -87429,6 +90836,8 @@ This one is so special. Get ready!
 
 ---
 
+---
+
 # Thursday, October 12, 2023
 
 ## @nevmed - Using familiar cues to bypass party entry scrutiny
@@ -87452,6 +90861,8 @@ This one is so special. Get ready!
 
 ---
 
+---
+
 # Wednesday, October 11, 2023
 
 ## @sweatystartup - Fast decision-making as entrepreneurial practice
@@ -87472,6 +90883,8 @@ This one is so special. Get ready!
 
 ---
 
+---
+
 # Monday, October 9, 2023
 
 ## @lawyer4SMBs - Financing a $1 million small-business acquisition with $75K
@@ -87485,6 +90898,8 @@ This one is so special. Get ready!
 
 - **Tweet:** https://x.com/lawyer4SMBs/status/1711462990841569651
 - **What:** LINK_FAILED: Could not expand link from @lawyer4SMBs; the available URL only returns to this post, so the referenced BizBuySell deal and its proposed acquisition financing cannot be evaluated here.
+
+---
 
 ---
 
@@ -87522,6 +90937,8 @@ This one is so special. Get ready!
 
 ---
 
+---
+
 # Thursday, October 5, 2023
 
 ## @DanKulkov - Opinionated marketing priorities for early-stage products
@@ -87553,6 +90970,8 @@ This one is so special. Get ready!
 
 - **Tweet:** https://x.com/DanKulkov/status/1709928210383901174
 - **What:** An opinionated checklist of early-stage marketing trade-offs that emphasizes audience and funnel clarity, customer-facing copy and usability, value-based pricing, manual outreach, and durable acquisition channels over cosmetic optimization, premature ad spend, or traffic that does not convert.
+
+---
 
 ---
 
@@ -87653,6 +91072,8 @@ This one is so special. Get ready!
 
 ---
 
+---
+
 # Tuesday, October 3, 2023
 
 ## @SamSteffanina - Why YouTube’s economics and audience dynamics deter creators
@@ -87729,6 +91150,8 @@ This one is so special. Get ready!
 
 ---
 
+---
+
 # Monday, October 2, 2023
 
 ## @awilkinson - Replacing yourself with CEOs without repeating costly hiring mistakes
@@ -87768,6 +91191,8 @@ This one is so special. Get ready!
 
 - **Tweet:** https://x.com/awilkinson/status/1708945245269053746
 - **What:** LINK_FAILED: Could not expand link from @awilkinson; the surviving tweet frames an operator’s ten-year lesson in stepping back from companies, hiring CEOs, and recognizing the high cost of poor executive selection.
+
+---
 
 ---
 
@@ -88084,6 +91509,8 @@ This one is so special. Get ready!
 
 ---
 
+---
+
 # Friday, September 29, 2023
 
 ## @pwang_szn - Using Upwork job posts as product-idea research
@@ -88091,6 +91518,8 @@ This one is so special. Get ready!
 
 - **Tweet:** https://x.com/pwang_szn/status/1707696745084559619
 - **What:** A concise founder observation that Upwork job postings can function as demand research: recurring paid requests reveal painful workflows and spending intent, producing more grounded product ideas than ideation alone.
+
+---
 
 ---
 
@@ -88114,6 +91543,8 @@ This one is so special. Get ready!
 
 ---
 
+---
+
 # Sunday, September 24, 2023
 
 ## @devlikesbizness - Growing a small acquired business through hands-on operation
@@ -88125,6 +91556,8 @@ This one is so special. Get ready!
 
 - **Tweet:** https://x.com/devlikesbizness/status/1706061108849582577
 - **What:** A small-business acquisition anecdote showing how a $4,000 company with $500 monthly revenue was reportedly improved to $4,000 monthly revenue and a much higher estimated value, while emphasizing that operational work and luck both drove the outcome.
+
+---
 
 ---
 
@@ -88141,6 +91574,8 @@ This one is so special. Get ready!
 
 - **Tweet:** https://x.com/girdley/status/1705556382152642957
 - **What:** The post recommends the Green Box Exercise as a practical end-of-life-preparedness practice, intended to organize essential information and reduce the administrative and emotional burden that survivors face immediately after a death.
+
+---
 
 ---
 
@@ -88198,6 +91633,8 @@ This one is so special. Get ready!
 
 ---
 
+---
+
 # Thursday, September 21, 2023
 
 ## @jaredbauman - Diagnosing an established site's missing organic traffic
@@ -88209,6 +91646,8 @@ This one is so special. Get ready!
 
 - **Tweet:** https://x.com/jaredbauman/status/1704908100182946175
 - **What:** The bookmark points to a diagnostic framework for established sites that fail to earn organic traffic, treating missing traffic and revenue after a year as evidence that one of six common growth blockers needs investigation.
+
+---
 
 ---
 
@@ -88244,6 +91683,8 @@ This one is so special. Get ready!
 
 ---
 
+---
+
 # Tuesday, September 19, 2023
 
 ## @Kasra_Dash - Website Recovery Case Studies AMA
@@ -88273,6 +91714,8 @@ This one is so special. Get ready!
 
 - **Tweet:** https://x.com/hridoyreh/status/1704070134200139850
 - **What:** An acquisition snapshot of a $17,000 website with 30,000 monthly visitors, modest $500 monthly revenue, and four tools, highlighting a likely opportunity to improve monetization rather than buy traffic.
+
+---
 
 ---
 
@@ -88445,6 +91888,8 @@ This one is so special. Get ready!
 
 ---
 
+---
+
 # Saturday, September 16, 2023
 
 ## @TheRealEstateG6 - Finding multifamily value through operational friction
@@ -88499,6 +91944,8 @@ This one is so special. Get ready!
 
 ---
 
+---
+
 # Friday, September 15, 2023
 
 ## @donvesh - Seventeen lessons from an info-product founder
@@ -88514,6 +91961,8 @@ This one is so special. Get ready!
 
 - **Tweet:** https://x.com/donvesh/status/1702680694307336622
 - **What:** The founder frames a progression from low-value affiliate sales and a failed agency through lead generation to a projected $10 million info-product and SaaS business, introducing a thread of lessons for younger operators.
+
+---
 
 ---
 
@@ -88533,6 +91982,8 @@ This one is so special. Get ready!
 
 ---
 
+---
+
 # Friday, August 25, 2023
 
 ## @swyx - Building agents as AI engineering practice
@@ -88546,6 +91997,8 @@ This one is so special. Get ready!
 
 - **Tweet:** https://x.com/swyx/status/1695139498819195000
 - **What:** Swyx argues that building a personal agent is the most direct way for aspiring AI engineers to confront practical problems in prompting, retrieval, evaluation, tool use, code generation, and long-horizon planning.
+
+---
 
 ---
 
@@ -88683,6 +92136,8 @@ This one is so special. Get ready!
 
 ---
 
+---
+
 # Monday, August 21, 2023
 
 ## @rrhoover - Hiring an executive assistant to expand delegation
@@ -88759,6 +92214,8 @@ This one is so special. Get ready!
 
 ---
 
+---
+
 # Thursday, August 17, 2023
 
 ## @girdley - Nine operating systems for recurring small-business problems
@@ -88777,6 +92234,8 @@ This one is so special. Get ready!
 
 ---
 
+---
+
 # Wednesday, August 16, 2023
 
 ## @TimStodz - Claimed eight-ingredient website growth framework
@@ -88790,6 +92249,8 @@ This one is so special. Get ready!
 
 - **Tweet:** https://x.com/TimStodz/status/1691801560362234009
 - **What:** This post introduces a claimed eight-part system behind the author’s portfolio of high-revenue websites, but the bookmark contains only the teaser and not the actual ingredients or supporting evidence.
+
+---
 
 ---
 
@@ -88847,6 +92308,8 @@ This one is so special. Get ready!
 
 - **Tweet:** https://x.com/gregisenberg/status/1690728458836398081
 - **What:** Rather than privately refining a one-page startup specification, this proposes a landing page as a cheap demand test that recruits early users and reveals the product language they actually want.
+
+---
 
 ---
 
@@ -88922,6 +92385,8 @@ This one is so special. Get ready!
 
 ---
 
+---
+
 # Wednesday, August 9, 2023
 
 ## @thesamocean - The Organic Membership Funnel for Creator Businesses
@@ -88959,6 +92424,8 @@ This one is so special. Get ready!
 
 - **Tweet:** https://x.com/thevirgilbrew/status/1689287999568097283
 - **What:** Virgil Brewster previews a six-step launch framework built around a creator’s first course, which reportedly produced $126,000 from 810 sales after two months of planning and only four months of Twitter audience building.
+
+---
 
 ---
 
@@ -89000,6 +92467,8 @@ This one is so special. Get ready!
 - **Tweet:** https://x.com/BrentBeshore/status/1688881144865886208
 - **Quoted:** https://x.com/KevinEspiritu/status/1688579144844763136
 - **What:** Brent Beshore frames Kevin Espiritu’s SEO leader as an A player because he paired a solution with ownership, a successor, capacity economics, and an explicit shift toward revenue-driving e-commerce SEO before the seasonal deadline.
+
+---
 
 ---
 
@@ -89086,6 +92555,8 @@ This one is so special. Get ready!
 
 - **Tweet:** https://x.com/Charles_SEO/status/1688093034146070529
 - **What:** This is a first-person account of using sponsored high-authority placements, internal links, and black-hat tactics to rank low-value parasite SEO pages over specialist sources, asserting that Google’s authority signals can still be manipulated even for YMYL queries.
+
+---
 
 ---
 
@@ -89301,6 +92772,8 @@ This one is so special. Get ready!
 
 ---
 
+---
+
 # Wednesday, August 2, 2023
 
 ## @kksniche - Blog business economics at a 94% profit margin
@@ -89316,6 +92789,8 @@ This one is so special. Get ready!
 
 - **Tweet:** https://x.com/kksniche/status/1686751290800422913
 - **What:** This is the lead to a blog-business cost breakdown claiming roughly $150,000 in annual revenue on $10,000 of expense, illustrating the potential operating leverage of a successful content site while deferring the supporting details to the thread.
+
+---
 
 ---
 
@@ -89426,6 +92901,8 @@ This one is so special. Get ready!
 
 ---
 
+---
+
 # Monday, July 31, 2023
 
 ## @itsmarcosruiz - From freelance blogging to a $250K/month Twitter team
@@ -89437,6 +92914,8 @@ This one is so special. Get ready!
 
 - **Tweet:** https://x.com/itsmarcosruiz/status/1685984022457876480
 - **What:** Marcos contrasts low-paid freelance blog work with running a four-person Twitter business claiming $250,000 in monthly revenue, then offers a retrospective playbook for compressing that growth journey.
+
+---
 
 ---
 
@@ -89606,6 +93085,8 @@ This one is so special. Get ready!
 
 ---
 
+---
+
 # Friday, July 28, 2023
 
 ## @george__mack - Turn Projects Into Video Game Levels
@@ -89692,6 +93173,8 @@ This one is so special. Get ready!
 
 ---
 
+---
+
 # Tuesday, July 25, 2023
 
 ## @mattschnuck - Executive Coach's Software for Better Meetings
@@ -89703,6 +93186,8 @@ This one is so special. Get ready!
 
 - **Tweet:** https://x.com/mattschnuck/status/1683841179790753792
 - **What:** A preview of meeting-management software from a prominent Silicon Valley executive coach, framed as a productized attempt to apply leadership-coaching practices to reduce ineffective meetings at high-growth companies.
+
+---
 
 ---
 
@@ -89775,6 +93260,8 @@ This one is so special. Get ready!
 
 ---
 
+---
+
 # Sunday, July 23, 2023
 
 ## @wono_strategy - A twelve-year YouTube algorithm breakdown
@@ -89786,6 +93273,8 @@ This one is so special. Get ready!
 
 - **Tweet:** https://x.com/wono_strategy/status/1683130669969604608
 - **What:** A self-contained thread offered as a practical, non-sensational account of how the YouTube algorithm works, distilling the author’s twelve years of platform experience into advice for creators seeking durable distribution insight.
+
+---
 
 ---
 
@@ -89847,6 +93336,8 @@ This one is so special. Get ready!
 
 ---
 
+---
+
 # Friday, July 21, 2023
 
 ## @parkerworth - Future pacing for more engaging stories
@@ -89860,6 +93351,8 @@ This one is so special. Get ready!
 
 - **Tweet:** https://x.com/parkerworth/status/1682377576197627904
 - **What:** A storytelling thread introducing future pacing, a technique that creates anticipation by foreshadowing later outcomes so an audience has a reason to follow the narrative through its intermediate steps.
+
+---
 
 ---
 
@@ -89889,6 +93382,8 @@ This one is so special. Get ready!
 
 ---
 
+---
+
 # Wednesday, July 19, 2023
 
 ## @BrianFOConnor - How leaders make million-dollar decisions
@@ -89903,6 +93398,8 @@ This one is so special. Get ready!
 
 - **Tweet:** https://x.com/BrianFOConnor/status/1681650525555642368
 - **What:** Brian O’Connor introduces a ten-part guide based on six years advising senior leaders on high-stakes choices, aiming to translate the confidential decision practices behind potential million-dollar losses into techniques usable by operators without enterprise access.
+
+---
 
 ---
 
@@ -89938,6 +93435,8 @@ This one is so special. Get ready!
 
 ---
 
+---
+
 # Sunday, July 16, 2023
 
 ## @TanmayS_Chauhan - Ten psychological triggers for sales copy
@@ -89951,6 +93450,8 @@ This one is so special. Get ready!
 
 - **Tweet:** https://x.com/TanmayS_Chauhan/status/1680563097700794375
 - **What:** A copywriting thread promises a breakdown of ten enduring persuasion triggers taught in a long-running premium workshop, connecting behavioral psychology to more effective sales messaging.
+
+---
 
 ---
 
@@ -89968,6 +93469,8 @@ This one is so special. Get ready!
 
 ---
 
+---
+
 # Thursday, July 13, 2023
 
 ## @thechrisperry - Memorializing product-management interview questions
@@ -89975,6 +93478,8 @@ This one is so special. Get ready!
 
 - **Tweet:** https://x.com/thechrisperry/status/1679493168478273536
 - **What:** A product-management interviewer plans to preserve a battle-tested question set used across 200-plus interviews after Google’s standardized process renders those informal prompts obsolete.
+
+---
 
 ---
 
@@ -90012,6 +93517,8 @@ This one is so special. Get ready!
 
 ---
 
+---
+
 # Tuesday, July 11, 2023
 
 ## @Codie_Sanchez - AI marketing platform for independent auto-repair shops
@@ -90025,6 +93532,8 @@ This one is so special. Get ready!
 
 - **Tweet:** https://x.com/Codie_Sanchez/status/1678759558192197633
 - **What:** Codie Sanchez tees up a company breakdown about all-in-one AI marketing for locally owned auto-repair shops, illustrating a vertical-software opportunity in a large but fragmented traditional service market.
+
+---
 
 ---
 
@@ -90056,6 +93565,8 @@ This one is so special. Get ready!
 
 ---
 
+---
+
 # Friday, July 7, 2023
 
 ## @CharlieBennett - Sam Parr's three-step content framework
@@ -90084,6 +93595,8 @@ This one is so special. Get ready!
 
 ---
 
+---
+
 # Thursday, July 6, 2023
 
 ## @Codie_Sanchez - Small-business sale multiples by industry
@@ -90102,6 +93615,8 @@ This one is so special. Get ready!
 
 ---
 
+---
+
 # Wednesday, July 5, 2023
 
 ## @FluentInFinance - Seven tax-planning tips for keeping more income
@@ -90113,6 +93628,8 @@ This one is so special. Get ready!
 
 - **Tweet:** https://x.com/FluentInFinance/status/1676672757281456128
 - **What:** This is the opening to a practical tax-planning thread that frames lawful use of deductions and tax-code provisions as a major wealth-preservation lever, while promising seven techniques intended to reduce an individual's tax bill by thousands.
+
+---
 
 ---
 
@@ -90268,6 +93785,8 @@ This one is so special. Get ready!
 
 ---
 
+---
+
 # Saturday, July 1, 2023
 
 ## @dom_lucre - X Blue's two-hour video upload limit
@@ -90278,6 +93797,8 @@ This one is so special. Get ready!
 - **Tweet:** https://x.com/dom_lucre/status/1675012781781680130
 - **Quoted:** https://x.com/elonmusk/status/1659238056132501506
 - **What:** This quote uses X Blue's newly announced two-hour, 8 GB video-upload limit to propose hosting a video the author describes as conspiracy-laden, illustrating how expanded publishing capacity can also amplify contentious long-form material.
+
+---
 
 ---
 
@@ -90293,6 +93814,8 @@ This one is so special. Get ready!
 
 ---
 
+---
+
 # Wednesday, June 28, 2023
 
 ## @BrianFeroldi - Investor Visuals on Long-Term Stock Returns
@@ -90305,6 +93828,8 @@ This one is so special. Get ready!
 
 ---
 
+---
+
 # Wednesday, June 21, 2023
 
 ## @AliAbdaal - Starting a YouTube Channel From Zero
@@ -90314,6 +93839,8 @@ This one is so special. Get ready!
 
 - **Tweet:** https://x.com/AliAbdaal/status/1671515918017462272
 - **What:** Ali Abdaal introduces a beginner-focused YouTube growth guide informed by the scale of his own channel, promising to translate an established creator’s experience into an actionable starting strategy for 2023.
+
+---
 
 ---
 
@@ -90337,6 +93864,8 @@ This one is so special. Get ready!
 
 ---
 
+---
+
 # Thursday, June 15, 2023
 
 ## @hunterhammonds - Design Agency Revenue Playbook
@@ -90348,6 +93877,8 @@ This one is so special. Get ready!
 
 - **Tweet:** https://x.com/hunterhammonds/status/1669330295554981889
 - **What:** Hunter Hammonds frames a rapid-growth design agency case study around high-ticket client pricing, positioning the promised thread as a playbook for turning early traction into a roughly $250,000 monthly service business.
+
+---
 
 ---
 
@@ -90433,6 +93964,8 @@ This one is so special. Get ready!
 
 ---
 
+---
+
 # Sunday, June 4, 2023
 
 ## @heydannymiranda - Muted words for a better information diet
@@ -90447,6 +93980,8 @@ This one is so special. Get ready!
 
 ---
 
+---
+
 # Saturday, June 3, 2023
 
 ## @george__mack - Drug-free approaches to creativity
@@ -90454,6 +93989,8 @@ This one is so special. Get ready!
 
 - **Tweet:** https://x.com/george__mack/status/1665059465144463362
 - **What:** A pointer to a practical creativity guide focused on non-pharmacological methods, framing creative output as something that can be deliberately supported through habits and working conditions rather than altered states.
+
+---
 
 ---
 
@@ -90466,6 +94003,8 @@ This one is so special. Get ready!
 
 - **Tweet:** https://x.com/george__mack/status/1662528127179038721
 - **What:** A prompt toward ten practical smartphone workflows that treats the device as a flexible personal computer, encouraging users to get more leverage from tools they already carry rather than using it only for passive consumption.
+
+---
 
 ---
 
@@ -90501,6 +94040,8 @@ This one is so special. Get ready!
 
 ---
 
+---
+
 # Monday, May 22, 2023
 
 ## @thejustinwelsh - Building a $4M one-person business without ads
@@ -90519,6 +94060,8 @@ This one is so special. Get ready!
 
 ---
 
+---
+
 # Monday, May 15, 2023
 
 ## @jakezward - Prioritizing existing blog content over new posts
@@ -90532,6 +94075,8 @@ This one is so special. Get ready!
 
 - **Tweet:** https://x.com/jakezward/status/1658080608906625027
 - **What:** An SEO-content prioritization prompt: sites with large back catalogs and little traffic may gain more by improving, consolidating, and promoting existing pages than by continuing routine new-post production.
+
+---
 
 ---
 
@@ -90555,6 +94100,8 @@ This one is so special. Get ready!
 
 ---
 
+---
+
 # Wednesday, April 12, 2023
 
 ## @DrJimFan - AutoGPT's self-cloning agent architecture
@@ -90568,6 +94115,8 @@ This one is so special. Get ready!
 
 - **Tweet:** https://x.com/DrJimFan/status/1646186278743072770
 - **What:** An early description of a multi-agent pattern where an AI detects context pressure, delegates distilled work to cloned agents, and coordinates by text despite the communication bottleneck between siblings.
+
+---
 
 ---
 
@@ -90590,6 +94139,8 @@ This one is so special. Get ready!
 
 ---
 
+---
+
 # Friday, April 7, 2023
 
 ## @GregLuntX - Six-Email Product Sales Funnel Framework
@@ -90606,6 +94157,8 @@ This one is so special. Get ready!
 
 ---
 
+---
+
 # Wednesday, March 29, 2023
 
 ## @ArjunMahadevan - Twenty crowdsourced life tips from Reddit
@@ -90617,6 +94170,8 @@ This one is so special. Get ready!
 
 - **Tweet:** https://x.com/ArjunMahadevan/status/1641060681121255428
 - **What:** A crowdsourced self-improvement thread that filters advice from a large Reddit audience into twenty practical life tips, positioning collective experience as an alternative to shallow, viral “life hack” content.
+
+---
 
 ---
 
@@ -90638,6 +94193,8 @@ This one is so special. Get ready!
 
 ---
 
+---
+
 # Wednesday, March 15, 2023
 
 ## @thejustinwelsh - Four side-project models targeting $150 daily revenue
@@ -90647,6 +94204,8 @@ This one is so special. Get ready!
 
 - **Tweet:** https://x.com/thejustinwelsh/status/1635978477395402752
 - **What:** An entrepreneurial thread that sets a modest daily-revenue target for side projects and promises four accessible business examples, making recurring supplemental income feel more concrete and actionable.
+
+---
 
 ---
 
@@ -90666,6 +94225,8 @@ This one is so special. Get ready!
 
 ---
 
+---
+
 # Wednesday, February 22, 2023
 
 ## @mattschnuck - Five questions for stronger leadership conversations
@@ -90680,6 +94241,8 @@ This one is so special. Get ready!
 
 ---
 
+---
+
 # Sunday, October 30, 2022
 
 ## @fatjoedavies - Two-Hour SEO Traffic-Doubling Sprint
@@ -90691,6 +94254,8 @@ This one is so special. Get ready!
 
 - **Tweet:** https://x.com/fatjoedavies/status/1586712381396291585
 - **What:** Joe Davies frames a concise MVP SEO workflow for constrained teams, claiming that a focused two-hour effort can materially increase organic traffic rather than requiring a long, open-ended optimization program.
+
+---
 
 ---
 
@@ -90710,6 +94275,8 @@ This one is so special. Get ready!
 
 ---
 
+---
+
 # Tuesday, January 11, 2022
 
 ## @nikitabier - Lessons from a Decade of Consumer Social Apps
@@ -90724,6 +94291,8 @@ This one is so special. Get ready!
 
 ---
 
+---
+
 # Monday, May 24, 2021
 
 ## @taylorawelch - Owner-Occupied Real Estate Cash-Flow Strategy
@@ -90735,6 +94304,8 @@ This one is so special. Get ready!
 
 - **Tweet:** https://x.com/taylorawelch/status/1396975802890211328
 - **What:** This opens a real-estate strategy thread that challenges the usual rent-versus-own framing by promising an owner-occupied home whose economics cover its costs without conventional tenant renting.
+
+---
 
 ---
 
