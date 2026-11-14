@@ -1,3 +1,514 @@
+# Friday, November 13, 2026
+
+## @TekonBurns - Anthropic's guide to building always-on agents (5 core pieces)
+> Anthropic just published an engineering guide on how to build always-on agents.
+>
+> The biggest misconception: an always-on agent does NOT run 24/7. It sleeps almost all day, wakes up for short runs, saves state, and goes back to sleep.
+>
+> The 5 core pieces I distilled: Event Inbox (DB table between webhooks and agent, one worker per user, batching), Timers (separate table, one-off vs recurring, poller feeds inbox), Lean Memory + Dreaming, Unattended Permissions (proxy-injected keys, Deferred Tool Calls), Outbox (paced replies).
+>
+> https://t.co/1zew6WaRbE
+
+- **Tweet:** https://x.com/TekonBurns/status/2121328737174388847
+- **Link:** https://claude.com/resources/articles/building-always-on-agents
+- **Filed:** [building-always-on-agents-anthropic](./knowledge/articles/building-always-on-agents-anthropic.md)
+- **What:** Summary of Anthropic's always-on agents guide: agents sleep and wake for short runs, built from an event inbox table, separate timers, lean memory with dreaming passes, proxy-injected credentials with deferred approvals, and an outbox that paces notifications.
+
+## @lydiahallie - Claude Code Stop hooks must exit 2 to force a retry
+> You can use a Stop hook to have Claude try again when a check fails, but make sure it exits with code 2!
+>
+> Exit 2 sends Claude back to retry with the hook's stderr, exit 1 is non-blocking so Claude just finishes even when the check failed https://t.co/s8Yzl8uykg
+
+- **Tweet:** https://x.com/lydiahallie/status/2121313048820617645
+- **What:** Claude Code tip: a Stop hook that runs a check must exit with code 2 to make Claude retry, since exit 2 feeds the hook's stderr back to Claude while exit 1 is non-blocking and lets Claude finish despite the failed check.
+
+---
+
+# Thursday, November 12, 2026
+
+## @don_tech1 - GoogleChrome/modern-web-guidance: skills teaching agents modern web APIs
+> 牛逼！谷歌官方刚发的东西，48小时直接干上GitHub热门第一。
+>
+> AI写前端默认还停在2019年，因为训练数据全是老屎山。
+>
+> 装个技能包直接拉满：通过 56%→88%。
+>
+> 一行命令搞定：npx modern-web-guidance@latest install
+>
+> 212个现代Web特性直接喂给Claude、Codex、Copilot。
+>
+> 仓库地址：https://t.co/vYLXgwuJxG
+>
+> 兄弟们，你们觉得下一个该被官方“喂饭”的屎山领域是啥？
+
+- **Tweet:** https://x.com/don_tech1/status/2121060480714469728
+- **Link:** https://github.com/GoogleChrome/modern-web-guidance
+- **Filed:** [modern-web-guidance](./knowledge/tools/modern-web-guidance.md)
+- **What:** Google Chrome's modern-web-guidance repo is an agent skill pack (CLI with search, retrieve, legacy-scan) that feeds coding agents current web platform guidance so they stop writing 2019-era front-end code; the tweet claims eval pass rate rose from 56% to 88% across 212 features.
+
+## @lydiahallie - Run /doctor prompt-audit in Claude Code repos
+> reminder to run `/doctor prompt-audit` in your Claude Code repos if you haven't already :)
+
+- **Tweet:** https://x.com/lydiahallie/status/2121011733699633613
+- **What:** THIN: Lydia Hallie reminds Claude Code users to run the `/doctor prompt-audit` command in their repos; the tweet gives no detail on what the audit checks, only that it is a recommended health check for project prompt setup.
+
+## @ClaudeDevs - Self-hosted Claude Managed Agents in private beta
+> Self-hosted Claude Managed Agents is now in private beta.
+>
+> You can host the agent harness, sandboxes, and session history, in your own cloud or on-premises, and choose where requests to Claude are sent. https://t.co/JaiwF1SvKE
+
+- **Tweet:** https://x.com/ClaudeDevs/status/2120938988165091693
+- **What:** Anthropic's ClaudeDevs announce a private beta of self-hosted Claude Managed Agents, letting teams run the agent harness, sandboxes and session history in their own cloud or on-prem and pick where Claude requests are routed, addressing data-residency and control needs.
+
+## @emilkowalski - /learn-taste Skill Turns Design Corrections into DESIGN.md Rules
+> New skill: /learn-taste
+>
+> Collects every design correction you made during a session and turns each one into a strict rule with reasoning, so that the next agent doesn't make the same mistake.
+>
+> A great time saver if correct your agent often.
+>
+> https://t.co/Pty8pwU6vj
+
+- **Tweet:** https://x.com/emilkowalski/status/2120886540788486199
+- **Link:** https://aiforui.dev/skills/learn-taste
+- **Filed:** [file](./knowledge/articles/learn-taste-skill-aiforui.md)
+- **What:** Emil Kowalski releases /learn-taste, an agent skill on aiforui.dev that harvests the design corrections you gave an AI during a session and writes each as a strict rule with its reasoning into DESIGN.md, so future agents avoid repeating the same design mistakes.
+
+## @paradite_ - Puzzling Over Why an Unremarkable Post Went Viral
+> i actually don't understand why this post got so many views and engagements.
+>
+> it is not particularly interesting. i didn't spend much time on it. i've spent way more time on other stories that only got 100 views and 3 likes.
+>
+> any x experts care to analyze it? https://t.co/LTizd9c4kQ
+
+- **Tweet:** https://x.com/paradite_/status/2120746825716256981
+- **Link:** https://twitter.com/paradite_/status/2120746825716256981
+- **What:** THIN: @paradite_ asks X experts why one low-effort post drew far more views and engagement than higher-effort ones that got ~100 views; the post being discussed is not visible (the link just points back to this tweet), so the underlying content is unknown.
+
+---
+
+# Wednesday, November 11, 2026
+
+## @CY160909 - REM: Open-Source Competitor Marketing Reverse-Engineering Tool
+> 专门扒竞争对手营销打法的开源工具：REM
+>
+> 只要输入一个产品官网，它就会顺着公开线索，把对方的获客策略一点点挖出来。
+>
+> 可以找在Meta、Google上投过什么广告，哪些素材持续投放很久
+>
+> 还能研究TikTok、X、YouTube 上哪些内容表现最好
+>
+> 还能查到官网铺了哪些 SEO 页面，靠什么吸引搜索流量，还会翻出网站历史版本，看看它以前主打什么卖点
+>
+> 而且它会给分析结果附上证据来源，查不到的信息也会标记出来。隔段时间再跑一次，还能对比竞争对手最近换了哪些打法。
+>
+> 项目叫 Reverse Engineer Marketing，开源，支持命令行、Web 界面和 MCP。
+>
+> GitHub：
+> https://t.co/OME5sY7i95
+
+- **Tweet:** https://x.com/CY160909/status/2120723508938317907
+- **Link:** https://github.com/dansugc/reverse-engineer-marketing
+- **Filed:** [file](./knowledge/tools/reverse-engineer-marketing-rem.md)
+- **What:** Introduces REM (Reverse Engineer Marketing), an open-source CLI, web app and MCP server that takes a product URL and reconstructs the competitor's acquisition strategy from public evidence: long-running Meta/Google ads, top social content, SEO pages, and Wayback positioning history, with cited sources, unknowns flagged, and a diff mode for re-runs.
+
+## @nexor404 - Grok Bot Answering Spam Calls and Sending TCPA Legal Notices
+> GROK BOT NOW ANSWERS EVERY SPAM CALL I GET. 63 THIS MONTH. EACH ONE GOT A LEGAL NOTICE AND MY NUMBER REMOVED
+>
+> grok bot can take phone calls now. i gave it one job: pick up anything marked spam risk
+>
+> one from this morning:
+> caller: "we've been trying to reach you about your car's extended warranty"
+> bot: "recorded line. this number is on the national do not call registry"
+> bot: "under the TCPA that's up to $1,500 per call. remove it now, or i file with the FTC today"
+> caller: "okay! removing it. sorry"
+>
+> after the call it sends that company a written notice and logs it
+>
+> 63 calls this month. 63 notices. the last 9 days, zero spam. only people i know call now
+>
+> ask yours: "answer every call marked spam risk. tell them to put my number on their do not call list, get the company name, and send a written notice after."
+>
+> the setup is in the article below ↓
+>
+> *Quoting @nexor404:* https://t.co/VjasdVj2yf
+
+- **Tweet:** https://x.com/nexor404/status/2120582484509495574
+- **Link:** https://x.com/i/jf/onboarding/web?redirect_after_login=%2Fi%2Farticle%2F2119462011218145280&mode=login
+- **Quoted:** https://x.com/nexor404/status/2119477565257584724
+- **What:** Claims a Grok voice bot was set to answer every call flagged spam risk, cite the TCPA ($1,500 per call) and the Do Not Call registry, get the company name and send a written notice afterward, reportedly handling 63 calls in a month with zero spam in the last 9 days; the setup details are in a login-gated X article that could not be read.
+
+## @jpschroeder - Coordinator Repo Pattern Instead of Monorepos for Agents
+> We've replaced most of our monorepos with this structure:
+>
+> Many individual repos inside a parent "coordinator" repo that only contains a .gitgnore and in AGENTS.md. The sub repos are listed in the .gitignore and the AGENTS.md along with a very simple declaration of the projects conceptually work together (or dont).
+>
+> project-coordinator
+> ├ repo-1
+> ├ repo-2
+> ├ repo-3
+> └ repo-4
+>
+> Anyone on the team can clone the coordinator and just say "set this up", and it knows what to clone. Then you run your agents from the coordinator root so the agent can easily make changes widely across many projects.
+>
+> Worktrees can copy as many or as few of the sub-projects as needed for the current ask.
+>
+> So far so good, but honestly, almost anything works these days so we hold our beliefs loosely.
+>
+> *Quoting @mattzcarey:* hot take: unless you are willing to reimplement git / github (like anthropic), I think monorepos are an antipattern in an age of agents
+>
+> the alternative is to keep things light and make a lovely cli/mcp for agents to do search over your org's code and docs without a checkout
+
+- **Tweet:** https://x.com/jpschroeder/status/2120551435788222485
+- **Quoted:** https://x.com/mattzcarey/status/2120532474761556475
+- **What:** Responding to Matt Carey's claim that monorepos are an antipattern for agents, Justin Schroeder describes his team's alternative: a thin coordinator repo holding only a .gitignore and AGENTS.md that lists independent sub-repos and how they relate, so one "set this up" prompt clones everything and agents can edit across projects from one root, with worktrees copying only the sub-repos needed.
+
+## @ArthurMacwaters - Personalized genomics plus AI-designed custom therapies (reacting to AlphaGenome 2)
+> this is insane 
+>
+> > get your genes sequenced 
+> > upload it to your model 
+> > it tells you how to stay healthy
+> > if you get sick 
+> > get **custom** therapy designed 
+> > manufactured at a lab 
+> > for every disease you ever face 
+>
+> we are already in the singularity https://t.co/ueFkF45Ga2
+>
+> *Quoting @GoogleDeepMind:* Your heart, brain, and immune system share the same DNA sequence. So how can a single-letter change affect disease in some cells, while sparing the rest?
+>
+> AlphaGenome 2 is our new AI model that zooms in on specific cells to help scientists understand what drives disease. 🧵
+
+- **Tweet:** https://x.com/ArthurMacwaters/status/2120549501996048635
+- **Quoted:** https://x.com/GoogleDeepMind/status/2120532824465805749
+- **What:** Arthur MacWaters riffs on Google DeepMind's AlphaGenome 2, a model that resolves cell-type-specific effects of single-letter DNA changes on disease, extrapolating to a future where you sequence your genome, get AI health guidance, and have custom therapies designed and manufactured per disease.
+
+## @nicbstme - [Media] Analyzing a 30x whole-genome dataset with Claude, hours in with no result
+> I sequenced my genome at 30×. Now my Mac has 54.4 GB of DNA data: two FASTQs with 435 million read pairs, plus three VCFs cataloging my genetic variants.
+>
+> Claude Fable 5.2 has been analyzing it for hours. Still no results. Should I start to worry? https://t.co/hTdpuYH8kQ
+
+- **Tweet:** https://x.com/nicbstme/status/2120547684935413980
+- **What:** Nicolas Bustamante jokes about pointing Claude Fable 5.2 at his 54.4 GB personal genome (two FASTQs with 435M read pairs plus three VCFs) and waiting hours with no output; the attached media (likely a screenshot) is not visible, so the specifics of the run are unknown.
+
+## @Jack_Raines - Snap earnings joke: "monthly active users" buried six rows down
+> “Monthly active users” is 6 rows down. https://t.co/Ew7g8skHKk
+>
+> *Quoting @evanspiegel:* Today, we announced our Q3 2026 earnings results. This quarter demonstrated the growing earnings power of Snap's business as we invest for the long-term.
+>
+> We saw strong engagement across @Snapchat, with monthly active users growing to 977M. 
+>
+> Thank you to our community and partners for your amazing support in making all of this possible 🙏🏻
+
+- **Tweet:** https://x.com/Jack_Raines/status/2120544470642901409
+- **Quoted:** https://x.com/evanspiegel/status/2118091103601819859
+- **What:** THIN: Jack Raines quips about Snap's Q3 2026 earnings, where Evan Spiegel touts 977M monthly active users; the tweet likely carries an image (not visible) of the results table, with the joke being that MAU sits six rows down, implying the headline metrics shifted away from it.
+
+## @noahkagan - Weekly agent-written changelog page as an SEO tactic
+> Steal this SEO move. Changelogs. 📈
+>
+> Our changelog page went from 60 Google impressions to 3,437 in 3 weeks. 📈
+>
+> TidyCal (our scheduling app) put up a dated changelog page and kept adding to it.
+>
+> A page that changes every week gives Google a reason to come back. Most of your site never changes.
+>
+> It also pushes notifications so customers see every update.
+>
+> Now an agent writes it every Friday. Paste this into Claude Code with GitHub connected:
+>
+> "Every Friday, check everything we merged on GitHub. Skip internal fixes. For each new feature or change a customer would notice, write one line in plain words: what changed, why it's valuable to them, and a link to it if there is one. Put today's date on top. Add the entry to /changelog, newest on top."
+>
+> Same page, updated every week, no one has to remember.
+>
+> Connect GitHub and run it this Friday.
+
+- **Tweet:** https://x.com/noahkagan/status/2120536555370451031
+- **What:** Noah Kagan claims TidyCal's dated changelog page grew from 60 to 3,437 Google impressions in three weeks because a frequently changing page gives Google reasons to recrawl; he shares a Claude Code prompt (with GitHub connected) that writes a customer-facing changelog entry from merged PRs every Friday.
+
+## @raunofreiberg - Novel website concepts beat prompted side projects (Ian Silber's playful homepage)
+> I think people dont get this
+>
+> a novel take on what even is a website will make me more likely want to hire you than 10 side projects prompted together with no thought
+>
+> the problem? novelty nowadays is scarce
+>
+> *Quoting @cmchelsimehta:* openai's head of design's website omg https://t.co/buazPLSMRa 😭
+
+- **Tweet:** https://x.com/raunofreiberg/status/2120526061410845159
+- **Link:** https://iansilber.com/
+- **Quoted:** https://x.com/cmchelsimehta/status/2120479069271884172
+- **Filed:** [iansilber-com-air-hockey-homepage](./knowledge/articles/iansilber-com-air-hockey-homepage.md)
+- **What:** Rauno argues that a genuinely original idea of what a website is (here OpenAI design lead Ian Silber's homepage, a circular bio that doubles as a 15-second air hockey game with leaderboard) signals more hiring-worthy craft than many thoughtlessly AI-prompted side projects, though novelty is now scarce.
+
+## @dani_avila7 - senior-frontend Claude Code skill with Playwright browser verification
+> Another skill I recommend and use quite often is senior-frontend for Claude Code
+>
+> (Save this post to use it later in your projects)
+>
+> It has over 31K downloads and helps Claude improve frontend
+>
+> Here's what it does:
+>
+> - Reads your project before writing code
+> - Handles loading, empty, error, and edge-case states
+> - Uses semantic HTML and accessibility best practices
+> - Checks responsive layouts down to 375px
+> - Uses Playwright to verify the UI in a real browser
+> - Reports what was tested and what couldn't be verified
+>
+> I tested it with Sonnet 5.5. Browser verification went from 0/8 without the skill to 10/10 with it
+>
+> Execution takes about 3x longer, but it catches details that are easy to miss
+>
+> Install: npx claude-code-templates@latest --skill development/senior-frontend
+
+- **Tweet:** https://x.com/dani_avila7/status/2120513853725294751
+- **Link:** https://www.aitmpl.com/component/skills/development/senior-frontend
+- **Filed:** [file](./knowledge/articles/aitmpl-senior-frontend-skill.md)
+- **What:** Recommends the senior-frontend skill (31K+ downloads on Claude Code Templates) that makes Claude read the project first, cover edge states and accessibility, check 375px layouts and verify in a real browser via Playwright; the author's Sonnet 5.5 test went from 0/8 to 10/10 browser verifications at about 3x runtime.
+
+## @coreyhainesco - /reverse-engineer-marketing skill: see how any company grew from public data
+> The biggest thing I've shipped since Marketing Skills itself!
+>
+> 🆕 skill: /reverse-engineer-marketing — see how any company actually grew using public data.
+>
+> Give it a domain and it:
+> → Charts their monthly Google traffic and brand searches
+> → Dates every launch, price change, ad start, and campaign on that chart
+> → Finds the months growth stepped up, and which campaigns lined up with them
+> → Maps every page type on their site from the sitemap, and when each one appeared
+> → Pulls the keywords and pages that bring them search traffic (with your SEO tool)
+> → Checks which brands ChatGPT, Perplexity, Gemini, and AI Overviews name, and which pages they cite
+> → Finds their live ads, longest-running ads, hooks, offers, and landing pages
+> → Catches the paid promotion ad libraries miss: newsletters, podcasts, YouTube sponsorships, affiliates, coupon sites, events
+> → (...plus funding/press timelines, pricing changes, referral loops, martech detection, DNS and certificate-log clues, homepage headline history, job postings, founder podcast transcripts, review mining, competitor comparison, onboarding/funnel teardown with your OK)
+> → Funnel Hack mode, Watch mode (monthly reruns reporting only what's new), 31 industry packs
+>
+> Then it turns what worked into ideas you can copy, each with the skill that runs it and a ready-to-run prompt. Plus the ideas to skip, and the one to start this week.
+>
+> Here it is on Granola. 53 skills. Free & open source 👇
+
+- **Tweet:** https://x.com/coreyhainesco/status/2120509394224095603
+- **What:** Corey Haines adds a /reverse-engineer-marketing skill to his free, open-source Marketing Skills collection (now 53 skills). Given a domain, it builds a dated growth timeline from public data (traffic, ads, pricing, sitemap, DNS, jobs, AI citations), then turns what worked into copyable ideas with ready-to-run prompts.
+
+## @emilkowalski - Prompt to polish an app via responsive, touch and throttled-network testing
+> Good prompt to polish your app, enjoy.
+>
+> Test this in the browser at different widths, with touch emulation, and on a throttled 3G connection. Fix anything that looks broken or feels off. Save a before and after screenshot for every fix and send me a summary afterwards.
+
+- **Tweet:** https://x.com/emilkowalski/status/2120508498236596597
+- **What:** A ready-to-paste agent prompt for UI QA: have the agent test the app in a real browser across widths, with touch emulation and a throttled 3G connection, fix what looks off, and save before/after screenshots plus a summary of each fix.
+
+## @dannypostma - Open-source tool giving an AI agent its own email address
+> my agent can talk to the internet now
+>
+> i built an open source tool that gives it its own email address
+>
+> now it:
+> > signs up for tools without me
+> > follows up with customers
+> > asks me before anything risky
+>
+> link below 👇
+
+- **Tweet:** https://x.com/dannypostma/status/2120431324699979930
+- **What:** THIN: Danny Postma announces an open-source tool giving his agent its own email inbox so it can sign up for services, follow up with customers and ask for approval before risky actions; the actual link is not captured, so the tool's name and repo are unknown.
+
+## @illyism - Illyism/seo-skills: open-source SKILL.md SEO workflows for coding agents
+> People are charging $2,000/mo right now to connect Claude Code to your GitHub repo and "do AI SEO" for you lol
+>
+> So I open-sourced all 12 of the exact SKILL.md workflows we actually run across my sites (740+ stars on GitHub now):
+>
+> npx skills add Illyism/seo-skills
+>
+> What your coding agent gets in 1 command:
+> - seo-autopilot: daily technical checks, keyword map, comparison pages & AI answer tracking
+> - blog-refresher: SERP gap analysis to push #8-#20 pages into Top 3
+> - seo-title-optimization: CTR title & H1 rewrites from Search Console data
+> - customer-journey: maps the exact prompts buyers type into Google & ChatGPT
+> - linkdr: plans & orders real in-content DR 30-60+ backlinks right from terminal
+>
+> Prompts can write all your pages for free, the only thing AI can't generate is real authority from sites that already rank!
+
+- **Tweet:** https://x.com/illyism/status/2120418039963509183
+- **Link:** https://github.com/Illyism/seo-skills
+- **Filed:** [file](./knowledge/tools/illyism-seo-skills-open-source-workflows.md)
+- **What:** Open-source repo of SKILL.md SEO workflows for Claude Code, Cursor and Codex (now 30 skills, ~1.2K stars) covering daily repo SEO checks, SERP-gap blog refreshes, CTR title rewrites, buyer-prompt mapping and backlink ordering, positioned as a free alternative to paid AI SEO services.
+
+---
+
+# Tuesday, November 10, 2026
+
+## @mazeincoding - Prompt: Find Compensating Code and Redesign From First Principles
+> prompt of the day:
+>
+> "find all compensating code, then propose redesigns from first principles under which it would never have been written"
+
+- **Tweet:** https://x.com/mazeincoding/status/2120357828040745281
+- **What:** A reusable refactoring prompt that asks an agent to locate workaround or compensating code (patches covering for a flawed design) and then propose first-principles redesigns that would remove the need for it, steering the model toward root-cause architecture fixes instead of more patches.
+
+## @kaelig - Coordinator Session and Local Review Queue Workflow for an Agent Team
+> decision fatigue hit me hard last week
+>
+> so i asked @claudeai to learn from my work on hundreds of PRs i shipped over the past couple of weeks, and to create a workflow that'll free me cognitive load while keeping quality & ambitions up… safely
+>
+> here's what it came up with: i talk to one long-running "coordinator" session, and everything else organizes itself around a local review queue that's the agent team's single source of truth. a queue holds requests, decisions, approvals, verdicts… that way compaction or a restart can't lose an approval, and i can visualize the queue in a UI, a macOS menubar widget, and a raycast extension
+>
+> agents open PRs and file decisions into the queue. i review them on a local page (super well laid out with all the required context) and approve with Touch ID. my fav improvement is: no more typing "lgtm" typed into a chat:
+>
+> - i only have to review stuff people can see (UI, copy, scope). everything else merges on green CI plus an independent judge pass, and shows up in a daily digest with one-click revert (for example: <redacted> and mercury-web canary version bumps require 2 PRs… agents shouldn't wait on me to merge those)
+> - builders never judge their own work, and most mechanical steps are scripts
+> - agents clean up after themselves (worktrees, branches) <- A BIG TIME SAVE
+> - notifications are batched, i get alerted only when something's stuck, or when enough is ready
+>
+> agents / roles:
+>
+> - coordinator: the session i talk to. routes all the work, asks me decisions only when they're actually timely
+> - lead: runs [redacted] / Mercury Web work and dispatches builders
+> - builders: sessions + subagents that do the implementation
+> - judges: independent code and visual review, tiered by PR class
+> - non-LLM parts: PR sync, merge executor, outside-merge detection, and a small helper in my login session that applies settings drafts and sends notifications (banner, push)
+>
+> nerdy deets
+>
+> - most builder work and handoffs are powered by @every's Compound Engineering plugin
+> - node 26, logs/decisions/etc stored in sqlite
+> - local daemon serves the review page on localhost and an agent socket with a queue CLI
+> - WebAuthn / TouchID for every approval
+> - claude code sessions launched with per-role profiles and hooks by a team CLI, in Rex (@superlogical) tabs
+> - test suite that checks agents can't forge an approval or try to reach into the merge path
+>
+> important: this doesn't remove the need for thoughtful planning and prototyping. i still spend a lot of time in ce-brainstorm and ce-prototype before sending anything to the coordinator
+>
+> questions for the community: what tools already solve some of this? what parts should i remove or add?
+
+- **Tweet:** https://x.com/kaelig/status/2120347307988381787
+- **What:** Detailed write-up of a Claude-designed multi-agent workflow: one long-running coordinator session, a durable local SQLite review queue (requests, decisions, approvals) with Touch ID/WebAuthn approvals, separate builder and independent judge agents, auto-merge on green CI plus judge pass with daily digest and one-click revert, and non-LLM scripts for mechanical steps. Useful reference architecture for reducing human decision fatigue in agent-heavy PR flows.
+
+## @Polymarket - Vibecoder Finds Unmapped Maya Settlement Using 48 AI Agents and NASA Lidar
+> JUST IN: Vibecoder discovers previously unmapped ancient Maya settlement hidden beneath the Mexican jungle using 48 AI agents &amp; NASA lidar data, despite having no archaeology experience.
+
+- **Tweet:** https://x.com/Polymarket/status/2120310443285565563
+- **What:** Breaking-news post claiming a non-archaeologist used 48 parallel AI agents to analyse NASA lidar data and located a previously unmapped ancient Maya settlement under Mexican jungle; a showcase of agent swarms enabling outsiders to make domain discoveries. No source link was included, so the claim is unverified here.
+
+## @minhnguyen - Agent Rules as Suggestions: A Middle Ground Backed by Anthropic's Fable 5.2 "Own the Codebase" Tip
+> the middle ground i've always used:
+> 1. all stated rules are suggestions
+> 2. all code is optimised for agent navigation, usage and retrieval
+> 3. you may change something to be better/if it looks obviously wrong, as long as you explain in detail what you changed and esp if reversible
+>
+> *Quoting @simonw:* When Anthropic release a new model it's always worth taking a look at their updated prompting guide - here's an entertaining tip to make Fable 5.2 less likely to be cautious in how it improves existing code: tell it "This codebase is yours"
+
+- **Tweet:** https://x.com/minhnguyen/status/2120263836582424725
+- **Link:** https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-claude-fable-5-2
+- **Quoted:** https://x.com/simonw/status/2120029347948220500
+- **Filed:** [prompting-claude-fable-5-2-guide](./knowledge/articles/prompting-claude-fable-5-2-guide.md)
+- **What:** Minh shares a standing agent policy (rules are suggestions, code optimised for agent retrieval, change what looks wrong if you explain it and note reversibility) as a middle ground to Simon Willison's pointer to Anthropic's Fable 5.2 guide, where telling the model it owns the codebase makes it consolidate duplicated code far more often, at the cost of extra tokens and unrequested changes.
+
+## @gregisenberg - OpenAI Businesses in ChatGPT: 10 Reactions on the "Google My Business" Moment for AI
+> openai just let every business claim a profile inside chatgpt. my honest reactions:
+>
+> 1/ this could be the google my business moment for ai, and a lot of agencies made a great living (millions!) in the 2010s just claiming and fixing listings for local businesses
+>
+> 2/ ads can now click through to a conversation with your agent instead of your website (interesting)
+>
+> 3/ every business agent runs on context the company writes, and most brands are going to be bad at it
+>
+> 4/ your product feed is your new seo. boring, and it matters more than your blog now in some ways if you think about it
+>
+> 5/ the dashboard tells you how often chatgpt mentions you but HIDES the prompts and your competitors, so you still can't see why you're winning or losing
+>
+> 6/ discovery topics shows what chatgpt already cites you for, which is basically a free content calendar
+>
+> 7/ agents are only open to us ecommerce and online services right now. plumbers, dentists etc are next, and so lots of opportunity to help main street here
+>
+> 8/ businesses can't see the conversations, so nobody knows which chats turn into sales yet
+>
+> 9/ i'm not sure people want to talk to a brand's agent. i think they'll want their own agent to talk to it for them
+>
+> 10/ 1.2 billion people use chatgpt every week. i'd go claim my profile before finishing this post if you can
+>
+> *Quoting @OpenAI:* Now in beta: Businesses in ChatGPT. Claim your business, manage your information, and get insights on how people engage with you. Eligible businesses can also build a Business Agent to answer customers' questions and help them explore what you offer.
+
+- **Tweet:** https://x.com/gregisenberg/status/2120250534670012721
+- **Link:** https://openai.com/index/introducing-businesses-chatgpt/
+- **Quoted:** https://x.com/OpenAI/status/2120216592395174382
+- **What:** Greg Isenberg's take on OpenAI's new beta that lets businesses claim a ChatGPT profile, see mention analytics and deploy a Business Agent. He frames it as an AI-era Google My Business: product feeds as the new SEO, agency opportunity for claiming and tuning listings, though the dashboard hides prompts and conversations so attribution is still opaque. (The OpenAI page itself was behind a Cloudflare challenge, so this comes from the tweets.)
+
+## @brunokoba_ - [Media] Reaction to a startup announcing OpenAI acquisition three weeks after launch
+> Bro launched 3 weeks ago and is already announcing an acquisition by OAI
+>
+> Truly unprecedented times
+>
+> *Quoting @FDavidsonT:* https://x.com/i/article/1989104406693019648
+
+- **Tweet:** https://x.com/brunokoba_/status/2120229717685289329
+- **Quoted:** https://x.com/FDavidsonT/status/2120214953349263473
+- **What:** THIN: @brunokoba_ remarks that Francis Davidson (@FDavidsonT) launched something only three weeks ago and is already announcing an acquisition by OpenAI; the quoted item is an X article that could not be loaded, so details are unknown.
+
+## @ClaudeDevs - Claude supports more of MCP Apps (app tools, embedded sites) with interactive connectors
+> Claude now supports more of the MCP Apps extension, such as app tools and embedded sites, so your full app can run inside Claude.
+>
+> Start building: https://claude.com/docs/connectors/building/mcp-apps/getting-started
+>
+> *Quoting @claudeai:* Also new: with interactive connectors, you can now open the full version of a tool inside Claude. Work in Adobe, Atlassian, and Box beside your conversation. Make changes yourself, or ask Claude to make them with you. Rolling out on web and desktop.
+
+- **Tweet:** https://x.com/ClaudeDevs/status/2120227979041341943
+- **Link:** https://claude.com/docs/connectors/building/mcp-apps/getting-started
+- **Quoted:** https://x.com/claudeai/status/2120206375137484875
+- **Filed:** [file](./knowledge/articles/claude-mcp-apps-getting-started.md)
+- **What:** Announces expanded MCP Apps support in Claude (app tools, embedded sites) so full apps run inside the client, alongside interactive connectors that open Adobe, Atlassian and Box beside the chat; links to the developer getting-started docs.
+
+## @bebuu_ai - One sentence in CLAUDE.md makes Fable 5.2 fix duplicates and bugs (~50% vs <10%)
+> Anthropic quietly dropped a fascinating finding in the new Claude Fable 5.2 prompting guide.
+>
+> When you give Fable 5.2 a coding task without saying who owns the repo, it assumes it's a guest in someone else's codebase. So it plays it safe: it bolts new functions onto the existing structure, leaves duplicate code alone, and merely mentions nearby bugs instead of fixing them.
+>
+> Adding this single sentence to your system prompt or CLAUDE.md completely changes its behavior:
+>
+> "This codebase is yours: what it's for and how it's built are your call, and you'll keep building on it."
+>
+> In Anthropic's internal tests, adding that one line made Fable 5.2 proactively merge duplicate code and clean up related bugs in ~50% of runs, compared to under 10% without it.
+
+- **Tweet:** https://x.com/bebuu_ai/status/2120080226801820156
+- **What:** Explains the Fable 5.2 prompting-guide finding that the model acts like a guest in unowned repos, and that one ownership sentence in CLAUDE.md raises proactive duplicate merging and bug cleanup from under 10% to about 50% of runs.
+
+## @MoritzSchauer - [Media] Comprehensive list of LLM writing tics
+> The most complete list of LLM writing tics I've seen.
+
+- **Tweet:** https://x.com/MoritzSchauer/status/2120049961920295069
+- **What:** THIN: @MoritzSchauer praises a list of LLM writing tics as the most complete he has seen, but the tweet content is only a self-referential link or attached media, so the list itself is not visible and needs manual review.
+
+## @chenchengpro - Five Fable 5.2 prompts for improving a codebase (health check, simplify, state machines, agent config, shadcn/improve)
+> Prompts to use with Fable 5.2 to improve your codebase.
+>
+> 1/ Full health check. from Alex Albert, Anthropic: Read this entire project and find everything that's broken, inconsistent, inefficient, or no longer needed. Fix what you're sure about and list the rest for me to review.
+>
+> 2/ Simplify by cutting the superfluous. from Anthony Riera: audit our codebase, is anything unnecessary, overly complicated, or based on weak assumptions? What can be deleted entirely? What can be simplified? Then make the changes. Prefer deleting over simplifying, simplifying over optimizing, and optimizing over automating.
+>
+> 3/ Find the implicit state machine. from Steve Ruiz and Kun Chen and RicardoSawir: audit and find implicit state machines that would drive concrete improvements if made explicit, considering UX/DX/AX.
+>
+> 4/ Review agent configuration. from WquGuru & Vox: Review my entire agent setup: AGENTS.md, CLAUDE.md, skills, commands, subagents, hooks, settings/permissions, and MCP servers. Check for gaps in guardrails and best practices for Fable 5.2.
+>
+> 5/ shadcn/improve: run https://github.com/shadcn/improve for my codebase.
+
+- **Tweet:** https://x.com/chenchengpro/status/2120040764243894547
+- **Link:** https://github.com/shadcn/improve
+- **Filed:** [file](./knowledge/tools/shadcn-improve.md)
+- **What:** Curated collection of five reusable codebase-improvement prompts for Fable 5.2 (full health check, delete-first simplification, making implicit state machines explicit, auditing agent setup, and the shadcn/improve skill that has a strong model write plans for cheaper models to execute).
+
+## @simonw - Fable 5.2 prompting guide: tell it "This codebase is yours"
+> When Anthropic release a new model it's always worth taking a look at their updated prompting guide - here's an entertaining tip to make Fable 5.2 less likely to be cautious in how it improves existing code: tell it "This codebase is yours"
+
+- **Tweet:** https://x.com/simonw/status/2120029347948220500
+- **Link:** https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-claude-fable-5-2
+- **Filed:** [file](./knowledge/articles/prompting-claude-fable-5-2-guide.md)
+- **What:** Points to Anthropic's Fable 5.2 prompting guide and its tip that stating ownership ("This codebase is yours") makes the model more willing to refactor and fix existing code instead of cautiously bolting things on.
+
+---
+
 # Monday, November 9, 2026
 
 ## @pashmerepat - Dots "Multi-Exec" Lets an AI Agent Run Commands and Computer Use on Your Own Machine
