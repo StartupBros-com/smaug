@@ -616,6 +616,13 @@ export function findWhisper(options = {}) {
   }
 }
 
+/** Append nonempty text unless it repeats the last accepted transcript line. */
+function appendTranscriptLine(lines, text) {
+  if (text && text !== lines[lines.length - 1]) {
+    lines.push(text);
+  }
+}
+
 /**
  * Parse YouTube json3 subtitle format into plain text.
  * json3 contains events with segs[].utf8 text segments.
@@ -625,15 +632,11 @@ export function parseJson3Transcript(content) {
     const data = JSON.parse(content);
     const events = data.events || [];
     const lines = [];
-    let lastLine = '';
 
     for (const event of events) {
       if (!event.segs) continue;
       const text = event.segs.map(s => s.utf8 || '').join('').trim();
-      if (text && text !== lastLine) {
-        lines.push(text);
-        lastLine = text;
-      }
+      appendTranscriptLine(lines, text);
     }
 
     return lines.join('\n');
@@ -651,7 +654,6 @@ export function parseVttTranscript(content) {
 
   const lines = content.split('\n');
   const textLines = [];
-  let lastLine = '';
 
   for (const raw of lines) {
     const line = raw.trim();
@@ -682,10 +684,7 @@ export function parseVttTranscript(content) {
       .replace(/&apos;/g, "'")
       .replace(/&nbsp;/g, ' ');
 
-    if (cleaned && cleaned !== lastLine) {
-      textLines.push(cleaned);
-      lastLine = cleaned;
-    }
+    appendTranscriptLine(textLines, cleaned);
   }
 
   return textLines.join('\n');
