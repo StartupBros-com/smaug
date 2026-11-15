@@ -1,4 +1,112 @@
+# Saturday, November 14, 2026
+
+## @lucidpaths33 - Free Orchestrator-Manager-Worker Workflow Repo with Review at Every Layer
+> by the way this is what AI courses and webinars charge you big money for - its free, its detailed and i want you to use it for yourself
+>
+> https://t.co/jQuHTMRRgh
+>
+> i also have a github with some useful skills i semi-regularly update
+>
+> this is all basics but its basics people either bring from their existing expertise or learn the hardway
+>
+> one thing tho, this eats tokens fast, so you want to see how you can apply this for the level of complexity you are working with
+>
+> *Quoting @lucidpaths33:* how do i check what 10-15 agents did before it reaches a client? spec driven development (SDD) + orchestrator-workers, with my own manager layer on top... (PRD per feature, one agent per PRD, managers report one-liners upward, worker/manager/milestone/final reviews, git worktrees as receipts)
+
+- **Tweet:** https://x.com/lucidpaths33/status/2121782324295581995
+- **Quoted:** https://x.com/lucidpaths33/status/2112620369995567588
+- **Link:** https://github.com/LucidPaths/claude.md-workflow
+- **Filed:** [lucidpaths-claude-md-workflow.md](./knowledge/tools/lucidpaths-claude-md-workflow.md)
+- **What:** Author re-shares his earlier thread on verifying multi-agent output (spec-first PRDs, orchestrator and per-milestone managers, evaluator-optimizer and fresh-context reviews, worktree receipts) and links the claude.md-workflow repo of Claude Code skills like adversarial-review and shippable. He warns it consumes tokens quickly, so scale it to task complexity.
+
+## @danshipper - Every Frontier: Public Feed of Every's AI Experiments with Raw Code
+> if you want all of the raw alpha from @every you should have your agent read our frontier feed
+>
+> we publish all of our frontier team's experiments with AI including raw code and short writeups
+>
+> no faster way to get inspired 👇
+> https://t.co/S9TTJQsfnB
+
+- **Tweet:** https://x.com/danshipper/status/2121620539655819305
+- **Link:** https://frontier.every.to/
+- **Filed:** [every-frontier-experiments-feed.md](./knowledge/articles/every-frontier-experiments-feed.md)
+- **What:** Dan Shipper recommends Every's Frontier feed, a numbered stream of the team's AI experiments with code and short writeups, such as map-driven autoresearch, Every Reader and a phone-screen-recording handoff to an agent. Many entries are member-locked, but titles and summaries work well as an idea source for your own agent.
+
+## @asmartbear - LinkedIn GTM Playbook for Developers Avoiding Outreach (via @paolo_scales)
+> You'd rather write code than do the marketing outreach you're supposes go be doing.
+>
+> Use this playbook. You get to use AI a lot so you'll like it, maybe.
+>
+> C'mon, go get those customers.
+>
+> *Quoting @paolo_scales:* For the first time ever, I'm sharing everything we do across our B2B clients to generate millions of LinkedIn impressions and turn them into qualified meetings and revenue... (13+ step system: market research with Apify/GrokBot, 30+ posts/month across distribution, authority, lead-magnet and conversion types, 8 lead magnets/month, LeadShark comment-to-DM automation, Traxy lead qualification, Slack/Telegram alerts, warm outbound, profile optimization, email nurture, weekly revenue-linked metrics)
+
+- **Tweet:** https://x.com/asmartbear/status/2121619963182190766
+- **Quoted:** https://x.com/paolo_scales/status/2121207019063410976
+- **What:** @asmartbear nudges developers who avoid outreach toward paolo_scales' thread on a LinkedIn go-to-market system built on competitor research, internal-knowledge content, automated lead-magnet delivery, ICP-based lead qualification and warm follow-up. The quoted thread claims 50M+ views and $8M+ tracked client revenue, so the numbers are self-reported.
+
+## @TiagerBao - Database Architect Claude Code Agent for Schema Design Up Front
+> AI 写代码最容易埋的坑之一，就是数据库表设计错了，等上线后才发现改不动。发现一个 Claude Code 专用 Agent：Database Architect。它不只是帮你生成 SQL，而是提前参与数据库架构设计。(Data modeling, tech selection, multi-tenancy, performance planning, migrations. Install: `npx claude-code-templates@latest --agent database/database-architect`. Generated DDL and migrations still need human review.)
+
+- **Tweet:** https://x.com/TiagerBao/status/2121481428500418958
+- **Link:** https://www.aitmpl.com/component/agents/database/database-architect
+- **Filed:** [aitmpl-database-architect-agent.md](./knowledge/articles/aitmpl-database-architect-agent.md)
+- **What:** Points to the Database Architect subagent from the Claude Code Templates catalog, which analyzes business access patterns before designing tables, keys, indexes, multi-tenant isolation and migration scripts with rollbacks. The author's caution is to review generated DDL manually, especially for production data changes.
+
+---
+
 # Friday, November 13, 2026
+
+## @doodi_dev - shadcn/improve: Expensive-Model Audit Skill That Writes Plans for Cheaper Models
+> ⭐ improve ⭐ https://t.co/PYtIFVtBLy (Korean and English thread: shadcn released an agent skill that audits a whole codebase and writes work plans for cheaper models to execute; /improve scans and tabulates problems, /improve execute has a cheaper model build in a separate worktree while the expensive model reviews; MIT, ~10.5k stars; install with `npx skills add shadcn/improve`)
+
+- **Tweet:** https://x.com/doodi_dev/status/2121456841767235997
+- **Link:** https://github.com/shadcn/improve
+- **Filed:** [shadcn-improve.md](./knowledge/tools/shadcn-improve.md)
+- **What:** Bilingual summary of shadcn's `improve` agent skill, which splits work so the priciest model only understands the repo, vets findings with file:line evidence across nine audit areas and writes plans, while a cheaper model implements in an isolated worktree. Useful as a token-cost-saving pattern; the repo is already filed from an earlier bookmark.
+
+## @TiagerBao - Fable 5.2 Advisor setting: cheap main model, strong model consulted at key decisions
+> Claude Code 不用全程跑最贵的模型，也能在关键时刻调用 Fable 5.2。发现一个配置：Fable 5.2 Advisor。思路很简单：主模型继续执行任务，遇到关键决策再请 Fable 5.2 提建议。用在三个场景：开始编码前检查技术方案；连续报错时分析问题并调整方向；任务完成前检查是否遗漏关键问题。安装：npx claude-code-templates@latest --setting model/fable-5-2-advisor。Fable 只在被调用时单独计费。（作者提醒：多一次调用有额外成本，是否省钱取决于返工率和总 Token 消耗。）
+
+- **Tweet:** https://x.com/TiagerBao/status/2121440332516913216
+- **Link:** https://www.aitmpl.com/component/settings/model/fable-5-2-advisor
+- **Filed:** [fable-5-2-advisor-claude-code-setting.md](./knowledge/articles/fable-5-2-advisor-claude-code-setting.md)
+- **What:** Chinese-language post on a Claude Code Templates setting that makes Fable 5.2 an on-demand advisor (pre-coding plan check, repeated-error diagnosis, pre-completion review) while a cheaper model executes, with the caveat that savings depend on rework and token use.
+
+## @ndrewpignanelli - Pointer-velocity prediction of clicks, tested for link prefetching
+> thought: "oh you could use this for prefetch" and tested it... holy shit
+>
+> *Quoting @JohnPhamous:* using pointer velocities to predict which button the user is going to click on
+
+- **Tweet:** https://x.com/ndrewpignanelli/status/2121367321298276658
+- **Quoted:** https://x.com/JohnPhamous/status/2121305863449366854
+- **What:** John Pham demos using mouse pointer velocity to predict which button a user will click; Andrew Pignanelli applied the idea to prefetching, reporting striking results (no numbers given, media-only demos not visible here).
+
+## @FBICyberBranch - FBI FLASH on ARTEX, an LLM-driven agentic framework used in intrusions
+> Threat actors are weaponizing ARTEX, an open-source, large language model (LLM)-driven agentic platform to automate multiple phases of cyber intrusions at machine speed. Since at least August 2026, a variety of malicious cyber actors have used ARTEX to conduct campaigns targeting organizations globally across multiple sectors, including financial services, government, and technology.
+>
+> ARTEX significantly reduces the time required to chain attack techniques and enables threat actors with minimal technical expertise to conduct complex, multi-target operations simultaneously.
+>
+> Today, the FBI released a FLASH highlighting the tactics, techniques, and procedures and indicators of compromise associated with the ARTEX framework. Organizations should follow the mitigation steps outlined in the FLASH to improve their security posture in response to ARTEX and similar agentic SI frameworks.
+
+- **Tweet:** https://x.com/FBICyberBranch/status/2121317398305186287
+- **Link:** https://www.ic3.gov/CSA/2026/261113.pdf
+- **Filed:** [fbi-flash-artex-agentic-intrusion-framework.md](./knowledge/articles/fbi-flash-artex-agentic-intrusion-framework.md)
+- **What:** FBI advisory warning that the open-source agentic platform ARTEX has been used since at least August 2026 to automate intrusion phases across finance, government and tech; the FLASH lists TTPs, IOCs and mitigations for defenders (PDF text not extracted, summary from the tweet).
+
+## @TekonBurns - Claude Code experimental Code Mode: parallel tool calls via JavaScript
+> 🚨Claude code users!!
+>
+> Your 5-hour and weekly limits will stretch much further.
+>
+> Anthropic published a new official documentation page for experimental Code Mode in Claude Code v2.1.323+.
+>
+> Instead of sequential tool calls, Claude writes JavaScript to run parallel tool calls in one step.
+
+- **Tweet:** https://x.com/TekonBurns/status/2121311300928364717
+- **Link:** https://code.claude.com/docs/en/code-mode.md
+- **Filed:** [claude-code-code-mode-experimental.md](./knowledge/articles/claude-code-code-mode-experimental.md)
+- **What:** Points to Anthropic's docs for Code Mode, an off-by-default experimental Claude Code feature (env var CLAUDE_CODE_EXPERIMENTAL_CODE_MODE=1, v2.1.323+) where Claude writes JavaScript batching many tool calls per step; the docs list real limits, and the limit-savings claim is the author's inference.
 
 ## @TekonBurns - Anthropic's guide to building always-on agents (5 core pieces)
 > Anthropic just published an engineering guide on how to build always-on agents.
@@ -25,6 +133,14 @@
 ---
 
 # Thursday, November 12, 2026
+
+## @claudeai - Claude Meetings: Claude joins team video calls and builds artifacts live
+> Introducing Claude Meetings: add Claude to your team’s video call and it builds docs, whiteboards, and other artifacts with you while you’re still talking.
+>
+> Starting to roll out in beta on Team and Enterprise plans.
+
+- **Tweet:** https://x.com/claudeai/status/2120973994191094179
+- **What:** Anthropic announces Claude Meetings, a beta feature (rolling out on Team and Enterprise plans) where Claude joins a team's video call and produces docs, whiteboards and other artifacts in real time while participants talk.
 
 ## @don_tech1 - GoogleChrome/modern-web-guidance: skills teaching agents modern web APIs
 > 牛逼！谷歌官方刚发的东西，48小时直接干上GitHub热门第一。
