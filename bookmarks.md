@@ -1,3 +1,24 @@
+# Sunday, November 15, 2026
+
+## @Ravarora1 - THIN: Aella Substack Graph on Men's Psychosexual Development
+> Fascinating graph from @Aella_Girl’s Substack. Posted by my friend Coral Osborne (upcoming podcast on men’s psychosexual development): https://t.co/n1iEm6cTO1
+
+- **Tweet:** https://x.com/Ravarora1/status/2121835481226969123
+- **What:** THIN: @Ravarora1 shares a graph from @Aella_Girl's Substack, reposted by Coral Osborne, who has an upcoming podcast on men's psychosexual development. The graph is not visible in the data, and the link only points back to the tweet itself.
+
+## @Fred834567 - 48-Hour AI Study Method: Source Library, Consensus, Controversies, Self-Test
+> 外网最近很火的一个学习方法：MIT 学霸用 AI，在48小时内快速吃透一门陌生学科。
+>
+> 第一步不是直接问 ChatGPT“给我总结一下”，而是先建立一个足够可靠的 AI 知识库。他上传了6本该领域的经典教科书、15篇研究论文，以及这门学科的全部课堂讲义。……资料准备好以后，他只问 AI 三个问题：核心共识、三个根本性争议、10道测试题。
+>
+> https://t.co/RNNaXsEIkk
+
+- **Tweet:** https://x.com/Fred834567/status/2121830806133850267
+- **Link:** https://ocw.mit.edu/
+- **What:** Chinese-language thread describing an MIT student's method for learning an unfamiliar field in 48 hours: load 6 textbooks, 15 papers and all lecture notes into an AI, then ask for the field's core consensus, its three fundamental controversies, and 10 unanswered test questions. You answer with the sources closed, then have the AI grade you and point out gaps. The linked MIT OpenCourseWare homepage is only a source for course materials.
+
+---
+
 # Saturday, November 14, 2026
 
 ## @lucidpaths33 - Free Orchestrator-Manager-Worker Workflow Repo with Review at Every Layer
