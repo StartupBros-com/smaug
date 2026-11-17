@@ -9,6 +9,7 @@ import {
   stripQuerystring,
   fetchXArticleContent,
   isLikelyMdFilename,
+  classifyLink,
   findYtDlp,
   findWhisper,
   parseJson3Transcript,
@@ -44,19 +45,12 @@ describe('X article URL detection', () => {
     assert.strictEqual(match[1], '2015364734262935552');
   });
 
-  test('X article URL is not matched by generic tweet check', () => {
-    const url = 'https://x.com/i/article/2015364734262935552';
-    // The /i/article/ check should come BEFORE the generic x.com check
-    const isXArticle = url.includes('/i/article/');
-    const isTweet = url.includes('x.com') && !isXArticle;
-    assert.ok(isXArticle, 'should be detected as X article');
-    assert.ok(!isTweet, 'should not be detected as generic tweet');
+  test('X article URL is classified as an article, not a generic tweet', () => {
+    assert.strictEqual(classifyLink('https://x.com/i/article/2015364734262935552'), 'x-article');
   });
 
-  test('regular tweet URLs are not detected as X articles', () => {
-    const url = 'https://x.com/user/status/123456789';
-    const isXArticle = url.includes('/i/article/');
-    assert.ok(!isXArticle, 'regular tweets should not match X article pattern');
+  test('regular tweet URLs are not classified as X articles', () => {
+    assert.strictEqual(classifyLink('https://x.com/user/status/123456789'), 'tweet');
   });
 });
 
@@ -751,30 +745,46 @@ describe('fetchTranscriptContent', () => {
   });
 });
 
-describe('podcast URL classification', () => {
-  test('Apple Podcasts URL is detected as podcast type', () => {
-    const url = 'https://podcasts.apple.com/us/podcast/episode-name/id123456';
-    assert.ok(url.includes('podcasts.apple.com'));
-  });
+describe('classifyLink', () => {
+  for (const [url, type] of [
+    ['https://podcasts.apple.com/us/podcast/episode-name/id123456', 'podcast'],
+    ['https://open.spotify.com/episode/abc123', 'podcast'],
+    ['https://overcast.fm/+abc123', 'podcast'],
+    ['https://pocketcasts.com/podcast/abc', 'podcast'],
+    ['https://castro.fm/episode/abc', 'podcast'],
+    ['https://open.spotify.com/track/abc123', 'article'],
+    ['https://www.youtube.com/watch?v=abc123', 'video'],
+    ['https://m.youtube.com/watch?v=abc123', 'video'],
+    ['https://youtu.be/abc123', 'video'],
+    ['https://github.com/owner/repo', 'github'],
+    ['https://gist.github.com/owner/abc', 'github'],
+    ['https://mobile.twitter.com/user/status/1', 'tweet'],
+    ['https://x.com/user/status/1/photo/1', 'media'],
+    ['https://x.com/user/status/1/video/1', 'media'],
+    ['https://example.com/picture.png', 'image'],
+    ['https://example.com/post', 'article'],
+    ['not a url', 'article']
+  ]) {
+    test(`${url} is ${type}`, () => {
+      assert.strictEqual(classifyLink(url), type);
+    });
+  }
 
-  test('Spotify episode URL is detected as podcast type', () => {
-    const url = 'https://open.spotify.com/episode/abc123';
-    assert.ok(url.includes('spotify.com/episode'));
-  });
-
-  test('Overcast URL is detected as podcast type', () => {
-    const url = 'https://overcast.fm/+abc123';
-    assert.ok(url.includes('overcast.fm'));
-  });
-
-  test('YouTube URL is NOT classified as podcast', () => {
-    const url = 'https://www.youtube.com/watch?v=abc123';
-    assert.ok(!url.includes('podcasts.apple.com'));
-    assert.ok(!url.includes('spotify.com/episode'));
-    assert.ok(!url.includes('overcast.fm'));
-    assert.ok(!url.includes('pocketcasts.com'));
-    assert.ok(!url.includes('castro.fm'));
-  });
+  // Each of these contains a known domain as a substring of the whole URL
+  // without being on that host. All but the last two are links already in
+  // smaug's bookmarks that the substring checks misfiled.
+  for (const [url, why] of [
+    ['https://www.dropbox.com/scl/fo/abc/def?rlkey=xyz&dl=0', '"dropbox.com" contains "x.com"'],
+    ['https://fanoutfox.com/post', '"fanoutfox.com" contains "x.com"'],
+    ['https://static.ads-twitter.com/uwt.js', '"ads-twitter.com" contains "twitter.com"'],
+    ['https://www.longcut.ai/v/talk?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3Dabc', 'YouTube is only in the query string'],
+    ['https://example.com/?ref=github.com', 'GitHub is only in the query string'],
+    ['https://notgithub.com/owner/repo', '"notgithub.com" contains "github.com"']
+  ]) {
+    test(`${url} is an article: ${why}`, () => {
+      assert.strictEqual(classifyLink(url), 'article');
+    });
+  }
 });
 
 // Integration tests - only run when bird CLI has valid credentials

@@ -32,7 +32,7 @@ function searchForArticleTweet(articleId, config) {
     const birdCmd = config.birdPath || 'bird';
     // articleId is validated as digits-only by caller's regex
     const searchQuery = `url:x.com/i/article/${articleId}`;
-    const output = execSync(`${birdCmd} search "${searchQuery}" -n 5 --json`, {
+    const output = execFileSync(birdCmd, ['search', searchQuery, '-n', '5', '--json'], {
       encoding: 'utf8',
       timeout: 30000,
       env
@@ -121,7 +121,7 @@ export async function fetchXArticleContent(articleUrl, config, sourceTweetId = n
   // Try the bookmarked tweet first - fastest path when it contains the article directly
   if (sourceTweetId) {
     try {
-      const output = execSync(`${birdCmd} read ${sourceTweetId} --json`, {
+      const output = execFileSync(birdCmd, ['read', String(sourceTweetId), '--json'], {
         encoding: 'utf8',
         timeout: 30000,
         env
@@ -152,7 +152,7 @@ export async function fetchXArticleContent(articleUrl, config, sourceTweetId = n
     // Search result truncated - need full tweet data
     try {
       console.log(`  Found original article tweet: ${originalTweet.id}, fetching full content...`);
-      const output = execSync(`${birdCmd} read ${originalTweet.id} --json`, {
+      const output = execFileSync(birdCmd, ['read', String(originalTweet.id), '--json'], {
         encoding: 'utf8',
         timeout: 30000,
         env
@@ -205,6 +205,49 @@ export async function fetchXArticleContent(articleUrl, config, sourceTweetId = n
       note: 'X article - content extraction failed'
     };
   }
+}
+
+// Hosts are matched on the parsed hostname (the domain itself or a subdomain
+// of it), never as a substring of the whole URL: "dropbox.com" contains
+// "x.com", and a query string can contain any domain.
+const X_HOSTS = ['x.com', 'twitter.com'];
+const PODCAST_HOSTS = ['podcasts.apple.com', 'overcast.fm', 'pocketcasts.com', 'castro.fm'];
+
+function onHost(hostname, domains) {
+  return domains.some(domain => hostname === domain || hostname.endsWith(`.${domain}`));
+}
+
+/**
+ * Classifies an expanded link by where it points.
+ *
+ * @param {string} expandedUrl - Fully expanded URL (after t.co redirect)
+ * @returns {string} filename-reference, github, video, x-article, media,
+ *   tweet, image, podcast or article
+ */
+export function classifyLink(expandedUrl) {
+  if (isLikelyMdFilename(expandedUrl)) return 'filename-reference';
+
+  let url = null;
+  try {
+    url = new URL(expandedUrl);
+  } catch {}
+  const hostname = url ? url.hostname : '';
+  const pathname = url ? url.pathname : '';
+
+  if (onHost(hostname, ['github.com'])) return 'github';
+  if (onHost(hostname, ['youtube.com', 'youtu.be'])) return 'video';
+  if (onHost(hostname, X_HOSTS)) {
+    // Check before the generic tweet type - article URLs are on x.com too
+    if (pathname.includes('/i/article/')) return 'x-article';
+    if (pathname.includes('/photo/') || pathname.includes('/video/')) return 'media';
+    return 'tweet';
+  }
+  if (expandedUrl.match(/\.(jpg|jpeg|png|gif|webp)$/i)) return 'image';
+  if (onHost(hostname, PODCAST_HOSTS) ||
+      (onHost(hostname, ['spotify.com']) && pathname.startsWith('/episode'))) {
+    return 'podcast';
+  }
+  return 'article';
 }
 
 /**
@@ -287,8 +330,16 @@ function buildBirdEnv(config) {
 
 // Capture through a temp file to work around bird CLI pipe buffering.
 // Preserve read -> unlink -> parse ordering, including failure behavior.
-function captureBirdJson(command, tmpFile, timeout, env) {
-  execSync(`${command} > "${tmpFile}"`, { timeout, env, shell: true });
+// bird runs without a shell: its arguments are passed as an array and its
+// stdout goes straight to the temp file's descriptor. stderr stays piped so a
+// failure's message still carries what bird printed.
+function captureBirdJson(birdCmd, args, tmpFile, timeout, env) {
+  const fd = fs.openSync(tmpFile, 'w');
+  try {
+    execFileSync(birdCmd, args, { timeout, env, stdio: ['pipe', fd, 'pipe'] });
+  } finally {
+    fs.closeSync(fd);
+  }
   const output = fs.readFileSync(tmpFile, 'utf8');
   fs.unlinkSync(tmpFile);
   return JSON.parse(output);
@@ -303,27 +354,24 @@ export function fetchBookmarks(config, count = 10, options = {}) {
     const useAll = options.all || count > 50;
     const folderId = options.folderId;
 
-    let cmd;
+    const args = ['bookmarks'];
+    if (folderId) args.push('--folder-id', String(folderId));
     if (useAll) {
       // Paginated fetch - use longer timeout
       // Calculate maxPages from count (bird returns ~20 per page, use 25 as buffer)
       const estimatedPagesNeeded = Math.ceil(count / 20);
       const maxPages = options.maxPages || Math.max(estimatedPagesNeeded, 10);
-      cmd = folderId
-        ? `${birdCmd} bookmarks --folder-id ${folderId} --all --max-pages ${maxPages} --json`
-        : `${birdCmd} bookmarks --all --max-pages ${maxPages} --json`;
+      args.push('--all', '--max-pages', String(maxPages));
     } else {
-      cmd = folderId
-        ? `${birdCmd} bookmarks --folder-id ${folderId} -n ${count} --json`
-        : `${birdCmd} bookmarks -n ${count} --json`;
+      args.push('-n', String(count));
     }
 
-    console.log(`  Running: ${cmd.replace(/--json/, '').trim()}`);
+    console.log(`  Running: ${[birdCmd, ...args].join(' ')}`);
 
     // Use temp file to work around bird CLI pipe buffering bug
     const tmpFile = path.join(os.tmpdir(), `smaug-bookmarks-${Date.now()}.json`);
     // 3 min for --all, 60s otherwise
-    const parsed = captureBirdJson(cmd, tmpFile, useAll ? 180000 : 60000, env);
+    const parsed = captureBirdJson(birdCmd, [...args, '--json'], tmpFile, useAll ? 180000 : 60000, env);
     // bird CLI v0.6.0+ returns { tweets: [...], nextCursor: ... } for paginated requests
     // but plain arrays for non-paginated. Handle both formats.
     let bookmarks = Array.isArray(parsed) ? parsed : (parsed.tweets || []);
@@ -347,7 +395,7 @@ export function fetchLikes(config, count = 10) {
     const birdCmd = config.birdPath || 'bird';
     // Use temp file to work around bird CLI pipe buffering bug
     const tmpFile = path.join(os.tmpdir(), `smaug-likes-${Date.now()}.json`);
-    const parsed = captureBirdJson(`${birdCmd} likes -n ${count} --json`, tmpFile, 60000, env);
+    const parsed = captureBirdJson(birdCmd, ['likes', '-n', String(count), '--json'], tmpFile, 60000, env);
     // Handle both array and object formats for consistency
     return Array.isArray(parsed) ? parsed : (parsed.tweets || []);
   } catch (error) {
@@ -428,7 +476,7 @@ export function fetchTweet(config, tweetId) {
   try {
     const env = buildBirdEnv(config);
     const birdCmd = config.birdPath || 'bird';
-    const output = execSync(`${birdCmd} read ${tweetId} --json`, {
+    const output = execFileSync(birdCmd, ['read', String(tweetId), '--json'], {
       encoding: 'utf8',
       timeout: 15000,
       env
@@ -652,10 +700,13 @@ export function parseVttTranscript(content) {
     if (/^\d+$/.test(line)) continue;
 
     // Strip VTT formatting tags: <c>, </c>, <00:00:01.234>, <c.colorCCCCCC>, etc.
+    // A tag body stops at the next "<" as well as ">": with [^>]* each unclosed
+    // "<c" rescanned to the end of the line, so one 400,000-character line took
+    // 40 s. VTT tags never contain "<".
     let cleaned = line
-      .replace(/<\/?c[^>]*>/g, '')           // color/class tags
+      .replace(/<\/?c[^<>]*>/g, '')          // color/class tags
       .replace(/<\d{2}:\d{2}[\d:.]*>/g, '')  // inline timestamps
-      .replace(/<\/?[a-z][^>]*>/g, '')        // other HTML-like tags
+      .replace(/<\/?[a-z][^<>]*>/g, '')       // other HTML-like tags
       .trim();
 
     // Decode common HTML entities
@@ -952,20 +1003,13 @@ export async function fetchAndPrepareBookmarks(options = {}) {
       for (const { original: link, expanded } of expandedResults) {
         console.log(`  Expanded: ${link} -> ${expanded}`);
 
-        // Setting type based on URL patterns - this can be expanded with more patterns as needed
-        let type = 'unknown';
+        // Type comes from the link's host and path; see classifyLink
+        const type = classifyLink(expanded);
         let content = null;
 
-        if (isLikelyMdFilename(expanded)) {
-          type = 'filename-reference';
+        if (type === 'filename-reference') {
           console.log(`  Skipping .md filename auto-link: ${expanded}`);
-        } else if (expanded.includes('github.com')) {
-          type = 'github';
-        } else if (expanded.includes('youtube.com') || expanded.includes('youtu.be')) {
-          type = 'video';
-        } else if (expanded.includes('/i/article/')) {
-          // Check before generic x.com - article URLs contain x.com too
-          type = 'x-article';
+        } else if (type === 'x-article') {
           console.log(`  X article detected: ${expanded}`);
           try {
             content = await fetchXArticleContent(expanded, config, bookmark.id);
@@ -985,41 +1029,24 @@ export async function fetchAndPrepareBookmarks(options = {}) {
               error: error.message
             };
           }
-        } else if (expanded.includes('x.com') || expanded.includes('twitter.com')) {
-          if (expanded.includes('/photo/') || expanded.includes('/video/')) {
-            type = 'media';
-          } else {
-            type = 'tweet';
-            // Quote tweet - fetch the quoted tweet for context
-            const tweetIdMatch = expanded.match(/status\/(\d+)/);
-            if (tweetIdMatch) {
-              const quotedTweetId = tweetIdMatch[1];
-              console.log(`  Quote tweet detected, fetching ${quotedTweetId}...`);
-              const quotedTweet = fetchTweet(config, quotedTweetId);
-              if (quotedTweet) {
-                content = {
-                  id: quotedTweet.id,
-                  author: quotedTweet.author?.username || 'unknown',
-                  authorName: quotedTweet.author?.name || quotedTweet.author?.username || 'unknown',
-                  text: quotedTweet.text || quotedTweet.full_text || '',
-                  tweetUrl: `https://x.com/${quotedTweet.author?.username || 'unknown'}/status/${quotedTweet.id}`,
-                  source: 'quote-tweet'
-                };
-              }
+        } else if (type === 'tweet') {
+          // Quote tweet - fetch the quoted tweet for context
+          const tweetIdMatch = expanded.match(/status\/(\d+)/);
+          if (tweetIdMatch) {
+            const quotedTweetId = tweetIdMatch[1];
+            console.log(`  Quote tweet detected, fetching ${quotedTweetId}...`);
+            const quotedTweet = fetchTweet(config, quotedTweetId);
+            if (quotedTweet) {
+              content = {
+                id: quotedTweet.id,
+                author: quotedTweet.author?.username || 'unknown',
+                authorName: quotedTweet.author?.name || quotedTweet.author?.username || 'unknown',
+                text: quotedTweet.text || quotedTweet.full_text || '',
+                tweetUrl: `https://x.com/${quotedTweet.author?.username || 'unknown'}/status/${quotedTweet.id}`,
+                source: 'quote-tweet'
+              };
             }
           }
-        } else if (expanded.match(/\.(jpg|jpeg|png|gif|webp)$/i)) {
-          type = 'image';
-        } else if (
-          expanded.includes('podcasts.apple.com') ||
-          expanded.includes('spotify.com/episode') ||
-          expanded.includes('overcast.fm') ||
-          expanded.includes('pocketcasts.com') ||
-          expanded.includes('castro.fm')
-        ) {
-          type = 'podcast';
-        } else {
-          type = 'article';
         }
 
         // Fetch content for articles and GitHub repos

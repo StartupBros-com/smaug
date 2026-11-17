@@ -15,9 +15,17 @@ beforeEach(() => {
   mock.method(Date, 'now', () => 12345);
   mock.method(os, 'tmpdir', () => '/mock temp');
   mock.method(console, 'log', () => {});
-  mock.method(cp, 'execSync', (...args) => {
+  mock.method(fs, 'openSync', (...args) => {
+    events.push(['open', ...args]);
+    if (failure === 'open') throw new Error('open failed');
+    return 42;
+  });
+  mock.method(cp, 'execFileSync', (...args) => {
     events.push(['exec', ...args]);
     if (failure === 'exec') throw new Error('exec failed');
+  });
+  mock.method(fs, 'closeSync', (...args) => {
+    events.push(['close', ...args]);
   });
   mock.method(fs, 'readFileSync', (...args) => {
     events.push(['read', ...args]);
@@ -32,26 +40,33 @@ beforeEach(() => {
 });
 afterEach(() => { mock.restoreAll(); syncBuiltinESMExports(); });
 
+// open -> exec -> close (always, once opened) -> read -> unlink
+const ORDER = ['open', 'exec', 'close', 'read', 'unlink'];
+const kinds = () => events.map(e => e[0]);
+
 for (const [kind, fetchItems] of [['bookmarks', fetchBookmarks], ['likes', fetchLikes]]) {
-  test(`${kind}: preserves command, timeout, environment, encoding, and I/O order`, () => {
+  test(`${kind}: runs bird without a shell, stdout to the temp file, in I/O order`, () => {
     const inherited = { ...process.env };
     const config = { birdPath: '/custom/bird', twitter: { authToken: 'synthetic-auth', ct0: 'synthetic-ct0' } };
     assert.deepEqual(fetchItems(config), [{ id: 'one' }, { id: 'two' }]);
     const tmpFile = path.join('/mock temp', `smaug-${kind}-12345.json`);
     assert.deepEqual(events, [
-      ['exec', `/custom/bird ${kind} -n 10 --json > "${tmpFile}"`, {
-        timeout: 60000, env: { ...inherited, AUTH_TOKEN: 'synthetic-auth', CT0: 'synthetic-ct0' }, shell: true
+      ['open', tmpFile, 'w'],
+      ['exec', '/custom/bird', [kind, '-n', '10', '--json'], {
+        timeout: 60000, env: { ...inherited, AUTH_TOKEN: 'synthetic-auth', CT0: 'synthetic-ct0' }, stdio: ['pipe', 42, 'pipe']
       }],
+      ['close', 42],
       ['read', tmpFile, 'utf8'], ['unlink', tmpFile]
     ]);
-    assert.notStrictEqual(events[0][2].env, process.env);
+    assert.notStrictEqual(events[1][3].env, process.env);
     assert.deepEqual({ ...process.env }, inherited);
   });
 
   test(`${kind}: defaults bird path and preserves inherited environment with falsey overrides`, () => {
     fetchItems({ birdPath: '', twitter: { authToken: '', ct0: null } }, 3);
-    assert.ok(events[0][1].startsWith(`bird ${kind} -n 3 --json`));
-    assert.deepEqual(events[0][2].env, { ...process.env });
+    assert.equal(events[1][1], 'bird');
+    assert.deepEqual(events[1][2], [kind, '-n', '3', '--json']);
+    assert.deepEqual(events[1][3].env, { ...process.env });
   });
 
   test(`${kind}: accepts arrays, wrapped tweets, missing tweets, and falsey tweets`, () => {
@@ -61,11 +76,16 @@ for (const [kind, fetchItems] of [['bookmarks', fetchBookmarks], ['likes', fetch
     }
   });
 
-  for (const stage of ['exec', 'read', 'unlink']) {
+  for (const [stage, expected] of [
+    ['open', ['open']],
+    ['exec', ['open', 'exec', 'close']],
+    ['read', ['open', 'exec', 'close', 'read']],
+    ['unlink', ORDER]
+  ]) {
     test(`${kind}: preserves ${stage} failure and stops subsequent I/O`, () => {
       failure = stage;
       assert.throws(() => fetchItems({}), { message: `Failed to fetch ${kind}: ${stage} failed` });
-      assert.deepEqual(events.map(e => e[0]), ['exec', 'read', 'unlink'].slice(0, ['exec', 'read', 'unlink'].indexOf(stage) + 1));
+      assert.deepEqual(kinds(), expected);
     });
   }
 
@@ -74,7 +94,7 @@ for (const [kind, fetchItems] of [['bookmarks', fetchBookmarks], ['likes', fetch
     let parseMessage;
     try { JSON.parse(output); } catch (error) { parseMessage = error.message; }
     assert.throws(() => fetchItems({}), { message: `Failed to fetch ${kind}: ${parseMessage}` });
-    assert.deepEqual(events.map(e => e[0]), ['exec', 'read', 'unlink']);
+    assert.deepEqual(kinds(), ORDER);
   });
 
   test(`${kind}: unlink failure takes precedence over malformed JSON`, () => {
@@ -86,22 +106,23 @@ for (const [kind, fetchItems] of [['bookmarks', fetchBookmarks], ['likes', fetch
   test(`${kind}: null response still fails after cleanup`, () => {
     output = 'null';
     assert.throws(() => fetchItems({}), new RegExp(`^Error: Failed to fetch ${kind}:`));
-    assert.deepEqual(events.map(e => e[0]), ['exec', 'read', 'unlink']);
+    assert.deepEqual(kinds(), ORDER);
   });
 }
 
-for (const [count, options, expectedCommand, timeout] of [
-  [50, {}, 'bookmarks -n 50', 60000],
-  [51, {}, 'bookmarks --all --max-pages 10', 180000],
-  [250, {}, 'bookmarks --all --max-pages 13', 180000],
-  [2, { all: true, maxPages: 4 }, 'bookmarks --all --max-pages 4', 180000],
-  [2, { all: true, maxPages: 0, folderId: 'folder' }, 'bookmarks --folder-id folder --all --max-pages 10', 180000],
-  [2, { folderId: 'folder' }, 'bookmarks --folder-id folder -n 2', 60000]
+for (const [count, options, expectedArgs, timeout] of [
+  [50, {}, ['bookmarks', '-n', '50'], 60000],
+  [51, {}, ['bookmarks', '--all', '--max-pages', '10'], 180000],
+  [250, {}, ['bookmarks', '--all', '--max-pages', '13'], 180000],
+  [2, { all: true, maxPages: 4 }, ['bookmarks', '--all', '--max-pages', '4'], 180000],
+  [2, { all: true, maxPages: 0, folderId: 'folder' }, ['bookmarks', '--folder-id', 'folder', '--all', '--max-pages', '10'], 180000],
+  [2, { folderId: 'folder' }, ['bookmarks', '--folder-id', 'folder', '-n', '2'], 60000]
 ]) {
   test(`bookmarks: preserves options ${JSON.stringify({ count, options })}`, () => {
     fetchBookmarks({}, count, options);
-    assert.ok(events[0][1].startsWith(`bird ${expectedCommand} --json > `));
-    assert.equal(events[0][2].timeout, timeout);
+    assert.equal(events[1][1], 'bird');
+    assert.deepEqual(events[1][2], [...expectedArgs, '--json']);
+    assert.equal(events[1][3].timeout, timeout);
   });
 }
 
