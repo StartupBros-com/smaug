@@ -91,7 +91,9 @@ describe('bird runs without a shell', { skip: process.platform === 'win32' }, ()
     assert.equal(likes.at(-1).id, '2999');
   });
 
-  test('a failing bird surfaces its stderr in the thrown message', () => {
+  test('a failing bird surfaces its stderr in the thrown message', (t) => {
+    // A failure keeps the temp file (as before the change); keep it under root.
+    t.mock.method(os, 'tmpdir', () => root);
     fs.writeFileSync(config.birdPath, '#!/bin/sh\necho "stub bird: auth expired" >&2\nexit 3\n');
     assert.throws(() => fetchLikes(config, 1), /Failed to fetch likes: .*stub bird: auth expired/s);
   });
