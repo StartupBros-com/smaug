@@ -76,3 +76,13 @@ test('vtt: removes tags before deduplication and decodes entities after trimming
   assert.equal(parseVttTranscript(null), '');
   assert.equal(parseVttTranscript(''), '');
 });
+
+test('vtt: a line of unclosed tags is cleaned in linear time and left as is', () => {
+  // With [^>]* in the tag patterns this 400,000-character line took 40 s.
+  const line = '<c'.repeat(200000);
+  const started = performance.now();
+  const result = parseVttTranscript(`WEBVTT\n\n${line}`);
+  const elapsed = performance.now() - started;
+  assert.equal(result, line);
+  assert.ok(elapsed < 1000, `took ${Math.round(elapsed)} ms`);
+});

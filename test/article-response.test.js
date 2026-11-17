@@ -14,8 +14,8 @@ function setup(t, { html = 'a'.repeat(1000), fetchError, bodyError, abort = fals
   const events = [];
   const controllers = [];
   const timers = [];
-  t.mock.method(childProcess, 'execSync', (command) => {
-    events.push(['bird', command]);
+  t.mock.method(childProcess, 'execFileSync', (file, args) => {
+    events.push(['bird', [file, ...args]]);
     return JSON.stringify(bird);
   });
   syncBuiltinESMExports();
