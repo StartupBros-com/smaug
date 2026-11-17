@@ -10,7 +10,7 @@
  * Outputs a JSON bundle for AI analysis (Claude Code, etc.)
  */
 
-import { execSync, spawn } from 'child_process';
+import { execSync, execFileSync, spawn } from 'child_process';
 import fs from 'fs';
 import path from 'path';
 import os from 'os';
@@ -570,11 +570,8 @@ export async function fetchArticleContent(url) {
 
 // ---- Video/Podcast Transcript Extraction ----
 
-/**
- * Locate yt-dlp binary. Returns path or null if not installed.
- * Accepts options for dependency injection (testability).
- */
-export function findYtDlp(options = {}) {
+// Shared lookup policy for the two transcript tools.
+function findTranscriptTool(binary, options) {
   const execSyncFn = options.execSyncFn || execSync;
   const configPath = options.configPath || null;
 
@@ -585,10 +582,18 @@ export function findYtDlp(options = {}) {
   }
 
   try {
-    return execSyncFn('which yt-dlp', { encoding: 'utf8', timeout: 5000, stdio: 'pipe' }).trim();
+    return execSyncFn(`which ${binary}`, { encoding: 'utf8', timeout: 5000, stdio: 'pipe' }).trim();
   } catch {
     return null;
   }
+}
+
+/**
+ * Locate yt-dlp binary. Returns path or null if not installed.
+ * Accepts options for dependency injection (testability).
+ */
+export function findYtDlp(options = {}) {
+  return findTranscriptTool('yt-dlp', options);
 }
 
 /**
@@ -596,20 +601,7 @@ export function findYtDlp(options = {}) {
  * Accepts options for dependency injection (testability).
  */
 export function findWhisper(options = {}) {
-  const execSyncFn = options.execSyncFn || execSync;
-  const configPath = options.configPath || null;
-
-  if (configPath) {
-    try {
-      if (fs.existsSync(configPath)) return configPath;
-    } catch {}
-  }
-
-  try {
-    return execSyncFn('which whisper', { encoding: 'utf8', timeout: 5000, stdio: 'pipe' }).trim();
-  } catch {
-    return null;
-  }
+  return findTranscriptTool('whisper', options);
 }
 
 /**
@@ -719,10 +711,17 @@ export async function fetchTranscriptContent(url, config, toolPaths) {
     const subFormat = isYouTube ? 'json3' : 'vtt/best';
     const outputTemplate = path.join(tmpDir, '%(id)s.%(ext)s');
 
+    // Run the tools without a shell: the URL comes from an expanded link and must never be
+    // parsed as shell syntax. `--` stops yt-dlp from reading the URL as an option.
     try {
-      execSync(
-        `"${ytdlp}" --write-subs --write-auto-subs --sub-langs "en.*,-live_chat" --sub-format "${subFormat}" --skip-download --no-warnings -o "${outputTemplate}" "${url}"`,
-        { timeout: subtitleTimeout, stdio: 'pipe', encoding: 'utf8', shell: true }
+      execFileSync(
+        ytdlp,
+        [
+          '--write-subs', '--write-auto-subs', '--sub-langs', 'en.*,-live_chat',
+          '--sub-format', subFormat, '--skip-download', '--no-warnings',
+          '-o', outputTemplate, '--', url
+        ],
+        { timeout: subtitleTimeout, stdio: 'pipe', encoding: 'utf8' }
       );
     } catch {
       // yt-dlp may exit non-zero even when subtitle files were written
@@ -761,9 +760,10 @@ export async function fetchTranscriptContent(url, config, toolPaths) {
     const audioFile = path.join(tmpDir, 'audio.mp3');
 
     try {
-      execSync(
-        `"${ytdlp}" -x --audio-format mp3 --audio-quality 5 -o "${audioFile}" "${url}"`,
-        { timeout: audioTimeout, stdio: 'pipe', encoding: 'utf8', shell: true }
+      execFileSync(
+        ytdlp,
+        ['-x', '--audio-format', 'mp3', '--audio-quality', '5', '-o', audioFile, '--', url],
+        { timeout: audioTimeout, stdio: 'pipe', encoding: 'utf8' }
       );
     } catch (err) {
       console.log(`  Audio extraction failed: ${err.message?.split('\n')[0]}`);
@@ -777,9 +777,10 @@ export async function fetchTranscriptContent(url, config, toolPaths) {
 
     console.log(`  Transcribing with Whisper (model: ${whisperModel})...`);
     try {
-      execSync(
-        `"${whisper}" "${audioFile}" --model ${whisperModel} --output_format txt --output_dir "${tmpDir}"`,
-        { timeout: whisperTimeout, stdio: 'pipe', encoding: 'utf8', shell: true }
+      execFileSync(
+        whisper,
+        [audioFile, '--model', whisperModel, '--output_format', 'txt', '--output_dir', tmpDir],
+        { timeout: whisperTimeout, stdio: 'pipe', encoding: 'utf8' }
       );
     } catch (err) {
       console.log(`  Whisper transcription failed: ${err.message?.split('\n')[0]}`);
