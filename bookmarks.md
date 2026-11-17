@@ -1,4 +1,216 @@
+# Monday, November 16, 2026
+
+## @rakishromantic - Thread on women's preferred penis size study (Prause) vs population percentiles
+> this crossed my FYP and I thought surely it can't be *that* Prause? but it is!
+>
+> Dr. Prause is, somehow, the only person on the planet to have published a peer-reviewed study measuring women's preferred penis dimensions using physical, 3D objects they could hold and examine
+>
+> the median preference is (in inches) approximately 6.5x5, but I caveat the girth preference a bit because the girth options were very spread...
+>
+> globally, that median preference is a ~ 90th percentile penis by volume. using exclusively studies on western populations (and ignoring the often cited but plainly bad Veale study), it's more like 78th
+>
+> *Quoting @NicoleRPrause:* New male orgasm data from our lab shows the remarkable consistency of this reflex!
+
+- **Tweet:** https://x.com/rakishromantic/status/2122484430178599013
+- **Quoted:** https://x.com/NicoleRPrause/status/2122356989024158198
+- **What:** Author summarizes Nicole Prause's physical-model study of women's preferred penis size (median about 6.5 by 5 inches), critiques its girth option spacing, and converts the median into a roughly 78th to 90th percentile by volume depending on population data used.
+
+## @boringmarketer - boring-marketing-skills: 32 open-source marketing skills for AI agents
+> I'm open sourcing 32 of my best skills that cover every marketing use case for AI agents I can think of
+>
+> it helps your AI execute marketing at a world class quality focused on RESULTS and ROI
+>
+> Not sure how long I'll keep these open, but you can grab them here: https://github.com/boringmarketer/boring-marketing-skills
+>
+> (Thread lists all 32 skills grouped by stage: start-here, get found, get chosen, get the call, bring them back, win clients, market yourself. Install: `npx skills add boringmarketer/boring-marketing-skills`)
+
+- **Tweet:** https://x.com/boringmarketer/status/2122395509293989985
+- **Link:** https://github.com/boringmarketer/boring-marketing-skills
+- **Filed:** [boring-marketing-skills](./knowledge/tools/boring-marketing-skills.md)
+- **What:** MIT-licensed pack of about 32 agent skills covering SEO, local SEO, ads, email, copy and content, all driven by shared brand files that `start-here` generates from a business's site. Installs via npx skills or as a Claude Code plugin, with a local-business and agency prospecting pack.
+
+## @argofowl - Applying for Mythos 5.2 via Anthropic's cyber verification program
+> individuals can now apply for mythos 5.2, anthropic's model without the cyber safeguards that fable 5.2 has
+>
+> it goes through the cyber verification program, the defense access tier
+>
+> you need a paid plan (pro and up), a government photo id and maybe a live selfie
+>
+> people on x say they got approved in 10 minutes to 2 hours
+>
+> i've been waiting on mine for over 24h now
+>
+> my guess is us applications get reviewed automatically and everyone else gets a human check
+>
+> anthropic's own target is two days, so i'm still inside it, but pretty annoying
+
+- **Tweet:** https://x.com/argofowl/status/2122340947136745723
+- **What:** Firsthand report on the access process for Anthropic's Mythos 5.2 (the variant lacking Fable 5.2's cyber safeguards): needs a paid plan, government ID and possibly a selfie via the cyber verification program. Approvals reportedly take 10 minutes to 2 hours, against a stated two-day target.
+
+## @DanielLockyer - One-line change cut an OSS project's CI time by 65%
+> only one person (@foundmalek) replied with their OSS repo, so I took a look:
+>
+> a one line change reduced their CI time by 65%!
+>
+> PR'd and merged 🚀
+>
+> you can just do things
+>
+> *Quoting @DanielLockyer:* Any OSS projects struggling with their CI speed/cost atm? May take a look tomorrow
+
+- **Tweet:** https://x.com/DanielLockyer/status/2122310603666579740
+- **Quoted:** https://x.com/DanielLockyer/status/2122067089645306359
+- **What:** Daniel Lockyer offered to audit open-source CI pipelines for speed and cost, then found a single-line config change in @foundmalek's repo that cut CI time 65%, merged via PR. Shows how cheap CI wins can be and a nice model for proactive OSS contributions.
+
+## @Humanoholic - [Media] Mental models said to run most of daily life
+> Mental models that runs almost 93% of your life. https://t.co/y23xGToN0s
+
+- **Tweet:** https://x.com/Humanoholic/status/2122197962332020872
+- **What:** THIN: @Humanoholic posts a mental-models list or graphic claiming it explains ~93% of life; the tweet is link-only (self-referencing t.co) with no extractable text, so the actual models are unknown.
+
+---
+
 # Sunday, November 15, 2026
+
+## @DanielMiessler - Replacing CLAUDE.md with a doctrine: Constitution, ISA, TELOS, evals and improvement loops
+> We spend most of our time, and most of our harness system, on refining intent instead of steps.
+>
+> I don't have a CLAUDE.md or AGENTS.md anymore. I have: THE DOCTRINE (CONSTITUTION, PREFERENCES, TELOS), THE ISA (Ideal State Artifact with testable Ideal State Criteria and anti-criteria), THE ALGORITHM, EVALS AND VERIFICATION (ASSAY), THE IMPROVEMENT LOOP (ERRATA, HILLCLIMB, REPLAY), RUNNING IT ALL (WORKFLOWS, VIGIL, CENSUS, SKILLS, hooks, permissions)...
+>
+> The models will keep getting better at the steps. Knowing what you want, and how to tell when you have it, is still our job.
+>
+> *Quoting @poteto:* interesting how well this post aged. what are your predictions 1 year from now?
+
+- **Tweet:** https://x.com/DanielMiessler/status/2122141216955609350
+- **Quoted:** https://x.com/poteto/status/2122067662373269960
+- **What:** Miessler describes his agent harness as intent-first: an Ideal State Artifact with testable criteria and anti-criteria, hooks that block edits when the spec is stale, builders never grading their own work, evals with receipts, and loops (Errata, HillClimb, Replay) that turn misses into new checks; the quoted post only asked for one-year predictions.
+
+## @danshipper - Compounding skills: Every's 74-check eval loop lifts frontier models from 34-56% to ~76-81%
+> we've been working hard on compounding skills lately (skills that get better every time you use them)
+>
+> and i think @hammer_mt finally cracked it
+>
+> this weekend i made a skill to help us write context window summaries, and used autoresearch to iterate until it hit 80% of my taste on summaries vs. a no-skill baseline
+>
+> full writeup for your agnets on the @every frontier feed
+
+- **Tweet:** https://x.com/danshipper/status/2122091033001337134
+- **Link:** https://frontier.every.to/experiments/turn-your-daily-newsletter-edits-into-ai-checks-and-watch-every-frontier-model-jump-25-points
+- **Filed:** [turn-newsletter-edits-into-ai-checks-every-frontier.md](./knowledge/articles/turn-newsletter-edits-into-ai-checks-every-frontier.md)
+- **What:** Every Frontier experiment turning Dan Shipper's newsletter edits into 74 binary checks from gold cases, then optimizing a summary skill v1 to v9 via autoresearch; four frontier models rose from 34-56% to 76-81% on the checks, a recipe for skills that compound with use.
+
+## @ErdalToprak - BEAST homelab v3: 10G Ubiquiti, GB10 local AI box, Mac Minis, Proxmox 4090, k3s
+> Introducing the BEAST homelab v3
+>
+> - Ubiquiti 10G everywhere
+> - Dell Pro Max GB10 for local AI
+> - 2x Mac Mini M4
+> - Proxmox 4090/128G server
+> - Elitedesk 800 G5 k3s cluster
+>
+> I'll explain my usecases in the thread below and why you should build your own homelab ASAP
+
+- **Tweet:** https://x.com/ErdalToprak/status/2122083228895134007
+- **What:** Thread opener showing a homelab build: 10G Ubiquiti networking, a Dell Pro Max GB10 for local AI, two M4 Mac Minis, a Proxmox server with a 4090 and 128GB RAM, and an EliteDesk k3s cluster; the use-case explanations are in the thread, which was not captured.
+
+## @gabriel1 - Prompting trick: ask AI for 10 increasingly high-variance versions, then cherry-pick
+> anytime you make anything with ai:
+>
+> "make 10 different increasingly high variance versions and show me, then i can pick the best one"
+>
+> then pick your favorite parts of each variant
+
+- **Tweet:** https://x.com/gabriel1/status/2122083139971416106
+- **What:** A generative-work heuristic: request 10 variants with escalating variance so the range of the option space is exposed, then choose and combine favorite parts, treating the model as a divergent explorer while the human does the selecting and taste work.
+
+## @ishaansehgal - Founder rotating 37 Claude subscription accounts for ~$250k/mo of API-equivalent usage
+> met a founder with 37 claude accounts and a system that automatically rotates through them
+>
+> he made them with his moms email. his dads. his friends. none of them have ever opened claude
+>
+> he estimates ~$250k/mo of api-equivalent usage, all on subscriptions, running agent swarms and benchmarks
+
+- **Tweet:** https://x.com/ishaansehgal/status/2122070973096608104
+- **What:** Anecdote of a founder who built 37 Claude subscription accounts (under family and friends' emails) with automatic rotation, claiming roughly $250k/month of API-equivalent usage for agent swarms and benchmarks; illustrates the arbitrage between flat-rate subscriptions and metered API pricing, and likely breaches usage terms.
+
+## @yonasbe - ci-speedup skill extends Pontus' CI prompt: audits against 90+ patterns
+> Instructions to get your CI under 2 minutes 💫
+>
+> Pontus' prompt is great. Here's an updated version that goes further (attached).
+>
+> Instead of the 18 fixes he called out, your agent runs the ci-speedup skill, which does an audit and checks it against 90+ patterns.
+>
+> Prompt attached also covers slowdowns outside the frontend: Playwright installs, Turborepo cache misses, fixed sleeps in tests and unused service containers. And it swaps in @starslingdev runners which no support per second billing (that part isn't in the skill).
+>
+> Same two rules as @pontusab's: the full suite runs before main, and you never get faster by hiding failures.
+>
+> Give the image to your agent, or give them this URL:
+>
+> *Quoting @pontusab:* Instructions to get your CI under 2 minutes ⚡
+
+- **Tweet:** https://x.com/yonasbe/status/2122066900679364803
+- **Quoted:** https://x.com/pontusab/status/2121990184816484483
+- **Link:** https://github.com/starslingdev/skills
+- **Filed:** [starslingdev-skills.md](./knowledge/tools/starslingdev-skills.md)
+- **What:** Yonas extends Pontus' CI-speedup agent prompt by having the agent run StarSling's ci-speedup skill, which audits workflows and run history against 90+ patterns (Playwright installs, Turborepo cache misses, fixed sleeps, unused service containers). Keeps the two rules: run the full suite before main and never gain speed by hiding failures.
+
+## @floinkus - [Media] Joke about an OpenAI push notification warning about a year-old meal
+> I just got a push notification for this. wtf is OpenAI on
+>
+> thank you for warning me about that meal I cooked 1 year ago https://t.co/NlyS9RIqPe
+
+- **Tweet:** https://x.com/floinkus/status/2122043898784833820
+- **What:** THIN: @floinkus jokes that an OpenAI push notification surfaced an unexpected warning about a meal he cooked a year ago, apparently a ChatGPT proactive-notification misfire; the linked content is the tweet itself and the screenshot is not available.
+
+## @coreyganim - Lifestyle "AI concierge" consulting model: paid assessment, then convert SMB processes into Claude skills
+> My favorite biz model for AI consultants right now for a few reasons:
+>
+> 1) doesn't require doing a ton of complex automation/building
+> 2) All we're doing is helping SMB owners turn their manual processes into Claude (or ChatGPT) skills
+> 3) The client gets the outcome AND the training. Win/win
+> 4) This offer isn't meant to generate $50k/month. It's meant to be a lifestyle offer... at 99% net margins
+> 5) I like to lead with a paid assessment designed to uncover the AI opportunities then upsell Concierge as the build-with-you offer
+>
+> Happy to answer any questions on this model, been running it for the past ~6 months...
+>
+> *Quoting @milesdeutscher:* How to make $1000/hour with an AI concierge biz model: (literally a 97%+ margin business)
+
+- **Tweet:** https://x.com/coreyganim/status/2122028101148332384
+- **Quoted:** https://x.com/milesdeutscher/status/2122018547165806633
+- **What:** Corey Ganim describes his six-month-old consulting offer: a paid AI-opportunity assessment followed by a "Concierge" build-with-you upsell that converts an SMB's manual processes into Claude or ChatGPT skills. He pitches it as a low-build, high-margin (claimed 99%) lifestyle business, echoing Miles Deutscher's "$1000/hour, 97% margin" framing. Income and margin figures are self-reported.
+
+## @pontusab - Agent prompt/instructions to get CI under 2 minutes
+> Instructions to get your CI under 2 minutes ⚡ https://t.co/GZzfvJsGIb
+>
+> *Quoting @pontusab:* Our frontend CI is now under 2 minutes. What we did: tsc to bun check; oxlint, every rule we can turn on; shards filled by recorded test time; PRs run only the tests the diff can reach; lint, typecheck, build and tests all run in parallel
+
+- **Tweet:** https://x.com/pontusab/status/2121990184816484483
+- **Quoted:** https://x.com/pontusab/status/2121982070193058191
+- **What:** Pontus packages his CI speedup (bun check, oxlint, time-balanced shards, diff-reachable tests, parallel jobs) into an attachable instruction set an agent can apply to any repo. The attached media is not visible here, but the prompt is the one @yonasbe later extends with the ci-speedup skill.
+
+## @pontusab - Frontend CI under 2 minutes: bun check, oxlint, time-balanced shards, diff-reachable tests
+> Our frontend CI is now under 2 minutes. What we did:
+>
+> - tsc to bun check
+> - oxlint, every rule we can turn on
+> - shards filled by recorded test time
+> - PRs run only the tests the diff can reach
+> - lint, typecheck, build and tests all run in parallel
+>
+> *Quoting @pontusab:* CI is now the most important thing to make fast.
+
+- **Tweet:** https://x.com/pontusab/status/2121982070193058191
+- **Quoted:** https://x.com/pontusab/status/2121630861502378328
+- **What:** Pontus Abrahamsson's follow-up to his claim that CI speed is the top priority lists the concrete changes that got frontend CI under 2 minutes: bun check in place of tsc, maximal oxlint rules, test shards balanced by recorded duration, diff-based test selection on PRs, and running lint, typecheck, build and tests in parallel.
+
+## @jamesjyu - Custom Fable harness passes 100% human on Pangram-style AI-text detection, replying to Ben Dicken's deslop struggle
+> Using my custom Fable harness passes 100% human https://t.co/9nvpufH3a4
+>
+> *Quoting @BenjDicken:* Set out building a "deslop writing" skill this afternoon. Naively thought it'd be easy... Experimented with explicit slop-pattern edits, letting fable 5.2 hill-climb with Opus as writer and Pangram as oracle, building a voice profile from past writing, and testing existing skills. Only reliable way without a human in the loop seems to be fine-tuning a model on human tone and work.
+
+- **Tweet:** https://x.com/jamesjyu/status/2121834889100382613
+- **Quoted:** https://x.com/BenjDicken/status/2121735890934583784
+- **What:** Ben Dicken reports that prompt-based "deslop" skills, hill-climbing against the Pangram detector and voice profiles all failed to make LLM writing reliably read as human, concluding fine-tuning may be the only way. James Yu counters that his custom Fable harness scores 100% human, though the tweet gives no detail on how the harness works.
 
 ## @Ravarora1 - THIN: Aella Substack Graph on Men's Psychosexual Development
 > Fascinating graph from @Aella_Girl’s Substack. Posted by my friend Coral Osborne (upcoming podcast on men’s psychosexual development): https://t.co/n1iEm6cTO1
