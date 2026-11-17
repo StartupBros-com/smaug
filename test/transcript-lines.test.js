@@ -34,17 +34,19 @@ for (const [format, parse, encode] of [
     const content = encode(['Alpha', '', 'Alpha', 'Beta', 'Alpha']);
     const commands = [];
     let tempDir;
-    const originalExecSync = childProcess.execSync;
+    // fetchTranscriptContent runs yt-dlp through execFileSync with an argv array (#37).
+    const originalExecFileSync = childProcess.execFileSync;
     t.after(() => {
-      childProcess.execSync = originalExecSync;
+      childProcess.execFileSync = originalExecFileSync;
       syncBuiltinESMExports();
     });
-    childProcess.execSync = command => {
-      commands.push(command);
-      assert.match(command, /--skip-download/);
-      const output = command.match(/-o "([^"]+)"/);
-      assert.ok(output, 'caption command includes an output template');
-      tempDir = path.dirname(output[1]);
+    childProcess.execFileSync = (file, args) => {
+      commands.push([file, ...args]);
+      assert.equal(file, '/mock/yt-dlp');
+      assert.ok(args.includes('--skip-download'), 'caption command skips the media download');
+      const outputIndex = args.indexOf('-o');
+      assert.ok(outputIndex >= 0 && args[outputIndex + 1], 'caption command includes an output template');
+      tempDir = path.dirname(args[outputIndex + 1]);
       fs.writeFileSync(path.join(tempDir, `example.en.${format}`), content);
       return '';
     };
