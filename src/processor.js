@@ -574,11 +574,8 @@ export async function fetchArticleContent(url) {
 
 // ---- Video/Podcast Transcript Extraction ----
 
-/**
- * Locate yt-dlp binary. Returns path or null if not installed.
- * Accepts options for dependency injection (testability).
- */
-export function findYtDlp(options = {}) {
+// Shared lookup policy for the two transcript tools.
+function findTranscriptTool(binary, options) {
   const execSyncFn = options.execSyncFn || execSync;
   const configPath = options.configPath || null;
 
@@ -589,10 +586,18 @@ export function findYtDlp(options = {}) {
   }
 
   try {
-    return execSyncFn('which yt-dlp', { encoding: 'utf8', timeout: 5000, stdio: 'pipe' }).trim();
+    return execSyncFn(`which ${binary}`, { encoding: 'utf8', timeout: 5000, stdio: 'pipe' }).trim();
   } catch {
     return null;
   }
+}
+
+/**
+ * Locate yt-dlp binary. Returns path or null if not installed.
+ * Accepts options for dependency injection (testability).
+ */
+export function findYtDlp(options = {}) {
+  return findTranscriptTool('yt-dlp', options);
 }
 
 /**
@@ -600,20 +605,7 @@ export function findYtDlp(options = {}) {
  * Accepts options for dependency injection (testability).
  */
 export function findWhisper(options = {}) {
-  const execSyncFn = options.execSyncFn || execSync;
-  const configPath = options.configPath || null;
-
-  if (configPath) {
-    try {
-      if (fs.existsSync(configPath)) return configPath;
-    } catch {}
-  }
-
-  try {
-    return execSyncFn('which whisper', { encoding: 'utf8', timeout: 5000, stdio: 'pipe' }).trim();
-  } catch {
-    return null;
-  }
+  return findTranscriptTool('whisper', options);
 }
 
 /**
