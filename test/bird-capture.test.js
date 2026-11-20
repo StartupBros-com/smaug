@@ -113,6 +113,9 @@ for (const [kind, fetchItems] of [['bookmarks', fetchBookmarks], ['likes', fetch
 for (const [count, options, expectedArgs, timeout] of [
   [50, {}, ['bookmarks', '-n', '50'], 60000],
   [51, {}, ['bookmarks', '--all', '--max-pages', '10'], 180000],
+  [100, {}, ['bookmarks', '--all', '--max-pages', '10'], 180000],
+  [10, { all: true }, ['bookmarks', '--all', '--max-pages', '10'], 180000],
+  [100, { all: true, maxPages: 5 }, ['bookmarks', '--all', '--max-pages', '5'], 180000],
   [250, {}, ['bookmarks', '--all', '--max-pages', '13'], 180000],
   [2, { all: true, maxPages: 4 }, ['bookmarks', '--all', '--max-pages', '4'], 180000],
   [2, { all: true, maxPages: 0, folderId: 'folder' }, ['bookmarks', '--folder-id', 'folder', '--all', '--max-pages', '10'], 180000],
@@ -130,3 +133,13 @@ test('bookmarks truncates captured results while likes leaves them intact', () =
   assert.deepEqual(fetchBookmarks({}, 1), [{ id: 'one' }]);
   assert.deepEqual(fetchLikes({}, 1), [{ id: 'one' }, { id: 'two' }]);
 });
+
+// Check the production path, not a local copy of its pagination/truncation rules.
+for (const [count, returned, expected] of [[100, 161, 100], [100, 50, 50], [50, 50, 50]]) {
+  test(`bookmarks: returns ${expected} in order when requesting ${count} and bird returns ${returned}`, () => {
+    const sequence = (length) => Array.from({ length }, (_, index) => ({ id: String(index) }));
+    output = JSON.stringify({ tweets: sequence(returned), nextCursor: 'unused' });
+
+    assert.deepEqual(fetchBookmarks({}, count), sequence(expected));
+  });
+}
