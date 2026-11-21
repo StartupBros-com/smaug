@@ -316,14 +316,14 @@ export function loadConfig(configPath) {
 export function initConfig(targetPath = './smaug.config.json') {
   const exampleConfig = {
     // Source: 'bookmarks' (default), 'likes', or 'both'
-    source: 'bookmarks',
+    source: DEFAULT_CONFIG.source,
     // EXPERIMENTAL: Include media attachments (photos, videos, GIFs)
     // includeMedia: false,
-    archiveFile: './bookmarks.md',
-    pendingFile: './.state/pending-bookmarks.json',
-    stateFile: './.state/bookmarks-state.json',
-    timezone: 'America/New_York',
-    birdPath: null,
+    archiveFile: DEFAULT_CONFIG.archiveFile,
+    pendingFile: DEFAULT_CONFIG.pendingFile,
+    stateFile: DEFAULT_CONFIG.stateFile,
+    timezone: DEFAULT_CONFIG.timezone,
+    birdPath: DEFAULT_CONFIG.birdPath,
     twitter: {
       authToken: 'YOUR_AUTH_TOKEN_HERE',
       ct0: 'YOUR_CT0_TOKEN_HERE'
@@ -353,18 +353,18 @@ export function initConfig(targetPath = './smaug.config.json') {
     },
 
     // Automation (for scheduled jobs)
-    autoInvokeClaude: true,
-    autoInvokeOpencode: true,
+    autoInvokeClaude: DEFAULT_CONFIG.autoInvokeClaude,
+    autoInvokeOpencode: DEFAULT_CONFIG.autoInvokeOpencode,
     // CLI tool: 'claude' or 'opencode'
-    cliTool: 'claude',
+    cliTool: DEFAULT_CONFIG.cliTool,
     // Models for each CLI
-    claudeModel: 'sonnet',
-    opencodeModel: 'opencode/glm-4.7-free',
-    claudeTimeout: 900000,
+    claudeModel: DEFAULT_CONFIG.claudeModel,
+    opencodeModel: DEFAULT_CONFIG.opencodeModel,
+    claudeTimeout: DEFAULT_CONFIG.claudeTimeout,
 
     // Notifications (optional)
-    webhookUrl: null,
-    webhookType: 'discord'
+    webhookUrl: DEFAULT_CONFIG.webhookUrl,
+    webhookType: DEFAULT_CONFIG.webhookType
   };
 
   fs.writeFileSync(targetPath, JSON.stringify(exampleConfig, null, 2) + '\n');
