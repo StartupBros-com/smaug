@@ -1,8 +1,9 @@
 import { test, describe } from 'node:test';
 import assert from 'node:assert';
+import fs from 'fs';
 import os from 'os';
 import path from 'path';
-import { expandTilde, loadConfig } from '../src/config.js';
+import { expandTilde, initConfig, loadConfig } from '../src/config.js';
 
 describe('expandTilde', () => {
   test('expands ~/ to home directory', () => {
@@ -96,4 +97,34 @@ describe('loadConfig', () => {
       else process.env.WHISPER_MODEL = origModel;
     }
   });
+});
+
+test('initConfig emits the documented scaffold without internal defaults', (t) => {
+  const dir = fs.mkdtempSync(path.join(os.tmpdir(), 'smaug-config-test-'));
+  t.after(() => fs.rmSync(dir, { recursive: true, force: true }));
+  const file = path.join(dir, 'smaug.config.json');
+  assert.strictEqual(initConfig(file), file);
+  const expected = {
+    source: 'bookmarks',
+    archiveFile: './bookmarks.md',
+    pendingFile: './.state/pending-bookmarks.json',
+    stateFile: './.state/bookmarks-state.json',
+    timezone: 'America/New_York',
+    birdPath: null,
+    twitter: {
+      authToken: 'YOUR_AUTH_TOKEN_HERE',
+      ct0: 'YOUR_CT0_TOKEN_HERE'
+    },
+    folders: {},
+    categories: {},
+    autoInvokeClaude: true,
+    autoInvokeOpencode: true,
+    cliTool: 'claude',
+    claudeModel: 'sonnet',
+    opencodeModel: 'opencode/glm-4.7-free',
+    claudeTimeout: 900000,
+    webhookUrl: null,
+    webhookType: 'discord'
+  };
+  assert.strictEqual(fs.readFileSync(file, 'utf8'), JSON.stringify(expected, null, 2) + '\n');
 });
