@@ -1,14 +1,7 @@
 import { open } from './db.js';
 import { indexAll } from './indexer.js';
 import { search, logQuery, stats, doctor } from './searcher.js';
-
-function parseFlag(args, name, { bool = false } = {}) {
-  const idx = args.findIndex((a) => a === name || a.startsWith(`${name}=`));
-  if (idx === -1) return bool ? false : null;
-  if (args[idx].includes('=')) return args[idx].split('=').slice(1).join('=');
-  if (bool) return true;
-  return args[idx + 1] ?? null;
-}
+import { parseSearchArgs } from './search-args.js';
 
 function formatResult(r) {
   const bits = [];
@@ -23,16 +16,16 @@ function formatResult(r) {
 }
 
 export async function runSearch(args) {
-  const query = args.find((a) => !a.startsWith('--'));
-  if (!query) {
+  let parsed;
+  try {
+    parsed = parseSearchArgs(args);
+  } catch (error) {
+    console.error(error.message);
     console.error('Usage: smaug search "<query>" [--category=articles] [--since=30d] [--author=@handle] [--limit=10] [--json]');
     process.exit(2);
+    return;
   }
-  const category = parseFlag(args, '--category');
-  const since = parseFlag(args, '--since');
-  const author = parseFlag(args, '--author');
-  const limit = parseInt(parseFlag(args, '--limit') || '10', 10);
-  const json = parseFlag(args, '--json', { bool: true });
+  const { query, category, since, author, limit, json } = parsed;
 
   const db = open();
   const results = search(db, { query, category, since, author, limit });
