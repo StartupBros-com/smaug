@@ -5,6 +5,7 @@ import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
 import { open } from './db.js';
+import { docFilter } from './doc-filter.js';
 import { search, logQuery, stats } from './searcher.js';
 
 const __filename = fileURLToPath(import.meta.url);
@@ -92,10 +93,7 @@ export async function runServe() {
       }
     },
     async ({ category, source, limit }) => {
-      const where = ['ingested_at IS NOT NULL'];
-      const params = [];
-      if (category) { where.push('category = ?'); params.push(category); }
-      if (source) { where.push('source = ?'); params.push(source); }
+      const { where, params } = docFilter({ category, source }, { requireIngestedAt: true });
       const sql = `SELECT * FROM docs WHERE ${where.join(' AND ')} ORDER BY ingested_at DESC LIMIT ?`;
       params.push(limit ?? 15);
       const rows = db.prepare(sql).all(...params);
@@ -144,10 +142,7 @@ export async function runServe() {
       }
     },
     async ({ category, source, limit }) => {
-      const where = ['1 = 1'];
-      const params = [];
-      if (category) { where.push('category = ?'); params.push(category); }
-      if (source) { where.push('source = ?'); params.push(source); }
+      const { where, params } = docFilter({ category, source });
       const sql = `SELECT * FROM docs WHERE ${where.join(' AND ')} ORDER BY RANDOM() LIMIT ?`;
       params.push(limit ?? 3);
       const rows = db.prepare(sql).all(...params);
