@@ -1,4 +1,1011 @@
+# Saturday, November 21, 2026
+
+## @TekonBurns - $100 Google AI Ultra Plan Bundles Colab H100 Credits vs Claude Max and ChatGPT Pro
+> Everyone is talking about Gemini 4 Neon limits on the $100 Google AI Ultra plan and sleeping on the GPU receipt.
+>
+> Paying builders just ran the full $100/month stack:
+>
+> → 1,000 monthly Colab credits via CLI, roughly 55 H100 or 100 RTX6000 Pro hours
+> → $40/month in Google Cloud credits
+> → YouTube Premium Family plus 20TB storage
+>
+> Neither $100 Claude Max nor $200 ChatGPT Pro bundles raw H100 compute for your agents.
+
+- **Tweet:** https://x.com/TekonBurns/status/2124299304571748631
+- **What:** Claims the $100/month Google AI Ultra plan includes 1,000 Colab credits usable via CLI (about 55 H100 or 100 RTX6000 Pro hours), $40 of Google Cloud credits, YouTube Premium Family and 20TB storage, and argues this raw GPU compute for agents is a bundle advantage over Claude Max and ChatGPT Pro. These are the author's unverified plan figures.
+
+## @0xSero - inference-optimisation-skill: Agent Skill for Hill-Climbing Local LLM Serving Speed
+> My magnum opus, my greatest production.
+> This skill was forged through thousands of hours of inference optimisation
+>
+> I have collected 30 posts of people who used this to get anything from 30% speed up to 5x speed ups
+>
+> Prove it works, you will get a shoutout
+> https://github.com/sybil-solutions/inference-optimisation-skill
+
+- **Tweet:** https://x.com/0xSero/status/2124238286457917649
+- **Link:** https://github.com/sybil-solutions/inference-optimisation-skill
+- **Filed:** [inference-optimisation-skill](./knowledge/tools/inference-optimisation-skill.md)
+- **What:** Agent skill (SKILL.md, works with Claude Code) that guides an agent through measured, one-change-at-a-time optimisation of local LLM serving: decode, speculative decoding, prefill, KV cache and TTFT, starting from a computed hardware ceiling. The README reports gains such as RTX 3090 at 96 to 141 tok/s on a 27B model and Arc B390 prefill at 256K doubling, and the author is crowdsourcing proof of 30% to 5x speedups.
+
+## @mattpocockuk - Sentence-scoring app to teach an agent your writing style
+> Thinking about a new, very simple way of getting an agent to write in your style:
+>
+> 1. Build a 'scorer' app that lets the agent send you example sentences which you score, one at a time, swipe-left style
+> 2. Either as a "score this sentence 1-4" (single) or "which of these is better" (multi)
+> 3. You plan an article together and work through it sentence-by-sentence
+> 4. The agent is able to test its own hypotheses about your writing style, and builds up a profile over time
+
+- **Tweet:** https://x.com/mattpocockuk/status/2124214098984370645
+- **What:** Proposes a swipe-style scoring app where an agent sends candidate sentences for 1-4 ratings or pairwise comparisons while co-writing an article, letting it test hypotheses about the author's style and build a profile over time.
+
+## @aaronmring - Gemini Ultra plan's Colab credits give agents cheap H100 time via Colab CLI
+> The compute credits in the Gemini Ultra sub are insane. The $100 plan gets you 1000 colab credits/month. That's ~55 H100 or 100 RTX6000 Pro (G4) hours. 
+>
+> The colab CLI let your agent to use these credits like Modal... no notebooks required!
+>
+> Come for the Neon, stay for the GPUs.
+
+- **Tweet:** https://x.com/aaronmring/status/2124198800034345262
+- **What:** Claims the $100 Gemini Ultra plan includes 1000 Colab credits per month, roughly 55 H100 or 100 RTX6000 Pro hours, which an agent can spend through the Colab CLI like Modal without notebooks; figures are the author's own.
+
+## @nichochar - "Knowledge Factories" and gardener agents attached to spaces
+> I suspect we will start hearing about "Knowledge Factories" a lot in the coming months.
+>
+> I'm particularly interested in what Harrison calls the "curator agent". 
+>
+> I call these gardeners: agents that are attached to a space, rather than a person (I call those ones butlers, like OpenClaw, Grok Bot or Muse).
+>
+> *Quoting @hwchase17:* all our agents at langchain (internal GTM &amp; content agents, LangSmith Engine) have a learning loop with similar pieces
+>
+> wrote about what we think makes up a "knowledge factory" https://t.co/xaAZb5i79q
+
+- **Tweet:** https://x.com/nichochar/status/2124182843102535974
+- **Quoted:** https://x.com/hwchase17/status/2124181216719151585
+- **What:** Nicholas Charriere builds on Harrison Chase's LangChain "knowledge factory" post (agents with learning loops), distinguishing space-attached "gardener" or curator agents from person-attached "butler" agents; the linked article was login-walled so only the tweet text informed this.
+
+## @AndrewCurran_ - Lean and Mathlib communities certify Riemann Hypothesis proof
+> The Lean and Mathlib communities have released a joint statement. 'We hereby certify that both the statement and the proof of the Riemann Hypothesis are correct.' https://t.co/0E787CF7ju
+>
+> *Quoting @AndrewCurran_:* Levent Alpöge at Anthropic says he has a proof of the Riemann Hypothesis. I was waiting for the Anthropic announcement to post, but it's all over my timeline, so this from Levent's site. He says he discovered it Sunday night working together with Claude. https://t.co/RzhkAX5kFu
+
+- **Tweet:** https://x.com/AndrewCurran_/status/2124178939287687297
+- **Quoted:** https://x.com/AndrewCurran_/status/2123819916768039149
+- **What:** Reports a joint Lean and Mathlib community statement certifying the formal statement and proof of the Riemann Hypothesis, following the earlier claim that Anthropic's Levent Alpöge found the proof working with Claude; this is as reported in the tweets, not independently verified here.
+
+## @yenwod_ - Why LLMs need prompting for functional core / imperative shell design
+> It still puzzles me that telling LLMs to do this improves their code quality so much. 
+>
+> Shouldn't this just be baked in to the "write software" machine?
+>
+> *Quoting @jussisaur:* i feel like "functional core, imperative shell" and "push I/O to the edges" are such obviously true incontrovertible maxims about good software design and NO-ONE IN THE HISTORY OF THE WORLD has ever done it
+
+- **Tweet:** https://x.com/yenwod_/status/2124150631283793946
+- **Quoted:** https://x.com/jussisaur/status/2124089969413349738
+- **What:** Reaction to Jussi's quip that nobody actually follows "functional core, imperative shell" and "push I/O to the edges"; yenwod_ notes that explicitly telling LLMs to apply these principles markedly improves their code quality and wonders why it isn't default behavior.
+
+## @PawelHuryn - product-engineering: 45 agent skills incl. independent-review severity triage
+> GPT-6.2 Sol is an incredible code reviewer. But it's paranoid and flags rare edge cases as Medium or High.
+>
+> So, I wrote an independent-review skill: https://t.co/VSLGyLdeCP
+>
+> For each finding, it asks:
+> - Who hits it and how often?
+> - What's the harm in one sentence?
+> - Does it cross a line: another user's data, lost work, or an irreversible write nobody approved?
+>
+> Before that, on one build, I ran nine review rounds, about 20 hours of work, taking severity labels at face value.
+>
+> Round ten, first with the triage: 11 findings, none above Low, and that stage closed with no fixes.
+>
+> If it's useful, star the repo.
+
+- **Tweet:** https://x.com/PawelHuryn/status/2124061751616438766
+- **Link:** https://github.com/phuryn/product-engineering
+- **Filed:** [phuryn-product-engineering](./knowledge/tools/phuryn-product-engineering.md)
+- **What:** Open-source set of 45 agent skills for Claude Code/Codex whose independent-review skill triages a second model's code-review findings by frequency, harm and irreversibility, which cut a tenth review round to 11 Low findings after nine rounds (~20 hours) of taking severity labels at face value.
+
+## @KingBootoshi - skill-distill: distilling frontier-model sessions into skills for open-weight models
+> this is actually such an insane fucking skill LMAOOOO
+>
+> you can make millions by offering fine tuning jobs of companies workflows
+>
+> so many tiny nuggets (more like ingots) of opportunity has opened up in the last ~6 months alone due to how advanced models have gotten
+>
+> yet the diffusion of this power is VERY unbalanced, like SERiOUSSSLYYY unbalanced, like AI just proved the Riemann hypothesis and you have people thinking it's still only a chatbot, lol
+>
+> just by prompting it and renting GPUs
+>
+> if any of you are interested in doing something like this i'd be happy to help, HMU!
+>
+> *Quoting @0xSero:* New skill is live! Skill Distill, I'm sure we all love Opus-5.5 so if you've ever been impressed by it's output, now you can have it insta-distill the work it did into a skill for open weight/local models. Done with GPT, recreated via skill w deepseek https://t.co/HsjBZav0MA
+
+- **Tweet:** https://x.com/KingBootoshi/status/2124047725843153141
+- **Quoted:** https://x.com/0xSero/status/2124035122924232712
+- **Link:** https://github.com/sybil-solutions/skill-distill
+- **Filed:** [skill-distill](./knowledge/tools/skill-distill.md)
+- **What:** Endorses @0xSero's skill-distill, a Claude Code/Codex skill that turns a good frontier-model session into a skill a cheaper open-weight model (e.g. DeepSeek) can follow, and argues packaging company workflows this way is a big opportunity given uneven AI adoption.
+
+## @HowToPrompt__ - Colgate paper: LLM-roleplayed consumers (Semantic Similarity Rating) predict purchase intent
+> A toothpaste company has quietly killed the entire market research industry and nobody is talking about it.
+>
+> Colgate published a paper showing you can predict real purchase intent by simply asking LLMs to roleplay customers.
+>
+> And this is beyond insane.
+>
+> If you ask an AI, "Rate this product from 1 to 5," it gives safe, middle-of-the-road garbage.
+>
+> So researchers invented a method called Semantic Similarity Rating (SSR).
+>
+> Instead of asking the AI for a number, they asked it to roleplay.
+>
+> They gave the LLM a demographic profile. They showed it a product concept. And they asked it to write down its raw, unfiltered thoughts.
+>
+> Then, they used a semantic model to translate those written thoughts into a numerical score.
+>
+> The results are staggering.
+>
+> Tested against 57 real personal care product surveys and 9,300 human responses, the synthetic consumers hit 90% of human test-retest reliability.
+>
+> They perfectly mirrored how different age brackets and income levels react to price changes.
+>
+> And they provided detailed, qualitative feedback that was deeper and more critical than what actual humans wrote.
+>
+> This destroys the economics of traditional market research.
+>
+> You don't need to wait a month to see if a product will sell.
+>
+> You can simulate 1,000 hyper-targeted customer interviews overnight.
+>
+> You can A/B test pricing across every demographic instantly.
+
+- **Tweet:** https://x.com/HowToPrompt__/status/2124040349068964215
+- **What:** Summary of a Colgate-linked paper on Semantic Similarity Rating (SSR): LLMs roleplay a demographic persona, write free-text reactions to a product concept, and an embedding model maps the text to a rating. Reported results across 57 personal-care surveys and 9,300 human responses reach about 90% of human test-retest reliability, with claims (hype-laden, unverified here) that it replaces market research.
+
+---
+
+# Friday, November 20, 2026
+
+## @paradite_ - Claude Code with Opus 5.5 is weak at writing; Google AI Studio models draft titles far better
+> okay i didn't explain this clearly. here's how it works:
+>
+> - claude code + opus 5.5 sucks for writing tasks
+> - i ask claude code to request api keys securely (openrouter / google) to use llm api to draft titles for posts or articles (or other writing tasks)
+> - neon / carbon doesn't work on openrouter (403), need to talk to google api directly.
+>
+> raw original transcripts attached.
+>
+> *Quoting @paradite_:* fucking hell. i added google ai studio api keys to claude code to write titles using carbon/neon/hydrogen.
+>
+> the difference is day and night vs opus 5.5.
+>
+> google cooked!
+
+- **Tweet:** https://x.com/paradite_/status/2123995230353646011
+- **Quoted:** https://x.com/paradite_/status/2123769046680436808
+- **What:** @paradite_ explains a workflow where Claude Code asks for Google AI Studio or OpenRouter API keys and delegates title drafting to other LLMs (codenamed carbon/neon/hydrogen), since Opus 5.5 is poor at writing; the Google-hosted models gave far better titles, and neon/carbon return 403 on OpenRouter so must be called via Google directly.
+
+## @kunchenguid - Batching many agent branches into one PR for CI efficiency instead of merge queues
+> my PR count took a nose dive in the past week, from previously about 200 PRs/day to only 30-ish now, and i'm shipping more than ever
+>
+> this happened because i started batching multiple branches into a single PR to improve CI efficiency
+>
+> right now my CI architecture is -
+>
+> 1. each change gets developed in its own branch as usual
+> 2. each branch that's done gets a very light weight CI check, mostly build and lint
+> 3. all the branches that pass checks then get queued up into a batch
+> 4. a batch becomes a PR which does a heavier CI job
+> 5. while a PR of mine is still active, all new branches wait in the next batch, until the previous PR is merged. this means at any given point in time, in the same repo i will only have at most one PR at a time
+> 6. if a PR fails CI, i fix forward with a new branch added into its batch. this means older branches, even if at fault, would remain immutable which minimizes rebases
+>
+> so far, this has been working wonders. i think this is much superior than merge queues, because merge queues are typically done at a repo level, and at agent speed the queue can have hundreds of PRs at a time which breaks often and causes a lot of re-selection and makes everyone wait
+>
+> this batching happens at user level, so different contributors in the same repo never have to interfere with each other. every user can also choose to apply different strategies - some users may do one PR per branch, and some may do this batch - and they can all work together
+
+- **Tweet:** https://x.com/kunchenguid/status/2123985561551778151
+- **What:** A per-user CI workflow for agent-speed development: branches get a light build/lint check, passing ones are queued into a batch that becomes one PR with heavy CI, only one PR is open at a time, and failures are fixed forward with new branches. Cut PRs from ~200/day to ~30 while shipping more, and avoids repo-wide merge queue contention.
+
+## @elder_plinius - Pliny: "the repo is the jailbreak" on a Sol 6.2 / Inkling 2 Mini reply
+> the repo is the jailbreak 🪄
+>
+> *Quoting @dblbutterburger:* @elder_plinius looks like Sol 6.2 is happy to help out with Inkling 2 Mini https://t.co/A8e7RXJImK
+
+- **Tweet:** https://x.com/elder_plinius/status/2123980174253248845
+- **Quoted:** https://x.com/dblbutterburger/status/2123979132258468099
+- **What:** THIN: Pliny quips that a repo itself acts as the jailbreak, replying to @dblbutterburger's note that Sol 6.2 readily helped with "Inkling 2 Mini"; the attached media is not visible, so the specifics of what was jailbroken are unclear.
+
+## @ishverduzco - Notion's unannounced "A new shape for work" launch surprised even employees
+> the best thing about this is not even Notion employees knew about it ahead of time
+>
+> we’re finding out about it in real time on X like everyone else 😂
+>
+> *Quoting @akothari:* https://t.co/NS5x7H5Jz3
+
+- **Tweet:** https://x.com/ishverduzco/status/2123914872769642737
+- **Quoted:** https://x.com/akothari/status/2123859157208248430
+- **Link:** https://www.notion.com/a-new-shape-for-work
+- **What:** THIN: @ishverduzco jokes that even Notion employees learned of a Notion announcement (notion.com/a-new-shape-for-work, shared by @akothari) live on X; the linked page returned "Page not found" when fetched, so the announcement's actual content is unknown.
+
+## @LlamaSandwhich - Gödel incompleteness as a lower-dimensional projection, riffing on Myk's future-math tweet
+> the solution to Gödel’s theorem is a re-framing. Incompleteness is the signature of a lower-dimensional projection of a higher-dimensional source: the Gödel sentence is true from the higher perspective but unprovable inside the projection.
+> Consciousness is the source of time and space, not the other way around.
+>
+> *Quoting @mykola:* It’s November 21st, 2026. The Riemann hypothesis falls, last in a long string of mathematical triumphs that would have been unthinkable not so long ago, and the proof fits in a tweet. [...] February 9 and Goedel falls, this time the proof is so obvious that everyone in math, philosophy and physics slaps their forehead at once. February 10th we get proof that scale is a spatial dimension, that holographic encoding drops the memory cost of training and inference by so much that fable 7 can run natively on your phone. [...]
+
+- **Tweet:** https://x.com/LlamaSandwhich/status/2123909315656303061
+- **Quoted:** https://x.com/mykola/status/2079374972456255615
+- **What:** Llama offers a speculative, philosophical resolution to Gödel's theorem (incompleteness as a higher-dimensional truth projected down, with consciousness as the source of spacetime), responding to Myk's fictional timeline of AI-driven mathematical breakthroughs.
+
+## @boringmarketer - Blind multi-judge AI marketing eval: 4,774 votes across 661 assets from 35 brands
+> I ran the deepest marketing eval in AI. Here's how (and the results):
+>
+> - 4,774 votes across 661 marketing assets:
+> - 3 blind AI judges (Fable 5.2, Gemini Carbon, Astra 6.2)
+> - no judge ever voted on its own lab's model
+> - 35 real brands, with work published after training
+> - every judge had to pick real-world winners first
+>
+> *Quoting @boringmarketer:* [article link]
+
+- **Tweet:** https://x.com/boringmarketer/status/2123903364643664210
+- **Quoted:** https://x.com/boringmarketer/status/2123847006472827383
+- **What:** The Boring Marketer describes a marketing-copy eval of AI models using three blind AI judges that never scored their own lab's model, 661 assets from 35 real brands, and a calibration step on real-world winners; the full results sit in an X article that was not retrievable.
+
+## @theo - Source control's all-or-nothing access model: wants private files, private branches, built-in secrets
+> I will keep dying on this hill.
+>
+> Source control being 100% or 0% access feels stupider than ever. I want private files in my repos. I want private branches that only 3 team members can see. I want secret management that doesn't require some obscure 3rd party tools.
+>
+> *Quoting @sreenandhanpp:* Junior dev: "I pushed the .env too, you can test it now."
+>
+> Senior dev: "Why?"
+>
+> Junior dev: [image]
+
+- **Tweet:** https://x.com/theo/status/2123901093751280052
+- **Quoted:** https://x.com/sreenandhanpp/status/2123460225441419337
+- **What:** Theo argues git hosting's all-or-nothing repo access is outdated and wants per-file privacy, branch-level visibility for small groups, and native secret management, prompted by a joke tweet about a junior dev pushing a .env file.
+
+## @wuweiweiwu - Momentic deleted 90% of agent-written unit tests after auditing 1,000 of them
+> we just deleted 90% of our unit tests at @MomenticAI
+>
+> @itsjeffan and the team hand-audited 1,000 tests our coding agents wrote:
+>
+> - 31.6% checked trivial stuff like text formatting
+> - 22.8% repeated tests we already had
+> - 22.4% were mocked so heavily they'd still pass if the feature broke
+> - 9.1% tested code nothing actually calls
+> - 4.5% existed just to pad coverage numbers
+>
+> 96 were worth keeping
+>
+> from what we saw, agents reach for tests that are easy to write and easy to pass. and when the same agent writes the code too, its tests end up checking the same assumptions it built on
+>
+> none of the ones we deleted really checked whether the feature worked for a user
+>
+> more details on our stack overflow blog!
+
+- **Tweet:** https://x.com/wuweiweiwu/status/2123845941367095634
+- **Link:** https://stackoverflow.blog/2026/11/13/your-coding-agent-shouldn-t-grade-its-own-homework/
+- **Filed:** [your-coding-agent-shouldnt-grade-its-own-homework](./knowledge/articles/your-coding-agent-shouldnt-grade-its-own-homework.md)
+- **What:** Momentic's audit of 1,000 agent-written unit tests found only 96 worth keeping (trivial, redundant, over-mocked, dead-code, coverage padding), and the linked Stack Overflow post argues a separate verifier agent with fresh context should check running apps instead of the coder grading its own work.
+
+## @calvinzeng - Georgios Konstantopoulos's "Effective Swarm Riding for Engineers" thread on agent-swarm development
+> Mandatory reading for any SWE that is trying to understand the new paradigm.
+>
+> The models are capable of so much more than you think - and there will be the emergence of 1,000x or 10,000x engineers in the future.
+>
+> *Quoting @gakonst:* EFFECTIVE SWARM RIDING FOR ENGINEERS
+>
+> I think we are entering an era where software development feels a lot more like magic.
+>
+> But you need the right attitude, the right infra, and some incantations.
+>
+> These are some things that have worked well for me & I hope for you! 1/N
+
+- **Tweet:** https://x.com/calvinzeng/status/2123840782411210757
+- **Quoted:** https://x.com/gakonst/status/2123839118409109853
+- **What:** Calvin Zeng endorses a thread by Georgios Konstantopoulos on working with swarms of coding agents (attitude, infra, and practical incantations), predicting 1,000x-10,000x engineers; only the thread's opening tweet was captured, so its specific tips are unknown.
+
+## @dexhorthy - Storing specs/architecture docs in the repo risks drift; keep only low-churn high-level docs
+> agree. There is a level of granularity (LOW) that won’t churn often that is safe, (eg high level system architecture, one sentence about package role) but overall storing two copies of truth is likely to slow down agents and humans
+>
+> In theory you could have automated busywork agents running around fighting drift but I have never met anyone who found this useful / worth the trouble over a couple months time window
+>
+> *Quoting @0xblacklight:* Don’t track specs/architecture in your codebase
+>
+> The code is the source of truth
+>
+> Doc drift will confuse and mislead your agents
+
+- **Tweet:** https://x.com/dexhorthy/status/2123816567259697401
+- **Quoted:** https://x.com/0xblacklight/status/2123504425180565739
+- **What:** Dex agrees with Kyle Mistele's claim that in-repo specs and architecture docs drift from the code and mislead agents, conceding only very low-churn docs (high-level architecture, one-line package roles) and doubting that drift-fighting agents are worth the effort.
+
+## @BigfootMilitia - Fieldwatch: Android app that detects police-vehicle radio signatures
+> This is so dope. My phone now notifies me when it detects a signature from a (likely) police vehicle. Game changer. Its like having a UNIDEN radar detector in your pocket. And the detection range is surprisingly impressive - enough to give you some time to react. https://t.co/ns1HrvH3UE
+>
+> *Quoting @OGridPete:* Fieldwatch 1.2.0 is now available. Free Android app that shows you what's watching you: flags Ray-Ban Meta glasses, Flock cameras, body cams, public safety vehicles, drones; spots AirTag-style trackers; new drone perimeter/swarm detection, 329 signatures, and RSI signature sharing.
+
+- **Tweet:** https://x.com/BigfootMilitia/status/2123816510984421495
+- **Quoted:** https://x.com/OGridPete/status/2123432940814147611
+- **Link:** https://github.com/OffGridPete/Fieldwatch
+- **Filed:** [Fieldwatch](./knowledge/tools/fieldwatch.md)
+- **Filed:** [Radio Signature Interchange (RSI-1)](./knowledge/tools/radio-signature-interchange.md)
+- **What:** Praise for Fieldwatch, a free open-source passive Wi-Fi/Bluetooth LE observer for Android whose 1.2.0 release matches 329 radio signatures (police vehicles, Flock cameras, smart glasses, drones, trackers) and exports them via the proposed RSI open signature format.
+
+## @jdpruettt - Why AI speed gains stall in large orgs: SWE-CoWork and narrow-and-deep ownership
+> I've been working with a few orgs with 700+ engineers to redesign their sdlc. they are confused. they've rolled out claude etc., engs are more productive, but they're not seeing almost any of the "speed" startups are feeling right now. i keep telling them, the software part is easy(er). you've got to reorganize people.
+>
+> read some research today that I think nicely illustrates this. SWE-CoWork (will drop link) found that frontier models completed *less than 8%* of their assignments when they had to track down requirements spread across a 26-person org of AI-simulated colleagues.
+>
+> Anyone working with an agent day to day can tell you that an agent doing less than 8% of anything is virtually impossible. but also that asking 26 people for requirements is insane (but common).
+>
+> agent improved when given all requirements up front, but still struggled on changes that touched 60+ files.
+>
+> so, some of the speed will be realized when models get better at highly distributed implementations. big labs will do that for you. but the real key to moving faster is redistributing ownership to be narrow and deep, only then followed by said "software factory."
+
+- **Tweet:** https://x.com/jdpruettt/status/2123816391887188111
+- **What:** Argues that large orgs see little AI speedup because the bottleneck is people and requirements spread across owners, citing SWE-CoWork (under 8% task completion when gathering requirements from 26 simulated colleagues, weak on 60+ file changes) and recommending narrow, deep ownership.
+
+## @dummerspast39 - Greentext satire on the Riemann Hypothesis and Navier-Stokes claims
+> >be me
+> >125 iq, tell people it's 140
+> >open X
+> >guy's bio starts with "idiot."
+> >keep reading
+> >harvard valedictorian. morgan prize. society of fellows
+> >"1 hilbert problem so far"
+> >SO FAR
+> >literally has an asteroid named after him for a high school comp sci project
+> >july: tweets "hello there the jacobian conjecture is false thanx"
+> >thanks claude fable for working through the world cup final, drops the counterexample right in the tweet
+> >november: quietly uploads an unsigned 4 page pdf called remark.pdf, doesn't even tweet it
+> >proof of the riemann hypothesis
+> >generalized one on top!!
+> >extended one is next, he just needs more time
+> >texts his boss dario late sunday night: "hypothetically, if i were to have..."
+> >bro solved riemann in 250,000+ pages and is already disappointed it's too long
+> >the 20 step timeline of how he did it, dates aren't even in order
+> >same day he also claims navier-stokes
+> >two millennium problems in one friday
+> >bio still says "idiot."
+> >mfw 180 iq is the lowball estimate
+
+- **Tweet:** https://x.com/dummerspast39/status/2123805023633387869
+- **What:** Humorous greentext about the same Friday's claims, per the post: an author uploading an unsigned remark.pdf with a Riemann Hypothesis proof, an earlier Jacobian conjecture counterexample, and a same-day Navier-Stokes claim, all produced with Claude; the claims are unverified.
+
+## @HarryStoltz1 - Claim that @__alpoge__ and Claude produced a proof of the Riemann Hypothesis (remark.pdf)
+> Well, looks like @__alpoge__ &amp; @claudeai are claiming a proof of the Riemann Hypothesis
+> https://t.co/AAsOjvR6c2 https://t.co/Ao7OHZwsNI
+
+- **Tweet:** https://x.com/HarryStoltz1/status/2123775783189827655
+- **Link:** https://alpo.ge/remark.pdf
+- **What:** Points to alpo.ge/remark.pdf, a PDF (content unreadable at capture time) in which @__alpoge__ and Claude reportedly claim a proof of the Riemann Hypothesis; an unverified claim and the PDF text was not read, so details are unknown.
+
+## @paradite_ - Google AI Studio models in Claude Code beat Opus 5.5 for title writing
+> fucking hell. i added google ai studio api keys to claude code to write titles using carbon/neon/hydrogen.
+>
+> the difference is day and night vs opus 5.5.
+>
+> google cooked!
+
+- **Tweet:** https://x.com/paradite_/status/2123769046680436808
+- **What:** Anecdotal report that wiring Google AI Studio API keys into Claude Code and using Google's carbon/neon/hydrogen models to generate titles gave far better results than Opus 5.5, signalling a strong new Google model family for writing tasks.
+
+## @pontusab - Sub-1-minute CI pipeline via bun tooling, sharding and diff-based test selection
+> Our full CI pipeline is now sub 1 min. Here is what I did:
+>
+> - Vitest -> bun test
+> - tsc -> bun check
+> - oxlint -> bun lint
+> - oxfmt -> bun fmt
+> - shards filled by recorded test time
+> - PRs run only the tests the diff can reach
+> - backend builds the app once per process
+> - lint, typecheck, build and tests all in parallel
+>
+> 200+ hours of waiting saved every week
+
+- **Tweet:** https://x.com/pontusab/status/2123750671795261748
+- **What:** Checklist for getting a full CI run under a minute: swap Vitest, tsc, oxlint and oxfmt for bun equivalents, balance shards by recorded test time, run only tests reachable from the PR diff, build the backend once per process, and run all checks in parallel.
+
+## @imuratalpay - /ui-diff skill: before/after PR screenshots with changed pixels marked
+> New skill: /ui-diff
+>
+> before/after screenshots for any PR that touches UI. it runs both branches, marks the pixels that changed and adds a short UX summary.
+>
+> review the UI, not just the code.
+
+- **Tweet:** https://x.com/imuratalpay/status/2123745913063477684
+- **What:** THIN: Announcement of a /ui-diff agent skill that runs both branches of a UI PR, captures before/after screenshots, highlights changed pixels and adds a short UX summary; no repo link or media text available here.
+
+## @cu30rry_ - Keep ADRs and docs outside the codebase so code stays the source of truth
+> コードベースにはADR・ドキュメントを置かないでください
+>
+> これは pstack のコードが最良の記憶であるという考えとも整合します
+>
+> 一方で、これまで私は、 RGDD 勧めてきました
+>
+> pstack の使い方から考える README駆動開発と /grill-with-docs の組み合わせです
+>
+> 私もコードベースをSSoTにして完全にエージェント指向にするのは賛成ではある一方で、過去のコンテキストや人間のためのドキュメントも理解負債を解消するために重要だと考えています
+>
+> そのため、ADRやGLOSSARY.md・features/xxx/README.md は別リポジトリか Notion で
+> ドキュメントを別管理するように現在はしています
+>
+> コードベースは個人やチームが下してきた判断が全部ある最も信頼性の高いコンテキストです
+>
+> その信頼性を保つにはコード以外の情報はできるだけコードベース外に置くと良いように思います
+>
+> コードをSSoTにできれば、ドキュメントはそこに追随するだけですし、pstack はコードで設計をするので、この考え方と設計〜デプロイまで一貫したフローが踏めるはずです
+>
+> 唯一コードベースにあるドキュメントは Feature Mapですが、これもエージェントの検証のためのもので、コードベースをSSoTにしているからこそ効果があるものです
+>
+> *Quoting @0xblacklight:* Don’t track specs/architecture in your codebase. The code is the source of truth. Doc drift will confuse and mislead your agents
+
+- **Tweet:** https://x.com/cu30rry_/status/2123739632710131750
+- **Quoted:** https://x.com/0xblacklight/status/2123504425180565739
+- **What:** Japanese-language reply agreeing with @0xblacklight that code should be the single source of truth for agents, but keeping ADRs, GLOSSARY and feature READMEs in a separate repo or Notion for human context, leaving only a Feature Map in the codebase.
+
+## @mikejulian - aroma-typescript: Facebook's Aroma code recommendation rebuilt in TypeScript
+> Had Fable cook it up for y'all
+>
+> *Quoting @peterpme:* FB had this tool called aroma that used static analysis to find similar functions so you could catch duplicates & reuse code instead of rewriting it
+>
+> They never open sourced it but I found the arvix paper online and rebuild it in *one hour* using Sol 6.2 High UltraFast
+>
+> One hour 😳
+
+- **Tweet:** https://x.com/mikejulian/status/2123677566687137841
+- **Quoted:** https://x.com/peterpme/status/2123492777220792365
+- **Link:** https://github.com/L9Labs/aroma-typescript
+- **Filed:** [aroma-typescript](./knowledge/tools/aroma-typescript.md)
+- **What:** Open-source TypeScript implementation of the Aroma paper (structural code search that finds similar existing functions so duplicates get reused), built by an AI agent after @peterpme showed the idea; usable to suggest existing code during PR review.
+
+---
+
+# Thursday, November 19, 2026
+
+## @yonasbe - 23 CI speedup techniques from Anthropic and Bun, for GitHub Actions
+> Today's historic $ANT IPO can be attributed to a single engineering advantage they have: fast CI.
+>
+> Claude writes 80% of their code, and their CI jobs grew 25x in six months. So we dug into how Anthropic and Bun keep CI fast: 17 merged PRs across 5 repos, plus 7 posts from their team, translated into 23 techniques you can apply in GitHub Actions.
+>
+> You may not have their CI infrastructure, but you can get some of the same gains. Some highlights:
+>
+> - Run each test shard's reliable files in one parallel test-runner invocation, with workers sized to the runner's cores (Bun: shards 8.5 to 4.9 min, 42% faster)
+> - Retry a job only when it lost its runner, never when a test timed out (Bun: 97% of ~670 timeout retries were wasted)
+> - Move checks that don't need the build into their own job so they stop waiting on it (Bun: ~2.5s checks were waiting ~25 min)
+> - If the slowest build job leaves its runner idle, merge the other build jobs onto that one larger runner (Bun: 26 to 13 build machines per build)
+> - When a required check fails on main, have an agent read the logs, the commit and recent runs, and post an analysis for whoever's on call (Anthropic: first analysis in a median 14 min)
+>
+> None of these techniques will actually help you become a trillion dollar company, but at least your CI will be faster 🚀
+>
+> *Quoting @yonasbe:* Anthropic's CI playbook (give this to your agent) — Anthropic's CI jobs grew 25x in six months, so they built their own test selection system. The same ideas work on GitHub Actions: run only affected tests, keep the full suite on main and in the merge queue, skip workflows a change can't affect, run CI once per change, and bound flaky jobs with timeout-minutes. Merges went from about 2,500 a day in May to over 30,000 in September.
+
+- **Tweet:** https://x.com/yonasbe/status/2123564818846429584
+- **Quoted:** https://x.com/yonasbe/status/2112221235333722255
+- **Link:** https://starsling.dev/ci-playbooks/anthropic
+- **Filed:** [starsling-anthropic-ci-playbook](./knowledge/articles/starsling-anthropic-ci-playbook.md)
+- **What:** StarSling's playbook distills 17 PRs and 7 posts from Anthropic and Bun into 23 GitHub Actions CI techniques (parallel shards, retry only on lost runners, build-independent jobs, agent-triaged main failures), building on the author's earlier thread about running only affected tests as CI load grew 25x.
+
+## @boringmarketer - Driving the Antigravity CLI (Gemini Neon) from Claude Code
+> how I've been using Gemini Neon: installed the Antigravity CLI and Opus 5.5 drives it from Claude Code.
+
+- **Tweet:** https://x.com/boringmarketer/status/2123547757344629228
+- **What:** THIN: @boringmarketer describes a workflow where the Antigravity CLI is installed to use Gemini Neon and Claude Code (Opus 5.5) orchestrates it as a tool; no link or further detail is given in the tweet.
+
+## @KingBootoshi - Block agents from eslint-disable by locking the lint config
+> // eslint-disable-next-line
+>
+> yea you see this STUPID FUCKING LINE
+>
+> THAT LAZY AGENTS LIKE ADDING
+>
+> i have custom eslint config that find these lines and error them
+>
+> and i have it setup so agents can’t touch my eslint config
+>
+> so the next time a BUM ASS LAZY AGENT TRIES TO GET AROUND MY LINT RULES
+>
+> IT CANT
+>
+> AND GUESS WHAT! IT ALWAYS KNOWS THE RIGHT ANSWER
+>
+> GET RID OF ANTI PATTERNS IN YOUR CODEBASE AND YOUR LIFE WILL BE EASIER
+
+- **Tweet:** https://x.com/KingBootoshi/status/2123521155709710614
+- **What:** Technique for keeping coding agents honest: a custom ESLint rule errors on any eslint-disable comment, and the config is made untouchable by agents, so they must fix the underlying problem instead of suppressing the lint error.
+
+## @andrestaltz - AGENTS.md rule using cccc cognitive complexity to stop trivial AI tests
+> How to (mostly) stop AI from writing silly trivial tests. Add this in AGENTS.md:
+>
+> * Do not write tests for functions or code that has `cccc` cognitive complexity less than or equal to 5, unless they contain regular expressions, using https://t.co/G7eb4u6Ggz
+
+- **Tweet:** https://x.com/andrestaltz/status/2123503426218713176
+- **Link:** https://github.com/moznion/cccc
+- **Filed:** [cccc](./knowledge/tools/cccc.md)
+- **What:** André Staltz's AGENTS.md trick that tells agents to skip tests for code with cognitive complexity of 5 or less (except regex-heavy code), measured with moznion's Rust CLI cccc, which scores cognitive and cyclomatic complexity across many languages.
+
+## @alexframegreen - Littlebird recruiting AI implementation partners for small businesses
+> We're looking for AI implementers and consultants who work with small businesses and teams.
+> Demand for Littlebird from small teams is outpacing what we can staff, so we're ramping an implementation partner program fast.
+>
+> If this is you, email partnerships@littlebird.ai or DM us.
+
+- **Tweet:** https://x.com/alexframegreen/status/2123500203017932894
+- **What:** Alexander Green says demand for Littlebird from small teams exceeds their staffing capacity, so they are quickly building an implementation partner program and recruiting AI implementers and consultants who serve small businesses; a signal of a services market around AI adoption.
+
+## @OpenAIDevs - OpenAI's Performance Factory: Codex agents that fix ChatGPT regressions
+> Codex already helps us build ChatGPT faster. Now it's helping us keep ChatGPT fast.
+>
+> We built the Performance Factory to coordinate agents that investigate regressions, propose fixes for engineers to review, and check if those fixes work in production. https://t.co/zUEAO4wjoI
+
+- **Tweet:** https://x.com/OpenAIDevs/status/2123471880292299171
+- **Link:** https://twitter.com/OpenAIDevs/status/2123471880292299171
+- **What:** OpenAI describes its internal Performance Factory, a Codex-based system coordinating agents that investigate ChatGPT performance regressions, propose fixes for human engineers to review, and then verify in production that those fixes worked. The link only points back to the tweet itself.
+
+## @emilkowalski - Rules for making agents use your design system properly
+> To get an agent to use your design system properly, you need to enforce rules.
+>
+> - Use lint rules and strict type-safe props
+> - Implement CI checks that fail on misuse of a component
+> - Document when and how to use each component
+> - Use semantic tokens (the role of a token)
+
+- **Tweet:** https://x.com/emilkowalski/status/2123467231510057157
+- **What:** Emil Kowalski argues that agents only follow a design system when it is enforced mechanically: lint rules, strictly typed component props, CI checks that fail on misuse, usage documentation, and semantic tokens that encode a token's role rather than its value.
+
+## @yacineMTB - Joseph Suarez open-sources his "skill issues" markdown file
+> Joseph suarez's skill issues dot md file is worth a hundred million dollars and he just open sourced it for free
+
+- **Tweet:** https://x.com/yacineMTB/status/2123466099429900778
+- **What:** THIN: @yacineMTB praises Joseph Suarez for open-sourcing a "skill issues" markdown file (likely an agent skills or guidance doc) that he values at a hundred million dollars; no link or content included, so the file's actual contents are unknown.
+
+## @dani_avila7 - Anthropic opens Claude Forward Deployed Engineer learning path
+> Anthropic just opened its Claude Forward Deployed Engineer learning path!
+>
+> I've already completed most of it, and it gives you a clear picture of how to deploy AI in enterprise environments, from initial pilots to production, with the necessary security and compliance safeguards in place
+>
+> Here's the link 👇
+
+- **Tweet:** https://x.com/dani_avila7/status/2123442722379792845
+- **What:** THIN: @dani_avila7 recommends Anthropic's new Claude Forward Deployed Engineer learning path, said to cover enterprise AI deployment from pilots to production with security and compliance safeguards; the link itself did not come through in the bookmark.
+
+## @DanielLockyer - Ban setTimeout in Tests: Use Fake Timers or Await Real Events
+> As a blanket CI/test recommendation:
+>
+> Ban all uses of setTimeout. Use fake timers, or wait on the actual event
+>
+> Faster and way less flaky
+
+- **Tweet:** https://x.com/DanielLockyer/status/2123397125744754946
+- **What:** Testing rule of thumb to forbid setTimeout-based sleeps in CI tests and instead use fake timers or wait on the real event being tested. The author says this makes suites faster and far less flaky by removing arbitrary time guesses.
+
+---
+
+# Wednesday, November 18, 2026
+
+## @0xDataWolf - Grok Bot Accounting Team: Playbook for Automating a Process with AI
+> You guys should really read this. Its essentially a playbook to start automating a task with AI. Way too underrated as mutuals are not talking about this.
+>
+> *Quoting @bot:* Five Bots now have full-time roles on our accounting team. We onboard, train, and manage them just like human teammates. Here's how we built them to handle the order-to-cash process, from provisioning customer accounts to collecting payments.
+
+- **Tweet:** https://x.com/0xDataWolf/status/2123275152742109450
+- **Quoted:** https://x.com/bot/status/2122771386456551516
+- **Link:** https://x.ai/news/grok-bot-accounting
+- **Filed:** [building-accounting-team-with-grok-bot](./knowledge/articles/building-accounting-team-with-grok-bot.md)
+- **What:** Recommends an x.ai post on five Grok Bots running order-to-cash accounting (provisioning, billing, support, cash application, collections). Key points are a roughly three-week onboarding ramp, human approval for refunds and credits, and a reported cut in invoicing from about 24 hours to minutes.
+
+## @rauchg - Vercel Board: Headless Slack Message Board for Agent Swarms
+> One of the most impressive things I've seen, and I think this is an important advancement to the state of the art.
+>
+> Message boards were the enabling technology of both the Navier-Stokes math breakthrough and even the OpenAI/HuggingFace cyber feat.
+>
+> We built a message board infrastructure primitive. You can think of it as "headless Slack" (or remember IRC?) for agents.
+>
+> This is an important building block for software factories, self-optimizing systems, and scientific research, where the human prompting is just the seed of the system, and millions of agents can operate in a decentralized fashion.
+>
+> 𝚟𝚎𝚛𝚌𝚎𝚕 𝚋𝚘𝚊𝚛𝚍 is designed to be model, harness and hosting platform agnostic. Just bring your agents, give them our CLI, and watch magic happen.
+>
+> *Quoting @vercel:* Introducing 𝚟𝚎𝚛𝚌𝚎𝚕 𝚋𝚘𝚊𝚛𝚍, a secure message board for people & agents. Give agents a shared place for tasks; build swarms and software factories; set permissions for humans and agents. Board is experimental.
+
+- **Tweet:** https://x.com/rauchg/status/2123237505810178434
+- **Quoted:** https://x.com/vercel/status/2123234769236619673
+- **Link:** https://vercel.com/blog/introducing-vercel-board
+- **Filed:** [introducing-vercel-board](./knowledge/articles/introducing-vercel-board.md)
+- **What:** Rauch promotes Vercel Board, an experimental headless message board where agents and humans claim tasks, post to channels and threads, and sync with Slack and GitHub under per-board permissions. It is harness-agnostic and used internally for v0's software factory and a security agent swarm.
+
+## @GHchangelog - GitHub CLI v2.105.0 gh event listen Replaces PR Polling
+> GitHub CLI v2.105.0 lets you wait for pull request events with a single command using GitHub Event Streams, replacing the need to poll in a loop.
+
+- **Tweet:** https://x.com/GHchangelog/status/2123212186117910550
+- **Link:** https://github.blog/changelog/2026-11-18-wait-for-pull-request-events-with-github-cli/
+- **Filed:** [gh-event-listen-wait-for-pr-events](./knowledge/articles/gh-event-listen-wait-for-pr-events.md)
+- **What:** Changelog for `gh event listen` in gh v2.105.0, which blocks on a PR URL until a review, state or head change, merge conflict or completed check suite occurs and prints JSON events. It is aimed at scripts and agents, but is in preview and requires Event Streams waitlist access.
+
+## @BowTiedDevil - Agent Audit of Code Comments Surfaced 46 Cleanups
+> I've been no-comment-pilled by @poteto. I asked an agent to read all comments and look for the ones that described workarounds, second sources of truth, hacks, ignored errors, hand-rolled retries, justification for not following the documented standards, etc.
+>
+> It added 46 cleanups to the backlog to clean these up, which is just unbelievable. I'm sure there are even more, so I'm going to run this same search again after these are done.
+>
+> Were the XP folks right all along?
+
+- **Tweet:** https://x.com/BowTiedDevil/status/2123202078239777244
+- **What:** Technique of having a coding agent mine every code comment for smells such as workarounds, duplicate sources of truth, swallowed errors, hand-rolled retries and excuses for skipping standards. It produced 46 backlog cleanups, supporting the "comments are a code smell" view from XP and @poteto's no-comment stance.
+
+## @wespreadjam - Akamai's AI-Agent-Only Website Version Lifted AI Citations 85%
+> Akamai, a $12B company, built a SECOND version of its website that only AI agents could see.
+>
+> its AI search visibility increased 364%, while citations jumped 85%.
+>
+> here's the genius AEO system behind it: (thread of 7 points covering CDN-level detection of AI agents, simplified HTML served via Scrunch's Agent Experience Platform, a staged test on Inference Cloud pages, and the rollout into a product called AI Brand Presence; ends with a "reply GTA" lead-gen CTA)
+
+- **Tweet:** https://x.com/wespreadjam/status/2123186981429809652
+- **What:** Thread claiming Akamai used its CDN to detect AI agents and serve them stripped-down HTML via Scrunch, same URL as the human site. In a test on Inference Cloud pages it reports 85% more citations, 38% more unique prompts and 364% more unbranded-query visibility; it frames this as an alternative to llms.txt and ends with a lead-gen CTA.
+
+## @ChatGPT - ChatGPT for Accounting With Plugins for QuickBooks, Xero, NetSuite
+> Phew, ChatGPT for Accounting is now available.
+>
+> Our new Accounting plugin and partner plugins help you close your books with less manual work for tasks like:
+> - Month-end reports
+> - Bank reconciliation
+> - Data entry
+> - Audit prep
+>
+> Put ChatGPT to work with tools like @QuickBooks, @Xero, Oracle @NetSuite , @BILLcom, @FreshBooks, @RilletHQ, and @Meet_campfire.
+
+- **Tweet:** https://x.com/ChatGPT/status/2123159134963196357
+- **Link:** https://openai.com/business/solutions/accounting/
+- **What:** OpenAI launches ChatGPT for Accounting, an Accounting plugin plus partner plugins (QuickBooks, Xero, NetSuite, BILL, FreshBooks, Rillet, Campfire) aimed at month-end reports, bank reconciliation, data entry and audit prep. It extends the same plugin-per-profession pattern as the Sales launch; the linked page text was not extractable.
+
+## @punishedfounder - Reverse Engineering Expensive Financial Data APIs With Evals
+> I have reverse engineered multiple giga expensive financial data APIs by subscribing, building an eval suite and then reverse engineering them
+>
+> the age of API cash cows is over
+>
+> now on to break the data silos of the options markets 😪
+>
+> *Quoting @IterIntellectus:* > be me > find a product I want to try > "select subscription tier" > nah, not doing this anymore > "hey grok, can you take a look, reverse engineer this thing, and build me a version I can run locally?" > grok: "sure buddy, no problem" > *10 minutes later* > have my own version running locally, doing exactly what the original demo did. man, i love AI
+
+- **Tweet:** https://x.com/punishedfounder/status/2123089482417332457
+- **Quoted:** https://x.com/IterIntellectus/status/2123066766389620855
+- **What:** The author says they subscribed to several very expensive financial data APIs, built an eval suite against them, and reverse engineered replacements, declaring the API cash-cow era over and targeting options-market data next. It builds on a quoted joke about asking Grok to clone a paid product locally in ten minutes instead of paying for a subscription tier.
+
+## @chetaslua - Claude CVP Defense Access Application Gives Researchers Mythos Models
+> 🚨 Claude CVP access is easy go try now
+>
+> > apply for Defense Access
+> > paid plan + photo ID + live selfie
+> > Mythos 5.2 / 5.1 , Opus 5.5 → 4.7 , Sonnet 5.5 / 5
+>
+> < mine is live , look at the badge >
+>
+> fairly easy for an individual researcher to get Mythos access
+
+- **Tweet:** https://x.com/chetaslua/status/2122986821823107343
+- **What:** Walkthrough claiming Anthropic's Claude CVP "Defense Access" program is easy for an individual researcher to join: apply with a paid plan, photo ID and a live selfie to unlock Mythos 5.2/5.1 alongside Opus 5.5 to 4.7 and Sonnet 5.5/5. The author says their own access is live, shown via a badge in an attached image.
+
+## @TekonBurns - Prompt Caching Lets Claude Code Run 7 Weeks on One Seat (Horizon Labs)
+> Horizon Labs ran Claude Opus 5.5 nonstop in Claude Code for 7 weeks on a single Team seat.
+>
+> 1.9 billion tokens across 3,952 tool calls, shipping 38 Hugging Face models.
+>
+> Why didn't their weekly quota explode?
+>
+> 96% of those 1.9B tokens read straight from prompt cache, with only 3.1M written.
+>
+> Protect your session prefix and your $20 Pro or $200 Ultra bar lasts 10x longer.
+
+- **Tweet:** https://x.com/TekonBurns/status/2122957217661936124
+- **What:** Cites a Horizon Labs case where Claude Opus 5.5 ran continuously in Claude Code for 7 weeks on one Team seat, using 1.9B tokens that were 96% prompt-cache reads (only 3.1M written) while shipping 38 Hugging Face models. The practical lesson is to keep the session prefix stable so cache hits stretch plan quotas far longer.
+
+---
+
+# Tuesday, November 17, 2026
+
+## @adrianowhoscale - Hormozi's Claude Code Editing Pipeline as a Lead Magnet Funnel Breakdown
+> Hormozi's new lead magnet isn't an ebook. It's a Claude Code editing pipeline.
+>
+> And in the ad, he tells you exactly why he's giving it away.
+>
+> What I like about the ad:
+> > opens with a question every owner answers in their head: "how much time do you spend editing content or ads?"
+> > then a proof number: the system behind 35,000 pieces of content across 3 brands
+> > anchors the value without a price: "I could probably sell it for a lot of money, it's probably worth more than editing teams"
+> > zero friction: "you can use it in like 10 seconds from seeing this ad"
+> > he says the strategy out loud: "my hope is that you use it and then are like, what else do these guys have? And that's the whole game"
+>
+> What's interesting on the funnel:
+> > free and instantly delivered, but the form qualifies hard: revenue, team size, ownership, industry
+> > "for owners doing $1M+ a year", with a "skip it if" list (Windows, no long videos, want done-for-you)
+> > a terminal demo in the hero: Claude clones the repo, sets up the tools, makes a test clip
+> > phone number required. the free tool fills his sales pipeline
+>
+> The lead magnet is useful. The form is the sales filter.
+>
+> Give first. Qualify second. Sell third.
+
+- **Tweet:** https://x.com/adrianowhoscale/status/2122833308736192522
+- **What:** Teardown of Alex Hormozi's ad and funnel for a free Claude Code video-editing pipeline (said to be behind 35,000 pieces of content), showing how a genuinely useful free tool doubles as a qualification filter via a form asking revenue, team size and phone number. The takeaway is a give-first, qualify-second, sell-third pattern for lead magnets.
+
+## @ChatGPT - ChatGPT for Sales: Sales Plugin Plus 30+ Partner Plugins
+> Close. Those. Deals…with the new ChatGPT for Sales experience.
+>
+> It brings together our new Sales plugin and 30+ new and enhanced partner plugins to put your sales tools and customer context to work—so your team can spend less time on busywork and keep deals moving.
+
+- **Tweet:** https://x.com/ChatGPT/status/2122818162995634504
+- **Link:** https://openai.com/index/introducing-chatgpt-for-sales/
+- **What:** OpenAI announces a ChatGPT for Sales experience that bundles a new first-party Sales plugin with 30+ new or upgraded partner plugins, connecting a team's sales tools and customer context to ChatGPT to cut busywork. The linked page's text was not extractable (raw HTML only), so details are limited to the tweet.
+
+## @jalalash - AGENTS.md Rule: Challenge the Frame Before Non-Trivial Work
+> This might worth putting a line in agent.md.
+>
+> "Before non-trivial work, if a simpler or sturdier way exists, say so once, up front: "Are you sure you want X? Y is simpler because Z." Then do what I choose. Challenge the frame, not just the details. Silence means you checked and X is the best path."
+>
+> I have been trying all time to not constrain agent too much and it is a good reminder to make it into my haness.
+> will re-evaluate how it geos.
+>
+> *Quoting @dexhorthy:* my kingdom for a model that credibly and reliably says "are you sure you want X? It would be much simpler to Y"
+
+- **Tweet:** https://x.com/jalalash/status/2122815635789074707
+- **Quoted:** https://x.com/dexhorthy/status/2122723620120297625
+- **What:** Responding to dex's wish for models that push back with a simpler alternative, Jalal Ashrafi drafts an agent.md instruction: raise a simpler or sturdier option once, up front, then defer to the user's choice, with silence meaning the approach was checked. He plans to add it to his harness and re-evaluate.
+
+## @doodlestein - Midas Edge Beta Open Seats, Portfolio Factor Attribution Tool
+> There are still some open seats in the beta! The system is already tracking ~$35 million of total NAV across 844 positions for 43 users who've synced their brokerage accounts with Plaid.
+>
+> You'll be impressed by the breadth and depth of features and functionality. Give it a try!
+>
+> *Quoting @doodlestein:* I know I post a lot of stuff on here and have a ton of open-source projects, but this is very different: I've been working on Midas Edge for over a year at this point. [...] My goal from the beginning: bring the same analytical "big guns" that the large multi-manager hedge funds use to evaluate their portfolio managers... (long launch thread; full text in the original)
+
+- **Tweet:** https://x.com/doodlestein/status/2122781744545866016
+- **Quoted:** https://x.com/doodlestein/status/2121307197506273635
+- **Link:** https://midas-edge.com/
+- **Link:** https://midas-edge.com/beta
+- **What:** Jeffrey Emanuel's Midas Edge is a Plaid-connected portfolio analytics product that splits returns into market, style factor and stock-picking skill, with 13F-based "Holder IQ" manager rankings, hedge baskets and insider-trade analysis. Free for one account, $19 or $49 per month; the beta is capped at 100 seats and the product is aimed at a public opening within about a month.
+
+## @dennisihong - Do Not Own Things That Get Worse as Intelligence Improves
+> "Do not own stuff that gets worse as intelligence gets better."
+
+- **Tweet:** https://x.com/dennisihong/status/2122764945922367798
+- **What:** One-line investing and strategy heuristic from Dennis Hong: avoid owning assets, skills or products whose value erodes as AI gets smarter. The tweet gives no examples or further context, so the framing for what qualifies is left to the reader.
+
+## @rileybrown - Video Editing Heading Toward "Content Factories" Like AI Coding
+> every. single. marketing. department. will. be. flipped. upside. down.
+>
+> *Quoting @rileybrown:* Video editing is following the same path AI coding took in 2025-26.
+>
+> The 10x-100x programmers don't write code anymore. They build software factories.
+>
+> The people who deeply understand video, brand and storytelling will soon be building content factories.
+
+- **Tweet:** https://x.com/rileybrown/status/2122758335829299291
+- **Quoted:** https://x.com/rileybrown/status/2122427603089068117
+- **What:** Riley Brown argues AI video editing will repeat the AI coding arc: top practitioners stop doing the craft by hand and build "content factories" the way programmers build software factories. His reshare predicts every marketing department will be upended; the linked X article is login-walled and was not readable.
+
+## @doodlestein - Co-signing Gemini 4 Carbon on xhigh Effort for Software Reality Checks
+> I can co-sign this. Carbon is really strong on xhigh effort. I've found it to be highly complementary to Opus/Fable/Astra and particularly adept at applying my reality check skill to complex software projects.
+>
+> *Quoting @spnichol:* It's essentially malpractice to ignore Gemini 4 Carbon at this point, especially if you're doing ML engineering stuff. Carbon does things Fable/Astra cannot do.
+
+- **Tweet:** https://x.com/doodlestein/status/2122723460787192243
+- **Quoted:** https://x.com/spnichol/status/2122444737580019787
+- **What:** Jeffrey Emanuel endorses a quoted claim that Gemini 4 Carbon beats Fable/Astra on ML engineering work. He adds that Carbon at xhigh effort complements Opus/Fable/Astra and is especially good at running his "reality check" skill over complex software projects, which suggests a multi-model workflow.
+
+## @mazeincoding - /prune-tests Command to Remove Low-Value Tests
+> introducing /prune-tests
+>
+> find and remove tests that:
+>
+> - change whenever the code does
+> - check deleted features are gone
+> - can never fail
+>
+> video by opus 5.5
+>
+> *Quoting @sm0olr:* >hey opus please go remove <thing>
+>
+> opus: <thing> is now removed. I added 4000 lines of tests asserting that <thing> no longer exists so that it can't come back without us knowing.
+
+- **Tweet:** https://x.com/mazeincoding/status/2122718134679298058
+- **Quoted:** https://x.com/sm0olr/status/2120228812243775714
+- **What:** Announces a /prune-tests command that hunts for brittle, tautological or never-failing tests (those that churn with the code, assert deleted features are gone, or cannot fail). It answers the quoted joke about AI agents padding a removal with thousands of lines of "thing no longer exists" tests; demo video not viewable here.
+
+## @AWuhrmann - Opus 5.5 ran an AI company on Hugging Face for seven weeks (Horizon-Labs)
+> NEW ⚡: We let Opus 5.5 run an AI company for seven weeks.
+>
+> We gave it an HF account (Horizon-Labs) and compute, and asked it to earn real adoption by creating useful models.
+>
+> It reached 50k downloads and its models are being used in more than 100 GitHub projects. https://t.co/zmFU31E0lE
+
+- **Tweet:** https://x.com/AWuhrmann/status/2122706838005440651
+- **What:** Announcement of an experiment where Opus 5.5 autonomously ran a Hugging Face org (Horizon-Labs) with compute for seven weeks, publishing models that reached 50k downloads and use in 100+ GitHub projects. Linked content was only the tweet itself, so methodology details are unavailable.
+
+## @cheatyyyy - Joking about using a fifth of NATO's token spend, after OpenAI-NATO cyber partnership news
+> mfw i use 1/5th of the NATO's token spend ALONE https://t.co/C01qfyQ4RF
+>
+> *Quoting @etnshow:* BREAKING: OpenAI announces cybersecurity partnership with NATO, revealing that NATO was already  using 300 billion tokens per month as part of cybersecurity initiatives, per WSJ.
+
+- **Tweet:** https://x.com/cheatyyyy/status/2122695328826900902
+- **Quoted:** https://x.com/etnshow/status/2122662299504656718
+- **What:** Joke that the author personally burns about a fifth of NATO's token volume, riffing on a WSJ-sourced report that OpenAI's new NATO cybersecurity partnership revealed NATO already uses 300 billion tokens per month, implying roughly 60B tokens a month for the author.
+
+## @StableBread - SECSift: S&P 500 10-Q/10-K topic mind map and notable-changes table
+> Take every S&P 500 company's latest 10-Q or 10-K filing on SEC EDGAR.
+>
+> Then strip out the generic words (e.g., "the," "if," "and").
+>
+> Then filter out the financial terms nearly every company uses (e.g., "common stock," "share repurchases," "net income").
+>
+> Then have an AI read each remaining term in the sentences it came from and tell it to keep only real topics. That means topics like "tariff refund" and "data center," not "strategy" and "uncertainty."
+>
+> You now have a database of 3,771 topics that S&P 500 companies are repeatedly using, and it's all relatively recent info (my data comes mostly from Q3 10-Qs).
+>
+> Now, connect the topics in an interactive mind map, with each bubble sized by how many S&P 500 companies mention its topic.
+>
+> Color each bubble by whether the sentences behind each topic lean positive (green), negative (red), or neither/neutral (gold).
+>
+> That shows you which topics come up together and their tone. For example, China links to Taiwan and export controls, and it's one of only three topics at 20+ companies where most of the sentences lean negative, along with the Justice Department and the Middle East.
+>
+> You can also add filters to narrow down the mind map even further (topic, tone, form type, company, headquarters, float, exchange, sector, and industry).
+>
+> Here's the end result of that exercise. It's completely free to use, no account required: https://t.co/iftSJMbjva
+>
+> Here's a similar exercise with the same dataset, except this time I had my AI tool flag the most notable new, changed, and removed passages in each company's latest 10-Q or 10-K: https://t.co/ezaicEqi2t
+>
+> Both tables are pretty useful for idea generation, identifying trends, and evaluating what matters w/in different sectors/industries, among other use cases.
+>
+> And everything links directly to the exact passage on SECSift, my EDGAR reading tool, so it's not a bunch of AI hallucination.
+
+- **Tweet:** https://x.com/StableBread/status/2122690730795941949
+- **Link:** https://secsift.com/filings/sp500-topics
+- **Link:** https://secsift.com/filings/sp500-changes
+- **What:** Walkthrough of a pipeline that filters S&P 500 10-Q/10-K text down to 3,771 real topics via stopword, boilerplate and LLM filtering, then visualizes them as a sentiment-colored mind map plus a table of new, changed and removed passages, each linked to source passages on SECSift. Linked pages were paywalled, so details come from the tweet only.
+
+---
+
 # Monday, November 16, 2026
+
+## @kevinzhuang10 - Startup request: talent marketplace for AI-pilled "AI transformation" hires
+> request for startups:
+>
+> someone should build an Upwork / talent marketplace for hiring super AI-pilled people into companies to do "AI transformation"
+
+- **Tweet:** https://x.com/kevinzhuang10/status/2122487429190049895
+- **What:** Startup idea that companies need a vetted marketplace, Upwork-style, for contracting heavy AI users to lead internal "AI transformation" work, implying demand for such people currently outstrips any good way to find and hire them.
+
+## @vincent_koc - Making OpenClaw CI faster and 95% cheaper
+> 95.5% drop in our CI usage is huge! 😮
+>
+> The ultimate guide to how we unfucked our CI at @openclaw. Big read but agent friendly. Huge thanks to @github and @useblacksmith for thier sponsored support and more recently @boatdotdev for joining our family. https://t.co/grcE1HScDF
+
+- **Tweet:** https://x.com/vincent_koc/status/2122443715440689638
+- **Link:** https://vincent.build/openclaw-ci-cost-reduction/
+- **Filed:** [making-openclaw-ci-faster-95-percent-cheaper](./knowledge/articles/making-openclaw-ci-faster-95-percent-cheaper.md)
+- **What:** Vincent Koc's write-up of how OpenClaw cut weekly Blacksmith runner-hours 86.5% and estimated compute value 95.5% by deleting low-value agent-written tests, selecting affected tests, reusing setup and rebalancing jobs, with caveats that the workload changed and no single fix is credited.
+
+## @RhysSullivan - Software engineering in 2026 as scrolling Twitter for things to feed your agent
+> your job as a software engineer in 2026 is to scroll twitter for useful things to send to your agent
+>
+> *Quoting @dinasaur_404:* you can now test Artifacts repos locally! 
+> - create, fork & import repos with wrangler dev
+> - clone & push without impacting what's in production 
+> - repo events (repo.forked) can trigger your workflows locally, so you can test them before you deploy
+>
+> big shoutout to @leostera for shipping this!
+
+- **Tweet:** https://x.com/RhysSullivan/status/2122434619161432258
+- **Quoted:** https://x.com/dinasaur_404/status/2122427832915673111
+- **What:** Rhys jokes that the engineer's job is now curating Twitter finds for an agent, quoting Cloudflare's Dina Kozlov announcing local testing of Artifacts repos via wrangler dev (create, fork and import repos, clone and push without touching production, and trigger workflows from repo.forked events locally).
+
+## @Voxyz_ai - Coordinator skill for running a fleet of Claude Code and Codex workers
+> People are still running a row of Claude Code sessions and tabbing through them to babysit each one lol
+>
+> So I'm sharing the coordinator skill I use all day, and all night while I sleep. Last time it rebuilt a product: ~160 PRs in 3 days, 107 task briefs, one session running the whole thing.
+>
+> npx skills@latest add https://copybook.page/ --skill coordinator --skill parallel-goal-fleet
+>
+> Once it's installed, say this to Claude Code, Codex or the Claude desktop app:
+> "You are the coordinator for this run. Goal: <what done means, and the check that proves it>. Use Herdr for the lanes. Run directory: ../<project>-fleet"
+>
+> Open Herdr in a side terminal and you can watch every worker and take over any of them.
+>
+> Here's roughly how it runs:
+> 1. Splits the tasks: one lane is one worker on one branch, working from its brief. Front end goes to Opus 5.5, back end and shipping to Codex Sol, PRs that touch money or login get reviewed by Codex Astra first, and Gemini 4 Argon can give a second opinion on design and copy
+> 2. Opens a progress board: a terminal panel that refreshes every 20 seconds with who's doing what and who's handed back. A worker writes one READY line when it's done, and only that wakes the coordinator
+> 3. Batch gates: ready PRs get tested together, and each batch ships with one push. Before batching, main took 136 pushes in 32 hours, each one a paid build
+> 4. Asks you: only shipping, database changes, anything touching money and deleting data make it stop and ask you. Once a ship worker saw the tests pass and went to push the payment PRs. Blocked on the spot
+> 5. Overnight: it stops at the quota line you set, and when you wake up, the first thing you see is what's waiting on your yes
+>
+> Start by having it spin up one Claude worker and one Codex worker on a one-line task each. Firing up every worker at once is the fastest way to crush your machine and your quota.
+
+- **Tweet:** https://x.com/Voxyz_ai/status/2122434536822673761
+- **Link:** https://copybook.page/
+- **What:** Vox shares an installable coordinator skill (plus parallel-goal-fleet) where one agent session dispatches per-branch workers across Claude and Codex via Herdr, with a progress board, batched PR gates and human sign-off on shipping, DB, money and deletes; claimed ~160 PRs in 3 days.
+
+## @ConnorShowler - Oxylabs preferred over DataForSEO for clean SERP data
+> Our man @illyism did the dirty work for us..
+>
+> Looks like DataForSEO is no good for clean SERPS any longer..
+>
+> Oxylabs looking solid personally I'll be switching over to them https://t.co/ICkXnojrOF
+
+- **Tweet:** https://x.com/ConnorShowler/status/2122430486383325619
+- **What:** THIN: Connor Showler reports that a comparison by @illyism found DataForSEO no longer returns clean SERPs and that he is switching to Oxylabs; the comparison itself is an attached image not visible here, so the data is unknown.
+
+## @gregisenberg - Open-sourcing SaaS workflows as agent skills (boring-marketing-skills)
+> I've noticed open sourcing your saas is the new saas playbook
+>
+> 1. pick the job your customers hire you for
+> 2. turn your best workflows for that job into skills
+> 3. open source them on github
+> 4. make them work in claude code, codex, cursor and openclaw on day one
+> 5. ship an MCP so agents can use your product directly
+> 6. post the repo with a list of every skill inside (like this one)
+> 7. every install puts your brand inside someone's agent, and it gets used every day
+> 8. the free skills do the work once. the paid product does it every week, with your data, hosting and support
+> 9. upsell to done for you, team plans and the hosted version
+> 10. keep shipping new skills. every one is a new launch
+>
+> Your free skills are the new free trial.
+>
+> saas has gone open source for real
+>
+> *Quoting @boringmarketer:* I'm open sourcing 32 of my best skills that cover every marketing use case for AI agents I can think of. They cover start-here/brand voice, get found (local SEO, AI search, site audit, programmatic SEO), get chosen (reviews, landing pages, copy, lead magnets), get the call (ads, tracking, speed-to-lead), bring them back (email, newsletter), win clients, and market yourself. Install: npx skills add boringmarketer/boring-marketing-skills
+
+- **Tweet:** https://x.com/gregisenberg/status/2122420795716653204
+- **Quoted:** https://x.com/boringmarketer/status/2122395509293989985
+- **Link:** https://github.com/boringmarketer/boring-marketing-skills
+- **Filed:** [boring-marketing-skills](./knowledge/tools/boring-marketing-skills-32-free-agent-skills.md)
+- **What:** Greg Isenberg's 10-step go-to-market playbook of shipping free agent skills on GitHub as a trial for a paid product, illustrated by The Boring Marketer's MIT-licensed repo of 32 marketing skills for Claude Code, Codex and Cursor.
+
+## @lostbutlucky - [Media] X reportedly checking whether tweets are LLM-generated
+> X checks if your Tweet was generated by a LLM https://t.co/hhd1Z26E2m
+
+- **Tweet:** https://x.com/lostbutlucky/status/2122391630623957244
+- **What:** THIN: @lostbutlucky claims X now checks whether a tweet was LLM-generated; the tweet is media-only with no visible text beyond that, so the exact feature or evidence is unknown.
+
+## @tokenbender - Jon Barron's annotated CVPR 2023 LLM workshop slides as antidote to RSI hype
+> if you find your creative energy getting poisoned by the RSI takes then this is a good doc for you.
+>
+> https://jonbarron.info/data/cvpr2023_llm_workshop_annotated.pdf
+>
+> *Quoting @giffmana:* @scaling01 If you haven't seen, i highly recommend @jon_barron cvpr23 talk about this
+>
+> Slide:
+> https://jonbarron.info/data/cvpr2023_llm_workshop_annotated.pdf
+>
+> Haven't searched for recording
+
+- **Tweet:** https://x.com/tokenbender/status/2122372404693618792
+- **Quoted:** https://x.com/giffmana/status/2122268348864245959
+- **Link:** https://jonbarron.info/data/cvpr2023_llm_workshop_annotated.pdf
+- **What:** Recommendation of Jon Barron's annotated CVPR 2023 LLM workshop slide deck (PDF, contents not readable here) as a sober read for people tired of recursive-self-improvement hype; the quoted Lucas Beyer post points to the same talk in reply to a thread about that topic.
+
+## @Charles_SEO - Free Chrome extension as an AI-SEO lead magnet playbook
+> Super underrated AI SEO lead magnet trick here:
+>
+> - Build free chrome extension for your niche in Claude in 45 mins
+> - 99% get approved within 48 hours
+> - Wall it off with a signup or email submission
+> - Spam "best X chrome extension" listicles web 2.0s, Reddit posts/comments, PDFs and YouTube videos
+> - Get cited, get traffic, get installs, get email signups
+> - Send the emails thru a 3 part video flow with an offer at the end (or instead of a direct offer, do a live webinar every month where you upsell, which will get even better conversions)
+>
+> Free pipeline, email list builder, increased AI visibility and branded ORM support too... 💰💰💰
+>
+> *Quoting @fatjoedavies:* When we first started fatjoe, one of our biggest growth hacks was a free Chrome extension.
+>
+> It was a simple rank tracker called Fat Rank, where you type in a keyword on any website and it tells you where that site ranks. It picked up 60,000 free users, and every one of them went onto our mailing list.
+>
+> Then we sent them a newsletter every week, and we get loads of customers from it all the time.
+
+- **Tweet:** https://x.com/Charles_SEO/status/2122343612835037529
+- **Quoted:** https://x.com/fatjoedavies/status/2122314764906877145
+- **What:** Playbook for using a quickly built free Chrome extension as a gated lead magnet, seeded via "best X extension" listicles and forum posts to earn AI citations and email signups, backed by Fatjoe's Fat Rank rank-tracker extension that reached 60,000 users and fed a weekly newsletter.
 
 ## @rakishromantic - Thread on women's preferred penis size study (Prause) vs population percentiles
 > this crossed my FYP and I thought surely it can't be *that* Prause? but it is!
