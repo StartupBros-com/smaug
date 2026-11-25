@@ -18,6 +18,7 @@ import dayjs from 'dayjs';
 import utc from 'dayjs/plugin/utc.js';
 import timezone from 'dayjs/plugin/timezone.js';
 import { loadConfig } from './config.js';
+import { buildTweetContext } from './tweet-context.js';
 
 dayjs.extend(utc);
 dayjs.extend(timezone);
@@ -1037,14 +1038,7 @@ export async function fetchAndPrepareBookmarks(options = {}) {
             console.log(`  Quote tweet detected, fetching ${quotedTweetId}...`);
             const quotedTweet = fetchTweet(config, quotedTweetId);
             if (quotedTweet) {
-              content = {
-                id: quotedTweet.id,
-                author: quotedTweet.author?.username || 'unknown',
-                authorName: quotedTweet.author?.name || quotedTweet.author?.username || 'unknown',
-                text: quotedTweet.text || quotedTweet.full_text || '',
-                tweetUrl: `https://x.com/${quotedTweet.author?.username || 'unknown'}/status/${quotedTweet.id}`,
-                source: 'quote-tweet'
-              };
+              content = { ...buildTweetContext(quotedTweet), source: 'quote-tweet' };
             }
           }
         }
@@ -1152,13 +1146,7 @@ export async function fetchAndPrepareBookmarks(options = {}) {
         console.log(`  This is a reply to ${bookmark.inReplyToStatusId}, fetching parent...`);
         const parentTweet = fetchTweet(config, bookmark.inReplyToStatusId);
         if (parentTweet) {
-          replyContext = {
-            id: parentTweet.id,
-            author: parentTweet.author?.username || 'unknown',
-            authorName: parentTweet.author?.name || parentTweet.author?.username || 'unknown',
-            text: parentTweet.text || parentTweet.full_text || '',
-            tweetUrl: `https://x.com/${parentTweet.author?.username || 'unknown'}/status/${parentTweet.id}`
-          };
+          replyContext = buildTweetContext(parentTweet);
         }
       }
 
@@ -1167,11 +1155,7 @@ export async function fetchAndPrepareBookmarks(options = {}) {
       if (bookmark.quotedTweet) {
         const qt = bookmark.quotedTweet;
         quoteContext = {
-          id: qt.id,
-          author: qt.author?.username || 'unknown',
-          authorName: qt.author?.name || qt.author?.username || 'unknown',
-          text: qt.text || '',
-          tweetUrl: `https://x.com/${qt.author?.username || 'unknown'}/status/${qt.id}`,
+          ...buildTweetContext(qt, { allowFullText: false }),
           source: 'native-quote'
         };
       }
